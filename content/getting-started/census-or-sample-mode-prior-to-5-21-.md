@@ -3,6 +3,7 @@ title = "Census or Sample Mode? (prior to 5.21)"
 keywords = ["census","sample","mode"]
 date = 2016-06-23T18:32:05Z
 lastmod = 2016-06-23T18:32:05Z
+expirydate = 2016-07-06T00:00:00Z
 +++
 
 Survey Solutions allows you to collect data in two modes

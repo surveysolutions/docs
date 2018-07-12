@@ -3,6 +3,7 @@ title = "Checklist: How to Get Started with Census Mode? (prior to 5.21)"
 keywords = ["census","checklist"]
 date = 2016-06-23T18:40:19Z
 lastmod = 2016-06-23T18:40:19Z
+expirydate = 2016-07-06T00:00:00Z
 +++
 
  

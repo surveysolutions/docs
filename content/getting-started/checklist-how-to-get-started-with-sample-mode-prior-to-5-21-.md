@@ -3,6 +3,7 @@ title = "Checklist: How to Get Started with Sample Mode? (prior to 5.21)"
 keywords = ["sample","checklist"]
 date = 2016-06-27T19:45:24Z
 lastmod = 2016-06-27T19:45:24Z
+expirydate = 2016-07-06T00:00:00Z
 +++
 
  

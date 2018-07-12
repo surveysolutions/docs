@@ -3,6 +3,7 @@ title = "TESTING 1: Inserting videos, images, and link--plus a translation"
 keywords = [""]
 date = 2016-05-07T18:59:53Z
 lastmod = 2016-05-07T18:59:53Z
+draft = true
 +++
 
 Table of contents
