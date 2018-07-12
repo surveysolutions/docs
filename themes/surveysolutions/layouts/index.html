@@ -1,0 +1,39 @@
+{{ define "main" }}
+    <main class="container mb-5">
+      <div class="row mb-5">
+        {{$section := .Site.GetPage "section" "getting-started"}}
+        {{- partial "section-summary-noicon.html" $section -}}
+
+        {{$section := .Site.GetPage "section" "faq"}}
+        {{- partial "section-summary-noicon.html" $section -}}
+
+        {{$section := .Site.GetPage "section" "syntax-guide"}}
+        {{- partial "section-summary-noicon.html" $section -}}
+
+        <div class="col-3 section">
+            <h3><a href="">User Questions</a></h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-dark">Is it possible to make validation conditions relative to specific items in a list question?</a></li>
+              <li><a href="#"  class="text-dark">translation template</a></li>
+              <li><a href="#" class="text-dark">Enabling condition for roster question NOT applicable to other HHmembers</a></li>
+              <li><a href="#" class="text-dark">2 enumerators (i.e two tablets) needed for one household interview</a></li>
+            </ul>
+            <a href="#" class="d-block counter mb-2"><span>377</span> Questions <span class="badge badge-secondary"><img src="img/arrow.png" alt="" /></span></a>
+          </div>
+
+      </div>
+      <div class="row">
+        {{$section := .Site.GetPage "section" "questionnaire-designer"}}
+        {{- partial "section-summary-icon.html" $section -}}
+
+        {{$section := .Site.GetPage "section" "headquarters"}}
+        {{- partial "section-summary-icon.html" $section -}}
+
+        {{$section := .Site.GetPage "section" "supervisor"}}
+        {{- partial "section-summary-icon.html" $section -}}
+
+        {{$section := .Site.GetPage "section" "interviewer"}}
+        {{- partial "section-summary-icon.html" $section -}}
+      </div>
+    </main>
+{{ end }}

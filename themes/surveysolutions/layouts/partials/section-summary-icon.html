@@ -1,0 +1,10 @@
+<div class="col-3 section">
+		<a href="{{.Permalink}}" class="section-title mb-3 d-block">
+				<div class="img-container mb-2">
+					<span class="{{.Params.IconStyle}} float-left"></span>
+				</div>
+				<h3>{{ .Title }}</h3>
+		</a>
+
+		{{- partial "section-summary.html" . -}}
+</div>

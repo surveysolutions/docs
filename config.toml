@@ -1,0 +1,5 @@
+baseURL = "https://support.mysurvey.solutions/"
+languageCode = "en-us"
+title = "Support site"
+theme = "surveysolutions" 
+disableKinds = ["taxonomy", "taxonomyTerm"]

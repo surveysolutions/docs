@@ -1,0 +1,311 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  padding-bottom: 297px;
+  font: 14px/16px "RobotoRegular";
+  min-height: 100%;
+  position: relative;
+}
+.footer {
+  background-color: #f1f2f3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+.container{
+  max-width: 1160px;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../fonts/RobotoBold.woff2') format('woff2'),
+       url('../fonts/RobotoBold.woff') format('woff'),
+       url('../fonts/RobotoBold.ttf') format('truetype'),
+       url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
+}
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/RobotoLight.woff2') format('woff2'),
+       url('../fonts/RobotoLight.woff') format('woff'),
+       url('../fonts/RobotoLight.ttf') format('truetype'),
+       url('../fonts/RobotoLight.svg#RobotoLight') format('svg');
+}
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url('../fonts/RobotoRegular.woff2') format('woff2'),
+       url('../fonts/RobotoRegular.woff') format('woff'),
+       url('../fonts/RobotoRegular.ttf') format('truetype'),
+       url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+.btn-search span,
+.tutorials,
+.img-container:before{
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+header{
+  margin-bottom: 40px;
+  background: url("../img/header.jpg"), #B0C4DE no-repeat 100% 420px;
+  background: url("../img/header.jpg") no-repeat 0 0, -webkit-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/header.jpg") no-repeat 0 0, -moz-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/header.jpg") no-repeat 0 0, -ms-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/header.jpg") no-repeat 0 0, -o-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/header.jpg") no-repeat 0 0, linear-gradient(to right, #B0C4DE, #B0C4DE) no-repeat;
+  background-size: 100% 100%;
+  padding: 180px 0 60px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar-brand{
+  font: 27px/29px "RobotoBold";
+  letter-spacing: 1px;
+}
+.form-inline .search{
+  width: 740px;
+  background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
+  border-radius: 7px;
+}
+.search input{
+  border: none;
+  background: transparent;
+  font: 16px/18px "RobotoBold";
+  padding: 5px 0px 5px 20px;
+  letter-spacing: 1.2px;
+  box-shadow: none;
+  height: 60px;
+  display: inline-block;
+  color: #003550;
+}
+.search input::placeholder{
+	color: #003550;
+	letter-spacing: 1.2px;
+}
+.btn-search{
+  background-color: transparent;
+  border-color: transparent;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 0 15px;
+}
+.btn-search span{
+  vertical-align: middle;
+  display: inline-block;
+  background-image: url("../img/Search_button.png") !important;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  width: 26px;
+  height: 26px;
+
+}
+.btn-search:hover span, .btn-search:focus span, .btn-search:active span{
+  opacity: 1;
+}
+.information-block {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  min-width: 400px;
+  padding: 10px 50px 10px 70px;
+  font: 16px/18px "RobotoRegular";
+}
+.navbar-text {
+  font: 28px/30px "RobotoLight";
+  max-width: 245px;
+}
+.section h3 a,
+.section .section-title h3{
+  display: inline-block;
+  color: #0e66d2;
+  margin-bottom: 10px;
+  min-height: 60px;
+}
+.section h3 a:hover,
+.section h3 a:focus,
+.section h3 a:active,
+.section .section-title:focus h3,
+.section .section-title:hover h3,
+.section .section-title:active h3{
+  text-decoration: none;
+  color: #199400;
+}
+ ul li{
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+ul li:last-child{
+  margin-bottom: 0;
+}
+.section .counter,
+.tutorial-link{
+  font-size: 16px;
+  line-height: 18px;
+  color: #0e66d2;
+}
+.section  .badge{
+  background: none;
+
+}
+.tutorials{
+  position: relative;
+  width: 32px;
+  height: 25px;
+  border-radius: 50% / 10%;
+  background-color: #81ACD9;
+  margin-right: 10px;
+}
+.tutorials:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background-color: inherit;
+    border-radius: 5% / 50%;
+}
+.tutorials:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 11px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 5px solid transparent;
+}
+.tutorial-link:hover .tutorials, .tutorial-link:focus .tutorials, .tutorial-link:active .tutorials {
+  background-color: #2472cb;
+}
+.img-container{
+  overflow: hidden;
+  position: relative;
+}
+.img-container:before, .img-container:after {
+  display: block;
+  content: "";
+  position: absolute;
+}
+.section:last-of-type .img-container:before,
+.section:last-of-type .img-container:after{
+  display: none;
+}
+.img-container:before {
+  width: calc(100% - 140px);
+  height: 2px;
+  top: 55%;
+  right: 10px;
+  background: -webkit-linear-gradient(left, #3f4040, #3f4040) no-repeat 100% 0,
+-webkit-linear-gradient(left, #2f77d6, #2f77d6) no-repeat 100% 0;
+  background: -moz-linear-gradient(left, #3f4040, #3f4040) no-repeat 100% 0,
+-moz-linear-gradient(left, #2f77d6, #2f77d6) no-repeat 100% 0;
+  background: -ms-linear-gradient(left, #3f4040, #3f4040) no-repeat 100% 0,
+-ms-linear-gradient(left, #2f77d6, #2f77d6) no-repeat 100% 0;
+  background: -o-linear-gradient(left, #3f4040, #3f4040) no-repeat 100% 0,
+-o-linear-gradient(left, #2f77d6, #2f77d6) no-repeat 100% 0;
+  background: linear-gradient(to right, #3f4040, #3f4040) no-repeat 100% 0,
+linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
+  background-size: 100% 2px;
+}
+.img-container:after {
+  color: #000;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right: 2px solid;
+  border-top: 2px solid;
+  top: 50%;
+  right: 3px;
+  -webkit-transition: all 0.05s linear 0.2s;
+  -moz-transition: all 0.05s linear 0.2s;
+  -ms-transition: all 0.05s linear 0.2s;
+  -o-transition: all 0.05s linear 0.2s;
+  transition: all 0.05s linear 0.2s;
+}
+.section-title:hover .img-container:before{
+  background-size: 0 2px,100% 2px;
+}
+.section-title:hover .img-container:after{
+  border-color: #2f77d6;
+}
+.img-container span {
+  height: 118px;
+}
+.designer-icon {
+  background: url("../img/designer.png") no-repeat;
+  width: 98px;
+}
+.hq-icon {
+  background: url("../img/hq.png") no-repeat;
+  width: 98px;
+}
+.supervisor-icon {
+  background: url("../img/Supervisor.png") no-repeat;
+  width: 118px;
+}
+.interviewer-icon {
+  background: url("../img/Interviewer.png") no-repeat;
+  width: 98px;
+}
+.footer ul li a{
+  font-size: 16px;
+  line-height: 18px;
+  color: #0e66d2;
+}
+.contact-information{
+  border-radius: 7px;
+  position: relative;
+}
+.footer .contact-information .contact-icon {
+  position: absolute;
+  display: block;
+  width: 97px;
+  height: 96px;
+  top: calc(50% - 48px);
+  right: 20px;
+  background: url("../img/contact.png") no-repeat;
+}
+#facebook, #youtube {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 100%;
+  font-family: "RobotoRegular";
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #457def;
+  line-height: 35px;
+  font-size: 25px;
+}
+#youtube {
+  position: relative;
+}
