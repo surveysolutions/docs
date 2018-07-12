@@ -2,7 +2,7 @@
 		<div class="container footer-links">
 			<div class="row">
 				<div class="col-6">
-					{{ with .Site.GetPage "page" "version-18-06" }}
+					{{ with .Site.GetPage "page" (.Site.Params.lastreleasenote) }}
 					<h3 class="pt-3 mb-3">Survey Solutions {{ range .Params.keywords }}{{ . }}{{ end }}</h3>
 					<ul class="list-unstyled mb-0">
 						<li>

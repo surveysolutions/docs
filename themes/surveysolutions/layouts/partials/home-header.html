@@ -1,7 +1,7 @@
 <header>
-		{{ with .Site.GetPage "page" "version-18-06" }}
+		{{ with .Site.GetPage "page" (.Site.Params.lastreleasenote) }}
 		<div class="information-block">
-			New <a href="{{.Permalink}}">{{.Title}}</a> is available now!
+			New <a href="{{.RelPermalink}}">{{.Title}}</a> is available now!
 		</div>
 		{{ end }}
 		<div class="container">
