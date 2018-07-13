@@ -6,7 +6,7 @@
 					<h3 class="pt-3 mb-3">Survey Solutions {{ range .Params.keywords }}{{ . }}{{ end }}</h3>
 					<ul class="list-unstyled mb-0">
 						<li>
-							<a href="{{.RelPermalink}}"> What's new in version {{ range .Params.keywords }}{{ . }}{{ end }}</a>
+							<a href="{{.Permalink}}"> What's new in version {{ range .Params.keywords }}{{ . }}{{ end }}</a>
 						</li>
 						<li><a href="/release-notes/release-notes">Version history</a></li>
 						<li><a href="http://www.capterra.com/p/153927/Survey-Solutions/" target="_blank">Testimonials</a></li>
@@ -21,7 +21,8 @@
 							<li><a href="#" target="_blank">Suggest a feature</a></li>
 							<li><a href="#">Email Us</a></li>
 							<li>
-								<a href="https://www.facebook.com/mysurveysolutions" target="_blank" id="facebook">f</a><a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" target="_blank" id="youtube"></a>
+								<a href="https://www.facebook.com/mysurveysolutions" target="_blank" id="facebook">f</a>
+								<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" class="position-relative" target="_blank" id="youtube"></a>
 							</li>
 						</ul>
 						<a href="/email-us" class="contact-icon hidden-xs"></a>

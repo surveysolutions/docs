@@ -1,7 +1,7 @@
 	<ul class="list-unstyled mb-3">
 		{{ range first 4 .Pages.ByLastmod.Reverse }}
-		<li><a href="{{ .RelPermalink }}" class="text-dark">{{ .Title }}</a></li>
+		<li><a href="{{ .Permalink }}" class="text-dark">{{ .Title }}</a></li>
 		{{ end }}
 	</ul>
-	<a href="{{ .RelPermalink }}" class="d-block counter mb-2"><span>{{ len .Pages }}</span> Articles <span class="badge badge-secondary"><img src="img/arrow.png" alt="" /></span></a>
+	<a href="{{ .Permalink }}" class="d-block counter mb-2"><span>{{ len .Pages }}</span> Articles <span class="badge badge-secondary"><img src="img/arrow.png" alt="" /></span></a>
 	<a href="" class="d-block tutorial-link d-flex align-items-center"><span class="tutorials"></span>videos</a>
