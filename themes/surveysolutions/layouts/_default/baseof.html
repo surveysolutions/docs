@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Page.Language | default "en" }}">
     {{- partial "head.html" . -}}
         {{ if .IsHome }}
             <body class="index-page">
