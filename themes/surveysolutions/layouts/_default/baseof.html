@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     {{- partial "head.html" . -}}
-    <body>
         {{ if .IsHome }}
+            <body class="index-page">
             {{- partial "home-header.html" . -}}
         {{ else }}
+            <body>
             {{- partial "header.html" . -}}
         {{ end }}
         {{- block "main" . }}{{- end }}

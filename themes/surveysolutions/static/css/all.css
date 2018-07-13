@@ -57,7 +57,21 @@ body {
   transition: all 0.2s linear;
 }
 header{
-  margin-bottom: 40px;
+  background: url("../img/small-header.jpg"), #B0C4DE no-repeat 100% 420px;
+  background: url("../img/small-header.jpg") no-repeat 0 0, -webkit-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/small-header.jpg") no-repeat 0 0, -moz-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/small-header.jpg") no-repeat 0 0, -ms-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/small-header.jpg") no-repeat 0 0, -o-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
+  background: url("../img/small-header.jpg") no-repeat 0 0, linear-gradient(to right, #B0C4DE, #B0C4DE) no-repeat;
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px 15px;
+}
+.index-page header{
   background: url("../img/header.jpg"), #B0C4DE no-repeat 100% 420px;
   background: url("../img/header.jpg") no-repeat 0 0, -webkit-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
   background: url("../img/header.jpg") no-repeat 0 0, -moz-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
@@ -66,19 +80,31 @@ header{
   background: url("../img/header.jpg") no-repeat 0 0, linear-gradient(to right, #B0C4DE, #B0C4DE) no-repeat;
   background-size: 100% 100%;
   padding: 180px 0 60px;
-  background-repeat: no-repeat;
-  background-position: top center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  margin-bottom: 40px;
+}
+.index-page .navbar-brand{
+  font-size: 27px;
+  line-height: 29px;
+}
+.index-page .navbar-text {
+  font: 28px/30px "RobotoLight";
+  max-width: 245px;
+  border: none;
 }
 .navbar-brand{
-  font: 27px/29px "RobotoBold";
+  font: 22px/24px "RobotoBold";
   letter-spacing: 1px;
 }
-.form-inline .search{
+.navbar-text {
+  font: 20px/22px "RobotoLight";
+  max-width: 200px;
+  border-left: 1px solid #fff;
+}
+.index-page .form-inline .search{
   width: 740px;
+}
+.form-inline .search{
+  width: 550px;
   background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
   background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
   background: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
@@ -127,20 +153,19 @@ header{
   padding: 10px 50px 10px 70px;
   font: 16px/18px "RobotoRegular";
 }
-.navbar-text {
-  font: 28px/30px "RobotoLight";
-  max-width: 245px;
+h3 a,
+.section-title h3{
+  display: inline-block;
+  color: #0e66d2;
 }
 .section h3 a,
 .section .section-title h3{
-  display: inline-block;
-  color: #0e66d2;
   margin-bottom: 10px;
   min-height: 60px;
 }
-.section h3 a:hover,
-.section h3 a:focus,
-.section h3 a:active,
+h3 a:hover,
+h3 a:focus,
+h3 a:active,
 .section .section-title:focus h3,
 .section .section-title:hover h3,
 .section .section-title:active h3{
@@ -306,6 +331,80 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
   line-height: 35px;
   font-size: 25px;
 }
-#youtube {
-  position: relative;
+#facebook:hover, #facebook:focus {
+  background-color: #457def;
+  color: #fff;
+  text-decoration: none;
+}
+#youtube:before {
+  display: block;
+  content: "";
+  position: absolute;
+  background-color: #457def;
+  width: 23px;
+  height: 18px;
+  top: 7px;
+  left: 14%;
+  border-radius: 4px;
+}
+#youtube:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 45%;
+  border-top: 5px solid transparent;
+  border-left: 7px solid #fff;
+  border-bottom: 5px solid transparent;
+}
+#youtube:hover, #youtube:focus {
+  border-color: #f60b31;
+}
+#youtube:hover::before, #youtube:focus::before {
+  background-color: #f60b31;
+}
+#youtube:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 45%;
+  border-top: 5px solid transparent;
+  border-left: 7px solid #fff;
+  border-bottom: 5px solid transparent;
+}
+/* list */
+h2{
+  border-bottom: 1px solid #DDD;
+  font: 22px/24px "RobotoRegular";
+}
+
+.list_of_articles{
+  max-width: 860px;
+}
+.article{
+  margin-bottom: 20px;
+}
+.article:last-of-type{
+  margin-bottom: 30px;
+}
+.article:before{
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("../img/DR-2017-folders-icons.png") no-repeat;
+  background-position: 0 -65px;
+}
+.article p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.data{
+  font: 11px/13px "RobotoBold";
+  text-transform: uppercase;
 }
