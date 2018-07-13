@@ -3,6 +3,8 @@ title = "Cloud server request"
 keywords = [""]
 date = 2017-01-23T11:41:42Z
 lastmod = 2017-01-23T11:41:42Z
+aliases = ["/customer/portal/articles/2723103-cloud-server-request"]
+
 +++
 
 After you have developed and thoroughly tested your questionnaire,

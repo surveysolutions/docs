@@ -3,6 +3,8 @@ title = "Formatting Text"
 keywords = ["html","bold","italics","underline","color","text","format"]
 date = 2016-06-22T21:38:27Z
 lastmod = 2016-06-22T21:38:27Z
+aliases = ["/customer/portal/articles/2473782-formatting-text"]
+
 +++
 
 Question texts and static-texts can be formatted with a series of html

@@ -3,6 +3,8 @@ title = "Actions before the survey starts"
 keywords = [""]
 date = 2017-01-23T11:50:32Z
 lastmod = 2017-01-23T11:50:32Z
+aliases = ["/customer/portal/articles/2723106-actions-before-the-survey-starts"]
+
 +++
 
 Upon a successful request of the server you will receive an email with

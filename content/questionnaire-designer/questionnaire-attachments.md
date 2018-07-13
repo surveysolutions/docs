@@ -3,6 +3,8 @@ title = "Questionnaire Attachments"
 keywords = ["attach","pictures","static text"]
 date = 2016-06-15T21:56:14Z
 lastmod = 2016-06-15T21:56:14Z
+aliases = ["/customer/portal/articles/2466173-questionnaire-attachments"]
+
 +++
 
 In some situations pictures become an indispensable tool to establish

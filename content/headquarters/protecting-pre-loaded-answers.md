@@ -3,6 +3,8 @@ title = "Protecting pre-loaded answers"
 keywords = [""]
 date = 2018-06-06T15:28:58Z
 lastmod = 2018-06-06T15:28:58Z
+aliases = ["/customer/portal/articles/2942758-protecting-pre-loaded-answers"]
+
 +++
 
 Starting with v18.06 Survey Solutions allows protecting values of

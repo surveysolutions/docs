@@ -3,6 +3,8 @@ title = "Version 5.19"
 keywords = [""]
 date = 2017-04-05T21:17:45Z
 lastmod = 2017-04-05T21:17:45Z
+aliases = ["/customer/portal/articles/2781948-version-5-19"]
+
 +++
 
 Dear friends of Survey Solutions,

@@ -3,6 +3,8 @@ title = "Find an Interview"
 keywords = ["find","filter","survey case","supervisor"]
 date = 2016-07-11T23:13:24Z
 lastmod = 2016-07-11T23:13:24Z
+aliases = ["/customer/portal/articles/2494367-find-an-interview"]
+
 +++
 
 <span style="font-family:arial,helvetica,sans-serif;">Use filters to

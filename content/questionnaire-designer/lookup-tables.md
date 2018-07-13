@@ -3,6 +3,8 @@ title = "Lookup Tables"
 keywords = ["conditions","table","reference","rowcode"]
 date = 2016-06-16T16:33:33Z
 lastmod = 2016-06-16T16:33:33Z
+aliases = ["/customer/portal/articles/2466966-lookup-tables"]
+
 +++
 
 *Lookup tables* are reference tables that may be used in validation and

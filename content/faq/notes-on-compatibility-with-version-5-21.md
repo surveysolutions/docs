@@ -3,6 +3,8 @@ title = "Notes on Compatibility with version 5.21"
 keywords = [""]
 date = 2017-07-05T16:42:01Z
 lastmod = 2017-07-05T16:42:01Z
+aliases = ["/customer/portal/articles/2835383-notes-on-compatibility-with-version-5-21"]
+
 +++
 
 With version 5.21, we are making a big change by replacing census and

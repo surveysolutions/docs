@@ -3,6 +3,8 @@ title = "Testing Your Questionnaires Using the Tester Application"
 keywords = ["testing","tester","app","google play","tablet"]
 date = 2016-07-21T17:20:36Z
 lastmod = 2016-07-21T17:20:36Z
+aliases = ["/customer/portal/articles/2505348-testing-your-questionnaires-using-the-tester-application"]
+
 +++
 
 Although the web-based Questionnaire Designer application provides an

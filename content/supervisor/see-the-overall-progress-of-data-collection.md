@@ -3,6 +3,8 @@ title = "See the Overall Progress of Data Collection"
 keywords = ["reports","supervisor","status","team","quantity","speed"]
 date = 2016-07-12T21:36:25Z
 lastmod = 2016-07-12T21:36:25Z
+aliases = ["/customer/portal/articles/2495621-see-the-overall-progress-of-data-collection"]
+
 +++
 
 **Reports** <span style="font-size: 13px;">tab provides six different

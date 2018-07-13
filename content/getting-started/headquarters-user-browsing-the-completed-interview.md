@@ -3,6 +3,8 @@ title = "Headquarters user: Browsing the Completed Interview"
 keywords = ["check ","review","headuarters"]
 date = 2016-07-19T15:44:25Z
 lastmod = 2016-07-19T15:44:25Z
+aliases = ["/customer/portal/articles/2502601-headquarters-user-browsing-the-completed-interview"]
+
 +++
 
 Step 1

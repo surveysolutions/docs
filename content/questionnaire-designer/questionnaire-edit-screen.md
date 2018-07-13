@@ -3,6 +3,8 @@ title = "Questionnaire Edit Screen"
 keywords = ["settings","history","changes ","compile","advanced panel"]
 date = 2016-06-15T16:43:46Z
 lastmod = 2016-06-15T16:43:46Z
+aliases = ["/customer/portal/articles/2465740-questionnaire-edit-screen"]
+
 +++
 
 The main components of the Questionnaire Designer edit screen are:   

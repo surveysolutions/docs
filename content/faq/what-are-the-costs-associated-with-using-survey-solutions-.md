@@ -3,6 +3,8 @@ title = "What are the costs associated with using Survey Solutions?"
 keywords = [""]
 date = 2016-09-07T03:11:43Z
 lastmod = 2016-09-07T03:11:43Z
+aliases = ["/customer/portal/articles/2561438-what-are-the-costs-associated-with-using-survey-solutions-"]
+
 +++
 
 Survey Solutions is free software distributed under a Global Public

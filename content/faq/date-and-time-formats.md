@@ -3,6 +3,8 @@ title = "Date and Time formats"
 keywords = ["Date Time Format"]
 date = 2018-06-27T16:18:16Z
 lastmod = 2018-06-27T16:18:16Z
+aliases = ["/customer/portal/articles/2946079-date-and-time-formats"]
+
 +++
 
 This document uses the following notation to describe the date and time

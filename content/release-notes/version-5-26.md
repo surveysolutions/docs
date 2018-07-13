@@ -3,6 +3,8 @@ title = "Version 5.26"
 keywords = ["5.26","User meeting"]
 date = 2018-02-08T15:46:10Z
 lastmod = 2018-02-08T15:46:10Z
+aliases = ["/customer/portal/articles/2921275-version-5-26"]
+
 +++
 
  

@@ -3,6 +3,8 @@ title = "Dealing with exceptions"
 keywords = ["syntax","exception","condition"]
 date = 2016-08-10T03:29:25Z
 lastmod = 2016-08-10T03:29:25Z
+aliases = ["/customer/portal/articles/2531548-dealing-with-exceptions"]
+
 +++
 
 An exception is a situation where the computer can't proceed with a

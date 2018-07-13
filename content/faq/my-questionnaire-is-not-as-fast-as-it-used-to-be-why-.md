@@ -3,6 +3,8 @@ title = "My questionnaire is not as fast as it used to be. Why?"
 keywords = [""]
 date = 2017-12-13T23:07:28Z
 lastmod = 2017-12-13T23:07:28Z
+aliases = ["/customer/portal/articles/2910459-my-questionnaire-is-not-as-fast-as-it-used-to-be-why-"]
+
 +++
 
 The Survey Solutions software is being very actively developed and every

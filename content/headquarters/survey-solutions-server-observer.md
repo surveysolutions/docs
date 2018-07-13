@@ -3,6 +3,8 @@ title = "Survey Solutions Server Observer"
 keywords = [""]
 date = 2017-10-06T15:56:59Z
 lastmod = 2017-10-06T15:56:59Z
+aliases = ["/customer/portal/articles/2885596-survey-solutions-server-observer"]
+
 +++
 
 Observer is an optional account, kind of an HQ user with a limited

@@ -3,6 +3,8 @@ title = "Interview statuses (actions)"
 keywords = ["action, status"]
 date = 2018-02-07T19:37:16Z
 lastmod = 2018-02-07T19:37:16Z
+aliases = ["/customer/portal/articles/2921017-interview-statuses-actions-"]
+
 +++
 
 Survey Solutions tracks the actions performed on interviews (such as

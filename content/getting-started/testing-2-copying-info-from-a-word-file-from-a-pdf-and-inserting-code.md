@@ -3,7 +3,8 @@ title = "TESTING 2: Copying info from a Word file, from a PDF, and inserting cod
 keywords = [""]
 date = 2016-05-07T19:18:52Z
 lastmod = 2016-05-07T19:18:52Z
-draft = true
+aliases = ["/customer/portal/articles/2422116-testing-2-copying-info-from-a-word-file-from-a-pdf-and-inserting-code"]
+
 +++
 
 Import the questionnaire

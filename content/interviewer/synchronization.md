@@ -3,6 +3,8 @@ title = "Synchronization"
 keywords = ["sync","synchronize","interviewer","app","application"]
 date = 2016-07-15T17:48:51Z
 lastmod = 2016-07-15T17:48:51Z
+aliases = ["/customer/portal/articles/2498915-synchronization"]
+
 +++
 
 Sending completed interviews and receiving new ones

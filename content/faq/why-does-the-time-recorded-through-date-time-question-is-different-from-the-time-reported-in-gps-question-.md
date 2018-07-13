@@ -3,6 +3,8 @@ title = "Why does the time recorded through date/time question is different from
 keywords = [""]
 date = 2016-09-09T16:25:07Z
 lastmod = 2016-09-09T16:25:07Z
+aliases = ["/customer/portal/articles/2565166-why-does-the-time-recorded-through-date-time-question-is-different-from-the-time-reported-in-gps-question-"]
+
 +++
 
 An Android tablet has its internal clock. That clock is set based on

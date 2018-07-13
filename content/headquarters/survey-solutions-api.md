@@ -3,6 +3,8 @@ title = "Survey Solutions API"
 keywords = [""]
 date = 2017-07-19T19:29:51Z
 lastmod = 2017-07-19T19:29:51Z
+aliases = ["/customer/portal/articles/2844104-survey-solutions-api"]
+
 +++
 
 Survey Solutions includes a powerful and flexible API which allows

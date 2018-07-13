@@ -3,6 +3,8 @@ title = "Settings"
 keywords = ["settings","share","name","questionnaire"]
 date = 2016-06-15T19:30:05Z
 lastmod = 2016-06-15T19:30:05Z
+aliases = ["/customer/portal/articles/2465929-settings"]
+
 +++
 
 To update the settings of the questionnaire, click on the *Settings*

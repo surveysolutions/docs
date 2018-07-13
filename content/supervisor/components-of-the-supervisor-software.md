@@ -3,6 +3,8 @@ title = "Components of the Supervisor Software"
 keywords = ["supervisor","reports","interviews","interviewers","enumerators"]
 date = 2016-07-11T22:58:47Z
 lastmod = 2016-07-11T22:58:47Z
+aliases = ["/customer/portal/articles/2494346-components-of-the-supervisor-software"]
+
 +++
 
 The supervisor software is a suite of connected tools for the

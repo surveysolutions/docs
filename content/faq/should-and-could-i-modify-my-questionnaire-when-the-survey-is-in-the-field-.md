@@ -3,6 +3,8 @@ title = "Should and could I modify my questionnaire when the survey is in the fi
 keywords = [""]
 date = 2016-10-21T19:15:47Z
 lastmod = 2016-10-21T19:15:47Z
+aliases = ["/customer/portal/articles/2613318-should-and-could-i-modify-my-questionnaire-when-the-survey-is-in-the-field-"]
+
 +++
 
 You could modify your questionnaire when the survey is already in the

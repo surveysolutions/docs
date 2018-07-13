@@ -3,6 +3,8 @@ title = "What to do in case a tablet gets broken, damaged, or destroyed."
 keywords = ["tablet damage data loss"]
 date = 2017-01-23T09:38:15Z
 lastmod = 2017-01-23T09:38:15Z
+aliases = ["/customer/portal/articles/2722990-what-to-do-in-case-a-tablet-gets-broken-damaged-or-destroyed-"]
+
 +++
 
 The tablets used for data collection may get damaged or broken during

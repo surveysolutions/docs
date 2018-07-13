@@ -3,6 +3,8 @@ title = "Geography Question"
 keywords = [""]
 date = 2017-10-12T18:32:01Z
 lastmod = 2017-10-12T18:32:01Z
+aliases = ["/customer/portal/articles/2888303-geography-question"]
+
 +++
 
 Description 

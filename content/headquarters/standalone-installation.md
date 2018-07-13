@@ -3,6 +3,8 @@ title = "Standalone Installation"
 keywords = ["local installation"]
 date = 2017-03-17T00:59:53Z
 lastmod = 2017-03-17T00:59:53Z
+aliases = ["/customer/portal/articles/2768436-standalone-installation"]
+
 +++
 
 The setup has two parts, database installation and the application after

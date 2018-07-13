@@ -3,6 +3,8 @@ title = "Assign a Survey Case to an Interviewer (old version prior to 5.21/5.22)
 keywords = ["assignment","supervisor","enumerator "]
 date = 2016-07-12T18:29:28Z
 lastmod = 2016-07-12T18:29:28Z
+aliases = ["/customer/portal/articles/2495404-assign-a-survey-case-to-an-interviewer-old-version-prior-to-5-21-5-22-"]
+expirydate = 2016-07-06T00:00:00Z
 +++
 
 To begin, click on the <span class="underline">Interviews tab</span> at

@@ -3,6 +3,8 @@ title = "Survey Setup Tab: Import, Copy, and Delete Questionnaire Templates, and
 keywords = [""]
 date = 2017-06-29T22:00:07Z
 lastmod = 2017-06-29T22:00:07Z
+aliases = ["/customer/portal/articles/2832918-survey-setup-tab-import-copy-and-delete-questionnaire-templates-and-create-assignments"]
+
 +++
 
   

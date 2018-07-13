@@ -3,6 +3,8 @@ title = "Detailed action log"
 keywords = [""]
 date = 2018-06-08T15:28:22Z
 lastmod = 2018-06-08T15:28:22Z
+aliases = ["/customer/portal/articles/2943093-detailed-action-log"]
+
 +++
 
 The detailed action log allows the headquarters users view important

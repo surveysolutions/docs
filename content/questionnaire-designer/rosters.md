@@ -3,6 +3,8 @@ title = "Rosters"
 keywords = ["roster","numeric"," list","fixed","multi select","yes/no multi select"]
 date = 2016-06-21T22:39:42Z
 lastmod = 2016-06-21T22:39:42Z
+aliases = ["/customer/portal/articles/2472543-rosters"]
+
 +++
 
 Roster properties

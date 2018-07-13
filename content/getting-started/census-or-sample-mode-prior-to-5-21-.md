@@ -3,6 +3,7 @@ title = "Census or Sample Mode? (prior to 5.21)"
 keywords = ["census","sample","mode"]
 date = 2016-06-23T18:32:05Z
 lastmod = 2016-06-23T18:32:05Z
+aliases = ["/customer/portal/articles/2474822-census-or-sample-mode-prior-to-5-21-"]
 expirydate = 2016-07-06T00:00:00Z
 +++
 

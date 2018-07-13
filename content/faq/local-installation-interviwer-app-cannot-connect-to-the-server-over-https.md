@@ -3,6 +3,8 @@ title = "Local Installation: Interviwer app cannot connect to the server over HT
 keywords = [""]
 date = 2018-01-09T14:48:25Z
 lastmod = 2018-01-09T14:48:25Z
+aliases = ["/customer/portal/articles/2914430-local-installation-interviwer-app-cannot-connect-to-the-server-over-https"]
+
 +++
 
 **Symptoms:**  

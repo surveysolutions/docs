@@ -3,6 +3,8 @@ title = "Changing the Interface Language"
 keywords = ["language","localization"]
 date = 2016-06-16T14:55:37Z
 lastmod = 2016-06-16T14:55:37Z
+aliases = ["/customer/portal/articles/2466827-changing-the-interface-language"]
+
 +++
 
 Survey Solutions interface for Headquarter and Supervisor users can be

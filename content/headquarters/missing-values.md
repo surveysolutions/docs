@@ -3,6 +3,8 @@ title = "Missing values"
 keywords = [""]
 date = 2017-06-13T15:20:18Z
 lastmod = 2017-06-13T15:20:18Z
+aliases = ["/customer/portal/articles/2822830-missing-values"]
+
 +++
 
 Survey Solutions recognizes two situations of missingness:

@@ -3,6 +3,8 @@ title = "Categorical: Single-Select Question"
 keywords = ["single select","export","cascading","options","combo box","cascade","linked question","filtered options"]
 date = 2016-06-20T18:06:44Z
 lastmod = 2016-06-20T18:06:44Z
+aliases = ["/customer/portal/articles/2470037-categorical-single-select-question"]
+
 +++
 
 Description

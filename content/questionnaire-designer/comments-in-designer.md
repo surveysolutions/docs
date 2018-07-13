@@ -3,6 +3,8 @@ title = "Comments in Designer"
 keywords = [""]
 date = 2018-04-02T20:31:16Z
 lastmod = 2018-04-02T20:31:16Z
+aliases = ["/customer/portal/articles/2932008-comments-in-designer"]
+
 +++
 
 Comments in Designer are an essential tool for collaboration of multiple

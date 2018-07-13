@@ -3,6 +3,8 @@ title = "Troubleshooting"
 keywords = ["diagnostics","interviewer","supervisor","settings","application","app"]
 date = 2016-07-15T18:13:32Z
 lastmod = 2016-07-15T18:13:32Z
+aliases = ["/customer/portal/articles/2498928-troubleshooting"]
+
 +++
 
 Diagnostics

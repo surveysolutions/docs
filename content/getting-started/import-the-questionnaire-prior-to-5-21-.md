@@ -3,6 +3,7 @@ title = "Import the Questionnaire (prior to 5.21)"
 keywords = ["import","setup","headquarters"]
 date = 2016-06-23T21:15:31Z
 lastmod = 2016-06-23T21:15:31Z
+aliases = ["/customer/portal/articles/2475089-import-the-questionnaire-prior-to-5-21-"]
 expirydate = 2016-07-06T00:00:00Z
 +++
 

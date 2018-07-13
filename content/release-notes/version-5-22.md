@@ -3,6 +3,8 @@ title = "Version 5.22"
 keywords = [""]
 date = 2017-08-03T20:02:47Z
 lastmod = 2017-08-03T20:02:47Z
+aliases = ["/customer/portal/articles/2853037-version-5-22"]
+
 +++
 
 <span id="docs-internal-guid-ae028570-a9b1-a788-c4e0-c4ff22425b67"><span

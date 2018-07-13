@@ -3,6 +3,8 @@ title = "Create User Accounts for Your Team "
 keywords = ["users","server","login"]
 date = 2016-06-23T21:47:10Z
 lastmod = 2016-06-23T21:47:10Z
+aliases = ["/customer/portal/articles/2475154-create-user-accounts-for-your-team-"]
+
 +++
 
 Step 1

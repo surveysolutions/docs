@@ -3,6 +3,8 @@ title = "Multiple interviewers using the same tablet"
 keywords = ["interviewer relink re-link relinking re-linking multiple users tablet "]
 date = 2018-05-07T19:50:12Z
 lastmod = 2018-05-07T19:50:12Z
+aliases = ["/customer/portal/articles/2938134-multiple-interviewers-using-the-same-tablet"]
+
 +++
 
 Survey Solutions uses device tracking mechanism where for each

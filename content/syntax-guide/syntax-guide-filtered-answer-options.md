@@ -3,6 +3,8 @@ title = "Syntax Guide: Filtered Answer Options"
 keywords = ["syntax","filtered answer options","@optioncode","@current"]
 date = 2016-12-02T19:28:38Z
 lastmod = 2016-12-02T19:28:38Z
+aliases = ["/customer/portal/articles/2663547-syntax-guide-filtered-answer-options"]
+
 +++
 
 For categorical [single

@@ -3,6 +3,8 @@ title = "Comments"
 keywords = ["comments","interviewer","app","application"]
 date = 2016-07-14T20:23:35Z
 lastmod = 2016-07-14T20:23:35Z
+aliases = ["/customer/portal/articles/2498059-comments"]
+
 +++
 
 Comments can be left for any question. This may useful to explain

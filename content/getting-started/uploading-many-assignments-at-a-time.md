@@ -3,6 +3,8 @@ title = "Uploading Many Assignments at a time"
 keywords = ["sample","upload ","batch"]
 date = 2016-06-27T21:43:12Z
 lastmod = 2016-06-27T21:43:12Z
+aliases = ["/customer/portal/articles/2478506-uploading-many-assignments-at-a-time"]
+
 +++
 
 For many surveys, creating assignments one by one will be a tedious and

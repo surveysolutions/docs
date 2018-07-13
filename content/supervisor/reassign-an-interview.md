@@ -3,6 +3,8 @@ title = "Reassign an Interview"
 keywords = [""]
 date = 2017-09-20T20:44:49Z
 lastmod = 2017-09-20T20:44:49Z
+aliases = ["/customer/portal/articles/2877883-reassign-an-interview"]
+
 +++
 
 To begin, click on the <span class="underline">Interviews tab</span> at

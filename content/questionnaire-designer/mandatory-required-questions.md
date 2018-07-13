@@ -3,6 +3,8 @@ title = "Mandatory (required) questions"
 keywords = [""]
 date = 2017-04-18T21:10:45Z
 lastmod = 2017-04-18T21:10:45Z
+aliases = ["/customer/portal/articles/2789716-mandatory-required-questions"]
+
 +++
 
 In Survey Solutions any question may be left unanswered for reasons

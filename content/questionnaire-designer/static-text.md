@@ -3,6 +3,8 @@ title = "Static Text"
 keywords = ["hide","text","photo","attachment "]
 date = 2016-06-21T00:13:11Z
 lastmod = 2016-06-21T00:13:11Z
+aliases = ["/customer/portal/articles/2471008-static-text"]
+
 +++
 
 Description

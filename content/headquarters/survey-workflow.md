@@ -3,6 +3,8 @@ title = "Survey Workflow"
 keywords = ["workflow","process","headquarters","supervisor","manager"]
 date = 2016-06-29T18:19:08Z
 lastmod = 2016-06-29T18:19:08Z
+aliases = ["/customer/portal/articles/2481526-survey-workflow"]
+
 +++
 
 Workflow Demonstration

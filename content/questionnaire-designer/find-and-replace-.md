@@ -3,6 +3,8 @@ title = "Find and Replace "
 keywords = ["find","search","replace","designer"]
 date = 2016-11-04T23:18:52Z
 lastmod = 2016-11-04T23:18:52Z
+aliases = ["/customer/portal/articles/2630854-find-and-replace-"]
+
 +++
 
 In this article you will lean how to use the search, and find and

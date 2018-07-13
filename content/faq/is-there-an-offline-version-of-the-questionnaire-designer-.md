@@ -3,6 +3,8 @@ title = "Is there an offline version of the questionnaire designer?"
 keywords = [""]
 date = 2016-09-07T03:22:29Z
 lastmod = 2016-09-07T03:22:29Z
+aliases = ["/customer/portal/articles/2561444-is-there-an-offline-version-of-the-questionnaire-designer-"]
+
 +++
 
 No. The Questionnaire Designer can only be used online. Survey Solutions

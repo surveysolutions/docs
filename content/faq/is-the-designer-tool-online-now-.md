@@ -3,6 +3,8 @@ title = "Is the Designer tool online now?"
 keywords = [""]
 date = 2017-07-26T14:55:39Z
 lastmod = 2017-07-26T14:55:39Z
+aliases = ["/customer/portal/articles/2848383-is-the-designer-tool-online-now-"]
+
 +++
 
 The Survey Solutions Designer tool is a web-based tool and is accessible

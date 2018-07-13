@@ -3,6 +3,8 @@ title = "How can I try out Survey Solutions?"
 keywords = [""]
 date = 2016-07-22T18:46:10Z
 lastmod = 2016-07-22T18:46:10Z
+aliases = ["/customer/portal/articles/2507731-how-can-i-try-out-survey-solutions-"]
+
 +++
 
 **Step 1:** Develop a test questionnaire by following the instructions

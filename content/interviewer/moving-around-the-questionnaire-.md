@@ -3,6 +3,8 @@ title = "Moving Around the Questionnaire "
 keywords = ["navigation","interviewer","app","scroll","breadcrumbs"]
 date = 2016-07-14T21:39:20Z
 lastmod = 2016-07-14T21:39:20Z
+aliases = ["/customer/portal/articles/2498177-moving-around-the-questionnaire-"]
+
 +++
 
 Overall

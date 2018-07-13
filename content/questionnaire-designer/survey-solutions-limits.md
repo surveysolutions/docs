@@ -3,6 +3,8 @@ title = "Survey Solutions Limits"
 keywords = [""]
 date = 2017-02-02T08:32:16Z
 lastmod = 2017-02-02T08:32:16Z
+aliases = ["/customer/portal/articles/2733269-survey-solutions-limits"]
+
 +++
 
 The table below summarizes some of the Survey Solutions limits.  

@@ -3,6 +3,8 @@ title = "Version 18.06"
 keywords = ["18.06"]
 date = 2018-06-05T17:19:31Z
 lastmod = 2018-06-05T17:19:31Z
+aliases = ["/customer/portal/articles/2942597-version-18-06"]
+
 +++
 
 Today, on June 05, 2018 we are happy to release version 18.06 with lots

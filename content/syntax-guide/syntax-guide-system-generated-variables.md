@@ -3,6 +3,8 @@ title = "Syntax Guide: System Generated Variables"
 keywords = ["syntax","beginner","self","@rowcode","@optioncode","@current"]
 date = 2016-08-16T20:36:55Z
 lastmod = 2016-08-16T20:36:55Z
+aliases = ["/customer/portal/articles/2539305-syntax-guide-system-generated-variables"]
+
 +++
 
 These are variables that are created by Designer to allow the user

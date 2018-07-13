@@ -3,6 +3,8 @@ title = "Survey Solutions Server Administrator"
 keywords = [""]
 date = 2017-10-06T15:14:22Z
 lastmod = 2017-10-06T15:14:22Z
+aliases = ["/customer/portal/articles/2885558-survey-solutions-server-administrator"]
+
 +++
 
 Every Survey Solutions server has an administrator:

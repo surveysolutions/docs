@@ -3,6 +3,8 @@ title = "Syntax Guide: GPS questions"
 keywords = ["syntax","gps"]
 date = 2016-11-22T20:31:12Z
 lastmod = 2016-11-22T20:31:12Z
+aliases = ["/customer/portal/articles/2651879-syntax-guide-gps-questions"]
+
 +++
 
 Responses for the [GPS questions](/questionnaire-designer/gps-question)

@@ -3,6 +3,8 @@ title = "Syntax Guide: Text questions"
 keywords = ["syntax","text","string"]
 date = 2016-11-28T18:24:24Z
 lastmod = 2016-11-28T18:24:24Z
+aliases = ["/customer/portal/articles/2658467-syntax-guide-text-questions"]
+
 +++
 
 Responses to text questions are recorded as a string [data

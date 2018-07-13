@@ -3,6 +3,8 @@ title = "Evaluation de l'atelier"
 keywords = [""]
 date = 2017-07-27T22:54:31Z
 lastmod = 2017-07-27T22:54:31Z
+aliases = ["/customer/portal/articles/2849426-evaluation-de-l-atelier"]
+
 +++
 
 Nous vous remercions d'avoir participé à un atelier sur Survey

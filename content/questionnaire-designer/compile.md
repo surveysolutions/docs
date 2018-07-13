@@ -3,6 +3,8 @@ title = "Compile"
 keywords = ["check","compile","errors","review"]
 date = 2016-06-15T20:44:00Z
 lastmod = 2016-06-15T20:44:00Z
+aliases = ["/customer/portal/articles/2466061-compile"]
+
 +++
 
 To check the questionnaire for errors and system warnings, click on the

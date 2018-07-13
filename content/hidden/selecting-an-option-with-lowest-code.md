@@ -3,6 +3,8 @@ title = "Selecting an option with lowest code"
 keywords = [""]
 date = 2017-02-23T13:45:09Z
 lastmod = 2017-02-23T13:45:09Z
+aliases = ["/customer/portal/articles/2751433-selecting-an-option-with-lowest-code"]
+
 +++
 
 This article demonstrates the sequence of steps that solve the

@@ -3,6 +3,8 @@ title = "Batch User Upload"
 keywords = ["batch","create case","survey case","sample mode"]
 date = 2016-06-30T18:18:21Z
 lastmod = 2016-06-30T18:18:21Z
+aliases = ["/customer/portal/articles/2483438-batch-user-upload"]
+
 +++
 
 Up to 10,000 user accounts can be created from a single tab-delimited

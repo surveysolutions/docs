@@ -3,6 +3,8 @@ title = "Does Survey Solutions support data exchange from one tablet to another 
 keywords = [""]
 date = 2016-09-07T01:57:31Z
 lastmod = 2016-09-07T01:57:31Z
+aliases = ["/customer/portal/articles/2561380-does-survey-solutions-support-data-exchange-from-one-tablet-to-another-with-bluetooth-point-to-point-or-usb-connection-"]
+
 +++
 
 No, current version of Survey Solutions does not support such data

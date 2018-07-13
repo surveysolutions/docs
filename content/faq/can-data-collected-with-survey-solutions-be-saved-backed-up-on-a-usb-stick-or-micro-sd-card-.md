@@ -3,6 +3,8 @@ title = "Can data collected with Survey Solutions be saved/backed up on a USB st
 keywords = [""]
 date = 2016-09-07T03:14:51Z
 lastmod = 2016-09-07T03:14:51Z
+aliases = ["/customer/portal/articles/2561440-can-data-collected-with-survey-solutions-be-saved-backed-up-on-a-usb-stick-or-micro-sd-card-"]
+
 +++
 
 No, we do not support such functionality. This feature will unavoidably

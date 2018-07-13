@@ -3,6 +3,8 @@ title = "Customize web interview messages"
 keywords = [""]
 date = 2018-04-02T22:01:17Z
 lastmod = 2018-04-02T22:01:17Z
+aliases = ["/customer/portal/articles/2932033-customize-web-interview-messages"]
+
 +++
 
 Web interviews conducted with Survey Solutions contain reasonable

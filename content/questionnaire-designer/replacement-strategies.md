@@ -3,6 +3,8 @@ title = "Replacement strategies"
 keywords = [""]
 date = 2017-04-10T23:47:09Z
 lastmod = 2017-04-10T23:47:09Z
+aliases = ["/customer/portal/articles/2784950-replacement-strategies"]
+
 +++
 
 Every sample-based survey is subject to non-response either for the

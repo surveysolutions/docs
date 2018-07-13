@@ -3,6 +3,8 @@ title = "Admin Settings"
 keywords = ["admin","logo","encryption","accounts"]
 date = 2017-01-09T22:11:21Z
 lastmod = 2017-01-09T22:11:21Z
+aliases = ["/customer/portal/articles/2707388-admin-settings"]
+
 +++
 
 Administrators of the server can enable data export encryption, add a

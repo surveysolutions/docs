@@ -3,6 +3,8 @@ title = "Barcode Question"
 keywords = ["QR","barcode","export"]
 date = 2016-06-18T23:56:37Z
 lastmod = 2016-06-18T23:56:37Z
+aliases = ["/customer/portal/articles/2469108-barcode-question"]
+
 +++
 
 Description

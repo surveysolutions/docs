@@ -3,6 +3,8 @@ title = "Syntax Guide: Multi-select questions"
 keywords = ["syntax","multiselect","multi-select"]
 date = 2016-11-30T22:51:59Z
 lastmod = 2016-11-30T22:51:59Z
+aliases = ["/customer/portal/articles/2661196-syntax-guide-multi-select-questions"]
+
 +++
 
 Two types of multi-select questions

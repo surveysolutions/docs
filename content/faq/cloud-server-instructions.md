@@ -3,6 +3,8 @@ title = "Cloud Server Instructions"
 keywords = [""]
 date = 2017-01-23T11:35:54Z
 lastmod = 2017-01-23T11:35:54Z
+aliases = ["/customer/portal/articles/2723099-cloud-server-instructions"]
+
 +++
 
 A Survey Solutions data server in the cloud is a secure and convenient

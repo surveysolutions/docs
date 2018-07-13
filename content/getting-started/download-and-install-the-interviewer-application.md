@@ -3,6 +3,8 @@ title = "Download and Install the Interviewer Application"
 keywords = ["interviewer","tablet","download app","app"]
 date = 2016-06-23T22:41:13Z
 lastmod = 2016-06-23T22:41:13Z
+aliases = ["/customer/portal/articles/2475216-download-and-install-the-interviewer-application"]
+
 +++
 
 **Step 1:** On the home screen of the tablet, click on the

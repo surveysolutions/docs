@@ -3,6 +3,8 @@ title = "Is Internet access required during interviews?"
 keywords = [""]
 date = 2016-09-07T03:23:30Z
 lastmod = 2016-09-07T03:23:30Z
+aliases = ["/customer/portal/articles/2561445-is-internet-access-required-during-interviews-"]
+
 +++
 
 No. Internet access is only required to synchronize data and case

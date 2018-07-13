@@ -3,6 +3,8 @@ title = "Syntax Guide: Using LINQ Expressions for Conditions in Rosters"
 keywords = ["designer","syntax","rosters","linq"]
 date = 2016-11-21T15:33:45Z
 lastmod = 2016-11-21T15:33:45Z
+aliases = ["/customer/portal/articles/2649799-syntax-guide-using-linq-expressions-for-conditions-in-rosters"]
+
 +++
 
 Rosters are common survey instruments (ie household roster, assets

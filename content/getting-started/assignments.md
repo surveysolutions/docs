@@ -3,6 +3,8 @@ title = "Assignments"
 keywords = [""]
 date = 2017-07-24T22:43:14Z
 lastmod = 2017-07-24T22:43:14Z
+aliases = ["/customer/portal/articles/2847199-assignments"]
+
 +++
 
 Survey Solutions system is based on the hierarchy of users which perform

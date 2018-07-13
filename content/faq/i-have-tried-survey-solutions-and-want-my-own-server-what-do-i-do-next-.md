@@ -3,6 +3,8 @@ title = "I have tried Survey Solutions and want my own server. What do I do next
 keywords = [""]
 date = 2016-07-22T18:45:02Z
 lastmod = 2016-07-22T18:45:02Z
+aliases = ["/customer/portal/articles/2507729-i-have-tried-survey-solutions-and-want-my-own-server-what-do-i-do-next-"]
+
 +++
 
 When you are ready to begin data collection, please request a private

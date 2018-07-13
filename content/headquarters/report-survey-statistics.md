@@ -3,6 +3,8 @@ title = "Report: Survey Statistics"
 keywords = [""]
 date = 2018-06-26T15:56:43Z
 lastmod = 2018-06-26T15:56:43Z
+aliases = ["/customer/portal/articles/2945778-report-survey-statistics"]
+
 +++
 
 Survey Statistics report is accessible to supervisors and headquarter

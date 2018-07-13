@@ -3,6 +3,8 @@ title = "API for Data Export"
 keywords = ["API"]
 date = 2016-09-19T21:45:15Z
 lastmod = 2016-09-19T21:45:15Z
+aliases = ["/customer/portal/articles/2574862-api-for-data-export"]
+
 +++
 
 Survey Solutions Headquarter provides a possibility for other

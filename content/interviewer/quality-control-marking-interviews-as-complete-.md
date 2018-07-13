@@ -3,6 +3,8 @@ title = "Quality Control & Marking Interviews as Complete "
 keywords = ["check","review","complete","interviewer","app","application"]
 date = 2016-07-14T22:15:45Z
 lastmod = 2016-07-14T22:15:45Z
+aliases = ["/customer/portal/articles/2498212-quality-control-marking-interviews-as-complete-"]
+
 +++
 
 Checking whether all questions have been answered

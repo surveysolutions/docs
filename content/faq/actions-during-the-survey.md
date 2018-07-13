@@ -3,6 +3,8 @@ title = "Actions during the survey"
 keywords = [""]
 date = 2017-01-23T11:54:15Z
 lastmod = 2017-01-23T11:54:15Z
+aliases = ["/customer/portal/articles/2723112-actions-during-the-survey"]
+
 +++
 
 As a designated server administrator you will perform a number of key

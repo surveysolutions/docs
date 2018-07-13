@@ -3,6 +3,8 @@ title = "GPS Question"
 keywords = ["GPS","latitude","longitude","accuracy","altitude","export"]
 date = 2016-06-18T23:29:15Z
 lastmod = 2016-06-18T23:29:15Z
+aliases = ["/customer/portal/articles/2469100-gps-question"]
+
 +++
 
 Description

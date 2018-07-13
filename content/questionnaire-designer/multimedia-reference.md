@@ -3,6 +3,8 @@ title = "Multimedia reference"
 keywords = ["Image","Attachment","Multimedia","Format"]
 date = 2016-10-03T14:09:04Z
 lastmod = 2016-10-03T14:09:04Z
+aliases = ["/customer/portal/articles/2589525-multimedia-reference"]
+
 +++
 
 Survey Solutions from version 5.7 allows the users embedding images into

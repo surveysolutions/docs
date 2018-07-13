@@ -3,6 +3,8 @@ title = "Errors in user-supplied files for preloading"
 keywords = [""]
 date = 2018-03-09T22:50:55Z
 lastmod = 2018-03-09T22:50:55Z
+aliases = ["/customer/portal/articles/2928007-errors-in-user-supplied-files-for-preloading"]
+
 +++
 
 Survey Solutions allows preloading assignments with data, including

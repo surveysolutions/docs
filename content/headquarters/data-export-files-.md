@@ -3,6 +3,8 @@ title = "Data Export Files "
 keywords = ["export files","tab","stata","spss","DDI","zip file","missing"]
 date = 2016-08-18T13:22:05Z
 lastmod = 2016-08-18T13:22:05Z
+aliases = ["/customer/portal/articles/2541274-data-export-files-"]
+
 +++
 
 **Overview**

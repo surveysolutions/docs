@@ -3,6 +3,8 @@ title = "Syntax Guide: Barcode questions"
 keywords = ["syntax","barcode "]
 date = 2016-11-28T15:13:05Z
 lastmod = 2016-11-28T15:13:05Z
+aliases = ["/customer/portal/articles/2658190-syntax-guide-barcode-questions"]
+
 +++
 
 Responses for barcode questions are recorded as a string [data

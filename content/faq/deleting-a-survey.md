@@ -3,6 +3,8 @@ title = "Deleting a survey"
 keywords = [""]
 date = 2017-01-23T12:01:52Z
 lastmod = 2017-01-23T12:01:52Z
+aliases = ["/customer/portal/articles/2723119-deleting-a-survey"]
+
 +++
 
 Survey deletion is possible, but as a dangerous operation is made

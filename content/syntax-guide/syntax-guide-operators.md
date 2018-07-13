@@ -3,6 +3,8 @@ title = "Syntax Guide: Operators"
 keywords = ["syntax","designer","operators","arithmetic","relational","logical"]
 date = 2016-08-15T19:35:34Z
 lastmod = 2016-08-15T19:35:34Z
+aliases = ["/customer/portal/articles/2537453-syntax-guide-operators"]
+
 +++
 
 Designer has built-in operators that can be used in enabling conditions

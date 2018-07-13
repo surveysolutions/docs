@@ -3,6 +3,8 @@ title = "Interview Tab: How to Find, Review, and Delete Survey Cases "
 keywords = ["filter","review","check","delete"]
 date = 2016-06-30T06:20:07Z
 lastmod = 2016-06-30T06:20:07Z
+aliases = ["/customer/portal/articles/2482221-interview-tab-how-to-find-review-and-delete-survey-cases-"]
+
 +++
 
 ![](/images/773854.png)  

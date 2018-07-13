@@ -3,6 +3,8 @@ title = "Actions after the end of the survey"
 keywords = [""]
 date = 2017-01-23T11:57:34Z
 lastmod = 2017-01-23T11:57:34Z
+aliases = ["/customer/portal/articles/2723118-actions-after-the-end-of-the-survey"]
+
 +++
 
 When the server is shut down all its data is removed permanently and

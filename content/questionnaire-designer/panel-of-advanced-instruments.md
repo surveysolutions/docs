@@ -3,6 +3,8 @@ title = "Panel of Advanced Instruments"
 keywords = ["advanced","macros","translation","lookup","attachemnts","pictures","table of contents"]
 date = 2016-06-15T18:23:43Z
 lastmod = 2016-06-15T18:23:43Z
+aliases = ["/customer/portal/articles/2465868-panel-of-advanced-instruments"]
+
 +++
 
 The panel of advanced instruments located on the left side of the

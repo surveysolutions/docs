@@ -3,6 +3,8 @@ title = "Question Scope "
 keywords = ["scope","interviewer","supervisor","prefilled","hidden","question properties"]
 date = 2016-06-17T18:26:26Z
 lastmod = 2016-06-17T18:26:26Z
+aliases = ["/customer/portal/articles/2468340-question-scope-"]
+
 +++
 
 The scope of a question defines who will be responsible for answering

@@ -3,6 +3,8 @@ title = "Troubleshooting Page"
 keywords = [""]
 date = 2017-05-05T20:27:38Z
 lastmod = 2017-05-05T20:27:38Z
+aliases = ["/customer/portal/articles/2801222-troubleshooting-page"]
+
 +++
 
 This page is available for Administrators, Headquarters users and

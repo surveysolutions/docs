@@ -3,6 +3,8 @@ title = "Numeric Question"
 keywords = ["numeric","integer","real","seperator","export"]
 date = 2016-06-17T23:22:09Z
 lastmod = 2016-06-17T23:22:09Z
+aliases = ["/customer/portal/articles/2468719-numeric-question"]
+
 +++
 
 Description

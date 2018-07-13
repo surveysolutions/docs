@@ -3,6 +3,8 @@ title = "How to request local server installation?"
 keywords = [""]
 date = 2016-09-07T02:00:21Z
 lastmod = 2016-09-07T02:00:21Z
+aliases = ["/customer/portal/articles/2561381-how-to-request-local-server-installation-"]
+
 +++
 
 Survey Solutions supports local installations and cloud servers. For

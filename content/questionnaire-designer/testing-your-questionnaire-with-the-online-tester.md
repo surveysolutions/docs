@@ -3,6 +3,8 @@ title = "Testing Your Questionnaire with the Online Tester"
 keywords = ["testing, tester, online "]
 date = 2018-04-23T22:37:47Z
 lastmod = 2018-04-23T22:37:47Z
+aliases = ["/customer/portal/articles/2935533-testing-your-questionnaire-with-the-online-tester"]
+
 +++
 
 <span

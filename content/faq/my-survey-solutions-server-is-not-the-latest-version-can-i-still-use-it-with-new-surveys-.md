@@ -3,6 +3,8 @@ title = "My Survey Solutions server is not the latest version. Can I still use i
 keywords = [""]
 date = 2016-09-07T03:25:08Z
 lastmod = 2016-09-07T03:25:08Z
+aliases = ["/customer/portal/articles/2561448-my-survey-solutions-server-is-not-the-latest-version-can-i-still-use-it-with-new-surveys-"]
+
 +++
 
 <span id="docs-internal-guid-b60044ba-02ad-9e48-82b0-05fa6e7cf5ac"><span
