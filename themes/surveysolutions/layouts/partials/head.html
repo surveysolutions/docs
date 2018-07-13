@@ -1,6 +1,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {{ with .Keywords }}<meta name="keywords" content="{{ range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
     <link rel="icon" href="/img/favicon/favicon-support-1.png" type="image/png" sizes="16x16">
     <link rel="icon" href="/img/favicon/favicon-support-1-48-win-ico.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/img/favicon/favicon-support-1-158-General-use-iOS-Android.png" type="image/png" sizes="152x152">

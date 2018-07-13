@@ -376,19 +376,19 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
 /* list */
 h2{
   border-bottom: 1px solid #DDD;
-  font: 22px/24px "RobotoRegular";
+  font: 24px/26px "RobotoRegular";
 }
 
 .list_of_articles{
   max-width: 860px;
 }
-.article{
+.article-short-view{
   margin-bottom: 20px;
 }
-.article:last-of-type{
+.article-short-view:last-of-type{
   margin-bottom: 30px;
 }
-.article:before{
+.article-short-view:before{
   display: block;
   position: absolute;
   top: 5px;
@@ -399,7 +399,7 @@ h2{
   background: url("../img/DR-2017-folders-icons.png") no-repeat;
   background-position: 0 -65px;
 }
-.article p{
+.article-short-view p{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
