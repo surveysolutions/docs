@@ -14,7 +14,7 @@
         <div class="row mb-4">
             <h2 class="mb-4 pb-4 d-block w-100 ">{{.Title}}</h2>
             <div class="list_of_articles">
-                {{ range .Paginator.Pages }}
+                {{ range (.Paginate ( .Data.Pages.ByLastmod.Reverse )).Pages }}
                 <div class="article-short-view pl-5 position-relative">
                     <h3>
                         <a href="{{ .Permalink }}">{{.Title}}</a>
