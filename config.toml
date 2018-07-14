@@ -8,15 +8,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
     lastreleasenote = "version-18-06"
 
+    [params.algolia]
+        vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+        params = ["categories", "tags"]
+
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
+    home = ["HTML", "RSS", "Algolia"]
 
+[outputFormats]
 [outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"]
+    baseName = "algolia"
+    isPlainText = true
+    mediaType = "application/json"
+    notAlternative = true
