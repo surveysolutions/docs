@@ -13,17 +13,18 @@ of the bottom toolbar and the icon is a circle with six dots. In the
 applications menu, Select ***Settings. ***Select ***Security*** and make
 sure that*** Unknown Sources - Allow installing application from sources
 other than the Play Store*** is selected/ticked.  
- 
 
-<table>
+
+<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
 <tbody>
-<tr class="odd">
-<td><img src="images/731725.png" /></td>
-<td><img src="images/731760.png" /></td>
-<td><img src="images/731762.png" /></td>
+<tr>
+<td>{{< imgproc "images/731725.png" Resize "200x320" />}}</td>
+<td>{{< imgproc "images/731760.png" Resize "200x320" />}}</td>
+<td>{{< imgproc "images/731762.png" Resize "200x320" />}}</td>
 </tr>
 </tbody>
 </table>
+
 
   
   
@@ -40,12 +41,12 @@ support check box.
   
  
 
-<table>
+<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
 <tbody>
-<tr class="odd">
-<td><img src="images/731771.png" /></td>
-<td><img src="images/731784.png" /></td>
-<td><img src="images/731797.png" /></td>
+<tr>
+<td>{{< imgproc "images/731771.png" Resize "200x320" />}}</td>
+<td>{{< imgproc "images/731784.png" Resize "200x320" />}}</td>
+<td>{{< imgproc "images/731797.png" Resize "200x320" />}}</td>
 </tr>
 </tbody>
 </table>
@@ -59,12 +60,12 @@ downloaded and choose ***Install***.
   
  
 
-<table>
+<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
 <tbody>
-<tr class="odd">
-<td><img src="images/731802.png" /></td>
-<td><img src="images/646945.png" /></td>
-<td><img src="images/646946.png" /></td>
+<tr>
+<td>{{< imgproc "images/731802.png" Resize "200x320" />}}</td>
+<td>{{< imgproc "images/646945.png" Resize "200x320" />}}</td>
+<td>{{< imgproc "images/646946.png" Resize "200x320" />}}</td>
 </tr>
 </tbody>
 </table>
@@ -73,15 +74,15 @@ downloaded and choose ***Install***.
   
   
 **Step 5:** After the installation is completed, go back to the tablet's
-home screen and open the ***Interviewer*** Application.   
+home screen and open the ***Interviewer*** Application.
   
  
 
-<table>
+<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
 <tbody>
-<tr class="odd">
-<td><img src="images/646949.png" /></td>
-<td><img src="images/646950.png" /></td>
+<tr>
+<td align="center">{{< imgproc "images/646949.png" Resize "200x320" />}}</td>
+<td align="center">{{< imgproc "images/646950.png" Resize "200x320" />}}</td>
 </tr>
 </tbody>
 </table>
@@ -101,10 +102,8 @@ or may not be “http”.
    
   
   
-![](images/774514.png)  
+{{< imgproc "images/774514.png" Resize "200x320" />}}
   
+**Step 7:** Tap on the synchronization button
   
-**Step 7:** Tap on the synchronization button   
-  
-  
-![](images/646954.png)
+{{< imgproc "images/646954.png" Resize "200x320" />}}
