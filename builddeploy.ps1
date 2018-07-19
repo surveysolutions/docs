@@ -1,16 +1,17 @@
-
-
 & $env:hugoexe
 
-$content = (Get-Item content).FullName
+$content = (Get-Item public).FullName
+
+Remove-Item (Join-Path $content "algolia.json")
+Remove-Item (Join-Path $content "hidden") -Recurse
+
 $site = "support"
-$loc = "support-new2.mysurvey.solutions"
+$loc = "capimswebp01"
 
 $arguments = @(
 	"-verb:sync",
 	"-source:contentPath=`"$content`"",
-	"-dest:contentPath=`"$site`",wmsvc=$loc,authType='NTLM'",
-	"-enableRule:DoNotDeleteRule",
+	"-dest:contentPath=`"$site/`",wmsvc=$loc,authType='NTLM'",
 	"-allowUntrusted"
 )
 
