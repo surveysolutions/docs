@@ -19,7 +19,7 @@ run - you will be able to use them for the next two or three years in
 multiple surveys.
 
 Please see the [list of
-tablets](http://support.mysurvey.solutions/customer/en/portal/articles/2505822-what-tablets-should-i-buy-?b_id=12728)
+tablets](/faq/what-tablets-should-i-buy)
 we tested and recommend for the use with Survey Solutions.
 
 Please also refer to the [presentation

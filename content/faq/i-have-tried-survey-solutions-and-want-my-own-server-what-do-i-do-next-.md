@@ -7,10 +7,7 @@ aliases = ["/customer/portal/articles/2507729-i-have-tried-survey-solutions-and-
 
 +++
 
-When you are ready to begin data collection, please request a private
-server from <support@mysurvey.solutions>. In order to best serve you, we
-will send you a short questionnaire about your project timeline, survey
-sample, and survey instruments. After receiving answers from you, we
-will create a server within 2 business days or less. Should you not
+When you are ready to begin data collection, please submit the [new server request](https://mysurvey.solutions/NewServerRequest).
+We will create a server within 2 business days or less. Should you not
 receive notification that your server is available, please contact us
 again.

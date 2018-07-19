@@ -7,16 +7,16 @@ aliases = ["/customer/portal/articles/2819652-how-secure-is-the-world-bank-cloud
 
 +++
 
-<span style="font-size:14px;">The World Bank Cloud is doubly secure.
+The World Bank Cloud is doubly secure.
 First, by relying on Amazon AWS, it provides best-in-class protections
 for even the most security-sensitive organizations and their data.
 External certifying bodies and independent security auditors have
 awarded Amazon AWS the long list of security accreditations listed
 below. Please visit [AWS compliance resource
 page](https://aws.amazon.com/compliance/resources/) for more
-information</span>.
+information.
 
-Second, on top of Amazon AWS’ security protocols, the World Bank
+Second, on top of Amazon AWS' security protocols, the World Bank
 provides an additional layer of protection through its own additional
 security measures. Because its own data resides on its Cloud, the World
 Bank provides its Cloud the highest level of protection.

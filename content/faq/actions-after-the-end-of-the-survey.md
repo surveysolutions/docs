@@ -11,21 +11,21 @@ When the server is shut down all its data is removed permanently and
 irreversibly. Hence, at the end of your survey you need to secure the
 collected data.
 
-1.  Instruct the interviewers to stop conducting interviews, mark them
+1. Instruct the interviewers to stop conducting interviews, mark them
     as completed.
-2.  Synchronize all the interviews data from the tablets to the server.
-3.  Do the final approvals/rejections of the submitted interviews.
-4.  In HQ proceed to the data export screen.
-5.  Download ALL data in all formats (tab-delimited and Stata and SPSS).
+2. Synchronize all the interviews data from the tablets to the server.
+3. Do the final approvals/rejections of the submitted interviews.
+4. In HQ proceed to the data export screen.
+5. Download ALL data in all formats (tab-delimited and Stata and SPSS).
     Download data even in formats which you don’t immediately plan to
     use.
-6.  Repeat for every version of the questionnaire (if questionnaire was
+6. Repeat for every version of the questionnaire (if questionnaire was
     ever updated on the server).
-7.  Repeat for other statuses (approved by headquarter, etc) as
+7. Repeat for other statuses (approved by headquarter, etc) as
     necessary.
-8.  If you collected any multimedia data (images, audio,..) you need to
+8. If you collected any multimedia data (images, audio,..) you need to
     download the binary files too. This can often be a lengthy download.
-9.  Count the files and make sure you have downloaded all of them.
+9. Count the files and make sure you have downloaded all of them.
 10. Test every downloaded archive to make sure there is no data transfer
     error.
 11. Open every arcvhive and visually inspect downloaded files. If you
@@ -43,5 +43,5 @@ collected data.
     Reports are not part of data export.
 17. Notify the support team that the cloud server may be shut down.
 
-This article is part of the series of [instructions for Survey Solutions
+This article is part of the series of�[instructions for Survey Solutions
 cloud servers](/faq/cloud-server-instructions).

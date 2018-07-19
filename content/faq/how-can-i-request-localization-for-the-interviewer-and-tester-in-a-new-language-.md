@@ -11,7 +11,7 @@ Please contact our developer team (support@mysurvey.solutions) and
 request the localization. We will review your request and, if approved,
 we will send you Excel files with strings to translate. Once we receive
 the files with translation from you, we will try integrating the new
-translation into the next release.   
+translation into the next release.
   
 However, you should realise that the initial translation is just part of
 the localisation work. The most time consuming task is to support the

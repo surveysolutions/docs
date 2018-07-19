@@ -43,7 +43,6 @@ What's New with Assignments
 -   Interviewers can discard incomplete interviews that are made
     accidentally or are no longer valid.
 
- 
 
 Compatibility with older versions
 ---------------------------------

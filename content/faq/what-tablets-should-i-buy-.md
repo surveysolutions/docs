@@ -10,24 +10,22 @@ aliases = ["/customer/portal/articles/2505822-what-tablets-should-i-buy-"]
 Technical Requirements
 ----------------------
 
-  
 Survey Solutions software works with Android tablets with the following
 specifications:   
  
-
--   **Version of Android: **OS Android 4.3.1 or better is required;
+- **Version of Android: **OS Android 4.3.1 or better is required;
     Android 5.0+ is strongly recommended.
--   **RAM **Minimum 1.5GB
--   **Memory** 8GB of flash memory storage. At least 1GB of available
+- **RAM** Minimum 1.5GB
+- **Memory** 8GB of flash memory storage. At least 1GB of available
     space must be available for Survey Solutions’ use. The Survey
     Solutions software installation package (.apk) is close to 30MB, but
     more space will be required during the operation of the software.
     The ultimate requirements for space depend on the kind of survey
     (questionnaire) and the mode of use of the tablet (number of
     assignments, simultaneously started assignments, rejections, etc.
--   **WiFi** module, which can be used for software setup, upgrades, and
+- **WiFi** module, which can be used for software setup, upgrades, and
     synchronization while in the office.
--   **3G/4G** connectivity module is required for synchronization from
+- **3G/4G** connectivity module is required for synchronization from
     the field.
 
   

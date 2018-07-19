@@ -7,11 +7,9 @@ aliases = ["/customer/portal/articles/2561448-my-survey-solutions-server-is-not-
 
 +++
 
-<span id="docs-internal-guid-b60044ba-02ad-9e48-82b0-05fa6e7cf5ac"><span
-style="font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); vertical-align: baseline; white-space: pre-wrap; background-color: transparent;">It
-is recommended that you upgrade your server to the latest version, but
+It is recommended that you upgrade your server to the latest version, but
 as long as you use only features that were available on your version of
 the server the new survey should work on the older server. Please note
 that you will not be able to import to the server questionnaires with
 features introduced in versions that are later than the version of your
-server.</span></span>
+server.

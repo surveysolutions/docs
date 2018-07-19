@@ -11,9 +11,9 @@ The Survey Solutions Designer tool is a web-based tool and is accessible
 over the Internet. As with any website, when you can't use the site, it
 could be:
 
--   a problem with the site,
--   a problem with connection, or
--   a problem with your own device.
+- a problem with the site,
+- a problem with connection, or
+- a problem with your own device.
 
 In order to identify if the problem is with the site or related
 specifically to you, other devices can be used to try accessing the same

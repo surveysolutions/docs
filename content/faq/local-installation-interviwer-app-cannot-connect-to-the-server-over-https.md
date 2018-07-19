@@ -17,8 +17,7 @@ The Headquarters application is setup correctly, with a valid security
 certificate, and in the mobile browser on the Android device users **can
 successfully access** it without any errors or warnings.  
   
-The Headquarters application is hosted on a server running Windows
-2016.  
+The Headquarters application is hosted on a server running Windows 2016.  
   
 **Explanation:**  
 Communication fails due to a bug in one of the external libraries used
@@ -40,10 +39,10 @@ consider the problem resolved.
   
 Meanwhile, workarounds to this problem include:
 
--   Use Windows 2012.
--   Use http protocol (**not recommended** for real data-collection but
+- Use Windows 2012.
+- Use http protocol (**not recommended** for real data-collection but
     may be a quick solution during initial testing).
--   Disable http/2 in Windows 2016 and use http/1.1 instead.
+- Disable http/2 in Windows 2016 and use http/1.1 instead.
 
   
 You can disable using http/2 for https connections by adding  DWORD

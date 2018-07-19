@@ -19,16 +19,12 @@ support and maintenance.
 An administrator of the cloud server must be familiar with the following
 procedures:
 
--   [cloud server request](/faq/cloud-server-request);
--   [actions before the survey
-    starts](/faq/actions-before-the-survey-starts);
--   [actions during the survey](/faq/actions-during-the-survey);
--   [actions after the end of the
-    survey](/faq/actions-after-the-end-of-the-survey);
--   [deleting a survey](/faq/deleting-a-survey).
+- [cloud server request](/faq/cloud-server-request);
+- [actions before the survey starts](/faq/actions-before-the-survey-starts);
+- [actions during the survey](/faq/actions-during-the-survey);
+- [actions after the end of the survey](/faq/actions-after-the-end-of-the-survey);
+- [deleting a survey](/faq/deleting-a-survey).
 
-  
 A survey administrator may or may not be the same person performing the
 Headquarter functions. In which case (s)he should also be knowledgeable
-of the [Headquarter
-responsibilities](http://docs.mysurvey.solutions/headquarters.pdf).
+of the [Headquarters responsibilities](http://docs.mysurvey.solutions/headquarters.pdf).

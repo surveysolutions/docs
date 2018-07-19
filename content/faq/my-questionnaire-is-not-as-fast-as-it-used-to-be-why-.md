@@ -13,7 +13,7 @@ improvements. However, sometimes the support team receives inquiries
 regarding the decrease of performance of the interviewer's app, perhaps
 after an update. Here it is important to make sure that a valid
 comparison is made. A few common explanations to consider:  
-Â 
+Â
 
 <table>
 <tbody>

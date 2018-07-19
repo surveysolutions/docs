@@ -14,8 +14,7 @@ costs. Before requesting the cloud server, we expect our users to
 familiarize themselves with functionality of Survey Solutions. You need
 to create a questionnaire on Questionnaire designer; test your
 questionnaire with Tester; test the survey management functionality with
-Demo server. After that, please write to support@musurvey.solutions to
-request a cloud server.   
+Demo server. After that, please submit the [new server request](https://mysurvey.solutions/NewServerRequest).  
   
 The local server installation is costly to support both for the users
 and for the Survey Solutions team. The local server installation is

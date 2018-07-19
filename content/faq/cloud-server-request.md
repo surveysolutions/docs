@@ -11,17 +11,17 @@ After you have developed and thoroughly tested your questionnaire,
 request a new cloud server through Survey Solutions' self-service
 portal. To do so, follow these steps:
 
-1.  **Navigate to the self-service server portal.** The address is
+1. **Navigate to the self-service server portal.** The address is
     <https://mysurvey.solutions>. 
-2.  **Log in using your Designer credentials.** These are the
+2. **Log in using your Designer credentials.** These are the
     credentials used to access and edit questionnaires developed with
     Survey Solutions Designer.
-3.  **Create a new server request.** From the Create Request menu,
+3. **Create a new server request.** From the Create Request menu,
     select New server request. 
-4.  **Fill the server request form.** Provide all requested information
+4. **Fill the server request form.** Provide all requested information
     as accurately as possible. Contact the support team with questions
     about the form.
-5.  **Submit the server request.** Click on the Submit button at the end
+5. **Submit the server request.** Click on the Submit button at the end
     of the form in order to submit your request. Please note that by
     submitting the request, you are designating yourself and your email
     account as the point of contact for all communication regarding the
@@ -30,14 +30,14 @@ portal. To do so, follow these steps:
 
 Before submitting a new server request, please note the following:
 
--   Submit a request from the account of that survey's point of contact.
--   Submit a separate request for each separate survey effort. While a
+- Submit a request from the account of that survey's point of contact.
+- Submit a separate request for each separate survey effort. While a
     single server can host any number of surveys, users will be best
     served by the followig rule. For each data collection effort,
     request a separate server. If a single survey uses several survey
     instruments, request a single server. If there is more than one
     survey effort, request a separate survey for each survey effort.
--   Do not submit a server request to test new functionality. There is a
+- Do not submit a server request to test new functionality. There is a
     publicly available [demonstration
     server](https://demo.mysurvey.solutions) arranged specifically for
     this purpose (see

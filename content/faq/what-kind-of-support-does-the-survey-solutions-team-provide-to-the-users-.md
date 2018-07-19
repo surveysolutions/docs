@@ -7,7 +7,7 @@ aliases = ["/customer/portal/articles/2561443-what-kind-of-support-does-the-surv
 
 +++
 
--   Basic remote support (FREE)
--   Extended remote support (Skype, email)
--   On site support (missions of Survey Solutions staff to the country)
--   Training and capacity building.
+- Basic remote support (FREE)
+- Extended remote support (Skype, email)
+- On site support (missions of Survey Solutions staff to the country)
+- Training and capacity building.

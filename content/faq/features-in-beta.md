@@ -14,7 +14,7 @@ evaluated for reliability and suitability by our clients.
   
 At the moment the following features are in the status "beta":
 
--   satellite map viewing, positioning, and area measurement on the
+- satellite map viewing, positioning, and area measurement on the
     tablets in the Interviewer App. This feature is known to be
     incompatible with Android 64-bit OS.
--   shapefile overlay in a geography-type question.
+- shapefile overlay in a geography-type question.
