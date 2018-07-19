@@ -13,4 +13,16 @@ $arguments = @(
 	"-enableRule:DoNotDeleteRule",
 	"-allowUntrusted"
 )
-& $msdeploy $arguments 2>$1
+
+function GetMSWebDeployInstallPath() {
+	$path = (get-childitem "HKLM:\SOFTWARE\Microsoft\IIS Extensions\MSDeploy" | Select-Object -last 1).GetValue("InstallPath")
+	$path = "${path}msdeploy.exe"
+
+	if (!(Test-Path "$path")) {
+		throw "MSDEPLOY.EXE is not installed."
+	}
+
+	return $path
+}
+
+& (GetMSWebDeployInstallPath) $arguments 2>$1
