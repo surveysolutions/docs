@@ -4,7 +4,7 @@ keywords = ["syntax","designer"]
 date = 2016-08-15T15:33:33Z
 lastmod = 2016-08-15T15:33:33Z
 aliases = ["/customer/portal/articles/2537143-basic-syntax"]
-
+draft = true
 +++
 
 <span style="font-size: 13px; line-height: 1.6;">The syntax used to add

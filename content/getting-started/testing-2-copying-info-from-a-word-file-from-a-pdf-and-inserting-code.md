@@ -4,7 +4,7 @@ keywords = [""]
 date = 2016-05-07T19:18:52Z
 lastmod = 2016-05-07T19:18:52Z
 aliases = ["/customer/portal/articles/2422116-testing-2-copying-info-from-a-word-file-from-a-pdf-and-inserting-code"]
-
+draft = true
 +++
 
 Import the questionnaire

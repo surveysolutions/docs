@@ -4,7 +4,7 @@ keywords = [""]
 date = 2016-05-07T18:59:53Z
 lastmod = 2016-05-07T18:59:53Z
 aliases = ["/customer/portal/articles/2422112-testing-1-inserting-videos-images-and-link--plus-a-translation"]
-
+draft = true
 +++
 
 Table of contents

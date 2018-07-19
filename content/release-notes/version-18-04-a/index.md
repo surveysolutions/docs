@@ -4,7 +4,7 @@ keywords = [""]
 date = 2018-03-29T02:29:55Z
 lastmod = 2018-03-29T02:29:55Z
 aliases = ["/customer/portal/articles/2931394-version-18-04-a"]
-
+draft = true
 +++
 
 The April 2018 release ushers in numerous improvements to each component
