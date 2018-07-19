@@ -112,6 +112,7 @@ header{
 }
 .search input{
   border: none;
+  border-radius: 7px;
   background: transparent;
   font: 16px/18px "RobotoBold";
   padding: 5px 0px 5px 20px;
@@ -145,6 +146,53 @@ header{
 .btn-search:hover span, .btn-search:focus span, .btn-search:active span{
   opacity: 1;
 }
+.algolia-autocomplete{
+  flex-grow: 1;
+  align-items: stretch;
+}
+.form-inline .search .form-control{
+  width: 100%;
+}
+.aa-dropdown-menu{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 0.25rem;
+  margin-top: 7px;
+  padding: 15px;
+  border: 1px solid #81ACD9;
+}
+
+.section-name.interviewer{
+  background-color: #17a2b8;
+}
+
+.section-name.headquarters{
+  background-color: #28a745;
+}
+
+.section-name.supervisor{
+  background-color: #ffc107;
+}
+
+.section-name.questionnaire-designer{
+  background-color: #81ACD9;
+}
+
+.section-name{
+  font-size: 10px;
+  line-height: 12px;
+  background-color: #6c757d;
+}
+.short-summary{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 32px;
+}
+.aa-dropdown-menu em{
+  background-color: gainsboro;
+}
+/* end search */ 
+
 .information-block {
   position: absolute;
   top: 30px;
@@ -172,11 +220,13 @@ h3 a:active,
   text-decoration: none;
   color: #199400;
 }
- ul li{
-  margin-bottom: 10px;
+.section ul li{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+ul li{
+  margin-bottom: 10px;
   max-width: 100%;
 }
 ul li:last-child{
@@ -407,4 +457,8 @@ h2{
 .data{
   font: 11px/13px "RobotoBold";
   text-transform: uppercase;
+}
+.article-content img{
+  max-width: 100%;
+  height: auto;
 }
