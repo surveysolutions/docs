@@ -15,19 +15,10 @@ sure that*** Unknown Sources - Allow installing application from sources
 other than the Play Store*** is selected/ticked.  
 
 
-<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
-<tbody>
-<tr>
-<td>{{< imgproc "images/731725.png" Resize "200x320" />}}</td>
-<td>{{< imgproc "images/731760.png" Resize "200x320" />}}</td>
-<td>{{< imgproc "images/731762.png" Resize "200x320" />}}</td>
-</tr>
-</tbody>
-</table>
 
-
-  
-  
+{{< imgproc "images/731725.png" Resize "200x320" />}}
+{{< imgproc "images/731760.png" Resize "200x320" />}}
+{{< imgproc "images/731762.png" Resize "200x320" />}}
   
 **Step 2:** Open the ***Chrome*** browser and navigate to the address of
 your server. If you are using the [demo
@@ -39,17 +30,9 @@ the download is completed. If an area question is included in the
 questionnaire, make sure you also uncheck the Exclude ESRI Map
 support check box.  
   
- 
-
-<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
-<tbody>
-<tr>
-<td>{{< imgproc "images/731771.png" Resize "200x320" />}}</td>
-<td>{{< imgproc "images/731784.png" Resize "200x320" />}}</td>
-<td>{{< imgproc "images/731797.png" Resize "200x320" />}}</td>
-</tr>
-</tbody>
-</table>
+{{< imgproc "images/731771.png" Resize "200x320" />}}
+{{< imgproc "images/731784.png" Resize "200x320" />}}
+{{< imgproc "images/731797.png" Resize "200x320" />}}
 
   
   
@@ -60,40 +43,24 @@ downloaded and choose ***Install***.
   
  
 
-<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
-<tbody>
-<tr>
-<td>{{< imgproc "images/731802.png" Resize "200x320" />}}</td>
-<td>{{< imgproc "images/646945.png" Resize "200x320" />}}</td>
-<td>{{< imgproc "images/646946.png" Resize "200x320" />}}</td>
-</tr>
-</tbody>
-</table>
+{{< imgproc "images/731802.png" Resize "200x320" />}}
+{{< imgproc "images/646945.png" Resize "200x320" />}}
+{{< imgproc "images/646946.png" Resize "200x320" />}}
 
-  
   
   
 **Step 5:** After the installation is completed, go back to the tablet's
 home screen and open the ***Interviewer*** Application.
   
  
-
-<table align="center" border="1" cellpadding="10" cellspacing="10" style="width:600px;">
-<tbody>
-<tr>
-<td align="center">{{< imgproc "images/646949.png" Resize "200x320" />}}</td>
-<td align="center">{{< imgproc "images/646950.png" Resize "200x320" />}}</td>
-</tr>
-</tbody>
-</table>
-
-  
+{{< imgproc "images/646949.png" Resize "200x320" />}}
+{{< imgproc "images/646950.png" Resize "200x320" />}}
   
    
 **Step 6:** Enter the server address *https://demo.mysurvey.solutions*
 in the Synchronization point, and the enumerator’s user name and
 password. You can reveal the password typed using the eye symbol on the
-corner of the text field.   
+corner of the text field. 
   
 When typing the server address, pay attention to whether you should
 start the address with “http” or “https”. To connect to the demo server,
