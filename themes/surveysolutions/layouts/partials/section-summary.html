@@ -1,7 +1,19 @@
+<div class="col-3 section">
+	<a href="{{.Permalink}}" class="section-title mb-3 d-block">
+		{{ with .Params.IconStyle}}
+			<div class="img-container mb-2">
+				<span class="{{.}} float-left"></span>
+			</div>
+		{{ end }}
+		<h3>{{ .Title }}</h3>
+	</a>
 	<ul class="list-unstyled mb-3">
 		{{ range first 4 .Pages.ByLastmod.Reverse }}
 		<li><a href="{{ .Permalink }}" class="text-dark">{{ .Title }}</a></li>
 		{{ end }}
 	</ul>
 	<a href="{{ .Permalink }}" class="d-block counter mb-2"><span>{{ len .Pages }}</span> Articles <span class="badge badge-secondary"><img src="img/arrow.png" alt="" /></span></a>
-	<a href="" class="d-block tutorial-link d-flex align-items-center"><span class="tutorials"></span>videos</a>
+	{{ with .Params.VideoLink }}
+	<a href="{{ . }}" class="d-block tutorial-link d-flex align-items-center"><span class="tutorials"></span>videos</a>
+	{{ end }}
+</div>
