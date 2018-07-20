@@ -147,14 +147,17 @@ header{
 .btn-search:hover span, .btn-search:focus span, .btn-search:active span{
   opacity: 1;
 }
+.form-inline .search .form-control{
+  width: 100%;
+}
 .algolia-autocomplete{
   flex-grow: 1;
   align-items: stretch;
 }
-.form-inline .search .form-control{
-  width: 100%;
+.algolia-autocomplete .aa-hint {
+  color: #999;
 }
-.aa-dropdown-menu{
+.algolia-autocomplete .aa-dropdown-menu{
   background-color: #fff;
   width: 100%;
   border-radius: 0.25rem;
@@ -162,7 +165,16 @@ header{
   padding: 0;
   border: 1px solid #81ACD9;
 }
-
+.algolia-autocomplete .aa-dropdown-menu strong{
+  background-color: #B0C4DE;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+  cursor: pointer;
+  padding: 5px 4px;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+  background-color: #B2D7FF;
+}
 .section-name.interviewer{
   background-color: #17a2b8;
 }
@@ -189,9 +201,7 @@ header{
   text-overflow: ellipsis;
   max-height: 32px;
 }
-.aa-dropdown-menu em{
-  background-color: #B0C4DE;
-}
+
 .search-result-block:active,
 .search-result-block:hover,
 .search-result-block:focus{
@@ -200,12 +210,13 @@ header{
 .search-result-block.current{
   background-color: green;
 }
-.aa-dataset-1{
-  background-image: url("../img/search-by-algolia-light-background-b5afedfa.png");
-  background-repeat: no-repeat;
-  background-position: 99% 99%;
-  padding-bottom: 20px;
-  background-size: 12%;
+.branding {
+  font-size: 0.8em;
+  margin: 0.5em 0.2em;
+}
+.branding img {
+  height: 0.8em;
+  margin-bottom: - 0.3em;
 }
 /* end search */ 
 
