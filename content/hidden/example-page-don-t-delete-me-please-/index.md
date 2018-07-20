@@ -4,7 +4,7 @@ keywords = [""]
 date = 2016-11-18T16:00:49Z
 lastmod = 2016-11-18T16:00:49Z
 aliases = ["/customer/portal/articles/2647853-example-page-don-t-delete-me-please-"]
-
+draft = true
 +++
 
 <span style="color:#FF0000;">Attention! A formatting of the article in the editor differs from it's look on the website</span>

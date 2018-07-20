@@ -4,7 +4,7 @@ keywords = [""]
 date = 2017-07-27T22:09:32Z
 lastmod = 2017-07-27T22:09:32Z
 aliases = ["/customer/portal/articles/2849410-workshop-evaluation"]
-
+draft = true
 +++
 
 Thank you for taking part in a Survey Solutions workshop!  

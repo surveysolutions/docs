@@ -4,7 +4,7 @@ keywords = ["Feature suggest"]
 date = 2017-10-11T21:22:00Z
 lastmod = 2017-10-11T21:22:00Z
 aliases = ["/customer/portal/articles/2887843-suggest-a-feature"]
-
+draft = true
 +++
 
 Survey Solutions development is responsive to the requests of our users.
