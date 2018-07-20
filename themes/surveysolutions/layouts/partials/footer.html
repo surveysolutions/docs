@@ -1,4 +1,4 @@
-<footer class="footer py-3">
+<footer class="footer py-3 pb-1">
 		<div class="container footer-links">
 			<div class="row">
 				<div class="col-6">
@@ -17,10 +17,10 @@
 					<div class="contact-information p-3 bg-white">
 						<h3 class="mb-3">Contact Us</h3>
 						<ul class="list-unstyled mb-0">
-							<li><a href="#">Post a Public Question</a></li>
+							<li><a href="http://support-new.mysurvey.solutions/node/add/question">Post a Public Question</a></li>
 							<li><a href="#" target="_blank">Suggest a feature</a></li>
 							<li><a href="#">Email Us</a></li>
-							<li>
+							<li class="clearfix">
 								<a href="https://www.facebook.com/mysurveysolutions" target="_blank" id="facebook">f</a>
 								<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" class="position-relative" target="_blank" id="youtube"></a>
 							</li>
@@ -31,39 +31,55 @@
 			</div>
 		</div>
 		<hr />
-		<div class="container">
-			<div class="row">
-				<div class="col">© 2016-2018 The World Bank Group<br />
-				All rights Reserved. Legal</div>
+		<div class="container copyright">
+			<div class="float-left">
+				© 2016-2018 The World Bank Group<br />
+				All rights Reserved. Legal
 			</div>
 		</div>
 	</footer>
 
-	<!-- Bootstrap core JavaScript  -->
-	<script src="/js/jQuery_v3.3.1.js"></script>
-	<script src="/vendor/js/bootstrap.js"></script>
-	<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-	<!-- Initialize autocomplete menu -->
-	<!-- <script>
-		var client=algoliasearch("5IDMO489J3","8d191f12f7e8da9f671648ae51e29570");
-		var index=client.initIndex("support.mysurvey.solutions");
-		//initialize autocomplete on search input (ID selector must match)
-		autocomplete('#aa-search-input',
-			{ hint: false }, {
-			source: autocomplete.sources.hits(index, {hitsPerPage: 4}),
-			//value to be displayed in input control after user's suggestion selection
-			displayKey: 'title',
-			//hash of templates used when rendering dataset
-			templates: {
-				//'suggestion' templating function used to render a single suggestion
-				suggestion: function(suggestion) {
-					return '<span>' +
-					suggestion._highlightResult.title.value + '</span><span>' +
-					suggestion._highlightResult.section.value + '</span>';
-					// suggestion._highlightResult.summary.value + '</span>';
-				}
-			}
-		});
-		
-	</script> -->
+    <!-- Bootstrap core JavaScript  -->
+    <script src="js/jQuery_v3.3.1.js"></script>
+    <script src="vendor/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <!-- Initialize autocomplete menu -->
+    <script>
+      var client=algoliasearch("5IDMO489J3","8d191f12f7e8da9f671648ae51e29570");
+      var index=client.initIndex("support.mysurvey.solutions");
+      //initialize autocomplete on search input (ID selector must match)
+      autocomplete('#aa-search-input',
+        { hint: false }, {
+        source: autocomplete.sources.hits(index, {hitsPerPage: 4}),
+        //value to be displayed in input control after user's suggestion selection
+        displayKey: 'title',
+        //hash of templates used when rendering dataset
+        templates: {
+          //'suggestion' templating function used to render a single suggestion
+          suggestion: function(suggestion) {
+            $subtopic = suggestion._highlightResult.section.value;
+            return '<div class=" px-3 py-2 text-secondary search-result-block">'
+              + '<div class="d-flex align-items-stretch pb-1">' 
+                    + '<span class="h6 flex-grow-1">' + 
+                        suggestion._highlightResult.title.value +
+                    '</span>'
+                    + '<span class="section-name ' + $subtopic + ' w-30 text-uppercase w-30 p-1 align-self-start rounded text-light">' +
+                      $subtopic +
+                      '</span>'   
+              + '</div>' 
+              + '<p class="short-summary p-0 m-0">' +
+                  suggestion._highlightResult.summary.value +
+                '</p>'
+             + '</div>';
+          }
+        }
+      });
+      
+    </script>
+    <script>
+      jQuery(document).ready(function($) {
+        $(".aa-suggestion:focus").parent().css('background', '#8b66ac');
+        $('.aa-suggestion:focus').parent().css('background-color', 'red');
+      });
+    </script>

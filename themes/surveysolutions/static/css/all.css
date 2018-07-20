@@ -5,12 +5,13 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  padding-bottom: 297px;
+  padding-bottom: 270px;
   font: 14px/16px "RobotoRegular";
   min-height: 100%;
   position: relative;
 }
 .footer {
+  height: 270px;
   background-color: #f1f2f3;
   position: absolute;
   bottom: 0;
@@ -158,7 +159,7 @@ header{
   width: 100%;
   border-radius: 0.25rem;
   margin-top: 7px;
-  padding: 15px;
+  padding: 0;
   border: 1px solid #81ACD9;
 }
 
@@ -189,7 +190,22 @@ header{
   max-height: 32px;
 }
 .aa-dropdown-menu em{
+  background-color: #B0C4DE;
+}
+.search-result-block:active,
+.search-result-block:hover,
+.search-result-block:focus{
   background-color: gainsboro;
+}
+.search-result-block.current{
+  background-color: green;
+}
+.aa-dataset-1{
+  background-image: url("../img/search-by-algolia-light-background-b5afedfa.png");
+  background-repeat: no-repeat;
+  background-position: 99% 99%;
+  padding-bottom: 20px;
+  background-size: 12%;
 }
 /* end search */ 
 
@@ -462,3 +478,26 @@ h2{
   max-width: 100%;
   height: auto;
 }
+.copyright{
+  font-size: 12px;
+  line-height: 14px;
+}
+hr{
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
