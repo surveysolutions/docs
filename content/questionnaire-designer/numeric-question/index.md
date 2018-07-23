@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Numeric Question"
 keywords = ["numeric","integer","real","seperator","export"]
 date = 2016-06-17T23:22:09Z
@@ -11,7 +11,7 @@ Description
 -----------
 
   
-A **num**![](images/643179.png)**eric** question expects an answer to
+A **num**{{< imgproc "images/643179.png" Fit "800x600" />}}**eric** question expects an answer to
 contain numeric characters (0-9). The answer can be an
 [integer](#integer) or a [real](#decimal) number. You also have the
 option of assigning the number of [decimals places](#max%20decimal) to
@@ -24,19 +24,19 @@ categorical selections.
   
 The picture below displays a numeric integer question on a tablet.  
   
-![](images/644167.png)  
+{{< imgproc "images/644167.png" Fit "800x600" />}}  
   
   
 The picture below displays a numeric real number question on a
 tablet.   
   
-![](images/644168.png)  
+{{< imgproc "images/644168.png" Fit "800x600" />}}  
   
   
 The picture below displays a numeric question with language specific
 thousand and decimal separator enabled on a tablet.  
   
-![](images/644169.png)  
+{{< imgproc "images/644169.png" Fit "800x600" />}}  
   
   
  
@@ -52,7 +52,7 @@ In Questionnaire Designer,
 
 2.  Select Numeric.
 
-![](images/644236.png)  
+{{< imgproc "images/644236.png" Fit "800x600" />}}  
   
  
 
@@ -67,7 +67,7 @@ through the keyboard showing alpha characters, they can only include
 numeric characters in the answer.  
  
 
-![](images/644237.png)
+{{< imgproc "images/644237.png" Fit "800x600" />}}
 
   
   
@@ -92,12 +92,12 @@ digits in the answer. If you expect an answer higher than 9999999999
 (e.g. id codes) the question should not expect an integer value but a
 real value.  
   
-![](images/644238.png)  
+{{< imgproc "images/644238.png" Fit "800x600" />}}  
   
 On a tablet the enumerator cannot enter values with decimal places.  
   
   
-![](images/644239.png)  
+{{< imgproc "images/644239.png" Fit "800x600" />}}  
   
   
   
@@ -119,14 +119,14 @@ decimal point.
 accepted by the question, add the corresponding number in the *Number of
 decimal places* field.  
   
-![](images/644240.png)  
+{{< imgproc "images/644240.png" Fit "800x600" />}}  
   
   
 On a tablet the answer can be an integer or a real number with less or
 an equal number of decimals than the defined maximum.  
   
   
-![](images/644241.png)  
+{{< imgproc "images/644241.png" Fit "800x600" />}}  
   
   
 <span id="separator"></span>
@@ -138,13 +138,13 @@ specific thousands and decimal separator. To enable this feature, click
 on the *Use 1000 separator* check box.   
   
   
-![](images/644242.png)
+{{< imgproc "images/644242.png" Fit "800x600" />}}
 
   
 On a tablet, the answer entered will display a thousand separator
 specific to the language of the device.
 
-![](images/644243.png)
+{{< imgproc "images/644243.png" Fit "800x600" />}}
 
 ### [Special Values ](/questionnaire-designer/special-values-for-numeric-questions)
 
@@ -156,9 +156,9 @@ value labels.
 To enable this feature, check the special values check box and enter the
 answer option(s) and codes.   
   
-![](images/871996.png)  
+{{< imgproc "images/871996.png" Fit "800x600" />}}  
   
-![](images/871997.png)  
+{{< imgproc "images/871997.png" Fit "800x600" />}}  
  
 
 Export
@@ -177,12 +177,12 @@ example below illustrates the export for a real number question.
 ### Numeric real number question
 
   
-![](images/644244.png)  
+{{< imgproc "images/644244.png" Fit "800x600" />}}  
   
   
 Unanswered question exported in tab-delimited file  
-![](images/644245.png)  
+{{< imgproc "images/644245.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
-![](images/644246.png)
+{{< imgproc "images/644246.png" Fit "800x600" />}}

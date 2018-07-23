@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Survey Setup Tab: Import, Copy, and Delete Questionnaire Templates, and Create Assignments"
 keywords = [""]
 date = 2017-06-29T22:00:07Z
@@ -8,7 +8,7 @@ aliases = ["/customer/portal/articles/2832918-survey-setup-tab-import-copy-and-d
 +++
 
   
-![](images/852920.png)  
+{{< imgproc "images/852920.png" Fit "800x600" />}}  
   
 The survey setup tab lets you do several things:
 
@@ -46,7 +46,7 @@ The survey setup tab lets you do several things:
 When you first navigate to the questionnaires page under the Survey
 Setup tab in Headquarters, you will see this screen:  
   
-![](images/756583.png)  
+{{< imgproc "images/756583.png" Fit "800x600" />}}  
  
 
 1.  **List of questionnaires: **This has the list of questionnaires that
@@ -75,7 +75,7 @@ import. To connect to Designer, headquarters must enter a valid login
 and password (as pictured below). Note that these login credentials are
 for the Designer site, not the headquarters software.  
   
-![](images/732258.png)  
+{{< imgproc "images/732258.png" Fit "800x600" />}}  
   
   
 After connecting to the Designer site, the user must select a
@@ -84,12 +84,12 @@ questionnaire, either by scrolling through the list of questionnaires
 available or using the search box. Click on the questionnaire to import
 it.   
   
-![](images/732262.png)  
+{{< imgproc "images/732262.png" Fit "800x600" />}}  
   
   
 Then, you will be prompted to confirm the import.   
   
-![](images/794223.png)  
+{{< imgproc "images/794223.png" Fit "800x600" />}}  
   
 Once import of the selected questionnaire is complete, the name of that
 questionnaire appears in the list of questionnaires on the
@@ -109,7 +109,7 @@ remaining number of interviews still not delivered). We recommend
 testing the questionnaires extensively to minimize any revisions to the
 questionnaires during fieldwork.  
   
-![](images/794222.png)
+{{< imgproc "images/794222.png" Fit "800x600" />}}
 
 <span id="create"></span>Create assignments
 -------------------------------------------
@@ -121,7 +121,7 @@ creating assignments: *New Assignment*, which creates assignments one at
 a time; and *Upload assignment* , which creates several assignments at
 once.  
   
-![](images/794225.png)  
+{{< imgproc "images/794225.png" Fit "800x600" />}}  
  
 
 ### <span id="oneatatime"></span>One assignment at a time
@@ -146,7 +146,7 @@ available to assign to one of the supervisor’s data collection team. If
 assigned to a interviewer, the survey case will appear on the
 interviewers device after synchronization.  
   
-![](images/794230.png)  
+{{< imgproc "images/794230.png" Fit "800x600" />}}  
  
 
 ### <span id="severalcases"></span>Several assignments at a time
@@ -169,12 +169,12 @@ using external .tab files to pre-fill survey cases in a batch upload:
     age all of household members from last wave of data collection).
 
   
-![](images/794256.png)  
+{{< imgproc "images/794256.png" Fit "800x600" />}}  
   
 For uploading assignments , either create a .tab file with variable
 names of identifying questions or download the template.  
   
-![](images/778551.png)  
+{{< imgproc "images/778551.png" Fit "800x600" />}}  
   
 Then, in the first row variable names and variable values in subsequent
 rows. The variable names in the top row of the .tab file must match
@@ -182,7 +182,7 @@ those in the Designer template. The format of those variables must match
 those specified in Designer. To set a specific number of cases for each
 assignment add the column **\_quantity**.   
   
-![](images/818940.png)  
+{{< imgproc "images/818940.png" Fit "800x600" />}}  
   
 Then, upload the data in the .tab file. To do so, first click on the
 "Upload .TAB File" and select your file.   
@@ -191,7 +191,7 @@ contains valid contents and follows the format that the headquarters
 software expects. If there are any error messages, check the .tab file
 and make the necessary changes. Otherwise, proceed to the next step.  
   
-![](images/794258.png)  
+{{< imgproc "images/794258.png" Fit "800x600" />}}  
    
 Then, select the person responsible for this batch of survey
 assignments. To do so, choose the username from the drop-down menu.
@@ -203,7 +203,7 @@ However, you can upload one .tab for the survey sample by adding a
 column in the .tab file with the heading **\_responsible** and
 populating all the fields with the appropriate interviewer or supervisor
 usernames.  
-![](images/818942.png)
+{{< imgproc "images/818942.png" Fit "800x600" />}}
 
 ### <span id="preloading"></span>Preloading
 
@@ -216,7 +216,7 @@ files.
   
 To do this, click on the *download .zip template *link.  
   
-![](images/778552.png)  
+{{< imgproc "images/778552.png" Fit "800x600" />}}  
   
 A .zip file containing one .tab file for each hierarchical level in the
 questionnaire will download (e.g., one file containing all
@@ -226,7 +226,7 @@ consumption item-level variables). In other words, this provides
 headquarters with a template to fill with any pre-existing information
 about the survey cases that will be created.  
   
-![](images/692348.png)  
+{{< imgproc "images/692348.png" Fit "800x600" />}}  
   
   
 While the number of such template files depends on the questionnaire,
@@ -247,7 +247,7 @@ article](/headquarters/numbering-in-subordinate-rosters-during-preloading)
 for more information. </span>**  
   
   
-![](images/692351.png)  
+{{< imgproc "images/692351.png" Fit "800x600" />}}  
   
   
 Once the .tab file has been created, fill it with three sets of
@@ -277,7 +277,7 @@ After all .tab files have been filled in this way, zip all the .tab
 files into one .zip file. Then, upload the .zip file using *Upload Zip
 File* button.  
   
-![](images/778552.png)  
+{{< imgproc "images/778552.png" Fit "800x600" />}}  
   
   
 As in the previous method of creating cases, the headquarter software
@@ -286,7 +286,7 @@ the questionnaire template. If any errors are identified, correct the
 files. Otherwise proceed to the next step and assign the batch of cases
 to a supervisor.  
   
-![](images/794261.png)  
+{{< imgproc "images/794261.png" Fit "800x600" />}}  
   
 Note that headquarters must either upload one set of .tab files per
 supervisor (i.e., one .zip file containing one or more .tab files) or
@@ -307,7 +307,7 @@ To copy a questionnaire in headquarters, click on the questionnaire you
 would like to copy and then select *Clone questionnaire* from the
 menu.  
   
-![](images/794264.png)  
+{{< imgproc "images/794264.png" Fit "800x600" />}}  
   
 If necessary, a new name can be given to the survey initiated from a
 cloned questionnaire, such as LFS Quarter 1, LFS Quarter 2, and so on.  
@@ -324,7 +324,7 @@ collected with that questionnaire from the server. **</span>
 To delete a questionnaire, click on the questionnaire you would like to
 delete and select *Delete questionnaire *from the menu.  
   
-![](images/794264.png)
+{{< imgproc "images/794264.png" Fit "800x600" />}}
 
 <span id="assignments"></span>Assignments 
 ==========================================
@@ -333,7 +333,7 @@ delete and select *Delete questionnaire *from the menu.
 When you first navigate to the assignments page under the Survey Setup
 tab in Headquarters, you will see this screen:  
   
-![](images/794265.png)  
+{{< imgproc "images/794265.png" Fit "800x600" />}}  
   
 This page displays a tabular view of all assignments that have been
 created, the quantity of interviews within each assignment, and other
@@ -349,7 +349,7 @@ maximum number interviews for each assignments. To change the quantity,
 click on the number in the quantity column and edit the field before
 clicking on *Save*.  
   
-![](images/794269.png)
+{{< imgproc "images/794269.png" Fit "800x600" />}}
 
 ### <span id="reallocate"></span>Reallocating and archiving assignments
 
@@ -357,7 +357,7 @@ Assignments can be archived or reallocated to another member of the data
 collection team. To do this, select the check box corresponding to the
 assignments, then select *Assign* or *Archive*. If reassigning, select
 the new person responsible and confirm the change.   
-![](images/818943.png)  
+{{< imgproc "images/818943.png" Fit "800x600" />}}  
  
 
 <span id="maps"></span>Maps
@@ -365,7 +365,7 @@ the new person responsible and confirm the change. 
 
 To upload and make assignments, follow these simple steps:  
   
-![](images/839994.png)
+{{< imgproc "images/839994.png" Fit "800x600" />}}
 
 -   **First, log into Headquarters.**
 -   **Then, upload maps to the server.** Click on UPLOAD .ZIP FILE.
@@ -374,4 +374,4 @@ To upload and make assignments, follow these simple steps:
     linking. Upload a tab-delimited file that assigns one or more maps
     to users. 
 
-![](images/839995.png)
+{{< imgproc "images/839995.png" Fit "800x600" />}}

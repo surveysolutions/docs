@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Computer Assisted Web Interviewing (CAWI)"
 keywords = [""]
 date = 2017-05-05T21:00:19Z
@@ -111,7 +111,7 @@ To generate links for the assignments, 
 
 1) Go to the ***Survey Setup*** tab, and then click on
 ***Questionnaires***.   
-![](images/826441.png)  
+{{< imgproc "images/826441.png" Fit "800x600" />}}  
   
   
 2) Click on the questionnaire that you would like to setup survey cases
@@ -119,7 +119,7 @@ as web interviews. 
   
   
 3) Select ***Web Interviews Setup.**  
-![](images/826442.png)*  
+{{< imgproc "images/826442.png" Fit "800x600" />}}*  
   
   
 4) Enable/disable spam protection before clicking
@@ -128,7 +128,7 @@ robot-submitted data by requiring the respondent to enter a CAPTCHA code
 before being allowed to start the interview. This mode is useful if
 respondents, and not interviewers, will be filling out the
 questionnaire.  
-![](images/826443.png)  
+{{< imgproc "images/826443.png" Fit "800x600" />}}  
   
   
 5) Click the blue ***Download* ** button to download a zip file with a
@@ -144,7 +144,7 @@ to the questionnaire for the assignments. The downloaded
     send the links for interviews to the respondents, and the links must
     be delivered to them using your own mailer.**
 
-![](images/826444.png)   
+{{< imgproc "images/826444.png" Fit "800x600" />}}   
 After you have completed your data collection, you can go back to survey
 setup page and the Web Interviews Setup (Shown in Step 3 above) and
 click on the orange ***Stop Web Interview***  button to stop the web
@@ -157,7 +157,7 @@ close the program or restart a computer, he/she should retain her own
 personalized interview link, which can be copied at any point after
 clicking on the initial start button. The link contains a long system
 generated interview case id.  
- ![](images/826447.png)  
+ {{< imgproc "images/826447.png" Fit "800x600" />}}  
 Below is more information on how respondents can navigate and fill out
 questionnaires on the web interface.  
    
@@ -185,7 +185,7 @@ below](#fillingqnr). 
 **<span class="underline">*Summary*</span>**  
 Please refer to the table below for examples on how the CAWI mode can be
 setup as described above.   
-![](images/831561.png)
+{{< imgproc "images/831561.png" Fit "800x600" />}}
 
 The custom messages that appear can be customized. Please refer to [this
 article](http://To%20customize%20messages%20that%20appear%20please%20refer%20to%20this%20article.)
@@ -200,7 +200,7 @@ computer.
 If using a link to access the questionnaire, respondents will see a
 landing page similar to this:  
   
-![](images/826449.png)   
+{{< imgproc "images/826449.png" Fit "800x600" />}}   
   
 If respondents are instructed to login to the server, have them navigate
 to the URL of the server \[servername.mysurvey.solutions\]. Then, use
@@ -215,13 +215,13 @@ completed.
 4) **Rejected**, lists the cases that have been rejected by the
 supervisor.  
    
- ![](images/826428.png)  
+ {{< imgproc "images/826428.png" Fit "800x600" />}}  
    
     
 **To logoff**, respondents click on their username at the top right and
 select logoff.  
    
- ![](images/826430.png)  
+ {{< imgproc "images/826430.png" Fit "800x600" />}}  
   
   
 To begin filling out the questionnaire, click on the tab according to
@@ -229,7 +229,7 @@ the status of the survey. Then, click on the case or assignment if
 listed under the Create new tab and click on Open or Start new interview
 (for assignments).  
   
-![](images/826431.png)  
+{{< imgproc "images/826431.png" Fit "800x600" />}}  
   
   
 ***The data entered as part of the web-interview is sent to the server
@@ -245,30 +245,30 @@ to set as complete, navigate to the Complete section. An overall comment
 can be added if the respondent chooses to do so, before clicking on
 Complete.  
   
- ![](images/826432.png)  
+ {{< imgproc "images/826432.png" Fit "800x600" />}}  
    
 If the questionnaire is multilingual, the respondent/interviewer can
 change the language of the questionnaire, by clicking on ***Original***
 at the *top right corner of the screen*.  
   
-![](images/826433.png)  
+{{< imgproc "images/826433.png" Fit "800x600" />}}  
    
 **To add a comment to any question,**  
    
 1) Click on the 3 vertical dots at the upper right corner.  
-![](images/826435.png)  
+{{< imgproc "images/826435.png" Fit "800x600" />}}  
 2) Click on *Add comment.  
-![](images/826436.png)*  
+{{< imgproc "images/826436.png" Fit "800x600" />}}*  
 2) Type the comment in the box that appears.  
-![](images/826437.png)  
+{{< imgproc "images/826437.png" Fit "800x600" />}}  
 3) Click on *Post*. Once posted the comment cannot be deleted or edited.
 However, another comment can be added.    
-![](images/826438.png)  
+{{< imgproc "images/826438.png" Fit "800x600" />}}  
    
 **To go back to the homepage to logoff,**  
    
 1) Click on the pencil icon on the upper left hand side.  
-![](images/826439.png)  
+{{< imgproc "images/826439.png" Fit "800x600" />}}  
 2) Click on the username at the upper right hand corner and click on
 Logoff.   
-![](images/826440.png)
+{{< imgproc "images/826440.png" Fit "800x600" />}}

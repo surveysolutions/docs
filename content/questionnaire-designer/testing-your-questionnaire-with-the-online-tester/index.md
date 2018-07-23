@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Testing Your Questionnaire with the Online Tester"
 keywords = ["testing, tester, online "]
 date = 2018-04-23T22:37:47Z
@@ -24,13 +24,13 @@ article](http://support.mysurvey.solutions/customer/en/portal/articles/2505348-t
 To begin first, fix any compilation errors that may pop-up. Next, click
 on the Test button at the top of the page.   
   
-![](images/871985.png)  
+{{< imgproc "images/871985.png" Fit "800x600" />}}  
 A new window/tab will open with your questionnaire.  
-![](images/871986.png)  
+{{< imgproc "images/871986.png" Fit "800x600" />}}  
   
 If you make a change in the questionnaire, use the reload button to
 refresh the questionnaire. If your questionnaire is in one or more
 languages, use the translation button the switch between
 languages. </span>  
   
-![](images/871988.png)
+{{< imgproc "images/871988.png" Fit "800x600" />}}

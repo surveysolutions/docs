@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Version 5.23"
 keywords = [""]
 date = 2017-09-01T15:29:53Z
@@ -29,7 +29,7 @@ Improved reports
 
 #### Status Duration
 
-![](images/813569.png)
+{{< imgproc "images/813569.png" Fit "800x600" />}}
 
 While most reports show survey progress, the Status Duration report
 carefully flags lack of progress. By seeing how many days interviews
@@ -42,7 +42,7 @@ the same status.
 
 #### Devices/Interviewers
 
-![](images/813575.png)  
+{{< imgproc "images/813575.png" Fit "800x600" />}}  
 Troubleshooting can be hard. To make this difficult task somewhat
 easier, the Devices/Interviewers report compiles information on
 potential problems—failures to sync with the server (NEVER CONNECTED),
@@ -54,7 +54,7 @@ tablet info.
 
 ### Facility for exporting reports to XLS, CSV, and TAB formats
 
-![](images/813576.png)  
+{{< imgproc "images/813576.png" Fit "800x600" />}}  
 Even if you have moved to CAPI, your bosses or clients may still want
 paper reports. To make traditional reporting easier, all tables on the
 Reports tab can now be exported to XLSX, CSV, or TAB format. From that
@@ -86,7 +86,7 @@ more functional than aesthetic.
 First, Interviews have a new action menu. Upon (left-) clicking on any
 interview, the Headquarters or Supervisor user will see a menu of
 actions available.  
-![](images/813577.png)
+{{< imgproc "images/813577.png" Fit "800x600" />}}
 
 Second, some of the menu actions are new actions. The Show Status
 History option shows a status report for the selected interview in
@@ -94,7 +94,7 @@ clear, compact format—showing what status change occurred (STATE), when
 it happened (CHANGED ON), who initiated the change (BY), who picked up
 the interview (ASSIGNED TO) , and some optional notes on why the change
 occurred (COMMENTS).  
-![](images/813578.png)
+{{< imgproc "images/813578.png" Fit "800x600" />}}
 
 The Open responsible’s profile option takes the user to a detailed
 report on the interviewer’s recent synchronization activity, connection

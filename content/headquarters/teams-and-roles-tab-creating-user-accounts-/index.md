@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Teams and Roles Tab: Creating User Accounts "
 keywords = ["create user","create supervisor","create interviewer","accounts"]
 date = 2016-06-30T06:28:59Z
@@ -8,7 +8,7 @@ aliases = ["/customer/portal/articles/2482233-teams-and-roles-tab-creating-user-
 +++
 
   
-![](images/744280.png)  
+{{< imgproc "images/744280.png" Fit "800x600" />}}  
   
   
 The *Teams and Roles* tab provides tools for managing the human
@@ -31,13 +31,13 @@ Every survey needs supervisors. To add a supervisor, click on the *Add
 supervisor* button at the top of the Supervisors tab, and enter all the
 requisite information.  
   
- ![](images/773816.png)  
+ {{< imgproc "images/773816.png" Fit "800x600" />}}  
   
   
-![](images/773819.png)  
+{{< imgproc "images/773819.png" Fit "800x600" />}}  
   
   
-![](images/773820.png)  
+{{< imgproc "images/773820.png" Fit "800x600" />}}  
   
 To send an email to a user, click on the user’s email address. The
 default email client setup on your computer will start to facilitate
@@ -50,7 +50,7 @@ any of the following actions: change the password for the supervisor
 account (e.g., if the password is forgotten) or lock all access to the
 account (e.g., if the supervisor is fired due to poor performance).  
   
-![](images/773825.png)  
+{{< imgproc "images/773825.png" Fit "800x600" />}}  
  
 
 ### Archiving supervisor accounts
@@ -64,7 +64,7 @@ longer be able to sync with headquarters.
 To archive a supervisor, select the check boxes for the supervisor(s)
 you wish to archive and click on the red *archive* button.  
   
-![](images/773833.png)  
+{{< imgproc "images/773833.png" Fit "800x600" />}}  
   
 Archived interviewer accounts can be restored. On the supervisors page,
 find the archived users using the *Archive Status* filter on the right
@@ -81,10 +81,10 @@ Each supervisor needs interviewers. To add a new interviewer to a given
 supervisor’s team, click on the green *Create* button under the
 *Interviewer* link under the *Teams and Role* tab.  
   
-![](images/744260.png)  
+{{< imgproc "images/744260.png" Fit "800x600" />}}  
   
   
-![](images/744261.png)  
+{{< imgproc "images/744261.png" Fit "800x600" />}}  
   
   
 To send an email to a user, click on the user’s email address. The
@@ -96,12 +96,12 @@ To modify an interviewer’s account—change the password or lock the
 account—click on the interviewer’s name.  
   
   
-![](images/653435.png)  
+{{< imgproc "images/653435.png" Fit "800x600" />}}  
   
 To monitor an interviewer, check the activation status in the *Connected
 to device* column and the synchronization log.  
   
-![](images/744262.png)  
+{{< imgproc "images/744262.png" Fit "800x600" />}}  
   
 The *Connected to device* column displays the status of the tablet’s
 activation or in other words it will show if an interviewer has
@@ -120,9 +120,9 @@ To archive an interviewer, select the check box associated with the
 interviewer(s), then click on the red archive button. Lastly, confirm
 the action.  
   
-![](images/744269.png)  
+{{< imgproc "images/744269.png" Fit "800x600" />}}  
   
-![](images/744275.png)  
+{{< imgproc "images/744275.png" Fit "800x600" />}}  
   
 Archived interviewer accounts can be restored. On the interviewers page,
 find the archived users by selecting *Archived users* on the menu on the
@@ -130,9 +130,9 @@ left hand side. Then, select the check box associated with the
 interviewer(s), and click on the unarchive button at the bottom of the
 page. Lastly, confirm the action.   
   
-![](images/744276.png)  
+{{< imgproc "images/744276.png" Fit "800x600" />}}  
   
-![](images/744277.png)  
+{{< imgproc "images/744277.png" Fit "800x600" />}}  
   
   
  
@@ -145,18 +145,18 @@ Every survey needs one or more headquarters user. To manage
 headquarters, click on *Headquarters* in the drop down menu under the
 *Teams and Roles* menu.  
   
-![](images/744237.png)  
+{{< imgproc "images/744237.png" Fit "800x600" />}}  
   
 To add a headquarters user, click on the green *Add headquarters* button
 at the top of the page, and enter all the requisite information.  
   
-![](images/744240.png)  
+{{< imgproc "images/744240.png" Fit "800x600" />}}  
   
   
 To modify a headquarters’ account—change the password or lock the
 account—click on the headquarters username.  
   
-![](images/744241.png)  
+{{< imgproc "images/744241.png" Fit "800x600" />}}  
   
   
  
@@ -172,19 +172,19 @@ deleting or modifying an interview assignment.
 To manage observers, click on *Observers* in the drop down menu under
 *Teams and Roles.*  
   
-![](images/744246.png)  
+{{< imgproc "images/744246.png" Fit "800x600" />}}  
   
   
 To add an observer user, click on the green *Add observers* button at
 the top of the page, and enter all the requisite information.  
   
-![](images/744248.png)  
+{{< imgproc "images/744248.png" Fit "800x600" />}}  
   
   
-![](images/744250.png)  
+{{< imgproc "images/744250.png" Fit "800x600" />}}  
   
   
 To modify an observers’ account—change the password or lock the
 account—click on the observer’s name.  
   
-![](images/744252.png)
+{{< imgproc "images/744252.png" Fit "800x600" />}}

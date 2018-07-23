@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Geography Question"
 keywords = [""]
 date = 2017-10-12T18:32:01Z
@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2888303-geography-question"]
 Description 
 ------------
 
-![](images/825285.png) A Geography question can capture various
+{{< imgproc "images/825285.png" Fit "800x600" />}} A Geography question can capture various
 geographic information as listed below:  
   
  
@@ -31,9 +31,9 @@ In Questionnaire Designer, 
 
 1.  Click on the Question Type text box.
 2.  Select Geography from the pop-up menu.  
-    ![](images/885524.png)
+    {{< imgproc "images/885524.png" Fit "800x600" />}}
 3.  Choose the Geometry type from the menu, and save the changes.   
-    ![](images/885526.png)
+    {{< imgproc "images/885526.png" Fit "800x600" />}}
 
 Distribute maps
 ---------------
@@ -43,7 +43,7 @@ Distribute maps
 Map assignments, like all other assignments made on Headquarters, are
 part of survey setup.  
   
-![](images/839994.png)
+{{< imgproc "images/839994.png" Fit "800x600" />}}
 
 To make assignments, follow these simple steps:
 
@@ -57,7 +57,7 @@ To make assignments, follow these simple steps:
     free to use tools)</span></span>
 -   **Next, assign maps to users.** Click on the Update user-to-map
     linking. Upload a tab-delimited file that assigns one or more maps
-    to users. ![](images/839995.png)
+    to users. {{< imgproc "images/839995.png" Fit "800x600" />}}
 
 For any given map, the survey manager may preview the map on
 Headquarters, and see the users to whom it is assigned
@@ -74,7 +74,7 @@ assigned maps. 
 1) When downloading the Interviewer application on the tablet, uncheck
 the *Exclude ESRI Map support* check box. Then, follow all the steps
 outlined in this article.   
-![](images/825292.png)  
+{{< imgproc "images/825292.png" Fit "800x600" />}}  
   
 2) Synchronize to receive maps on tablets
 
@@ -83,7 +83,7 @@ downloaded via synchronization. Because map assignments are special (and
 may contain very large files), their synchronization has a special
 screen and special process that is separate from typical
 synchronization.  
-![](images/839997.png)
+{{< imgproc "images/839997.png" Fit "800x600" />}}
 
 To download assigned maps, follow these steps:
 
@@ -107,7 +107,7 @@ should select a map first. Tap on the button in the upper right corner,
 as shown below. Then, select a map from the list and close the
 window.   
   
-![](images/827810.png)  
+{{< imgproc "images/827810.png" Fit "800x600" />}}  
   
 **Select an Area**  
   
@@ -116,11 +116,11 @@ that represents the coordinates of the area to appear. You can edit the
 shape by adding more coordinates or moving the existing dots/area. Once
 complete tap on *Save*.  
   
-![](images/825301.png)  
+{{< imgproc "images/825301.png" Fit "800x600" />}}  
   
 The area and length will appear.    
   
-![](images/825293.png)  
+{{< imgproc "images/825293.png" Fit "800x600" />}}  
   
 **Edit shape**  
 Tap *To edit area *button to revise the selected map.You can edit the
@@ -138,4 +138,4 @@ variable is the question’s variable name that was defined in the
 Questionnaire Designer.   
   
 Example: answered geography question (named *area*) with 3 points:  
-![](images/825296.png)
+{{< imgproc "images/825296.png" Fit "800x600" />}}

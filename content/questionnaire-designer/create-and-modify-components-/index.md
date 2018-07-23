@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Create and Modify Components "
 keywords = ["create","new","sections","sub-section","roster","question types","variables","static-text","building questionnaire"]
 date = 2016-06-16T19:53:02Z
@@ -41,7 +41,7 @@ and static texts). 
     arrow button to the right. 
 3.  From the pop-up menu select the questionnaire component that you
     would like to create.   
-    ![](images/643277.png)
+    {{< imgproc "images/643277.png" Fit "800x600" />}}
 
   
 ***Second Method***
@@ -52,7 +52,7 @@ and static texts). 
 3.  dd question, add sub-section, add roster, add variable or add static
     text.   
       
-    ![](images/643281.png)
+    {{< imgproc "images/643281.png" Fit "800x600" />}}
 
   
 For questions, static texts, and subsections you may also use text
@@ -70,7 +70,7 @@ in any sub-section or roster) or within sub-section or rosters.
 
  
 
-1.  Click on the table contents button ![](images/643289.png) located
+1.  Click on the table contents button {{< imgproc "images/643289.png" Fit "800x600" />}} located
     at the top left of the screen. A panel showing all the sections
     within the questionnaire will display.
 2.  Click on the *Add New Section* link to add a new section.​
@@ -78,7 +78,7 @@ in any sub-section or roster) or within sub-section or rosters.
     substitution to reference questions and user-defined or
     system-defined variables in the text.  To do this, enclose the
     question or variable name with the percentage sign (%)​.  
-    ![](images/643286.png)</span>
+    {{< imgproc "images/643286.png" Fit "800x600" />}}</span>
 
   
   
@@ -102,11 +102,11 @@ All questionnaire components with can be selected in the same manner.
     section, open the questionnaire table of contents with the button
     located on the top left and click on the appropriate section.  
       
-    ![](images/643367.png)
+    {{< imgproc "images/643367.png" Fit "800x600" />}}
 2.  Once you select a component you can move or delete the component. In
     the right hand panel, you can add or modify the
     component properties.  
-    ![](images/643368.png)
+    {{< imgproc "images/643368.png" Fit "800x600" />}}
 
   
   
@@ -131,7 +131,7 @@ on.
     section in the questionnaire table of contents.
 2.  Select *Copy* from the pop-up menu.  
       
-    ![](images/643370.png)
+    {{< imgproc "images/643370.png" Fit "800x600" />}}
 
 ***If you want to past the sub-section in another questionnaire, open
 that questionnaire in Designer.)***
@@ -184,10 +184,10 @@ that questionnaire in Designer.)***
         your mouse to the right hand side that you would like to
         move and click.  
           
-        ![](images/643378.png)
+        {{< imgproc "images/643378.png" Fit "800x600" />}}
     3.  Drag the component and release it in its new location.  
           
-        ![](images/643380.png)
+        {{< imgproc "images/643380.png" Fit "800x600" />}}
 
      
 
@@ -233,7 +233,7 @@ that questionnaire in Designer.)***
     1.  Navigate to the section table of contents or the questionnaire
         table of contents.
     2.  Right click on the component you would like to delete.
-    3.  In the pop-link.![](images/643386.png)
+    3.  In the pop-link.{{< imgproc "images/643386.png" Fit "800x600" />}}
 
       
       
@@ -243,4 +243,4 @@ that questionnaire in Designer.)***
     1.  Select the component you would like to delete.
     2.  Click on the *DELETE* link in the right hand panel.  
           
-        ![](images/643387.png)
+        {{< imgproc "images/643387.png" Fit "800x600" />}}

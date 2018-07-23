@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Multilingual Questionnaires"
 keywords = ["multiple language","translation","localization"]
 date = 2016-11-02T19:07:27Z
@@ -15,26 +15,26 @@ questionnaires directly in Designer as follows:
 
 1.  After you are satisfied with the design of the questionnaire in the
     language of origin, click on the translation button in the advanced
-    instrument panel on the left. ![](images/710329.png)
+    instrument panel on the left. {{< imgproc "images/710329.png" Fit "800x600" />}}
 2.  Click on the link for downloading the questionnaire template in
     excel format. This file can be opened with Microsoft Excel, Open
-    Office Calc, and other similar applications.![](images/710331.png)
+    Office Calc, and other similar applications.{{< imgproc "images/710331.png" Fit "800x600" />}}
 3.  The only fields that should be edited are in the column labeled
     *Translation*.  The translator can refer to the original text on the
     field on the left, and type the translation in the field on the
     right.  
       
-    ![](images/710337.png)  
+    {{< imgproc "images/710337.png" Fit "800x600" />}}  
       
     Answer options are placed in their own dedicated sheet, as shown
     below. The name of each such additional sheet is formed by
     prepending the variable name with a special marker “@@\_”.  
       
-    ![](images/711150.png)
+    {{< imgproc "images/711150.png" Fit "800x600" />}}
 4.  After the translation has been completed, save the file.
 5.  Then, go back to the translation panel in Questionnaire Designer and
     click on *Upload New Translation*.  Select your
-    file.![](images/710344.png)
+    file.{{< imgproc "images/710344.png" Fit "800x600" />}}
 
 Since the name of the translation file defined here will appear exactly
 as is, on the Interviewer Application, you may want to the edit the name
@@ -50,7 +50,7 @@ and updated by re-uploading the file with the </span>*Update*<span
 style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;; font-size: 13px; background-color: rgb(255, 255, 255);"> button.</span>  
   
 You may also set a default language for the survey.   
-![](images/839988.png)  
+{{< imgproc "images/839988.png" Fit "800x600" />}}  
   
   
 You can also see a video tutorial demonstrating these steps:

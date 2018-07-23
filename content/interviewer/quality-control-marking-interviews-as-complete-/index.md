@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Quality Control & Marking Interviews as Complete "
 keywords = ["check","review","complete","interviewer","app","application"]
 date = 2016-07-14T22:15:45Z
@@ -29,7 +29,7 @@ question are unanswered. Red indicates that one or more questions in the
 answer have an invalid answer—that is, an answer that violates the
 validation condition.  
   
-![](images/658863.png)  
+{{< imgproc "images/658863.png" Fit "800x600" />}}  
   
   
 The third method is to navigate to the module on the navigation pane
@@ -38,7 +38,7 @@ invalid questions are displayed. The interviewer can identify the
 unanswered questions by opening the navigation pane (as described
 above), and navigate to errors flagged by pressing on each one on the
 *Complete* screen.  
-![](images/658864.png)  
+{{< imgproc "images/658864.png" Fit "800x600" />}}  
   
  
 

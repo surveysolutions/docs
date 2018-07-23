@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Headquarters user: Browsing the Completed Interview"
 keywords = ["check ","review","headuarters"]
 date = 2016-07-19T15:44:25Z
@@ -19,7 +19,7 @@ username and password:
 **Password:** Headquarters1   
   
   
-![](images/774368.png)  
+{{< imgproc "images/774368.png" Fit "800x600" />}}  
   
   
  
@@ -31,7 +31,7 @@ Step 2
 Go to the *Interviews* tab  
   
   
-![](images/774369.png)  
+{{< imgproc "images/774369.png" Fit "800x600" />}}  
   
   
  
@@ -44,7 +44,7 @@ From the filter on the left side of the screen, select *Approved By
 Supervisor*  
   
   
-![](images/774370.png)  
+{{< imgproc "images/774370.png" Fit "800x600" />}}  
   
   
  
@@ -56,7 +56,7 @@ Step 4
 Click on the interview key for the survey case that you would like to
 browse.  
   
-![](images/774372.png)  
+{{< imgproc "images/774372.png" Fit "800x600" />}}  
   
   
   
@@ -73,4 +73,4 @@ Step 5
 If the interview should be approved, click on the *Approve* button. To
 return it to the supervisor, click on the *Reject* button.  
   
-![](images/774371.png)
+{{< imgproc "images/774371.png" Fit "800x600" />}}

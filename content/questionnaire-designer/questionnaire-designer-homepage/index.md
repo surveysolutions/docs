@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Questionnaire Designer Homepage"
 keywords = ["homepage","My Questionnaires","edit","create new","action","copy questionnaire","delete questionnaire "]
 date = 2016-06-14T19:32:00Z
@@ -32,7 +32,7 @@ consists of: </span></span></span>
 
  
 
-![](images/711133.png)
+{{< imgproc "images/711133.png" Fit "800x600" />}}
 
  
 
@@ -51,12 +51,12 @@ consists of: </span></span></span>
     new*<span style="line-height: 20.8px;"> tab at the top of the
     screen.   
       
-    ![](images/711135.png)</span>
+    {{< imgproc "images/711135.png" Fit "800x600" />}}</span>
 
 2.  <span style="line-height: 20.8px;">In the new window, define the
     name for the questionnaire.</span>  
       
-    ![](images/711136.png)
+    {{< imgproc "images/711136.png" Fit "800x600" />}}
 
 3.  <span style="line-height: 20.8px;">Click on the
     *Create*</span>* *<span style="line-height: 20.8px;">button</span>
@@ -71,13 +71,13 @@ consists of: </span></span></span>
     like to work on.
 
       
-    ![](images/711137.png)
+    {{< imgproc "images/711137.png" Fit "800x600" />}}
 
 3.  Select copy from the menu.
 
 4.  Enter the name for the copied questionnaire and click *Copy*.   
       
-    ![](images/711138.png)
+    {{< imgproc "images/711138.png" Fit "800x600" />}}
 
 5.  The questionnaire will now be listed under the *My Questionnaires*
     tab.            
@@ -95,7 +95,7 @@ Method 1. 
 
   
   
-![](images/711139.png)  
+{{< imgproc "images/711139.png" Fit "800x600" />}}  
   
 Method 2. 
 
@@ -106,7 +106,7 @@ Method 2. 
 
 3.  ​​Select *Open* from the menu to display the editor screen.   
       
-    ![](images/711140.png)
+    {{< imgproc "images/711140.png" Fit "800x600" />}}
 
 ###  
 
@@ -120,7 +120,7 @@ Method 2. 
 3.  ​Select *Delete* from the menu. Note that you cannot undo this
     action.   
       
-    ![](images/711141.png)
+    {{< imgproc "images/711141.png" Fit "800x600" />}}
 
 ### <span id="public"></span>Find public questionnaires  
 
@@ -131,4 +131,4 @@ Method 2. 
     are organized into thematic groups. </span>Click on any folder to
     see the questionnaires for that category. 
 
-​![](images/852883.png)
+​{{< imgproc "images/852883.png" Fit "800x600" />}}

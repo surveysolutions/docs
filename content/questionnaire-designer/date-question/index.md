@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Date Question"
 keywords = ["date","calendar","time stamp","current time","export"]
 date = 2016-06-18T22:09:44Z
@@ -12,7 +12,7 @@ Description 
 
  
 
-![](images/643186.png)  
+{{< imgproc "images/643186.png" Fit "800x600" />}}  
 A **date** question expects a date from the Gregorian calendar as an
 answer.   
   
@@ -21,7 +21,7 @@ answer. 
   
  
 
-![](images/644247.png)  
+{{< imgproc "images/644247.png" Fit "800x600" />}}  
   
  
 
@@ -36,7 +36,7 @@ In Questionnaire Designer,
 1.  Click on the Question Type box.
 2.  Select Date from the list displayed.  
       
-    ![](images/644248.png)
+    {{< imgproc "images/644248.png" Fit "800x600" />}}
 
   
   
@@ -52,7 +52,7 @@ To answer a date question an enumerator must do the following:
 2.  Select the appropriate date on the calendar.
 3.  Click on *Set* below the calendar.  
       
-    ![](images/644249.png)
+    {{< imgproc "images/644249.png" Fit "800x600" />}}
 
   
   
@@ -62,7 +62,7 @@ To answer a date question an enumerator must do the following:
 Then, the answer field will display the date selected by the
 enumerator.  
   
-![](images/644250.png)  
+{{< imgproc "images/644250.png" Fit "800x600" />}}  
   
   
   
@@ -80,7 +80,7 @@ Options
 To create a current time question, check the box labeled Current
 Time.   
   
-![](images/659122.png)
+{{< imgproc "images/659122.png" Fit "800x600" />}}
 
   
   
@@ -89,7 +89,7 @@ To answer a current time date question on a tablet,
 1.  Tap on the *Tap to record current time* box.
 2.  The current time on the tablet will automatically be recorded.  
       
-    ![](images/659123.png)
+    {{< imgproc "images/659123.png" Fit "800x600" />}}
 
   
   
@@ -111,29 +111,29 @@ date question is “yyyy-mm-dd”. 
 ### Date question
 
   
-![](images/644251.png)  
+{{< imgproc "images/644251.png" Fit "800x600" />}}  
   
   
 Unanswered question exported in tab-delimited file  
   
-![](images/644252.png)  
+{{< imgproc "images/644252.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
   
-![](images/644253.png)  
+{{< imgproc "images/644253.png" Fit "800x600" />}}  
   
   
  
 
 ### Current time date question
 
-![](images/659124.png)  
+{{< imgproc "images/659124.png" Fit "800x600" />}}  
   
 Unanswered question exported in tab-delimited file  
   
-![](images/659125.png)  
+{{< imgproc "images/659125.png" Fit "800x600" />}}  
   
 Answered question exported in tab-delimited file  
   
-![](images/659126.png)
+{{< imgproc "images/659126.png" Fit "800x600" />}}

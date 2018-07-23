@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Lookup Tables"
 keywords = ["conditions","table","reference","rowcode"]
 date = 2016-06-16T16:33:33Z
@@ -44,10 +44,10 @@ How to upload a look up table
 1.  Click on the *lookup table icon*<span
     style="line-height: 20.8px;"> on the left hand panel.  
       
-    ![](images/643037.png)</span>
+    {{< imgproc "images/643037.png" Fit "800x600" />}}</span>
 2.  Click on the *Add new lookup table*link.  
       
-    *![](images/643038.png)*
+    *{{< imgproc "images/643038.png" Fit "800x600" />}}*
 3.  Type in the *table name, *and click on the *select file *link to
     upload the table delimited lookup table.
 4.  Click *save.*
@@ -74,7 +74,7 @@ Suppose, that you want to add a validation condition that provides an
 error message for plot areas that are greater than 2 hectares.  
   
   
- ![](images/643050.png)  
+ {{< imgproc "images/643050.png" Fit "800x600" />}}  
    
   
 However, the single-select unit question allows for the plot area to be
@@ -83,18 +83,18 @@ reported in other units of measurement in addition to hectare.
 The tab delimited lookup table with unit conversion factors.  
   
   
-![](images/643046.png)  
+{{< imgproc "images/643046.png" Fit "800x600" />}}  
   
 After uploading the tab-delimited lookup table following the directions
 explained previously,  
   
-![](images/643052.png)  
+{{< imgproc "images/643052.png" Fit "800x600" />}}  
   
   
 We will add the following validation expression to the single-select
 unit question.   
   
-![](images/643055.png)  
+{{< imgproc "images/643055.png" Fit "800x600" />}}  
   
   
 Here, *plotarea* refers to numeric area question. *ConversionFactors* is

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Distribute an Assignment"
 keywords = [""]
 date = 2017-09-20T20:28:13Z

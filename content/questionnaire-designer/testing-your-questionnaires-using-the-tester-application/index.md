@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Testing Your Questionnaires Using the Tester Application"
 keywords = ["testing","tester","app","google play","tablet"]
 date = 2016-07-21T17:20:36Z
@@ -196,7 +196,7 @@ Step 7
 **You are ready to test the questionnaire!**  
   
   
-![](images/661369.png)
+{{< imgproc "images/661369.png" Fit "800x600" />}}
 
   
 If you have made changes to the questionnaire in Designer and want to
@@ -207,4 +207,4 @@ you have made in Designer will now be applied in Tester. Any data that
 you have entered previously will remain after reloading the
 questionnaire.  
   
-![](images/795433.png)
+{{< imgproc "images/795433.png" Fit "800x600" />}}

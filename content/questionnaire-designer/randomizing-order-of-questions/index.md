@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Randomizing order of questions"
 keywords = [""]
 date = 2017-07-17T16:30:51Z
@@ -29,7 +29,7 @@ We will rely on the following Survey Solutions elements:
 
 In Survey Solutions Designer tool, we will compose a questionnaire like
 the following:  
-![](images/798456.png)  
+{{< imgproc "images/798456.png" Fit "800x600" />}}  
   
 This questionnaire is available as [Public example: Randomizing order of
 questions](https://solutions.worldbank.org/questionnaire/details/fee4777ff17c4791a86c55ce9d96a6ee)  
@@ -42,7 +42,7 @@ Each of the variables in turn is computed based on selecting the
 corresponding item from a shuffled array of questions, which is
 delivered by a macro:  
   
-![](images/798457.png)  
+{{< imgproc "images/798457.png" Fit "800x600" />}}  
   
 Note also that we are using only one random number even though we have N
 steps of shuffling, we do this by looking at different digits of that

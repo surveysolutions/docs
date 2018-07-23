@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Uploading Many Assignments at a time"
 keywords = ["sample","upload ","batch"]
 date = 2016-06-27T21:43:12Z
@@ -27,7 +27,7 @@ information will appear on the dashboard of enumerator app for each
 interview for which they are responsible.  
   
   
-![](images/795408.png)  
+{{< imgproc "images/795408.png" Fit "800x600" />}}  
   
   
 When designing the questionnaire template, each of the identifying
@@ -36,7 +36,7 @@ as ***Identifying***. To do this, select ***Identifying*** as the scope
 of the question.   
   
   
-![](images/774325.png)  
+{{< imgproc "images/774325.png" Fit "800x600" />}}  
   
   
 After creating the questionnaire, you must define the sample for
@@ -65,7 +65,7 @@ blank or if there is no *\_quantity* column in your tab delimited file,
 then the quantity of interview will automatically be set to '1' per
 assignment.  
   
-![](images/795400.png)  
+{{< imgproc "images/795400.png" Fit "800x600" />}}  
   
  
 
@@ -81,7 +81,7 @@ which you would like to upload the sample. Once the list of options is
 displayed select ***Upload assignments***.  
   
   
-![](images/795371.png)  
+{{< imgproc "images/795371.png" Fit "800x600" />}}  
   
   
 Afterwards, click the ***Upload .tab File*** button to select the .tab
@@ -90,7 +90,7 @@ variables and what the .tab data file should look like for the
 questionnaire template, then click on ***Download .tab Template for this
 Questionnaire.***  
   
-![](images/795375.png)  
+{{< imgproc "images/795375.png" Fit "800x600" />}}  
   
  
 
@@ -107,7 +107,7 @@ selecting the responsible supervisor or interviewer, click on the
 each supervisor or interviewer if you do not include a *\_responsible*
 column in the .tab file.  
   
-![](images/795407.png)  
+{{< imgproc "images/795407.png" Fit "800x600" />}}  
   
 If there are errors in your .tab file, then it will list what the errors
 are. Once you have fixed these errors, you can try to upload the .tab

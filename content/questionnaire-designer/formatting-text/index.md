@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Formatting Text"
 keywords = ["html","bold","italics","underline","color","text","format"]
 date = 2016-06-22T21:38:27Z
@@ -60,7 +60,7 @@ use </span>&lt;/font&gt; to discontinue the color change.
 Standard (case-insensitive) color names as per HTML 4.01 specification
 are available:  
   
-![](images/710911.png)  
+{{< imgproc "images/710911.png" Fit "800x600" />}}  
   
 In addition to the above mentioned named colors any other color may be
 applied by directly specifying its RGB value.  
@@ -73,8 +73,8 @@ applied by directly specifying its RGB value.
   
 In Questionnaire Designer  
   
-![](images/646225.png)  
+{{< imgproc "images/646225.png" Fit "800x600" />}}  
   
 On a tablet  
   
-![](images/646228.png)
+{{< imgproc "images/646228.png" Fit "800x600" />}}

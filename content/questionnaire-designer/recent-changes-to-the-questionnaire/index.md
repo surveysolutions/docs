@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Recent Changes to the Questionnaire"
 keywords = ["history","questionnaire","edit"]
 date = 2016-06-15T20:40:11Z
@@ -22,4 +22,4 @@ questionnaire back to that earlier version. For questionnaires edits
 made *after* the release of version 5.15, all changes to a questionnaire
 can be undone.   
   
-![](images/732221.png)
+{{< imgproc "images/732221.png" Fit "800x600" />}}

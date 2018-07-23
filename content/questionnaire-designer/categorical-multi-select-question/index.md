@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Categorical: Multi-Select Question"
 keywords = ["multiselect","multi select","export","yes/no mode","ordered","answer order","maximum answer","linked","filtered option","export"]
 date = 2016-06-21T16:53:47Z
@@ -11,7 +11,7 @@ Description
 -----------
 
   
-![](images/643203.png)A *categorical: multi-select* **** question
+{{< imgproc "images/643203.png" Fit "800x600" />}}A *categorical: multi-select* **** question
 expects one or more answers to be selected from a list of possible
 answers (categories). The list of possible answers can either be defined
 before the interview or it can be created during the interview. If you
@@ -52,7 +52,7 @@ household members received any type of aid last month?” This question
 will be a categorical multiple-answer question linked to a household
 list roster.  
   
-![](images/645371.png)  
+{{< imgproc "images/645371.png" Fit "800x600" />}}  
   
  
 
@@ -65,7 +65,7 @@ In Questionnaire Designer
 1.  Click on the Question Type box.
 2.  Select Categorical: Multi-select from the list displayed.  
       
-    ![](images/645375.png)
+    {{< imgproc "images/645375.png" Fit "800x600" />}}
 
   
   
@@ -82,7 +82,7 @@ from a document.**
 3.  Add the label corresponding to the code. Each label defines a
     possible answer.  
       
-    ![](images/645390.png)
+    {{< imgproc "images/645390.png" Fit "800x600" />}}
 
   
   
@@ -92,13 +92,13 @@ from a document.**
 
 1.  Click on *Show Strings* link.  
       
-    ![](images/645400.png)  
+    {{< imgproc "images/645400.png" Fit "800x600" />}}  
 2.   
 3.  Paste the category titles and their corresponding codes in the box.
     The category title and code must be separated by one or more dots
     (“.").   
       
-    ![](images/645402.png)  
+    {{< imgproc "images/645402.png" Fit "800x600" />}}  
      
 
  
@@ -110,7 +110,7 @@ How a categorical: multi-select question appears on a tablet
 The enumerator selects one or more answer options by selecting each
 checkbox.  
   
-![](images/645371.png)  
+{{< imgproc "images/645371.png" Fit "800x600" />}}  
   
  
 
@@ -130,13 +130,13 @@ Consider the following question as an example: “Does the enterprise sell
 To display the yes/no radio buttons for each item, click on the *YES/NO
 mode* checkbox.   
   
-![](images/645413.png)  
+{{< imgproc "images/645413.png" Fit "800x600" />}}  
   
   
 On a tablet, an enumerator selects one of two radio buttons denoting
 “Yes” and “No” for each category listed.  
   
-![](images/645414.png)  
+{{< imgproc "images/645414.png" Fit "800x600" />}}  
   
  
 
@@ -152,7 +152,7 @@ order* box. Consider the following question as an example: “Select, in
 order of importance, the three most important values a person should
 have”.  
   
-![](images/645415.png)  
+{{< imgproc "images/645415.png" Fit "800x600" />}}  
   
   
 When the enumerator begins selecting options, sequential numbers
@@ -160,7 +160,7 @@ When the enumerator begins selecting options, sequential numbers
 category. In this example, the enumerator selected *Honesty* first,
 followed by *Other*, and then *Gratitude* lastly.  
   
-![](images/645416.png)  
+{{< imgproc "images/645416.png" Fit "800x600" />}}  
   
   
  
@@ -174,7 +174,7 @@ assigning a maximum number of valid answers.
 In order to limit the number of selected categories in an answer you can
 add the maximum valid number in the *Max number of answers* field.  
   
-![](images/645417.png)  
+{{< imgproc "images/645417.png" Fit "800x600" />}}  
   
   
 The enumerator may select the same or less than the number of categories
@@ -182,7 +182,7 @@ as the defined maximum number of answers (in this example the maximum
 number is 3). Once the maximum number of categories have been selected
 the remaining will be disabled.   
   
-![](images/645418.png)  
+{{< imgproc "images/645418.png" Fit "800x600" />}}  
   
  
 
@@ -205,7 +205,7 @@ asks the names of all the household members.
 
   
   
-![](images/645436.png)  
+{{< imgproc "images/645436.png" Fit "800x600" />}}  
   
  
 
@@ -244,7 +244,7 @@ child) by writing:
     age > @current.age
 
   
-![](images/659127.png)  
+{{< imgproc "images/659127.png" Fit "800x600" />}}  
   
 To add a condition on the answer options of a categorical question,
 define the filter in the *Filter* box.  
@@ -299,19 +299,19 @@ options.
   
 **Categorical multi-select question that is not linked**  
   
-*![](images/645390.png)*  
+*{{< imgproc "images/645390.png" Fit "800x600" />}}*  
   
   
-![](images/645458.png)  
+{{< imgproc "images/645458.png" Fit "800x600" />}}  
   
   
 Unanswered question exported in tab-delimited file  
   
-![](images/645462.png)  
+{{< imgproc "images/645462.png" Fit "800x600" />}}  
   
 Answered question exported in tab-delimited file  
   
-![](images/645463.png)  
+{{< imgproc "images/645463.png" Fit "800x600" />}}  
   
   
 **Multi-select question in yes/no mode**  
@@ -321,20 +321,20 @@ The second example refers to the question: “Does the enterprise sell
 vegetables, fruits, and meat and fish respectively. The enumerator
 selects “yes” or “no” for each of the categories listed.   
   
-![](images/645475.png)  
+{{< imgproc "images/645475.png" Fit "800x600" />}}  
   
   
-![](images/645478.png)  
+{{< imgproc "images/645478.png" Fit "800x600" />}}  
   
   
 Unanswered question exported in tab-delimited file  
   
-![](images/645480.png)  
+{{< imgproc "images/645480.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
   
-![](images/645483.png)  
+{{< imgproc "images/645483.png" Fit "800x600" />}}  
   
   
 The next example illustrates a categorical: multi-select question that
@@ -345,23 +345,23 @@ codes from 1 to 6 represents: honesty, sincerity, loyalty, gratitude,
 respect and other respectively.  
   
   
-![](images/645496.png)  
+{{< imgproc "images/645496.png" Fit "800x600" />}}  
   
   
   
-![](images/645497.png)  
+{{< imgproc "images/645497.png" Fit "800x600" />}}  
   
   
   
 Unanswered question exported in tab-delimited file  
   
-![](images/661517.png)  
+{{< imgproc "images/661517.png" Fit "800x600" />}}  
   
   
   
 Answered question exported in tab-delimited file  
   
-![](images/661518.png)  
+{{< imgproc "images/661518.png" Fit "800x600" />}}  
   
 Because of this question’s defined properties (the enumerator can select
 a maximum of three categories. In this example, the maximum number of
@@ -381,24 +381,24 @@ Mary and Michael. The system automatically creates the codes: 0,1,2 and
 3 for each name respectively. If Ann, Mary and Michael have received
 aid, the system exports the values 0, 2 and 3.  
   
-![](images/645517.png)  
+{{< imgproc "images/645517.png" Fit "800x600" />}}  
   
   
 **Previous question located within a roster**  
   
-![](images/645521.png)  
+{{< imgproc "images/645521.png" Fit "800x600" />}}  
   
-![](images/645522.png)  
+{{< imgproc "images/645522.png" Fit "800x600" />}}  
   
   
 Unanswered question exported in tab-delimited file  
   
-![](images/661549.png)  
+{{< imgproc "images/661549.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
   
-![](images/661552.png)  
+{{< imgproc "images/661552.png" Fit "800x600" />}}  
   
 The last example shows the data exported from a linked categorical:
 multi-select question that expected a maximum of two selected
@@ -412,15 +412,15 @@ Cassava and Rice. The system automatically creates the codes: 0,1,2 and
 Rice and the second one was Wheat, the system exports the values 3 and
 1.  
   
-![](images/645534.png)  
+{{< imgproc "images/645534.png" Fit "800x600" />}}  
   
   
 **Previous question located within a roster**  
   
-![](images/661539.png)  
+{{< imgproc "images/661539.png" Fit "800x600" />}}  
   
   
-![](images/645536.png)  
+{{< imgproc "images/645536.png" Fit "800x600" />}}  
   
   
 The system assigns the codes: 1 to Maize, 2 to Wheat, 3 to Cassava and 4
@@ -430,12 +430,12 @@ numbers indicating the order in which each category was selected.
   
 Unanswered question exported in tab-delimited file  
   
-![](images/661537.png)  
+{{< imgproc "images/661537.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
   
-![](images/661538.png)  
+{{< imgproc "images/661538.png" Fit "800x600" />}}  
   
   
   

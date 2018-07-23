@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Question Scope "
 keywords = ["scope","interviewer","supervisor","prefilled","hidden","question properties"]
 date = 2016-06-17T18:26:26Z
@@ -22,7 +22,7 @@ it. The scopes are: [interviewer](#interviewer),
 2.  Select the appropriate question scope. 
 
   
-![](images/774373.png)
+{{< imgproc "images/774373.png" Fit "800x600" />}}
 
  <span id="interviewer"></span>Interviewer
 ------------------------------------------
@@ -54,7 +54,7 @@ interview.
 The picture below shows how an enumerator will answer identifying
 questions on a tablet.   
   
-![](images/643976.png)  
+{{< imgproc "images/643976.png" Fit "800x600" />}}  
   
   
   
@@ -66,14 +66,14 @@ The picture below shows how a headquarters user will answer identifying
 questions when creating an assignment.  
   
   
-![](images/643978.png)
+{{< imgproc "images/643978.png" Fit "800x600" />}}
 
   
 On the tablet, the enumerator sees the answers to the identifying
 questions on the d*ashboard* screen within the Interviewer application. 
 
   
-![](images/643985.png)  
+{{< imgproc "images/643985.png" Fit "800x600" />}}  
   
   
  
@@ -114,4 +114,4 @@ Supervisors should follow the following steps to answer these questions:
 3.  Save the answer by clicking on the green *Save* button.
 
   
-![](images/644009.png)​
+{{< imgproc "images/644009.png" Fit "800x600" />}}​

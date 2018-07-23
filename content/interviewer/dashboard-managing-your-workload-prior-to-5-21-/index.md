@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Dashboard: Managing Your Workload (prior to 5.21)"
 keywords = ["dashboard","workload","open","close","resume","app","application","interviewer"]
 date = 2016-07-14T03:02:26Z
@@ -54,14 +54,14 @@ How to open an assignment
 Simply tap it on it in the dashboard list.  
    
   
-![](images/658214.png)  
+{{< imgproc "images/658214.png" Fit "800x600" />}}  
   
 For example, tapping on the assignment outlined above would open it.  
   
 Then, a load screen as shown below may appear before the questionnaire
 cover page appears.  
   
-![](images/658219.png)  
+{{< imgproc "images/658219.png" Fit "800x600" />}}  
   
 The cover page displays the pre-filled information, and if applicable,
 any questionnaire level comments, and links to question level comments
@@ -71,7 +71,7 @@ To open the survey case, tap on *Start*.
   
 To view the comments, click on a red question link.   
   
-![](images/711021.png)  
+{{< imgproc "images/711021.png" Fit "800x600" />}}  
  
 
 How to close an assignment
@@ -81,7 +81,7 @@ How to close an assignment
 Tap on the *menu* button on the top right and select *Dashboard. *  
   
   
-![](images/658231.png)  
+{{< imgproc "images/658231.png" Fit "800x600" />}}  
    
 You will be directed back to the dashboard. The previously opened
 assignment can now be found under the *Started* tab, and you can select

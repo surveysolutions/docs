@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Moving Around the Questionnaire "
 keywords = ["navigation","interviewer","app","scroll","breadcrumbs"]
 date = 2016-07-14T21:39:20Z
@@ -35,7 +35,7 @@ module).
  
 ![](file://localhost/Users/Shima/Library/Caches/TemporaryItems/msoclip/0/clip_image002.png)  
   
-![](images/658448.png)  
+{{< imgproc "images/658448.png" Fit "800x600" />}}  
   
   
  
@@ -65,7 +65,7 @@ the *Plot 2* sections, they would only have to tap on the *Parcel, Plot,
 and Crop Details* breadcrumb.  
   
   
-![](images/658453.png)
+{{< imgproc "images/658453.png" Fit "800x600" />}}
 
  
 
@@ -84,4 +84,4 @@ that, when pressed, expands into an interactive table of contents of the
 questionnaire.  
   
   
-![](images/658454.png)
+{{< imgproc "images/658454.png" Fit "800x600" />}}

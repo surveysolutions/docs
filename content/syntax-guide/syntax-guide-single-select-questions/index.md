@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Syntax Guide: Single-select questions"
 keywords = ["syntax","single select"]
 date = 2016-11-17T19:31:25Z
@@ -70,7 +70,7 @@ example a skip.
 
 Consider the set of questions below.
 
-![](images/716957.png)
+{{< imgproc "images/716957.png" Fit "800x600" />}}
 
 For certain marital statuses, there is a follow-up question. For others,
 no such follow-up question is administered.
@@ -116,7 +116,7 @@ While InList and InRange may sometimes be used interchangeably, there
 are moments when InList is the clear choice. See the excerpt below for
 such an example.
 
-![](images/716960.png)
+{{< imgproc "images/716960.png" Fit "800x600" />}}
 
 Let's describe the conditions under which question 6 is answered. If the
 interviewer records option 1 for question 4, then question 6 is asked.
@@ -153,7 +153,7 @@ be. Consider the following example. Follow-up questions about firewood
 use are asked only if the household does *not* use firewood as its main
 source of cooking fuel.
 
-![](images/716963.png)
+{{< imgproc "images/716963.png" Fit "800x600" />}}
 
 Certainly, one could write the following enablement condition,
 identifying which answers lead the interviewer to F13.
@@ -193,7 +193,7 @@ is at least one "yes" answer, then more detailed labor questions are
 administered. If there is not a single "yes" answer, then interviewer
 administers a different set of questions.
 
-![](images/716971.png)
+{{< imgproc "images/716971.png" Fit "800x600" />}}
 
 To implement this enablement condition, we can use the CountValue()
 method.

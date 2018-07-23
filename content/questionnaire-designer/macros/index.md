@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Macros"
 keywords = ["macros","syntax","conditions"]
 date = 2016-06-15T22:22:18Z
@@ -29,17 +29,17 @@ macro definitions may not refer to other macros. 
 ------------------
 
 1.  Click on the "$m" tab on the left hand menu.**   
-    ![](images/642695.png)**
+    {{< imgproc "images/642695.png" Fit "800x600" />}}**
 2.  Click on the *ADD NEW Macros*link.  
-    ![](images/642707.png)
+    {{< imgproc "images/642707.png" Fit "800x600" />}}
 3.  Define the macro name, content, and (optionally) a description for
     the macro.  
-    ![](images/642708.png)
+    {{< imgproc "images/642708.png" Fit "800x600" />}}
 4.  Click save. 
 5.  To refer to the macro created previously in a chosen section,
     sub-section, question, or roster, type “$” followed by the macro
     name in the enabling condition field. In this example, type “$c”.  
-    ![](images/642709.png)
+    {{< imgproc "images/642709.png" Fit "800x600" />}}
 
  
 
@@ -49,4 +49,4 @@ macro definitions may not refer to other macros. 
 1.  Click on the “$m” tab on the left hand menu.
 2.  Locate the macro and click on any field in the macro specification
     to make all the necessary revisions.   
-    ![](images/642710.png)
+    {{< imgproc "images/642710.png" Fit "800x600" />}}

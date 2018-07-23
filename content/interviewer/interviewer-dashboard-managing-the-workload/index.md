@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Interviewer Dashboard: Managing the Workload"
 keywords = [""]
 date = 2017-07-05T14:06:47Z
@@ -41,7 +41,7 @@ than three identifying variables for the assignment, the rest will be
 hidden. To reveal the other identifying information, tap once on the
 assignment's card.   
   
-![](images/829633.png)  
+{{< imgproc "images/829633.png" Fit "800x600" />}}  
  
 
 Interview statuses
@@ -58,27 +58,27 @@ There are four possible statuses on the Dashboard:
     interviews for an assignment have already been created, then the
     ***Start*** will be grayed out. The dashboard will be grey while in
     this tab.  
-    ![](images/829847.png)
+    {{< imgproc "images/829847.png" Fit "800x600" />}}
 -   **Started:** This tab lists the interviews that have been started
     but not yet completed. To open an incomplete interview, simply tap
     once on the card for interview of interest to expand the card and
     then tap the ***Open ***​button. The dashboard will be blue while in
     this tab.  
-    ![](images/829853.png)
+    {{< imgproc "images/829853.png" Fit "800x600" />}}
 -   **Completed:** This tab contains the interviews that the interviewer
     has marked as completed. Interviews in the Completed tab will be
     sent to the server when the interviewer synchronizes. To open a
     completed interview,simply tap once on the card for interview of
     interest to expand the card and then tap the ***Open ***​button. The
     dashboard will be green while in this tab.  
-    ![](images/829855.png)
+    {{< imgproc "images/829855.png" Fit "800x600" />}}
 -   **Rejected:** This tab contains the rejected interviews that the
     supervisor has reviewed, found problems, and returned it to the
     interviewer for correction. To open a completed interview, simply
     tap once on the card for interview of interest to expand the card
     and then tap the ***Open ***button. The dashboard will be red while
     in this tab.  
-    ![](images/829857.png)
+    {{< imgproc "images/829857.png" Fit "800x600" />}}
 
  
 
@@ -93,12 +93,12 @@ assignment. Tap on the card to see all the identifying information. This
 will also reveal the ***Start***. Tap on the blue ***Start*** button for
 the assignment to create a new interview.  
   
-![](images/829861.png)  
+{{< imgproc "images/829861.png" Fit "800x600" />}}  
   
 If the questionnaire is large, a load screen may appear before the
 questionnaire cover page appears.  
   
-![](images/658219.png)  
+{{< imgproc "images/658219.png" Fit "800x600" />}}  
   
   
 **Step 2**  
@@ -112,7 +112,7 @@ interviewer should fill out that information before starting the
 interview.** After filling out any necessary identifying information,
 click on the blue ***Start*** at the bottom of the screen.  
   
-![](images/794990.png)  
+{{< imgproc "images/794990.png" Fit "800x600" />}}  
   
 **Step 3**  
 You will then see a summary of all the identyfing information and links
@@ -122,7 +122,7 @@ click on the blue ***Start*** button at the bottom of the screen to
 start the interview. To view the comments, click on a red question
 link.   
   
-![](images/794991.png)  
+{{< imgproc "images/794991.png" Fit "800x600" />}}  
  
 
 How to exit an interview
@@ -132,7 +132,7 @@ How to exit an interview
 Tap on the *menu* button on the top right and select *Dashboard. *  
   
   
-![](images/658231.png)  
+{{< imgproc "images/658231.png" Fit "800x600" />}}  
    
 You will be directed back to the dashboard. The incomplete interview can
 now be found under the *Started* tab, and you can select any other
@@ -162,4 +162,4 @@ want to delete the interview. Tap on "Yes" to confirm and interview will
 be discarded. **BE CAREFUL WHEN DISCARDING AN INTERVIEW, THE INFORMATION
 FOR THAT INTERVIEW CANNOT BE RECOVERED ONCE DISCARDED.**  
   
-![](images/829637.png)
+{{< imgproc "images/829637.png" Fit "800x600" />}}

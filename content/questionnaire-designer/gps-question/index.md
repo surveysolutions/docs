@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "GPS Question"
 keywords = ["GPS","latitude","longitude","accuracy","altitude","export"]
 date = 2016-06-18T23:29:15Z
@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2469100-gps-question"]
 Description
 -----------
 
-![](images/643211.png)A GPS question expects a set of geographic
+{{< imgproc "images/643211.png" Fit "800x600" />}}A GPS question expects a set of geographic
 coordinates (latitude, longitude, accuracy, altitude), which identify
 the location of the tablet. This type of question can be answered using
 a GPS-enabled tablet.  
@@ -23,7 +23,7 @@ that defines the land’s area.
 
   
   
-![](images/644267.png)  
+{{< imgproc "images/644267.png" Fit "800x600" />}}  
   
  
 
@@ -39,7 +39,7 @@ In Questionnaire Designer,
 1.  Click on the Question Type text box.
 2.  Select GPS from the pop-up menu.  
       
-    ![](images/644268.png)
+    {{< imgproc "images/644268.png" Fit "800x600" />}}
 
 ​  
   
@@ -53,9 +53,9 @@ How a GPS question appears on a tablet
 To answer a GPS question, the enumerator taps on the *Tap to record GPS*
 button and the geographical coordinates will be displayed.  
   
-![](images/644269.png)  
+{{< imgproc "images/644269.png" Fit "800x600" />}}  
   
-![](images/644270.png)  
+{{< imgproc "images/644270.png" Fit "800x600" />}}  
   
   
  
@@ -70,10 +70,10 @@ of the exported variable is the question’s variable name that was
 defined in the Questionnaire Designer  
   
 **GPS question  
-![](images/644271.png)**  
+{{< imgproc "images/644271.png" Fit "800x600" />}}**  
   
 Unanswered question exported in tab-delimited file  
-![](images/644272.png)  
+{{< imgproc "images/644272.png" Fit "800x600" />}}  
   
 Answered question exported in tab-delimited file  
-![](images/644273.png)
+{{< imgproc "images/644273.png" Fit "800x600" />}}

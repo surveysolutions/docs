@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Example Page (Don't delete me, please)"
 keywords = [""]
 date = 2016-11-18T16:00:49Z
@@ -71,7 +71,7 @@ image to the server.
 
 Example:
 
-![](images/716991.png)![](images/716993.png)![](images/716994.png)
+{{< imgproc "images/716991.png" Fit "800x600" />}}{{< imgproc "images/716993.png" Fit "800x600" />}}{{< imgproc "images/716994.png" Fit "800x600" />}}
 
 ### One image in row
 

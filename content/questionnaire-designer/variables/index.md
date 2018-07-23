@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Variables"
 keywords = ["variables","boolean","double","string","date/time","long integer"]
 date = 2016-06-16T20:58:17Z
@@ -24,7 +24,7 @@ calculated variables are included in the export data files.
 2.  Select *ADD VARIABLE*.
 
   
-      ![](images/643283.png)  
+      {{< imgproc "images/643283.png" Fit "800x600" />}}  
   
   
 ***Second Method***
@@ -32,11 +32,11 @@ calculated variables are included in the export data files.
 1.  Right click on the question tree to pull up the context menu.
 2.  Click on *Add variable after*.
 
-**      ![](images/643300.png)  
+**      {{< imgproc "images/643300.png" Fit "800x600" />}}  
   
   
 Variables will appear in the question tree with the fx-icon.  
-     ![](images/643317.png)**  
+     {{< imgproc "images/643317.png" Fit "800x600" />}}**  
   
   
   
@@ -65,7 +65,7 @@ Choose the data type that you expect the variable's expression to
 evaluate to (ie numeric, true/false, text). The variable type drop down
 menu has five possible types to choose from:  
   
-**    ![](images/643303.png)**  
+**    {{< imgproc "images/643303.png" Fit "800x600" />}}**  
  
 
 -   ****Boolean:**** This type can only evaluate to true or false
@@ -94,7 +94,7 @@ person's first name (question firstName) and a person's last name
 (question lastName). Here the variable would be a *String* type because
 the variable will be text.  
   
-**![](images/643349.png)**  
+**{{< imgproc "images/643349.png" Fit "800x600" />}}**  
   
  
 
@@ -107,7 +107,7 @@ categorical multi-select question (question hhAssets) that is in yes/no
 mode.Here the variable type would be *Long Integer* because we expect
 the number of items missing a response to be a whole number.  
   
-**![](images/643362.png)**  
+**{{< imgproc "images/643362.png" Fit "800x600" />}}**  
   
   
 We can later to use it in a static text to the interviewer that will
@@ -130,7 +130,7 @@ that the household members are listed in and name is the variable that
 contains the household member's names. To get the household size, we are
 counting the number of non-empty names that are listed on the roster  
   
-**![](images/643351.png)  
+**{{< imgproc "images/643351.png" Fit "800x600" />}}  
   
   
  **

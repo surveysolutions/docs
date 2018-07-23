@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "System Generated - Export File Anatomy"
 keywords = ["interview comments"," interview actions","InterviewId","comment"]
 date = 2016-09-23T15:48:41Z
@@ -46,7 +46,7 @@ question is at the questionnaire level.
 
   
   
-![](images/676787.png)
+{{< imgproc "images/676787.png" Fit "800x600" />}}
 
 Interview Actions 
 ------------------
@@ -74,7 +74,7 @@ as follows:</span>
     “Approved by Supervisor”), then the timestamp recorded will be based
     on the server date/time settings. If the World Bank hosts the
     server, the date/time will be in UTC (Coordinated Universal
-    Time).![](images/676791.png)
+    Time).{{< imgproc "images/676791.png" Fit "800x600" />}}
 
  Description
 ------------
@@ -85,4 +85,4 @@ multiple rosters, where it may not be obvious where a particular
 variable will be placed in export, so this file can be used for
 reference.  
   
-![](images/773032.png)
+{{< imgproc "images/773032.png" Fit "800x600" />}}

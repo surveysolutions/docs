@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Import the Questionnaire"
 keywords = [""]
 date = 2017-06-28T18:14:07Z
@@ -24,7 +24,7 @@ The headquarters username and password are: 
 **Username**: Headquarters1  
 **Password:** Headquarters1  
   
-![](images/732100.png)  
+{{< imgproc "images/732100.png" Fit "800x600" />}}  
   
   
 **Note that each institution using Survey Solutions will utilize their
@@ -43,7 +43,7 @@ To import a template, you need first to click on the ***Survey Setup***
 tab and select ***Questionnaires*** from the drop down menu.   
   
   
-![](images/793097.png)  
+{{< imgproc "images/793097.png" Fit "800x600" />}}  
   
  
 
@@ -52,7 +52,7 @@ tab and select ***Questionnaires*** from the drop down menu. 
 
 Click on the green ***Import Template*** button  
   
-![](images/793102.png)  
+{{< imgproc "images/793102.png" Fit "800x600" />}}  
  
 
 **Step 4**
@@ -71,7 +71,7 @@ If you have forgotten your username or password, go to
 <https://solutions.worldbank.org/> and click on the ***Forgot your
 password**?* link to create a new password.  
   
-![](images/793104.png)  
+{{< imgproc "images/793104.png" Fit "800x600" />}}  
  
 
 **Step 5**
@@ -86,7 +86,7 @@ template that you would like to import to the server. To search for your
 questionnaire, click on the magnifying glass icon to bring up the search
 bar.  
   
-![](images/732116.png)  
+{{< imgproc "images/732116.png" Fit "800x600" />}}  
  
 
 **Step 6**
@@ -95,7 +95,7 @@ bar.
 Click on the blue ***Import***  button to finish importing the
 questionnaire onto your server.
 
-![](images/793105.png)  **Step 7**
+{{< imgproc "images/793105.png" Fit "800x600" />}}  **Step 7**
 ----------------------------------
 
   

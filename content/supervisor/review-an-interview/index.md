@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Review an Interview"
 keywords = ["review","check","survey case","supervisor"]
 date = 2016-07-12T20:31:48Z
@@ -7,14 +7,14 @@ aliases = ["/customer/portal/articles/2495547-review-an-interview"]
 
 +++
 
-![](images/772963.png)  
+{{< imgproc "images/772963.png" Fit "800x600" />}}  
   
 First, click on the **Interviews** tab at the top of the screen.  
    
 Then, click on the interview key of the interview that you would like to
 review.  
   
-![](images/772962.png)   
+{{< imgproc "images/772962.png" Fit "800x600" />}}   
   
 To review the interview, the supervisor will need to use several
 tools.  
@@ -29,7 +29,7 @@ review the case in another language.
 To do so, click on the ***Language*** drop down menu on the left most
 menu and choose another language.   
   
-![](images/841228.png)  
+{{< imgproc "images/841228.png" Fit "800x600" />}}  
  
 
 Navigate
@@ -51,7 +51,7 @@ section, subsection, or roster to expand the element to navigate
 directly to an item in that section, subsection or roster.   
   
   
-![](images/841231.png)  
+{{< imgproc "images/841231.png" Fit "800x600" />}}  
    
   
 
@@ -84,7 +84,7 @@ question of interest. To reset all the filters and see all the questions
 in the interview, click on the ***View all (reset all filters)***
 link below all the filters.  
    
-![](images/841240.png)  
+{{< imgproc "images/841240.png" Fit "800x600" />}}  
   
   
  
@@ -106,7 +106,7 @@ moving your cursor to the top left-hand side of the screen. Then, click
 on the flag icon. Once a flag has been added, the supervisor can click
 on the *flagged* filter to see the field or fields bearing a flag.  
    
-![](images/841243.png)  
+{{< imgproc "images/841243.png" Fit "800x600" />}}  
  
 
 Add comments
@@ -125,7 +125,7 @@ The supervisor can post multiple comments to any question. After they
 can be added, comments cannot be deleted but they can be hidden using
 the gray 3-dots on the top right corner of the question.  
   
-![](images/841247.png)
+{{< imgproc "images/841247.png" Fit "800x600" />}}
 
 Approve, Reject
 ---------------
@@ -139,13 +139,13 @@ The supervisor will use the buttons in the left most pane to approve or
 reject the interview. To approve, click on the green ***Approve***
 button; to reject, the red ***Reject*** button.  
    
-![](images/841248.png)  
+{{< imgproc "images/841248.png" Fit "800x600" />}}  
   
 Whichever button is selected, a pop up confirmation screen will appear
 with the opportunity to provide comments on the questionnaire as a
 whole.  
   
-![](images/841249.png)  
+{{< imgproc "images/841249.png" Fit "800x600" />}}  
   
 At this confirmation screen, click on the blue ***OK*** to confirm your
 approval or rejection. Click on the ***CANCEL*** button to go back to

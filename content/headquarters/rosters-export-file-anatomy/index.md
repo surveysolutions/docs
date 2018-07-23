@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Rosters-Export File Anatomy"
 keywords = ["data file","export","roster"]
 date = 2016-11-09T19:28:15Z
@@ -23,12 +23,12 @@ In the export file at the questionnaire level, a list roster source
 question generates as many columns as the defined maximum number of list
 elements. Recorded values will be shown in each column.  
   
-![](images/713157.png)  
+{{< imgproc "images/713157.png" Fit "800x600" />}}  
   
 In the export file at the roster level, each value recorded is on a
 separate row.  
   
-![](images/713165.png)  
+{{< imgproc "images/713165.png" Fit "800x600" />}}  
   
 All files contain an Id and Parent Id column. The Id column corresponds
 to the order in which the list item is shown in the export file at the
@@ -46,12 +46,12 @@ options. Recorded values will be shown in each column.
 The picture below displays how a multi-select roster source question in
 yes/no mode is exported.  
   
-![](images/713158.png)  
+{{< imgproc "images/713158.png" Fit "800x600" />}}  
   
 In the export file at the roster level, each value recorded is on a
 separate row.  
   
-![](images/713178.png)  
+{{< imgproc "images/713178.png" Fit "800x600" />}}  
   
 All files contain an Id and Parent Id column. The Id column corresponds
 to answer option code that is recorded as "yes" in the roster source
@@ -67,12 +67,12 @@ In the questionnaire level export file, the numeric roster source
 question is simply one column labeled with the question variable name.
    
   
-![](images/713160.png)  
+{{< imgproc "images/713160.png" Fit "800x600" />}}  
   
 In the export file at the roster level, rows are generated according to
 the number recorded in the numeric roster source question.  
   
-![](images/713172.png)  
+{{< imgproc "images/713172.png" Fit "800x600" />}}  
   
 All files contain an Id and Parent Id column. The Id column corresponds
 to row code of each item listed in the roster. The Parent Id column is
@@ -86,7 +86,7 @@ Unlike the three other rosters described previously, the fixed titles
 roster is not linked to a source question, and therefore is not included
 in the questionnaire level export file.   
   
-![](images/713181.png)  
+{{< imgproc "images/713181.png" Fit "800x600" />}}  
   
 In the export file at the roster level, rows are generated according to
 the number roster items defined in Designer. All files contain an Id and

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Syntax Guide: Using LINQ Expressions for Conditions in Rosters"
 keywords = ["designer","syntax","rosters","linq"]
 date = 2016-11-21T15:33:45Z
@@ -17,7 +17,7 @@ and validation conditions for rosters that can both:
 -   Vertically: Refer to the values of the same variable for other items
     in the roster
 
-![](images/717594.png)  
+{{< imgproc "images/717594.png" Fit "800x600" />}}  
   
 In this article, we will cover the [general syntax](#syntax), [common
 operators](#operators), provide a few [examples](#examples) on how to

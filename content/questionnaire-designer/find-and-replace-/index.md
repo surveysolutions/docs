@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Find and Replace "
 keywords = ["find","search","replace","designer"]
 date = 2016-11-04T23:18:52Z
@@ -20,11 +20,11 @@ To search within a section,
 
 1.  Click the search icon (or press Ctrl + F).  
       
-    ![](images/711616.png)
+    {{< imgproc "images/711616.png" Fit "800x600" />}}
 
 2.  Enter a text in the search box that appears.  
       
-    ![](images/711618.png)
+    {{< imgproc "images/711618.png" Fit "800x600" />}}
 
 To search within the entire questionnaire (including conditions),
 
@@ -32,12 +32,12 @@ To search within the entire questionnaire (including conditions),
 
 2.  Click on the 3 horizontal dot icon (or press Ctrl + H).  
       
-    ![](images/711621.png)
+    {{< imgproc "images/711621.png" Fit "800x600" />}}
 
 3.  In the new window, enter a text in the find search box, and click
     *Find All*.  
       
-    ![](images/711622.png)
+    {{< imgproc "images/711622.png" Fit "800x600" />}}
 
 4.  Click *Previous* and *Next* to see all the elements found in the
     questionnaire.
@@ -103,6 +103,6 @@ You can also further refine your search using the following options:
     from the “past 14 days” to the “past 7 days”, or make changes to
     variable names, one could replace “s01q04” with “s01q14” wherever it
     occurs— that is in all enablement conditions and all
-    validations.![](images/711623.png)
+    validations.{{< imgproc "images/711623.png" Fit "800x600" />}}
 
 2.  Click Replace All.

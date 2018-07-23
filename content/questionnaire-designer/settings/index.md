@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Settings"
 keywords = ["settings","share","name","questionnaire"]
 date = 2016-06-15T19:30:05Z
@@ -11,13 +11,13 @@ To update the settings of the questionnaire, click on the *Settings*
 button located at the top right of the page.  
   
   
-![](images/642607.png)  
+{{< imgproc "images/642607.png" Fit "800x600" />}}  
   
 You can update the questionnaire name and share the questionnaire with
 more than one person.   
   
   
-![](images/642608.png)  
+{{< imgproc "images/642608.png" Fit "800x600" />}}  
   
 **To edit the questionnaire name **edit the text in the *Questionnaire
 name* text box.   

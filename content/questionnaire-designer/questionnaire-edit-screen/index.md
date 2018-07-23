@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Questionnaire Edit Screen"
 keywords = ["settings","history","changes ","compile","advanced panel"]
 date = 2016-06-15T16:43:46Z
@@ -31,4 +31,4 @@ The main components of the Questionnaire Designer edit screen are: 
 
   
   
-![](images/871992.png)
+{{< imgproc "images/871992.png" Fit "800x600" />}}

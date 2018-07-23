@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Reassign an Interview"
 keywords = [""]
 date = 2017-09-20T20:44:49Z
@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2877883-reassign-an-interview"]
 To begin, click on the <span class="underline">Interviews tab</span> at
 the top of the screen**.**The supervisor application will then show the
 full list of interview cases.   
-![](images/819040.png)  
+{{< imgproc "images/819040.png" Fit "800x600" />}}  
  
 
 Cases to be reassigned to another interviewer
@@ -41,7 +41,7 @@ status.  There are three possible scenarios:
     the interviews to another interviewer. To reassign the case, select
     the check box to the left of the survey case(s), then click on
     *Assign* and select an Interviewer from the pop-up menu.   
-    ![](images/819042.png) ![](images/819043.png)  
+    {{< imgproc "images/819042.png" Fit "800x600" />}} {{< imgproc "images/819043.png" Fit "800x600" />}}  
       
     Another similar scenario where this protocol can be applied is
     when the first interviewer has opened a number of assignments and

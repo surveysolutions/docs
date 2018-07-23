@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Basic Syntax"
 keywords = ["syntax","designer"]
 date = 2016-08-15T15:33:33Z
@@ -93,7 +93,7 @@ single-line comment.
 ***Example:***
 
 <span style="font-family:courier new,courier,monospace;"><span
-style="font-size:12px;">![](images/673914.png)</span></span>  
+style="font-size:12px;">{{< imgproc "images/673914.png" Fit "800x600" />}}</span></span>  
  
 
 **Multiple line comments:**  
@@ -104,4 +104,4 @@ the comment. This type of commenting is good for providing a more
 detailed explanation of your code.  
   
 ***Example:***  
-![](images/673945.png)
+{{< imgproc "images/673945.png" Fit "800x600" />}}

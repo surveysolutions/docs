@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Interview Tab: How to Find, Review, and Delete Survey Cases "
 keywords = ["filter","review","check","delete"]
 date = 2016-06-30T06:20:07Z
@@ -7,7 +7,7 @@ aliases = ["/customer/portal/articles/2482221-interview-tab-how-to-find-review-a
 
 +++
 
-![](images/773854.png)  
+{{< imgproc "images/773854.png" Fit "800x600" />}}  
   
   
 The Interview tab is designed for taking action. Under the Interview
@@ -41,7 +41,7 @@ The interview tab consists of the following tools:
     another interface that will be discussed below.
 5.  **Search bar to navigate through the survey cases quickly.**
 
-**![](images/886356.png)**
+**{{< imgproc "images/886356.png" Fit "800x600" />}}**
 
  <span id="search"></span>Search for survey cases
 -------------------------------------------------
@@ -63,7 +63,7 @@ whether the case has been created on the device by the interviewer
 (Created on Client).  
   
   
-![](images/886354.png)  
+{{< imgproc "images/886354.png" Fit "800x600" />}}  
   
    
 There are three mechanisms for finding a survey. The first is by
@@ -71,7 +71,7 @@ clicking on the arrow associated with any column of the information in
 the lower right-hand quadrant. This will sort the list of surveys in
 ascending (^) or descending (v) order by that chosen column.   
   
-![](images/773857.png)  
+{{< imgproc "images/773857.png" Fit "800x600" />}}  
   
   
 The second mechanism is through the filters located on the left-hand
@@ -80,12 +80,12 @@ headquarters may filter by the questionnaire (Questionnaire), team
 member responsible (Responsible), the status of the interview (Status),
 and/or the assignment of the interview.  
   
-![](images/818932.png)  
+{{< imgproc "images/818932.png" Fit "800x600" />}}  
   
 The third mechanism is through the search field located in the toolbar.
 Use keywords to narrow down the list of survey cases.
 
-![](images/773861.png)
+{{< imgproc "images/773861.png" Fit "800x600" />}}
 -----------------------
 
   
@@ -119,7 +119,7 @@ following two: *“ApprovedByHeadquarter”* and *“ApprovedBySupervisor”*.
  To reassign cases, select the check boxes for the cases you wish to
 reassign, and click on the green *assign* button.   
   
-![](images/773873.png)
+{{< imgproc "images/773873.png" Fit "800x600" />}}
 
 <span id="review"></span>Review survey cases
 --------------------------------------------
@@ -151,7 +151,7 @@ The questionnaire review interface consists of five components:
 
   
   
-![](images/852904.png)  
+{{< imgproc "images/852904.png" Fit "800x600" />}}  
   
   
 Headquarters plays a critical quality control role in the Survey
@@ -162,7 +162,7 @@ supervisors, reviewing the questionnaires the latter approves.
 To do this, first headquarters clicks on the *Interview Key* associated
 with any questionnaire whose status is ApprovedBySupervisor.  
   
-![](images/773884.png)  
+{{< imgproc "images/773884.png" Fit "800x600" />}}  
   
   
 Then, headquarters reviews the questionnaire for completeness,
@@ -202,11 +202,11 @@ to the *Approved by Supervisor* status, and the headquarters user will
 have a possibility to reject it back to the supervisor if necessary. You
 can apply this operation to multiple interviews if necessary.  
   
-![](images/773886.png)  
+{{< imgproc "images/773886.png" Fit "800x600" />}}  
   
   
   
-![](images/773889.png)  
+{{< imgproc "images/773889.png" Fit "800x600" />}}  
   
 Additionally, the headquarter user, has the authority to approve
 completed interviews directly, without waiting for the supervisor’s
@@ -251,4 +251,4 @@ Then, click on the Delete interview button located immediately above the
 interview panel. This will permanently delete the selected survey
 cases.  
   
-![](images/773891.png)
+{{< imgproc "images/773891.png" Fit "800x600" />}}

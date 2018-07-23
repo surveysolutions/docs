@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Consequences of relinking a tablet device"
 keywords = ["interviewer","application","app","relink","new tablet","supervisor","headquarters"]
 date = 2016-09-21T23:02:21Z
@@ -22,7 +22,7 @@ user attempts to use the second device a warning is issued that the data
 that belongs to this user on the previous device will discarded: *"You
 are already assigned to another device. If you relink to this device all
 data on the old one will be lost."*  
-![](images/691270.png)  
+{{< imgproc "images/691270.png" Fit "800x600" />}}  
   
 <span class="underline">Warning!</span> Proceed with caution. Use
 relinking in situations when the original tablet was lost, stolen, or

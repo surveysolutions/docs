@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Questionnaire Interface & Answering Questions"
 keywords = ["interviewer","app","application","answer","navigate","roster navigation","group navigation"]
 date = 2016-07-14T03:04:44Z
@@ -12,7 +12,7 @@ Overview of Questionnaire Interface 
 
   
   
-![](images/658240.png)  
+{{< imgproc "images/658240.png" Fit "800x600" />}}  
  
 
 Answering questions
@@ -40,19 +40,19 @@ outline, if the recorded answer is not valid. Vibration can be disabled
 by navigating to Interviewer’s settings and removing the checkbox next
 to *Vibrate when invalid answer is given*.  
   
-![](images/658265.png)  
+{{< imgproc "images/658265.png" Fit "800x600" />}}  
   
   
 However, even after a question is answered, an interviewer may want to
 wait before moving to the next question. When the interviewer needs to
 pause, the Interviewer application will display the following message:  
   
-![](images/658267.png)  
+{{< imgproc "images/658267.png" Fit "800x600" />}}  
   
 An interviewer can recall an answer in any question by clicking on the X
 next to their response.  
   
-![](images/658268.png)  
+{{< imgproc "images/658268.png" Fit "800x600" />}}  
   
  
 
@@ -79,13 +79,13 @@ Understanding groups and rosters
 Groups and rosters are special grouping of questions. On the tablet,
 both first appear as a button.  
 ![](file://localhost/Users/Shima/Library/Caches/TemporaryItems/msoclip/0/clip_image001.png)  
-![](images/711064.png)  
+{{< imgproc "images/711064.png" Fit "800x600" />}}  
   
   
 When the button is tapped, the interviewers see the questions or roster
 row associated with that button.  
   
-![](images/711071.png)  
+{{< imgproc "images/711071.png" Fit "800x600" />}}  
 ![](file://localhost/Users/Shima/Library/Caches/TemporaryItems/msoclip/0/clip_image002.png)
                          
 ![](file://localhost/Users/Shima/Library/Caches/TemporaryItems/msoclip/0/clip_image003.png)  
@@ -99,7 +99,7 @@ relevant questions. For a group, this is simple. For a roster, the
 process merits some explanation.  
   
   
-![](images/711065.png)  
+{{< imgproc "images/711065.png" Fit "800x600" />}}  
   
   
 An interviewer must complete a roster row by row. By tapping on the

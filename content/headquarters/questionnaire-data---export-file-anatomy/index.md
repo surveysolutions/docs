@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Questionnaire Data - Export File Anatomy"
 keywords = ["data file","export","ssSys_IRnd","Id","ParentId1"]
 date = 2016-09-23T15:27:34Z
@@ -32,7 +32,7 @@ questions at the questionnaire level.
 <span style="color:#DAA520;">4. ssSys\_IRnd.</span> A system generated
 specific random number between 0 and 1 for each survey case.  
 
-![](images/677291.png)Subordinate file(s): file name corresponds to roster ID  
+{{< imgproc "images/677291.png" Fit "800x600" />}}Subordinate file(s): file name corresponds to roster ID  
 --------------------------------------------------------------------------------
 
 The roster data is exported in subordinate files, which include the
@@ -54,4 +54,4 @@ example, in this case the value of ParentId1 contains an identifier of
 the household, and this value matches the value in the Id column of the
 questionnaire level file.
 
-![](images/691174.png)
+{{< imgproc "images/691174.png" Fit "800x600" />}}

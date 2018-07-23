@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Updating the Interviewer application"
 keywords = [""]
 date = 2018-02-22T16:10:00Z
@@ -43,7 +43,7 @@ Interviewers tab provides a report of which version of Interviewer each
 interviewer is using. If application used is old, the cell in the APP
 VERSION column will appear in red.  
   
-![](images/858257.png)  
+{{< imgproc "images/858257.png" Fit "800x600" />}}  
   
 To navigate there, follow these steps. For Headquarters, click on Teams
 and Roles, and then select Interviewers. For Supervisor, simply click on
@@ -52,7 +52,7 @@ Teams and Roles.
 For Interviewers, the Diagnostics tab of the Interviewer application
 provides an easy tool for checking whether a new version of Interviewer
 is available. The steps for doing so are discussed immediately below.  
-![](images/858258.png)
+{{< imgproc "images/858258.png" Fit "800x600" />}}
 
 How to update
 -------------
@@ -60,19 +60,19 @@ How to update
 First, select Diagnostics from the Interview application's overflow
 menu  
   
-![](images/858259.png)  
+{{< imgproc "images/858259.png" Fit "800x600" />}}  
 Then, tap on Check for a new version to check whether a newer version of
 Interviewer exists than the one currently installed on the tablet.  
   
-![](images/858258.png)  
+{{< imgproc "images/858258.png" Fit "800x600" />}}  
   
 If the Interviewer application is up to date, the Check for new version
 prompt will say so.  
-![](images/858260.png)  
+{{< imgproc "images/858260.png" Fit "800x600" />}}  
   
 If a newer version of the Interviewer application is available, tap on
 the UPDATE button to download and install it.  
-![](images/858262.png)  
+{{< imgproc "images/858262.png" Fit "800x600" />}}  
   
 Note: to minimize the amount of data used for this operation, the
 Interviewer application will fetch the updates only, not the large file

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Distributing Assignments to Interviewers"
 keywords = ["assign case ","supervisor"]
 date = 2016-06-28T16:59:07Z
@@ -16,7 +16,7 @@ Survey Solutions, log in at demo.mysurvey.solutions using a supervisor
 account.   
   
   
-![](images/774335.png)  
+{{< imgproc "images/774335.png" Fit "800x600" />}}  
  
 
 Step 2
@@ -26,24 +26,24 @@ Step 2
 Once the supervisor’s dashboard has loaded, select the *Assignments*
 tab.  
   
-![](images/795957.png)  
+{{< imgproc "images/795957.png" Fit "800x600" />}}  
   
 The list of assignments can be filtered by questionnaire template,
 person responsible, and/or archived status.  
   
-![](images/795959.png)  
+{{< imgproc "images/795959.png" Fit "800x600" />}}  
   
 From the list of assignments, the supervisor the supervisor should
 select the assignments that they would like to assign to one of their
 enumerators.  
   
-![](images/795979.png)  
+{{< imgproc "images/795979.png" Fit "800x600" />}}  
   
 From the pop-up window, the supervisor should select the enumerator that
 will be given the assignment. To confirm the selection, click on
 the *Assign* button.   
   
-![](images/795961.png)  
+{{< imgproc "images/795961.png" Fit "800x600" />}}  
   
 That selected enumerator will now be responsible for these assignments,
 and they will appear enumerator's Interviewer dashboard after the tablet

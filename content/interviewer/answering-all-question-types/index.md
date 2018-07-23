@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Answering All Question Types"
 keywords = ["answer","interviewer","app","application",""]
 date = 2016-07-14T18:38:49Z
@@ -25,7 +25,7 @@ explained below with visual aids.
 Questions that take a numeric response have a field for an open numeric
 answer. When that field is tapped, the numeric keyboard appears so that
 the interviewer can compose an appropriate numerical response.  
-![](images/658328.png)  
+{{< imgproc "images/658328.png" Fit "800x600" />}}  
   
   
  
@@ -38,7 +38,7 @@ Text questions have a field for an open text response. When that field
 is tapped, the text keyboard appears so that the interviewer can compose
 an appropriate text response.  
   
-![](images/658329.png)  
+{{< imgproc "images/658329.png" Fit "800x600" />}}  
   
   
  
@@ -50,7 +50,7 @@ an appropriate text response.
 Single-select categorical questions have answer options with radio
 buttons. To answer this type of question, the interviewer taps the radio
 button associated with the most appropriate answer.  
-![](images/658330.png)  
+{{< imgproc "images/658330.png" Fit "800x600" />}}  
   
   
   
@@ -59,7 +59,7 @@ categorical questions have answer options with check boxes. To answer
 this type of question, the interviewer taps in all appropriate check
 boxes. Selected answers will show a check in the box.  
   
-![](images/658331.png)  
+{{< imgproc "images/658331.png" Fit "800x600" />}}  
   
   
  
@@ -72,7 +72,7 @@ Multi-select categorical questions in yes/no mode have two radio buttons
 for each item--one that denotes “yes” and another that denotes “no”. To
 answer this type of question, the interviewer taps the radio button
 associated with the most appropriate answer for each item.  
-![](images/658345.png)  
+{{< imgproc "images/658345.png" Fit "800x600" />}}  
   
   
   
@@ -108,7 +108,7 @@ Tap on the empty text box and use the keyboard to input an answer.
 Additional, elements can be added to the list until the maximum
 allowable number of items is reached.  
   
-![](images/658349.png)  
+{{< imgproc "images/658349.png" Fit "800x600" />}}  
   
 To delete elements from the list, click on the X mark. However, be
 careful: doing so may result in deleting data, if the elements of a list
@@ -124,7 +124,7 @@ of which has their own row in the household demographics roster).
   
 First, tap on the *enter date* textbox.  
   
-![](images/658353.png)  
+{{< imgproc "images/658353.png" Fit "800x600" />}}  
   
 Then, use the pop-up window to input the correct date. Depending on
 which is more convenient, the interviewer may either scroll elements of
@@ -132,13 +132,13 @@ the date up and down (i.e., use the left-hand component of the date
 input in the image below) or pick the date from the calendar (i.e., use
 the right-hand component of the date input dialog).  
   
-![](images/658355.png)  
+{{< imgproc "images/658355.png" Fit "800x600" />}}  
   
 After clicking the *Done* button, the date will be recorded. The
 recorded answer will be displayed below the question text, as pictured
 above.  
   
-![](images/658356.png)  
+{{< imgproc "images/658356.png" Fit "800x600" />}}  
   
   
  
@@ -149,7 +149,7 @@ above.
   
 Tap on the *Tap to record current time* box.  
   
-![](images/658358.png)  
+{{< imgproc "images/658358.png" Fit "800x600" />}}  
   
 Then, the current time on the tablet will automatically be recorded.  
   
@@ -164,13 +164,13 @@ First, tap on the textbox. This will open a window informing you that
 the tablet is searching for the GPS location. Closing this window will
 stop the tablet from searching for GPS.  
   
-![](images/658360.png)  
+{{< imgproc "images/658360.png" Fit "800x600" />}}  
   
 Then, the tablet automatically records the GPS coordinates. The GPS
 location is displayed immediately below the question text, showing the
 longitude, latitude, accuracy, and altitude.  
   
-![](images/658361.png)  
+{{< imgproc "images/658361.png" Fit "800x600" />}}  
   
 If GPS reading is not accurate enough, you may tap on the *record
 GPS* textbox again. Doing so will replace the old GPS reading with the
@@ -186,19 +186,19 @@ adequately precise GPS reading.
   
 First, tap on the textbox.  
   
-![](images/658368.png)  
+{{< imgproc "images/658368.png" Fit "800x600" />}}  
   
   
 Then, point the tablet’s camera towards the barcode, trying to align the
 red bars with the barcode, as above.   
   
-![](images/658369.png)  
+{{< imgproc "images/658369.png" Fit "800x600" />}}  
   
   
 Once the tablet can clearly read the barcode, the camera will turn off
 and the barcode’s value will appear just below the question text.  
   
-![](images/658370.png)  
+{{< imgproc "images/658370.png" Fit "800x600" />}}  
   
   
  
@@ -212,15 +212,15 @@ camera to compose your picture, pressing the camera icon on screen to
 take the picture.  
   
   
-![](images/658372.png)  
+{{< imgproc "images/658372.png" Fit "800x600" />}}  
   
 Once the picture has been taken, press the check button to accept the
 picture or the *X* button, as pictured above, to reject the picture and
 replace it with another picture.  
   
-![](images/658373.png)  
+{{< imgproc "images/658373.png" Fit "800x600" />}}  
   
 Then, the picture will appear below the question text. Tap on the *take
 a photo* textbox to replace the photo by retaking the picture.  
   
-![](images/658376.png)
+{{< imgproc "images/658376.png" Fit "800x600" />}}

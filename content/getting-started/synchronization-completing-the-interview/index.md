@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Synchronization & Completing the Interview"
 keywords = ["sync","synchronize","complete","set complete"]
 date = 2016-06-24T16:13:47Z
@@ -20,7 +20,7 @@ If you cannot log in, although you are sure that the username and
 password are correct, synchronise the tablet (see next step)  
   
   
-![](images/795440.png)  
+{{< imgproc "images/795440.png" Fit "800x600" />}}  
   
  
 
@@ -37,7 +37,7 @@ Synchronization requires internet access. To synchronize, press the
 of the synchronization will be displayed: how many new assignments were
 received, how many were received as rejected and so on.   
   
-![](images/795444.png)  
+{{< imgproc "images/795444.png" Fit "800x600" />}}  
   
   
  
@@ -54,7 +54,7 @@ the Interviewer dashboard, refer to [this
 article](http://support.mysurvey.solutions/customer/en/portal/articles/2835148).  
   
   
-![](images/794969.png)  
+{{< imgproc "images/794969.png" Fit "800x600" />}}  
   
  
 
@@ -67,12 +67,12 @@ Use the button on the upper left side of the screen to get access to the
 list of all the sections of the questionnaire.  
   
   
-![](images/648320.png)  
+{{< imgproc "images/648320.png" Fit "800x600" />}}  
   
    
 Click on the name of the section to quickly move there.  
   
-![](images/648321.png)  
+{{< imgproc "images/648321.png" Fit "800x600" />}}  
   
  
 
@@ -88,7 +88,7 @@ one. An accompanying error message may give you more information about
 what went wrong.  
   
   
-![](images/648323.png)  
+{{< imgproc "images/648323.png" Fit "800x600" />}}  
   
  
 
@@ -106,7 +106,7 @@ an invalid answer—that is, an answer that violates the validation
 condition.   
   
   
-![](images/648327.png)  
+{{< imgproc "images/648327.png" Fit "800x600" />}}  
   
  
 
@@ -119,7 +119,7 @@ Tap and hold your finger on the text of the question to enable the
 comment field.  
   
    
-![](images/648333.png)  
+{{< imgproc "images/648333.png" Fit "800x600" />}}  
   
 Comments can be used to provide further explanation to respondent’s
 answers that can be shared with your supervisor.  

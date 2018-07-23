@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "TESTING 1: Inserting videos, images, and link--plus a translation"
 keywords = [""]
 date = 2016-05-07T18:59:53Z
@@ -36,7 +36,7 @@ Do these things:
 Step 1
 ------
 
-![](images/623967.png)
+{{< imgproc "images/623967.png" Fit "800x600" />}}
 
 Step 2
 ------

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Detailed action log"
 keywords = [""]
 date = 2018-06-08T15:28:22Z

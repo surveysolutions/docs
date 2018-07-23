@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Compile"
 keywords = ["check","compile","errors","review"]
 date = 2016-06-15T20:44:00Z
@@ -13,15 +13,15 @@ use the keyboard shortcut ***Ctrl + B*** to compile the
 questionnaire. If no errors and warnings are found, a green text
 ***OK*** will display.   
   
-![](images/642629.png)  
+{{< imgproc "images/642629.png" Fit "800x600" />}}  
   
 If no errors are found, but system warnings are present click on the
 blue ***Warning*** link to see a list of system generated
 recommendations for your questionnaire.   
   
-![](images/642630.png)  
+{{< imgproc "images/642630.png" Fit "800x600" />}}  
   
-![](images/642631.png)  
+{{< imgproc "images/642631.png" Fit "800x600" />}}  
   
 If errors are found, a red text ***Errors*** with the number of errors
 will display, along with a pop up window with the list of errors and the
@@ -37,6 +37,6 @@ questionnaire before attempting to test your questionnaire with the
 Tester application or importing the questionnaire to Headquarters.   
   
   
-![](images/642636.png)  
+{{< imgproc "images/642636.png" Fit "800x600" />}}  
   
-![](images/642639.png)
+{{< imgproc "images/642639.png" Fit "800x600" />}}

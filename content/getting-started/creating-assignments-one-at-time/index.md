@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Creating Assignments One at Time"
 keywords = [""]
 date = 2017-06-29T21:45:21Z
@@ -14,7 +14,7 @@ Step 1
 Log in to your server using the *headquarters* username and password  
   
   
-![](images/732100.png)  
+{{< imgproc "images/732100.png" Fit "800x600" />}}  
   
   
 **Note that each institution using Survey Solutions will utilize their
@@ -30,7 +30,7 @@ Step 2
   
 Select the ***Survey Setup*** tab, and click on ***Questionnaires.***  
   
-![](images/793728.png)
+{{< imgproc "images/793728.png" Fit "800x600" />}}
 
 Step 3
 ------
@@ -41,7 +41,7 @@ Create the new assignment for your questionnaire.
 Click on the questionnaire template you want to create a new assignment
 for, and then click on *New Assignments*  from the pop-up menu.   
   
-![](images/793730.png)
+{{< imgproc "images/793730.png" Fit "800x600" />}}
 
 Step 4
 ------
@@ -74,7 +74,7 @@ Specify who will be responsible for the assignment. Select the
 supervisor or interviewer that will be responsible for the assignment.
 The field allows you to search for the supervisor or interviewer by
 their username.  
-![](images/793731.png)
+{{< imgproc "images/793731.png" Fit "800x600" />}}
 
 Step 8
 ------

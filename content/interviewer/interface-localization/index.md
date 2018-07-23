@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Interface Localization"
 keywords = ["localization","langauge","app","interviewer"]
 date = 2016-07-13T23:35:06Z
@@ -29,4 +29,4 @@ including the texts of the questions, their options, instructions, and
 validation messages.   
   
   
-![](images/657931.png)
+{{< imgproc "images/657931.png" Fit "800x600" />}}

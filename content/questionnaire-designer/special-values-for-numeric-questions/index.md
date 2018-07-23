@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Special values for numeric questions"
 keywords = [""]
 date = 2018-04-02T20:03:03Z

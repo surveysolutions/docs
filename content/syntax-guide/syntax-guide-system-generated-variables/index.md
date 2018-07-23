@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Syntax Guide: System Generated Variables"
 keywords = ["syntax","beginner","self","@rowcode","@optioncode","@current"]
 date = 2016-08-16T20:36:55Z
@@ -65,7 +65,7 @@ refer to the item number. Then you would use <span
 style="font-family:courier new,courier,monospace;">@rowcode</span> and
 write the enabling condition to be like below:  
   
-![](images/676595.png)  
+{{< imgproc "images/676595.png" Fit "800x600" />}}  
   
 ***Example 2:***  
 Assume you have a roster of items that the household could have bought
@@ -80,7 +80,7 @@ style="line-height: 20.8px; font-family: 'courier new', courier, monospace;">@ro
 style="line-height: 20.8px;"> to code the upper bound specific to that
 item. </span>To code this check, you would write the validation
 condition to be like below:  
-![](images/676607.png)  
+{{< imgproc "images/676607.png" Fit "800x600" />}}  
   
  
 
@@ -109,7 +109,7 @@ style="font-family:courier new,courier,monospace;">InterviewDate</span>).
 You will use date time functions to code this filter. You should write
 the filter to look like below:  
   
-![](images/705590.png)  
+{{< imgproc "images/705590.png" Fit "800x600" />}}  
   
  
 
@@ -146,7 +146,7 @@ this example, assume that the variable for the gender of the household
 member is <span
 style="font-family:courier new,courier,monospace;">gender</span>. You
 would write the filter for the answer options to look like this:  
-![](images/705614.png)  
+{{< imgproc "images/705614.png" Fit "800x600" />}}  
   
 To see an example of this code in the public questionnaire, see this
 [question](https://solutions.worldbank.org/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/chapter/86a1285cec7b59c70bb230ee8e3bc181/question/3a3102b57b22af7172e239bb5fd4ca0d).

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Syntax Guide: Date questions"
 keywords = ["syntax ","calendar date","current time"]
 date = 2016-11-19T19:31:46Z
@@ -319,7 +319,7 @@ for the recall period:
 
     interviewDate.Value.Date.AddDays(-7).ToString("dddd, MMMM dd")
 
-![](images/721286.png)  
+{{< imgproc "images/721286.png" Fit "800x600" />}}  
   
 The format to which the date is displayed can vary, pleaser refer to
 [this

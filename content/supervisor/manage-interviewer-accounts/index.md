@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Manage Interviewer Accounts"
 keywords = ["manage","accounts","password"]
 date = 2016-07-12T23:29:53Z
@@ -16,22 +16,22 @@ address problem, the supervisor can change the interviewer’s password.
   
 Click on the *Teams and Roles* tab at the top of the screen.  
   
-![](images/744289.png)  
+{{< imgproc "images/744289.png" Fit "800x600" />}}  
   
   
 Then, click on interviewer's username whose password needs to be
 changed.  
   
-![](images/744291.png)  
+{{< imgproc "images/744291.png" Fit "800x600" />}}  
   
 Next, click on the *Edit personal info* link.  
   
-![](images/772502.png)  
+{{< imgproc "images/772502.png" Fit "800x600" />}}  
   
 Lastly, compose a new password and confirm it. Click on the *Update*
 button at the bottom of the screen.  
   
-![](images/772503.png)  
+{{< imgproc "images/772503.png" Fit "800x600" />}}  
   
  
 
@@ -49,15 +49,15 @@ interviews from the interviewer’s tablet**.</span>
 When you are ready to clock the account, click on the *Teams and Roles*
 tab at the top of the screen.  
   
-![](images/744289.png)  
+{{< imgproc "images/744289.png" Fit "800x600" />}}  
   
 Then, click on username for the team member whose account you would like
 to lock.  
    
-![](images/744291.png)  
+{{< imgproc "images/744291.png" Fit "800x600" />}}  
   
 Next, click in the box next to *Is Locked*. Finally, click on the
 *Update *button to lock the account.  
   
   
-![](images/772504.png)
+{{< imgproc "images/772504.png" Fit "800x600" />}}

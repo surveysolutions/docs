@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Version 5.19"
 keywords = [""]
 date = 2017-04-05T21:17:45Z
@@ -38,7 +38,7 @@ its full potential:
 5.  Survey Solutions Designer now highlights the substitutions used for
     text piping inside the question text:
 
-![](images/764487.png)
+{{< imgproc "images/764487.png" Fit "800x600" />}}
 
 1.  The Survey Solutions syntax no longer allows to use references to
     current date and time since this creates behavior different for
@@ -62,7 +62,7 @@ The interview key has a form of NN-NN-NN-NN and allows to identify the
 interviews on supervisors’ and hq users’ dashboards even if the designer
 of the questionnaire didn’t designate any prefilled fields:
 
-![](images/764490.png)
+{{< imgproc "images/764490.png" Fit "800x600" />}}
 
 1.  Survey Solutions now collects a wealth of technical information
     about the interviewer’s devices and the status of the Survey
@@ -75,7 +75,7 @@ of the questionnaire didn’t designate any prefilled fields:
     etc) before contacting Survey Solutions support team, since many
     problems are obvious from this information.
 
-![](images/764488.png)
+{{< imgproc "images/764488.png" Fit "800x600" />}}
 
 1.  Survey Solutions became more secure. We have listened to the
     feedback of our users and the industry’s best practices and

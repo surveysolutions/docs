@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Troubleshooting Page"
 keywords = [""]
 date = 2017-05-05T20:27:38Z
@@ -20,7 +20,7 @@ On this page cases can be found in one of the following ways: 
 2.  [Search for a survey case by its system generated *interview key*
     or* interview ID*. ](#key/id)
 
-![](images/774910.png)  <span id="census"></span>Search for Cases in Census Mode 
+{{< imgproc "images/774910.png" Fit "800x600" />}}  <span id="census"></span>Search for Cases in Census Mode 
 ---------------------------------------------------------------------------------
 
 To search for cases, 
@@ -28,13 +28,13 @@ To search for cases, 
 1.  Click on the *I need to locate an interview in a census mode *link. 
 2.  Provide the required information--questionnaire name, interviewer,
     and date range for synchronization, and click on *search*.  
-    ![](images/774913.png)
+    {{< imgproc "images/774913.png" Fit "800x600" />}}
 
 If there are any survey cases on the server that match the specification
 provided, the case will be displayed along with a brief description of
 its status at the top of the page.   
   
-![](images/774918.png)
+{{< imgproc "images/774918.png" Fit "800x600" />}}
 
 <span id="key/id"></span>Search for Cases by Interview Key/Interview ID 
 ------------------------------------------------------------------------
@@ -47,10 +47,10 @@ To search for cases, 
     server *link.
 2.  Enter the interview key or interview id, click on *search*. 
 
-![](images/774921.png)  
+{{< imgproc "images/774921.png" Fit "800x600" />}}  
   
  If there are any survey cases that match the id/key provided, the case
 will be displayed along with a brief description of its status at the
 top of the page.   
   
-![](images/774922.png)
+{{< imgproc "images/774922.png" Fit "800x600" />}}

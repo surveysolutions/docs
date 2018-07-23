@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Comments"
 keywords = ["comments","interviewer","app","application"]
 date = 2016-07-14T20:23:35Z
@@ -15,7 +15,7 @@ To leave a comment, press for a moment on the question of interest.
 After a few seconds, a comment field will appear, into which you can
 type any arbitrary long comment.  
   
-![](images/658423.png)  
+{{< imgproc "images/658423.png" Fit "800x600" />}}  
   
   
 Comments can also be left for you by your supervisor. These will likely
@@ -27,4 +27,4 @@ commented questions. To find the comments, simply tap on the red
 question link on the survey case cover page to be directed to the
 question and comment.  
   
-![](images/711021.png)
+{{< imgproc "images/711021.png" Fit "800x600" />}}

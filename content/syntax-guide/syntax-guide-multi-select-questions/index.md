@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Syntax Guide: Multi-select questions"
 keywords = ["syntax","multiselect","multi-select"]
 date = 2016-11-30T22:51:59Z
@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2661196-syntax-guide-multi-select-question
 Two types of multi-select questions
 ===================================
 
-![](images/721592.png)
+{{< imgproc "images/721592.png" Fit "800x600" />}}
 
 There are two types of multi-select questions. They differ not only in
 the way they appear, but in the way their answers can be referenced with
@@ -32,7 +32,7 @@ stored in an array.
 
 To make this abstract statement more concrete, take an example.
 
-![](images/721593.png)
+{{< imgproc "images/721593.png" Fit "800x600" />}}
 
 In the figure, the selected items are: maize (1) and ground bean (27).
 
@@ -89,7 +89,7 @@ particular answer option is among those selected. In the example below,
 the interviewer needs to write a text description for the use of a
 loan/credit if "other (specify)" is one of the three answers recorded.
 
-![](images/721187.png)
+{{< imgproc "images/721187.png" Fit "800x600" />}}
 
  
 
@@ -128,7 +128,7 @@ same time. That is, some answers may be mutually exclusive.
 Consider the example below where the answer set includes several sources
 for start-up capital as well as "No start-up cost".
 
-![](images/721188.png)
+{{< imgproc "images/721188.png" Fit "800x600" />}}
 
 Clearly, if "No start-up cost" is selected, some other option cannot
 also be selected. The contrapositive is also true: if a non-"No start-up
@@ -199,7 +199,7 @@ array of answers.
 To make this abstract situation concrete, consider the excerpt from an
 agricultural questionnaire below.
 
-![](images/721189.png)
+{{< imgproc "images/721189.png" Fit "800x600" />}}
 
 Looking at the list of answer options, it is clear that the interviewer
 must specify a crop whenever an "other" option is selected. Several
@@ -246,7 +246,7 @@ useful in writing enablement or validation conditions.
 
 Consider the questionnaire excerpt below:
 
-![](images/721188.png)
+{{< imgproc "images/721188.png" Fit "800x600" />}}
 
 Logically, the questionnaire developer wants either "no start-up cost"
 to be selected, or some other answer option--but never the two things at
@@ -300,7 +300,7 @@ containts the values of all items, whatever each item's status.
 
 To make things more clear, consider the following example.
 
-![](images/721595.png)
+{{< imgproc "images/721595.png" Fit "800x600" />}}
 
 In the image above, all items are answered with a "yes" or "no". The
 "yes" answers are: Mortar/pestle (501), Bed (502), Chair (504), and
@@ -367,7 +367,7 @@ in *yesNo*'s *ArrayName*. Returns *false* otherwise.
 In excerpt below, the designer wants to capture a text description if a
 "Yes" answer is recorded for the "Other, specify" item.
 
-![](images/721528.png)
+{{< imgproc "images/721528.png" Fit "800x600" />}}
 
  
 
@@ -433,7 +433,7 @@ Checks whether the values *a,b,c,...* are all contained in the array
 
 #### Example
 
-![](images/721544.png)
+{{< imgproc "images/721544.png" Fit "800x600" />}}
 
 Suppose that the questionnaire designer wants to implement a validation
 rule about how tables and chairs are owned. The rule is as follows. If
@@ -483,7 +483,7 @@ Returns *false* otherwise.
 
 Consider the following questionnaire excerpt:
 
-![](images/721544.png)
+{{< imgproc "images/721544.png" Fit "800x600" />}}
 
 Suppose that one wants to check that recorded asset ownership makes
 sense. In particular, the following rule: if a household owns basic
@@ -530,7 +530,7 @@ particular, the designer believes that surveyed hosueholds, however
 poor, they will consume at least one cereal or cereal product in the
 last 7 days.
 
-![](images/721624.png)
+{{< imgproc "images/721624.png" Fit "800x600" />}}
 
 To do this, one needs to count the number of "yes" answers, and make
 sure that the count is greater than or equal to 1. In code:

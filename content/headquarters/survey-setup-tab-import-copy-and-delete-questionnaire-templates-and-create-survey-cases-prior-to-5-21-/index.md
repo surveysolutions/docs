@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Survey Setup Tab: Import, Copy, and Delete Questionnaire Templates, and Create Survey Cases (prior to 5.21)"
 keywords = ["import","copy","delete","headquarters","templates","sample","survey cases"]
 date = 2016-07-06T00:08:04Z
@@ -8,7 +8,7 @@ expirydate = 2016-07-06T00:00:00Z
 +++
 
   
-![](images/732254.png)  
+{{< imgproc "images/732254.png" Fit "800x600" />}}  
   
 The survey setup tab lets you do several things:
 
@@ -27,7 +27,7 @@ The survey setup tab lets you do several things:
 When you first navigate to the Survey Setup tab in Headquarters, you
 will first see this screen:  
   
-![](images/756583.png)  
+{{< imgproc "images/756583.png" Fit "800x600" />}}  
  
 
 1.  **List of questionnaires: **This has the list of questionnaires that
@@ -56,7 +56,7 @@ import. To connect to Designer, headquarters must enter a valid login
 and password (as pictured below). Note that these login credentials are
 for the Designer site, not the headquarters software.  
   
-![](images/732258.png)  
+{{< imgproc "images/732258.png" Fit "800x600" />}}  
   
   
 After connecting to the Designer site, the user must select a
@@ -65,13 +65,13 @@ questionnaire, either by scrolling through the list of questionnaires
 available or using the search box. Click on the questionnaire to import
 it.   
   
-![](images/732262.png)  
+{{< imgproc "images/732262.png" Fit "800x600" />}}  
   
   
 Then, you will be prompted to select the mode of the survey: Sample or
 Census.   
   
-![](images/778561.png)  
+{{< imgproc "images/778561.png" Fit "800x600" />}}  
   
 Once import of the selected questionnaire is complete, the name of that
 questionnaire appears in the list of questionnaires on the
@@ -81,7 +81,7 @@ imported, the headquarters software will add “(1)” in the column titled
 imported, the software will add the corresponding version number in that
 column.  
   
-![](images/732264.png)
+{{< imgproc "images/732264.png" Fit "800x600" />}}
 
 <span id="create"></span>Create survey cases
 --------------------------------------------
@@ -93,7 +93,7 @@ creating new survey cases: *New Interview*, which creates survey cases
 one at a time; and *Batch upload* , which creates several survey cases
 at once.  
   
-![](images/756611.png)  
+{{< imgproc "images/756611.png" Fit "800x600" />}}  
  
 
 ### <span id="oneatatime"></span>One case at a time
@@ -112,7 +112,7 @@ case (Responsible). Once assigned to a supervisor, the survey case will
 appear on the supervisor’s dashboard and will be available to assign to
 one of the supervisor’s data collection team.  
   
-![](images/656117.png)  
+{{< imgproc "images/656117.png" Fit "800x600" />}}  
  
 
 ### <span id="severalcases"></span>Several cases at a time
@@ -135,12 +135,12 @@ external .tab files to pre-fill survey cases in a batch upload:
     age all of household members from last wave of data collection).
 
   
-![](images/778549.png)  
+{{< imgproc "images/778549.png" Fit "800x600" />}}  
   
 For Batch Upload mode, either create a .tab file with variable names of
 identifying questions or download the template.  
   
-![](images/778551.png)  
+{{< imgproc "images/778551.png" Fit "800x600" />}}  
   
 Then, in the first row and variable values in subsequent rows The
 variable names in the top row of the .tab file must match those in the
@@ -150,7 +150,7 @@ Instead, blank values should be recorded as codes that fall within the
 variable’s valid range (e.g., using -9 for blank entries in a numeric
 field only if -9 is in the admissible range).  
   
-![](images/656295.png)  
+{{< imgproc "images/656295.png" Fit "800x600" />}}  
   
 Then, upload the data in the .tab file. To do so, first click on the
 "Upload .TAB File" and select your file.   
@@ -159,21 +159,21 @@ contains valid contents and follows the format that the headquarters
 software expects. If there are any error messages, check the .tab file
 and make the necessary changes. Otherwise, proceed to the next step.  
   
-![](images/732272.png)  
+{{< imgproc "images/732272.png" Fit "800x600" />}}  
    
 Then, select which supervisor will be responsible for this batch of
 survey cases. To do so, choose the name of a supervisor from the
 drop-down menu. Note that in this method headquarters must upload one
 .tab file per supervisor.  
   
-![](images/732273.png)  
+{{< imgproc "images/732273.png" Fit "800x600" />}}  
    
 However, you can upload one .tab for the survey sample by adding a
 column in the .tab file with the heading **\_responsible** and
 populating all the fields with the appropriate interviewer or supervisor
 usernames.  
   
-![](images/656298.png)  
+{{< imgproc "images/656298.png" Fit "800x600" />}}  
  
 
 ### <span id="preloading"></span>Preloading
@@ -187,7 +187,7 @@ files.
   
 To do this, click on the *download .zip template* link.  
   
-![](images/778552.png)  
+{{< imgproc "images/778552.png" Fit "800x600" />}}  
   
 A .zip file containing one .tab file for each hierarchical level in the
 questionnaire will download (e.g., one file containing all
@@ -197,7 +197,7 @@ consumption item-level variables). In other words, this provides
 headquarters with a template to fill with any pre-existing information
 about the survey cases that will be created.  
   
-![](images/692348.png)  
+{{< imgproc "images/692348.png" Fit "800x600" />}}  
   
   
 While the number of such template files depends on the questionnaire,
@@ -211,7 +211,7 @@ also have ParentId1 and ParentId2. See the image below for a graphical
 explanation. The other variables in the file correspond to the variables
 present at that hierarchical level of observation.  
   
-![](images/692351.png)  
+{{< imgproc "images/692351.png" Fit "800x600" />}}  
   
 Note that the
 [numbering](/headquarters/numbering-in-subordinate-rosters-during-preloading) in
@@ -241,7 +241,7 @@ After all .tab files have been filled in this way, zip all the .tab
 files into one .zip file. Then, upload the .zip file using *Upload Zip
 File* button.  
   
-![](images/778552.png)  
+{{< imgproc "images/778552.png" Fit "800x600" />}}  
   
   
 As in the previous method of creating cases, the headquarter software
@@ -250,7 +250,7 @@ the questionnaire template. If any errors are identified, correct the
 files. Otherwise proceed to the next step and assign the batch of cases
 to a supervisor.  
   
-![](images/732284.png)  
+{{< imgproc "images/732284.png" Fit "800x600" />}}  
   
 Note that headquarters must either upload one set of .tab files per
 supervisor (i.e., one .zip file containing one or more .tab files) or
@@ -271,7 +271,7 @@ To copy a questionnaire in headquarters, click on the questionnaire you
 would like to copy and then select *Clone questionnaire* from the
 menu.  
   
-![](images/756618.png)  
+{{< imgproc "images/756618.png" Fit "800x600" />}}  
   
 If necessary, a new name can be given to the survey initiated from a
 cloned questionnaire, such as LFS Quarter 1, LFS Quarter 2, and so on.  
@@ -288,4 +288,4 @@ collected with that questionnaire from the server. **</span>
 To delete a questionnaire, click on the questionnaire you would like to
 delete and select *Delete questionnaire *from the menu.  
   
-![](images/756622.png)
+{{< imgproc "images/756622.png" Fit "800x600" />}}

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Troubleshooting"
 keywords = ["diagnostics","interviewer","supervisor","settings","application","app"]
 date = 2016-07-15T18:13:32Z
@@ -21,7 +21,7 @@ problems with synchronization. Under this menu you can:
 -   Share device specifications and information   
 
   
-![](images/658889.png)  
+{{< imgproc "images/658889.png" Fit "800x600" />}}  
 These actions are not typically taken by the interviewer, but rather by
 the supervisor or the surveys technical support in the case of
 troubleshooting problems on a particular tablet.  

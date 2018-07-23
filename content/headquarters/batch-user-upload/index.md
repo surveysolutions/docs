@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Batch User Upload"
 keywords = ["batch","create case","survey case","sample mode"]
 date = 2016-06-30T18:18:21Z
@@ -33,12 +33,12 @@ supervisors mentioned anywhere in the users list.
 When creating new users with a batch upload feature, select the *Batch
 user upload* menu item of the *Teams and Roles* menu.  
   
-![](images/653458.png)  
+{{< imgproc "images/653458.png" Fit "800x600" />}}  
   
   
 Survey Solutions will present the layout of the file it expects:  
   
-![](images/653459.png)  
+{{< imgproc "images/653459.png" Fit "800x600" />}}  
   
   
 The fields *login*, *password* and *role* are mandatory, and must be
@@ -47,7 +47,7 @@ the *Choose File* button to locate the file on your drive which contains
 the list of the users and click the *Upload* button to upload it to the
 Survey Solutions server.  
   
-![](images/653460.png)  
+{{< imgproc "images/653460.png" Fit "800x600" />}}  
   
   
 Survey Solutions will validate the uploaded list of the users report if
@@ -63,7 +63,7 @@ any problems are found:
 
   
   
-![](images/653461.png)  
+{{< imgproc "images/653461.png" Fit "800x600" />}}  
   
 If the program didn’t find any problems with the list of users, click
 the *Create users* button to start creating accounts in the batch mode.

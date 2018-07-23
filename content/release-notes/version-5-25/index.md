@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Version 5.25"
 keywords = [""]
 date = 2017-12-06T17:58:29Z
@@ -69,7 +69,7 @@ To make reviewing interviews easier, the interview details view—that is,
 the view Headquarters and Supervisors have of the full interview—has
 been substantially improved in two ways.
 
-![](images/839980.png)
+{{< imgproc "images/839980.png" Fit "800x600" />}}
 
 First, the user interface has been redesigned to match that of the
 Interviewer application. To make navigation intuitive, the interview
@@ -84,7 +84,7 @@ aesthetics, this change reduces the training needed for Headquarters and
 Supervisors to review interviews, since the user interface is
 essentially the same as on the tablet.
 
-![](images/839984.png)
+{{< imgproc "images/839984.png" Fit "800x600" />}}
 
 Second, the user interface has been made more powerful by the
 introduction of filters. In the left-most pane, Headquarters and
@@ -145,7 +145,7 @@ of a questionnaire’s design—that is, the language used to develop a
 questionnaire in Designer—as the main language, and languages as
 translations.
 
-![](images/839988.png)
+{{< imgproc "images/839988.png" Fit "800x600" />}}
 
 Now, the questionnaire designer can select the default language of
 administration—that is, the language version that is shown when an
@@ -159,7 +159,7 @@ default language, no action is required.
 Previously, Designer produced a PDF version of the questionnaire only in
 the language of the questionnaire’s design.
 
-![](images/839990.png)
+{{< imgproc "images/839990.png" Fit "800x600" />}}
 
 Now, users may select the export language for the PDF file form a
 drop-down menu of translations defined for that questionnaire. To do
@@ -283,7 +283,7 @@ exportable one. To export that report, navigate to Teams and Roles &gt;
 Interviewers, scroll to the bottom of the screen, and click the desired
 file format.
 
-![](images/839991.png)
+{{< imgproc "images/839991.png" Fit "800x600" />}}
 
 Note: creation of the export file may take some time when there are a
 large number of interviewers, since the export file is constructed from
@@ -342,7 +342,7 @@ for downloading maps to tablets, respectively.
 Map assignments, like all other assignments made on Headquarters, are
 part of survey setup.
 
-![](images/839994.png)
+{{< imgproc "images/839994.png" Fit "800x600" />}}
 
 To make assignments, follow these simple steps:
 
@@ -353,7 +353,7 @@ To make assignments, follow these simple steps:
     linking. Upload a tab-delimited file that assigns one or more maps
     to users. 
 
-![](images/839995.png)
+{{< imgproc "images/839995.png" Fit "800x600" />}}
 
 For any given map, the survey manager may preview the map on
 Headquarters, and see the users to whom it is assigned
@@ -366,7 +366,7 @@ may contain very large files), their synchronization has a special
 screen and special process that is separate from typical
 synchronization.
 
-![](images/839997.png)
+{{< imgproc "images/839997.png" Fit "800x600" />}}
 
 To download assigned maps, follow these steps:
 

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Components of the Supervisor Software"
 keywords = ["supervisor","reports","interviews","interviewers","enumerators"]
 date = 2016-07-11T22:58:47Z
@@ -62,7 +62,7 @@ The Interview interface consists of several pieces:
 5.  Search tool, which can be used to find survey cases through keywords
     (marked 5).  
 
-![](images/772945.png)  
+{{< imgproc "images/772945.png" Fit "800x600" />}}  
   
   
   
@@ -80,7 +80,7 @@ for reviewing, commenting, and approving or rejecting the case.
 The **Interview review panel **has several components (as displayed
 below):  
   
-![](images/772958.png)  
+{{< imgproc "images/772958.png" Fit "800x600" />}}  
  
 
 1.  *Filters (marked 1 in the image above) *are on the left-hand of the
@@ -128,10 +128,10 @@ human resources are in which team. Supervisor is relegated to the role
 of managing the user accounts for their team. To do so, the supervisor
 clicks on the team member's name.  
   
-![](images/772959.png)  
+{{< imgproc "images/772959.png" Fit "800x600" />}}  
   
   
-![](images/772960.png)
+{{< imgproc "images/772960.png" Fit "800x600" />}}
 
 <span id="Assignments"></span>Assignments
 -----------------------------------------

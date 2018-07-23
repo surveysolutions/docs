@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Assign a Survey Case to an Interviewer (old version prior to 5.21/5.22)"
 keywords = ["assignment","supervisor","enumerator "]
 date = 2016-07-12T18:29:28Z
@@ -12,7 +12,7 @@ the top of the screen**.**The supervisor application will then show the
 full list of all assignments to the team.  
   
   
-![](images/772986.png)  
+{{< imgproc "images/772986.png" Fit "800x600" />}}  
   
   
 Next, use filters to find the cases to be assigned. Consider the
@@ -30,7 +30,7 @@ This will display all of the survey cases that have not yet been
 assigned to an interviewer for a particular survey or version of a
 survey (as displayed below).  
   
-![](images/772987.png)  
+{{< imgproc "images/772987.png" Fit "800x600" />}}  
   
   
 Next, select the check box to the left of the survey case(s) to be
@@ -52,7 +52,7 @@ For example, reassigning a survey case from an overloaded interviewer to
 an interviewer that has time.  
   
    
-![](images/772988.png)  
+{{< imgproc "images/772988.png" Fit "800x600" />}}  
   
   
 The protocol for changing assignments vary depending on the interview

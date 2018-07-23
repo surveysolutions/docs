@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Syntax Guide: List questions"
 keywords = ["syntax","list"]
 date = 2016-11-28T19:30:19Z
@@ -22,7 +22,7 @@ and “2” is the number(Item1).
 <span style="text-align: center;">{3, “Richard Smith”}</span>  
 <span style="text-align: center;">\]</span>  
 <span style="text-align: center;"> </span>  
-![](images/644260.png)  
+{{< imgproc "images/644260.png" Fit "800x600" />}}  
   
   
  The following functions can be used in conditions for list questions:

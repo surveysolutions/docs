@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Survey Solutions API"
 keywords = [""]
 date = 2017-07-19T19:29:51Z
@@ -44,7 +44,7 @@ users](https://demo.mysurvey.solutions/apidocs/index#/).
   
 To utilize an API in your application an API user account must be
 created by the server administrator:  
-![](images/799204.png)  
+{{< imgproc "images/799204.png" Fit "800x600" />}}  
   
 Every Survey Solutions server provides an API. It is important to verify
 the reference against the exact version contained in your server to make

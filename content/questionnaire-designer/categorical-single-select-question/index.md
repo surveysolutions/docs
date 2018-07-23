@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Categorical: Single-Select Question"
 keywords = ["single select","export","cascading","options","combo box","cascade","linked question","filtered options"]
 date = 2016-06-20T18:06:44Z
@@ -11,7 +11,7 @@ Description
 -----------
 
   
-![](images/643199.png)A **categorical: single-select** question expects
+{{< imgproc "images/643199.png" Fit "800x600" />}}A **categorical: single-select** question expects
 one answer to be selected from a list of possible answers (categories).
 This list can either be defined before the interview or it can be
 created during the interview. To define the categories beforehand, you
@@ -46,11 +46,11 @@ question.
   
 **Default single-select question**  
   
-![](images/644731.png)  
+{{< imgproc "images/644731.png" Fit "800x600" />}}  
   
 **ingle-select question with a combo box**  
   
-![](images/644734.png)  
+{{< imgproc "images/644734.png" Fit "800x600" />}}  
  
 
 Creating a single-select question
@@ -62,7 +62,7 @@ In Questionnaire Designer,
 
 1.  Click on the Question Type box.
 2.  Select Categorical: Single-select.  
-    ![](images/644818.png)
+    {{< imgproc "images/644818.png" Fit "800x600" />}}
 
   
   
@@ -77,12 +77,12 @@ from a document.
 
 1.  Click on the *Add Option* button to assign the number of categories
     necessary.  
-    ![](images/644821.png)
+    {{< imgproc "images/644821.png" Fit "800x600" />}}
 2.  Add a code (positive integer value) which uniquely identifies each
     category
 3.  Add the label corresponding to each code. The labels will be
     displayed to the enumerators  
-    ![](images/644824.png)
+    {{< imgproc "images/644824.png" Fit "800x600" />}}
 
   
   
@@ -95,7 +95,7 @@ from a document.
 2.  Paste the category titles and their corresponding codes (positive
     integer value) in the box. Note that the format accepted is the
     category title followed by one or more dots (“.”).  
-    ![](images/644827.png)
+    {{< imgproc "images/644827.png" Fit "800x600" />}}
 
   
   
@@ -109,7 +109,7 @@ How a single-select question appears on a tablet
 The enumerator selects one answer option from the list displayed.
 
   
-![](images/644828.png)  
+{{< imgproc "images/644828.png" Fit "800x600" />}}  
   
   
   
@@ -137,22 +137,22 @@ To import categories from a tab delimited file,
     categories’ codes in the first column and their corresponding
     description in the second one.  
       
-    ![](images/644835.png)
+    {{< imgproc "images/644835.png" Fit "800x600" />}}
 2.  Click on the *Combo box*. Once this box is checked, click on the
     *Upload new options* link.  
       
-    ![](images/644836.png)
+    {{< imgproc "images/644836.png" Fit "800x600" />}}
 3.  In the pop-up window displayed, click on *Choose file* and select
     the tab-delimited file you had prepared.  
       
-    ![](images/644837.png)
+    {{< imgproc "images/644837.png" Fit "800x600" />}}
 4.  Select *Upload* and confirm your selection with the *Apply*
     button.  
       
-    ![](images/644838.png)
+    {{< imgproc "images/644838.png" Fit "800x600" />}}
 5.  Update the options click on the *reload* link.   
       
-    ![](images/644839.png)
+    {{< imgproc "images/644839.png" Fit "800x600" />}}
 
   
   
@@ -161,7 +161,7 @@ After importing the categories you can edit them by clicking on the
 *Upload new options* link.  
   
   
-![](images/644840.png)  
+{{< imgproc "images/644840.png" Fit "800x600" />}}  
   
   
 On a tablet the enumerator has to:
@@ -171,7 +171,7 @@ On a tablet the enumerator has to:
     filtered by the typed letters is shown.
 3.  Select the appropriate answer.  
       
-    ![](images/644841.png)
+    {{< imgproc "images/644841.png" Fit "800x600" />}}
 
   
   
@@ -198,29 +198,29 @@ from a tab-delimited file.
     respectively. The third column should contain the categories’ codes
     of the parent question.  
       
-    ![](images/644917.png)
+    {{< imgproc "images/644917.png" Fit "800x600" />}}
 2.  Click on the *cascading combo box* and then define the question that
     will filter the categories (parent question).  
       
-    ![](images/644918.png)
+    {{< imgproc "images/644918.png" Fit "800x600" />}}
 3.  To define the parent question, click on the *Select parent question*
     dropdown box and select the question from those listed.  
       
-    ![](images/644920.png)
+    {{< imgproc "images/644920.png" Fit "800x600" />}}
 4.  Add the categories by clicking on the *Add options* link.  
       
-    ![](images/644923.png)
+    {{< imgproc "images/644923.png" Fit "800x600" />}}
 5.  In the pop-up window displayed click on *Choose file* and select the
     tab-delimited file you have prepared.  
       
-    ![](images/644925.png)
+    {{< imgproc "images/644925.png" Fit "800x600" />}}
 6.  Click on the *Upload* button and confirm your selection by clicking
     on the *Apply* button.  
       
-    ![](images/644926.png)
+    {{< imgproc "images/644926.png" Fit "800x600" />}}
 7.  Update the categories click on the *reload* link.  
       
-    ![](images/644928.png)
+    {{< imgproc "images/644928.png" Fit "800x600" />}}
 
   
   
@@ -229,7 +229,7 @@ After importing the categories, you can edit them by clicking on
 the*Upload new options*&lt; link.  
   
   
-![](images/644930.png)  
+{{< imgproc "images/644930.png" Fit "800x600" />}}  
   
   
 On a tablet the enumerator has to:
@@ -238,7 +238,7 @@ On a tablet the enumerator has to:
 2.  Starts typing letters, so that a subset of options first filtered by
     the parent question and then by the entered letters, is shown.
 3.  Select the appropriate option.  
-    ![](images/644934.png)
+    {{< imgproc "images/644934.png" Fit "800x600" />}}
 
   
   
@@ -265,7 +265,7 @@ To link a question to a previous question,
 2.  Click on the *Bind to question from roster group* dropdown menu, and
     select the appropriate question or roster.  
       
-    ![](images/644994.png)
+    {{< imgproc "images/644994.png" Fit "800x600" />}}
 
   
   
@@ -273,10 +273,10 @@ To link a question to a previous question,
 On a tablet the linked question displays the list of categories an
 enumerator can choose from.  
   
-![](images/644998.png)  
+{{< imgproc "images/644998.png" Fit "800x600" />}}  
   
   
-![](images/644999.png)  
+{{< imgproc "images/644999.png" Fit "800x600" />}}  
   
   
  
@@ -319,7 +319,7 @@ style="font-family:courier new,courier,monospace;">age
 @current.age</span>.  
   
   
-![](images/659127.png)  
+{{< imgproc "images/659127.png" Fit "800x600" />}}  
   
 To add a condition on the answer options of a categorical question,
 define the filter in the *Filter* box.  
@@ -348,19 +348,19 @@ residence” where code 1 represents Urban and code 2 Rural.
   
 **Categorical: single-select**  
   
-![](images/644969.png)  
+{{< imgproc "images/644969.png" Fit "800x600" />}}  
   
 Categories defined in Questionnaire Designer  
   
-![](images/644970.png)  
+{{< imgproc "images/644970.png" Fit "800x600" />}}  
   
 Unanswered question exported in tab-delimited file  
   
-![](images/644973.png)  
+{{< imgproc "images/644973.png" Fit "800x600" />}}  
   
 Answered question exported in tab-delimited file  
   
-![](images/644975.png)  
+{{< imgproc "images/644975.png" Fit "800x600" />}}  
   
 The second example illustrates the data export of a linked categorical
 one-answer question. The question: “Which of the household members is
@@ -373,24 +373,24 @@ value 0 when exporting the data.
   
 Linked categorical: single-select question  
   
-![](images/644995.png)  
+{{< imgproc "images/644995.png" Fit "800x600" />}}  
   
   
 Answered roster source question  
   
-![](images/644998.png)  
+{{< imgproc "images/644998.png" Fit "800x600" />}}  
   
 The system assigns the codes: 0 to Ann, 1 to Paul, 2 to Mary and 3 to
 Michael  
   
-![](images/645002.png)  
+{{< imgproc "images/645002.png" Fit "800x600" />}}  
   
   
 Unanswered linked question exported in a tab-delimited file  
   
-![](images/645004.png)  
+{{< imgproc "images/645004.png" Fit "800x600" />}}  
   
   
 Answered linked question exported in a tab-delimited file  
   
-![](images/645003.png)
+{{< imgproc "images/645003.png" Fit "800x600" />}}

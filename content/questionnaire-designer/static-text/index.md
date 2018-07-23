@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Static Text"
 keywords = ["hide","text","photo","attachment "]
 date = 2016-06-21T00:13:11Z
@@ -11,7 +11,7 @@ Description
 -----------
 
   
-A *stat*![](images/643217.png)*ic-text* is not a question but a text
+A *stat*{{< imgproc "images/643217.png" Fit "800x600" />}}*ic-text* is not a question but a text
 that can also be accompanied by a photo. A static-text cannot be
 modified by the enumerator, and is not intended to capture data but to
 communicate information to the enumerator or the interviewee. The text
@@ -23,7 +23,7 @@ percentage sign (%).&gt;
   
   
   
-![](images/645007.png)  
+{{< imgproc "images/645007.png" Fit "800x600" />}}  
   
  
 
@@ -37,12 +37,12 @@ To add a static-text,
     open a drop down menu.
 2.  Select *Add static-text* button.  
       
-    ![](images/645009.png)
+    {{< imgproc "images/645009.png" Fit "800x600" />}}
 3.  In the *static-text* field you can add or modify the content of the
     static-text.  
       
       
-    ![](images/645008.png)
+    {{< imgproc "images/645008.png" Fit "800x600" />}}
 
   
   
@@ -55,7 +55,7 @@ How a static-text appears on a tablet
 A static-text displays the defined message.  
   
   
-![](images/645007.png)  
+{{< imgproc "images/645007.png" Fit "800x600" />}}  
   
  
 
@@ -81,12 +81,12 @@ To add a new attachment element:
 2.  Click on the green **upload new** button to add an image from your
     disk.  
       
-    ![](images/645292.png)
+    {{< imgproc "images/645292.png" Fit "800x600" />}}
 3.  Define a name for the image
 4.  Then, add the attachment to a static. Type in the name of the
     specified attachment in the *Attachment name* box.  
       
-    ![](images/645293.png)  
+    {{< imgproc "images/645293.png" Fit "800x600" />}}  
      
 
   
@@ -112,7 +112,7 @@ By default, the static-text will appear greyed out if it is disabled. To
 hide static-text if it is disabled, select the *Hide if disabled* check
 box.  
   
-![](images/643870.png)  
+{{< imgproc "images/643870.png" Fit "800x600" />}}  
   
  
 

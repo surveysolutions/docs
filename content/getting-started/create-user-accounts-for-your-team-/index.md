@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Create User Accounts for Your Team "
 keywords = ["users","server","login"]
 date = 2016-06-23T21:47:10Z
@@ -14,7 +14,7 @@ Step 1
 **Log in to your server using the *headquarters* username and
 password**  
   
-![](images/732100.png)  
+{{< imgproc "images/732100.png" Fit "800x600" />}}  
   
   
   
@@ -36,13 +36,13 @@ of the headquarters dashboard. On the new screen, click the button *Add
 supervisor*.  
   
   
-![](images/774055.png)  
+{{< imgproc "images/774055.png" Fit "800x600" />}}  
   
   
 Then, complete the form displayed and click on *Create* to add the
 supervisor in the system.   
   
-![](images/774056.png)  
+{{< imgproc "images/774056.png" Fit "800x600" />}}  
   
   
 Repeat these steps for each of your supervisors.  
@@ -62,16 +62,16 @@ The process is similar to creating accounts for supervisors.
 To add a interviewer, click on the *Teams and Roles *tab at the top bar
 of the headquarters dashboard. On the new screen, click *Create*.  
   
-![](images/744260.png)  
+{{< imgproc "images/744260.png" Fit "800x600" />}}  
   
-![](images/744261.png)  
+{{< imgproc "images/744261.png" Fit "800x600" />}}  
   
 Then, complete the form displayed. Use the Supervisor drop down menu to
 assign the interviewer to a supervisor.   
   
 Lastly, click on *Create *to add the enumerator in the system.   
   
-![](images/774057.png)  
+{{< imgproc "images/774057.png" Fit "800x600" />}}  
   
 Repeat this procedure for each enumerator.   
   

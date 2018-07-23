@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Data Export Files "
 keywords = ["export files","tab","stata","spss","DDI","zip file","missing"]
 date = 2016-08-18T13:22:05Z
@@ -86,7 +86,7 @@ example. In Questionnaire Designer, the example survey (below) consists
 of questions about the interview at the household level and a household
 roster that include questions about each household member.   
   
-![](images/677299.png)
+{{< imgproc "images/677299.png" Fit "800x600" />}}
 
  
 
@@ -101,4 +101,4 @@ anatomy of each
 file: [Questionnaire](/headquarters/questionnaire-data---export-file-anatomy) (both
 questionnaire and parent level files), [System
 Generated](/headquarters/system-generated---export-file-anatomy)   
-![](images/773031.png)
+{{< imgproc "images/773031.png" Fit "800x600" />}}

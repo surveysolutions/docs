@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Synchronization"
 keywords = ["sync","synchronize","interviewer","app","application"]
 date = 2016-07-15T17:48:51Z
@@ -38,7 +38,7 @@ Why is my data not syncing?
   
 1. **Error:** No network. Check your network settings.  
   
-![](images/658881.png)  
+{{< imgproc "images/658881.png" Fit "800x600" />}}  
   
 To resolve:
 
@@ -52,7 +52,7 @@ To resolve:
 2. **Error:** No connection to the Survey Solutions Supervisor. Please
 make sure that the website is available.  
   
-![](images/658884.png)  
+{{< imgproc "images/658884.png" Fit "800x600" />}}  
   
 To resolve:
 
@@ -68,7 +68,7 @@ To resolve:
 3. **Error:** Timeout when connecting to the Survey Solutions Supervisor
 website. Check your internet connection.  
   
-![](images/658885.png)  
+{{< imgproc "images/658885.png" Fit "800x600" />}}  
   
 To resolve:
 

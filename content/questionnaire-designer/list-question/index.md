@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "List Question"
 keywords = ["list","max","maximum","elements","export"]
 date = 2016-06-18T22:27:46Z
@@ -11,7 +11,7 @@ Description
 -----------
 
   
-![](images/643209.png)A list question expects an open list of answers.
+{{< imgproc "images/643209.png" Fit "800x600" />}}A list question expects an open list of answers.
 Each answer can contain alphanumeric characters (A-Z, a-z,0-9) and basic
 punctuation symbols. By default the enumerator can add up to 40 items;
 however you can limit the number of items that can be listed by defining
@@ -34,12 +34,12 @@ number of answers to equal four.
   
 An open list without a maximum number of answers.  
   
-![](images/644254.png)
+{{< imgproc "images/644254.png" Fit "800x600" />}}
 
   
 An open list with a maximum number of answers.  
   
-![](images/644255.png)
+{{< imgproc "images/644255.png" Fit "800x600" />}}
 
  
 
@@ -52,7 +52,7 @@ In Questionnaire Designer,
 
 1.  Click on the Question Type text box.
 2.  Select List from the drop down menu.  
-    ![](images/644256.png)
+    {{< imgproc "images/644256.png" Fit "800x600" />}}
 
   
   
@@ -69,7 +69,7 @@ To answer the question the enumerator has to:
 
 1.  Tap on the text box.  
       
-    ![](images/644257.png)
+    {{< imgproc "images/644257.png" Fit "800x600" />}}
 2.  An empty row will display and the keyboard automatically shows alpha
     characters. The enumerator can navigate through the keyboard to
     select the numeric characters, basic punctuation symbols and the
@@ -96,7 +96,7 @@ Once the enumerator finishes listing the answers, the answer box will
 display the complete list.
 
   
-![](images/644260.png)  
+{{< imgproc "images/644260.png" Fit "800x600" />}}  
   
   
   
@@ -119,19 +119,19 @@ you are only interested in the interviewee’s two most favorite colors.
 In order to assign a maximum number of answers lower than the default
 number, you need to type the corresponding number in the *Maximum number
 of list elements* field.  
-![](images/644261.png)  
+{{< imgproc "images/644261.png" Fit "800x600" />}}  
   
   
 On a tablet, a text field is shown until the maximum number of answers
 is listed.   
   
-![](images/644262.png)  
+{{< imgproc "images/644262.png" Fit "800x600" />}}  
   
   
 A text field is no longer shown once the maximum number of answers has
 been listed.  
   
-![](images/644263.png)  
+{{< imgproc "images/644263.png" Fit "800x600" />}}  
   
   
  
@@ -153,11 +153,11 @@ question’s variable name and an index number (starting from 0).
 ### List question
 
   
-![](images/644264.png)  
+{{< imgproc "images/644264.png" Fit "800x600" />}}  
   
 Unanswered question exported in tab-delimited file  
-![](images/644265.png)  
+{{< imgproc "images/644265.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
-![](images/644266.png)
+{{< imgproc "images/644266.png" Fit "800x600" />}}

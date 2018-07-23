@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Questionnaire Attachments"
 keywords = ["attach","pictures","static text"]
 date = 2016-06-15T21:56:14Z
@@ -24,12 +24,12 @@ To add an attachment (image) to your questionnaire:
     disk.
 3.  Define a name for the image.  
       
-    ![](images/642677.png)
+    {{< imgproc "images/642677.png" Fit "800x600" />}}
 4.  To add attachment (image) to static text element, type in the name
     of the specified attachment in the *Attachment name *box. 
 
   
-![](images/642681.png)  
+{{< imgproc "images/642681.png" Fit "800x600" />}}  
   
   
 Three large images are scaled to fit width to tablet screen when the

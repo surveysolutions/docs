@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Rosters"
 keywords = ["roster","numeric"," list","fixed","multi select","yes/no multi select"]
 date = 2016-06-21T22:39:42Z
@@ -83,12 +83,12 @@ The pictures below show an example of a numeric roster.
   
 In Questionnaire Designer:  
   
-![](images/646131.png)  
+{{< imgproc "images/646131.png" Fit "800x600" />}}  
   
   
 On a tablet:  
   
-![](images/646132.png)  
+{{< imgproc "images/646132.png" Fit "800x600" />}}  
   
  
 
@@ -115,12 +115,12 @@ a list roster. </span>
   
 In Questionnaire Designer:  
   
-![](images/646139.png)  
+{{< imgproc "images/646139.png" Fit "800x600" />}}  
   
   
 <span style="line-height: 20.8px;">On a tablet:  
   
-![](images/646169.png)</span>  
+{{< imgproc "images/646169.png" Fit "800x600" />}}</span>  
   
  
 
@@ -150,11 +150,11 @@ The pictures below show an example of multi-select roster.
   
 In Questionnaire Designer:  
   
-![](images/646176.png)  
+{{< imgproc "images/646176.png" Fit "800x600" />}}  
   
 On a tablet:  
   
-![](images/646177.png)  
+{{< imgproc "images/646177.png" Fit "800x600" />}}  
   
 The pictures below show an example of multi-select roster in yes/no
 mode.  
@@ -162,12 +162,12 @@ mode.
   
 In Questionnaire Designer:  
   
-![](images/646190.png)  
+{{< imgproc "images/646190.png" Fit "800x600" />}}  
   
   
 On a tablet:  
   
-![](images/646192.png)</span>  
+{{< imgproc "images/646192.png" Fit "800x600" />}}</span>  
   
  
 
@@ -181,4 +181,4 @@ Designer.
 To define them, click on the *Add Item* link to manually add each
 subject id and code.  
   
-![](images/646179.png)</span>
+{{< imgproc "images/646179.png" Fit "800x600" />}}</span>

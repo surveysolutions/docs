@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Shape file overlay"
 keywords = [""]
 date = 2018-06-06T21:39:31Z
@@ -25,7 +25,7 @@ The number of points in the shapefile may vary: it can be as simple as
 four corners of a rectangular enumeration area, or be a complex outline
 of the coastal area.   
   
-![](images/881646.png)  
+{{< imgproc "images/881646.png" Fit "800x600" />}}  
   
 Once the shapefile is present on the tablet, it will be automatically
 overlaid over the baseline map, and the interviewer will have a visual

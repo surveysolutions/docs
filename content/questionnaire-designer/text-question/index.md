@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Text Question"
 keywords = ["text","question types","pattern ","export"]
 date = 2016-06-17T19:30:38Z
@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2468455-text-question"]
 Description
 -----------
 
-![](images/643148.png)A text **question** expects an answer to contain
+{{< imgproc "images/643148.png" Fit "800x600" />}}A text **question** expects an answer to contain
 alphanumeric characters (A-Z, a-z, 0-9), basic punctuation, symbols, and
 spaces. The structure of the answer can be defined using a pattern. This
 may be used for phone numbers, id codes and flight numbers.   
@@ -21,12 +21,12 @@ may be used for phone numbers, id codes and flight numbers. 
 The picture below displays a default text question on a tablet that
 accepts alphanumeric characters with no specific pattern defined.   
   
-![](images/644118.png)  
+{{< imgproc "images/644118.png" Fit "800x600" />}}  
   
 The picture below displays a text question on a tablet with a specific
 pattern defined.   
   
-![](images/644119.png)  
+{{< imgproc "images/644119.png" Fit "800x600" />}}  
  
 
  Creating a text question   
@@ -39,7 +39,7 @@ In Questionnaire Designer,
 2.  Select *Text*.
 
   
-![](images/644116.png)
+{{< imgproc "images/644116.png" Fit "800x600" />}}
 
   How a text question appears on a tablet 
 -----------------------------------------
@@ -72,7 +72,7 @@ Once the enumerator enters the answer the text is shown in the answer
 field.  
   
   
-![](images/644135.png)  
+{{< imgproc "images/644135.png" Fit "800x600" />}}  
   
  
 
@@ -87,7 +87,7 @@ the ***Pattern ***field to define a specific format for the
 answer, otherwise leave this field blank.   
   
   
-![](images/644123.png)  
+{{< imgproc "images/644123.png" Fit "800x600" />}}  
   
   
 To define a pattern, add a sequence of characters which defines the
@@ -158,7 +158,7 @@ For example, for a question asking for the national id of a household
 member we will add the following sequence in the pattern text field:   
   
   
-![](images/644124.png)  
+{{< imgproc "images/644124.png" Fit "800x600" />}}  
   
   
 On the tablet the question’s answer field displays the specific format
@@ -192,27 +192,27 @@ an open answer, and a specified answer format. 
   
 **Text question without a pattern**  
   
-![](images/644139.png)  
+{{< imgproc "images/644139.png" Fit "800x600" />}}  
   
   
 Unanswered question exported in tab-delimited file  
-![](images/644140.png)  
+{{< imgproc "images/644140.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
-![](images/644141.png)  
+{{< imgproc "images/644141.png" Fit "800x600" />}}  
   
   
 **Text question with a pattern**
 
  
 
-![](images/644142.png)  
+{{< imgproc "images/644142.png" Fit "800x600" />}}  
   
   
 Unanswered question exported in tab-delimited file  
-![](images/644143.png)  
+{{< imgproc "images/644143.png" Fit "800x600" />}}  
   
   
 Answered question exported in tab-delimited file  
-![](images/644144.png)
+{{< imgproc "images/644144.png" Fit "800x600" />}}

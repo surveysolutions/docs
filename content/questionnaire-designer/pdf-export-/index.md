@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "PDF Export "
 keywords = ["pdf","export"]
 date = 2016-06-22T22:58:50Z
@@ -18,12 +18,12 @@ legend page explaining various elements of the preview.
 To export as a PDF, click on the *Export as PDF* button under the
 *Action* menu button.  
   
-![](images/646640.png)  
+{{< imgproc "images/646640.png" Fit "800x600" />}}  
   
 If you have a [multilingual
 questionnaire](http://support.mysurvey.solutions/customer/en/portal/articles/2626663-multilingual-questionnaires?b_id=12728),
 it will ask you to choose a language.  
-![](images/852880.png)  
+{{< imgproc "images/852880.png" Fit "800x600" />}}  
   
   
 The creation of a PDF preview document on the server may take some time,
@@ -33,13 +33,13 @@ you can download the document by clicking on the *DOWNLOAD PDF* button.
 Note that the generated document must be downloaded before another one
 can be generated.  
   
-![](images/710919.png)  
+{{< imgproc "images/710919.png" Fit "800x600" />}}  
   
   
 The top of the first page of the PDF document displays the general
 specifications of the questionnaire.  
   
-![](images/646641.png)  
+{{< imgproc "images/646641.png" Fit "800x600" />}}  
   
 Then, on the same page all of the questionnaire sections will be
 listed. The remaining pages presents all the questions, conditions,
@@ -47,4 +47,4 @@ instructions, and etc.. Study the legend page which can be found below
 or on the last page of the PDF document to learn how the various
 questionnaire elements are presented.  
   
-![](images/646648.png)
+{{< imgproc "images/646648.png" Fit "800x600" />}}

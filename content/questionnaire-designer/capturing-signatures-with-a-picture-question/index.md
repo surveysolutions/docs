@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Capturing signatures with a picture question"
 keywords = ["Signature picture image"]
 date = 2018-04-02T19:40:36Z

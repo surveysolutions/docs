@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Registration and Signing In "
 keywords = ["designer","register","login "]
 date = 2016-06-14T17:51:18Z
@@ -28,7 +28,7 @@ To log in for the first time, you need to create an account. 
     confirmation email from *wbcapi@worldbank.org*, and click on the
     *complete registration* link.
 
-![](images/641998.png)
+{{< imgproc "images/641998.png" Fit "800x600" />}}
 
   
 After signing in with your Questionnaire Designer credentials, you will

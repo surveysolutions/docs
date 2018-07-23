@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "General Component Properties"
 keywords = ["variable names","variable labels","question texts","question types","interviewer instructions","conditions"]
 date = 2016-06-17T00:26:32Z
@@ -31,7 +31,7 @@ letter, but can also contain numbers and the underscore symbol. As it is
 not needed during the interview, the variable name is not visible on the
 tablet.  
   
-![](images/643705.png)  
+{{< imgproc "images/643705.png" Fit "800x600" />}}  
   
   
  
@@ -48,7 +48,7 @@ entered, the system automatically exports the question text as its
 label. As it is not needed during the interview, the variable label is
 not visible on the tablet.  
   
-![](images/643707.png)  
+{{< imgproc "images/643707.png" Fit "800x600" />}}  
   
   
  
@@ -73,9 +73,9 @@ Use an answer given in any previous question in another question’s text.
 To do this, include in the question’s text the variable name of a
 previous question within percentage symbols.  
   
-![](images/643710.png)  
+{{< imgproc "images/643710.png" Fit "800x600" />}}  
   
-![](images/643711.png)  
+{{< imgproc "images/643711.png" Fit "800x600" />}}  
   
 ***Second method***  
   
@@ -84,7 +84,7 @@ Use an answer given to a previous question that triggers a roster in the
 variable name within percentage symbols in the question text.  
   
   
-![](images/643713.png)  
+{{< imgproc "images/643713.png" Fit "800x600" />}}  
   
   
  
@@ -184,10 +184,10 @@ The format of the date corresponds with the tablet’s date settings.</td>
 
 1.  Click on the *question type *dropdown box.  
       
-    ![](images/643731.png)
+    {{< imgproc "images/643731.png" Fit "800x600" />}}
 2.  From the pop-up menu select the question type by clicking on it.  
       
-    ![](images/643734.png)
+    {{< imgproc "images/643734.png" Fit "800x600" />}}
 
    
   
@@ -206,20 +206,20 @@ To add interviewer instructions,
 1.  Click on the *Add Interviewer instructions* link.  
       
       
-    ![](images/643756.png)
+    {{< imgproc "images/643756.png" Fit "800x600" />}}
 
  
 
 1.  Add the text in the field.   
       
-    ![](images/643759.png)​
+    {{< imgproc "images/643759.png" Fit "800x600" />}}​
 
   
 On the tablet the instructions will be shown in blue below the question
 text.   
   
   
-![](images/643765.png)  
+{{< imgproc "images/643765.png" Fit "800x600" />}}  
   
   
   
@@ -231,7 +231,7 @@ clicks on Instruction link to reveal the text.  To do this, check the
 *Hide instruction* check box.   
   
   
-![](images/659128.png)  
+{{< imgproc "images/659128.png" Fit "800x600" />}}  
   
   
  
@@ -261,7 +261,7 @@ For example, if the template has the questions “Do you speak any foreign
 language?” and “Which foreign language do you speak?”   
   
   
-![](images/643852.png)  
+{{< imgproc "images/643852.png" Fit "800x600" />}}  
   
   
 it does not make sense to ask the second question if the interviewee
@@ -280,7 +280,7 @@ question with variable name *foreign* and possible answers: 1-“*Yes*”
 and 2-“*No*“
 
   
-![](images/643856.png)  
+{{< imgproc "images/643856.png" Fit "800x600" />}}  
   
 Write the logical expression in the *Enabling condition* text field of
 the recipient question. The text box also autosuggests roster names and
@@ -295,7 +295,7 @@ complete syntax guide.
   
  
 
-![](images/643860.png)  
+{{< imgproc "images/643860.png" Fit "800x600" />}}  
   
   
 The question will appear greyed out if it is disabled. To hide the
@@ -303,7 +303,7 @@ recipient question if it is disabled, select the*Hide if disabled* check
 box.  
   
   
-![](images/643870.png)  
+{{< imgproc "images/643870.png" Fit "800x600" />}}  
   
   
 The pictures below show how this example is displayed on the tablet.   
@@ -326,7 +326,7 @@ To indicate that a question includes an enablement condition an orange
 dot will display next to the variable name on the section navigation
 pane.   
   
-![](images/643900.png)  
+{{< imgproc "images/643900.png" Fit "800x600" />}}  
   
   
   
@@ -364,7 +364,7 @@ To add a validation condition,
 
 1.  Click on the *Add New Validation Rule* link.   
       
-    ![](images/643911.png)
+    {{< imgproc "images/643911.png" Fit "800x600" />}}
 2.  Write the logical expression in the *Validation condition*
     field. Check the *Is warning* check box if the validation should be
     a warning. 
@@ -378,10 +378,10 @@ To add a validation condition,
       
      
 
-![](images/871994.png)  
+{{< imgproc "images/871994.png" Fit "800x600" />}}  
   
   
 To indicate that a question includes a validation condition, a blue dot
 will display next to the variable name on the section navigation pane.  
   
-![](images/643914.png)
+{{< imgproc "images/643914.png" Fit "800x600" />}}

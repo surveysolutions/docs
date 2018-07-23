@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Selecting a person"
 keywords = [""]
 date = 2017-02-23T11:21:22Z
@@ -31,7 +31,7 @@ selected.
 The variable may be subsequently referred to in the question texts or
 static texts with %-substitution:  
   
-![](images/748657.png)  
+{{< imgproc "images/748657.png" Fit "800x600" />}}  
   
 ​It is usually convenient to place all the continuation questions into a
 sub-section and lock it until the selection has been made.

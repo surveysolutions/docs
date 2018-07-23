@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Version 18.04-a"
 keywords = [""]
 date = 2018-03-29T02:29:55Z
@@ -74,7 +74,7 @@ To access the portal, first, navigate to
 Then, use Designer credentials to log in. As with Designer, this may be
 either the user name and password or the user email and password.
 
-![](images/866430.png)  
+{{< imgproc "images/866430.png" Fit "800x600" />}}  
   
 To make a request:
 
@@ -111,33 +111,33 @@ New features can be divided into the following categories: 
 To add special values in Designer, click on ADD OPTIONS, and add a value
 and label pair for each desired special value, in same way that answer
 options are added for a single- or multi-select questions  
-![](images/866432.png)
+{{< imgproc "images/866432.png" Fit "800x600" />}}
 
 To use special values in Interviewer, either tap the radio button
 associated with the desired special value or compose its code.
 
-![](images/866433.png)
+{{< imgproc "images/866433.png" Fit "800x600" />}}
 
 To prevent interviewers from answering both a number and a special
 value, no additional work is needed. The Interviewer application allows
 either one or the other to be recorded, but not both. Once a number is
 recorded, the special values are disabled. Once a special value is
 recorded, the numeric entry field is disabled.  
-![](images/866437.png)
+{{< imgproc "images/866437.png" Fit "800x600" />}}
 
 ### Signature question
 
 To create a signature question in Designer, first simply create an Image
 question, and then tick the Use signature pad box.
 
-![](images/866438.png)
+{{< imgproc "images/866438.png" Fit "800x600" />}}
 
 How to capture a signature in Interviewer depends on the interview mode.
 For face-to-face interviews, write the name in the signature field and,
 importantly, tap on the store signature button. For web interviews,
 search for an image of the signature stored on the device
 
-![](images/866439.png)
+{{< imgproc "images/866439.png" Fit "800x600" />}}
 
 ### Comment in Designer
 
@@ -145,19 +145,19 @@ To leave a comment, click on the ADD COMMENT link, compose a comment,
 and click on the ADD COMMENT button. This may be done for any object in
 the questionnaire--a question, a variable, a roster, etc.
 
-![](images/866444.png)
+{{< imgproc "images/866444.png" Fit "800x600" />}}
 
 To view all comments, click on the comments icon in the sidebar of
 Designer. Doing so will reveal the list of all comments throughout the
 questionnaire. Clicking on an individual element of the list will take
 the user to the comment's location.
 
-![](images/866448.png)  
+{{< imgproc "images/866448.png" Fit "800x600" />}}  
 To hide this compilation of comments, close the comment sidebar. To hide
 comments on an individual question, click on HIDE COMMENTS. To resolve a
 comment, click RESOLVE on the desired comment.
 
-![](images/866453.png)
+{{< imgproc "images/866453.png" Fit "800x600" />}}
 
 ### Reload questionnaire in Web Tester
 
@@ -166,14 +166,14 @@ the tablet Tester application: the questionnaire will be updated to
 reflect recent changes, while the data previously entered will be
 preserved and all condtions re-evaluated.
 
-![](images/866454.png)
+{{< imgproc "images/866454.png" Fit "800x600" />}}
 
 ### Export questionnaires as HTML
 
 Previously, Survey Solutions questionnaires could be exported to PDF
 format. Now, questionnaires may also be exported to HTML format.
 
-![](images/866455.png)
+{{< imgproc "images/866455.png" Fit "800x600" />}}
 
 ### Prevent circular references in enablement and filter conditions
 
@@ -281,7 +281,7 @@ it, or upon finishing it. Now, when setting up a web survey,
 headquarters users may either retain the default message or craft their
 own for text for the following message components:
 
-![](images/866456.png)
+{{< imgproc "images/866456.png" Fit "800x600" />}}
 
 ### Export binary data to user-designated web services
 
@@ -293,7 +293,7 @@ choice: DropBox, Google Drive, or OneDrive. Doing so will, among other
 things, allow users to download files individually, or in smaller
 batches than the zip file Survey Solutions creates.
 
-![](images/866457.png)
+{{< imgproc "images/866457.png" Fit "800x600" />}}
 
 Supervisor
 ----------
@@ -326,4 +326,4 @@ application. Now, interviewers can search for cases across all statuses.
 To do so, first tap on the overflow menu. Then select search. Next,
 input search terms. Search operates over  
   
-![](images/866458.png)
+{{< imgproc "images/866458.png" Fit "800x600" />}}

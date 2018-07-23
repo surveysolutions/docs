@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Setting photo size and quality"
 keywords = [""]
 date = 2017-03-16T13:07:44Z
@@ -24,7 +24,7 @@ in the OS Android. This allows Survey Solutions to benefit from controls
 and effects present in such a provider.
 
   
-![](images/756524.png)  
+{{< imgproc "images/756524.png" Fit "800x600" />}}  
   
 Depending on the purpose of the image capture, the settings may need to
 be adjusted. The higher is the resolution and quality of the image, the
@@ -38,13 +38,13 @@ they may lack the image quality that is necessary for some purposes.
 Different image provider applications have different settings, and when
 several such apps are installed, the interviewer is generally asked,
 which one she would like to utilize:  
-![](images/756525.png)  
+{{< imgproc "images/756525.png" Fit "800x600" />}}  
   
 The two crucial settings most such applications provide are the
 **resolution** and **compression level** (also sometimes simply referred
 to as "quality"):  
   
-![](images/756522.png)![](images/756523.png)
+{{< imgproc "images/756522.png" Fit "800x600" />}}{{< imgproc "images/756523.png" Fit "800x600" />}}
 
 Tentative recommendations
 -------------------------

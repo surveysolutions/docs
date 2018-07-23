@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Version 5.22"
 keywords = [""]
 date = 2017-08-03T20:02:47Z

@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Selecting an option with lowest code"
 keywords = [""]
 date = 2017-02-23T13:45:09Z
@@ -12,12 +12,12 @@ This article demonstrates the sequence of steps that solve the
 question](http://support.mysurvey.solutions/customer/portal/questions/16822110):  
   
 Step 0:  
-![](images/748680.png)  
+{{< imgproc "images/748680.png" Fit "800x600" />}}  
 Step 1:  
-![](images/748681.png)  
+{{< imgproc "images/748681.png" Fit "800x600" />}}  
 Step 2:  
-![](images/748682.png)  
+{{< imgproc "images/748682.png" Fit "800x600" />}}  
 Step 3:  
-![](images/748683.png)  
+{{< imgproc "images/748683.png" Fit "800x600" />}}  
 Step 4:  
-![](images/748684.png)
+{{< imgproc "images/748684.png" Fit "800x600" />}}

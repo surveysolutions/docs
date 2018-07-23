@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Supervisor: Browsing the Completed Interview"
 keywords = ["check","review","supervisor"]
 date = 2016-06-28T17:31:37Z
@@ -16,7 +16,7 @@ Survey Solutions, log in at demo.mysurvey.solutions using a supervisor
 account.  
   
   
-![](images/774335.png)  
+{{< imgproc "images/774335.png" Fit "800x600" />}}  
  
 
  Step 2
@@ -25,7 +25,7 @@ account.
   
 Go to the *Interviews* tab  
   
-![](images/774336.png)  
+{{< imgproc "images/774336.png" Fit "800x600" />}}  
    
   
  
@@ -37,7 +37,7 @@ Go to the *Interviews* tab
 From the filter on the left side of the screen, select *Completed*  
   
   
-![](images/774357.png)  
+{{< imgproc "images/774357.png" Fit "800x600" />}}  
   
  
 
@@ -48,7 +48,7 @@ From the filter on the left side of the screen, select *Completed*
 Click on the *Interview Key* for the interview that you would like to
 browse.   
   
-![](images/774359.png)  
+{{< imgproc "images/774359.png" Fit "800x600" />}}  
   
   
 Now you can see all the answers given by the respondents—the answers
@@ -63,4 +63,4 @@ If the interview should be approved, click on the *Approve* button. To
 return it to the interviewer, click on the *Reject* button.  
   
   
-![](images/774360.png)
+{{< imgproc "images/774360.png" Fit "800x600" />}}

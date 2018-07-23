@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Find an Interview"
 keywords = ["find","filter","survey case","supervisor"]
 date = 2016-07-11T23:13:24Z
@@ -31,7 +31,7 @@ assignments you want to see.
    
   
   
-![](images/772992.png)  
+{{< imgproc "images/772992.png" Fit "800x600" />}}  
   
   
 The results will be a list of only those assignments for that particular
@@ -39,7 +39,7 @@ The results will be a list of only those assignments for that particular
 status is.  
   
   
-![](images/772993.png)</span>
+{{< imgproc "images/772993.png" Fit "800x600" />}}</span>
 
  <span style="font-family:arial,helvetica,sans-serif;">By assigned team member</span>
 -------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ team member responsible, click on the drop-down menu below
 to see.  
    
   
-![](images/772994.png)  
+{{< imgproc "images/772994.png" Fit "800x600" />}}  
   
   
 This will yield a list of all the assignments *for that team member*.
@@ -72,7 +72,7 @@ status, click on the drop-down menu below <span
 class="underline">Status</span> and select the status of interest.  
    
   
-![](images/772995.png)  
+{{< imgproc "images/772995.png" Fit "800x600" />}}  
   
 This will return the survey assignments that are in a given status. Of
 particular interest may be assignments whose status is <span
@@ -80,7 +80,7 @@ class="underline">Completed</span>. The <span
 class="underline">Completed</span> cases need to be *reviewed* and
 *approved* or *rejected* by the supervisor.  
   
-![](images/772998.png)  
+{{< imgproc "images/772998.png" Fit "800x600" />}}  
   
  <span style="line-height: 1.2;">An explanation of each survey status
 can be found in this
