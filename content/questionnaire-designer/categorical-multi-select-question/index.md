@@ -307,7 +307,7 @@ options.
   
 Unanswered question exported in tab-delimited file  
   
-{{< imgproc "images/645462.png" Fit "800x600" />}}  
+![](images/645462.png")
   
 Answered question exported in tab-delimited file  
   
@@ -324,6 +324,7 @@ selects “yes” or “no” for each of the categories listed. 
 {{< imgproc "images/645475.png" Fit "800x600" />}}  
   
   
+<br/>
 {{< imgproc "images/645478.png" Fit "800x600" />}}  
   
   
@@ -347,7 +348,7 @@ respect and other respectively.
   
 {{< imgproc "images/645496.png" Fit "800x600" />}}  
   
-  
+<br/>
   
 {{< imgproc "images/645497.png" Fit "800x600" />}}  
   
@@ -387,7 +388,7 @@ aid, the system exports the values 0, 2 and 3.
 **Previous question located within a roster**  
   
 {{< imgproc "images/645521.png" Fit "800x600" />}}  
-  
+<br/>
 {{< imgproc "images/645522.png" Fit "800x600" />}}  
   
   
@@ -419,7 +420,7 @@ Rice and the second one was Wheat, the system exports the values 3 and
   
 {{< imgproc "images/661539.png" Fit "800x600" />}}  
   
-  
+<br/>
 {{< imgproc "images/645536.png" Fit "800x600" />}}  
   
   
