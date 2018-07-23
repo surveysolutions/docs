@@ -202,15 +202,8 @@ that questionnaire in Designer.)***
     3.  In the pop-up window displayed, click on the section that you
         would like to move the component to.  
          
-        <table>
-        <tbody>
-        <tr class="odd">
-        <td><img src="images/643384.png" /></td>
-        <td><img src="images/643383.png" /></td>
-        </tr>
-        </tbody>
-        </table>
-
+{{< imgproc "images/643384.png" Fit "800x600" />}}
+{{< imgproc "images/643383.png" Fit "800x600" />}}
       
       
      

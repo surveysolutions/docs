@@ -47,14 +47,9 @@ dimensions of 329x365 pixels.
 Audit Log
 ---------
 
-<span style="font-family:arial,helvetica,sans-serif;"><span
-style="color: rgb(42, 42, 42); font-size: 14px; background-color: rgb(255, 255, 255);">Displays
-a record of all the main actions taken on the server, identifying who
+Displays a record of all the main actions taken on the server, identifying who
 made the action, and when. Examples include: importing a questionnaire
 on the server, initiating data, deleting a questionnaire,
-etc.</span></span>  
-{{< imgproc "images/852912.png" Fit "800x600" />}}  
- 
-
- 
--
+etc.  
+  
+{{< imgproc "images/852912.png" Fit "800x600" />}}   

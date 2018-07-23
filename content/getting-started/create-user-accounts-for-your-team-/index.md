@@ -18,9 +18,9 @@ password**
   
   
   
-<span style="color:#FF0000;">**Note that each institution using Survey
+{{% fntproc class="text-danger" %}}**Note that each institution using Survey
 Solutions will utilize their own server. Consequently, your username can
-differ from the one shown above.**</span>  
+differ from the one shown above.**{{% /fntproc %}}  
   
   
  

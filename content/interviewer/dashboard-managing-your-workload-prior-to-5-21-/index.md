@@ -12,15 +12,8 @@ Overview of the dashboard interface
 
  
 
-<table>
-<tbody>
-<tr class="odd">
-<td><img src="images/658209.png" /></td>
-<td><img src="images/658208.png" /></td>
-</tr>
-</tbody>
-</table>
-
+{{< imgproc "images/658209.png" Fit "800x600" />}}
+{{< imgproc "images/658209.png" Fit "800x600" />}}
   
   
 The dashboard offers a functional overview of the interviewer’s

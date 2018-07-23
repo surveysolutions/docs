@@ -7,8 +7,7 @@ aliases = ["/customer/portal/articles/2475783-synchronization-completing-the-int
 
 +++
 
-1. Logging in
--------------
+# 1. Logging in
 
   
   
@@ -24,10 +23,9 @@ password are correct, synchronise the tablet (see next step)
   
  
 
-2. Synchronize
---------------
+# 2. Synchronize
 
-  
+
   
 You should synchronize your tablet as often as your supervisor has
 instructed you to.  
@@ -40,13 +38,11 @@ received, how many were received as rejected and so on. 
 {{< imgproc "images/795444.png" Fit "800x600" />}}  
   
   
- 
 
-3.The dashboard
----------------
+# 3.The dashboard
 
   
-   
+  
 The dashboard contains the list of sampling units that you need to
 visit. When you approach one of the listed sampling units, select the
 corresponding entry to start the interview. For more information about
@@ -58,8 +54,8 @@ article](http://support.mysurvey.solutions/customer/en/portal/articles/2835148).
   
  
 
-4. Navigating through the interview
------------------------------------
+# 4. Navigating through the interview
+
 
   
   
@@ -76,8 +72,8 @@ Click on the name of the section to quickly move there.
   
  
 
-5. Validation
--------------
+# 5. Validation
+
 
   
    
@@ -92,8 +88,8 @@ what went wrong.
   
  
 
-6. Your progress
-----------------
+# 6. Your progress
+
 
   
    
@@ -110,8 +106,8 @@ condition. 
   
  
 
-7. Adding comments
-------------------
+# 7. Adding comments
+
 
   
   
@@ -125,8 +121,8 @@ Comments can be used to provide further explanation to respondent’s
 answers that can be shared with your supervisor.  
  
 
-8. Completing the interview
----------------------------
+# 8. Completing the interview
+
 
   
   
@@ -146,11 +142,5 @@ your tablet. As soon as an internet connection is available, you are
 advised to synchronize your tablet.**  
  
 
-<table>
-<tbody>
-<tr class="odd">
-<td><img src="images/648341.png" /></td>
-<td><img src="images/648342.png" /></td>
-</tr>
-</tbody>
-</table>
+{{< imgproc "images/648341.png" Fit "800x600" />}}
+{{< imgproc "images/648342.png" Fit "800x600" />}}

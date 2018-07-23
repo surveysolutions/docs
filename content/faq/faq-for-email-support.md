@@ -14,17 +14,13 @@ aliases = ["/customer/portal/articles/2846777-faq-for-email-support"]
     usually the fastest way to get your issue resolved. It will also
     help you to use the right terminology when asking a question.
 
-2. Write your request clearly. If we don’t understand it, we will ask for
+2. Write your request clearly. If we don't understand it, we will ask for
     clarification and it will take longer to resolve your issue.
-    Messages simply reporting <span
-    style="font-size: 11pt; color: rgb(56, 118, 29); background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;"> "X doesn’t work"</span>
-    or <span style="font-size: 11pt; color: rgb(56, 118, 29); background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">
-    "X is not working"</span> without steps to reproduce the problem will be immediately returned
-    to sender for clarification without further investigation.
+    Messages simply reporting {{% fntproc class="text-success" %}}"X doesn't work"{{% /fntproc %}}
+    or {{% fntproc class="text-success" %}}"X is not working"{{% /fntproc %}} without steps to reproduce the problem will be immediately returned to sender for clarification without further investigation.
 
-3. All of the questions of the kind <span
-    style="font-size: 11pt; color: rgb(56, 118, 29); background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;"> "Is it possible to do X in Survey Solutions?"</span> or 
-    <span style="font-size: 11pt; color: rgb(56, 118, 29); background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">"How do I do X in Survey Solutions?"</span>
+3. All of the questions of the kind {{% fntproc class="text-success" %}}"Is it possible to do X in Survey Solutions?"{{% /fntproc %}} or 
+    {{% fntproc class="text-success" %}}"How do I do X in Survey Solutions?"{{% /fntproc %}}
     should not be sent to the support team directly, but rather be
     posted to the user forum as public questions: [http://support.mysurvey.solutions/customer/portal/questions/new](http://support.mysurvey.solutions/customer/portal/questions/new)
 
@@ -43,8 +39,7 @@ aliases = ["/customer/portal/articles/2846777-faq-for-email-support"]
 
 8. Once the issue is resolved and you have a new issue, start a new request,
     do not answer to the old thread of the resolved issue. Do not write
-    <span style="font-size: 11pt; color: rgb(56, 118, 29); background-color: transparent; font-style: italic; vertical-align: baseline; white-space: pre-wrap;">
-    "Thank you for resolving issue A, and I have two more questions B and C"</span>.
+    {{% fntproc class="text-success" %}}"Thank you for resolving issue A, and I have two more questions B and C"{{% /fntproc %}}.
     Instead close the thread of issue A confirming it is resolved, start
     a new request for issue B and start another for issue C.
 
@@ -82,11 +77,9 @@ aliases = ["/customer/portal/articles/2846777-faq-for-email-support"]
     what the issue is about. Here are the top ten worse titles for the
     questions we received: *"Question"*, *"Request"*, *"Inquiry"*,
     *"Survey Solutions"*, *"Server"*, *"Urgent"*,
-    *"Hello!"*, *"Need help!"* , *"Support"*, *"SOS"*. Instead write *"Can an interviewer be re-assigned to another team?"*, *"Can an
+    *"Hello!"*, *"Need help!"* , *"Support"*, *"SOS"*. Instead write *"Can an interviewer be re-assigned to another team?"*, *"Can an
     assignment be rejected more than once?"*, "Error 601 during download
     of binary data file"*, etc.
 
 15. This is a service, not a private email. Do not expect the same agent to
-    respond to your every request; <span
-    style="background-color: transparent; font-size: 11pt; color: rgb(56, 118, 29); font-style: italic; vertical-align: baseline; white-space: pre-wrap;">"How
-    are things?"</span> is not a support question.
+    respond to your every request; {{< fntproc class="text-success" >}}"How are things?"{{< /fntproc >}} is not a support question.

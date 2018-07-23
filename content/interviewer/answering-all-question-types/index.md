@@ -87,16 +87,9 @@ tapping an option directly or through typing to narrow down answer
 options and then select the most appropriate.  
  
 
-<table>
-<tbody>
-<tr class="odd">
-<td><img src="images/658346.png" /></td>
-<td><img src="images/658347.png" /></td>
-</tr>
-</tbody>
-</table>
-
-  
+{{< imgproc "images/658346.png" Fit "800x600" />}}
+{{< imgproc "images/658347.png" Fit "800x600" />}}
+ 
   
  
 

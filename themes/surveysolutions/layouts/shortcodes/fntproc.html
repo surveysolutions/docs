@@ -1,0 +1,6 @@
+
+<span {{ with .Get "class"}}class="{{.}}" {{ end }}>
+	{{ with .Inner }}
+		{{ . }}
+	{{ end }}
+</span>

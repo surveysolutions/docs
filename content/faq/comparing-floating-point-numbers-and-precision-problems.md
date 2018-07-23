@@ -23,12 +23,10 @@ Some of the users report that the question Z doesn't get enabled even
 for the values where it seems to hold when checked manually, e.g. for
 values X=18 and Y=1.2  
   
-<span
-style="color: rgb(34, 34, 34); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Liberation Sans&quot;, FreeSans, sans-serif;">The
-problem is that of comparing two floating point numbers, which is never
+The problem is that of comparing two floating point numbers, which is never
 exact. This is not a Survey Solutions problem, this is how computers
 work in general. One will have exactly the same situation in
-Stata:</span>
+Stata:
 
     display 18*1.2
     display 18*1.2==21.6
