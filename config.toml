@@ -21,3 +21,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
+
+[related]
+threshold = 90
+includeNewer = true
+toLower = false
