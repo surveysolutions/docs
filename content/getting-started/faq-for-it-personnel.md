@@ -14,12 +14,12 @@ questions and for the survey of about 10,000 respondents. The minimal
 requirements represent the specifications for the oldest tables that can
 run Survey Solutions. We advise to procure newest devices with the
 latest version of Android for the projects that expect to run for two or
-three years. Please refer to* [*google.com*](http://google.com/)*for the
+three years. Please refer to [google.com](http://google.com/) for the
 information on the latest version of Android OS and for the list of
 devices supporting this latest version.*
 
-1. Server
-=========
+# 1. Server
+
 
 **<span style="color:#800080;">Contact support for a consultation prior
 to setup if your survey is 100,000 interviews or more, or if you are
@@ -116,8 +116,7 @@ Solutions, or can we use the software with the tablets only?**
 -   In some situations multiple servers may present additional
     convenience, or even be required.
 
-2. Connectivity
-===============
+# 2. Connectivity
 
 **8. Does the World Bank Group provide connectivity devices and cover
 connection charges for Survey Solutions?**
@@ -188,8 +187,7 @@ avoid using WiFi?**
 -   Our experts are available to discuss particular risks and other
     specific security concerns.
 
-3. Tablets
-==========
+# 3. Tablets
 
 **16. Which brand and model of tablets should I buy?**
 
@@ -306,8 +304,7 @@ deliver the tablets by April 30. That’s ok, right?**
     the field via 3G or 4G, (built-in, USB, or external wireless modem,
     or a similar device).
 
-4. Database
-===========
+# 4. Database
 
 **27. What database does Survey Solutions use to store data? How can we
 access it from our system?**
@@ -333,8 +330,7 @@ software X?**
 -   Consult your software operating manual on the support of
     tab-delimited (also known as tab-separated) data.
 
-5. Maintenance, etc
-===================
+# 5. Maintenance, etc
 
 **29. Our system is set up and running. Should we change anything?**
 
@@ -490,5 +486,3 @@ it, customize it). How should we start?**
 -   We do not distribute the source code of Survey Solutions.
 -   We listen to the suggestions of our users. If there is a useful
     feature that is missing from our functionality, please let us know.
-
-support@mysurvey.solutions
