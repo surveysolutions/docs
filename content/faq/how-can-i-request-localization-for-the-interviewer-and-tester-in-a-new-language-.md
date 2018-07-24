@@ -7,7 +7,7 @@ aliases = ["/customer/portal/articles/2561446-how-can-i-request-localization-for
 
 +++
 
-Please contact our developer team (support@mysurvey.solutions) and
+Please [contact](/email-us) our developer team and
 request the localization. We will review your request and, if approved,
 we will send you Excel files with strings to translate. Once we receive
 the files with translation from you, we will try integrating the new

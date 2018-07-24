@@ -13,8 +13,8 @@ activities during the survey field work:
 1. Monitor the functioning of the server.
 2. Collect and analyze user problem reports. Attempt to address them to
     the extent possible. Refer the users to the corresponding sections
-    of the manuals. Elevate the problems requiring developers’ attention
-    to support: <support@mysurvey.solutions>.
+    of the manuals. Elevate the problems requiring developers' attention
+    to [support](/email-us).
 3. Preserve the copies of the uploaded sample files and split-key
     files.
 4. Periodically download, back up, and securely store the export data.

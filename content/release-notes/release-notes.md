@@ -8,10 +8,11 @@ aliases = ["/customer/portal/articles/2759597-release-notes"]
 +++
 
 *This page documents the features and bug fixes in new versions of
-Survey Solutions released by our team every month. You can [*contact
-us*](mailto:%20support@mysurvey.solutions) for more information on our
+Survey Solutions released by our team every month. You can [contact
+us]({{< ref "email-us" >}}) for more information on our
 development cycle.*  
- 
+  
+----
 
 ### Survey Solutions 18.06
 

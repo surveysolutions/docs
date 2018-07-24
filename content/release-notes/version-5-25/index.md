@@ -190,7 +190,7 @@ prices, etc.).
 
 But these are simply examples. To make this content most useful, we ask
 our users to write us with ideas and with content to share. To do so,
-please write us at <support@mysurvey.solutions>.
+please [write us](/email-us).
 
 In future releases, folders may be expanded to help users with file
 management. In the near future, all users will have a Shared with me
