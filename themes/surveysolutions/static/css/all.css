@@ -9,6 +9,7 @@ body {
   font: 14px/16px "RobotoRegular";
   min-height: 100%;
   position: relative;
+  min-width: 380px;
 }
 .footer {
   height: 270px;
@@ -70,7 +71,6 @@ header{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 20px 15px;
 }
 .index-page header{
   background: url("../img/header.jpg"), #B0C4DE no-repeat 100% 420px;
@@ -82,6 +82,8 @@ header{
   background-size: 100% 100%;
   padding: 180px 0 60px;
   margin-bottom: 40px;
+  background-position: center center;
+  background-size: cover;
 }
 .index-page .navbar-brand{
   font-size: 27px;
@@ -147,12 +149,12 @@ header{
 .btn-search:hover span, .btn-search:focus span, .btn-search:active span{
   opacity: 1;
 }
-.form-inline .search .form-control{
-  width: 100%;
-}
 .algolia-autocomplete{
   flex-grow: 1;
   align-items: stretch;
+}
+.form-inline .search .form-control{
+  width: 100%;
 }
 .algolia-autocomplete .aa-hint {
   color: #999;
@@ -166,14 +168,18 @@ header{
   border: 1px solid #81ACD9;
 }
 .algolia-autocomplete .aa-dropdown-menu strong{
-  background-color: #B0C4DE;
+  background-color: rgba(255, 255, 224, 0.6);
 }
 .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
   cursor: pointer;
-  padding: 5px 4px;
+}
+.search-result-block:active,
+.search-result-block:hover,
+.search-result-block:focus{
+  background-color: rgb(231, 231, 231);
 }
 .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-  background-color: #B2D7FF;
+  background-color: rgb(231, 231, 231);;
 }
 .section-name.interviewer{
   background-color: #17a2b8;
@@ -201,23 +207,19 @@ header{
   text-overflow: ellipsis;
   max-height: 32px;
 }
-
-.search-result-block:active,
-.search-result-block:hover,
-.search-result-block:focus{
-  background-color: gainsboro;
-}
-.search-result-block.current{
-  background-color: green;
+.aa-dropdown-menu em{
+  background-color: #B0C4DE;
 }
 .branding {
   font-size: 0.8em;
-  margin: 0.5em 0.2em;
+  margin: 0.4em 0.2em;
 }
 .branding img {
   height: 0.8em;
   margin-bottom: - 0.3em;
 }
+
+
 /* end search */ 
 
 .information-block {
@@ -225,7 +227,7 @@ header{
   top: 30px;
   right: 0;
   min-width: 400px;
-  padding: 10px 50px 10px 70px;
+
   font: 16px/18px "RobotoRegular";
 }
 h3 a,
@@ -497,14 +499,94 @@ hr{
   margin: 10px 0;
 }
 
+/* article content */
 
+.article-content{
+  font: 14px/18px "RobotoRegular";
+}
+.article-content ul li{
+  margin-bottom: 5px;
+}
+.article-content img{
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+/* email us */
 
+.new_email{
+  max-width: 560px;
+}
 
+/* responsive css */
 
-
-
-
-
+@media (max-width: 1199.98px) { 
+  .index-page header{
+    padding: 100px 0 40px;
+  }
+  .information-block{
+    right: 15px;
+    text-align: right;
+  }
+}
+@media (max-width: 991.98px) {
+  .index-page .navbar-text {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .search input::placeholder{
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .section > h3 a{
+    min-height: auto;
+  }
+  .footer .h3{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .index-page .navbar-brand {
+    border-right: 1px solid #fff;
+    margin-right: 0;
+  }
+  .index-page .navbar-text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 576px) {
+  .information-block{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .navbar-text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .search input::placeholder{
+    font-size: 12px;
+  }
+  .section .section-title h3{
+    min-height: auto;
+  }
+  body{
+    padding-bottom: 348px;
+  }
+  .footer{
+    height: 348px;
+  }
+  .footer .h3{
+    font-size: 1rem;
+  }
+  .footer ul li a{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .footer ul li{
+    margin-bottom: 5px;
+  }
+}
 
 
 
