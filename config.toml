@@ -12,6 +12,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
         params = ["categories", "tags"]
 
+    [params.forum]
+        url = "http://forum.mysurvey.solutions"
+        title = "User Forum"
+
 [outputs]
     home = ["HTML", "RSS", "Algolia"]
 
