@@ -1,6 +1,6 @@
 {{ define "main" }}
-    <main class="container mb-5">
-      <div class="row mb-5">
+    <main class="container">
+      <div class="row justify-content-center">
         {{$section := .Site.GetPage "section" "getting-started"}}
         {{- partial "section-summary.html" $section -}}
 
@@ -10,17 +10,7 @@
         {{$section := .Site.GetPage "section" "syntax-guide"}}
         {{- partial "section-summary.html" $section -}}
 
-        {{$section := .Site.GetPage "section" "questions"}}
-        <div class="col-3 section">
-            <h3>{{ with $section}}<a href="{{.Permalink}}">{{.Title}}</a>{{ end }}</h3>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-dark">Is it possible to make validation conditions relative to specific items in a list question?</a></li>
-              <li><a href="#"  class="text-dark">translation template</a></li>
-              <li><a href="#" class="text-dark">Enabling condition for roster question NOT applicable to other HHmembers</a></li>
-              <li><a href="#" class="text-dark">2 enumerators (i.e two tablets) needed for one household interview</a></li>
-            </ul>
-            <a href="#" class="d-block counter mb-2"><span>377</span> Questions <span class="badge badge-secondary"><img src="img/arrow.png" alt="" /></span></a>
-          </div>
+        {{- partial "forum-summary.html" . -}}
 
       </div>
       <div class="row">

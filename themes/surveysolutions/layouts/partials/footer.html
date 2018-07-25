@@ -1,46 +1,56 @@
-<footer class="footer py-3 pb-1">
-		<div class="container footer-links">
-			<div class="row">
-				<div class="col-6">
-					{{ with .Site.GetPage "page" (.Site.Params.lastreleasenote) }}
-					<h3 class="pt-3 mb-3">Survey Solutions {{ range .Params.keywords }}{{ . }}{{ end }}</h3>
+<footer class="footer pt-3 pb-1 px-sm-3 px-lg-0">
+	<div class="container footer-links">
+		<div class="row">
+			<div class="col-12 col-sm-6 mb-3 mb-sm-0 ">
+				{{ with .Site.GetPage "page" (.Site.Params.lastreleasenote) }}
+				<p class="h3 pt-3 mb-2 mb-sm-3 ml-3 ml-sm-0">Survey Solutions {{ range .Params.keywords }}{{ . }}{{ end }}</p>
+				<ul class="list-unstyled mb-0 ml-3 ml-sm-0">
+					<li>
+						<a href="{{.Permalink}}"> What's new in version {{ range .Params.keywords }}{{ . }}{{ end }}</a>
+					</li>
+					<li>
+						<a href="/release-notes/release-notes">Version history</a>
+					</li>
+					<li>
+						<a href="http://www.capterra.com/p/153927/Survey-Solutions/" target="_blank">Testimonials</a>
+					</li>
+				</ul>
+				{{ end }}
+			</div>
+			<div class="col-12 col-sm-6 ">
+				<div class="contact-information p-3 bg-white">
+					<p class="h3 mb-2 mb-sm-3">Contact Us</p>
 					<ul class="list-unstyled mb-0">
 						<li>
-							<a href="{{.Permalink}}"> What's new in version {{ range .Params.keywords }}{{ . }}{{ end }}</a>
+							<a href="http://support-new.mysurvey.solutions/node/add/question">Post a Public Question</a>
 						</li>
-						<li><a href="/release-notes/release-notes">Version history</a></li>
-						<li><a href="http://www.capterra.com/p/153927/Survey-Solutions/" target="_blank">Testimonials</a></li>
+						<li>
+							<a href="#" target="_blank">Suggest a feature</a>
+						</li>
+						<li>
+							<a href="/email-us">Email Us</a>
+						</li>
+						<li class="clearfix mb-0">
+							<a href="https://www.facebook.com/mysurveysolutions" target="_blank" id="facebook">f</a>
+							<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" class="position-relative" target="_blank" id="youtube"></a>
+						</li>
 					</ul>
-					{{ end }}
-				</div>
-				<div class="col-6">
-					<div class="contact-information p-3 bg-white">
-						<h3 class="mb-3">Contact Us</h3>
-						<ul class="list-unstyled mb-0">
-							<li><a href="http://support-new.mysurvey.solutions/node/add/question">Post a Public Question</a></li>
-							<li><a href="#" target="_blank">Suggest a feature</a></li>
-							<li><a href="/email-us">Email Us</a></li>
-							<li class="clearfix">
-								<a href="https://www.facebook.com/mysurveysolutions" target="_blank" id="facebook">f</a>
-								<a href="https://www.youtube.com/channel/UCzGrZ3FiEu5NbDJB2GKazOA" class="position-relative" target="_blank" id="youtube"></a>
-							</li>
-						</ul>
-						<a href="/email-us" class="contact-icon hidden-xs"></a>
-					</div>
+					<a href="/email-us" class="contact-icon d-none d-md-block"></a>
 				</div>
 			</div>
 		</div>
-		<hr />
-		<div class="container copyright">
-			<div class="float-left">
-				© 2016-{{ now.Format "2006" }} The World Bank Group<br />
-				All rights Reserved. Legal
-			</div>
+	</div>
+	<hr />
+	<div class="container copyright">
+		<div class="float-left">
+			© 2016-{{ now.Format "2006" }} The World Bank Group
+			<br /> All rights Reserved. Legal
 		</div>
-	</footer>
+	</div>
+</footer>
 
-    <script src="/js/jQuery_v3.3.1.js"></script>
-    <script src="/vendor/js/bootstrap.js"></script>
-    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-    <script src="/js/main.js"></script>
+<script src="/js/jQuery_v3.3.1.js"></script>
+<script src="/vendor/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+<script src="/js/main.js"></script>

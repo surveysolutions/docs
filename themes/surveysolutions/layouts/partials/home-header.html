@@ -1,36 +1,36 @@
-<header>
-		{{ with .Site.GetPage "page" (.Site.Params.lastreleasenote) }}
-		<div class="information-block">
-			New <a href="{{.Permalink}}">{{.Title}}</a> is available now!
-		</div>
-		{{ end }}
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<a class="navbar-brand text-white" href="{{.Site.BaseURL}}">
-						<img src="/img/logo.png" alt="Survey Solutions" class="float-left"/> 
-						<span class="float-left ml-2">Survey <br />Solutions</span>
-					</a>
+<header class="px-sm-3 px-lg-0">
+	{{ with .Site.GetPage "page" (.Site.Params.lastreleasenote) }}
+	<div class="information-block">
+		New
+		<a href="{{.Permalink}}">{{.Title}}</a> is available now!
+	</div>
+	{{ end }}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mb-4 col-auto">
+				<a class="navbar-brand text-white pr-4 pr-md-0" href="#">
+					<img src="img/logo.png" alt="Survey Solutions" class="float-left" />
+					<span class="float-left ml-2">Survey
+						<br />Solutions</span>
+				</a>
+			</div>
+			<div class="col-md-4 col-md-4 col-sm-auto col-5 mb-sm-4 mb-md-0">
+				<div class="navbar-text  text-white">
+					Support portal and knowledge base
 				</div>
 			</div>
-			<div class="row mt-4">
-				<div class="col">
-					<div class="navbar-text  text-white">
-						Support portal and knowledge base
+			<div class="col-md-8 col-md-8 align-self-end">
+				<form class="form-inline ml-auto">
+					<div class="input-group search">
+						<input type="text" class="form-control" placeholder="Have a Question? Ask or enter a search therm here." id="aa-search-input">
+						<div class="input-group-append align-items-end">
+							<button class="btn btn-search h-100" type="button">
+								<span></span>
+							</button>
+						</div>
 					</div>
-				</div>
-				<div class="col align-self-end">
-					<form class="form-inline ml-auto">
-							<div class="input-group search">
-								<input type="text" class="form-control" placeholder="Have a Question? Ask or enter a search therm here." id="aa-search-input" >
-								<div class="input-group-append align-items-end">
-									<button class="btn btn-search h-100" type="button">
-										<span></span>
-									</button>
-								</div>
-							</div>
-						</form>
-				</div>
+				</form>
 			</div>
 		</div>
+	</div>
 </header>
