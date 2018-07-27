@@ -15,6 +15,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [params.forum]
         url = "https://forum.mysurvey.solutions"
         title = "User Forum"
+        suggestions = "/c/feature-suggestions"
 
 [outputs]
     home = ["HTML", "RSS", "Algolia"]

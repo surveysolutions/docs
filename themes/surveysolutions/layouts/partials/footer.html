@@ -22,10 +22,10 @@
 					<p class="h3 mb-2 mb-sm-3">Contact Us</p>
 					<ul class="list-unstyled mb-0">
 						<li>
-							<a href="http://support-new.mysurvey.solutions/node/add/question">Post a Public Question</a>
+							<a href="{{ .Site.Params.forum.url }}">Join the conversation</a>
 						</li>
 						<li>
-							<a href="#" target="_blank">Suggest a feature</a>
+							<a href="{{ (print .Site.Params.forum.url .Site.Params.forum.suggestions) }}" target="_blank">Suggest a feature</a>
 						</li>
 						<li>
 							<a href="/email-us">Email Us</a>
