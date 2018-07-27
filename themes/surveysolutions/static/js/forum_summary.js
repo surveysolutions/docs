@@ -35,7 +35,7 @@ function onSuccess(jsonReturn) {
   for (var i = 0; i < count; i++) {
 
     var data = jsonReturn.topic_list.topics[i];
-    var datalink = forumurl + data.permalink;
+    var datalink = forumurl + "/t/" + data.slug;
     var title = data.title;
 
     let li = createNode('li');
