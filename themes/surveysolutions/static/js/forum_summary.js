@@ -1,5 +1,5 @@
 const ul = document.getElementById('forum-topics');
-const forumurl = 'https://forum.mysurvey.solutions/latest.json';
+const forumurl = 'https://forum.mysurvey.solutions';
 
 function createNode(element) {
   return document.createElement(element);
@@ -17,7 +17,7 @@ $(document).ready(function () {
 function getForumJson(ajaxurl) {
   $.ajax({
     method: 'GET',
-    url: forumurl,
+    url: forumurl + '/latest.json',
     crossDomain: true,
     dataType: 'json',
     success: onSuccess,
