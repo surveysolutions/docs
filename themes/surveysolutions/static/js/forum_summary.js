@@ -22,7 +22,17 @@ function getForumJson(ajaxurl) {
     dataType: 'json',
     success: onSuccess,
     error: onError
-  })
+  });
+  $.ajax({
+    method: 'GET',
+    url: forumurl + '/about.json',
+    crossDomain: true,
+    dataType: 'json',
+    success: (response) => { 
+      document.getElementById('forum-topics-count').innerHTML = response.about.stats.topic_count;
+    },
+    error: onError
+  });
 }
 
 function onSuccess(jsonReturn) {
@@ -31,9 +41,8 @@ function onSuccess(jsonReturn) {
 
   var fadeInAmt = 1000;
 
-  const count = jsonReturn.topic_list.topics.length;
+  const count = Math.min(jsonReturn.topic_list.topics.length, 4);
   for (var i = 0; i < count; i++) {
-
     var data = jsonReturn.topic_list.topics[i];
     var datalink = forumurl + "/t/" + data.slug;
     var title = data.title;
@@ -46,7 +55,6 @@ function onSuccess(jsonReturn) {
     alink.className = "text-dark";
     append(li, alink);
     append(ul, li);
-    document.getElementById('forum-topics-count').innerHTML = count;
   }
 
 }
