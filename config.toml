@@ -2,7 +2,7 @@ baseURL = "https://support-new2.mysurvey.solutions/"
 languageCode = "en-us"
 title = "Survey Solutions | Support"
 theme = "surveysolutions" 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         suggestions = "/c/feature-suggestions"
 
 [outputs]
-    home = ["HTML", "RSS", "Algolia"]
+    home = ["HTML", "Algolia"]
 
 [outputFormats]
 [outputFormats.Algolia]
