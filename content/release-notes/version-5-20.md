@@ -4,7 +4,6 @@ keywords = [""]
 date = 2017-05-04T20:17:53Z
 lastmod = 2017-05-04T20:17:53Z
 aliases = ["/customer/portal/articles/2800579-version-5-20"]
-
 +++
 
 <span id="docs-internal-guid-281e743c-d51d-c9e1-4aaf-adebd52c3239"><span style="font-size: 20pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Web interviews in sample mode</span></span>
