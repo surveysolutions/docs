@@ -1,8 +1,8 @@
 +++
 title = "Release notes"
 keywords = [""]
-date = 2017-03-06T19:44:02Z
-lastmod = 2017-03-06T19:44:02Z
+date = 2018-08-02T18:18:02Z
+lastmod = 2018-08-02T18:18:02Z
 aliases = ["/customer/portal/articles/2759597-release-notes"]
 +++
 
@@ -12,6 +12,21 @@ us]({{< ref "email-us" >}}) for more information on our
 development cycle.*  
   
 ----
+
+### Survey Solutions 18.08
+
+<span style="float: right; padding-top: 20px;">August 02, 2018</span>
+
+Version 18.08 contains:
+
+-   **Offline Supervisor app** To meet the needs of survey teams operating in remote or poorly connected locales, the Supervisor app allows supervisors to do offline all of the things that previously required a connection: make assignments, receive completed interviews, review interviews, and approve or reject them. This functionality being released as a public beta, and will be refined and improved over coming development releases. 
+-   **Flat, compact view for reviewing interviews** To promote rapid review of interviews, all of Survey Solutions data collection components--Headquarters, Supervisor, and Interviewer--now have an optional, compact view of interviews.
+-   **Interview diagnostics file** To provide users with consolidated information for data processing outside of Survey Solutions, export archives now include a file that contains, among other information, the interview duration, the number of errors, number of comment, and number of unanswered questions per interview.
+-   **Questionnaire variable field in Designer** To provide control over how the main export file is named, questionnaire designers must now specify the questionnaire name and the questionnaire variable. The former is how the questionnaire appears to human users. The latter is the name of the main file to which interview data are exported.
+-   **Text substitution in question instructions** 
+-   **Timestamps in paradata now reflect local time** of the device where the data event occurred (e.g., when a question was answered, expressed in the local time of the tablet where the question was answered).
+-   **Set up Interviewer by scanning a QR code** To make set-up of Interviewer tablets more streamlined and less error-prone, one may now scan a QR code to populate the synchronization endpoint and username fields. rather than populate those fields manually.
+-   [View release notes](/release-notes/version-18-08)
 
 ### Survey Solutions 18.06
 
@@ -43,8 +58,6 @@ Survey Solutions 18.06 release contains:
 -   Other improvements and bugfixes;
 -   [View](/release-notes/version-18-06).
 
- 
-
 ### Survey Solutions 18.04
 
 <span style="float: right; padding-top: 20px;">April 02, 2018</span>
@@ -66,8 +79,6 @@ Survey Solutions 18.04 release contains:
 -   Speed report uses active interview time;
 -   Search on the dashboard of the Interviewer app.
 -   [View](http://support.mysurvey.solutions/customer/en/portal/articles/2932045).
-
- 
 
 ### Survey Solutions 5.26
 
