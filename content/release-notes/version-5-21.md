@@ -4,7 +4,6 @@ keywords = [""]
 date = 2017-07-06T22:40:48Z
 lastmod = 2017-07-06T22:40:48Z
 aliases = ["/customer/portal/articles/2836630-version-5-21"]
-
 +++
 
 Moving from interviews to assignments
