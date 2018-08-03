@@ -1,9 +1,11 @@
 {{ define "main" }}
 <main class="container mb-3">
-        {{- partial "breadcrumb.html" . -}}
+    {{- partial "breadcrumb.html" . -}}
     <section>
         <div class=" mb-4">
-            <h2 class="mb-4 pb-4 d-block w-100 page-title">{{.Title}}</h2>
+            <div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end">
+                <h2 class="mb-3 mr-auto pr-3">{{.Title}}</h2>
+            </div>
             <div class="list_of_articles">
                 {{ range (.Paginate ( .Data.Pages.ByLastmod.Reverse )).Pages }}
                 <div class="article-short-view pl-5 position-relative">
@@ -13,8 +15,7 @@
                     <p class="mb-2">{{.Summary}}</p>
                     <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>
                 </div>
-                {{ end }}
-                {{ partial "pagination.html" . }}
+                {{ end }} {{ partial "pagination.html" . }}
             </div>
         </div>
     </section>

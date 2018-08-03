@@ -453,11 +453,12 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
   border-bottom: 5px solid transparent;
 }
 /* list */
-h2.page-title{
+.page-title{
   border-bottom: 1px solid #DDD;
+}
+.page-title h2{
   font: 24px/26px "RobotoRegular";
 }
-
 .list_of_articles{
   max-width: 860px;
 }
@@ -486,6 +487,7 @@ h2.page-title{
 .data{
   font: 11px/13px "RobotoBold";
   text-transform: uppercase;
+  width: 150px;
 }
 .article-content img{
   max-width: 100%;
@@ -517,6 +519,11 @@ hr{
 .new_email{
   max-width: 560px;
 }
+
+code{
+  background-color: #f1f1f1;
+}
+
 
 /* responsive css */
 
