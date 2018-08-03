@@ -150,18 +150,14 @@ header{
   opacity: 1;
 }
 .algolia-autocomplete{
-  flex-grow: 1;
-  align-items: stretch;
-}
-.form-inline .search .form-control{
-  width: 100%;
-}
+  flex: 1 1 auto !important;
+  display: flex !important;
+} 
 .algolia-autocomplete .aa-hint {
   color: #999;
 }
 .algolia-autocomplete .aa-dropdown-menu{
   background-color: #fff;
-  width: 100%;
   border-radius: 0.25rem;
   margin-top: 7px;
   padding: 0;
@@ -521,7 +517,9 @@ hr{
 }
 
 code{
+  display: block;
   background-color: #f1f1f1;
+  padding: 15px;
 }
 
 
