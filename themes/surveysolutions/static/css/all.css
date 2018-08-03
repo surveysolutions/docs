@@ -453,7 +453,7 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
   border-bottom: 5px solid transparent;
 }
 /* list */
-h2{
+h2.page-title{
   border-bottom: 1px solid #DDD;
   font: 24px/26px "RobotoRegular";
 }

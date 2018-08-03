@@ -3,7 +3,7 @@
         {{- partial "breadcrumb.html" . -}}
     <section>
         <div class=" mb-4">
-            <h2 class="mb-4 pb-4 d-block w-100 ">{{.Title}}</h2>
+            <h2 class="mb-4 pb-4 d-block w-100 page-title">{{.Title}}</h2>
             <div class="list_of_articles">
                 {{ range (.Paginate ( .Data.Pages.ByLastmod.Reverse )).Pages }}
                 <div class="article-short-view pl-5 position-relative">
