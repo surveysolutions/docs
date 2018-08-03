@@ -82,6 +82,5 @@ class="underline">Completed</span> cases need to be *reviewed* and
   
 {{< imgproc "images/772998.png" Fit "800x600" />}}  
   
- <span style="line-height: 1.2;">An explanation of each survey status
-can be found in this
-[article](http://support.mysurvey.solutions/customer/en/portal/articles/2481526-survey-workflow?b_id=12728). </span></span>
+An explanation of each survey status can be found in this
+[article](/headquarters/survey-workflow).

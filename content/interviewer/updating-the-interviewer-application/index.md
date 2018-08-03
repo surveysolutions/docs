@@ -81,5 +81,4 @@ that is used for a fresh download of Interviewers.
 If the process outlined above does not work, or if users need a
 different mechanism, the Interviewer application can always be
 downloaded from the Headquarters website and installed. To learn how,
-refer to [this
-article](http://support.mysurvey.solutions/customer/en/portal/articles/2475216-download-and-install-the-interviewer-application?b_id=12728).
+refer to [this article](/getting-started/download-and-install-the-interviewer-application).

@@ -30,6 +30,6 @@ an observer user may monitor the activity in all surveys that are
 running on the server.  
   
 An observer account can be
-[created](http://support.mysurvey.solutions/customer/en/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-?b_id=12728#observer)
+[created](/headquarters/teams-and-roles-tab-creating-user-accounts-#observer)
 by a Survey Solutions server
-[administrator](http://support.mysurvey.solutions/customer/en/portal/articles/2885558-survey-solutions-server-administrator?b_id=12728).
+[administrator](/headquarters/survey-solutions-server-administrator).

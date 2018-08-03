@@ -164,7 +164,7 @@ Roster Id is inconsistent with roster size.
 <td><div>
 Either the number of elements in the roster or their numeration is inconsistent with the trigger question.<br />
 <br />
-See recommendations <a href="http://support.mysurvey.solutions/customer/en/portal/articles/2751253-numbering-in-subordinate-rosters-during-preloading?b_id=12728">here</a>.
+See recommendations <a href={{< ref "/headquarters/numbering-in-subordinate-rosters-during-preloading" >}}>here</a>.
 </div></td>
 </tr>
 <tr class="even">

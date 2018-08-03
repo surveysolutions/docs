@@ -150,8 +150,7 @@ render on the map. 
 The Survey Statistics report allows the creation of tabulation reports
 (frequency tabulation of categorical variables) with conditioning on
 values of other variables. For more detailed information on this type of
-report, please refer to [this
-article.](http://support.mysurvey.solutions/customer/en/portal/articles/2945778-report-survey-statistics?b_id=12728)   
+report, please refer to [this article.](/headquarters/report-survey-statistics)   
   
 First, click on the Reports tab at the top of the screen and select
 "Survey Statistics" from the drop down menu.   
