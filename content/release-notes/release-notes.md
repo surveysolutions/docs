@@ -3,7 +3,7 @@ title = "Release notes"
 keywords = [""]
 date = 2018-06-05T18:18:02Z
 lastmod = 2018-06-05T18:18:02Z
-aliases = ["/customer/portal/articles/2759597-release-notes"]
+aliases = ["/customer/portal/articles/2759597-release-notes", "/customer/portal/articles/2759597"]
 +++
 
 *This page documents the features and bug fixes in new versions of
