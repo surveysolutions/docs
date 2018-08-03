@@ -1,8 +1,8 @@
 +++
 title = "Release notes"
 keywords = [""]
-date = 2018-08-02T18:18:02Z
-lastmod = 2018-08-02T18:18:02Z
+date = 2018-06-05T18:18:02Z
+lastmod = 2018-06-05T18:18:02Z
 aliases = ["/customer/portal/articles/2759597-release-notes"]
 +++
 
@@ -13,24 +13,9 @@ development cycle.*
   
 ----
 
-### Survey Solutions 18.08
-
-<span style="float: right; padding-top: 20px;">August 02, 2018</span>
-
-Version 18.08 contains:
-
--   **Offline Supervisor app** To meet the needs of survey teams operating in remote or poorly connected locales, the Supervisor app allows supervisors to do offline all of the things that previously required a connection: make assignments, receive completed interviews, review interviews, and approve or reject them. This functionality being released as a public beta, and will be refined and improved over coming development releases. 
--   **Flat, compact view for reviewing interviews** To promote rapid review of interviews, all of Survey Solutions data collection components--Headquarters, Supervisor, and Interviewer--now have an optional, compact view of interviews.
--   **Interview diagnostics file** To provide users with consolidated information for data processing outside of Survey Solutions, export archives now include a file that contains, among other information, the interview duration, the number of errors, number of comment, and number of unanswered questions per interview.
--   **Questionnaire variable field in Designer** To provide control over how the main export file is named, questionnaire designers must now specify the questionnaire name and the questionnaire variable. The former is how the questionnaire appears to human users. The latter is the name of the main file to which interview data are exported.
--   **Text substitution in question instructions** 
--   **Timestamps in paradata now reflect local time** of the device where the data event occurred (e.g., when a question was answered, expressed in the local time of the tablet where the question was answered).
--   **Set up Interviewer by scanning a QR code** To make set-up of Interviewer tablets more streamlined and less error-prone, one may now scan a QR code to populate the synchronization endpoint and username fields. rather than populate those fields manually.
--   [View release notes](/release-notes/version-18-08)
-
 ### Survey Solutions 18.06
 
-<span style="float: right; padding-top: 20px;">June 05, 2018</span>
+<span style="float: right; padding-top: 20px;">June 5, 2018</span>
 
 Survey Solutions 18.06 release contains:
 
@@ -60,7 +45,7 @@ Survey Solutions 18.06 release contains:
 
 ### Survey Solutions 18.04
 
-<span style="float: right; padding-top: 20px;">April 02, 2018</span>
+<span style="float: right; padding-top: 20px;">April 2, 2018</span>
 
 Survey Solutions 18.04 release contains:
 
@@ -82,7 +67,7 @@ Survey Solutions 18.04 release contains:
 
 ### Survey Solutions 5.26
 
-<span style="float: right; padding-top: 20px;">February 08, 2018</span>
+<span style="float: right; padding-top: 20px;">February 8, 2018</span>
 
 Survey Solutions 5.26 release contains:
 
@@ -100,7 +85,7 @@ Survey Solutions 5.26 release contains:
 
 ### Survey Solutions 5.25
 
-<span style="float: right; padding-top: 20px;">December 06, 2017</span>
+<span style="float: right; padding-top: 20px;">December 6, 2017</span>
 
 Survey Solutions 5.25 release contains:
 
@@ -126,7 +111,7 @@ Survey Solutions 5.25 release contains:
 
 ### Survey Solutions 5.24
 
-<span style="float: right; padding-top: 20px;">October 03, 2017</span>
+<span style="float: right; padding-top: 20px;">October 3, 2017</span>
 
 Survey Solutions 5.24 release contains:
 
@@ -139,7 +124,7 @@ Survey Solutions 5.24 release contains:
 
 ### Survey Solutions 5.23
 
-<span style="float: right; padding-top: 20px;">September 05, 2017</span>
+<span style="float: right; padding-top: 20px;">September 5, 2017</span>
 
 Survey Solutions 5.23 release contains:
 
@@ -151,7 +136,7 @@ Survey Solutions 5.23 release contains:
 
 ### Survey Solutions 5.22
 
-<span style="float: right; padding-top: 20px;">August 03, 2017</span>
+<span style="float: right; padding-top: 20px;">August 3, 2017</span>
 
 Survey Solutions 5.22 release contains:
 
@@ -163,7 +148,7 @@ Survey Solutions 5.22 release contains:
 
 ### Survey Solutions 5.21
 
-<span style="float: right; padding-top: 20px;">July 06, 2017</span>
+<span style="float: right; padding-top: 20px;">July 6, 2017</span>
 
 Survey Solutions 5.21 release contains:
 
@@ -177,7 +162,7 @@ Survey Solutions 5.21 release contains:
 
 ### Survey Solutions 5.20
 
-<span style="float: right; padding-top: 20px;">May 04, 2017</span>
+<span style="float: right; padding-top: 20px;">May 4, 2017</span>
 
 Survey Solutions 5.20 release contains:
 
@@ -189,7 +174,7 @@ Survey Solutions 5.20 release contains:
 
 ### Survey Solutions 5.19
 
-<span style="float: right; padding-top: 20px;">Apr 05, 2017</span>
+<span style="float: right; padding-top: 20px;">Apr 5, 2017</span>
 
 Survey Solutions 5.19 release contains:
 
@@ -202,7 +187,7 @@ Survey Solutions 5.19 release contains:
 
 ### Survey Solutions 5.18
 
-<span style="float: right; padding-top: 20px;">Mar 01, 2017</span>
+<span style="float: right; padding-top: 20px;">Mar 1, 2017</span>
 
 Survey Solutions 5.18 release contains:
 
@@ -214,7 +199,7 @@ Survey Solutions 5.18 release contains:
 
 ### Survey Solutions 5.17
 
-<span style="float: right; padding-top: 20px;">Feb 01, 2017</span>
+<span style="float: right; padding-top: 20px;">Feb 1, 2017</span>
 
 Survey Solutions 5.17 release contains:
 
@@ -225,7 +210,7 @@ Survey Solutions 5.17 release contains:
 
 ### Survey Solutions 5.16
 
-<span style="float: right; padding-top: 20px;">Jan 04, 2017</span>
+<span style="float: right; padding-top: 20px;">Jan 4, 2017</span>
 
 Survey Solutions 5.16 release contains:
 
