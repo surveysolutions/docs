@@ -6,7 +6,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
-    lastreleasenote = "version-18-06"
+    lastreleasenote = "version-18-08"
 
     [params.algolia]
         vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
