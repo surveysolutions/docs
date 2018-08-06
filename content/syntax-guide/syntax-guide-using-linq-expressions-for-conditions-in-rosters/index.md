@@ -165,7 +165,7 @@ that we can provide more detailed error messages to the interviewers.
 For this case, we want to check that another person has not been listed
 as the household head if a household member has been identified as the
 household head. We will use the [conditional expression
-operator](http://support.mysurvey.solutions/customer/en/portal/articles/2537453-syntax-guide-operators?b_id=12728#other)
+operator](/syntax-guide/syntax-guide-operators#other)
 to code this validation. It would be coded like:
 
      // Is this person the household head?
@@ -193,7 +193,7 @@ For this case, we only want to run this check after question about the
 relationship to head has been answered for everyone because this
 validation will trigger for every person until the household head is
 listed. Similarly, we will use the [conditional expression
-operator](http://support.mysurvey.solutions/customer/en/portal/articles/2537453-syntax-guide-operators?b_id=12728#other)
+operator](/syntax-guide/syntax-guide-operators#other)
 to code this validation. It would be coded like this:
 
     // Has relationship to head been answered for all household members?

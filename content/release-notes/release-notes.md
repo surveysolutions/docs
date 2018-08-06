@@ -81,7 +81,7 @@ Survey Solutions 5.26 release contains:
 -   Objective **measurement of time** of recalculation of expressions.
 -   Other **improvements** and bugfixes.
 -   5th online user group **meeting**
--   [View](http://support.mysurvey.solutions/customer/en/portal/articles/2921275-version-5-26?b_id=12728).
+-   [View](/release-notes/version-5-26).
 
 ### Survey Solutions 5.25
 
@@ -193,7 +193,7 @@ Survey Solutions 5.18 release contains:
 
 -   **Web-interviewing mode** is added to collect data online
 -   **Export to Stata 14** Unicode data files
--   [View](http://support.mysurvey.solutions/customer/en/portal/articles/2760551-version-5-18)
+-   [View](/release-notes/version-5-18)
     or [Download as
     pdf](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter25.pdf)
 
@@ -204,7 +204,7 @@ Survey Solutions 5.18 release contains:
 Survey Solutions 5.17 release contains:
 
 -   More Headquarters pages re-designed
--   [View](http://support.mysurvey.solutions/customer/en/portal/articles/2763003-version-5-17)
+-   [View](/release-notes/version-5-17)
     or [Download as
     pdf](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter24.pdf)
 

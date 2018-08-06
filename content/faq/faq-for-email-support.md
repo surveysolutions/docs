@@ -22,7 +22,7 @@ aliases = ["/customer/portal/articles/2846777-faq-for-email-support"]
 3. All of the questions of the kind {{% fntproc class="text-success" %}}"Is it possible to do X in Survey Solutions?"{{% /fntproc %}} or 
     {{% fntproc class="text-success" %}}"How do I do X in Survey Solutions?"{{% /fntproc %}}
     should not be sent to the support team directly, but rather be
-    posted to the user forum as public questions: [http://support.mysurvey.solutions/customer/portal/questions/new](http://support.mysurvey.solutions/customer/portal/questions/new)
+    posted to the user forum as public questions: [https://forum.mysurvey.solutions](https://forum.mysurvey.solutions)
 
 4. Introduce yourself, your survey and your questionnaire. Do not assume we or
     other users know what BTLDMS or KVZTS/D is. If you experience a

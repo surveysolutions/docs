@@ -3,7 +3,7 @@ title = "Export to cloud storage"
 keywords = [""]
 date = 2018-04-02T22:20:01Z
 lastmod = 2018-04-02T22:20:01Z
-aliases = ["/customer/portal/articles/2932041-export-to-cloud-storage"]
+aliases = ["/customer/portal/articles/2932041-export-to-cloud-storage", "/customer/portal/articles/2932041"]
 
 +++
 

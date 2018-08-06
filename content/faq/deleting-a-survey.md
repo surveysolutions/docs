@@ -21,7 +21,7 @@ questionnaire, estimating the performance of interviewers, or duration
 of the survey.  
   
 There is rarely any need to delete a survey. [Deleting a questionnaire
-template](http://support.mysurvey.solutions/customer/en/portal/articles/2488930)
+template](/headquarters/survey-setup-tab-import-copy-and-delete-questionnaire-templates-and-create-assignments)
 will delete the whole survey with all data associated with it. In most
 cases a new server instance should be requested to allow the
 installation of the most recent version of the Survey Solutions server

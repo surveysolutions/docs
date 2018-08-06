@@ -14,7 +14,7 @@ aliases = ["/customer/portal/articles/2832810-getting-started-checklist"]
     accounts](/getting-started/create-user-accounts-for-your-team-) for
     at least one supervisor and one enumerator ​
 3.  **Headquarters user**  [create assignments one at a
-    time](http://support.mysurvey.solutions/customer/en/portal/articles/2832911-creating-assignments-one-at-time) or
+    time]/getting-started/creating-assignments-one-at-time) or
     [create many assignments at a
     time](/getting-started/uploading-many-assignments-at-a-time) with a
     tab delimited file

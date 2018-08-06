@@ -32,8 +32,7 @@ corresponding linked articles.
     changes, while the data previously entered will be preserved and all
     condtions re-evaluated.
 -   Prevent **circular references** in enabling and filter conditions,
-    [read the
-    article](http://support.mysurvey.solutions/customer/en/portal/articles/2932022). 
+    [read the article](/questionnaire-designer/circular-references). 
 
 ### Headquarters
 
@@ -46,8 +45,7 @@ corresponding linked articles.
     Rahija*, FAO) [read the
     article](/headquarters/customize-web-interview-messages);
 -   Export binary data to user-designated **cloud data storage**, [read
-    the
-    article](http://support.mysurvey.solutions/customer/en/portal/articles/2932041).
+    the article](/headquarters/export-to-cloud-storage).
 
 ### Supervisor
 

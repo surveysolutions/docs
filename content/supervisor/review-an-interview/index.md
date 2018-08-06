@@ -161,7 +161,7 @@ Returning to old interview details interface
 
   
 Start in [version
-5.25](http://support.mysurvey.solutions/customer/en/portal/articles/2908701-version-5-25?b_id=12728),
+5.25](/release-notes/version-5-25),
 the user interface for interview details for both Supervisor and
 Headquarters was completely re-designed to similar to that of the
 Interviewer application. We believe this will make navigation easier and

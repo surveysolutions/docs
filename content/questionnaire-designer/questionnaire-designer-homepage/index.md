@@ -26,8 +26,8 @@ consists of: </span></span></span>
     New.** Used to [create new questionnaires](#create). </span>
 
 4.  <span style="font-family:arial,helvetica,sans-serif;">**Action
-    button.** Allows you to [open](#edit), [copy](#copy), [export as
-    PDF](http://support.mysurvey.solutions/customer/en/portal/articles/2473898-pdf-export-?b_id=12728),
+    button.** Allows you to [open](#edit), [copy](#copy),
+    [export as PDF](/questionnaire-designer/pdf-export-),
     and [delete](#delete) a particular questionnaire. </span>
 
  

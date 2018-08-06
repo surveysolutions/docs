@@ -8,7 +8,7 @@ aliases = ["/customer/portal/articles/2578016-consequences-of-relinking-a-tablet
 +++
 
 When an interviewer [account is
-created](http://support.mysurvey.solutions/customer/en/portal/articles/2475154)
+created](/getting-started/create-user-accounts-for-your-team-)
 at the HQ, an interviewer may connect from any tablet. Once the
 interviewer has signed in, that device ID is remembered and the
 interviewer must continue using the same tablet.  

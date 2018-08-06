@@ -78,5 +78,4 @@ integers, where you know you indeed intend to compare integers:
     (long)x==(long)y
 
 You can find more about C\# data types and their use in Survey Solutions
-by reading the article on [data
-types](http://support.mysurvey.solutions/customer/en/portal/articles/2531232).
+by reading the article on [data types](/syntax-guide/data-types).

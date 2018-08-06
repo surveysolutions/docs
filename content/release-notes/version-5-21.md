@@ -61,7 +61,7 @@ the Create New tab.
   
 For a compact but comprehensive summary of what's new and how legacy
 questionnaires are handled, read
-[here](http://support.mysurvey.solutions/customer/en/portal/articles/2835383-notes-on-compatibility-with-version-5-21?b_id=12728).
+[here](/faq/notes-on-compatibility-with-version-5-21).
 
 Interviewer improvements
 ========================
@@ -108,7 +108,7 @@ usability:
     types have been reduced. The types now more closely match user
     intuition. Most users will not notice the change. Advanced users
     should consult [this summary table of data
-    types](http://support.mysurvey.solutions/customer/en/portal/articles/2531232-data-types?b_id=12728).
+    types](/syntax-guide/data-types).
 
 Tester improvements
 ===================

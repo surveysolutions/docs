@@ -83,8 +83,7 @@ example, when they are unexpectedly large:
     specifically [GeoTIFF](https://en.wikipedia.org/wiki/GeoTIFF) files
     that can be produced with a wide range of commercially available and
     free to use tools.
-2.  BETA: A single [shapefile map can be
-    added](http://support.mysurvey.solutions/customer/en/portal/articles/2942852)
+2.  BETA: A single [shapefile map can be added](/interviewer/shape-file-overlay)
     to the maps storage on the tablet, and if added in this way will be
     automatically overlayed on top of the baseline map in offline map.
 

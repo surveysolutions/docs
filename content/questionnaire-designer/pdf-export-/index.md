@@ -20,8 +20,7 @@ To export as a PDF, click on the *Export as PDF* button under the
   
 {{< imgproc "images/646640.png" Fit "800x600" />}}  
   
-If you have a [multilingual
-questionnaire](http://support.mysurvey.solutions/customer/en/portal/articles/2626663-multilingual-questionnaires?b_id=12728),
+If you have a [multilingual questionnaire](/questionnaire-designer/multilingual-questionnaires),
 it will ask you to choose a language.  
 {{< imgproc "images/852880.png" Fit "800x600" />}}  
   

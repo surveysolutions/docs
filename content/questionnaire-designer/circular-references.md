@@ -3,7 +3,7 @@ title = "Circular references"
 keywords = [""]
 date = 2018-04-02T21:28:45Z
 lastmod = 2018-04-02T21:28:45Z
-aliases = ["/customer/portal/articles/2932022-circular-references"]
+aliases = ["/customer/portal/articles/2932022-circular-references", "/customer/portal/articles/2932022"]
 
 +++
 
