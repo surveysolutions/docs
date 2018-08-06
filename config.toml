@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Survey Solutions | Support"
 theme = "surveysolutions" 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+enableGitInfo = true
 
 [params]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
