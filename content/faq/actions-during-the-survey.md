@@ -1,9 +1,9 @@
-ï»¿+++
++++
 title = "Actions during the survey"
 keywords = [""]
 date = 2017-01-23T11:54:15Z
 lastmod = 2017-01-23T11:54:15Z
-aliases = ["/customer/portal/articles/2723112-actions-during-the-survey","/customer/en/portal/articles/2723112-actions-during-the-survey","/customer/portal/articles/2723112","/customer/en/portal/articles/2723112"]
+aliases = ["/customer/portal/articles/2723112-actions-during-the-survey"]
 
 +++
 
@@ -23,7 +23,7 @@ activities during the survey field work:
 6. Monitor the progress of the survey. If there is a risk that the
     survey will not be completed within the allocated server life,
     immediately notify the support about the delay, and request server
-    extension.Ã‚
+    extension.Â
 
-This article is part of the series ofÂ [instructions for Survey Solutions
+This article is part of the series of [instructions for Survey Solutions
 cloud servers](/faq/cloud-server-instructions).

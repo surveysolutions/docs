@@ -3,7 +3,7 @@ title = "Capturing signatures with a picture question"
 keywords = ["Signature picture image"]
 date = 2018-04-02T19:40:36Z
 lastmod = 2018-04-02T19:40:36Z
-aliases = ["/customer/portal/articles/2931992-capturing-signatures-with-a-picture-question","/customer/en/portal/articles/2931992-capturing-signatures-with-a-picture-question","/customer/portal/articles/2931992","/customer/en/portal/articles/2931992"]
+aliases = ["/customer/portal/articles/2931992-capturing-signatures-with-a-picture-question"]
 
 +++
 

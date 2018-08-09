@@ -3,7 +3,7 @@ title = "Consequences of relinking a tablet device"
 keywords = ["interviewer","application","app","relink","new tablet","supervisor","headquarters"]
 date = 2016-09-21T23:02:21Z
 lastmod = 2016-09-21T23:02:21Z
-aliases = ["/customer/portal/articles/2578016-consequences-of-relinking-a-tablet-device","/customer/en/portal/articles/2578016-consequences-of-relinking-a-tablet-device","/customer/portal/articles/2578016","/customer/en/portal/articles/2578016"]
+aliases = ["/customer/portal/articles/2578016-consequences-of-relinking-a-tablet-device"]
 
 +++
 

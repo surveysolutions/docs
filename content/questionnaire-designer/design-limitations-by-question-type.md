@@ -1,15 +1,15 @@
-﻿+++
++++
 title = "Design limitations by question type"
 keywords = ["question types preloading"]
 date = 2018-03-12T21:48:31Z
 lastmod = 2018-03-12T21:48:31Z
-aliases = ["/customer/portal/articles/2928242-design-limitations-by-question-type","/customer/en/portal/articles/2928242-design-limitations-by-question-type","/customer/portal/articles/2928242","/customer/en/portal/articles/2928242"]
+aliases = ["/customer/portal/articles/2928242-design-limitations-by-question-type"]
 
 +++
 
 When laying out the questionnaire in the Survey Solutions Designer, mind
 the following design restrictions by question type:  
-Â 
+ 
 
 <table>
 <thead>

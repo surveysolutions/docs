@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Deleting a survey"
 keywords = [""]
 date = 2017-01-23T12:01:52Z
 lastmod = 2017-01-23T12:01:52Z
-aliases = ["/customer/portal/articles/2723119-deleting-a-survey","/customer/en/portal/articles/2723119-deleting-a-survey","/customer/portal/articles/2723119","/customer/en/portal/articles/2723119"]
+aliases = ["/customer/portal/articles/2723119-deleting-a-survey"]
 
 +++
 

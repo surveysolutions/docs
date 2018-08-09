@@ -3,7 +3,7 @@ title = "Create and Modify Components "
 keywords = ["create","new","sections","sub-section","roster","question types","variables","static-text","building questionnaire"]
 date = 2016-06-16T19:53:02Z
 lastmod = 2016-06-16T19:53:02Z
-aliases = ["/customer/portal/articles/2467280-create-and-modify-components-","/customer/en/portal/articles/2467280-create-and-modify-components-","/customer/portal/articles/2467280","/customer/en/portal/articles/2467280"]
+aliases = ["/customer/portal/articles/2467280-create-and-modify-components-"]
 
 +++
 

@@ -3,7 +3,7 @@ title = "Teams and Roles Tab: Creating User Accounts "
 keywords = ["create user","create supervisor","create interviewer","accounts"]
 date = 2016-06-30T06:28:59Z
 lastmod = 2016-06-30T06:28:59Z
-aliases = ["/customer/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-","/customer/en/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-","/customer/portal/articles/2482233","/customer/en/portal/articles/2482233"]
+aliases = ["/customer/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-"]
 
 +++
 

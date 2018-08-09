@@ -3,7 +3,7 @@ title = "Special values for numeric questions"
 keywords = [""]
 date = 2018-04-02T20:03:03Z
 lastmod = 2018-04-02T20:03:03Z
-aliases = ["/customer/portal/articles/2931999-special-values-for-numeric-questions","/customer/en/portal/articles/2931999-special-values-for-numeric-questions","/customer/portal/articles/2931999","/customer/en/portal/articles/2931999"]
+aliases = ["/customer/portal/articles/2931999-special-values-for-numeric-questions"]
 
 +++
 

@@ -3,7 +3,7 @@ title = "Admin Settings"
 keywords = ["admin","logo","encryption","accounts"]
 date = 2017-01-09T22:11:21Z
 lastmod = 2017-01-09T22:11:21Z
-aliases = ["/customer/portal/articles/2707388-admin-settings","/customer/en/portal/articles/2707388-admin-settings","/customer/portal/articles/2707388","/customer/en/portal/articles/2707388"]
+aliases = ["/customer/portal/articles/2707388-admin-settings"]
 
 +++
 

@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "What are the costs associated with using Survey Solutions?"
 keywords = [""]
 date = 2016-09-07T03:11:43Z
 lastmod = 2016-09-07T03:11:43Z
-aliases = ["/customer/portal/articles/2561438-what-are-the-costs-associated-with-using-survey-solutions-","/customer/en/portal/articles/2561438-what-are-the-costs-associated-with-using-survey-solutions-","/customer/portal/articles/2561438","/customer/en/portal/articles/2561438"]
+aliases = ["/customer/portal/articles/2561438-what-are-the-costs-associated-with-using-survey-solutions-"]
 
 +++
 

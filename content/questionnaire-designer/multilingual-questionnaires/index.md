@@ -3,7 +3,7 @@ title = "Multilingual Questionnaires"
 keywords = ["multiple language","translation","localization"]
 date = 2016-11-02T19:07:27Z
 lastmod = 2016-11-02T19:07:27Z
-aliases = ["/customer/portal/articles/2626663-multilingual-questionnaires","/customer/en/portal/articles/2626663-multilingual-questionnaires","/customer/portal/articles/2626663","/customer/en/portal/articles/2626663"]
+aliases = ["/customer/portal/articles/2626663-multilingual-questionnaires"]
 
 +++
 

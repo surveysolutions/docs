@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Comparing floating point numbers and precision problems"
 keywords = ["precision computation"]
 date = 2017-02-06T08:55:28Z
 lastmod = 2017-02-06T08:55:28Z
-aliases = ["/customer/portal/articles/2736012-comparing-floating-point-numbers-and-precision-problems","/customer/en/portal/articles/2736012-comparing-floating-point-numbers-and-precision-problems","/customer/portal/articles/2736012","/customer/en/portal/articles/2736012"]
+aliases = ["/customer/portal/articles/2736012-comparing-floating-point-numbers-and-precision-problems"]
 
 +++
 
@@ -62,7 +62,7 @@ Recommendations for questionnaire designers
 -------------------------------------------
 
 In most cases ask yourself first, whether you need an exact comparison.
-In many cases exact comparison is not required.Â Where it is required,
+In many cases exact comparison is not required. Where it is required,
 ask yourself whether the values should indeed be represented as floating
 point numbers, or perhaps they are integers by nature. When there is no
 other way, compare the floating point numbers x and y as

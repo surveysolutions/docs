@@ -3,7 +3,7 @@ title = "Syntax Guide: List questions"
 keywords = ["syntax","list"]
 date = 2016-11-28T19:30:19Z
 lastmod = 2016-11-28T19:30:19Z
-aliases = ["/customer/portal/articles/2658533-syntax-guide-list-questions","/customer/en/portal/articles/2658533-syntax-guide-list-questions","/customer/portal/articles/2658533","/customer/en/portal/articles/2658533"]
+aliases = ["/customer/portal/articles/2658533-syntax-guide-list-questions"]
 
 +++
 

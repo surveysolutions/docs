@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Mandatory (required) questions"
 keywords = [""]
 date = 2017-04-18T21:10:45Z
 lastmod = 2017-04-18T21:10:45Z
-aliases = ["/customer/portal/articles/2789716-mandatory-required-questions","/customer/en/portal/articles/2789716-mandatory-required-questions","/customer/portal/articles/2789716","/customer/en/portal/articles/2789716"]
+aliases = ["/customer/portal/articles/2789716-mandatory-required-questions"]
 
 +++
 

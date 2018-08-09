@@ -3,7 +3,7 @@ title = "Selecting an option with lowest code"
 keywords = [""]
 date = 2017-02-23T13:45:09Z
 lastmod = 2017-02-23T13:45:09Z
-aliases = ["/customer/portal/articles/2751433-selecting-an-option-with-lowest-code","/customer/en/portal/articles/2751433-selecting-an-option-with-lowest-code","/customer/portal/articles/2751433","/customer/en/portal/articles/2751433"]
+aliases = ["/customer/portal/articles/2751433-selecting-an-option-with-lowest-code"]
 draft = true
 +++
 

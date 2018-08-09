@@ -1,17 +1,17 @@
-﻿+++
++++
 title = "Local Installation: Interviwer app cannot connect to the server over HTTPS"
 keywords = [""]
 date = 2018-01-09T14:48:25Z
 lastmod = 2018-01-09T14:48:25Z
-aliases = ["/customer/portal/articles/2914430-local-installation-interviwer-app-cannot-connect-to-the-server-over-https","/customer/en/portal/articles/2914430-local-installation-interviwer-app-cannot-connect-to-the-server-over-https","/customer/portal/articles/2914430","/customer/en/portal/articles/2914430"]
+aliases = ["/customer/portal/articles/2914430-local-installation-interviwer-app-cannot-connect-to-the-server-over-https"]
 
 +++
 
 **Symptoms:**  
 When Interviewer app is trying to connect to the Headquarters
 application on a local server over the secure http (https) protocol
-synchronization process fails with an error â€œNO CONNECTION TO THE SURVEY
-SOLUTIONS SUPERVISOR. PLEASE MAKE SURE THAT THE WEBSITE IS AVAILABLEâ€.  
+synchronization process fails with an error “NO CONNECTION TO THE SURVEY
+SOLUTIONS SUPERVISOR. PLEASE MAKE SURE THAT THE WEBSITE IS AVAILABLE”.  
   
 The Headquarters application is setup correctly, with a valid security
 certificate, and in the mobile browser on the Android device users **can
@@ -45,7 +45,7 @@ Meanwhile, workarounds to this problem include:
 - Disable http/2 in Windows 2016 and use http/1.1 instead.
 
   
-You can disable using http/2 for https connections by addingÂ  DWORD
+You can disable using http/2 for https connections by adding  DWORD
 value with name EnableHttp2Tls to
 HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\HTTP\\Parameters
 and setting it to 0.  

@@ -1,16 +1,16 @@
-﻿+++
++++
 title = "Date and Time formats"
 keywords = ["Date Time Format"]
 date = 2018-06-27T16:18:16Z
 lastmod = 2018-06-27T16:18:16Z
-aliases = ["/customer/portal/articles/2946079-date-and-time-formats","/customer/en/portal/articles/2946079-date-and-time-formats","/customer/portal/articles/2946079","/customer/en/portal/articles/2946079"]
+aliases = ["/customer/portal/articles/2946079-date-and-time-formats"]
 
 +++
 
 This document uses the following notation to describe the date and time
 formats:
 
-- Y -Â year
+- Y - year
 - M - month
 - D - day
 - h - hour
@@ -20,7 +20,7 @@ formats:
 - {AM|PM} - one of the two time specifications AM or PM.
 - Mon - month abbreviated to 3 letters
 - Month - full month name.
-- DOW - day of weekÂ (such as Monday, Tuesday, etc).
+- DOW - day of week (such as Monday, Tuesday, etc).
 - TZ - timezone
 
 Exported data
@@ -32,7 +32,7 @@ Here is how:
 In the main data file:
 
 - Date questions: YYYY-MM-DD
-- Timestamp (date question withÂ the current time option):
+- Timestamp (date question with the current time option):
     YYYY-MM-DDThh:mm:ss in the device timezone.
 - Timestamp in GPS location question: YYYY-MM-DDThh:mm:ss in UTC
     timezone.
@@ -41,7 +41,7 @@ In the main data file:
 
 In the *interview\_actions* file:
 
-- Date:Â YYYY-MM-DD
+- Date: YYYY-MM-DD
 - Time: hh:mm:ss in UTC time zone
 
 In the *interview\_comments* file:
@@ -67,7 +67,7 @@ In *export\_\_readme.txt* file
 In *interviews.tab* file (web links for assignments):
 
 - Date questions: YYYY-MM-DDT00:00:00
-- Timestamp (date question withÂ the current time option):
+- Timestamp (date question with the current time option):
     YYYY-MM-DDThh:mm:ss
 
 Tablet clock is used for events registered on the tablet, such as
@@ -87,7 +87,7 @@ the interface. Here is how:
 - In the Interview status history dialog accessed from interview
     details: Mon DD, YYYY hh:mm in the UTC timezone.
 - In the Interview status history dialog accessed from interview
-    context menu: Mon DD, YYYY hh:mm in the current userÂ timezone.
+    context menu: Mon DD, YYYY hh:mm in the current user timezone.
 - Timestamp in identifying questions: YYYY-MM-DD hh:mm:ss recorded in
     the current user timezone; displayed without further timezone
     adjustment for users in other timezones.

@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "How to cite Survey Solutions in a publication?"
 keywords = [""]
 date = 2018-02-08T18:42:26Z
 lastmod = 2018-02-08T18:42:26Z
-aliases = ["/customer/portal/articles/2921331-how-to-cite-survey-solutions-in-a-publication-","/customer/en/portal/articles/2921331-how-to-cite-survey-solutions-in-a-publication-","/customer/portal/articles/2921331","/customer/en/portal/articles/2921331"]
+aliases = ["/customer/portal/articles/2921331-how-to-cite-survey-solutions-in-a-publication-"]
 
 +++
 

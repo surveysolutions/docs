@@ -3,7 +3,7 @@ title = "Distribute an Assignment"
 keywords = [""]
 date = 2017-09-20T20:28:13Z
 lastmod = 2017-09-20T20:28:13Z
-aliases = ["/customer/portal/articles/2877878-distribute-an-assignment","/customer/en/portal/articles/2877878-distribute-an-assignment","/customer/portal/articles/2877878","/customer/en/portal/articles/2877878"]
+aliases = ["/customer/portal/articles/2877878-distribute-an-assignment"]
 
 +++
 

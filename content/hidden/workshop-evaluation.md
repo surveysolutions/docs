@@ -1,16 +1,16 @@
-﻿+++
++++
 title = "Workshop evaluation"
 keywords = [""]
 date = 2017-07-27T22:09:32Z
 lastmod = 2017-07-27T22:09:32Z
-aliases = ["/customer/portal/articles/2849410-workshop-evaluation","/customer/en/portal/articles/2849410-workshop-evaluation","/customer/portal/articles/2849410","/customer/en/portal/articles/2849410"]
+aliases = ["/customer/portal/articles/2849410-workshop-evaluation"]
 draft = true
 +++
 
 Thank you for taking part in a Survey Solutions workshop!  
 Your feedback is important for us.  
   
-Please fill out thisÂ [evaluation
+Please fill out this [evaluation
 form](https://tce.mysurvey.solutions/WebInterview/4/Start) online.  
   
 Thank you for your cooperation!  

@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Cloud server request"
 keywords = [""]
 date = 2017-01-23T11:41:42Z
 lastmod = 2017-01-23T11:41:42Z
-aliases = ["/customer/portal/articles/2723103-cloud-server-request","/customer/en/portal/articles/2723103-cloud-server-request","/customer/portal/articles/2723103","/customer/en/portal/articles/2723103"]
+aliases = ["/customer/portal/articles/2723103-cloud-server-request"]
 
 +++
 
@@ -12,12 +12,12 @@ request a new cloud server through Survey Solutions' self-service
 portal. To do so, follow these steps:
 
 1. **Navigate to the self-service server portal.** The address is
-    <https://mysurvey.solutions>.Â 
+    <https://mysurvey.solutions>. 
 2. **Log in using your Designer credentials.** These are the
     credentials used to access and edit questionnaires developed with
     Survey Solutions Designer.
 3. **Create a new server request.** From the Create Request menu,
-    select New server request.Â 
+    select New server request. 
 4. **Fill the server request form.** Provide all requested information
     as accurately as possible. Contact the support team with questions
     about the form.
@@ -38,10 +38,10 @@ Before submitting a new server request, please note the following:
     instruments, request a single server. If there is more than one
     survey effort, request a separate survey for each survey effort.
 - Do not submit a server request to test new functionality. There is a
-    publicly availableÂ [demonstration
+    publicly available [demonstration
     server](https://demo.mysurvey.solutions) arranged specifically for
     this purpose (see
-    credentialsÂ [here](/getting-started/faq-for-it-personnel)).
+    credentials [here](/getting-started/faq-for-it-personnel)).
 
 This article is part of the series of [instructions for Survey Solutions
 cloud servers](/faq/cloud-server-instructions).

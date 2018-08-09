@@ -3,7 +3,7 @@ title = "Batch User Upload"
 keywords = ["batch","create case","survey case","sample mode"]
 date = 2016-06-30T18:18:21Z
 lastmod = 2016-06-30T18:18:21Z
-aliases = ["/customer/portal/articles/2483438-batch-user-upload","/customer/en/portal/articles/2483438-batch-user-upload","/customer/portal/articles/2483438","/customer/en/portal/articles/2483438"]
+aliases = ["/customer/portal/articles/2483438-batch-user-upload"]
 
 +++
 

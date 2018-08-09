@@ -3,7 +3,7 @@ title = "Categorical: Multi-Select Question"
 keywords = ["multiselect","multi select","export","yes/no mode","ordered","answer order","maximum answer","linked","filtered option","export"]
 date = 2016-06-21T16:53:47Z
 lastmod = 2016-06-21T16:53:47Z
-aliases = ["/customer/portal/articles/2471763-categorical-multi-select-question","/customer/en/portal/articles/2471763-categorical-multi-select-question","/customer/portal/articles/2471763","/customer/en/portal/articles/2471763"]
+aliases = ["/customer/portal/articles/2471763-categorical-multi-select-question"]
 
 +++
 

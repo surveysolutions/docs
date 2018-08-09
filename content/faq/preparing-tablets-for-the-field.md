@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Preparing tablets for the field"
 keywords = [""]
 date = 2016-12-13T18:51:09Z
 lastmod = 2016-12-13T18:51:09Z
-aliases = ["/customer/portal/articles/2674651-preparing-tablets-for-the-field","/customer/en/portal/articles/2674651-preparing-tablets-for-the-field","/customer/portal/articles/2674651","/customer/en/portal/articles/2674651"]
+aliases = ["/customer/portal/articles/2674651-preparing-tablets-for-the-field"]
 draft = true
 +++
 
@@ -140,13 +140,13 @@ internet use.
 Then, disable notifications by unticking the boxes next to the following
 settings in the Notifications section: *App updates available* and *Apps
 were auto-updated*. These notifications might otherwise be seen by
-interviewers, leading to confusion or demands for updates â€’ both bad
+interviewers, leading to confusion or demands for updates ‒ both bad
 outcomes.
 
 #### Manufacturer-specific app stores
 
-Many manufacturers install their own app stores â€’ for example, Samsung's
-Galaxy Apps â€’ as a vehicle updating pre-installed applications.
+Many manufacturers install their own app stores ‒ for example, Samsung's
+Galaxy Apps ‒ as a vehicle updating pre-installed applications.
 
 While disabling automatic updates from these app store typically follows
 the same process as for the Play Store, outlined above, the process for
@@ -297,7 +297,7 @@ account:
 
 ### <span id="InterviewerSetUp"></span>Set-up the Interviewer app
 
-Â 
+ 
 
 As the final step in tablet preparation for the field, the Interviewer
 application needs to be set up for each interviewer. At this point, the

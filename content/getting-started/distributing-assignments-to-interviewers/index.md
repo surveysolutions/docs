@@ -3,7 +3,7 @@ title = "Distributing Assignments to Interviewers"
 keywords = ["assign case ","supervisor"]
 date = 2016-06-28T16:59:07Z
 lastmod = 2016-06-28T16:59:07Z
-aliases = ["/customer/portal/articles/2479498-distributing-assignments-to-interviewers","/customer/en/portal/articles/2479498-distributing-assignments-to-interviewers","/customer/portal/articles/2479498","/customer/en/portal/articles/2479498"]
+aliases = ["/customer/portal/articles/2479498-distributing-assignments-to-interviewers"]
 
 +++
 

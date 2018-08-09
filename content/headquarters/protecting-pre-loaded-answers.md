@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Protecting pre-loaded answers"
 keywords = [""]
 date = 2018-06-06T15:28:58Z
 lastmod = 2018-06-06T15:28:58Z
-aliases = ["/customer/portal/articles/2942758-protecting-pre-loaded-answers","/customer/en/portal/articles/2942758-protecting-pre-loaded-answers","/customer/portal/articles/2942758","/customer/en/portal/articles/2942758"]
+aliases = ["/customer/portal/articles/2942758-protecting-pre-loaded-answers"]
 
 +++
 
@@ -16,11 +16,11 @@ preloaded should not be eliminated by the interviewer, but new household
 members may be added if needed.  
   
 The protection applies to questions that may perform the role of
-triggers:Â 
+triggers: 
 
--   numeric,Â 
--   text list, andÂ 
--   multiple-select categorical (in regular or Y/N-mode).Â 
+-   numeric, 
+-   text list, and 
+-   multiple-select categorical (in regular or Y/N-mode). 
 
 Note also, that the answers to the questions may be protected even if
 they are not triggering any rosters, as long as the type of the question
@@ -29,9 +29,9 @@ is one of these three.
 If the answer to the question is protected, then:
 
 -   for numeric question the interviewer may specify an answer greater
-    or equal to the one specified duringÂ preloading;
+    or equal to the one specified during preloading;
 -   for text list question the interviewer may append new items to the
-    end of the text list, but not remove the onesÂ that were preloaded;
+    end of the text list, but not remove the ones that were preloaded;
 -   for multiple-select categorical question the interviewer may select
     any categories in addition to the ones already selected during
     preloading, but can't unselect the pre-selected categories.
@@ -41,15 +41,15 @@ If the answer to the question is protected, then:
     positively or negatively selected.
 
 The protection of answers may only be done in advanced preloading mode
-when the identifying information andÂ preloading data are uploaded as a
+when the identifying information and preloading data are uploaded as a
 single zip archive. To protect the answers an additional text file with
-the nameÂ ***protected\_\_variables.tab***Â (mind the double underscores
+the name ***protected\_\_variables.tab*** (mind the double underscores
 in the file name) must be created and placed into the zip-archive
-alongside the main data file there. ThisÂ file has the following
+alongside the main data file there. This file has the following
 structure: the 1st line should contain exactly this word:
-*variable\_\_name*, while the 2nd, 3rd andÂ subsequent lines should
+*variable\_\_name*, while the 2nd, 3rd and subsequent lines should
 contain variable names of the questions that need to be protected (each
-variable on it's ownÂ line). For example:
+variable on it's own line). For example:
 
     variable__name
     hhmembers
@@ -69,6 +69,6 @@ following [troubleshooting
 reference](/headquarters/errors-in-user-supplied-files-for-preloading).  
   
 This protection of answers is effective in the whole set of data being
-preloaded. Note that the empty answers are notÂ protected (e.g. if
+preloaded. Note that the empty answers are not protected (e.g. if
 numeric question was not preloaded, the interviewer will be able to
 specify any value).

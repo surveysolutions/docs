@@ -3,7 +3,7 @@ title = "Creating Survey Cases One at a Time  (prior to 5.21)"
 keywords = ["create survey cases"]
 date = 2016-06-27T22:22:11Z
 lastmod = 2016-06-27T22:22:11Z
-aliases = ["/customer/portal/articles/2478737-creating-survey-cases-one-at-a-time-prior-to-5-21-","/customer/en/portal/articles/2478737-creating-survey-cases-one-at-a-time-prior-to-5-21-","/customer/portal/articles/2478737","/customer/en/portal/articles/2478737"]
+aliases = ["/customer/portal/articles/2478737-creating-survey-cases-one-at-a-time-prior-to-5-21-"]
 expirydate = 2016-07-06T00:00:00Z
 +++
 

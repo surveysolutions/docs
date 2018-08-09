@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Excessive interviews"
 keywords = ["duplicate assignments interviews"]
 date = 2018-01-26T21:12:02Z
 lastmod = 2018-01-26T21:12:02Z
-aliases = ["/customer/portal/articles/2918252-excessive-interviews","/customer/en/portal/articles/2918252-excessive-interviews","/customer/portal/articles/2918252","/customer/en/portal/articles/2918252"]
+aliases = ["/customer/portal/articles/2918252-excessive-interviews"]
 
 +++
 
@@ -39,7 +39,7 @@ neither X nor Y know anything about the parallel copy of the assignment,
 at should normally proceed to fulfill it because it appears on their
 dashboards.
 
-1. Interviewers X and Y complete their copyÂ of the interview (in any
+1. Interviewers X and Y complete their copy of the interview (in any
     order);
 2. Interviewers X and Y send completed interviews to the server
     (synchronize in any order);

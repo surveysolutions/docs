@@ -3,7 +3,7 @@ title = "Synchronization"
 keywords = ["sync","synchronize","interviewer","app","application"]
 date = 2016-07-15T17:48:51Z
 lastmod = 2016-07-15T17:48:51Z
-aliases = ["/customer/portal/articles/2498915-synchronization","/customer/en/portal/articles/2498915-synchronization","/customer/portal/articles/2498915","/customer/en/portal/articles/2498915"]
+aliases = ["/customer/portal/articles/2498915-synchronization"]
 
 +++
 

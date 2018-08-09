@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Errors in user-supplied files for preloading"
 keywords = [""]
 date = 2018-03-09T22:50:55Z
 lastmod = 2018-03-09T22:50:55Z
-aliases = ["/customer/portal/articles/2928007-errors-in-user-supplied-files-for-preloading","/customer/en/portal/articles/2928007-errors-in-user-supplied-files-for-preloading","/customer/portal/articles/2928007","/customer/en/portal/articles/2928007"]
+aliases = ["/customer/portal/articles/2928007-errors-in-user-supplied-files-for-preloading"]
 
 +++
 
@@ -14,10 +14,10 @@ It is the user's responsibility to supply valid input files for this
 process. The user-supplied files will be validated to match the
 questionnaire template that is being preloaded. Survey Solutions can
 detect a number of inconsistencies and common problems and will indicate
-them during preloading.Â   
+them during preloading.   
   
 Each detected error is having a code listed in the table below.
-Additional checks may be added in the future.Â   
+Additional checks may be added in the future.   
   
 When an error is detected in the preloading file, Survey Solutions may
 reject such input data fully or partially. If Survey Solutions rejects
@@ -40,7 +40,7 @@ information in exactly the format expected at input by Survey Solutions.
 This practice allows adjustments be done to those scripts whenever the
 format of input data for Survey Solutions changes, or if the sample file
 needs to be replicated for troubleshooting purposes.  
-Â 
+ 
 
 <table>
 <colgroup>
@@ -164,7 +164,7 @@ Roster Id is inconsistent with roster size.
 <td><div>
 Either the number of elements in the roster or their numeration is inconsistent with the trigger question.<br />
 <br />
-See recommendationsÂ <a href={{< ref "/headquarters/numbering-in-subordinate-rosters-during-preloading" >}}>here</a>.
+See recommendations <a href={{< ref "/headquarters/numbering-in-subordinate-rosters-during-preloading" >}}>here</a>.
 </div></td>
 </tr>
 <tr class="even">
@@ -254,7 +254,7 @@ Check the format of the date/time values you are preloading.
 Invalid GPS value.
 </div></td>
 <td><div>
-Check the GPS coordinates for validity. Express coordinates in degrees and decimals, such as 51.50, not in degrees and minutes, seconds, not 51<span style="font-size: small; color: rgb(84, 84, 84); font-family: Roboto, arial, sans-serif;">Â°30'00&quot;.</span>
+Check the GPS coordinates for validity. Express coordinates in degrees and decimals, such as 51.50, not in degrees and minutes, seconds, not 51<span style="font-size: small; color: rgb(84, 84, 84); font-family: Roboto, arial, sans-serif;">°30'00&quot;.</span>
 </div></td>
 </tr>
 <tr class="even">
@@ -311,7 +311,7 @@ Remove the values from the columns corresponding to picture questions.
 Preloading data were not found
 </div></td>
 <td><div>
-Â 
+ 
 </div></td>
 </tr>
 <tr class="odd">
@@ -421,10 +421,10 @@ Check column names for typos. For columns that correspond to lists, make sure th
 <span class="s" style="color: rgb(187, 136, 68);">PL0032</span>
 </div></td>
 <td><div>
-Latitude must be greater than -90Â° and less than 90Â°.
+Latitude must be greater than -90° and less than 90°.
 </div></td>
 <td><div>
-Check that the values of latitude in the preloading file are all within the -90, 90 range.Â <br />
+Check that the values of latitude in the preloading file are all within the -90, 90 range. <br />
 <br />
 If your coordinates come from some other projection you may need to convert (reproject) to degrees.
 </div></td>
@@ -434,10 +434,10 @@ If your coordinates come from some other projection you may need to convert (rep
 <span class="s" style="color: rgb(187, 136, 68);">PL0033</span>
 </div></td>
 <td><div>
-Longitude must be greater than -180Â° and less than 180Â°.
+Longitude must be greater than -180° and less than 180°.
 </div></td>
 <td><div>
-Check that the values of longitude in the preloading file are all within the -180, 180 range.Â <br />
+Check that the values of longitude in the preloading file are all within the -180, 180 range. <br />
 <br />
 If your coordinates come from some other projection you may need to convert (reproject) to degrees.
 </div></td>

@@ -3,7 +3,7 @@ title = "Picture Question"
 keywords = ["picture","photo","export"]
 date = 2016-06-20T17:01:20Z
 lastmod = 2016-06-20T17:01:20Z
-aliases = ["/customer/portal/articles/2469927-picture-question","/customer/en/portal/articles/2469927-picture-question","/customer/portal/articles/2469927","/customer/en/portal/articles/2469927"]
+aliases = ["/customer/portal/articles/2469927-picture-question"]
 
 +++
 

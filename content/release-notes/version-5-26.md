@@ -1,18 +1,18 @@
-﻿+++
++++
 title = "Version 5.26"
 keywords = ["5.26","User meeting"]
 date = 2018-02-08T15:46:10Z
 lastmod = 2018-02-08T15:46:10Z
-aliases = ["/customer/portal/articles/2921275-version-5-26","/customer/en/portal/articles/2921275-version-5-26","/customer/portal/articles/2921275","/customer/en/portal/articles/2921275"]
+aliases = ["/customer/portal/articles/2921275-version-5-26"]
 +++
 
-Â 
+ 
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Version
 5.26 of Survey Solutions released on Feb. 08. 2018 comes with several
 new features and numerous important improvements. </span></span>  
-Â 
+ 
 
 ------------------------------------------------------------------------
 
@@ -33,7 +33,7 @@ being designed.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
 style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">4.
-New tab **â€œShared with meâ€** in Designer for shared
+New tab **“Shared with me”** in Designer for shared
 questionnaires.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
@@ -50,12 +50,12 @@ style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-colo
 Other **improvements** and bugfixes.</span></span>
 
   
-**TheÂ **<span
+**The **<span
 style="color: rgb(0, 0, 0); font-family: Arial; font-size: 14.6667px; white-space: pre-wrap;">5th
 Survey Solutions User Group online meeting took place on 14th February
 2018.</span>  
   
-Â 
+ 
 
 ------------------------------------------------------------------------
 
@@ -95,20 +95,20 @@ style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-colo
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Online
 Tester provides an accurate impression of the questionnaire functioning
-during the preparation for the web interviews, which donâ€™t utilize the
+during the preparation for the web interviews, which don’t utilize the
 tablets. Users that utilize Online Tester for testing their
 questionnaires should keep in mind that the performance of the devices
 (computer and tablet) is different, and in order to have an accurate
 impression of the performance of the tablet interviews they need to be
 tested on the actual device (and best on the same model that will be
 used for the actual data collection). See also the performance
-measurements for tabletâ€™s response time below.</span></span>
+measurements for tablet’s response time below.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Currently
-the Online Tester does not show the computed value Â of variables during
+the Online Tester does not show the computed value  of variables during
 testing. Questionnaires that have syntax errors in conditions or other
-compilation errors canâ€™t be tested.</span></span>
+compilation errors can’t be tested.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Reassign interviewers between the teams</span></span>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -116,7 +116,7 @@ compilation errors canâ€™t be tested.</span></span>
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Reassigning
 an interviewer from one team to another is a useful team management
-action to bring a teamâ€™s size in accordance with itâ€™s workload,
+action to bring a team’s size in accordance with it’s workload,
 eliminate bottlenecks and solve other practical problems. We have added
 the reassigning as a possible action of the headquarters users in v.5.26
 and it can be completed in one of the following two modes:</span></span>
@@ -190,23 +190,23 @@ questionnaire for documentation purposes.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">We
-have added a new tab in the Designer â€œ</span><span
+have added a new tab in the Designer “</span><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Questionnaires
 shared with me</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">â€
-in addition to â€œ</span><span
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”
+in addition to “</span><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">My
 questionnaires</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">â€
-and â€œ</span><span
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”
+and “</span><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Public
 questionnaires</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">â€.
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”.
 All of the questionnaires that are shared with you by your co-authors
-will be shown there. â€œ</span><span
+will be shown there. “</span><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">My
 questionnaires</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">â€
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”
 shows only those questionnaires for which you are the owner.
 </span></span>
 
@@ -226,16 +226,16 @@ data:</span></span>
     style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">During
     the export to statistical packages Survey Solutions inserts an
     extended missing value where the answer could have been provided by
-    the interviewer, but wasnâ€™t. Specifically, for SPSS system file
+    the interviewer, but wasn’t. Specifically, for SPSS system file
     format (\*.sav), this value is now marked as a missing value. For
     Stata binary file format (\*.dta) this value is replaced with
-    Stataâ€™s extended missing value </span><span
+    Stata’s extended missing value </span><span
     style="font-size: 11pt; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.a</span><span
     style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.
-    Both SPSS and Stata will automatically account for missinges Â in
+    Both SPSS and Stata will automatically account for missinges  in
     computation of averages, tabulations, and other analyses. There are
     no extended missing values for tab-delimited export and the user
-    will need to properly account for the special value Â -999,999,999 in
+    will need to properly account for the special value  -999,999,999 in
     their analyses based on the tab-delimited files.</span></span>
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
@@ -267,7 +267,7 @@ style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-colo
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">To
 be able to get objective measurements of the responsiveness of the
 questionnaire on a tablet one can activate the execution time
-measurement in the Tester Appâ€™s settings: </span><span
+measurement in the Tester App’s settings: </span><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Show
 elapsed time per answer</span><span
 style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.</span></span>
@@ -307,7 +307,7 @@ hardware.</span></span>
     automatically generated ID (</span><span
     style="font-size: 11pt; background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">rostername\_\_ID</span><span
     style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">)
-    is a valid variable name (fits into Stataâ€™s 32-characters limit). If
+    is a valid variable name (fits into Stata’s 32-characters limit). If
     your older questionnaire made use of longer roster variable names,
     you may need to rename them.</span></span>
 -   <span
@@ -333,7 +333,7 @@ style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-colo
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
     style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">The
     new minimum version of .Net framework for local servers is now .Net
-    4.7.1. Refer to Microsoftâ€™s web site to acquire the .Net 4.7.1 if
+    4.7.1. Refer to Microsoft’s web site to acquire the .Net 4.7.1 if
     you need to update your installation: </span>[<span
     style="font-size: 11pt; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; vertical-align: baseline; white-space: pre-wrap;">https://www.microsoft.com/net/download/dotnet-framework-runtime</span>](https://www.microsoft.com/net/download/dotnet-framework-runtime)</span>
 -   <span
@@ -346,4 +346,4 @@ style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-colo
     style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">)
     that we have retained to smoothen the transition. For all users we
     recommend to utilize the new interview details view immediately and
-    catch up with supervisorsâ€™ training as necessary.</span></span>
+    catch up with supervisors’ training as necessary.</span></span>

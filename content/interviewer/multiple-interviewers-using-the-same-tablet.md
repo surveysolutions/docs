@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Multiple interviewers using the same tablet"
 keywords = ["interviewer relink re-link relinking re-linking multiple users tablet "]
 date = 2018-05-07T19:50:12Z
 lastmod = 2018-05-07T19:50:12Z
-aliases = ["/customer/portal/articles/2938134-multiple-interviewers-using-the-same-tablet","/customer/en/portal/articles/2938134-multiple-interviewers-using-the-same-tablet","/customer/portal/articles/2938134","/customer/en/portal/articles/2938134"]
+aliases = ["/customer/portal/articles/2938134-multiple-interviewers-using-the-same-tablet"]
 
 +++
 
@@ -12,7 +12,7 @@ interviewer account there is an indication of the currently linked
 device. In short this means that at any moment any interviewer may be
 utilizing only one device for data collection. Re-linking of the devices
 is possible, but it has some important consequences (explained
-[here](http://support.mysurvey.solutions/customer/en/portal/articles/2578016)).Â   
+[here](http://support.mysurvey.solutions/customer/en/portal/articles/2578016)).   
   
 At the same time it is still possible for multiple interviewers to use
 the same tablet for data collection, but every interviewer must have a

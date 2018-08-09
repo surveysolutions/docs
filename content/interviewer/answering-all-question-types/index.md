@@ -3,7 +3,7 @@ title = "Answering All Question Types"
 keywords = ["answer","interviewer","app","application",""]
 date = 2016-07-14T18:38:49Z
 lastmod = 2016-07-14T18:38:49Z
-aliases = ["/customer/portal/articles/2497877-answering-all-question-types","/customer/en/portal/articles/2497877-answering-all-question-types","/customer/portal/articles/2497877","/customer/en/portal/articles/2497877"]
+aliases = ["/customer/portal/articles/2497877-answering-all-question-types"]
 
 +++
 

@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "My Survey Solutions server is not the latest version. Can I still use it with new surveys?"
 keywords = [""]
 date = 2016-09-07T03:25:08Z
 lastmod = 2016-09-07T03:25:08Z
-aliases = ["/customer/portal/articles/2561448-my-survey-solutions-server-is-not-the-latest-version-can-i-still-use-it-with-new-surveys-","/customer/en/portal/articles/2561448-my-survey-solutions-server-is-not-the-latest-version-can-i-still-use-it-with-new-surveys-","/customer/portal/articles/2561448","/customer/en/portal/articles/2561448"]
+aliases = ["/customer/portal/articles/2561448-my-survey-solutions-server-is-not-the-latest-version-can-i-still-use-it-with-new-surveys-"]
 
 +++
 

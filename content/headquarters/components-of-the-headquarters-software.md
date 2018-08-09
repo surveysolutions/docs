@@ -1,15 +1,15 @@
-﻿+++
++++
 title = "Components of the Headquarters Software"
 keywords = ["headquarters","reports","interviews","survey cases","teams and roles","survey setup","data export"]
 date = 2016-06-29T18:04:38Z
 lastmod = 2016-06-29T18:04:38Z
-aliases = ["/customer/portal/articles/2481286-components-of-the-headquarters-software","/customer/en/portal/articles/2481286-components-of-the-headquarters-software","/customer/portal/articles/2481286","/customer/en/portal/articles/2481286"]
+aliases = ["/customer/portal/articles/2481286-components-of-the-headquarters-software"]
 
 +++
 
 The headquarters software is a suite of connected tools for the
 administrator and headquarters users:  
-Â 
+ 
 
 -   to track the overall progress of the survey
     ([Reports](/headquarters/reports-tab-track-the-overall-progress-of-the-survey))
@@ -32,12 +32,12 @@ the administrator can create headquarters/observer user accounts,
 archive user accounts, and delete questionnaire templates from the
 headquarters server.  
   
-The articles linked here will provide an overview of each toolâ€”
+The articles linked here will provide an overview of each tool—
 [Reports](/headquarters/reports-tab-track-the-overall-progress-of-the-survey),
 [Interviews](/headquarters/interview-tab-how-to-find-review-and-delete-survey-cases-),
 [Teams and
 Roles](/headquarters/teams-and-roles-tab-creating-user-accounts-),
 [Survey
 Setup](/headquarters/survey-setup-tab-import-copy-and-delete-questionnaire-templates-and-create-assignments),
-and [Data Export](/headquarters/data-export-tab)â€”and of how each tool
+and [Data Export](/headquarters/data-export-tab)—and of how each tool
 works.

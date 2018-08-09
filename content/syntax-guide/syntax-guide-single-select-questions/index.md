@@ -3,7 +3,7 @@ title = "Syntax Guide: Single-select questions"
 keywords = ["syntax","single select"]
 date = 2016-11-17T19:31:25Z
 lastmod = 2016-11-17T19:31:25Z
-aliases = ["/customer/portal/articles/2646959-syntax-guide-single-select-questions","/customer/en/portal/articles/2646959-syntax-guide-single-select-questions","/customer/portal/articles/2646959","/customer/en/portal/articles/2646959"]
+aliases = ["/customer/portal/articles/2646959-syntax-guide-single-select-questions"]
 
 +++
 

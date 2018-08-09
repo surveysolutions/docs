@@ -3,7 +3,7 @@ title = "Basic Syntax"
 keywords = ["syntax","designer"]
 date = 2016-08-15T15:33:33Z
 lastmod = 2016-08-15T15:33:33Z
-aliases = ["/customer/portal/articles/2537143-basic-syntax","/customer/en/portal/articles/2537143-basic-syntax","/customer/portal/articles/2537143","/customer/en/portal/articles/2537143"]
+aliases = ["/customer/portal/articles/2537143-basic-syntax"]
 draft = true
 +++
 

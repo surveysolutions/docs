@@ -3,7 +3,7 @@ title = "Shape file overlay"
 keywords = [""]
 date = 2018-06-06T21:39:31Z
 lastmod = 2018-06-06T21:39:31Z
-aliases = ["/customer/portal/articles/2942852-shape-file-overlay","/customer/en/portal/articles/2942852-shape-file-overlay","/customer/portal/articles/2942852","/customer/en/portal/articles/2942852"]
+aliases = ["/customer/portal/articles/2942852-shape-file-overlay"]
 
 +++
 

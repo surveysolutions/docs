@@ -1,14 +1,14 @@
-﻿+++
++++
 title = "Survey Solutions Server Observer"
 keywords = [""]
 date = 2017-10-06T15:56:59Z
 lastmod = 2017-10-06T15:56:59Z
-aliases = ["/customer/portal/articles/2885596-survey-solutions-server-observer","/customer/en/portal/articles/2885596-survey-solutions-server-observer","/customer/portal/articles/2885596","/customer/en/portal/articles/2885596"]
+aliases = ["/customer/portal/articles/2885596-survey-solutions-server-observer"]
 
 +++
 
 Observer is an optional account, kind of an HQ user with a limited
-functionality, to passively monitor a survey.Â Observer accesses
+functionality, to passively monitor a survey. Observer accesses
 information through impersonation, looking through the eyes of a
 different user.  
   

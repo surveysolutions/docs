@@ -3,7 +3,7 @@ title = "Questionnaire Interface & Answering Questions"
 keywords = ["interviewer","app","application","answer","navigate","roster navigation","group navigation"]
 date = 2016-07-14T03:04:44Z
 lastmod = 2016-07-14T03:04:44Z
-aliases = ["/customer/portal/articles/2497110-questionnaire-interface-answering-questions","/customer/en/portal/articles/2497110-questionnaire-interface-answering-questions","/customer/portal/articles/2497110","/customer/en/portal/articles/2497110"]
+aliases = ["/customer/portal/articles/2497110-questionnaire-interface-answering-questions"]
 
 +++
 

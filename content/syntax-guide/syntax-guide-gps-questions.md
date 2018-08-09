@@ -1,32 +1,32 @@
-﻿+++
++++
 title = "Syntax Guide: GPS questions"
 keywords = ["syntax","gps"]
 date = 2016-11-22T20:31:12Z
 lastmod = 2016-11-22T20:31:12Z
-aliases = ["/customer/portal/articles/2651879-syntax-guide-gps-questions","/customer/en/portal/articles/2651879-syntax-guide-gps-questions","/customer/portal/articles/2651879","/customer/en/portal/articles/2651879"]
+aliases = ["/customer/portal/articles/2651879-syntax-guide-gps-questions"]
 
 +++
 
 Responses for the [GPS questions](/questionnaire-designer/gps-question)
-are recorded as:Â   
+are recorded as:   
   
 class {  
-Â Â doubleÂ Latitude;  
-Â Â doubleÂ Longitude;  
-Â Â doubleÂ Accuracy;  
-Â Â doubleÂ Altitude;  
+  double Latitude;  
+  double Longitude;  
+  double Accuracy;  
+  double Altitude;  
 }  
   
 The following functions can be used in conditions for GPS questions:
 
--   [Longitude, Latitude, Accuracy, and Altitude.](#retrieve)Â *Retrieves
+-   [Longitude, Latitude, Accuracy, and Altitude.](#retrieve) *Retrieves
     the latitude/longitude/accuracy/altitude of a GPS coordinate.*
 -   [InRectangle](#InRectangle). *Check if the coordinates are inside a
-    rectangle.*Â 
+    rectangle.* 
 -   [GpsDistance.](#GPSDistance) *Calculate the distance between two
     coordinates in meters.*
 -   [GpsDistanceKm](#GPSDistanceKm). *Calculate the distance between two
-    coordinates in kilometers.Â *
+    coordinates in kilometers. *
 
  <span id="retrieve"></span>Longitude, Latitude, Accuracy, and Altitude
 -----------------------------------------------------------------------
@@ -48,7 +48,7 @@ Retrieves the latitude/longitude/accuracy/altitude of a GPS coordinate.
   
 This function retrieves the longitude, latitude, accuracy or altitude
 from a GPS question. var\_GPS is the variable name for the GPS question,
-followed by â€œ.â€ and the name of the element that you want to retrieve.
+followed by “.” and the name of the element that you want to retrieve.
 
 ### Example 1
 
@@ -86,13 +86,13 @@ west, south, and east boundaries.
 This function verifies that a coordinate (longitude and latitude) fall
 within the rectangle defined by the north, west, south, east corner
 coordinates.  
-Â 
+ 
 
 ### Example 1
 
 Assume that you are conducting a study in Ethiopia and you want to make
 sure that the GPS coordinates recorded are within the country.  
-Â   
+   
 For this check, we would write the validation condition for the question
 like this:
 
@@ -122,10 +122,10 @@ coordinates gpsA and gpsB.
 ###  Example 1
 
 Assume you have two GPS questions in your survey, one (gpsHome) for the
-coordinates of the householdâ€™s house, and another for the coordinates of
+coordinates of the household’s house, and another for the coordinates of
 their field (gpsField). You want to check that the distance between the
 two is at least 50 meters.  
-Â   
+   
 For this check, the validation condition would be:
 
     gpsHome.GpsDistance(gpsField)>50
@@ -149,7 +149,7 @@ coordinates gpsA and gpsB**.**
 Suppose you have two GPS questions in your survey, one for each visit to
 the household (visit1\_gps and visit2\_gps**)**. You want to check that
 the distance between the two is less than .5 kilometers.  
-Â   
+   
 For this check, the validation condition would be:
 
     visit1_gps.GpsDistanceKm(visit2_gps)>.5

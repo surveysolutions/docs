@@ -3,7 +3,7 @@ title = "Questionnaire Data - Export File Anatomy"
 keywords = ["data file","export","ssSys_IRnd","Id","ParentId1"]
 date = 2016-09-23T15:27:34Z
 lastmod = 2016-09-23T15:27:34Z
-aliases = ["/customer/portal/articles/2579806-questionnaire-data---export-file-anatomy","/customer/en/portal/articles/2579806-questionnaire-data---export-file-anatomy","/customer/portal/articles/2579806","/customer/en/portal/articles/2579806"]
+aliases = ["/customer/portal/articles/2579806-questionnaire-data---export-file-anatomy"]
 
 +++
 

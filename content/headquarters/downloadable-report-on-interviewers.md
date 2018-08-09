@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Downloadable Report on Interviewers"
 keywords = [""]
 date = 2017-12-06T15:28:43Z
 lastmod = 2017-12-06T15:28:43Z
-aliases = ["/customer/portal/articles/2908671-downloadable-report-on-interviewers","/customer/en/portal/articles/2908671-downloadable-report-on-interviewers","/customer/portal/articles/2908671","/customer/en/portal/articles/2908671"]
+aliases = ["/customer/portal/articles/2908671-downloadable-report-on-interviewers"]
 
 +++
 
@@ -132,7 +132,7 @@ their interpretation
 <tr class="even">
 <td>t_manufacturer</td>
 <td>Device manufacturer</td>
-<td>Â HP, samsung, asus, ...</td>
+<td> HP, samsung, asus, ...</td>
 </tr>
 <tr class="odd">
 <td>t_model</td>
@@ -147,7 +147,7 @@ their interpretation
 <tr class="odd">
 <td>s_language</td>
 <td>Current interface language of the device (written in that language)</td>
-<td>English, Ð ÑƒÑÑÐºÐ¸Ð¹</td>
+<td>English, Русский</td>
 </tr>
 <tr class="even">
 <td>s_androidVersion</td>

@@ -3,7 +3,7 @@ title = "Formatting Text"
 keywords = ["html","bold","italics","underline","color","text","format"]
 date = 2016-06-22T21:38:27Z
 lastmod = 2016-06-22T21:38:27Z
-aliases = ["/customer/portal/articles/2473782-formatting-text","/customer/en/portal/articles/2473782-formatting-text","/customer/portal/articles/2473782","/customer/en/portal/articles/2473782"]
+aliases = ["/customer/portal/articles/2473782-formatting-text"]
 
 +++
 

@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "Syntax Guide: Numeric Questions"
 keywords = ["syntax","numeric","inrange","inlist","math"]
 date = 2016-08-18T20:18:28Z
 lastmod = 2016-08-18T20:18:28Z
-aliases = ["/customer/portal/articles/2542376-syntax-guide-numeric-questions","/customer/en/portal/articles/2542376-syntax-guide-numeric-questions","/customer/portal/articles/2542376","/customer/en/portal/articles/2542376"]
+aliases = ["/customer/portal/articles/2542376-syntax-guide-numeric-questions"]
 
 +++
 
@@ -15,25 +15,25 @@ numbers (ie 1.5, 2.73, 15.25, 2.0).
   
 The following functions and operators can be used in conditions for
 numeric questions:  
-Â 
+ 
 
 ### Comparison to a value
 
 -   ***[Relational
-    Operators](/syntax-guide/syntax-guide-operators)***:Â less than,
+    Operators](/syntax-guide/syntax-guide-operators)***: less than,
     greater than, equal to, etc
 
-Â 
+ 
 
 ### Comparison to a range or several values
 
-Â 
+ 
 
 -   ***[InRange](#inrange):*** Checks if the number falls within a range
--   ***[InList](#inlist):***Â Checks if the number falls within a list of
+-   ***[InList](#inlist):*** Checks if the number falls within a list of
     numbers
 
-Â 
+ 
 
 ### Math Functions
 
@@ -41,59 +41,59 @@ numeric questions:
 These are the functions in the C\# Math Class that could be useful in
 your instrument:
 
-Â 
+ 
 
 -   ***[Arithmetic Operators](/syntax-guide/syntax-guide-operators):***
     addition, subtraction, multiplication, division
--   ***[Abs](#abs):Â ***Returns the absolute value of a number
--   ***[Ceiling](#ceiling):Â ***Returns the smallest integer that is
+-   ***[Abs](#abs): ***Returns the absolute value of a number
+-   ***[Ceiling](#ceiling): ***Returns the smallest integer that is
     greater than or equal to the decimal number
--   ***[Floor](#floor):Â ***Returns the largest integer that is less than
+-   ***[Floor](#floor): ***Returns the largest integer that is less than
     or equal to the decimal number
--   ***[Max](#max):Â ***Returns the larger of the two numbers
--   ***[Min](#min):Â ***Returns the smaller of the two numbers
--   ***[Pow](#power):Â ***Returns a specified number to a specified power
--   ***[Round](#round):Â ***Round the decimal number to the closest
+-   ***[Max](#max): ***Returns the larger of the two numbers
+-   ***[Min](#min): ***Returns the smaller of the two numbers
+-   ***[Pow](#power): ***Returns a specified number to a specified power
+-   ***[Round](#round): ***Round the decimal number to the closest
     integer
--   ***[Sign](#sign):Â ***Returns whether the number is positive or
+-   ***[Sign](#sign): ***Returns whether the number is positive or
     negative
 -   ***[Sqrt](#sqrt):*** Returns the square root of the number
--   ***[Truncate](#truncate):Â ***Returns the integer part of a decimal
+-   ***[Truncate](#truncate): ***Returns the integer part of a decimal
     number
 -   [Additional methods in the C\# Math
     Class](https://msdn.microsoft.com/en-us/library/system.math(v=vs.110).aspx)
 
-Â 
+ 
 
-Â 
+ 
 -
 
 <span id="inrange"></span>**InRange**
 -------------------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Checks if a value falls within a specified range.  
-Â 
+ 
 
 ### Syntax
 
   
 ***var.InRange(a,b)***  
   
-This function will return ***trueÂ ***if ***aÂ â‰¤ var â‰¤ b***. Otherwise, it
+This function will return ***true ***if ***a ≤ var ≤ b***. Otherwise, it
 will return ***false***. The values of a and b can either be numbers or
 variables. This function provides a more simple way to write the
 condition:
 
-    var â‰¥ a &&Â varÂ â‰¤ b
+    var ≥ a && var ≤ b
 
   
   
-Â 
+ 
 
 ### Example 1
 
@@ -113,16 +113,16 @@ It can also be written using the variable name:
 
     days_worked.InRange(0,7)
 
-Â 
+ 
 
 ### Example 2
 
-Â 
+ 
 
 Assume there is a
 [question](https://solutions.worldbank.org/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/chapter/20a1b67d72390695b07f91848bd6e90c/question/f158e83c87794f53b53ec67b004e93db)
 (**dob\_year**) in your survey that asks for the year of birth of the
-household member. This survey is being conductedÂ in 2016 so we want to
+household member. This survey is being conducted in 2016 so we want to
 check that the year entered falls in the range of 1900 to 2016. This
 will also prevent interviewers from entering a year that does not
 contain 4 digits.  
@@ -140,12 +140,12 @@ It can also be written using the variable name:
 
   
   
-Â 
+ 
 
 **<span id="inlist"></span>InList**
 -----------------------------------
 
-Â 
+ 
 
 ### Description
 
@@ -159,19 +159,19 @@ Checks if a value matches any of the values in a specified list.
   
 This function will return ***true*** if ***var*** matches any of the
 arguments in the provided list. Otherwise, it will return ***false***.
-The values inÂ the list can either be numbersÂ or variables. This function
-providesÂ a more simpleÂ way to write the condition:
+The values in the list can either be numbers or variables. This function
+provides a more simple way to write the condition:
 
-    (var==aÂ || var==bÂ || var==c || var==d || ...)
+    (var==a || var==b || var==c || var==d || ...)
 
-Â 
+ 
 
 ### Example 1
 
   
 Assume you have a question (satisfied) that asks people to rank how
-satisfied they are with their life on a scale of 1 to 5 withÂ 1
-beingÂ very unsatisfied and 5 being veryÂ satisfied. For people that
+satisfied they are with their life on a scale of 1 to 5 with 1
+being very unsatisfied and 5 being very satisfied. For people that
 answered 1 or 5, you want to ask them additional questions so you will
 need to have enabling conditions for them. For the follow up questions,
 you would code the enabling conditions like this:
@@ -180,19 +180,19 @@ you would code the enabling conditions like this:
 
   
   
-Â 
+ 
 
 **<span id="abs"></span>Abs**
 -----------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns the absolute value of a number. The absolute value of a real
 number can be thought of as the distance of the number from zero.  
-Â 
+ 
 
 ### Syntax
 
@@ -203,7 +203,7 @@ The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
 error.  
-Â 
+ 
 
 ### Example:
 
@@ -214,19 +214,19 @@ error.
 
   
   
-Â 
+ 
 
 **<span id="ceiling"></span>Ceiling**
 -------------------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns the smallest integral value that is greater than or equal to the
 value provided.  
-Â 
+ 
 
 ### Syntax
 
@@ -237,7 +237,7 @@ The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
 error.  
-Â 
+ 
 
 ### Example
 
@@ -248,19 +248,19 @@ error.
 
   
   
-Â 
+ 
 
 **<span id="floor"></span>Floor**
 ---------------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns the largest integral value that is less than or equal to the
 value provided  
-Â 
+ 
 
 ### Syntax
 
@@ -278,18 +278,18 @@ to add **.Value** to the end of each variable to avoid a compile error.
     Math.Floor(6-3.5) // returns 2
     Math.Floor(4-2)   // returns 2
 
-Â 
+ 
 
 **<span id="max"></span>Max**
 -----------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns the larger of two values  
-Â 
+ 
 
 ### Syntax
 
@@ -302,7 +302,7 @@ to add **.Value** to the end of each variable to avoid a compile error.
 
 ### Example
 
-Â 
+ 
 
     Math.Max(2,4)       // returns 4
     Math.Max(10,3)      // returns 10
@@ -311,18 +311,18 @@ to add **.Value** to the end of each variable to avoid a compile error.
 
   
   
-Â 
+ 
 
 **<span id="min"></span>Min**
 -----------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns the smaller of two values  
-Â 
+ 
 
 ### Syntax
 
@@ -340,19 +340,19 @@ error.
     Math.Min(-10,0.5)   // returns -10
     Math.Min(6,1)       // returns 1
 
-Â 
+ 
 
 **<span id="power"></span>Pow**
 -------------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns a specified number raised to the power of another specified
 number  
-Â 
+ 
 
 ### Syntax
 
@@ -369,7 +369,7 @@ the end of each variable to avoid a compile error.
     Math.Pow(2,3)   // returns 8
     Math.Pow(4,4)   // returns 256
 
-Â 
+ 
 
 ### Example 2
 
@@ -391,18 +391,18 @@ this:
   
   
   
-Â 
+ 
 
 **<span id="round"></span>Round**
 ---------------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Rounds a specified value to the nearest integer value  
-Â 
+ 
 
 ### Syntax
 
@@ -421,12 +421,12 @@ to add **.Value** to the end of each variable to avoid a compile error.
 
   
   
-Â 
+ 
 
 **<span id="sign"></span>Sign**
 -------------------------------
 
-Â 
+ 
 
 ### Description
 
@@ -435,7 +435,7 @@ Returns whether the value is negative, positive, or zero. If the value
 if negative, then it will return the value -1. If the number is
 positive, then it will return the value 1. If the number is zero, then
 it will return the value 0.  
-Â 
+ 
 
 ### Syntax
 
@@ -446,7 +446,7 @@ The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
 error.  
-Â 
+ 
 
 ### Example
 
@@ -457,19 +457,19 @@ error.
 
   
   
-Â 
+ 
 
 **<span id="sqrt"></span>Sqrt**
 -------------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns the square root of a specified number. This will return an error
 if the specified number is negative.  
-Â 
+ 
 
 ### Syntax
 
@@ -480,7 +480,7 @@ The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
 error.  
-Â 
+ 
 
 ### Example
 
@@ -490,19 +490,19 @@ error.
 
   
   
-Â 
+ 
 
 **<span id="truncate"></span>Truncate**
 ---------------------------------------
 
-Â 
+ 
 
 ### Description
 
   
 Returns the integer part of a specified number. In other words, this
 returns the value of the number before the decimal point.  
-Â 
+ 
 
 ### Syntax
 
@@ -514,7 +514,7 @@ using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
 error.  
   
-Â 
+ 
 
 ### Example
 

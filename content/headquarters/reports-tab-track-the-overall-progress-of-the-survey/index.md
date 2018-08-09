@@ -3,7 +3,7 @@ title = "Reports Tab: Track the Overall Progress of the Survey"
 keywords = ["reports","survey and status","teams and status","quantity","speed","map"]
 date = 2016-06-29T18:30:55Z
 lastmod = 2016-06-29T18:30:55Z
-aliases = ["/customer/portal/articles/2481544-reports-tab-track-the-overall-progress-of-the-survey","/customer/en/portal/articles/2481544-reports-tab-track-the-overall-progress-of-the-survey","/customer/portal/articles/2481544","/customer/en/portal/articles/2481544"]
+aliases = ["/customer/portal/articles/2481544-reports-tab-track-the-overall-progress-of-the-survey"]
 
 +++
 

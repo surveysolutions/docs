@@ -3,7 +3,7 @@ title = "Text Question"
 keywords = ["text","question types","pattern ","export"]
 date = 2016-06-17T19:30:38Z
 lastmod = 2016-06-17T19:30:38Z
-aliases = ["/customer/portal/articles/2468455-text-question","/customer/en/portal/articles/2468455-text-question","/customer/portal/articles/2468455","/customer/en/portal/articles/2468455"]
+aliases = ["/customer/portal/articles/2468455-text-question"]
 
 +++
 

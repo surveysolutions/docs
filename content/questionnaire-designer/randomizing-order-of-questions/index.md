@@ -3,7 +3,7 @@ title = "Randomizing order of questions"
 keywords = [""]
 date = 2017-07-17T16:30:51Z
 lastmod = 2017-07-17T16:30:51Z
-aliases = ["/customer/portal/articles/2842561-randomizing-order-of-questions","/customer/en/portal/articles/2842561-randomizing-order-of-questions","/customer/portal/articles/2842561","/customer/en/portal/articles/2842561"]
+aliases = ["/customer/portal/articles/2842561-randomizing-order-of-questions"]
 
 +++
 

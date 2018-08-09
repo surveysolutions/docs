@@ -3,7 +3,7 @@ title = "Manage Interviewer Accounts"
 keywords = ["manage","accounts","password"]
 date = 2016-07-12T23:29:53Z
 lastmod = 2016-07-12T23:29:53Z
-aliases = ["/customer/portal/articles/2495731-manage-interviewer-accounts","/customer/en/portal/articles/2495731-manage-interviewer-accounts","/customer/portal/articles/2495731","/customer/en/portal/articles/2495731"]
+aliases = ["/customer/portal/articles/2495731-manage-interviewer-accounts"]
 
 +++
 

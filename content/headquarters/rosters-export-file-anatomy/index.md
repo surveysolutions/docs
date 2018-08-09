@@ -3,7 +3,7 @@ title = "Rosters-Export File Anatomy"
 keywords = ["data file","export","roster"]
 date = 2016-11-09T19:28:15Z
 lastmod = 2016-11-09T19:28:15Z
-aliases = ["/customer/portal/articles/2636469-rosters-export-file-anatomy","/customer/en/portal/articles/2636469-rosters-export-file-anatomy","/customer/portal/articles/2636469","/customer/en/portal/articles/2636469"]
+aliases = ["/customer/portal/articles/2636469-rosters-export-file-anatomy"]
 
 +++
 

@@ -3,7 +3,7 @@ title = "PDF Export "
 keywords = ["pdf","export"]
 date = 2016-06-22T22:58:50Z
 lastmod = 2016-06-22T22:58:50Z
-aliases = ["/customer/portal/articles/2473898-pdf-export-","/customer/en/portal/articles/2473898-pdf-export-","/customer/portal/articles/2473898","/customer/en/portal/articles/2473898"]
+aliases = ["/customer/portal/articles/2473898-pdf-export-"]
 
 +++
 

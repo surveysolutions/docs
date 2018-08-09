@@ -3,7 +3,7 @@ title = "Selecting a person"
 keywords = [""]
 date = 2017-02-23T11:21:22Z
 lastmod = 2017-02-23T11:21:22Z
-aliases = ["/customer/portal/articles/2751355-selecting-a-person","/customer/en/portal/articles/2751355-selecting-a-person","/customer/portal/articles/2751355","/customer/en/portal/articles/2751355"]
+aliases = ["/customer/portal/articles/2751355-selecting-a-person"]
 
 +++
 

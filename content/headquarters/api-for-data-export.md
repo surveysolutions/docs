@@ -1,9 +1,9 @@
-﻿+++
++++
 title = "API for Data Export"
 keywords = ["API"]
 date = 2016-09-19T21:45:15Z
 lastmod = 2016-09-19T21:45:15Z
-aliases = ["/customer/portal/articles/2574862-api-for-data-export","/customer/en/portal/articles/2574862-api-for-data-export","/customer/portal/articles/2574862","/customer/en/portal/articles/2574862"]
+aliases = ["/customer/portal/articles/2574862-api-for-data-export"]
 
 +++
 
@@ -69,13 +69,13 @@ the server. While waiting your code may periodically poll server for the
 updated status by submitting the **details** requests. The server will
 respond with the following JSON object:  
 <span style="font-family:courier new,courier,monospace;">{  
-Â  HasExportedFile: true,  
-Â  LastUpdateDate: "2016-09-19T11:46:33.700345-04:00",  
-Â  ExportStatus: "Queued",  
-Â  RunningProcess: {  
-Â  Â  StartDate: "2016-09-19T16:20:55.532375Z",  
-Â  Â  ProgressInPercents: 0  
-Â  }  
+  HasExportedFile: true,  
+  LastUpdateDate: "2016-09-19T11:46:33.700345-04:00",  
+  ExportStatus: "Queued",  
+  RunningProcess: {  
+    StartDate: "2016-09-19T16:20:55.532375Z",  
+    ProgressInPercents: 0  
+  }  
 }</span>  
 In this case the response tells that the export file exists, but a
 request for it to be rebuilt has been already submitted to the server,
@@ -85,17 +85,17 @@ and progress 0 percent).
 The following export statuses may be encountered in Survey Solutions
 server responses:
 
--   *NotStartedÂ *â€“ signals that the server hasn't been requested yet to
+-   *NotStarted *– signals that the server hasn't been requested yet to
     produce an export file based on the specified questionnaire and
     format;
--   *QueuedÂ *â€“ the server has been already requested to produce an
-    export file base on the specified questionnaire and format,Â but the
-    request isÂ waiting in queue and is not running yet;
--   *RunningÂ *â€“ when the server generates a new export file;
--   *FinishedÂ *â€“ when theÂ sever has successfully finished producing
-    anÂ export file;
--   *FinishedWithErrorsÂ *â€“ signals that during generationÂ of
-    theÂ exported file unexpected exceptions were encountered.
+-   *Queued *– the server has been already requested to produce an
+    export file base on the specified questionnaire and format, but the
+    request is waiting in queue and is not running yet;
+-   *Running *– when the server generates a new export file;
+-   *Finished *– when the sever has successfully finished producing
+    an export file;
+-   *FinishedWithErrors *– signals that during generation of
+    the exported file unexpected exceptions were encountered.
 
   
 The attachment <span class="underline">GetExport.zip</span> contains a

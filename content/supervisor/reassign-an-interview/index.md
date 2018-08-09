@@ -3,7 +3,7 @@ title = "Reassign an Interview"
 keywords = [""]
 date = 2017-09-20T20:44:49Z
 lastmod = 2017-09-20T20:44:49Z
-aliases = ["/customer/portal/articles/2877883-reassign-an-interview","/customer/en/portal/articles/2877883-reassign-an-interview","/customer/portal/articles/2877883","/customer/en/portal/articles/2877883"]
+aliases = ["/customer/portal/articles/2877883-reassign-an-interview"]
 
 +++
 
