@@ -3,7 +3,7 @@ title = "Detailed action log"
 keywords = [""]
 date = 2018-06-08T15:28:22Z
 lastmod = 2018-06-08T15:28:22Z
-aliases = ["/customer/portal/articles/2943093-detailed-action-log"]
+aliases = ["/customer/portal/articles/2943093-detailed-action-log","/customer/en/portal/articles/2943093-detailed-action-log","/customer/portal/articles/2943093","/customer/en/portal/articles/2943093"]
 
 +++
 

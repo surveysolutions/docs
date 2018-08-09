@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "What tablets should I buy? "
 keywords = [""]
 date = 2016-07-21T22:10:05Z
 lastmod = 2016-07-21T22:10:05Z
-aliases = ["/customer/portal/articles/2505822-what-tablets-should-i-buy-"]
+aliases = ["/customer/portal/articles/2505822-what-tablets-should-i-buy-","/customer/en/portal/articles/2505822-what-tablets-should-i-buy-","/customer/portal/articles/2505822","/customer/en/portal/articles/2505822"]
 
 +++
 
@@ -11,13 +11,13 @@ Technical Requirements
 ----------------------
 
 Survey Solutions software works with Android tablets with the following
-specifications:   
- 
-- **Version of Android: **OS Android 4.3.1 or better is required;
+specifications:Â   
+Â 
+- **Version of Android:Â **OS Android 4.3.1 or better is required;
     Android 5.0+ is strongly recommended.
 - **RAM** Minimum 1.5GB
-- **Memory** 8GB of flash memory storage. At least 1GB of available
-    space must be available for Survey Solutions’ use. The Survey
+- **Memory**Â 8GB of flash memory storage.Â At least 1GB of available
+    space must be available for Survey Solutionsâ€™ use.Â The Survey
     Solutions software installation package (.apk) is close to 30MB, but
     more space will be required during the operation of the software.
     The ultimate requirements for space depend on the kind of survey
@@ -36,7 +36,7 @@ program.
   
 **Optional**
 
--   **Screen size** 7-8-inch screens are often chosen. Bigger screens
+-   **Screen size**Â 7-8-inch screens are often chosen. Bigger screens
     consume more power and reduce autonomous work. The choice of the
     screen depends on the convenience of use with the software and is
     usually determined experimentally.
@@ -49,7 +49,7 @@ While the World Bank-Survey Solutions team is not in the position of
 recommending devices, the following is a compilation of tested devices
 that past clients have used and what we have also tested (last updated
 in January 2016):  
- 
+Â 
 
 <table>
 <thead>
@@ -109,7 +109,7 @@ in January 2016):
 <tr class="odd">
 <td>Samsung Galaxy TAB 3</td>
 <td>4.4.2</td>
-<td> -</td>
+<td>Â -</td>
 <td>+</td>
 <td>1.5GB</td>
 <td>16GB</td>
@@ -159,7 +159,7 @@ in January 2016):
 <tr class="even">
 <td>Samsung Nexus 10</td>
 <td>5.0.2</td>
-<td> -</td>
+<td>Â -</td>
 <td>+</td>
 <td>2GB</td>
 <td>32GB</td>
@@ -169,7 +169,7 @@ in January 2016):
 <tr class="odd">
 <td>NVidia Shield k1</td>
 <td>5.0.1</td>
-<td> -</td>
+<td>Â -</td>
 <td>+</td>
 <td>2GB</td>
 <td>16GB</td>
@@ -179,7 +179,7 @@ in January 2016):
 <tr class="even">
 <td>Lenovo TAB 2 A8-50F</td>
 <td>5.1.0</td>
-<td> -</td>
+<td>Â -</td>
 <td>+</td>
 <td>1GB</td>
 <td>16GB</td>
@@ -199,4 +199,4 @@ different model numbers.
 We are trying to keep this list current. If you tried a different model
 and determined it works fine with Survey Solutions, please let us know,
 along with the version number of the Survey Solutions software that
-you’ve used.
+youâ€™ve used.

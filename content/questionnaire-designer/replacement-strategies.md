@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Replacement strategies"
 keywords = [""]
 date = 2017-04-10T23:47:09Z
 lastmod = 2017-04-10T23:47:09Z
-aliases = ["/customer/portal/articles/2784950-replacement-strategies"]
+aliases = ["/customer/portal/articles/2784950-replacement-strategies","/customer/en/portal/articles/2784950-replacement-strategies","/customer/portal/articles/2784950","/customer/en/portal/articles/2784950"]
 
 +++
 
@@ -41,7 +41,7 @@ Suppose we could estimate (from previous survey, from pilot data, etc)
 that there will be an R=80% response to our survey. If we target
 T=10,000 completed interviews, the HQ should create then
 T/R=10,000/0.8=12,500 assignments.  
- 
+Â 
 
 <table>
 <colgroup>
@@ -59,7 +59,7 @@ T/R=10,000/0.8=12,500 assignments.
 <li>supervisors and HQ users don't come into play until the interviews are completed.</li>
 </ul></td>
 <td style="text-align: center;"><ul>
-<li>very wasteful of resources if the response rate is not estimated precisely.</li>
+<li>very wasteful of resources if the response rateÂ is not estimated precisely.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -73,7 +73,7 @@ household is refusing to participate, it's assignment is closed with the
 corresponding interview result code. A new assignment is than manually
 created by the HQ in replacement of the original.
 
- 
+Â 
 
 <table>
 <colgroup>
@@ -106,9 +106,9 @@ automatically, utilizing the API. Automatic scripts verify the interview
 result codes, and for all households that have refused and not replaced
 so far generate a new preloading file, which is then manually uploaded
 by an HQ user to create replacement assignments in batch mode.  
- 
+Â 
 
- 
+Â 
 
 <table>
 <colgroup>
@@ -123,7 +123,7 @@ by an HQ user to create replacement assignments in batch mode.
 <tr class="even">
 <td style="text-align: center;"><ul>
 <li>HQ may decide on the suitability of replacement (by affecting the selection algorithm at the HQ side);</li>
-<li>less manual work; </li>
+<li>less manual work;Â </li>
 <li>original household number being replaced may be recorded in the preloading file, thus creating a link between the two assignments</li>
 </ul></td>
 <td style="text-align: center;"><ul>
@@ -144,7 +144,7 @@ and in case of non-response, to the corresponding B-household. Unused
 B-assignments are closed with the interview result code "unused spare
 assignment".
 
- 
+Â 
 
 <table>
 <colgroup>
@@ -180,7 +180,7 @@ non-response is encountered among A, the interviewer must proceed to the
 next available B. Unused backup assignments are closed with the
 interview result code "unused spare assignment".
 
- 
+Â 
 
 <table>
 <colgroup>
@@ -195,7 +195,7 @@ interview result code "unused spare assignment".
 <tr class="even">
 <td style="text-align: center;"><ul>
 <li>communication is not required;</li>
-<li>fewer assignments than in no. 4 above;</li>
+<li>fewer assignments than in no. 4Â above;</li>
 </ul></td>
 <td style="text-align: center;"><ul>
 <li>interviewers see what the replacement is, and may exert lower effort in the original assignment hoping to switch to the backup;</li>
@@ -221,7 +221,7 @@ reported the non-response. Unused backup assignments are left in the
 status "assigned to supervisor", or closed with the interview result
 code "unused spare" by the fictitious interviewer.
 
- 
+Â 
 
 <table>
 <colgroup>
@@ -236,7 +236,7 @@ code "unused spare" by the fictitious interviewer.
 <tr class="even">
 <td style="text-align: center;"><ul>
 <li>interviewers don't know what the replacements are;</li>
-<li>generally fewer replacement assignments in the system than in no. 5 above, since the replacements are pooled across all of the interviewers of the team.</li>
+<li>generally fewer replacement assignments in the system than in no. 5Â above, since the replacements are pooled across all of the interviewers of the team.</li>
 </ul></td>
 <td style="text-align: center;"><ul>
 <li>communication is required;</li>
@@ -256,7 +256,7 @@ replacement assignment and enter identifying information herself. To
 avoid interviewer's biases, a firm rule must be specified on how to
 select the replacement, e.g. "next household in order of enumeration".
 
- 
+Â 
 
 <table>
 <colgroup>
@@ -274,7 +274,7 @@ select the replacement, e.g. "next household in order of enumeration".
 <li>works when the replacement households may also refuse, and so on, so as when the number of replacements required may be unknown or large.</li>
 </ul></td>
 <td style="text-align: center;"><ul>
-<li>behavioral: interviewers know the rule, and may decide to exert lower efforts to secure an interview knowing which household is next based on the replacement rule;</li>
+<li>behavioral:Â interviewers know the rule, and may decide to exert lower efforts to secure an interview knowing which household is next based on the replacement rule;</li>
 <li>in the case of non-systematic sample, the interviewer must know, whether the next household is already part of the sample or not, which information she may only get from the supervisor and all other interviewers.</li>
 </ul></td>
 </tr>
@@ -290,7 +290,7 @@ address*" section to open when the interview result code is
 "non-response in target household, interview obtained from a replacement
 household".
 
- 
+Â 
 
 <table>
 <colgroup>
@@ -309,7 +309,7 @@ household".
 </ul></td>
 <td style="text-align: center;"><ul>
 <li>post-processing may be required to generate a consistent variable for the actual location of the household being interviewed;</li>
-<li>behavioral: interviewers know the rule, and may decide to exert lower efforts to secure an interview knowing which household is next based on the replacement rule;</li>
+<li>behavioral:Â interviewers know the rule, and may decide to exert lower efforts to secure an interview knowing which household is next based on the replacement rule;</li>
 <li>must rely on interviewers following the rules for selecting the replacement households</li>
 </ul></td>
 </tr>

@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Data types"
 keywords = ["data types","syntax","object model"]
 date = 2016-08-09T21:16:08Z
 lastmod = 2016-08-09T21:16:08Z
-aliases = ["/customer/portal/articles/2531232-data-types", "/customer/portal/articles/2531232"]
+aliases = ["/customer/portal/articles/2531232-data-types","/customer/en/portal/articles/2531232-data-types","/customer/portal/articles/2531232","/customer/en/portal/articles/2531232"]
 
 +++
 
@@ -22,12 +22,12 @@ definitions on Microsoft's site.
 Note that in the definitions below a question mark indicates a [nullable
 type](https://msdn.microsoft.com/en-us/library/system.nullable(v=vs.110).aspx).  
   
- 
+Â 
 
 Questions
 ---------
 
- 
+Â 
 
 <table>
 <thead>
@@ -64,10 +64,10 @@ Questions
 <tr class="odd">
 <td>Categorical: multi-select (Y/N mode)</td>
 <td>class {<br />
-  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] All;<br />
-  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] Yes;<br />
-  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] No;<br />
-  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] Missing;<br />
+Â Â <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] All;<br />
+Â Â <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] Yes;<br />
+Â  <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] No;<br />
+Â Â <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>[] Missing;<br />
 }</td>
 </tr>
 <tr class="even">
@@ -112,30 +112,30 @@ Questions
 </tr>
 <tr class="even">
 <td>List</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/system.array(v=vs.110).aspx">Array of class</a>{<a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a> Value; <a href="https://msdn.microsoft.com/en-us/library/362314fe.aspx">string</a> Text;}</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/system.array(v=vs.110).aspx">Array of class</a>{<a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a>Â Value;Â <a href="https://msdn.microsoft.com/en-us/library/362314fe.aspx">string</a>Â Text;}</td>
 </tr>
 <tr class="odd">
 <td>GPS</td>
 <td>class {<br />
-  <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Latitude;<br />
-  <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Longitude;<br />
-  <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Accuracy;<br />
-  <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Altitude;<br />
+Â Â <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Latitude;<br />
+Â Â <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Longitude;<br />
+Â Â <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Accuracy;<br />
+Â Â <a href="https://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Altitude;<br />
 }</td>
 </tr>
 <tr class="even">
 <td>Geography</td>
 <td>class {<br />
-  <a href="http://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a> Area;<br />
-  <a href="http://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a> Length;<br />
-  <a href="http://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a> PointsCount;<br />
+Â  <a href="http://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a> Area;<br />
+Â  <a href="http://msdn.microsoft.com/en-us/library/678hzkk9.aspx">double</a>Â Length;<br />
+Â  <a href="http://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int">int</a> PointsCount;<br />
 }</td>
 </tr>
 <tr class="odd">
 <td>Audio</td>
 <td>class {<br />
-  <a href="https://msdn.microsoft.com/en-us/library/362314fe.aspx">string</a> FileName;<br />
-  <a href="https://msdn.microsoft.com/en-us/library/system.timespan(v=vs.110).aspx">TimeSpan</a> Length;<br />
+Â  <a href="https://msdn.microsoft.com/en-us/library/362314fe.aspx">string</a> FileName;<br />
+Â  <a href="https://msdn.microsoft.com/en-us/library/system.timespan(v=vs.110).aspx">TimeSpan</a> Length;<br />
 }</td>
 </tr>
 </tbody>
@@ -155,12 +155,12 @@ Questions
 
   
   
- 
+Â 
 
 System variables
 ----------------
 
- 
+Â 
 
 <table>
 <thead>
@@ -188,7 +188,7 @@ System variables
 </tr>
 <tr class="odd">
 <td><del>@roster</del><br />
-​<strong>[obsolete, refer to a roster by ID instead]</strong></td>
+â€‹<strong>[obsolete, refer to a roster by ID instead]</strong></td>
 <td><a href="https://msdn.microsoft.com/en-us/library/system.collections.ienumerable(v=vs.110).aspx">IEnumerable</a>&lt;class&gt;, class[]</td>
 </tr>
 <tr class="even">
@@ -211,12 +211,12 @@ System variables
 
   
   
- 
+Â 
 
 User-defined variables
 ----------------------
 
- 
+Â 
 
 <table>
 <thead>
@@ -251,7 +251,7 @@ User-defined variables
 
   
   
- 
+Â 
 
 Lookup tables
 -------------
@@ -264,13 +264,13 @@ style="font-family:courier new,courier,monospace;">Dictionary&lt;[int](https://d
 where *class* is a dynamically compiled definition containing rowcode
 and all the fields present in a lookup table:  
 <span style="font-family:courier new,courier,monospace;">class {  
-  [int](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int)
+Â Â [int](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int)
 rowcode;  
-  [double](https://msdn.microsoft.com/en-us/library/678hzkk9.aspx)?
+Â Â [double](https://msdn.microsoft.com/en-us/library/678hzkk9.aspx)?
 field1;  
-  [double](https://msdn.microsoft.com/en-us/library/678hzkk9.aspx)?
+Â Â [double](https://msdn.microsoft.com/en-us/library/678hzkk9.aspx)?
 field2;  
-  ....  
+Â Â ....  
 }</span>  
   
 These definitions have last been updated for version 5.25 on Feb 07,

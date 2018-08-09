@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Survey Workflow"
 keywords = ["workflow","process","headquarters","supervisor","manager"]
 date = 2016-06-29T18:19:08Z
 lastmod = 2016-06-29T18:19:08Z
-aliases = ["/customer/portal/articles/2481526-survey-workflow"]
+aliases = ["/customer/portal/articles/2481526-survey-workflow","/customer/en/portal/articles/2481526-survey-workflow","/customer/portal/articles/2481526","/customer/en/portal/articles/2481526"]
 
 +++
 
@@ -11,14 +11,14 @@ Workflow Demonstration
 ----------------------
 
   
-Check out the video below (starting from 0:30) to learn about the survey
+Check out the video below (starting from 0:30) to learn aboutÂ the survey
 workflow in Survey Solutions.  
   
 
   
   
   
- 
+Â 
 
 Workflow Description
 --------------------
@@ -54,38 +54,38 @@ according to the team supervisor.
 As an assignment moves through the survey workflow, it takes on a
 different status at each stage, as illustrated in the photo above.  
   
-<span class="underline">SupervisorAssigned</span> means that
+<span class="underline">SupervisorAssigned</span>Â means that
 Headquarters has sent the interview assignment to the supervisor. The
 supervisor must now take action on this assignment, allocating it to a
 member of their team.  
-   
-<span class="underline">InterviewerAssigned </span>means that a
+Â   
+<span class="underline">InterviewerAssignedÂ </span>means that a
 supervisor has allocated this assignment to a member of their team. The
 interviewer must now conduct an interview with the assigned member of
 the survey population.  
-   
-<span class="underline">Completed</span> means that an interviewer has
+Â   
+<span class="underline">Completed</span>Â means that an interviewer has
 marked an interview case as complete and has sent it to the supervisor.
 The supervisor must now review the questionnaire for quality and
 completeness, and then reject or approve the interview.  
-   
-<span class="underline">RejectedBySupervisor</span> means that a
+Â   
+<span class="underline">RejectedBySupervisor</span>Â means that a
 supervisor has rejected the interview and, by default, that interview
 returns to the interviewer who sent it. The interviewer must now address
-their supervisor’s concerns, making a change to the questionnaire or
+their supervisorâ€™s concerns, making a change to the questionnaire or
 providing explanatory comments.  
-   
-<span class="underline">ApprovedBySupervisor</span> means that a
+Â   
+<span class="underline">ApprovedBySupervisor</span>Â means that a
 supervisor has approved this interview and, in doing so, sent it
 Headquarters for further review. Headquarters must now review the
 interview and reject or approve it.  
-   
-<span class="underline">RejectedByHeadquarters</span> means that
+Â   
+<span class="underline">RejectedByHeadquarters</span>Â means that
 Headquarters has rejected the interview assignment and, thus, returned
 it to the supervisor that initially approved it. The concerned
 supervisor must now take action on the interview, providing explanatory
 comments or sending to an interviewer to be fixed.  
-   
-<span class="underline">ApprovedByHeadquarters</span> means that
+Â   
+<span class="underline">ApprovedByHeadquarters</span>Â means that
 Headquarters has approved the interview case and, no further action may
 be taken on this final interview.

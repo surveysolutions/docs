@@ -3,7 +3,7 @@ title = "Setting photo size and quality"
 keywords = [""]
 date = 2017-03-16T13:07:44Z
 lastmod = 2017-03-16T13:07:44Z
-aliases = ["/customer/portal/articles/2767819-setting-photo-size-and-quality"]
+aliases = ["/customer/portal/articles/2767819-setting-photo-size-and-quality","/customer/en/portal/articles/2767819-setting-photo-size-and-quality","/customer/portal/articles/2767819","/customer/en/portal/articles/2767819"]
 
 +++
 

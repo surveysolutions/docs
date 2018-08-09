@@ -3,7 +3,7 @@ title = "Troubleshooting Page"
 keywords = [""]
 date = 2017-05-05T20:27:38Z
 lastmod = 2017-05-05T20:27:38Z
-aliases = ["/customer/portal/articles/2801222-troubleshooting-page"]
+aliases = ["/customer/portal/articles/2801222-troubleshooting-page","/customer/en/portal/articles/2801222-troubleshooting-page","/customer/portal/articles/2801222","/customer/en/portal/articles/2801222"]
 expirydate = 2016-07-06T00:00:00Z
 +++
 

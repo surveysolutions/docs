@@ -3,7 +3,7 @@ title = "Variables"
 keywords = ["variables","boolean","double","string","date/time","long integer"]
 date = 2016-06-16T20:58:17Z
 lastmod = 2016-06-16T20:58:17Z
-aliases = ["/customer/portal/articles/2467364-variables"]
+aliases = ["/customer/portal/articles/2467364-variables","/customer/en/portal/articles/2467364-variables","/customer/portal/articles/2467364","/customer/en/portal/articles/2467364"]
 +++
 
 *Variables* are computable expressions that can be used to simplify

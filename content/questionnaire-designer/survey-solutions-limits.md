@@ -1,16 +1,16 @@
-+++
+﻿+++
 title = "Survey Solutions Limits"
 keywords = [""]
 date = 2017-02-02T08:32:16Z
 lastmod = 2017-02-02T08:32:16Z
-aliases = ["/customer/portal/articles/2733269-survey-solutions-limits"]
+aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269"]
 
 +++
 
 The table below summarizes some of the Survey Solutions limits.  
 It is not advisable to design a questionnaire on the margin of these
 limits.  
- 
+Â 
 
 <table>
 <thead>
@@ -30,7 +30,7 @@ limits.
 </tr>
 <tr class="odd">
 <td>Maximum question text length:</td>
-<td style="text-align: center;"><span style="font-size: 13px;">500 [characters] </span></td>
+<td style="text-align: center;"><span style="font-size: 13px;">500 [characters]Â </span></td>
 </tr>
 <tr class="even">
 <td>Maximum length of a variable label:</td>
@@ -41,7 +41,7 @@ limits.
 <td style="text-align: center;"><span style="font-size: 13px;">32 [characters]</span></td>
 </tr>
 <tr class="even">
-<td>Maximum variable name length <span style="font-size: 13px;">for GPS and some other question types:</span></td>
+<td>Maximum variable name lengthÂ <span style="font-size: 13px;">for GPS and some other question types:</span></td>
 <td style="text-align: center;"><span style="font-size: 13px;">20 [characters]</span></td>
 </tr>
 <tr class="odd">
@@ -127,12 +127,12 @@ limits.
 <td style="text-align: center;"><a href="/questionnaire-designer/recognized-barcode-formats">see list</a></td>
 </tr>
 <tr class="odd">
-<td>Supported graphic file formats for upload to static text:</td>
+<td>Supported graphic file formatsÂ for upload to static text:</td>
 <td style="text-align: center;">.jpg &amp; .png</td>
 </tr>
 <tr class="even">
 <td>Maximum size of a single image for upload to static text<br />
-(larger images result in warnings): </td>
+(larger images result in warnings):Â </td>
 <td style="text-align: center;">5 [MB]</td>
 </tr>
 <tr class="odd">
@@ -186,6 +186,6 @@ limits.
 \*) in addition to the limit on number of questions a roster may not
 contain nested rosters to qualify as a simple roster, read [more details
 here](http://support.mysurvey.solutions/customer/en/portal/articles/2472543-rosters);  
-\*\*)  in addition to the requirement for password complexity: at least
+\*\*) Â in addition to the requirement for password complexity: at least
 one digit, at least one lower case character, and at least one upper
 case character.

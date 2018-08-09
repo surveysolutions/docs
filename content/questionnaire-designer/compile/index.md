@@ -3,7 +3,7 @@ title = "Compile"
 keywords = ["check","compile","errors","review"]
 date = 2016-06-15T20:44:00Z
 lastmod = 2016-06-15T20:44:00Z
-aliases = ["/customer/portal/articles/2466061-compile"]
+aliases = ["/customer/portal/articles/2466061-compile","/customer/en/portal/articles/2466061-compile","/customer/portal/articles/2466061","/customer/en/portal/articles/2466061"]
 
 +++
 

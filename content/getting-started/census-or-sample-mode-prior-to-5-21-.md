@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Census or Sample Mode? (prior to 5.21)"
 keywords = ["census","sample","mode"]
 date = 2016-06-23T18:32:05Z
 lastmod = 2016-06-23T18:32:05Z
-aliases = ["/customer/portal/articles/2474822-census-or-sample-mode-prior-to-5-21-"]
+aliases = ["/customer/portal/articles/2474822-census-or-sample-mode-prior-to-5-21-","/customer/en/portal/articles/2474822-census-or-sample-mode-prior-to-5-21-","/customer/portal/articles/2474822","/customer/en/portal/articles/2474822"]
 expirydate = 2016-07-06T00:00:00Z
 +++
 
@@ -19,10 +19,10 @@ mode***. On the other hand, if you are not sure whom you are going to be
 interviewing (for example during an exit poll) or you would like to list
 or survey all the households from a particular area (for example during
 a census), you should choose the ***Census mode***.  
-   
+Â   
 The set-up procedure for Census mode differs slightly from launching a
-survey with Sample mode.  Most importantly, the census mode does not
-require any sample definition file.  You also do not have to assign
-cases to individual supervisors and interviewers—the census mode
+survey with Sample mode. Â Most importantly, the census mode does not
+require any sample definition file. Â You also do not have to assign
+cases to individual supervisors and interviewersâ€”the census mode
 questionnaires will be available to every user registered with your
 *headquarter system (HQ)*.

@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "My questionnaire is not as fast as it used to be. Why?"
 keywords = [""]
 date = 2017-12-13T23:07:28Z
 lastmod = 2017-12-13T23:07:28Z
-aliases = ["/customer/portal/articles/2910459-my-questionnaire-is-not-as-fast-as-it-used-to-be-why-"]
+aliases = ["/customer/portal/articles/2910459-my-questionnaire-is-not-as-fast-as-it-used-to-be-why-","/customer/en/portal/articles/2910459-my-questionnaire-is-not-as-fast-as-it-used-to-be-why-","/customer/portal/articles/2910459","/customer/en/portal/articles/2910459"]
 
 +++
 
@@ -13,7 +13,7 @@ improvements. However, sometimes the support team receives inquiries
 regarding the decrease of performance of the interviewer's app, perhaps
 after an update. Here it is important to make sure that a valid
 comparison is made. A few common explanations to consider:  
-�
+Â
 
 <table>
 <tbody>
@@ -32,7 +32,7 @@ Comparisons are valid provided that the questionnaire is invariant!</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">3. The tablet could have changed.</td>
-<td style="text-align: center;"> The user tests the questionnaire using a tablet specifically purchased for the development team. But for the data collection team, a cheaper model questionnaire is purchased. It is expected the hardware will affect the performance. <br />
+<td style="text-align: center;">Â The user tests the questionnaire using a tablet specifically purchased for the development team. But for the data collection team, a cheaper model questionnaire is purchased. It is expected the hardware will affect the performance.Â <br />
 Test the questionnaire performs responsively on the model that you will be using for data collection!</td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ No comment.</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">7. Wishful thinking.</td>
-<td style="text-align: center;">No objective measurement was taken to measure the performance of the questionnaire during testing, then when the survey started and things start to matter, the questionnaire performance is deemed inadequate. <br />
+<td style="text-align: center;">No objective measurement was taken to measure the performance of the questionnaire during testing, then when the survey started and things start to matter, the questionnaire performance is deemed inadequate.Â <br />
 Test during preparation.</td>
 </tr>
 </tbody>

@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Alternatives to Date Type Question"
 keywords = [""]
 date = 2017-04-20T15:32:03Z
 lastmod = 2017-04-20T15:32:03Z
-aliases = ["/customer/portal/articles/2791155-alternatives-to-date-type-question"]
+aliases = ["/customer/portal/articles/2791155-alternatives-to-date-type-question","/customer/en/portal/articles/2791155-alternatives-to-date-type-question","/customer/portal/articles/2791155","/customer/en/portal/articles/2791155"]
 
 +++
 

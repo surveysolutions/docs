@@ -3,7 +3,7 @@ title = "Registration and Signing In "
 keywords = ["designer","register","login "]
 date = 2016-06-14T17:51:18Z
 lastmod = 2016-06-14T17:51:18Z
-aliases = ["/customer/portal/articles/2464651-registration-and-signing-in-"]
+aliases = ["/customer/portal/articles/2464651-registration-and-signing-in-","/customer/en/portal/articles/2464651-registration-and-signing-in-","/customer/portal/articles/2464651","/customer/en/portal/articles/2464651"]
 
 +++
 

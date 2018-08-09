@@ -1,17 +1,17 @@
-+++
+﻿+++
 title = "Multimedia reference"
 keywords = ["Image","Attachment","Multimedia","Format"]
 date = 2016-10-03T14:09:04Z
 lastmod = 2016-10-03T14:09:04Z
-aliases = ["/customer/portal/articles/2589525-multimedia-reference"]
+aliases = ["/customer/portal/articles/2589525-multimedia-reference","/customer/en/portal/articles/2589525-multimedia-reference","/customer/portal/articles/2589525","/customer/en/portal/articles/2589525"]
 
 +++
 
 Survey Solutions from version 5.7 allows the users embedding images into
-questionnaires. These images can be presented by configuring the static
-text elements. For details on the use of the images in the
+questionnaires.Â These images can be presented by configuring the static
+text elements. For details on theÂ use of the images in the
 questionnaires, see the article
-on [Questionnaire Attachments](http://surveysolutions.desk.com/customer/en/portal/articles/2466173-questionnaire-attachments).  
+onÂ [QuestionnaireÂ Attachments](http://surveysolutions.desk.com/customer/en/portal/articles/2466173-questionnaire-attachments).  
   
 The following file types are supported:
 
@@ -40,5 +40,5 @@ The following file types are supported:
   
 We recommend combined size of attached files not to exceed 2MB to avoid
 slow synchronization. Suggested width for images contained in static
-texts is 720px, which may vary depending on tablet model, screen size
+texts is 720px, which may varyÂ depending on tablet model, screen size
 and resolution.

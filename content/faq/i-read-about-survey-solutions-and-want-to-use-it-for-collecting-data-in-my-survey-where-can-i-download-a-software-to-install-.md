@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "I read about Survey Solutions and want to use it for collecting data in my survey. Where can I download a software to install?"
 keywords = [""]
 date = 2016-09-07T02:11:44Z
 lastmod = 2016-09-07T02:11:44Z
-aliases = ["/customer/portal/articles/2561389-i-read-about-survey-solutions-and-want-to-use-it-for-collecting-data-in-my-survey-where-can-i-download-a-software-to-install-"]
+aliases = ["/customer/portal/articles/2561389-i-read-about-survey-solutions-and-want-to-use-it-for-collecting-data-in-my-survey-where-can-i-download-a-software-to-install-","/customer/en/portal/articles/2561389-i-read-about-survey-solutions-and-want-to-use-it-for-collecting-data-in-my-survey-where-can-i-download-a-software-to-install-","/customer/portal/articles/2561389","/customer/en/portal/articles/2561389"]
 
 +++
 

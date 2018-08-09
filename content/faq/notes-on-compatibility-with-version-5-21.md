@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Notes on Compatibility with version 5.21"
 keywords = [""]
 date = 2017-07-05T16:42:01Z
 lastmod = 2017-07-05T16:42:01Z
-aliases = ["/customer/portal/articles/2835383-notes-on-compatibility-with-version-5-21"]
+aliases = ["/customer/portal/articles/2835383-notes-on-compatibility-with-version-5-21","/customer/en/portal/articles/2835383-notes-on-compatibility-with-version-5-21","/customer/portal/articles/2835383","/customer/en/portal/articles/2835383"]
 
 +++
 
@@ -27,18 +27,18 @@ What's New with Assignments
     Headquarters/admin users will still be able to o specify an
     unlimited number of interviews per assignment (previously known as
     census mode). To specify an unlimited quantity when creating
-    assignments one at a time, leave the *Quantity *field blank when
+    assignments one at a time, leave the *QuantityÂ *field blank when
     creating the assignment. To add quantity in batch uploads for
-    assignments, add a column titled *\_quantity* to your tab delimited
+    assignments, add aÂ column titledÂ *\_quantity*Â to your tab delimited
     file to specify the quantity for each assignment. To specify an
     unlimited quantity, put '-1' in the \_quantity column for that
     assignment.
--   Assignments can now be made to either supervisors or interviewers.
+-   AssignmentsÂ can now be made to either supervisors or interviewers.
     Previously, assignments could only be made to supervisors.
--   Headquarter/admin users are no longer required to to fill out all
+-   Headquarter/admin users are no longerÂ required to to fill out all
     the identifying variables when making an assignment.
 -   Interviewers can fill in any identifying information that was left
-    blank by the headquarters/admin users when the assignment was
+    blank by the headquarters/adminÂ users when the assignment was
     created.
 -   Interviewers can discard incomplete interviews that are made
     accidentally or are no longer valid.
@@ -79,7 +79,7 @@ compatibility:
     Interviewer application. Interviewers can update in the Interviewer
     application by going to the link in the Diagnostics screen.
 -   **Interviews created in previous versions**: You will still be able
-    to see and complete interviews created with earlier versions after
+    to see and complete interviews created with earlier versionsÂ after
     updating the Interviewer application to version 5.21. However, these
     interviews cannot be discarded.
 -   **Census mode questionnaires**: Questionnaires imported as census

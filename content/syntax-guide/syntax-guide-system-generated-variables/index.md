@@ -3,7 +3,7 @@ title = "Syntax Guide: System Generated Variables"
 keywords = ["syntax","beginner","self","@rowcode","@optioncode","@current"]
 date = 2016-08-16T20:36:55Z
 lastmod = 2016-08-16T20:36:55Z
-aliases = ["/customer/portal/articles/2539305-syntax-guide-system-generated-variables"]
+aliases = ["/customer/portal/articles/2539305-syntax-guide-system-generated-variables","/customer/en/portal/articles/2539305-syntax-guide-system-generated-variables","/customer/portal/articles/2539305","/customer/en/portal/articles/2539305"]
 
 +++
 

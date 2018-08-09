@@ -3,7 +3,7 @@ title = "Synchronization & Completing the Interview"
 keywords = ["sync","synchronize","complete","set complete"]
 date = 2016-06-24T16:13:47Z
 lastmod = 2016-06-24T16:13:47Z
-aliases = ["/customer/portal/articles/2475783-synchronization-completing-the-interview"]
+aliases = ["/customer/portal/articles/2475783-synchronization-completing-the-interview","/customer/en/portal/articles/2475783-synchronization-completing-the-interview","/customer/portal/articles/2475783","/customer/en/portal/articles/2475783"]
 
 +++
 

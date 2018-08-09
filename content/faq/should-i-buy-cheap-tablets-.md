@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Should I buy cheap tablets?"
 keywords = [""]
 date = 2016-09-20T21:16:20Z
 lastmod = 2016-09-20T21:16:20Z
-aliases = ["/customer/portal/articles/2576135-should-i-buy-cheap-tablets-"]
+aliases = ["/customer/portal/articles/2576135-should-i-buy-cheap-tablets-","/customer/en/portal/articles/2576135-should-i-buy-cheap-tablets-","/customer/portal/articles/2576135","/customer/en/portal/articles/2576135"]
 
 +++
 

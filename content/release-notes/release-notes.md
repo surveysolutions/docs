@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Release notes"
 keywords = [""]
 date = 2018-08-06T00:00:00Z
 lastmod = 2018-08-06T00:00:00Z
-aliases = ["/customer/portal/articles/2759597-release-notes", "/customer/portal/articles/2759597"]
+aliases = ["/customer/portal/articles/2759597-release-notes","/customer/en/portal/articles/2759597-release-notes","/customer/portal/articles/2759597","/customer/en/portal/articles/2759597"]
 +++
 
 *This page documents the features and bug fixes in new versions of
@@ -32,7 +32,7 @@ Version 18.08 contains:
 
 <span style="float: right; padding-top: 20px;">June 5, 2018</span>
 
-Survey Solutions 18.06 release contains:
+Survey Solutions 18.06Â release contains:
 
 -   **New Geography question** adds polylines, multipoint and other
     variants for offline selection on the map;
@@ -62,7 +62,7 @@ Survey Solutions 18.06 release contains:
 
 <span style="float: right; padding-top: 20px;">April 2, 2018</span>
 
-Survey Solutions 18.04 release contains:
+Survey Solutions 18.04Â release contains:
 
 -   Validation warnings;
 -   Special values for numeric questions;
@@ -84,14 +84,14 @@ Survey Solutions 18.04 release contains:
 
 <span style="float: right; padding-top: 20px;">February 8, 2018</span>
 
-Survey Solutions 5.26 release contains:
+Survey Solutions 5.26Â release contains:
 
 -   **Online Tester** tool allows instant preview of the designed
     questionnaires in the browser.
 -   Interviewers can be **transferred between different teams**.
 -   **Descriptive meta information** can be added to the questionnaires
     being designed.
--   New tab “**Shared with me**” in Designer for shared questionnaires.
+-   New tab â€œ**Shared with me**â€ in Designer for shared questionnaires.
 -   Enhancements in **data export**.
 -   Objective **measurement of time** of recalculation of expressions.
 -   Other **improvements** and bugfixes.
@@ -102,7 +102,7 @@ Survey Solutions 5.26 release contains:
 
 <span style="float: right; padding-top: 20px;">December 6, 2017</span>
 
-Survey Solutions 5.25 release contains:
+Survey Solutions 5.25Â release contains:
 
 -   **Revised interview details interface.** Interface for reviewing
     interviews made more intuitive and more powerful;
@@ -118,7 +118,7 @@ Survey Solutions 5.25 release contains:
 -   **Folders on Designer.** Public questionnaires organized in folders
     for user learning, sharing of resources, and development and
     dissemination of standards.
--   **Managing and distributing maps.** New tools for headquarters to
+-   **Managing and distributing maps.**Â New tools for headquarters to
     manage maps and distribute them wirelessly to interviewers.
 -   **Admin auditing log.** Record of all the main actions on the
     server, identifying who made the action, and when.
@@ -128,7 +128,7 @@ Survey Solutions 5.25 release contains:
 
 <span style="float: right; padding-top: 20px;">October 3, 2017</span>
 
-Survey Solutions 5.24 release contains:
+Survey Solutions 5.24Â release contains:
 
 -   **Export of calculated variables** with collected survey data;
 -   new appearance of the assignment and interview cards on an
@@ -141,7 +141,7 @@ Survey Solutions 5.24 release contains:
 
 <span style="float: right; padding-top: 20px;">September 5, 2017</span>
 
-Survey Solutions 5.23 release contains:
+Survey Solutions 5.23Â release contains:
 
 -   **New reports**: Status Duration and Interviewer/Device
 -   **Facility for exporting reports** to XLSX, CSV, and TAB formats
@@ -153,7 +153,7 @@ Survey Solutions 5.23 release contains:
 
 <span style="float: right; padding-top: 20px;">August 3, 2017</span>
 
-Survey Solutions 5.22 release contains:
+Survey Solutions 5.22Â release contains:
 
 -   New question type: **audio recording**
 -   **Interviewer** sign in to Survey Solutions server and access to
@@ -193,9 +193,9 @@ Survey Solutions 5.20 release contains:
 
 Survey Solutions 5.19 release contains:
 
--   **Interviewer profile page** is reflecting the status of the
+-   **Interviewer profile page**Â is reflecting the status of the
     interviewers' device and synchronization;
--   **Human-readable interview key** generated and displayed on the data
+-   **Human-readable interview key**Â generated and displayed on the data
     server for HQ and supervisor users;
 -   **Security enhancements,** and other changes;
 -   [View](/release-notes/version-5-19).
@@ -247,7 +247,7 @@ Survey Solutions 5.15 release contains:
     questions
 -   Improved handling of HMTL formatting in all components of the
     software
--   Headquarters role can approve interviews without waiting for a
+-   Headquarters roleÂ can approve interviews without waiting for a
     supervisor's approval
 -   Ability to reassigned interviews to a different Supervisor (team)
 -   Customization of the Headquarters login page with a custom logo
@@ -574,7 +574,7 @@ Survey Solutions 2.3 brings to the users four new features:
     templates can be now deleted, together with the corresponding data.
 -   **Headquarters: Survey progress graph.** For surveys conducted in
     the sample mode, a new report plots the survey progress.
--    
+-   Â 
 -   [Download the full release
     notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter2.pdf)
 
@@ -621,7 +621,7 @@ software, we have introduced a seven new features:
     enumerator will be able to dynamically add new households to the
     set. However, just like with any other survey, such submissions will
     still be subject to supervisor's approval.
--   **"Nested" rosters.** From now on, you can "nest" rosters—that is,
+-   **"Nested" rosters.** From now on, you can "nest" rostersâ€”that is,
     include rosters within rosters (within rosters..., etc.). For
     example, each row of the household members rosters can include a
     subsequent roster listing person's assets. Additionally, the
@@ -783,11 +783,11 @@ batches of addresses to be visited by the interviewers from a CSV file.
 -   The application makes a more efficient use of the screen size, while
     new tool tips provide contextual help to the users;
 -   The SingleOption and MultiOption questions are now called
-    “Categorical: one answer” and “Categorical: multiple answers”;
--   Adding a new option to a categorical question is much easier—it can
+    â€œCategorical: one answerâ€ and â€œCategorical: multiple answersâ€;
+-   Adding a new option to a categorical question is much easierâ€”it can
     now be done with one click and does not require any further
     confirmation;
--   The “Export to PDF” function has been redesigned. The PDF files
+-   The â€œExport to PDFâ€ function has been redesigned. The PDF files
     generated by the system now feature a cover page, distinguish
     between different types of questions and include the condition and
     validation expressions

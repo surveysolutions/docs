@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Survey Solutions Server Administrator"
 keywords = [""]
 date = 2017-10-06T15:14:22Z
 lastmod = 2017-10-06T15:14:22Z
-aliases = ["/customer/portal/articles/2885558-survey-solutions-server-administrator"]
+aliases = ["/customer/portal/articles/2885558-survey-solutions-server-administrator","/customer/en/portal/articles/2885558-survey-solutions-server-administrator","/customer/portal/articles/2885558","/customer/en/portal/articles/2885558"]
 
 +++
 
@@ -19,9 +19,9 @@ actions:
 -   [create HQ](/headquarters/teams-and-roles-tab-creating-user-accounts-#hqaccounts)
     user accounts,
     [observer](/headquarters/teams-and-roles-tab-creating-user-accounts-#observer)
-    user accounts and
+    user accountsÂ and
     [API](/headquarters/survey-solutions-api)
-    user accounts (in addition to supervisors and interviewers as an HQ
+    user accountsÂ (in addition to supervisors and interviewers as an HQ
     user can do), change passwords for these users;
 -   [set up a logo for the server and the tablets](/headquarters/admin-settings);
 -   [leave a message for all of the HQ users and supervisors](/headquarters/admin-settings);

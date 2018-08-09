@@ -1,15 +1,15 @@
-+++
+﻿+++
 title = "Stata export file format"
 keywords = [""]
 date = 2017-04-11T00:15:07Z
 lastmod = 2017-04-11T00:15:07Z
-aliases = ["/customer/portal/articles/2784975-stata-export-file-format"]
+aliases = ["/customer/portal/articles/2784975-stata-export-file-format","/customer/en/portal/articles/2784975-stata-export-file-format","/customer/portal/articles/2784975","/customer/en/portal/articles/2784975"]
 
 +++
 
 When Survey Solutions v5.18 is writing an exported data file in Stata
 format it is producing it according to Stata 14 data file specification,
-available from StataCorp LLC.   
+available from StataCorp LLC.Â   
   
 Stata versions prior to version 14.0 (e.g. 12.0, 13.1, etc) cannot open
 these files because these older versions of the software are not aware

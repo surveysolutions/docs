@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Version 18.04"
 keywords = [""]
 date = 2018-04-02T22:42:28Z
 lastmod = 2018-04-02T22:42:28Z
-aliases = ["/customer/portal/articles/2932045-version-18-04"]
+aliases = ["/customer/portal/articles/2932045-version-18-04","/customer/en/portal/articles/2932045-version-18-04","/customer/portal/articles/2932045","/customer/en/portal/articles/2932045"]
 +++
 
 The April 2018 release ushers in numerous improvements to each component
@@ -20,19 +20,19 @@ corresponding linked articles.
 -   **Special values** for numeric questions, [read the
     article](/questionnaire-designer/special-values-for-numeric-questions);
 -   **Capturing signatures**, (as requested by Mr. *Eugene Ehlers*,
-    AHRI) [read the
+    AHRI)Â [read the
     article](http://support.mysurvey.solutions/customer/en/portal/articles/2931992);
 -   **Comments in Designer**, [read the
     article](http://support.mysurvey.solutions/customer/en/portal/articles/2932008);
--   **Export questionnaires as HTML** (as requested by Mr. *Edwin St.
+-   **Export questionnaires as HTML**Â (as requested by Mr. *Edwin St.
     Catherine*, CSO St. Lucia);
--   **Reload questionnaire in Web Tester**: When the reload button is
+-   **Reload questionnaire in Web Tester**:Â When the reload button is
     pressed, the web tester will behave just like the tablet Tester
     application: the questionnaire will be updated to reflect recent
     changes, while the data previously entered will be preserved and all
     condtions re-evaluated.
 -   Prevent **circular references** in enabling and filter conditions,
-    [read the article](/questionnaire-designer/circular-references). 
+    [read the article](/questionnaire-designer/circular-references).Â 
 
 ### Headquarters
 
@@ -42,7 +42,7 @@ corresponding linked articles.
 -   Old interview details page retained in several previous versions to
     facilitate transition to the new design is now **deprecated**;
 -   **Customize web interview messages**, (as requested by Mr. *Michael
-    Rahija*, FAO) [read the
+    Rahija*, FAO)Â [read the
     article](/headquarters/customize-web-interview-messages);
 -   Export binary data to user-designated **cloud data storage**, [read
     the article](/headquarters/export-to-cloud-storage).
@@ -50,25 +50,25 @@ corresponding linked articles.
 ### Supervisor
 
 -   **Map report** is now available **for supervisors**, (as requested
-    by Mr. *Phil Bright*, SPC and other users) covering interviews in
+    by Mr. *Phil Bright*, SPC and other users)Â covering interviews in
     their responsibility (report for all interviews remains available to
     the Headquarters users).
 -   Speed report uses **active interview time**: active interview time
     is defined as time when the tablet screen is on and an interview is
     open in the Survey Solutions Interviewer application. This is more
     relevant for interview duration estimation, over the approach in
-    earlier versions, which based the reports on simple difference
+    earlier versions, whichÂ based the reports on simple difference
     between the timestamps at start and finish of the interviews.
 
 ### Interviewer
 
--   **Search on the dashboard** (as suggested by Mr. *Luqmaan Omar*,
+-   **Search on the dashboard**Â (as suggested by Mr. *Luqmaan Omar*,
     StatsSA) allows locating the interviews across the various tabs of
     the Interviewer application.
 
 ### Advanced features and troubleshooting tools
 
--   **Automatic update of the Interviewer application** is now default
+-   **Automatic update of the Interviewer application**Â is now default
     mode on all Survey Solutions servers. The updates are performed
     automatically by determining only the minimal information that is
     necessary to be send and the size of the files is typically smaller
@@ -79,7 +79,7 @@ corresponding linked articles.
 -   **Export questionnaires from the Headquarters** for the Survey
     Solutions technical support team in case the original questionnaire
     has been modified or deleted in the Designer.
--   **Capture log of interviews created and deleted on the tablet**: the
+-   **Capture log of interviews created and deleted on the tablet**:Â the
     Interviewer application captures what happens to each interview,
     including those that are created and deleted on the tablet before
     syncing. In this way, the Headquarters and technical support teams

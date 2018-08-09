@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Cloud Server Instructions"
 keywords = [""]
 date = 2017-01-23T11:35:54Z
 lastmod = 2017-01-23T11:35:54Z
-aliases = ["/customer/portal/articles/2723099-cloud-server-instructions"]
+aliases = ["/customer/portal/articles/2723099-cloud-server-instructions","/customer/en/portal/articles/2723099-cloud-server-instructions","/customer/portal/articles/2723099","/customer/en/portal/articles/2723099"]
 
 +++
 

@@ -3,7 +3,7 @@ title = "System Generated - Export File Anatomy"
 keywords = ["interview comments"," interview actions","InterviewId","comment"]
 date = 2016-09-23T15:48:41Z
 lastmod = 2016-09-23T15:48:41Z
-aliases = ["/customer/portal/articles/2579821-system-generated---export-file-anatomy"]
+aliases = ["/customer/portal/articles/2579821-system-generated---export-file-anatomy","/customer/en/portal/articles/2579821-system-generated---export-file-anatomy","/customer/portal/articles/2579821","/customer/en/portal/articles/2579821"]
 
 +++
 

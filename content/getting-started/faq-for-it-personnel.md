@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "FAQ for IT personnel"
 keywords = [""]
 date = 2017-07-25T21:26:54Z
 lastmod = 2017-07-25T21:26:54Z
-aliases = ["/customer/portal/articles/2847917-faq-for-it-personnel"]
+aliases = ["/customer/portal/articles/2847917-faq-for-it-personnel","/customer/en/portal/articles/2847917-faq-for-it-personnel","/customer/portal/articles/2847917","/customer/en/portal/articles/2847917"]
 
 +++
 
@@ -32,7 +32,7 @@ collecting any multimedia data.</span>**
 -   Hardware: 4 physical cores CPU, 8GB RAM and 50GB free space on SSD
     as minimum requirements.
 
-Better hardware allows better performance. 
+Better hardware allows better performance.Â 
 
 -   Operating system: Windows Server 2012R2
 
@@ -92,16 +92,16 @@ the Survey Solutions software. Is it possible to get help?**
 -   Our developers can help set up the software on your server remotely.
 -   Remote access (RDP) and admin rights are required for this.
 
-**5. We don’t have a proper server. Is a server necessary for Survey
+**5. We donâ€™t have a proper server. Is a server necessary for Survey
 Solutions, or can we use the software with the tablets only?**
 
 -   A server provides essential functionality and is absolutely required
     for data collection with Survey Solutions.
--   Server’s functionality is described in the guide for headquarters’
+-   Serverâ€™s functionality is described in the guide for headquartersâ€™
     users, available in the documentation section of our homepage:
     [http://worldbank.org/capi](http://www.worldbank.org/capi)
 
-**6. We don’t have a proper server. Are there any alternatives?**
+**6. We donâ€™t have a proper server. Are there any alternatives?**
 
 -   Survey Solutions developers can set up a cloud-based server using
     major international cloud solutions providers.
@@ -125,7 +125,7 @@ connection charges for Survey Solutions?**
     purchase any necessary devices, obtain SIM-cards (if necessary), and
     cover the traffic usage fees.
 
-**9. Is it possible to ”synchronize” the server periodically or do I
+**9. Is it possible to â€synchronizeâ€ the server periodically or do I
 need a constant connection?**
 
 -   The interviewers and supervisors will attempt to connect to the
@@ -169,7 +169,7 @@ possible to use Survey Solutions?**
 -   For example: every day; or twice a day.
 -   More frequent synchronizations allow faster turnaround.
 
-**14. We don’t want to send our data over the air. Is it possible to
+**14. We donâ€™t want to send our data over the air. Is it possible to
 avoid using WiFi?**
 
 -   Modern Android-based tablets usually do not have an Ethernet socket
@@ -192,7 +192,7 @@ avoid using WiFi?**
 **16. Which brand and model of tablets should I buy?**
 
 -   The World Bank is not in the position to point to a particular brand
-    and model as ”the tablet” for Survey Solutions.
+    and model as â€the tabletâ€ for Survey Solutions.
 -   The choice depends on multiple different characteristics and the
     decision on the model depends on the client, subject to the
     technical requirements and market availability.
@@ -278,15 +278,15 @@ model?**
     spare tablet for every 20 active interviewers is indicative.
 
 **24. We plan to start fieldwork on May 1 and the supplier promised to
-deliver the tablets by April 30. That’s ok, right?**
+deliver the tablets by April 30. Thatâ€™s ok, right?**
 
 -   Entirely up to you, but someone will need to check and register all
     the devices, charge them, install the software, create user
-    accounts, verify everything is in order and fix what’s not.
+    accounts, verify everything is in order and fix whatâ€™s not.
 -   The training for use of the tablets as instruments of data
     collection is essential, and it is only successful if it includes
     practice with the actual devices. Thus the devices should arrive
-    before the interviewers’ training.
+    before the interviewersâ€™ training.
 
 **25. How many tablets will we need to purchase for the supervisors?**
 
@@ -296,7 +296,7 @@ deliver the tablets by April 30. That’s ok, right?**
 -   If the supervisors stay in the office, they may use a laptop or a
     desktop computer.
 
-**26. What are the requirements for a supervisor’s computer?**
+**26. What are the requirements for a supervisorâ€™s computer?**
 
 -   Windows-based computer, OS Windows 7, Windows 8, or Windows 10;
 -   4GB RAM, 120GB hard drive space (SSD drive is preferable);
@@ -360,8 +360,8 @@ that we get the updates?**
 **31. Can we restrict the tablets so that no other software can be used
 on the tablets?**
 
--   Survey Solutions generally doesn’t mind presence of other software
-    as long as it is not demanding too much of the tablet’s resources.
+-   Survey Solutions generally doesnâ€™t mind presence of other software
+    as long as it is not demanding too much of the tabletâ€™s resources.
     But in some cases the survey administrators restrict the use of
     other software, for example, to reduce wireless bills due to
     unwanted communications.
@@ -374,7 +374,7 @@ way to retrieve the data that has not yet been synchronized?**
 
 -   If a tablet is lost, the unsynchronized data is lost with it.
 -   If a tablet is damaged, sometimes data can be recovered from it
-    (depends on the damage). For example, if only the tablet’s battery
+    (depends on the damage). For example, if only the tabletâ€™s battery
     fails, the data could be recovered by connecting the tablet to an
     external power source, replacing the battery, or using other similar
     techniques. The World Bank does not provide technicians for this
@@ -394,7 +394,7 @@ the surveys she needs to complete?**
 
 -   Starting from version 4.1 of Survey Solutions each interviewer can
     work only on one device tracked by the system.
--   In case of tablet’s loss or damage the interviewer can switch to
+-   In case of tabletâ€™s loss or damage the interviewer can switch to
     using a replacement tablet.
 -   Depending on the circumstances of loss or damage the change of
     credentials may be recommended as well.
@@ -406,7 +406,7 @@ the surveys she needs to complete?**
     from the point consistent with the last synchronization.
 
 **34. We want to host Survey Solutions on our own server. Can we back up
-it’s proprietary database?**
+itâ€™s proprietary database?**
 
 -   Yes. Our developers will instruct which files need to be backed up
     in your particular installation.

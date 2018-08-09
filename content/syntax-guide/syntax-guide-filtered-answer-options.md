@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Syntax Guide: Filtered Answer Options"
 keywords = ["syntax","filtered answer options","@optioncode","@current"]
 date = 2016-12-02T19:28:38Z
 lastmod = 2016-12-02T19:28:38Z
-aliases = ["/customer/portal/articles/2663547-syntax-guide-filtered-answer-options"]
+aliases = ["/customer/portal/articles/2663547-syntax-guide-filtered-answer-options","/customer/en/portal/articles/2663547-syntax-guide-filtered-answer-options","/customer/portal/articles/2663547","/customer/en/portal/articles/2663547"]
 
 +++
 
@@ -18,7 +18,7 @@ impossible or highly unlikely. For example, for a question where the
 interviewer has to select the household member's father, you can filter
 the answer options so that anyone that is younger than the household
 member will not be displayed.  
- 
+Â 
 
 Using filtered answer options
 -----------------------------
@@ -29,7 +29,7 @@ Linked questions can also include a filter. In food consumption modules,
 questionnaire designers can limit answer options to those that make
 sense for each food item (e.g., weight units for solids, volume units
 for liquids). In demographic modules, you can filter a linked question
-that lists potential owners of the household’s dwelling to the set of
+that lists potential owners of the householdâ€™s dwelling to the set of
 age relevant household members.  
 The Filter field contains a condition that is evaluated against each
 potential answer option. When the condition is true for a particular
@@ -38,7 +38,7 @@ false (or yields an exception), that option is not displayed in
 Interviewer. In other words, the feature functions like an enabling
 condition for answer options, enabling only those answer options that
 satisfy the filter condition.  
- 
+Â 
 
 Syntax
 ------
@@ -54,7 +54,7 @@ For linked questions, the keyword
 as a variable prefix, allows you to differentiate between the value of a
 variable for current roster row and that for all other rows in the
 current roster.  
- 
+Â 
 
 Example
 -------

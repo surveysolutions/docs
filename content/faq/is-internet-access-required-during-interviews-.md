@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Is Internet access required during interviews?"
 keywords = [""]
 date = 2016-09-07T03:23:30Z
 lastmod = 2016-09-07T03:23:30Z
-aliases = ["/customer/portal/articles/2561445-is-internet-access-required-during-interviews-"]
+aliases = ["/customer/portal/articles/2561445-is-internet-access-required-during-interviews-","/customer/en/portal/articles/2561445-is-internet-access-required-during-interviews-","/customer/portal/articles/2561445","/customer/en/portal/articles/2561445"]
 
 +++
 

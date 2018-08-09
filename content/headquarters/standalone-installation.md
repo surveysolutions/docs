@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Standalone Installation"
 keywords = ["local installation"]
 date = 2017-03-17T00:59:53Z
 lastmod = 2017-03-17T00:59:53Z
-aliases = ["/customer/portal/articles/2768436-standalone-installation"]
+aliases = ["/customer/portal/articles/2768436-standalone-installation","/customer/en/portal/articles/2768436-standalone-installation","/customer/portal/articles/2768436","/customer/en/portal/articles/2768436"]
 
 +++
 
@@ -19,9 +19,9 @@ running as well as a password for built-in user (postgres by default).
   
 Now you can run SurveySolutions.exe. It will ask you for two
 parameters:  
-Install location – choose any or keep the default (C:\\Program Files);  
+Install location â€“ choose any or keep the default (C:\\Program Files);  
 PostgreSQL connection parameters (default values will be already there)
-– here specify port and password from step 1.  
+â€“ here specify port and password from step 1.  
   
 That's it. At the end, finish installation page will automatically open
 in your browser where you'll be able to create administrator user for

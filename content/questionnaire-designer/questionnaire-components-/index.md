@@ -3,7 +3,7 @@ title = "Questionnaire Components "
 keywords = ["sections","sub-section","roster","question types","variables","static-text","building questionnaire"]
 date = 2016-06-16T17:27:48Z
 lastmod = 2016-06-16T17:27:48Z
-aliases = ["/customer/portal/articles/2467041-questionnaire-components-"]
+aliases = ["/customer/portal/articles/2467041-questionnaire-components-","/customer/en/portal/articles/2467041-questionnaire-components-","/customer/portal/articles/2467041","/customer/en/portal/articles/2467041"]
 
 +++
 
