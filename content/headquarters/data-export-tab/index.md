@@ -3,7 +3,7 @@ title = "Data Export Tab"
 keywords = ["export","headquarters"]
 date = 2016-07-11T19:45:00Z
 lastmod = 2016-07-11T19:45:00Z
-aliases = ["/customer/portal/articles/2494108-data-export-tab"]
+aliases = ["/customer/portal/articles/2494108-data-export-tab","/customer/en/portal/articles/2494108-data-export-tab","/customer/portal/articles/2494108","/customer/en/portal/articles/2494108"]
 
 +++
 

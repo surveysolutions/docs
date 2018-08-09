@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Design limitations by question type"
 keywords = ["question types preloading"]
 date = 2018-03-12T21:48:31Z
 lastmod = 2018-03-12T21:48:31Z
-aliases = ["/customer/portal/articles/2928242-design-limitations-by-question-type"]
+aliases = ["/customer/portal/articles/2928242-design-limitations-by-question-type","/customer/en/portal/articles/2928242-design-limitations-by-question-type","/customer/portal/articles/2928242","/customer/en/portal/articles/2928242"]
 
 +++
 

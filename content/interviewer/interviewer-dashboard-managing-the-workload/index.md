@@ -3,7 +3,7 @@ title = "Interviewer Dashboard: Managing the Workload"
 keywords = [""]
 date = 2017-07-05T14:06:47Z
 lastmod = 2017-07-05T14:06:47Z
-aliases = ["/customer/portal/articles/2835148-interviewer-dashboard-managing-the-workload"]
+aliases = ["/customer/portal/articles/2835148-interviewer-dashboard-managing-the-workload","/customer/en/portal/articles/2835148-interviewer-dashboard-managing-the-workload","/customer/portal/articles/2835148","/customer/en/portal/articles/2835148"]
 
 +++
 

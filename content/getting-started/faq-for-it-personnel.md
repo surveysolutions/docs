@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "FAQ for IT personnel"
 keywords = [""]
 date = 2017-07-25T21:26:54Z
 lastmod = 2017-07-25T21:26:54Z
-aliases = ["/customer/portal/articles/2847917-faq-for-it-personnel"]
+aliases = ["/customer/portal/articles/2847917-faq-for-it-personnel","/customer/en/portal/articles/2847917-faq-for-it-personnel","/customer/portal/articles/2847917","/customer/en/portal/articles/2847917"]
 
 +++
 

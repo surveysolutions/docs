@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "What tablets should I buy? "
 keywords = [""]
 date = 2016-07-21T22:10:05Z
 lastmod = 2016-07-21T22:10:05Z
-aliases = ["/customer/portal/articles/2505822-what-tablets-should-i-buy-"]
+aliases = ["/customer/portal/articles/2505822-what-tablets-should-i-buy-","/customer/en/portal/articles/2505822-what-tablets-should-i-buy-","/customer/portal/articles/2505822","/customer/en/portal/articles/2505822"]
 
 +++
 

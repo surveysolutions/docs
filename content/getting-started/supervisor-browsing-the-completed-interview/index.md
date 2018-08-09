@@ -3,7 +3,7 @@ title = "Supervisor: Browsing the Completed Interview"
 keywords = ["check","review","supervisor"]
 date = 2016-06-28T17:31:37Z
 lastmod = 2016-06-28T17:31:37Z
-aliases = ["/customer/portal/articles/2479545-supervisor-browsing-the-completed-interview"]
+aliases = ["/customer/portal/articles/2479545-supervisor-browsing-the-completed-interview","/customer/en/portal/articles/2479545-supervisor-browsing-the-completed-interview","/customer/portal/articles/2479545","/customer/en/portal/articles/2479545"]
 
 +++
 

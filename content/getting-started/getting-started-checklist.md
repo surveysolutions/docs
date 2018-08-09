@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Getting Started Checklist"
 keywords = [""]
 date = 2017-06-29T19:18:53Z
 lastmod = 2017-06-29T19:18:53Z
-aliases = ["/customer/portal/articles/2832810-getting-started-checklist"]
+aliases = ["/customer/portal/articles/2832810-getting-started-checklist","/customer/en/portal/articles/2832810-getting-started-checklist","/customer/portal/articles/2832810","/customer/en/portal/articles/2832810"]
 
 +++
 

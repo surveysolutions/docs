@@ -3,7 +3,7 @@ title = "Macros"
 keywords = ["macros","syntax","conditions"]
 date = 2016-06-15T22:22:18Z
 lastmod = 2016-06-15T22:22:18Z
-aliases = ["/customer/portal/articles/2466213-macros"]
+aliases = ["/customer/portal/articles/2466213-macros","/customer/en/portal/articles/2466213-macros","/customer/portal/articles/2466213","/customer/en/portal/articles/2466213"]
 
 +++
 

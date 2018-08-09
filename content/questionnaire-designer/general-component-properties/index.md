@@ -3,7 +3,7 @@ title = "General Component Properties"
 keywords = ["variable names","variable labels","question texts","question types","interviewer instructions","conditions"]
 date = 2016-06-17T00:26:32Z
 lastmod = 2016-06-17T00:26:32Z
-aliases = ["/customer/portal/articles/2467518-general-component-properties"]
+aliases = ["/customer/portal/articles/2467518-general-component-properties","/customer/en/portal/articles/2467518-general-component-properties","/customer/portal/articles/2467518","/customer/en/portal/articles/2467518"]
 
 +++
 

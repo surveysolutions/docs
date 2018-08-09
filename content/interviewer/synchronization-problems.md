@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Synchronization problems"
 keywords = [""]
 date = 2018-05-16T21:21:23Z
 lastmod = 2018-05-16T21:21:23Z
-aliases = ["/customer/portal/articles/2939577-synchronization-problems"]
+aliases = ["/customer/portal/articles/2939577-synchronization-problems","/customer/en/portal/articles/2939577-synchronization-problems","/customer/portal/articles/2939577","/customer/en/portal/articles/2939577"]
 
 +++
 

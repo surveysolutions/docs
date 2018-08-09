@@ -3,7 +3,7 @@ title = "Import the Questionnaire"
 keywords = [""]
 date = 2017-06-28T18:14:07Z
 lastmod = 2017-06-28T18:14:07Z
-aliases = ["/customer/portal/articles/2831973-import-the-questionnaire"]
+aliases = ["/customer/portal/articles/2831973-import-the-questionnaire","/customer/en/portal/articles/2831973-import-the-questionnaire","/customer/portal/articles/2831973","/customer/en/portal/articles/2831973"]
 
 +++
 

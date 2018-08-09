@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Features in Beta"
 keywords = [""]
 date = 2017-07-26T23:59:18Z
 lastmod = 2017-07-26T23:59:18Z
-aliases = ["/customer/portal/articles/2848726-features-in-beta"]
+aliases = ["/customer/portal/articles/2848726-features-in-beta","/customer/en/portal/articles/2848726-features-in-beta","/customer/portal/articles/2848726","/customer/en/portal/articles/2848726"]
 
 +++
 

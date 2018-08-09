@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Assignments"
 keywords = [""]
 date = 2017-07-24T22:43:14Z
 lastmod = 2017-07-24T22:43:14Z
-aliases = ["/customer/portal/articles/2847199-assignments"]
+aliases = ["/customer/portal/articles/2847199-assignments","/customer/en/portal/articles/2847199-assignments","/customer/portal/articles/2847199","/customer/en/portal/articles/2847199"]
 
 +++
 

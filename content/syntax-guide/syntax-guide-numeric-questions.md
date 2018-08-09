@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Syntax Guide: Numeric Questions"
 keywords = ["syntax","numeric","inrange","inlist","math"]
 date = 2016-08-18T20:18:28Z
 lastmod = 2016-08-18T20:18:28Z
-aliases = ["/customer/portal/articles/2542376-syntax-guide-numeric-questions"]
+aliases = ["/customer/portal/articles/2542376-syntax-guide-numeric-questions","/customer/en/portal/articles/2542376-syntax-guide-numeric-questions","/customer/portal/articles/2542376","/customer/en/portal/articles/2542376"]
 
 +++
 

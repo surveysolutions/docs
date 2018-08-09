@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Suggest a feature"
 keywords = ["Feature suggest"]
 date = 2017-10-11T21:22:00Z
 lastmod = 2017-10-11T21:22:00Z
-aliases = ["/customer/portal/articles/2887843-suggest-a-feature"]
+aliases = ["/customer/portal/articles/2887843-suggest-a-feature","/customer/en/portal/articles/2887843-suggest-a-feature","/customer/portal/articles/2887843","/customer/en/portal/articles/2887843"]
 draft = true
 +++
 

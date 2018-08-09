@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "FAQ for email support"
 keywords = ["FAQ rules email support"]
 date = 2017-07-24T14:40:55Z
 lastmod = 2017-07-24T14:40:55Z
-aliases = ["/customer/portal/articles/2846777-faq-for-email-support"]
+aliases = ["/customer/portal/articles/2846777-faq-for-email-support","/customer/en/portal/articles/2846777-faq-for-email-support","/customer/portal/articles/2846777","/customer/en/portal/articles/2846777"]
 
 +++
 

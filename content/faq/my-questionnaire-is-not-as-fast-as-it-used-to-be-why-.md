@@ -1,9 +1,9 @@
-+++
+ï»¿+++
 title = "My questionnaire is not as fast as it used to be. Why?"
 keywords = [""]
 date = 2017-12-13T23:07:28Z
 lastmod = 2017-12-13T23:07:28Z
-aliases = ["/customer/portal/articles/2910459-my-questionnaire-is-not-as-fast-as-it-used-to-be-why-"]
+aliases = ["/customer/portal/articles/2910459-my-questionnaire-is-not-as-fast-as-it-used-to-be-why-","/customer/en/portal/articles/2910459-my-questionnaire-is-not-as-fast-as-it-used-to-be-why-","/customer/portal/articles/2910459","/customer/en/portal/articles/2910459"]
 
 +++
 
@@ -13,7 +13,7 @@ improvements. However, sometimes the support team receives inquiries
 regarding the decrease of performance of the interviewer's app, perhaps
 after an update. Here it is important to make sure that a valid
 comparison is made. A few common explanations to consider:  
-Â
+ï¿½
 
 <table>
 <tbody>

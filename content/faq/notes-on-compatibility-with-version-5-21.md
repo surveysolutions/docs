@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Notes on Compatibility with version 5.21"
 keywords = [""]
 date = 2017-07-05T16:42:01Z
 lastmod = 2017-07-05T16:42:01Z
-aliases = ["/customer/portal/articles/2835383-notes-on-compatibility-with-version-5-21"]
+aliases = ["/customer/portal/articles/2835383-notes-on-compatibility-with-version-5-21","/customer/en/portal/articles/2835383-notes-on-compatibility-with-version-5-21","/customer/portal/articles/2835383","/customer/en/portal/articles/2835383"]
 
 +++
 

@@ -1,9 +1,9 @@
-+++
+ï»¿+++
 title = "Actions after the end of the survey"
 keywords = [""]
 date = 2017-01-23T11:57:34Z
 lastmod = 2017-01-23T11:57:34Z
-aliases = ["/customer/portal/articles/2723118-actions-after-the-end-of-the-survey"]
+aliases = ["/customer/portal/articles/2723118-actions-after-the-end-of-the-survey","/customer/en/portal/articles/2723118-actions-after-the-end-of-the-survey","/customer/portal/articles/2723118","/customer/en/portal/articles/2723118"]
 
 +++
 
@@ -43,5 +43,5 @@ collected data.
     Reports are not part of data export.
 17. Notify the support team that the cloud server may be shut down.
 
-This article is part of the series of [instructions for Survey Solutions
+This article is part of the series ofï¿½[instructions for Survey Solutions
 cloud servers](/faq/cloud-server-instructions).

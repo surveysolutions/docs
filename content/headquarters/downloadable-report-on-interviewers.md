@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Downloadable Report on Interviewers"
 keywords = [""]
 date = 2017-12-06T15:28:43Z
 lastmod = 2017-12-06T15:28:43Z
-aliases = ["/customer/portal/articles/2908671-downloadable-report-on-interviewers"]
+aliases = ["/customer/portal/articles/2908671-downloadable-report-on-interviewers","/customer/en/portal/articles/2908671-downloadable-report-on-interviewers","/customer/portal/articles/2908671","/customer/en/portal/articles/2908671"]
 
 +++
 

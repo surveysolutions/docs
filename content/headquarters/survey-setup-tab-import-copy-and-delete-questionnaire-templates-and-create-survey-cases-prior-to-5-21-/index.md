@@ -3,7 +3,7 @@ title = "Survey Setup Tab: Import, Copy, and Delete Questionnaire Templates, and
 keywords = ["import","copy","delete","headquarters","templates","sample","survey cases"]
 date = 2016-07-06T00:08:04Z
 lastmod = 2016-07-06T00:08:04Z
-aliases = ["/customer/portal/articles/2488930-survey-setup-tab-import-copy-and-delete-questionnaire-templates-and-create-survey-cases-prior-to-5-21-", "/customer/portal/articles/2488930"]
+aliases = ["/customer/portal/articles/2488930-survey-setup-tab-import-copy-and-delete-questionnaire-templates-and-create-survey-cases-prior-to-5-21-","/customer/en/portal/articles/2488930-survey-setup-tab-import-copy-and-delete-questionnaire-templates-and-create-survey-cases-prior-to-5-21-","/customer/portal/articles/2488930","/customer/en/portal/articles/2488930"]
 expirydate = 2016-07-06T00:00:00Z
 +++
 

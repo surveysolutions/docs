@@ -3,7 +3,7 @@ title = "Syntax Guide: Date questions"
 keywords = ["syntax ","calendar date","current time"]
 date = 2016-11-19T19:31:46Z
 lastmod = 2016-11-19T19:31:46Z
-aliases = ["/customer/portal/articles/2648780-syntax-guide-date-questions"]
+aliases = ["/customer/portal/articles/2648780-syntax-guide-date-questions","/customer/en/portal/articles/2648780-syntax-guide-date-questions","/customer/portal/articles/2648780","/customer/en/portal/articles/2648780"]
 
 +++
 

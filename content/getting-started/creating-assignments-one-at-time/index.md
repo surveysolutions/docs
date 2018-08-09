@@ -3,7 +3,7 @@ title = "Creating Assignments One at Time"
 keywords = [""]
 date = 2017-06-29T21:45:21Z
 lastmod = 2017-06-29T21:45:21Z
-aliases = ["/customer/portal/articles/2832911-creating-assignments-one-at-time"]
+aliases = ["/customer/portal/articles/2832911-creating-assignments-one-at-time","/customer/en/portal/articles/2832911-creating-assignments-one-at-time","/customer/portal/articles/2832911","/customer/en/portal/articles/2832911"]
 
 +++
 

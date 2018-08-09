@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Stata export file format"
 keywords = [""]
 date = 2017-04-11T00:15:07Z
 lastmod = 2017-04-11T00:15:07Z
-aliases = ["/customer/portal/articles/2784975-stata-export-file-format"]
+aliases = ["/customer/portal/articles/2784975-stata-export-file-format","/customer/en/portal/articles/2784975-stata-export-file-format","/customer/portal/articles/2784975","/customer/en/portal/articles/2784975"]
 
 +++
 

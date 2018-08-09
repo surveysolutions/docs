@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Server Not Working"
 keywords = ["server "]
 date = 2018-03-02T15:16:36Z
 lastmod = 2018-03-02T15:16:36Z
-aliases = ["/customer/portal/articles/2926278-server-not-working"]
+aliases = ["/customer/portal/articles/2926278-server-not-working","/customer/en/portal/articles/2926278-server-not-working","/customer/portal/articles/2926278","/customer/en/portal/articles/2926278"]
 
 +++
 

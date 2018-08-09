@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "How can I request localization for the Interviewer and Tester in a new language?"
 keywords = [""]
 date = 2016-09-07T03:24:06Z
 lastmod = 2016-09-07T03:24:06Z
-aliases = ["/customer/portal/articles/2561446-how-can-i-request-localization-for-the-interviewer-and-tester-in-a-new-language-"]
+aliases = ["/customer/portal/articles/2561446-how-can-i-request-localization-for-the-interviewer-and-tester-in-a-new-language-","/customer/en/portal/articles/2561446-how-can-i-request-localization-for-the-interviewer-and-tester-in-a-new-language-","/customer/portal/articles/2561446","/customer/en/portal/articles/2561446"]
 
 +++
 

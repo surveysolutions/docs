@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Multimedia reference"
 keywords = ["Image","Attachment","Multimedia","Format"]
 date = 2016-10-03T14:09:04Z
 lastmod = 2016-10-03T14:09:04Z
-aliases = ["/customer/portal/articles/2589525-multimedia-reference"]
+aliases = ["/customer/portal/articles/2589525-multimedia-reference","/customer/en/portal/articles/2589525-multimedia-reference","/customer/portal/articles/2589525","/customer/en/portal/articles/2589525"]
 
 +++
 

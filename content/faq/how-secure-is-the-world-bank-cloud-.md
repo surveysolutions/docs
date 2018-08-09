@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "How secure is the World Bank Cloud?"
 keywords = [""]
 date = 2017-06-07T20:03:27Z
 lastmod = 2017-06-07T20:03:27Z
-aliases = ["/customer/portal/articles/2819652-how-secure-is-the-world-bank-cloud-"]
+aliases = ["/customer/portal/articles/2819652-how-secure-is-the-world-bank-cloud-","/customer/en/portal/articles/2819652-how-secure-is-the-world-bank-cloud-","/customer/portal/articles/2819652","/customer/en/portal/articles/2819652"]
 
 +++
 

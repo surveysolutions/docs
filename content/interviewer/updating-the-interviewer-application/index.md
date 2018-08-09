@@ -3,7 +3,7 @@ title = "Updating the Interviewer application"
 keywords = [""]
 date = 2018-02-22T16:10:00Z
 lastmod = 2018-02-22T16:10:00Z
-aliases = ["/customer/portal/articles/2924573-updating-the-interviewer-application"]
+aliases = ["/customer/portal/articles/2924573-updating-the-interviewer-application","/customer/en/portal/articles/2924573-updating-the-interviewer-application","/customer/portal/articles/2924573","/customer/en/portal/articles/2924573"]
 
 +++
 

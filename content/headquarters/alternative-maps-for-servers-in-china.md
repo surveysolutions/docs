@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Alternative maps for servers in China"
 keywords = [""]
 date = 2018-04-03T17:03:44Z
 lastmod = 2018-04-03T17:03:44Z
-aliases = ["/customer/portal/articles/2932213-alternative-maps-for-servers-in-china"]
+aliases = ["/customer/portal/articles/2932213-alternative-maps-for-servers-in-china","/customer/en/portal/articles/2932213-alternative-maps-for-servers-in-china","/customer/portal/articles/2932213","/customer/en/portal/articles/2932213"]
 
 +++
 

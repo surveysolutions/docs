@@ -3,7 +3,7 @@ title = "Questionnaire Designer Homepage"
 keywords = ["homepage","My Questionnaires","edit","create new","action","copy questionnaire","delete questionnaire "]
 date = 2016-06-14T19:32:00Z
 lastmod = 2016-06-14T19:32:00Z
-aliases = ["/customer/portal/articles/2464762-questionnaire-designer-homepage"]
+aliases = ["/customer/portal/articles/2464762-questionnaire-designer-homepage","/customer/en/portal/articles/2464762-questionnaire-designer-homepage","/customer/portal/articles/2464762","/customer/en/portal/articles/2464762"]
 
 +++
 
