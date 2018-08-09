@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Features in Beta"
 keywords = [""]
 date = 2017-07-26T23:59:18Z
@@ -16,5 +16,7 @@ At the moment the following features are in the status "beta":
 
 - satellite map viewing, positioning, and area measurement on the
     tablets in the Interviewer App. This feature is known to be
-    incompatible with Android 64-bit OS.
+    incompatible with Android 64-bit OS in versions of Survey Solutions 
+    prior to 18.08.
 - shapefile overlay in a geography-type question.
+- offline supervisor App.
