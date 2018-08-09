@@ -3,7 +3,7 @@ title = "Lookup Tables"
 keywords = ["conditions","table","reference","rowcode"]
 date = 2016-06-16T16:33:33Z
 lastmod = 2016-06-16T16:33:33Z
-aliases = ["/customer/portal/articles/2466966-lookup-tables"]
+aliases = ["/customer/portal/articles/2466966-lookup-tables","/customer/en/portal/articles/2466966-lookup-tables","/customer/portal/articles/2466966","/customer/en/portal/articles/2466966"]
 
 +++
 

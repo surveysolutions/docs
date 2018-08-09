@@ -3,7 +3,7 @@ title = "Syntax Guide: Multi-select questions"
 keywords = ["syntax","multiselect","multi-select"]
 date = 2016-11-30T22:51:59Z
 lastmod = 2016-11-30T22:51:59Z
-aliases = ["/customer/portal/articles/2661196-syntax-guide-multi-select-questions"]
+aliases = ["/customer/portal/articles/2661196-syntax-guide-multi-select-questions","/customer/en/portal/articles/2661196-syntax-guide-multi-select-questions","/customer/portal/articles/2661196","/customer/en/portal/articles/2661196"]
 
 +++
 

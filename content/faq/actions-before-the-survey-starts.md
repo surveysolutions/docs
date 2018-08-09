@@ -1,9 +1,9 @@
-+++
+ï»¿+++
 title = "Actions before the survey starts"
 keywords = [""]
 date = 2017-01-23T11:50:32Z
 lastmod = 2017-01-23T11:50:32Z
-aliases = ["/customer/portal/articles/2723106-actions-before-the-survey-starts"]
+aliases = ["/customer/portal/articles/2723106-actions-before-the-survey-starts","/customer/en/portal/articles/2723106-actions-before-the-survey-starts","/customer/portal/articles/2723106","/customer/en/portal/articles/2723106"]
 
 +++
 
@@ -31,5 +31,5 @@ Immediately as you receive this information do the following:
     etc). These users do not receive their credentials per email unless
     you send them yourself.
 
-This article is part of the series of [instructions for Survey Solutions
+This article is part of the series ofï¿½[instructions for Survey Solutions
 cloud servers](/faq/cloud-server-instructions).

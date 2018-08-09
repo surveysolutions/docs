@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "API for Data Export"
 keywords = ["API"]
 date = 2016-09-19T21:45:15Z
 lastmod = 2016-09-19T21:45:15Z
-aliases = ["/customer/portal/articles/2574862-api-for-data-export"]
+aliases = ["/customer/portal/articles/2574862-api-for-data-export","/customer/en/portal/articles/2574862-api-for-data-export","/customer/portal/articles/2574862","/customer/en/portal/articles/2574862"]
 
 +++
 

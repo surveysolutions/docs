@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Date and Time formats"
 keywords = ["Date Time Format"]
 date = 2018-06-27T16:18:16Z
 lastmod = 2018-06-27T16:18:16Z
-aliases = ["/customer/portal/articles/2946079-date-and-time-formats"]
+aliases = ["/customer/portal/articles/2946079-date-and-time-formats","/customer/en/portal/articles/2946079-date-and-time-formats","/customer/portal/articles/2946079","/customer/en/portal/articles/2946079"]
 
 +++
 

@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Recognized Barcode Formats"
 keywords = [""]
 date = 2017-02-02T10:27:10Z
 lastmod = 2017-02-02T10:27:10Z
-aliases = ["/customer/portal/articles/2733345-recognized-barcode-formats"]
+aliases = ["/customer/portal/articles/2733345-recognized-barcode-formats","/customer/en/portal/articles/2733345-recognized-barcode-formats","/customer/portal/articles/2733345","/customer/en/portal/articles/2733345"]
 
 +++
 

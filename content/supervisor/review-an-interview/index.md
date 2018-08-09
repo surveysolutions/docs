@@ -3,7 +3,7 @@ title = "Review an Interview"
 keywords = ["review","check","survey case","supervisor"]
 date = 2016-07-12T20:31:48Z
 lastmod = 2016-07-12T20:31:48Z
-aliases = ["/customer/portal/articles/2495547-review-an-interview"]
+aliases = ["/customer/portal/articles/2495547-review-an-interview","/customer/en/portal/articles/2495547-review-an-interview","/customer/portal/articles/2495547","/customer/en/portal/articles/2495547"]
 
 +++
 

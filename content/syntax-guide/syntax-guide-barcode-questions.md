@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Syntax Guide: Barcode questions"
 keywords = ["syntax","barcode "]
 date = 2016-11-28T15:13:05Z
 lastmod = 2016-11-28T15:13:05Z
-aliases = ["/customer/portal/articles/2658190-syntax-guide-barcode-questions"]
+aliases = ["/customer/portal/articles/2658190-syntax-guide-barcode-questions","/customer/en/portal/articles/2658190-syntax-guide-barcode-questions","/customer/portal/articles/2658190","/customer/en/portal/articles/2658190"]
 
 +++
 

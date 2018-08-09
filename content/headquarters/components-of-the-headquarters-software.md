@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Components of the Headquarters Software"
 keywords = ["headquarters","reports","interviews","survey cases","teams and roles","survey setup","data export"]
 date = 2016-06-29T18:04:38Z
 lastmod = 2016-06-29T18:04:38Z
-aliases = ["/customer/portal/articles/2481286-components-of-the-headquarters-software"]
+aliases = ["/customer/portal/articles/2481286-components-of-the-headquarters-software","/customer/en/portal/articles/2481286-components-of-the-headquarters-software","/customer/portal/articles/2481286","/customer/en/portal/articles/2481286"]
 
 +++
 

@@ -3,7 +3,7 @@ title = "Version 5.18"
 keywords = [""]
 date = 2017-03-07T19:58:00Z
 lastmod = 2017-03-07T19:58:00Z
-aliases = ["/customer/portal/articles/2760551-version-5-18"]
+aliases = ["/customer/portal/articles/2760551-version-5-18","/customer/en/portal/articles/2760551-version-5-18","/customer/portal/articles/2760551","/customer/en/portal/articles/2760551"]
 
 +++
 

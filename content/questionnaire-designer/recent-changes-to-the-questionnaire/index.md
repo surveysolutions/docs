@@ -3,7 +3,7 @@ title = "Recent Changes to the Questionnaire"
 keywords = ["history","questionnaire","edit"]
 date = 2016-06-15T20:40:11Z
 lastmod = 2016-06-15T20:40:11Z
-aliases = ["/customer/portal/articles/2466057-recent-changes-to-the-questionnaire"]
+aliases = ["/customer/portal/articles/2466057-recent-changes-to-the-questionnaire","/customer/en/portal/articles/2466057-recent-changes-to-the-questionnaire","/customer/portal/articles/2466057","/customer/en/portal/articles/2466057"]
 
 +++
 

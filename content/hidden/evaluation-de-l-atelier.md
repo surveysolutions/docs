@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Evaluation de l'atelier"
 keywords = [""]
 date = 2017-07-27T22:54:31Z
 lastmod = 2017-07-27T22:54:31Z
-aliases = ["/customer/portal/articles/2849426-evaluation-de-l-atelier"]
+aliases = ["/customer/portal/articles/2849426-evaluation-de-l-atelier","/customer/en/portal/articles/2849426-evaluation-de-l-atelier","/customer/portal/articles/2849426","/customer/en/portal/articles/2849426"]
 draft = true
 +++
 

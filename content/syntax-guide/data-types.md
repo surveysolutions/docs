@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Data types"
 keywords = ["data types","syntax","object model"]
 date = 2016-08-09T21:16:08Z
 lastmod = 2016-08-09T21:16:08Z
-aliases = ["/customer/portal/articles/2531232-data-types", "/customer/portal/articles/2531232"]
+aliases = ["/customer/portal/articles/2531232-data-types","/customer/en/portal/articles/2531232-data-types","/customer/portal/articles/2531232","/customer/en/portal/articles/2531232"]
 
 +++
 

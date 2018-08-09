@@ -3,7 +3,7 @@ title = "Settings"
 keywords = ["settings","share","name","questionnaire"]
 date = 2016-06-15T19:30:05Z
 lastmod = 2016-06-15T19:30:05Z
-aliases = ["/customer/portal/articles/2465929-settings"]
+aliases = ["/customer/portal/articles/2465929-settings","/customer/en/portal/articles/2465929-settings","/customer/portal/articles/2465929","/customer/en/portal/articles/2465929"]
 
 +++
 

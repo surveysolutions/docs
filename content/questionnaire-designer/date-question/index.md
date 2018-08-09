@@ -3,7 +3,7 @@ title = "Date Question"
 keywords = ["date","calendar","time stamp","current time","export"]
 date = 2016-06-18T22:09:44Z
 lastmod = 2016-06-18T22:09:44Z
-aliases = ["/customer/portal/articles/2469077-date-question"]
+aliases = ["/customer/portal/articles/2469077-date-question","/customer/en/portal/articles/2469077-date-question","/customer/portal/articles/2469077","/customer/en/portal/articles/2469077"]
 
 +++
 

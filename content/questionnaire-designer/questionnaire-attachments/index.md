@@ -3,7 +3,7 @@ title = "Questionnaire Attachments"
 keywords = ["attach","pictures","static text"]
 date = 2016-06-15T21:56:14Z
 lastmod = 2016-06-15T21:56:14Z
-aliases = ["/customer/portal/articles/2466173-questionnaire-attachments"]
+aliases = ["/customer/portal/articles/2466173-questionnaire-attachments","/customer/en/portal/articles/2466173-questionnaire-attachments","/customer/portal/articles/2466173","/customer/en/portal/articles/2466173"]
 
 +++
 

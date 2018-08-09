@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Should and could I modify my questionnaire when the survey is in the field?"
 keywords = [""]
 date = 2016-10-21T19:15:47Z
 lastmod = 2016-10-21T19:15:47Z
-aliases = ["/customer/portal/articles/2613318-should-and-could-i-modify-my-questionnaire-when-the-survey-is-in-the-field-"]
+aliases = ["/customer/portal/articles/2613318-should-and-could-i-modify-my-questionnaire-when-the-survey-is-in-the-field-","/customer/en/portal/articles/2613318-should-and-could-i-modify-my-questionnaire-when-the-survey-is-in-the-field-","/customer/portal/articles/2613318","/customer/en/portal/articles/2613318"]
 
 +++
 

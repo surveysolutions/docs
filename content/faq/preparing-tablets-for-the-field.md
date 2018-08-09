@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Preparing tablets for the field"
 keywords = [""]
 date = 2016-12-13T18:51:09Z
 lastmod = 2016-12-13T18:51:09Z
-aliases = ["/customer/portal/articles/2674651-preparing-tablets-for-the-field"]
+aliases = ["/customer/portal/articles/2674651-preparing-tablets-for-the-field","/customer/en/portal/articles/2674651-preparing-tablets-for-the-field","/customer/portal/articles/2674651","/customer/en/portal/articles/2674651"]
 draft = true
 +++
 

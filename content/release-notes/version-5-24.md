@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Version 5.24"
 keywords = [""]
 date = 2017-10-03T19:31:00Z
 lastmod = 2017-10-03T19:31:00Z
-aliases = ["/customer/portal/articles/2883853-version-5-24"]
+aliases = ["/customer/portal/articles/2883853-version-5-24","/customer/en/portal/articles/2883853-version-5-24","/customer/portal/articles/2883853","/customer/en/portal/articles/2883853"]
 +++
 
 <span id="docs-internal-guid-023fb4fa-e3b8-6e3d-4873-9680fe53689c"><span

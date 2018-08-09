@@ -3,7 +3,7 @@ title = "Dashboard: Managing Your Workload (prior to 5.21)"
 keywords = ["dashboard","workload","open","close","resume","app","application","interviewer"]
 date = 2016-07-14T03:02:26Z
 lastmod = 2016-07-14T03:02:26Z
-aliases = ["/customer/portal/articles/2497108-dashboard-managing-your-workload-prior-to-5-21-"]
+aliases = ["/customer/portal/articles/2497108-dashboard-managing-your-workload-prior-to-5-21-","/customer/en/portal/articles/2497108-dashboard-managing-your-workload-prior-to-5-21-","/customer/portal/articles/2497108","/customer/en/portal/articles/2497108"]
 expirydate = 2016-07-06T00:00:00Z
 +++
 

@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "What kind of tablets should we purchase to use with Survey Solutions?"
 keywords = [""]
 date = 2016-09-07T03:13:39Z
 lastmod = 2016-09-07T03:13:39Z
-aliases = ["/customer/portal/articles/2561439-what-kind-of-tablets-should-we-purchase-to-use-with-survey-solutions-"]
+aliases = ["/customer/portal/articles/2561439-what-kind-of-tablets-should-we-purchase-to-use-with-survey-solutions-","/customer/en/portal/articles/2561439-what-kind-of-tablets-should-we-purchase-to-use-with-survey-solutions-","/customer/portal/articles/2561439","/customer/en/portal/articles/2561439"]
 
 +++
 

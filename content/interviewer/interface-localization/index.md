@@ -3,7 +3,7 @@ title = "Interface Localization"
 keywords = ["localization","langauge","app","interviewer"]
 date = 2016-07-13T23:35:06Z
 lastmod = 2016-07-13T23:35:06Z
-aliases = ["/customer/portal/articles/2497002-interface-localization"]
+aliases = ["/customer/portal/articles/2497002-interface-localization","/customer/en/portal/articles/2497002-interface-localization","/customer/portal/articles/2497002","/customer/en/portal/articles/2497002"]
 
 +++
 

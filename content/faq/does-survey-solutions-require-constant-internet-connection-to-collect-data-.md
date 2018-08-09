@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Does Survey Solutions require constant internet connection to collect data?"
 keywords = [""]
 date = 2016-09-07T03:24:38Z
 lastmod = 2016-09-07T03:24:38Z
-aliases = ["/customer/portal/articles/2561447-does-survey-solutions-require-constant-internet-connection-to-collect-data-"]
+aliases = ["/customer/portal/articles/2561447-does-survey-solutions-require-constant-internet-connection-to-collect-data-","/customer/en/portal/articles/2561447-does-survey-solutions-require-constant-internet-connection-to-collect-data-","/customer/portal/articles/2561447","/customer/en/portal/articles/2561447"]
 
 +++
 

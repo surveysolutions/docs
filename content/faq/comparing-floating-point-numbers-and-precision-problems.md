@@ -1,9 +1,9 @@
-+++
+﻿+++
 title = "Comparing floating point numbers and precision problems"
 keywords = ["precision computation"]
 date = 2017-02-06T08:55:28Z
 lastmod = 2017-02-06T08:55:28Z
-aliases = ["/customer/portal/articles/2736012-comparing-floating-point-numbers-and-precision-problems"]
+aliases = ["/customer/portal/articles/2736012-comparing-floating-point-numbers-and-precision-problems","/customer/en/portal/articles/2736012-comparing-floating-point-numbers-and-precision-problems","/customer/portal/articles/2736012","/customer/en/portal/articles/2736012"]
 
 +++
 

@@ -3,7 +3,7 @@ title = "Testing Your Questionnaires Using the Tester Application"
 keywords = ["testing","tester","app","google play","tablet"]
 date = 2016-07-21T17:20:36Z
 lastmod = 2016-07-21T17:20:36Z
-aliases = ["/customer/portal/articles/2505348-testing-your-questionnaires-using-the-tester-application"]
+aliases = ["/customer/portal/articles/2505348-testing-your-questionnaires-using-the-tester-application","/customer/en/portal/articles/2505348-testing-your-questionnaires-using-the-tester-application","/customer/portal/articles/2505348","/customer/en/portal/articles/2505348"]
 
 +++
 

@@ -3,7 +3,7 @@ title = "Audio Question"
 keywords = [""]
 date = 2017-10-12T22:50:26Z
 lastmod = 2017-10-12T22:50:26Z
-aliases = ["/customer/portal/articles/2888456-audio-question"]
+aliases = ["/customer/portal/articles/2888456-audio-question","/customer/en/portal/articles/2888456-audio-question","/customer/portal/articles/2888456","/customer/en/portal/articles/2888456"]
 
 +++
 
