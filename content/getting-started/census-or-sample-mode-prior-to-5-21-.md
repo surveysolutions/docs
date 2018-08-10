@@ -7,11 +7,12 @@ aliases = ["/customer/portal/articles/2474822-census-or-sample-mode-prior-to-5-2
 expirydate = 2016-07-06T00:00:00Z
 +++
 
-Survey Solutions allows you to collect data in two modes
+Early versions of Survey Solutions allowed you to collect data in two modes
 
 -   Census mode
 -   and Sample mode
 
+These modes are now superceded by assignments, that allow implementing more flexible behavior.
   
 If you have a list of the households, enterprises or persons that your
 enumerators are going to interview, your best choice is the ***Sample
