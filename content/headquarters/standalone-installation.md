@@ -13,9 +13,10 @@ make sure that you have an installed and running instance of
 PostgreSQL.  
   
 You can download PostgreSQL from
-[here](https://www.bigsql.org/postgresql/installers.jsp) and run the
-setup. During the process you'll set the port on which server will be
-running as well as a password for built-in user (postgres by default).  
+[here](http://www.openscg.com/bigsql/postgresql/archive-packages/) and run the
+setup. _We currently run PostgreSQL **version 10.4** on our servers_.  
+During the process you'll set the port on which server will be running as well
+as a password for built-in user (postgres by default).  
   
 Now you can run SurveySolutions.exe. It will ask you for two
 parameters:  
