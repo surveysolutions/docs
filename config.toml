@@ -5,6 +5,9 @@ theme = "surveysolutions"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 enableGitInfo = true
 
+[frontmatter]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [params]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
     lastreleasenote = "version-18-08"
