@@ -2,7 +2,7 @@
 
 $content = (Get-Item public).FullName
 
-Remove-Item (Join-Path $content "algolia.json")
+Remove-Item (Join-Path $content "algolia.json") -ErrorAction "Continue"
 Remove-Item (Join-Path $content "hidden") -Recurse
 
 $site = "support"
