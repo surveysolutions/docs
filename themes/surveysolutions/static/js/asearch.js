@@ -61,6 +61,6 @@ autocomplete('#aa-search-input',
 			}
 		}
 	]).on('autocomplete:selected', function (event, suggestion, dataset) {
-		console.log(suggestion);
-		//window.location.href = suggestion.url;
+		//console.log(suggestion);
+		window.location.href = suggestion.url;
 	});
