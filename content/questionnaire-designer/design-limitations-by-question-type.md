@@ -31,16 +31,6 @@ Web interviews</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">Area</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-</tr>
-<tr class="even">
 <td style="text-align: center;">Audio</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">NO</td>
@@ -50,7 +40,7 @@ Web interviews</th>
 <td style="text-align: center;">NO</td>
 <td style="text-align: center;">YES</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">Barcode</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">NO</td>
@@ -61,7 +51,7 @@ Web interviews</th>
 <td style="text-align: center;">YES<br />
 appears as text entry</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">Categorical multi-select</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">YES<br />
@@ -74,7 +64,7 @@ NO for linked</td>
 <td style="text-align: center;">NO</td>
 <td style="text-align: center;">YES</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: center;">Categorical single-select</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">YES<br />
@@ -88,7 +78,7 @@ NO for linked</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">YES</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: center;">Date</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">NO</td>
@@ -97,6 +87,16 @@ NO for linked</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">YES</td>
 <td style="text-align: center;">YES</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Geography</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">YES</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">NO</td>
+<td style="text-align: center;">NO</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">GPS</td>
