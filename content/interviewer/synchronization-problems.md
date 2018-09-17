@@ -47,7 +47,16 @@ This setting is entered once when the Survey Solutions App is installed
 and logged in for the first time. Normally it doesn't change throughout
 the data collection, though a possibility to change it exists in the
 Interviewer app settings.  
- 
+
+
+**If you are experiencing a repetitive synchronization error after several
+retries, the simplest action you can do is to navigate to the
+synchronization point in your browser (typically Chrome on Android devices),
+for example, https://demo.mysurvey.solutions.
+The page that opens will usually contain some readable information about the
+connectivity problems. This will help you track down the exact reason
+for the problem and use the troubleshooting guide below to find a remedy
+for it.**
 
 <table>
 <thead>
@@ -60,8 +69,8 @@ Interviewer app settings.
 <tbody>
 <tr class="odd">
 <td><span style="color:#008000;">Synchronization successfully completed. All assignments were updated.</span></td>
-<td>Situation normal. No error.</td>
-<td>Continue working as usual.</td>
+<td  valign=top>Situation normal. No error.</td>
+<td valign=top>Continue working as usual.</td>
 </tr>
 <tr class="even">
 <td><span style="color:#FFA07A;">Synchronization was interrupted, please try again. No network. Check your network settings.</span></td>
@@ -99,9 +108,9 @@ Interviewer app settings.
 <td>Check the wireless card and antenna according to the tablet manufacturer's checklist.</td>
 </tr>
 <tr class="odd">
-<td><span style="color:#FFA07A;">Synchronization was interrupted, please try again. No connection to the Survey Solutions Supervisor. Please make sure that the website is available.</span></td>
-<td>Connected to a network, which requires further authentication or acceptance of special conditions, or payment.</td>
-<td>Authenticate in the network (common for networks in hotels, cafes, etc)</td>
+<td valign=top><span style="color:#FFA07A;">Synchronization was interrupted, please try again. No connection to the Survey Solutions Supervisor. Please make sure that the website is available.</span></td>
+<td valign=top>Connected to a network, which requires further authentication or acceptance of special conditions, or payment.</td>
+<td valign=top>Authenticate in the network (common for networks in hotels, cafes, etc)</td>
 </tr>
 <tr class="even">
 <td> </td>
@@ -110,29 +119,29 @@ Interviewer app settings.
 </tr>
 <tr class="odd">
 <td> </td>
-<td>Connected to a network, which limits access to Internet during certain hours.</td>
-<td>Reconnect and retry during the hours when the network permits connections outside.<br />
+<td valign=top>Connected to a network, which limits access to Internet during certain hours.</td>
+<td valign=top>Reconnect and retry during the hours when the network permits connections outside.<br />
 <br />
 Or use an alternative network/connection.</td>
 </tr>
 <tr class="even">
 <td> </td>
-<td>Survey Solutions synchronization point is entered incorrectly (or subsequently changed).</td>
-<td>Verify in the interviewer app settings (<em>Supervisor URL</em>) that the entered URL or IP is accurate for the Survey Solutions server.</td>
+<td valign=top>Survey Solutions synchronization point is entered incorrectly (or subsequently changed).</td>
+<td valign=top>Verify in the interviewer app settings (<em>Supervisor URL</em>) that the entered URL or IP is accurate for the Survey Solutions server.</td>
 </tr>
 <tr class="odd">
 <td> </td>
-<td>Survey Solutions web server is down. </td>
-<td>Wait for 30 minutes (or until the end of the planned outage/maintenance period) and retry.<br />
+<td valign=top>Survey Solutions web server is down. </td>
+<td valign=top>Wait for 30 minutes (or until the end of the planned outage/maintenance period) and retry.<br />
 <br />
 If the issue persists, open the synchronization point address in the web browser from the tablet and from a different device.<br />
 <br />
 Contact the server administrator with the error message displayed in the browser (attach a screenshot).</td>
 </tr>
 <tr class="even">
-<td><span style="color:#FFA07A;">Synchronization was interrupted, please try again. Timeout when connecting to the Survey Solutions Supervisor website. Check your internet connection.</span></td>
-<td>Extremely slow network with packages delivered after a significant delay or lost.</td>
-<td>Check the <em>Server Response timeout</em> setting in the Settings of the Interviewer app is reasonably large, increase if necessary.<br />
+<td valign=top><span style="color:#FFA07A;">Synchronization was interrupted, please try again. Timeout when connecting to the Survey Solutions Supervisor website. Check your internet connection.</span></td>
+<td valign=top>Extremely slow network with packages delivered after a significant delay or lost.</td>
+<td valign=top>Check the <em>Server Response timeout</em> setting in the Settings of the Interviewer app is reasonably large, increase if necessary.<br />
 <br />
 Use alternative network if available.<br />
 <br />
@@ -140,8 +149,8 @@ Retry in different time when the network is not so busy.</td>
 </tr>
 <tr class="odd">
 <td> </td>
-<td>Connected to a network where the firewall is setup to prevent access to outside resources with timeout rather than special denial code.</td>
-<td>Contact the network administrator to check the firewall settings of the network and make sure the synchronization point is accessible.</td>
+<td valign=top>Connected to a network where the firewall is setup to prevent access to outside resources with timeout rather than special denial code.</td>
+<td valign=top>Contact the network administrator to check the firewall settings of the network and make sure the synchronization point is accessible.</td>
 </tr>
 </tbody>
 </table>
