@@ -30,6 +30,9 @@ portal. To do so, follow these steps:
 
 Before submitting a new server request, please note the following:
 
+- For surveys with 100,000 or more interviews 
+    [contact us](https://support.mysurvey.solutions/email-us/) directly
+    with your project details prior to requesting a server;
 - Submit a request from the account of that survey's point of contact.
 - Submit a separate request for each separate survey effort. While a
     single server can host any number of surveys, users will be best
