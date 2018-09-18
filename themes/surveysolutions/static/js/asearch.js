@@ -22,15 +22,15 @@ autocomplete('#aa-search-input',
 					title.innerText = `Articles (${algoliaResponse.nbHits})`;
 				},
 				suggestion: function (suggestion) {
-					$subtopic = suggestion._highlightResult.section.value;
+					console.log(suggestion);
 					return '<div class="px-3 py-2 text-secondary search-result-block">'
 						+ '<div class="d-flex align-items-stretch pb-1">'
 						+ '<span class="h6 flex-grow-1">'
 						+ suggestion._highlightResult.title.value
 						+ '</span>'
-						+ '<span class="section-name ' + $subtopic
+						+ '<span class="section-name ' + suggestion.type
 						+ ' w-30 text-uppercase w-30 p-1 align-self-start rounded text-light">'
-						+ $subtopic
+						+ suggestion._highlightResult.section.value
 						+ '</span>'
 						+ '</div>'
 						+ '<p class="short-summary p-0 m-0">'
@@ -54,13 +54,12 @@ autocomplete('#aa-search-input',
 					title.innerText = `Forum topics (${algoliaResponse.nbHits})`;
 				},
 				suggestion: function (suggestion) {
-					$subtopic = "forum";
 					return '<div class="px-3 py-2 text-secondary search-result-block">'
 						+ '<div class="d-flex align-items-stretch pb-1">'
 						+ '<span class="h6 flex-grow-1">'
 						+ suggestion._highlightResult.topic.title.value
 						+ '</span>'
-						+ '<span class="section-name ' + $subtopic
+						+ '<span class="section-name forum'
 						+ ' w-30 text-uppercase w-30 p-1 align-self-start rounded text-light">'
 						+ suggestion.category.name
 						+ '</span>'
