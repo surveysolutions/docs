@@ -17,6 +17,10 @@ autocomplete('#aa-search-input',
 			displayKey: 'title',
 			name: 'docs',
 			templates: {
+				header: function (data, algoliaResponse) {
+					var title = document.getElementById("docs-tab");
+					title.innerText = `Articles (${algoliaResponse.nbHits})`;
+				},
 				suggestion: function (suggestion) {
 					$subtopic = suggestion._highlightResult.section.value;
 					return '<div class="px-3 py-2 text-secondary search-result-block">'
@@ -33,7 +37,11 @@ autocomplete('#aa-search-input',
 						+ suggestion._highlightResult.summary.value
 						+ '</p>'
 						+ '</div>';
-				}
+				},
+				empty: function () {
+					var title = document.getElementById("docs-tab");
+					title.innerText = "Articles (0)";
+				},
 			}
 		},
 		{
@@ -41,6 +49,10 @@ autocomplete('#aa-search-input',
 			displayKey: 'title',
 			name: 'forum',
 			templates: {
+				header: function (data, algoliaResponse) {
+					var title = document.getElementById("forum-tab");
+					title.innerText = `Forum topics (${algoliaResponse.nbHits})`;
+				},
 				suggestion: function (suggestion) {
 					$subtopic = "forum";
 					return '<div class="px-3 py-2 text-secondary search-result-block">'
@@ -57,7 +69,11 @@ autocomplete('#aa-search-input',
 						+ suggestion._highlightResult.content.value
 						+ '</p>'
 						+ '</div>';
-				}
+				},
+				empty: function (data, algoliaResponse) {
+					var title = document.getElementById("forum-tab");
+					title.innerText = "Forum topics (0)";
+				},
 			}
 		}
 	]).on('autocomplete:selected', function (event, suggestion, dataset) {
