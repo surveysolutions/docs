@@ -17,7 +17,7 @@ portal. To do so, follow these steps:
     credentials used to access and edit questionnaires developed with
     Survey Solutions Designer.
 3. **Create a new server request.** From the Create Request menu,
-    select New server request. 
+    select New server request.
 4. **Fill the server request form.** Provide all requested information
     as accurately as possible. Contact the support team with questions
     about the form.
@@ -31,7 +31,7 @@ portal. To do so, follow these steps:
 Before submitting a new server request, please note the following:
 
 - For surveys with 100,000 or more interviews 
-    [contact us](https://support.mysurvey.solutions/email-us/) directly
+    {{< contactformurl label="contact us" >}} directly
     with your project details prior to requesting a server;
 - Submit a request from the account of that survey's point of contact.
 - Submit a separate request for each separate survey effort. While a

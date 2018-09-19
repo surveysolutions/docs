@@ -7,8 +7,7 @@ aliases = ["/customer/portal/articles/2759597-release-notes","/customer/en/porta
 +++
 
 *This page documents the features and bug fixes in new versions of
-Survey Solutions released by our team every month. You can [contact
-us]({{< ref "email-us" >}}) for more information on our
+Survey Solutions released by our team every month. You can {{< contactformurl label="contact us" >}} for more information on our
 development cycle.*  
   
 ----
@@ -78,7 +77,7 @@ Survey Solutions 18.04 release contains:
 -   Map report is now available for supervisors;
 -   Speed report uses active interview time;
 -   Search on the dashboard of the Interviewer app.
--   [View](http://support.mysurvey.solutions/customer/en/portal/articles/2932045).
+-   [View](/release-notes/version-18-04).
 
 ### Survey Solutions 5.26
 
@@ -122,7 +121,7 @@ Survey Solutions 5.25 release contains:
     manage maps and distribute them wirelessly to interviewers.
 -   **Admin auditing log.** Record of all the main actions on the
     server, identifying who made the action, and when.
--   [View](http://support.mysurvey.solutions/customer/en/portal/articles/2908701-version-5-25).
+-   [View](/release-notes/version-5-25).
 
 ### Survey Solutions 5.24
 
@@ -135,7 +134,7 @@ Survey Solutions 5.24 release contains:
     interviewer dashboard;
 -   several critical bugfixes to address the issues raised by our users
     on the forum and in the requests for technical support;
--   [View](http://support.mysurvey.solutions/customer/en/portal/articles/2883853-version-5-24).
+-   [View](/release-notes/version-5-24).
 
 ### Survey Solutions 5.23
 
