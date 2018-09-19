@@ -1,4 +1,4 @@
-& $env:hugoexe
+& $env:hugoexe --cleanDestinationDir --gc
 
 $content = (Get-Item public).FullName
 
