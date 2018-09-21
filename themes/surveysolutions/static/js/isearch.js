@@ -55,4 +55,10 @@ search.addWidget(
   })
 );
 
+name = 'key';
+var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+var searchstring = regex.exec(location.search);
+if (searchstring !== null) {
+    document.getElementById("aa-search-input").value = decodeURIComponent(searchstring[1].replace(/\+/g, ' '));
+}
 search.start();
