@@ -169,4 +169,12 @@ more intuitive for users. However, if you would like to continue using
 the old interface, click on ***Old interview details ***to return to the
 old interface. The old interface can still be used for a few more
 months. However, we highly recommend users use the new Interview details
-interface.
+interface.  
+
+
+           
+Review interviews in a flat, compact view
+-----------------------------------------
+
+Interviewers and Supervisors may now **review interviews in a flat, compact view**. By clicking OVERVIEW, they can see a compact presentation of the interview. The purpose of the flat view representation both on tablets and on HQ is to offer to interviewers and supervisors an alternative and, for some users, more convenient way to review interviews. _This feature was requested by Statistical Mauritius and other users_.
+{{< imgproc "images/interview flat view - on tablet, and on HQ or Supervisor.png" Fit "800x600" />}}
