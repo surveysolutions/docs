@@ -1,5 +1,16 @@
 & $env:hugoexe --cleanDestinationDir --gc
 
+
+if (-not $env:ALGOLIA_ADMIN_KEY) {
+	Write-Error "algolia admin key is required"
+}
+$env:ALGOLIA_APP_ID = "5IDMO489J3"
+$env:ALGOLIA_INDEX_NAME = "support.mysurvey.solutions"
+$env:ALGOLIA_INDEX_FILE = "public/algolia.json"
+
+& npm install
+& npm run algolia
+
 $content = (Get-Item public).FullName
 
 Remove-Item (Join-Path $content "algolia.json") -ErrorAction "Continue"
