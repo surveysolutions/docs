@@ -110,7 +110,7 @@ header{
   width: 100%;
 }
 .form-inline .search{
-  width: 100%px;
+  width: 100%;
   background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
   background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
   background: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
@@ -121,18 +121,56 @@ header{
   border-radius: 7px;
   background: transparent;
   font: 16px/18px "RobotoBold";
-  padding: 5px 0px 5px 20px;
+  padding: 5px 50px 5px 20px;
   letter-spacing: 1.2px;
   box-shadow: none;
   height: 60px;
   display: inline-block;
   color: #003550;
 }
+.search input::-webkit-search-cancel-button {
+  display: none;
+}
+.search input::-ms-clear {
+  display: none;
+}
+/* .search .close{
+  position: absolute;
+  right: 45px;
+  top: 0;
+  width: 30px;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+}
+.search input:not(:placeholder-shown) ~ .search .close{
+  opacity: 1;
+  visibility: visible;
+  background-color: blue;
+  z-index: 5;
+} */
+.search:before{
+  position: absolute;
+  right: 15px;
+  top: 18px;
+  display: block;
+  content: "";
+  background-image: url("../img/Search_button.png") !important;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  opacity: 0.3;
+  width: 26px;
+  height: 26px;
+  z-index: 5;
+}
+.search:hover::before, .search:focus::before, .search:active::before{
+  opacity: 0.8;
+}
 .search input::placeholder{
 	color: #003550;
 	letter-spacing: 1.2px;
 }
-.btn-search{
+/* .btn-search{
   background-color: transparent;
   border-color: transparent;
   border-top-right-radius: 7px;
@@ -151,10 +189,11 @@ header{
 }
 .btn-search:hover span, .btn-search:focus span, .btn-search:active span{
   opacity: 1;
-}
+} */
 .algolia-autocomplete{
-  flex: 1 1 auto !important;
-  display: flex !important;
+  /* flex: 1 1 auto !important;
+  display: flex !important; */
+  width: 100%;
 } 
 .algolia-autocomplete .aa-hint {
   color: #999;
