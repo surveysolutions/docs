@@ -9,7 +9,7 @@ aliases = ["/customer/portal/articles/2921275-version-5-26","/customer/en/portal
  
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Version
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Version
 5.26 of Survey Solutions released on Feb. 08. 2018 comes with several
 new features and numerous important improvements. </span></span>  
  
@@ -17,41 +17,41 @@ new features and numerous important improvements. </span></span>
 ------------------------------------------------------------------------
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
-style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">1.
+style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">1.
 **Online Tester** tool allows instant preview of the designed
 questionnaires in the browser.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
-style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">2.
+style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">2.
 Interviewers can be **transferred between different
 teams**.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
-style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">3.
+style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">3.
 **Descriptive meta information** can be added to the questionnaires
 being designed.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
-style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">4.
+style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">4.
 New tab **“Shared with me”** in Designer for shared
 questionnaires.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
-style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">5.
+style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">5.
 Enhancements in **data export**.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
-style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">6.
+style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">6.
 Objective **measurement of time** of recalculation of
 expressions.</span></span>
 
 <span id="docs-internal-guid-c1fec818-761c-edba-e266-900dadafd7ae"><span
-style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">7.
+style="font-size: 12pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">7.
 Other **improvements** and bugfixes.</span></span>
 
   
 **The **<span
-style="color: rgb(0, 0, 0); font-family: Arial; font-size: 14.6667px; white-space: pre-wrap;">5th
+style="color: rgb(0, 0, 0); font-family: Arial; font-size: 14.6667px; ">5th
 Survey Solutions User Group online meeting took place on 14th February
 2018.</span>  
   
@@ -59,41 +59,41 @@ Survey Solutions User Group online meeting took place on 14th February
 
 ------------------------------------------------------------------------
 
-<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 20pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Online Tester</span></span>
+<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 20pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Online Tester</span></span>
 =====================================================================================================================================================================================================================================================================================================================
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img src="https://lh5.googleusercontent.com/1nMFVMXlsDEV4C00uPrwbv6q5YkUp-HNSd8IW2DPiQkuPwIT-O21Gf6aX7_j4cxOvI2Wc9Gloksntw1XtTN2AJvkAI_di31ikzcZuUkU7PXIgMT1nImQYuTk5933McAg5JWop9CN" width="624" height="475" /></span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; "><img src="https://lh5.googleusercontent.com/1nMFVMXlsDEV4C00uPrwbv6q5YkUp-HNSd8IW2DPiQkuPwIT-O21Gf6aX7_j4cxOvI2Wc9Gloksntw1XtTN2AJvkAI_di31ikzcZuUkU7PXIgMT1nImQYuTk5933McAg5JWop9CN" width="624" height="475" /></span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">The
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">The
 Survey Solutions Designer now provides an instantly accessible tool to
 test questionnaires online: the </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Online
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Online
 Tester</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">.
 This allows more streamlined testing of the questionnaires without the
 need to transfer them to the tablet. Among the other advantages is
 automatic access to the most recent version of the Tester, without the
 need to update it on the tablet and possibility to utilize the tester
 functionality for the users that have no access to the </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Google
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Google
 Play</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.</span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">To
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">To
 start the Online Tester tool, click the </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Test
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Test
 </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">button
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">button
 located next to the </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Compile
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Compile
 </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">button.</span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">button.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Online
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Online
 Tester provides an accurate impression of the questionnaire functioning
 during the preparation for the web interviews, which don’t utilize the
 tablets. Users that utilize Online Tester for testing their
@@ -105,16 +105,16 @@ used for the actual data collection). See also the performance
 measurements for tablet’s response time below.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Currently
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Currently
 the Online Tester does not show the computed value  of variables during
 testing. Questionnaires that have syntax errors in conditions or other
 compilation errors can’t be tested.</span></span>
 
-<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Reassign interviewers between the teams</span></span>
+<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Reassign interviewers between the teams</span></span>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Reassigning
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Reassigning
 an interviewer from one team to another is a useful team management
 action to bring a team’s size in accordance with it’s workload,
 eliminate bottlenecks and solve other practical problems. We have added
@@ -122,17 +122,17 @@ the reassigning as a possible action of the headquarters users in v.5.26
 and it can be completed in one of the following two modes:</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">a)
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">a)
 interviewer is being moved to another team, taking all the assignments
 and interviews with him/her;</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">b)
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">b)
 interviewer is being moved to another team, passing his/her existing
 interviews and assignments to the original supervisor.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Frequently,
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Frequently,
 the reallocation of the interviewers between the teams is an action
 taken after e.g. a training or pilot, in which case the interviewers
 have no assignments and no interviews for which they are responsible.
@@ -140,7 +140,7 @@ The reassignment at this stage is easy and safe, and there is no
 difference between the two modes.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">If
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">If
 the assignments have been made already, one has to decide whether the
 interviewer is moved with his workload or not. Usually, if the
 interviewer is reassigned to the team working in a different
@@ -151,87 +151,87 @@ interviewer still might complete the assignments and so may be
 transferred with his existing workload.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">If
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">If
 the assignments are conducted during the data collection activities, the
 reassignment should be done with </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; vertical-align: baseline; white-space: pre-wrap;">caution
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; vertical-align: baseline; ">caution
 to avoid data loss</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">!
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">!
 If the interviewer is reassigned with a rejected interview, this
 interview will not be accepted from him when he tries to complete it
 (since it becomes the responsibility of the supervisor immediately after
 the reassignment).</span></span>
 
-<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 20pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Questionnaire meta information</span></span>
+<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 20pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Questionnaire meta information</span></span>
 ======================================================================================================================================================================================================================================================================================================================================
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">A
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">A
 new tab in the questionnaire designer now provides access to more than a
 dozen meta information fields, which can be filled out by the designer
 to describe the questionnaire (type of survey, covered country(ies),
 period of survey, responsible organization, etc). </span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">We
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">We
 recommend our users provide as much information as possible in these
 fields to properly classify their composed instruments.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img src="https://lh3.googleusercontent.com/88TJpbvm3V4YESsIjYkFVmBSbeZcdgTwHIuGgAwtxSYc5fC2zqNHh3JKxA6GOucYn7gC1vjgs8rsu2RIpe33kfwMMOSclsZQ66eNi0O5yPl9UP05TrKoGZrVEJnqSnYE_ufbwR3G" width="624" height="343" /></span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; "><img src="https://lh3.googleusercontent.com/88TJpbvm3V4YESsIjYkFVmBSbeZcdgTwHIuGgAwtxSYc5fC2zqNHh3JKxA6GOucYn7gC1vjgs8rsu2RIpe33kfwMMOSclsZQ66eNi0O5yPl9UP05TrKoGZrVEJnqSnYE_ufbwR3G" width="624" height="343" /></span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">The
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">The
 meta information entered here also appears in the PDF preview of the
 questionnaire for documentation purposes.</span></span>
 
-<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">User Folders: Own and Shared Questionnaires</span></span>
+<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">User Folders: Own and Shared Questionnaires</span></span>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">We
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">We
 have added a new tab in the Designer “</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Questionnaires
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Questionnaires
 shared with me</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">”
 in addition to “</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">My
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">My
 questionnaires</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">”
 and “</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Public
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Public
 questionnaires</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”.
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">”.
 All of the questionnaires that are shared with you by your co-authors
 will be shown there. “</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">My
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">My
 questionnaires</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">”
 shows only those questionnaires for which you are the owner.
 </span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img src="https://lh3.googleusercontent.com/tHKPAoCk5q20-T9GQ8bKK3izPls3QmVwpl_GjmW92yowzYrGkzc5muCGflT-DZByGDqv-AVOaEB3eGSjDWNFXZY85c-aLYqEitHthmdIX9J-iSDG68bjLky3l-Ewu_MXmB0C0rJO" width="624" height="165" /></span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; "><img src="https://lh3.googleusercontent.com/tHKPAoCk5q20-T9GQ8bKK3izPls3QmVwpl_GjmW92yowzYrGkzc5muCGflT-DZByGDqv-AVOaEB3eGSjDWNFXZY85c-aLYqEitHthmdIX9J-iSDG68bjLky3l-Ewu_MXmB0C0rJO" width="624" height="165" /></span></span>
 
-<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Changes to Export of Data</span></span>
+<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Changes to Export of Data</span></span>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">The
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">The
 following changes have been introduced to the exported
 data:</span></span>
 
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">During
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">During
     the export to statistical packages Survey Solutions inserts an
     extended missing value where the answer could have been provided by
     the interviewer, but wasn’t. Specifically, for SPSS system file
     format (\*.sav), this value is now marked as a missing value. For
     Stata binary file format (\*.dta) this value is replaced with
     Stata’s extended missing value </span><span
-    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.a</span><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.
+    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">.a</span><span
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">.
     Both SPSS and Stata will automatically account for missinges  in
     computation of averages, tabulations, and other analyses. There are
     no extended missing values for tab-delimited export and the user
@@ -239,41 +239,41 @@ data:</span></span>
     their analyses based on the tab-delimited files.</span></span>
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Types
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Types
     of the variables are now more rigidly determined by the
     questionnaire. You should expect now that even if all content of a
     string variable is numeric, it should export as string (earlier it
     could be saved as a numeric column).</span></span>
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">The
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">The
     API for data export now supports specifying parameters </span><span
-    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">from
+    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">from
     </span><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">and
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">and
     </span><span
-    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">to</span><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">,
+    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">to</span><span
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">,
     to restrict the exported data to only the interviews on which any
     change occurred in the specified window.</span></span>
 
-<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"></span></span><span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Time of the Expressions Calculation</span></span>
+<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; "></span></span><span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Time of the Expressions Calculation</span></span>
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img src="https://lh4.googleusercontent.com/RjQOW2CUYAIf7_weNlaIn2e5wiVkX4rzviFuF7pzQrD3E99d0o11jU_Rrc2iGuIf_4WoUPIg0jkShkff4Zf2VXAM5QEVF9Jmeb6jc66obuV4Z4vSMB50_ffUp3Mh1gbzXvtkUfKm" width="328" height="291" /></span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; "><img src="https://lh4.googleusercontent.com/RjQOW2CUYAIf7_weNlaIn2e5wiVkX4rzviFuF7pzQrD3E99d0o11jU_Rrc2iGuIf_4WoUPIg0jkShkff4Zf2VXAM5QEVF9Jmeb6jc66obuV4Z4vSMB50_ffUp3Mh1gbzXvtkUfKm" width="328" height="291" /></span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">To
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">To
 be able to get objective measurements of the responsiveness of the
 questionnaire on a tablet one can activate the execution time
 measurement in the Tester App’s settings: </span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Show
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Show
 elapsed time per answer</span><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">.</span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">In
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">In
 this mode the Tester app will report the time it took to recalculate all
 of the expressions as a result of the user providing or changing any
 answer. Time is reported at the bottom of the screen in seconds or
@@ -282,18 +282,18 @@ not include the time necessary to redraw the screen, so total response
 time will be larger.</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Smaller
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Smaller
 values correspond to faster reactions and better interviewer experience.
 If you are getting large values, either simplify the conditions (e.g.
 validations) in the questionnaire, or seek for better
 hardware.</span></span>
 
-<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Other changes</span></span>
+<span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span style="font-size: 16pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Other changes</span></span>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Improvement
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">Improvement
     in speed of calculations: v5.26 includes a new algorithm to reduce
     the re-calculation of all the user-written expressions (enabling
     conditions, validation conditions, etc) to gain performance and to
@@ -301,49 +301,49 @@ hardware.</span></span>
     complex questionnaires.</span></span>
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">We
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">We
     have restricted the roster variable name (identifier assigned to
     roster) to 28 characters long. This is done to make sure that the
     automatically generated ID (</span><span
-    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">rostername\_\_ID</span><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">)
+    style="font-size: 11pt; background-color: transparent; font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">rostername\_\_ID</span><span
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">)
     is a valid variable name (fits into Stata’s 32-characters limit). If
     your older questionnaire made use of longer roster variable names,
     you may need to rename them.</span></span>
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">We
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">We
     improved the presentation of the header of an interview when it is
     being reviewed by the supervisors/headquarter users. It is now
     presented in more compact, yet informative way:</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img src="https://lh6.googleusercontent.com/WrtFE8oFAhSnZm4DtN3H2MT6uhyCoW9orOV1n8mlZWqu-FSJ5jCOIRCNzKGTgBpHLtam1DWgkacdknOzKUfo-RszRF7JoHyeJK8A-A02cHQewdrRJcHBzoomlNuOac4oWfkJLk7p" width="583" height="172" /></span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; "><img src="https://lh6.googleusercontent.com/WrtFE8oFAhSnZm4DtN3H2MT6uhyCoW9orOV1n8mlZWqu-FSJ5jCOIRCNzKGTgBpHLtam1DWgkacdknOzKUfo-RszRF7JoHyeJK8A-A02cHQewdrRJcHBzoomlNuOac4oWfkJLk7p" width="583" height="172" /></span></span>
 
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">We
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">We
     have added support of Chinese language in the
     Designer:</span></span>
 
 <span id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img src="https://lh5.googleusercontent.com/SBNveXsiLkrQqWBOzfNpWh1roMj2_nd4Nq_KiGLtUUZU4HSl-rmKZFP3KfmooWzMXjb3PAF7s3SKgpdvOO5Yo8ofJr9YdCQjVUxs84fQ3hGUfYrjaLnV1eaB8KioD9b4u9UyQ4RZ" width="579" height="304" /></span></span>
+style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; "><img src="https://lh5.googleusercontent.com/SBNveXsiLkrQqWBOzfNpWh1roMj2_nd4Nq_KiGLtUUZU4HSl-rmKZFP3KfmooWzMXjb3PAF7s3SKgpdvOO5Yo8ofJr9YdCQjVUxs84fQ3hGUfYrjaLnV1eaB8KioD9b4u9UyQ4RZ" width="579" height="304" /></span></span>
 
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">The
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">The
     new minimum version of .Net framework for local servers is now .Net
     4.7.1. Refer to Microsoft’s web site to acquire the .Net 4.7.1 if
     you need to update your installation: </span>[<span
-    style="font-size: 11pt; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; vertical-align: baseline; white-space: pre-wrap;">https://www.microsoft.com/net/download/dotnet-framework-runtime</span>](https://www.microsoft.com/net/download/dotnet-framework-runtime)</span>
+    style="font-size: 11pt; color: rgb(17, 85, 204); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; vertical-align: baseline; ">https://www.microsoft.com/net/download/dotnet-framework-runtime</span>](https://www.microsoft.com/net/download/dotnet-framework-runtime)</span>
 -   <span
     id="docs-internal-guid-f5bde56b-7618-aebd-ac9e-9db1d6dc4822"><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">We
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">We
     are about to retire the old presentation of interview details (link:
     </span><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; vertical-align: baseline; white-space: pre-wrap;">old
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; vertical-align: baseline; ">old
     interview details</span><span
-    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">)
+    style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; ">)
     that we have retained to smoothen the transition. For all users we
     recommend to utilize the new interview details view immediately and
     catch up with supervisors’ training as necessary.</span></span>
