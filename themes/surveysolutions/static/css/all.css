@@ -134,21 +134,6 @@ header{
 .search input::-ms-clear {
   display: none;
 }
-/* .search .close{
-  position: absolute;
-  right: 45px;
-  top: 0;
-  width: 30px;
-  height: 100%;
-  visibility: hidden;
-  opacity: 0;
-}
-.search input:not(:placeholder-shown) ~ .search .close{
-  opacity: 1;
-  visibility: visible;
-  background-color: blue;
-  z-index: 5;
-} */
 .search:before{
   position: absolute;
   right: 15px;
