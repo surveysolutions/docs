@@ -34,7 +34,7 @@ autocomplete('#aa-search-input',
 						+ '</span>'
 						+ '</div>'
 						+ '<p class="short-summary p-0 m-0">'
-						+ suggestion._highlightResult.summary.value
+						+ suggestion._highlightResult.content.value
 						+ '</p>'
 						+ '</div>';
 				},

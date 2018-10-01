@@ -4,7 +4,44 @@
 {{- range .Site.AllPages -}}
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
     {{- $pagesection := $.Site.GetPage "section" .Section -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "date" .Date.UTC.Unix "description" .Description "dir" .Dir "expirydate" .ExpiryDate.UTC.Unix "fuzzywordcount" .FuzzyWordCount "keywords" .Keywords "kind" .Kind "lang" .Lang "lastmod" .Lastmod.UTC.Unix "permalink" .Permalink "publishdate" .PublishDate "readingtime" .ReadingTime "relpermalink" .RelPermalink "summary" .Summary "title" .Title "type" .Type "url" .URL "weight" .Weight "wordcount" .WordCount "section" $pagesection.Title "tags" .Params.Tags "categories" .Params.Categories "authors" .Params.Authors)}}
+    {{- $.Scratch.Delete "content" -}}
+    {{- range first 1000 .PlainWords -}}
+      {{- $.Scratch.Add "content" " " -}}
+      {{- $.Scratch.Add "content" . -}}
+    {{- end -}}
+    {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .URL "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+    {{- if gt .PlainWords 1000 -}}
+      {{- $.Scratch.Delete "content" -}}
+      {{- range first 1000 (after 1000 .PlainWords) -}}
+        {{- $.Scratch.Add "content" " " -}}
+        {{- $.Scratch.Add "content" . -}}
+      {{- end -}}
+      {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .URL "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+    {{- end -}}
+    {{- if gt .PlainWords 2000 -}}
+      {{- $.Scratch.Delete "content" -}}
+      {{- range first 1000 (after 2000 .PlainWords) -}}
+        {{- $.Scratch.Add "content" " " -}}
+        {{- $.Scratch.Add "content" . -}}
+      {{- end -}}
+      {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .URL "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+    {{- end -}}
+    {{- if gt .PlainWords 3000 -}}
+      {{- $.Scratch.Delete "content" -}}
+      {{- range first 1000 (after 3000 .PlainWords) -}}
+        {{- $.Scratch.Add "content" " " -}}
+        {{- $.Scratch.Add "content" . -}}
+      {{- end -}}
+      {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .URL "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+    {{- end -}}
+    {{- if gt .PlainWords 4000 -}}
+      {{- $.Scratch.Delete "content" -}}
+      {{- range first 1000 (after 4000 .PlainWords) -}}
+        {{- $.Scratch.Add "content" " " -}}
+        {{- $.Scratch.Add "content" . -}}
+      {{- end -}}
+      {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .URL "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

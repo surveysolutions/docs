@@ -47,8 +47,8 @@ search.addWidget(
     templates: {
         empty: 'No results',
         item: '<div class="article-short-view pl-5 position-relative">'
-        + '<h3><a href="{{relpermalink}}">{{{_highlightResult.title.value}}}</a></h3>'
-        + '<p class="mb-2">{{{_highlightResult.summary.value}}}</p>'
+        + '<h3><a href="{{url}}">{{{_highlightResult.title.value}}}</a></h3>'
+        + '<p class="mb-2">{{{_highlightResult.content.value}}}</p>'
         + '<span class="data d-block">{{lastmod}}</span>'
         + '</div>'
     }
