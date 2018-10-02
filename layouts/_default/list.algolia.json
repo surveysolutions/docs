@@ -4,12 +4,14 @@
 {{- range .Site.AllPages -}}
   {{- if or (and (.IsDescendant $section) (and (not .Draft) (not .Params.private))) $section.IsHome -}}
     {{- $pagesection := $.Site.GetPage "section" .Section -}}
-    {{- $.Scratch.Delete "content" -}}
-    {{- range first 1000 .PlainWords -}}
-      {{- $.Scratch.Add "content" " " -}}
-      {{- $.Scratch.Add "content" . -}}
+    {{- if gt .PlainWords 0 -}}
+      {{- $.Scratch.Delete "content" -}}
+      {{- range first 1000 .PlainWords -}}
+        {{- $.Scratch.Add "content" " " -}}
+        {{- $.Scratch.Add "content" . -}}
+      {{- end -}}
+      {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .URL "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
     {{- end -}}
-    {{- $.Scratch.Add "index" (dict "objectID" .UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .URL "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
     {{- if gt .PlainWords 1000 -}}
       {{- $.Scratch.Delete "content" -}}
       {{- range first 1000 (after 1000 .PlainWords) -}}
