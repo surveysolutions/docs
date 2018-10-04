@@ -1,5 +1,5 @@
 +++
-title = "Version 18 10"
+title = "Version 18.10"
 keywords = ["18.10"]
 date = 2018-10-01T11:38:43-04:00
 lastmod = 2018-10-01T11:38:43-04:00
