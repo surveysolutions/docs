@@ -6,11 +6,35 @@
             <div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end">
                 <h2 class="mb-3 mr-auto pr-3">{{.Title}}</h2>
             </div>
+
             <div class="list_of_articles">
                 {{ if .Sections }}
+                <div class="accordion" id="accordionSections">
                     {{ range (.Sections)}}
-                    <p><a href="{{ .Permalink }}">{{.Title}}</a></p>
+                    <div class="card">
+                        <div class="card-header" id="headingSubsection">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed text-dark btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSubsection" aria-expanded="false" aria-controls="collapseSubsection">
+                                    {{.Title}}
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSubsection" class="collapse" aria-labelledby="headingSubsection" data-parent="#accordionSections">
+                            <div class="card-body">
+                                {{ range .Pages.ByLastmod.Reverse }}
+                                    <div class="article-short-view pl-5 position-relative">
+                                        <h3>
+                                            <a href="{{ .Permalink }}">{{.Title}}</a>
+                                        </h3>
+                                        <p class="mb-2">{{.Summary}}</p>
+                                        <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>
+                                    </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
                     {{ end }}
+                    </div>
                 {{end}}
 
                 {{ if .Pages }}
