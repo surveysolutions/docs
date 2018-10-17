@@ -7,15 +7,25 @@
                 <h2 class="mb-3 mr-auto pr-3">{{.Title}}</h2>
             </div>
             <div class="list_of_articles">
-                {{ range (.Paginate ( .Data.Pages.ByLastmod.Reverse )).Pages }}
-                <div class="article-short-view pl-5 position-relative">
-                    <h3>
-                        <a href="{{ .Permalink }}">{{.Title}}</a>
-                    </h3>
-                    <p class="mb-2">{{.Summary}}</p>
-                    <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>
-                </div>
-                {{ end }} {{ partial "pagination.html" . }}
+                {{ if .Sections }}
+                    {{ range (.Sections)}}
+                    <p><a href="{{ .Permalink }}">{{.Title}}</a></p>
+                    {{ end }}
+                {{end}}
+
+                {{ if .Pages }}
+                    {{ if .Sections }}<p>articles without section</p>{{ end }}
+                    {{ range (.Paginate ( .Data.Pages.ByLastmod.Reverse )).Pages }}
+                        <div class="article-short-view pl-5 position-relative">
+                            <h3>
+                                <a href="{{ .Permalink }}">{{.Title}}</a>
+                            </h3>
+                            <p class="mb-2">{{.Summary}}</p>
+                            <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>
+                        </div>
+                    {{ end }}
+                    {{ partial "pagination.html" . }}
+                {{ end }}
             </div>
         </div>
     </section>

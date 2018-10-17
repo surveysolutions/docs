@@ -8,11 +8,12 @@
 		<h3>{{ .Title }}</h3>
 	</a>
 	<ul class="list-unstyled mb-3">
-		{{ range first 4 .Pages.ByLastmod.Reverse }}
+		{{ $allpages := where (where .Site.Pages "Section" .Section) "IsPage" true }}
+		{{ range first 4  $allpages.ByLastmod.Reverse }}
 		<li><a href="{{ .Permalink }}" class="text-dark">{{ .Title }}</a></li>
 		{{ end }}
 	</ul>
-	<a href="{{ .Permalink }}" class="d-block counter mb-2">{{ len .Pages }} Articles <span class="badge badge-secondary"><img src="img/arrow.png" alt="" /></span></a>
+	<a href="{{ .Permalink }}" class="d-block counter mb-2">{{ len $allpages }} Articles <span class="badge badge-secondary"><img src="img/arrow.png" alt="" /></span></a>
 	{{ with .Params.VideoLink }}
 	<a href="{{ . }}" class="d-block tutorial-link d-flex align-items-center mb-3"><span class="tutorials"></span>videos</a>
 	{{ end }}
