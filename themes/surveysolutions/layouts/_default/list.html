@@ -8,48 +8,7 @@
             </div>
 
             <div class="list_of_articles">
-                {{ if .Sections }}
-                <div class="accordion" id="accordionSections">
-                    {{ range (.Sections)}}
-                    <div class="card">
-                        <div class="card-header" id="heading{{.UniqueID}}">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed text-dark btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse{{.UniqueID}}" aria-expanded="false" aria-controls="collapse{{.UniqueID}}">
-                                    {{.Title}}
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapse{{.UniqueID}}" class="collapse" aria-labelledby="heading{{.UniqueID}}" data-parent="#accordionSections">
-                            <div class="card-body">
-                                {{ range .Pages.ByLastmod.Reverse }}
-                                    <div class="article-short-view pl-5 position-relative">
-                                        <h3>
-                                            <a href="{{ .Permalink }}">{{.Title}}</a>
-                                        </h3>
-                                        <p class="mb-2">{{.Summary}}</p>
-                                        <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>
-                                    </div>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </div>
-                    {{ end }}
-                    </div>
-                {{end}}
-
-                {{ if .Pages }}
-                    {{ if .Sections }}<p>articles without section</p>{{ end }}
-                    {{ range (.Paginate ( .Data.Pages.ByLastmod.Reverse )).Pages }}
-                        <div class="article-short-view pl-5 position-relative">
-                            <h3>
-                                <a href="{{ .Permalink }}">{{.Title}}</a>
-                            </h3>
-                            <p class="mb-2">{{.Summary}}</p>
-                            <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>
-                        </div>
-                    {{ end }}
-                    {{ partial "pagination.html" . }}
-                {{ end }}
+                {{- partial "collapse-sections.html" . -}}
             </div>
         </div>
     </section>
