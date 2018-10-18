@@ -514,6 +514,7 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
   /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: 0.5rem;
 }
 .data{
   font: 11px/13px "Roboto";
