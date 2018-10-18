@@ -6,7 +6,7 @@ html {
 body {
   /* Margin bottom by footer height */
   padding-bottom: 270px;
-  font: 14px/16px "RobotoRegular";
+  font: 14px/16px "Roboto";
   min-height: 100%;
   position: relative;
   min-width: 380px;
@@ -28,27 +28,27 @@ body {
 }
 /* Custom page CSS
 -------------------------------------------------- */
-@font-face {
+/* @font-face {
   font-family: 'RobotoBold';
   src: url('../fonts/RobotoBold.woff2') format('woff2'),
        url('../fonts/RobotoBold.woff') format('woff'),
        url('../fonts/RobotoBold.ttf') format('truetype'),
        url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'RobotoLight';
   src: url('../fonts/RobotoLight.woff2') format('woff2'),
        url('../fonts/RobotoLight.woff') format('woff'),
        url('../fonts/RobotoLight.ttf') format('truetype'),
        url('../fonts/RobotoLight.svg#RobotoLight') format('svg');
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'RobotoRegular';
   src: url('../fonts/RobotoRegular.woff2') format('woff2'),
        url('../fonts/RobotoRegular.woff') format('woff'),
        url('../fonts/RobotoRegular.ttf') format('truetype'),
        url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
-}
+} */
 .btn-search span,
 .tutorials,
 .img-container:before{
@@ -72,6 +72,9 @@ header{
   -o-background-size: cover;
   background-size: cover;
 }
+h3, .h3{
+  font-weight: 400;
+}
 .index-page header{
   background: url("../img/header.jpg"), #B0C4DE no-repeat 100% 420px;
   background: url("../img/header.jpg") no-repeat 0 0, -webkit-linear-gradient(left, #B0C4DE, #B0C4DE) no-repeat;
@@ -90,16 +93,19 @@ header{
   line-height: 29px;
 }
 .index-page .navbar-text {
-  font: 24px/26px "RobotoLight";
+  font: 24px/26px "Roboto";
+  font-weight: 300;
   max-width: 260px;
   border-left: 1px solid #fff;
 }
 .navbar-brand{
-  font: 22px/24px "RobotoBold";
+  font: 22px/24px "Roboto";
+  font-weight: 700;
   letter-spacing: 1px;
 }
 .navbar-text {
-  font: 20px/22px "RobotoLight";
+  font: 20px/22px "Roboto";
+  font-weight: 300;
   max-width: 200px;
   border-left: 1px solid #fff;
 }
@@ -120,7 +126,8 @@ header{
   border: none;
   border-radius: 7px;
   background: transparent;
-  font: 16px/18px "RobotoBold";
+  font: 16px/18px "Roboto";
+  font-weight: 500;
   padding: 5px 50px 5px 20px;
   letter-spacing: 1.2px;
   box-shadow: none;
@@ -251,7 +258,7 @@ header{
   right: 0;
   min-width: 400px;
 
-  font: 16px/18px "RobotoRegular";
+  font: 16px/18px "Roboto";
 }
 h3 a,
 .section-title h3{
@@ -426,7 +433,7 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
   float: left;
   margin-right: 15px;
   border-radius: 100%;
-  font-family: "RobotoRegular";
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: bold;
   border: 2px solid #457def;
@@ -480,7 +487,7 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
   border-bottom: 1px solid #DDD;
 }
 .page-title h2{
-  font: 24px/26px "RobotoRegular";
+  font: 24px/26px "Roboto";
 }
 .list_of_articles{
   max-width: 860px;
@@ -508,7 +515,8 @@ linear-gradient(to right, #2f77d6, #2f77d6) no-repeat 100% 0;
   text-overflow: ellipsis;
 }
 .data{
-  font: 11px/13px "RobotoBold";
+  font: 11px/13px "Roboto";
+  font-weight: 500;
   text-transform: uppercase;
   width: 150px;
 }
@@ -527,7 +535,7 @@ hr{
 /* article content */
 
 .article-content{
-  font: 14px/18px "RobotoRegular";
+  font: 14px/18px "Roboto";
 }
 .article-content ul li{
   margin-bottom: 5px;
