@@ -2,15 +2,25 @@
 <div class="accordion" id="accordionSections">
     {{ range (.Sections.Reverse)}}
     <div class="card">
-        <div class="card-header" id="heading{{.UniqueID}}">
+        <div class="card-header p-0" id="heading{{.UniqueID}}">
             <h5 class="mb-0">
-                <button class="btn btn-link collapsed text-dark btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse{{.UniqueID}}" aria-expanded="false" aria-controls="collapse{{.UniqueID}}">
-                    {{.Title}}
+                <button class="btn btn-link collapsed text-dark btn-block text-left p-2 pl-4" type="button" data-toggle="collapse" data-target="#collapse{{.UniqueID}}" aria-expanded="false" aria-controls="collapse{{.UniqueID}}">
+                    <span class="title-sub-section float-left">{{.Title}} </span>
+                    <span class="plus float-right">
+                        <svg class="circle">
+                        <g>
+                            <ellipse class="background" ry="15" rx="15" cy="16" cx="16" stroke-width="2"/>
+                            <ellipse class="foreground" ry="15" rx="15" cy="16" cx="16" stroke-width="2"/>
+                            <line class="line line1" x1="10" y1="16" x2="22" y2="16" />
+                            <line class="line line2" x1="10" y1="16" x2="22" y2="16" />
+                        </g>
+                        </svg>
+                    </span>
                 </button>
             </h5>
         </div>
-        <div id="collapse{{.UniqueID}}" class="collapse" aria-labelledby="heading{{.UniqueID}}" data-parent="#accordionSections">
-            <div class="card-body">
+        <div id="collapse{{.UniqueID}}" class="opened-list collapse" aria-labelledby="heading{{.UniqueID}}">
+            <div class="card-body p-0">
                 {{- partial "collapse-sections.html" . -}}
             </div>
         </div>
@@ -26,7 +36,7 @@
             <h3>
                 <a href="{{ .Permalink }}">{{.Title}}</a>
             </h3>
-            <p class="mb-2">{{.Summary}}</p>
+            <p>{{.Summary}}</p>
             <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>
         </div>
     {{ end }}
