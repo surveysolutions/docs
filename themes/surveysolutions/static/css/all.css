@@ -766,5 +766,19 @@ code{
   text-overflow: ellipsis;
   width: calc(100% - 42px);
   overflow: hidden;
-  white-space: nowrap;
+  /* white-space: nowrap; */
+}
+.release-notes-short-view ul{
+  list-style: none;
+}
+.release-notes-short-view ul li{
+  position: relative;
+}
+.release-notes-short-view ul li:before{
+  position: absolute;
+  display: block;
+  content: "\2713";
+  color: #007bff;
+  top: 0;
+  left: -20px;
 }
