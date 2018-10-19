@@ -8,5 +8,4 @@ date = 2016-03-03T00:00:00Z
 -   Linked questions now can reference and display **roster titles**
 -   Designer can control whether enablement conditions enable/disable
     questions or **show/hide**
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter13.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter13.pdf)

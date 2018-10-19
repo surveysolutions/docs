@@ -10,5 +10,4 @@ date = 2015-05-26T00:00:00Z
     multiple supervisors in a single operation;
 -   **New questionnaire completion report** provides more information
     for planning and decision making;
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter7.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter7.pdf)

@@ -22,5 +22,4 @@ date = 2014-11-10T00:00:00Z
     handle better the local scripts and punctuations.
 -   We also made some changes in the user interface on a tablet, fixed
     bugs and optimized Survey Solutions for better performance.
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter4.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter4.pdf)

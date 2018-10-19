@@ -13,5 +13,4 @@ date = 2016-12-12T00:00:00Z
     supervisor's approval
 -   Ability to reassigned interviews to a different Supervisor (team)
 -   Customization of the Headquarters login page with a custom logo
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter22.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter22.pdf)

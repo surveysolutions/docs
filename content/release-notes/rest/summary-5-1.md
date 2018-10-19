@@ -10,5 +10,4 @@ date = 2015-10-05T00:00:00Z
 -   New function for randomization in surveys
 -   Possibility for interviewer to 'un-answer' any question, and more
     changes to all components of Survey Solutions.
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter9.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter9.pdf)
