@@ -14,5 +14,4 @@ date = 2014-10-06T00:00:00Z
     users to search for an interview.
 -   **Improvements in Designer.** Large questionnaires load up to eight
     times faster.
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter3.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter3.pdf)

@@ -8,5 +8,4 @@ date = 2017-01-04T00:00:00Z
 -   Re-designed Headquarters pages
 -   Changes to Designer: substitution of the nested roster titles
 -   Animated group opening
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter23.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter23.pdf)

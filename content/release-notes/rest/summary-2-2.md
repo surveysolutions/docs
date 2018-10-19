@@ -28,5 +28,4 @@ This release, next to bug fixes and stability improvements, introduces:
     display basic information about the interview (responsible staff
     member, interview status), as well as a link to the complete
     interview record.
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter5August2014.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter5August2014.pdf)

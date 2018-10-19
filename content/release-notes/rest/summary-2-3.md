@@ -17,6 +17,4 @@ Survey Solutions 2.3 brings to the users four new features:
     templates can be now deleted, together with the corresponding data.
 -   **Headquarters: Survey progress graph.** For surveys conducted in
     the sample mode, a new report plots the survey progress.
--    
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter2.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter2.pdf)

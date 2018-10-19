@@ -14,5 +14,4 @@ date = 2015-09-01T00:00:00Z
     users.
 -   **Changes to questionnaire designer and programming language**
 -   **New guides on the use of functions** in Survey Solutions
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter8.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter8.pdf)

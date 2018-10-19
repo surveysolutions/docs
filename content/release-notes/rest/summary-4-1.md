@@ -11,5 +11,4 @@ date = 2015-04-01T00:00:00Z
 -   Interviewer tablets registration;
 -   Improved navigation in the questionnaire designer;
 -   Import of text options in single-choice questions.
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter5.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter5.pdf)

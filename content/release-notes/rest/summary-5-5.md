@@ -9,5 +9,4 @@ date = 2016-02-01T00:00:00Z
 -   Possibility to **create assignments directly to interviewers** from
     headquarters, bypassing the supervisor level
 -   **Encryption of data** in exported file, and other changes.
--   [Download the full release
-    notes](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1408049903585/ReleaseLetter12.pdf)
+-   [Download the full release notes](/release-notes/rest/ReleaseLetter12.pdf)
