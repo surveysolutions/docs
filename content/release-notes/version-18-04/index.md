@@ -1,6 +1,6 @@
 ﻿+++
 title = "Version 18.04"
-keywords = [""]
+keywords = ["18.04"]
 date = 2018-04-02T22:42:28Z
 lastmod = 2018-04-02T22:42:28Z
 aliases = ["/customer/portal/articles/2932045-version-18-04","/customer/en/portal/articles/2932045-version-18-04","/customer/portal/articles/2932045","/customer/en/portal/articles/2932045"]

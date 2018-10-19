@@ -1,6 +1,6 @@
 ﻿+++
 title = "Version 5.24"
-keywords = [""]
+keywords = ["5.24"]
 date = 2017-10-03T19:31:00Z
 lastmod = 2017-10-03T19:31:00Z
 aliases = ["/customer/portal/articles/2883853-version-5-24","/customer/en/portal/articles/2883853-version-5-24","/customer/portal/articles/2883853","/customer/en/portal/articles/2883853"]

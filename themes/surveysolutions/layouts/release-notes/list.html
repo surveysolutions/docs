@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main class="container mb-3">
+    {{- partial "breadcrumb.html" . -}}
+    <section>
+        <div class=" mb-4">
+            <div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end">
+                <h2 class="mb-3 mr-auto pr-3">{{.Title}}</h2>
+            </div>
+
+            <div class="list_of_articles">
+            {{ range .Pages }}
+            <div>
+                <h3>Survey Solutions {{index .Keywords 0}}</h3>
+                <span style="float: right; padding-top: 20px;">{{.Date.Format "January 2, 2006"}}</span>
+                <p>Version {{index .Keywords 0}} contains:</p>
+                {{ with (.Resources.GetMatch "summary*") }}{{ .Content }} {{ end }}
+            </div>
+            {{ end }}
+            {{ $rest := .Site.GetPage "release-notes/rest"  }}
+            {{ range ($rest.Resources.Match "summary*") }}
+                <div>
+                    <h3>{{.Title}} {{index .Keywords 0}}</h3>
+                    {{ if isset .Params "date" }}<span style="float: right; padding-top: 20px;">{{.Date.Format "January 2, 2006"}}</span>{{ end }}
+                    {{ if isset .Params "keywords" }}<p>Version {{index .Keywords 0}} contains:</p>{{ end }}
+                    {{ .Content }}
+                </div>
+            {{ end }}
+            </div>
+        </div>
+    </section>
+</main>
+{{ end }}
