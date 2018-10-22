@@ -43,15 +43,16 @@
 	<hr />
 	<div class="container copyright">
 		<div class="float-left">
-			© 2016-{{ now.Format "2006" }} The World Bank Group
+			&#169; 2016-{{ now.Format "2006" }} The World Bank Group
 			<br /> All rights Reserved. <a href="http://go.worldbank.org/OS6V7NIUD0">Legal</a>
 		</div>
 	</div>
 </footer>
-<!-- <script src="/js/jQuery_v3.3.1.js"></script> -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<!-- <script src="/js/bootstrap.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+{{ if .IsHome }}
+<script src="/js/forum_summary.js"></script>
+{{ end }}
 {{ if eq .Type "search" }}
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.9.0"></script>
 <script src="/js/isearch.js"></script>
