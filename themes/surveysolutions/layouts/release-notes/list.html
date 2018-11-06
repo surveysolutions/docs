@@ -8,7 +8,7 @@
             </div>
 
             <div class="container">
-            {{ range .Pages }}
+            {{ range .Pages.ByLastmod.Reverse }}
             <div class="mb-4 pb-2 border-bottom release-notes-short-view">
                 <h3 class="mb-0">Survey Solutions {{index .Keywords 0}}</h3>
                 <span class="d-block text-right">{{.Date.Format "January 2, 2006"}}</span>
@@ -17,7 +17,7 @@
             </div>
             {{ end }}
             {{ $rest := .Site.GetPage "release-notes/rest"  }}
-            {{ range ($rest.Resources.Match "summary*") }}
+            {{ range (sort ($rest.Resources.Match "summary*") "Params.date" "desc") }}
                 <div class="mb-4 pb-2 border-bottom release-notes-short-view">
                     <h3 class="mb-0">{{.Title}} {{index .Keywords 0}}</h3>
                     {{ if isset .Params "date" }}<span class="d-block text-right">{{.Date.Format "January 2, 2006"}}</span>{{ end }}

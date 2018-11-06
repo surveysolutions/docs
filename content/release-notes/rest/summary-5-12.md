@@ -1,7 +1,7 @@
 +++
 title = "Survey Solutions"
 keywords = ["5.12"]
-date = 2016-06-06T00:00:00Z
+date = 2016-09-06T00:00:00Z
 +++
 
 -   New support site : http://support.mysurvey.solutions
