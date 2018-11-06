@@ -20,7 +20,7 @@ autocomplete('#aa-search-input',
 			templates: {
 				header: function (data, algoliaResponse) {
 					var title = document.getElementById("docs-tab");
-					title.innerText = `Articles (${algoliaResponse.nbHits})`;
+					title.innerText = "Articles " + algoliaResponse.nbHits;
 				},
 				suggestion: function (suggestion) {
 					return '<div class="px-3 py-2 text-secondary search-result-block">'
@@ -51,7 +51,7 @@ autocomplete('#aa-search-input',
 			templates: {
 				header: function (data, algoliaResponse) {
 					var title = document.getElementById("forum-tab");
-					title.innerText = `Forum topics (${algoliaResponse.nbHits})`;
+					title.innerText = "Forum topics " + algoliaResponse.nbHits;
 				},
 				suggestion: function (suggestion) {
 					return '<div class="px-3 py-2 text-secondary search-result-block">'
