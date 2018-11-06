@@ -2,7 +2,6 @@
 title = "Release notes"
 keywords = [""]
 date = 2018-08-06T00:00:00Z
-lastmod = 2018-08-06T00:00:00Z
 aliases = ["/customer/portal/articles/2759597-release-notes","/customer/en/portal/articles/2759597-release-notes","/customer/portal/articles/2759597","/customer/en/portal/articles/2759597"]
 +++
 
@@ -11,6 +10,17 @@ Survey Solutions released by our team every month. You can {{< contactformurl la
 development cycle.*  
   
 ----
+
+### Survey Solutions 18.11
+
+<span style="float: right; padding-top: 20px;">November 5, 2018</span>
+
+Version 18.11 is mostly technical, intermediate release that contains:
+
+- Small feature improvements and bug fixes
+- An additional level of encryption of the data stored on tablets.
+
+The description of new functionality introduced in version 18.11 will be provided in the release note of the standard, scheduled release of version 18.12.
 
 ### Survey Solutions 18.10
 
