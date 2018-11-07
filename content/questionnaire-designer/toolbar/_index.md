@@ -1,3 +1,3 @@
 ﻿+++
-title = "Panel of Advanced Instruments"
+title = "Advanced Tools"
 +++

@@ -1,3 +1,3 @@
 ﻿+++
-title = "Design Techniques"
+title = "Solutions to common design problems"
 +++

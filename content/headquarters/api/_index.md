@@ -1,3 +1,3 @@
 ﻿+++
-title = "API Application Programming Interface"
+title = "Application Programming Interface (API)"
 +++

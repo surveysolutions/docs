@@ -1,3 +1,3 @@
 ﻿+++
-title = "User Accounts Management"
+title = "Managing User Accounts"
 +++

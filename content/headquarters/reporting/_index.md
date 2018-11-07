@@ -1,3 +1,3 @@
 ﻿+++
-title = "Reporting"
+title = "Reports"
 +++

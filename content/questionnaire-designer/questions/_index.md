@@ -1,3 +1,3 @@
 ﻿+++
-title = "Question Types and Properties"
+title = "Question Types"
 +++

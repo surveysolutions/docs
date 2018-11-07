@@ -1,3 +1,3 @@
 ﻿+++
-title = "Compilation Messages: Errors and Warnings"
+title = "Compilation Errors and Warnings"
 +++
