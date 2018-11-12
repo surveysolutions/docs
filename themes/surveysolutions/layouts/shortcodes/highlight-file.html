@@ -1,0 +1,5 @@
+
+{{ highlight (.Page.Resources.GetMatch (printf "*%s*" (.Get 0))).Content (.Get 1) (printf "style=%s" (.Get 2)) }}
+{{ with .Inner }}
+{{ . }}
+{{ end }}
