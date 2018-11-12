@@ -14,7 +14,10 @@ This article discusses the appearance of the questionnaire.
 
 The questionnaire instrument can be designed in any language supported in [Unicode](https://en.wikipedia.org/wiki/Unicode). Survey Solutions will display text and allow entry in Unicode and the entered values will be preserved in the exported data.
 
+{{% note %}}
 Some scripts may require an update of the operating system to a version that supports it. For example, Thaana characters are supported by OS Android 6.0 and higher. So even though Survey Solutions can be started on a lower version of Android OS, the Thaana characters may appear incorrectly rendered or not appear at all. Update your Android OS if necessary.
+{{% /note %}}
+
 
 The following [public questionnaire]
 (https://designer.mysurvey.solutions/questionnaire/details/953faa24e13144ac984e1ad62593aab5) demonstrates various text messages written in different languages:
