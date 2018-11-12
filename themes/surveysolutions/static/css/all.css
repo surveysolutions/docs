@@ -782,3 +782,32 @@ code{
   top: 0;
   left: -20px;
 }
+
+.note,
+.warning {
+
+  border-left-width: 4px;
+  border-left-style: solid;
+  position: relative;
+  border-color: #0594cb;
+
+  display: block;
+}
+.note #exclamation-icon,
+.warning #exclamation-icon {
+
+  fill: #0594cb;
+  position: absolute;
+  top: 35%;
+  left: -12px;
+}
+
+.admonition-content{
+  display:block;
+  margin:0;
+  padding:.125em 1em;
+  margin-top:2em;
+  margin-bottom:2em;
+  overflow-x:auto;
+  background-color:rgba(0,0,0,.05)
+}
