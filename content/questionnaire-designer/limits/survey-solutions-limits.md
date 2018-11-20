@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = [""]
 date = 2017-02-02T08:32:16Z
-lastmod = 2017-02-02T08:32:16Z
+lastmod = 2018-11-19T23:45:56Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -20,9 +20,14 @@ limits.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+
+<tr class="even">
 <td>Maximum number of questions in a section:</td>
 <td style="text-align: center;">400 [questions]</td>
+</tr>
+<tr class="odd">
+<td>Maximum number of roster elements in a single roster (including rosters nested into it):</td>
+<td style="text-align: center;">10,000 [items]</td>
 </tr>
 <tr class="even">
 <td>Maximum number of roster elements in the whole questionnaire:</td>
