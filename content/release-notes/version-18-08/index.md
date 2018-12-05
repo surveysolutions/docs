@@ -2,9 +2,11 @@
 title = "Version 18.08"
 keywords = ["18.08"]
 date = 2018-08-06T09:00:00Z
+lastmod = 2018-08-06T09:00:00Z
 +++
 
-Version 18.08 of Survey Solutions contains a major, new component: an offline Supervisor App that can be used on Android tablets to provide supervision and quality control while in remote areas and disconnected from the Survey Solutions' data server. We have also made a number of other improvements outlined below.
+Version 18.08 of Survey Solutions contains a
+ major, new component: an offline Supervisor App that can be used on Android tablets to provide supervision and quality control while in remote areas and disconnected from the Survey Solutions' data server. We have also made a number of other improvements outlined below.
 
 ## Supervisor App
 The Supervisor App is an Android application for the supervisors to perform their main responsibilities in the field. A connection to the internet is no longer required for the supervisors to perform the following duties:
