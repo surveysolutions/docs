@@ -19,64 +19,64 @@ The paradata is supplied in a zip archive with a tab-delimited data file inside.
 <TR bgcolor="PowderBlue"><TD colspan=4><H2><a id="paradata.tab">paradata.tab</H2></TD></TR>
 
 <TR>
-  <TH width=140>Variable</TH>
-  <TH width=60>Type</TH>
-  <TH width=300>Meaning</TH>
-  <TH width=200>Example</TH>
+  <TH width=140><CENTER>Variable</CENTER></TH>
+  <TH width=60><CENTER>Type</CENTER></TH>
+  <TH width=300><CENTER>Meaning</CENTER></TH>
+  <TH width=200><CENTER>Example</CENTER></TH>
 </TR>
 
 <TR>
   <TD>interview__id</TD>
-  <TD>string</TD>
+  <TD><CENTER>string</CENTER></TD>
   <TD>32-hexadecimal ID of the interview affected by the event.</TD>
   <TD>75efdc0456fb4b35be4690bd19eab870</TD>
 </TR>
 
 <TR>
   <TD>order</TD>
-  <TD>numeric integer</TD>
+  <TD><CENTER>numeric integer</CENTER></TD>
   <TD>Numeric sequential ID of the event (starts from 1 for every interview).</TD>
   <TD>1</TD>
 </TR>
 
 <TR>
   <TD>event</TD>
-  <TD>string</TD>
+  <TD><CENTER>string</CENTER></TD>
   <TD>Type of the event that has been recorded. See below for possible values.</TD>
   <TD>AnswerSet</TD>
 </TR>
 
 <TR>
   <TD>responsible</TD>
-  <TD>string</TD>
+  <TD><CENTER>string</CENTER></TD>
   <TD>Login name of the person responsible for the event</TD>
   <TD>Enumerator25</TD>
 </TR>
 
 <TR>
   <TD>role</TD>
-  <TD>string</TD>
+  <TD><CENTER>string</CENTER></TD>
   <TD>Role of the person mentioned in the 'responsible' column, one of the following: Interviewer, Supervisor, Headquarter</TD>
   <TD>Interviewer</TD>
 </TR>
 
 <TR>
   <TD>timestamp</TD>
-  <TD>string</TD>
+  <TD><CENTER>string</CENTER></TD>
   <TD>Date and time when the event occurred combined in a single timestamp.</TD>
   <TD>2018-12-28T23:00:59</TD>
 </TR>
 
 <TR>
   <TD>offset</TD>
-  <TD>string</TD>
+  <TD><CENTER>string</CENTER></TD>
   <TD>Time offset relative to UTC.</TD>
   <TD>-05:00:00</TD>
 </TR>
 
 <TR>
   <TD>parameters</TD>
-  <TD>string</TD>
+  <TD><CENTER>string</CENTER></TD>
   <TD>One or more parameters of the event, the interpretation of which depends on the type of event.</TD>
   <TD>GPSLOC||16.73526463,75.93207878[13]27||2.0</TD>
 </TR>
@@ -220,6 +220,13 @@ The following table outlines the types of the events recorded in the paradata an
 </TR>
 
 <TR>
+  <TD>VariableDisabled</TD>
+  <TD>Occurs when a variable is disabled (when it is part of a section which gets disabled).</TD>
+  <TD><A href="#varname">varname</A>||value||<A href="#rosteraddress">OptionalRosterAddress</A></TD>
+</TR>
+
+
+<TR>
   <TD>VariableSet</TD>
   <TD>Occurs when a variable is recalculated.</TD>
   <TD><A href="#varname">varname</A>||value||<A href="#rosteraddress">OptionalRosterAddress</A></TD>
@@ -231,9 +238,10 @@ The following table outlines the types of the events recorded in the paradata an
 <A id="rosteraddress"><B><I>OptionalRosterAddress</I></B> denotes one or more numeric rowcodes
 for each level of nesting when the event affects an item (question,
 variable, etc) in a roster. In case of multiple rowcodes they are
-separated by commas. For example, 2.0,5.0,0.0 may correspond to job
-coded 0, of person with rowcode 5 of the household with rowcode 2. If
+separated by commas. For example, 2.0,5.0,0.0 may correspond to the job
+coded 0, of the person with rowcode 5 of the household with rowcode 2. If
 the item is not part of any roster, it's OptionalRosterAddress is blank.
 
-<A id="varname">Varname is the name of the data variable corresponding
-to a question or a calculated variable (as specified in the Designer).
+<A id="varname"><B><I>Varname</I></B> is the name of the data variable 
+corresponding to a question or a calculated variable (as specified in 
+the Questionnaire Designer).
