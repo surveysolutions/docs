@@ -48,3 +48,14 @@ In this case the words ‘_date of birth_’ will be shown as a hyperlink offeri
 Read more about the section functions in the following [article](/questionnaire-designer/components/questionnaire-hyperlinks/).
 
 
+## Question bank and classifications library
+
+Searchable libraries of questions and answer options from which users may copy content. The question bank draws from questions in public questionnaires. The classifications library draws from a [complication by the International Household Survey Network](http://www.ihsn.org/projects/question-bank).
+
+Read more about the question bank [here](/questionnaire-designer/components/question-bank/), and the classifications library [here](/questionnaire-designer/components/classification-library/).
+
+## Audio audit
+
+Mechanism for recording the full interview(s) for select assignments. This feature uses the tablet's microphone to record the interview without the interviewer's knowledge, store recordings in audio files, and sync those files back to Headquarters for further review.
+
+Read more about audio audit [here](/headquarters/audio-audit).
