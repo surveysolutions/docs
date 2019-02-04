@@ -3,7 +3,7 @@ title = "Plain mode roster"
 keywords = ["plain","roster"]
 date = 2019-01-14T14:14:14Z
 lastmod = 2019-01-14T14:14:14Z
-draft=true
+draft=false
 +++
 
 A plain mode roster is a presentation of the roster without buttons leading to a deeper level, but rather showing all the roster questions repeated in the same scrollable area. This is especially convenient when there are only a handful of questions in the roster, such as price-quantity-unit for many items, and going behind the button and back is very time consuming for the interviewers. 

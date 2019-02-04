@@ -3,7 +3,7 @@ title = "Roster limits"
 keywords = ["roster","size","limit"]
 date = 2019-01-14T14:14:14Z
 lastmod = 2019-01-14T14:14:14Z
-draft=true
+draft=false
 +++
 
 Survey Solutions provides capabilities for building complex multilevel data structures and at the same time prevents these data structures from exploding uncontrollably. Earlier this has been done at design-time - when the questionnaire was checked during compilation, error 

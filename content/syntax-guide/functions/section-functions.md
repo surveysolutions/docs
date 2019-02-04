@@ -3,7 +3,7 @@ title = "Section functions"
 keywords = ["section"]
 date = 2019-02-01T06:00:00Z
 lastmod = 2019-01-14T09:11:11Z
-draft=true
+draft=false
 +++
 
 Section functions (introduced in v19.02) are functions that may be used in Survey Solutions' syntax to get some useful indicators about the completeness of the sections, such as to establish whether a certain section has been fully answered.
