@@ -29,7 +29,7 @@ Read more about audio audit [here](/headquarters/audio-audit).
 
 ## Question bank and classifications library
 
-Searchable libraries of questions and answer options from which users may copy content. The question bank draws from questions in public questionnaires. The classifications library draws from a [complication by the International Household Survey Network](http://www.ihsn.org/projects/question-bank).
+Searchable libraries of questions and answer options from which users may copy content. The question bank draws from questions in public questionnaires. The classifications library draws from a [compilation by the International Household Survey Network](http://www.ihsn.org/projects/question-bank).
 
 {{< imgproc "images/classification-tab.png" Fit "635x480" />}}
 
