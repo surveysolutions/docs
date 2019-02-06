@@ -17,7 +17,7 @@ In this case the words ‘_date of birth_’ will be shown as a hyperlink offeri
 
 This helps interviewers navigate through the questionnaire, especially when the validation check utilizes answers from different sections. 
 
-Read more about the section functions in the following [article](/questionnaire-designer/components/questionnaire-hyperlinks/).
+Read more about the hyperlinks in the following [article](/questionnaire-designer/components/questionnaire-hyperlinks/).
 
 
 ## Audio audit
@@ -64,14 +64,14 @@ Read more about dynamic roster limits in the following [article](/questionnaire-
 New functions inspecting the completeness of sections have been introduced in the syntax, which return the the number of answered, unanswered and total number of questions in a section: 
 
 - IsSectionAnswered(), 
-- TotalNumberQuestions(), 
+- EnabledQuestionsCount(), 
 - NumberUnansweredQuestions(), 
-- NumberAnsweredQuestions(). 
+- EnabledAnsweredQuestionsCount(). 
 
 The sections and subsections are now also given (optional) variable names. 
 
 For example, to enable section _employment_ only when the section _demogr_ has been fully answered, we can write its enabling condition as: 
-```demogr.IsSectionAnswered()```
+```IsSectionAnswered(demogr)```
 
 Read more about the section functions in the following [article](/syntax-guide/functions/section-functions/).
 
