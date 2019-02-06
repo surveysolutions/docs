@@ -37,12 +37,12 @@ How to get and understand audio files
 To get audio files:
 
 - Download the binary data for a template
-- Navigate to the `AudioAudit` folder
+- Navigate to the AudioAudit folder
 
 To understand files, it is important to note that:
 
-- Each audio file contains the recording of one interview session. These are the same sessions documented in the `interview__actions` file. A session starts when: either an interview is opened or the tablet wakes up while an interview is open. A session ends when: either the interview is closed or when the tablet goes to sleep.
-- File names indicate content. The file name consists of : the `interview__id` + audio-audit + the date and time of the interview session. For example, FILL IN EXAMPLE HERE
+- Each audio file contains the recording of one interview session. These are the same sessions documented in the interview__actions file. A session starts when: either an interview is opened or the tablet wakes up while an interview is open. A session ends when: either the interview is closed or when the tablet goes to sleep.
+- File names indicate content. The file name consists of : the interview__id + audio-audit + the date and time of the interview session. 
 
 If an interview session is longer than 20 minutes, the audio will be split into files that contain at most 20-minute chunks. For example, if an interview consists of 34 minutes of continuous interviewing, there will be two audio files: one that covers the first 20 minutes; another that covers the next 14 minutes.
 
