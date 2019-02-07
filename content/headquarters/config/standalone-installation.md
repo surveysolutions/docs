@@ -13,7 +13,7 @@ PostgreSQL.
   
 You can download PostgreSQL from
 [here](http://www.openscg.com/bigsql/postgresql/archive-packages/) and run the
-setup. _We currently run PostgreSQL **version 10.4** on our servers_.  
+setup. _We currently run PostgreSQL **version 10.6** on our servers_.  
 During the process you'll set the port on which server will be running as well
 as a password for built-in user (postgres by default).  
   
@@ -28,8 +28,4 @@ in your browser where you'll be able to create administrator user for
 Survey Solutions Headquarters application. The link to the site will be
 automatically added to your start menu, but you can always access it by
 directly typing the address in the browser's address bar.  
-  
-If you are setting up a new system on Windows 2016 and plan to use
-secure http protocol (recommended) please refer to
-[this](/faq/local-installation-interviwer-app-cannot-connect-to-the-server-over-https)
-FAQ article about a known issue.
+

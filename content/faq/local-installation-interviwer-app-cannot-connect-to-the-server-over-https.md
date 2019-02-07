@@ -6,6 +6,9 @@ lastmod = 2018-01-09T14:48:25Z
 aliases = ["/customer/portal/articles/2914430-local-installation-interviwer-app-cannot-connect-to-the-server-over-https","/customer/en/portal/articles/2914430-local-installation-interviwer-app-cannot-connect-to-the-server-over-https","/customer/portal/articles/2914430","/customer/en/portal/articles/2914430"]
 
 +++
+{{% note %}}
+**This issue has been resolved in version 18.12 (23416).**
+{{% /note %}}
 
 **Symptoms:**  
 When Interviewer app is trying to connect to the Headquarters
