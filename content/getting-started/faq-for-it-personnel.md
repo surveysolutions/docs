@@ -2,7 +2,7 @@
 title = "FAQ for IT personnel"
 keywords = [""]
 date = 2017-07-25T21:26:54Z
-lastmod = 2017-07-25T21:26:54Z
+lastmod = 2019-02-08T11:11:11Z
 aliases = ["/customer/portal/articles/2847917-faq-for-it-personnel","/customer/en/portal/articles/2847917-faq-for-it-personnel","/customer/portal/articles/2847917","/customer/en/portal/articles/2847917"]
 
 +++
@@ -469,16 +469,12 @@ online designer tool?**
     Solutions program works and evaluate its functionality and
     suitability for their survey.
 
-<!-- -->
-
 -   For that reason, the access to the headquarter server is not
-    restricted and anyone can login there with the following
-    credentials:
-
-Username: *Headquarters1*  
-Password: *Headquarters1*
+    restricted and anyone can login there.
 
 -   The demo server is not intended for any real data collection.
+
+-   Read more about the use of the demo server (including login and password to access it) in [this article](/headquarters/config/demo-server).    
 
 **39. We like your system and we want to change it (improve it, modify
 it, customize it). How should we start?**

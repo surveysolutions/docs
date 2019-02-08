@@ -41,10 +41,7 @@ Before submitting a new server request, please note the following:
     instruments, request a single server. If there is more than one
     survey effort, request a separate survey for each survey effort.
 - Do not submit a server request to test new functionality. There is a
-    publicly available [demonstration
-    server](https://demo.mysurvey.solutions) arranged specifically for
-    this purpose (see
-    credentials [here](/getting-started/faq-for-it-personnel)).
+    publicly available [demo server](/headquarters/config/demo-server) arranged specifically for this purpose.
 
 This article is part of the series of [instructions for Survey Solutions
 cloud servers](/faq/cloud-server-instructions).
