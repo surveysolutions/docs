@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = [""]
 date = 2017-02-02T08:32:16Z
-lastmod = 2018-11-19T23:45:56Z
+lastmod = 2019-02-15T23:45:56Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
