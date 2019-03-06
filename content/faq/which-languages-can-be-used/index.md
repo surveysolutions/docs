@@ -22,15 +22,15 @@ Some scripts may require an update of the operating system to a version that sup
 The following [public questionnaire]
 (https://designer.mysurvey.solutions/questionnaire/details/953faa24e13144ac984e1ad62593aab5) demonstrates various text messages written in different languages:
 
-{{< imgproc "images/test_lang_ltr.png" Fit "800x9000" />}}
+{{< imgproc "images/test_lang_ltr.png" Fit "400x9000" />}}
 
 Figure 1 : text rendered in various left-to-right languages.
 
-{{< imgproc "images/test_lang_rtl.png" Fit "800x9000" />}}
+{{< imgproc "images/test_lang_rtl.png" Fit "400x9000" />}}
 
 Figure 2 : text rendered in various right-to-left languages.
 
-{{< imgproc "images/test_lang_entry.png" Fit "800x9000" />}}
+{{< imgproc "images/test_lang_entry.png" Fit "400x9000" />}}
 
 Figure 3 : free text entry.
 
