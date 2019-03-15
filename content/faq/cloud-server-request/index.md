@@ -2,10 +2,12 @@
 title = "Cloud server request"
 keywords = [""]
 date = 2017-01-23T11:41:42Z
-lastmod = 2017-01-23T11:41:42Z
+lastmod = 2019-03-15T10:00:00Z
 aliases = ["/customer/portal/articles/2723103-cloud-server-request","/customer/en/portal/articles/2723103-cloud-server-request","/customer/portal/articles/2723103","/customer/en/portal/articles/2723103"]
 
 +++
+
+<IMG src="images/timeline.png">
 
 After you have developed and thoroughly tested your questionnaire,
 request a new cloud server through Survey Solutions' self-service
