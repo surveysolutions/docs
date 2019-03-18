@@ -27,27 +27,12 @@ collecting any multimedia data.</span>**
   
 **1. What are the requirements for the server?**
 
--   Requirements for the server depend on the use and type of the
-    survey.
--   Hardware: 4 physical cores CPU, 8GB RAM and 50GB free space on SSD
-    as minimum requirements.
+Server requirements are periodically revised as the Survey Solutions 
+program evolves hence we've created the following pages on:
 
-Better hardware allows better performance. 
+- [server requirements](/faq/server-requirements/);
+- [server installation](/headquarters/config/standalone-installation/).
 
--   Operating system: Windows Server 2012R2
-
-(Survey Solutions server should not be installed on MS Windows Server
-2008 generation).
-
--   Software prerequisites that should be installed and configured prior
-    to installation of Survey Solutions:
-    -   Microsoft IIS, [(included in
-        OS)](https://support.microsoft.com/en-us/kb/224609) and
-    -   Microsoft .Net Framework 4.7.1, and
-    -   PostgreSQL (version 9.4 minimal, 9.5.1 recommended for new
-        installations)
--   Server environment: the server must be properly cooled, physically
-    secured, and reliably powered 24/7.
 
 **2. Is it possible to use our existing server for Survey Solutions?**
 
