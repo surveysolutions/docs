@@ -17,7 +17,7 @@ Remove-Item (Join-Path $content "algolia.json") -ErrorAction "Continue"
 Remove-Item (Join-Path $content "hidden") -Recurse
 
 $site = "support"
-$loc = "capimswebp01"
+$loc = "capimswebp09"
 
 $arguments = @(
 	"-verb:sync",
