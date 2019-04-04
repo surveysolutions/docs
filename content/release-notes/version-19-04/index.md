@@ -1,7 +1,7 @@
 ﻿+++
 title = "Version 19.04"
 keywords = ["19.04"]
-date = 2019-04-03T09:09:09Z
+date = 2019-04-04T09:09:09Z
 draft=false
 +++
 
@@ -76,9 +76,9 @@ requested as more intuitive format, rather than the earlier export with adjustme
 into a single time zone.
 
 - In exported data files the numbering of items in rosters triggered by numeric 
-questions is starting from zero. For example, if you have a roster EMPLOYEES 
-triggered by a numeric question NumEmployees, it will contain a numeric 
-employees__id variable with the values 0,1,2,... This is consistent with how 
+questions is starting from zero. For example, if you have a roster <I>employees</I>
+triggered by a numeric question <I>NumEmployees</I>, it will contain a numeric
+<I>employees__id</I> variable with the values 0,1,2,... This is consistent with how
 Survey Solutions was recording this information for a long time, though recent 
 versions started numbering with 1 for such cases. We have restored the original 
 behavior. The linked questions will contain exactly the ID value of the selected 
@@ -91,7 +91,7 @@ HQ users.
 exact limit and the current value, for example the estimation of total number of 
 roster items in the questionnaire.
 
-- Thanks to our Uruguayan user Ms. Alicia Ortiz Perez we've managed to improve the
+- Thanks to our Uruguayan user <I>Ms. Alicia Ortiz Perez</I> we've managed to improve the
 reliability of the data export procedures in cases of local server installations 
 with certain regional settings. Thank you for providing the helpful inputs into 
 this investigation!
