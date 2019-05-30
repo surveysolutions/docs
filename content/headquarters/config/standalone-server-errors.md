@@ -10,7 +10,10 @@ The following errors may be encountered when working with a standalone server (l
 
 <FONT color="red">1. "Unable to import new questionnaire: Could not connect to Designer. Please check if Designer is available and try again."</FONT>
 
-Your data server is trying to contact the Survey Solutions Designer server to import the questionnaire, but can't reach it. It is very unlikely that the Designer is not responding or is not working [read how to check here](https://support.mysurvey.solutions/faq/server-not-working/) so the problem is most likely with your network configuration. Consult your network administrator and ask him/her to trace the signal and see where it stops. Most commonly it is prevented by your Firewall software or hardware.
+Your Headquaters app is trying to contact the Survey Solutions Designer server to import the questionnaire, but can't reach it. It is very unlikely that the Designer is not responding or is not working [read how to check here](/faq/server-not-working/) so the problem is most likely with your network configuration. Consult your network administrator and ask him/her to trace the signal and see where it stops. Most commonly it is prevented by your Firewall software or hardware.
+
+Currently, Designer application is available at https://designer.mysurvey.solutions, which points to IP address **3.210.162.89**.  
+Depending whether your firewall works on DNS or IP layer, please make sure that the addresses are reachable from the server hosting the Headquarters app.
 
 <FONT color="red">2. "The server is not registered with Questionnaire Designer. Please contact support for registration. IP=n1.n2.n3.n4"</FONT>
 
