@@ -1,3 +1,5 @@
++++
++++
 -   **Revised interview details interface.** Interface for reviewing
     interviews made more intuitive and more powerful;
 -   **Complete localization of the user interface.** All components of

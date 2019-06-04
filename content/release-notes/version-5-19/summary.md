@@ -1,3 +1,5 @@
++++
++++
 -   **Interviewer profile page** is reflecting the status of the
     interviewers' device and synchronization;
 -   **Human-readable interview key** generated and displayed on the data

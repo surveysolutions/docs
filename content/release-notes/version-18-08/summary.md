@@ -1,3 +1,5 @@
++++
++++
 -   **Offline Supervisor app** To meet the needs of survey teams operating in remote or poorly connected locales, the Supervisor app allows supervisors to do offline all of the things that previously required a connection: make assignments, receive completed interviews, review interviews, and approve or reject them. This functionality being released as a public beta, and will be refined and improved over coming development releases. 
 -   **Flat, compact view for reviewing interviews** To promote rapid review of interviews, all of Survey Solutions data collection components--Headquarters, Supervisor, and Interviewer--now have an optional, compact view of interviews.
 -   **Interview diagnostics file** To provide users with consolidated information for data processing outside of Survey Solutions, export archives now include a file that contains, among other information, the interview duration, the number of errors, number of comment, and number of unanswered questions per interview.

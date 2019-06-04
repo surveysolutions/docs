@@ -1,3 +1,5 @@
++++
++++
 - **Hyperlinks** included into the text of a question or an error message facilitate jumps in the questionnaire;
 - **Audio audit**: complete audio recording of the interview;
 - **Questions bank** and **classifications library** provide a fast way of reusing the repeated questions and classifications in categorical questions.
