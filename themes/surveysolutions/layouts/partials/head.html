@@ -1,13 +1,5 @@
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129284684-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-129284684-1');
-    </script>
+    {{ template "_internal/google_analytics_async.html" . }}
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,4 +20,8 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/all.css" rel="stylesheet">
+    <!-- Page-specific styles -->
+    {{ range (.Resources.Match "css/*") }}
+    <link href="{{ .Name }}" rel="stylesheet">
+    {{ end }}
 </head>
