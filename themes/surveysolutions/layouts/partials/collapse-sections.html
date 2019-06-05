@@ -2,9 +2,9 @@
 <div class="accordion" id="accordionSections">
     {{ range (.Sections.Reverse)}}
     <div class="card">
-        <div class="card-header p-0" id="heading{{.UniqueID}}">
+        <div class="card-header p-0" id="heading{{.File.UniqueID}}">
             <h5 class="mb-0">
-                <button class="btn btn-link collapsed text-dark btn-block text-left p-2 pl-4" type="button" data-toggle="collapse" data-target="#collapse{{.UniqueID}}" aria-expanded="false" aria-controls="collapse{{.UniqueID}}">
+                <button class="btn btn-link collapsed text-dark btn-block text-left p-2 pl-4" type="button" data-toggle="collapse" data-target="#collapse{{.File.UniqueID}}" aria-expanded="false" aria-controls="collapse{{.File.UniqueID}}">
                     <span class="title-sub-section float-left">{{.Title}} </span>
                     <span class="plus float-right">
                         <svg class="circle">
@@ -19,7 +19,7 @@
                 </button>
             </h5>
         </div>
-        <div id="collapse{{.UniqueID}}" class="opened-list collapse" aria-labelledby="heading{{.UniqueID}}">
+        <div id="collapse{{.File.UniqueID}}" class="opened-list collapse" aria-labelledby="heading{{.File.UniqueID}}">
             <div class="card-body p-0">
                 {{- partial "collapse-sections.html" . -}}
             </div>
