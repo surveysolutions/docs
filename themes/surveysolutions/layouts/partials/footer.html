@@ -45,6 +45,7 @@
 		<div class="float-left">
 			&#169; 2016-{{ now.Format "2006" }} The World Bank Group
 			<br /> All rights Reserved. <a href="http://go.worldbank.org/OS6V7NIUD0">Legal</a>
+			<br /><a class="text-primary" href="/about/" _target="blank"><b class="text-primary">Powered by Michael Lokshin</b></a>
 		</div>
 	</div>
 </footer>
@@ -60,4 +61,7 @@
 <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
 <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
 <script src="/js/asearch.js"></script>
+{{ end }}
+{{ range (.Resources.Match "js/*") }}
+<script src="{{ .Name }}"></script>
 {{ end }}
