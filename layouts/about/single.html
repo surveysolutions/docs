@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main class="container mb-3">
+    {{- partial "breadcrumb.html" . -}}
+  <div class="mb-4">
+    <article class="article d-block w-100">
+      <div class="article-content">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+</main>
+{{ end }}
