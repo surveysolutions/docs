@@ -2,24 +2,24 @@
 title = "Version 19.06"
 keywords = ["19.06"]
 date = 2019-06-05T06:06:06Z
-draft=false
 +++
 
 
-## Table presentation of rosters in web interviews.
-Some rosters may be presented in grid form in web interviews (also if the interviewer 
-is using web-interviewer by logging in to the server through the web site, but not 
+## Table presentation of rosters in web interviews
+
+Some rosters may be presented in grid form in web interviews (also if the interviewer
+is using web-interviewer by logging in to the server through the web site, but not
 on the tablet).
 
 <CENTER><IMG src="images/table_roster.png" width=785></CENTER>
 
 The rosters that can be presented in such a form are [for the moment] limited to
-only the numeric and text question types, with up to the 10 questions, but we intend 
-to improve and extend this functionality to other types of questions and design 
+only the numeric and text question types, with up to the 10 questions, but we intend
+to improve and extend this functionality to other types of questions and design
 elements.
 
-Read more about tabular presentation of rosters in 
-<A href="/questionnaire-designer/components/table-rosters/">this article</A>.
+Read more about tabular presentation of rosters in
+[this article](/questionnaire-designer/components/table-rosters).
 
 
 ## Notifications for the interviewers
@@ -35,9 +35,8 @@ others are displayed within the application.
 The administrator of the server can turn on/off the notifications for all the 
 interviewers centrally from the server settings.
 
-Read more about interviewers' notifications in 
-<A href="/interviewer/app/app-notifications/">this article</A>.
-
+Read more about interviewers' notifications in
+[this article](/interviewer/app/app-notifications).
 
 
 ## Improvements to cascading questions
@@ -81,13 +80,13 @@ the same indicator for the rejected interviews).
 numeric-type columns, rather than string-type columns with numeric content.
 (already present in version 19.05). Some variables have changed their types in the
 system generated files. These changes (earlier announced) are highlighted in 
-<A href="/headquarters/export/system-generated---export-file-anatomy/">this article</A>.
+[this article](/headquarters/export/system-generated---export-file-anatomy).
 
 
 <FONT color="maroon"><B>
 
-(!) Version <A href="/release-notes/version-19-04">19.04</A> was the <U>last</U> version of Survey Solutions compatible
-with Android OS prior to version 5.0. <BR>
+(!) Version [19.04](/release-notes/version-19-04) was the <U>last</U> version of Survey Solutions compatible
+with Android OS prior to version 5.0.
 
 If you haven't upgraded the tablets to OS Android 5.0 yet, upgrade without further delay.
 
