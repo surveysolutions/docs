@@ -2,7 +2,7 @@
 title = "Paradata file format"
 keywords = ["export, action, paradata"]
 date = 2018-12-28T12:12:12Z
-lastmod = 2018-12-28T12:12:12Z
+lastmod = 2019-06-05T12:12:12Z
 
 
 +++
@@ -28,7 +28,7 @@ The paradata is supplied in a zip archive with a tab-delimited data file inside.
 <TR>
   <TD>interview__id</TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>32-hexadecimal ID of the interview affected by the event.</TD>
+  <TD>32-hexadecimal ID  (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview affected by the event.</TD>
   <TD>75efdc0456fb4b35be4690bd19eab870</TD>
 </TR>
 

@@ -2,7 +2,7 @@
 title = "System generated files"
 keywords = ["export, action, status, errors"]
 date = 2018-12-12T12:12:12Z
-lastmod = 2018-12-12T12:12:12Z
+lastmod = 2010-06-05T06:06:06Z
 
 
 +++
@@ -45,7 +45,7 @@ The contents of the system-generated data files is described in the table below:
 <TR>
   <TD><TT>interview__id</TT></TD>
   <TD>string</TD>
-  <TD>Unique 32-character long identifier of the interview</TD>
+  <TD>Unique 32-character long identifier (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview.</TD>
   <TD>5b3c8288289646699580e16f5d1b6d1e</TD>
 </TR>
 
@@ -79,8 +79,8 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>role</TT></TD>
-  <TD><FONT color="magenta">string</FONT></TD>
-  <TD>System role of the person performing the action</TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>System role of the person performing the action. See <A href="#coding_role">role codes</A>.</TD>
   <TD>Supervisor</TD>
 </TR>
 
@@ -93,8 +93,8 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>responsible_role</TT></TD>
-  <TD><FONT color="magenta">string</FONT></TD>
-  <TD>System role of the person now responsible for the interview</TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>System role of the person now responsible for the interview. See <A href="#coding_role">role codes</A>.</TD>
   <TD>Interviewer</TD>
 </TR>
 
@@ -119,7 +119,7 @@ The contents of the system-generated data files is described in the table below:
 <TR>
   <TD><TT>interview__id</TT></TD>
   <TD>string</TD>
-  <TD>Unique 32-character long identifier of the interview</TD>
+  <TD>Unique 32-character long identifier (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview</TD>
   <TD>5b3c8288289646699580e16f5d1b6d1e</TD>
 </TR>
 
@@ -132,28 +132,28 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>id1</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 1st level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id2</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 2nd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id3</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 3rd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id4</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 4th level of nesting</TD>
   <TD>7</TD>
 </TR>
@@ -176,7 +176,7 @@ The contents of the system-generated data files is described in the table below:
   <TD><TT>date</TT></TD>
   <TD>string</TD>
   <TD>Date when the comment was left</TD>
-  <TD><FONT color="red">12/31/2018</FONT></TD>
+  <TD><FONT color="magenta">2018-12-31</FONT></TD>
 </TR>
 
 <TR>
@@ -195,8 +195,8 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>role</TT></TD>
-  <TD><FONT color="magenta">string</FONT></TD>
-  <TD>System role of the person leaving the comment</TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>System role of the person leaving the comment. See <A href="#coding_role">role codes</A>.</TD>
   <TD>Supervisor</TD>
 </TR>
 
@@ -228,7 +228,7 @@ The contents of the system-generated data files is described in the table below:
 <TR>
   <TD><TT>interview\_\_id</TT></TD>
   <TD>string</TD>
-  <TD>Unique 32-character long identifier of the interview</TD>
+  <TD>Unique 32-character long identifier (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview</TD>
   <TD>5b3c8288289646699580e16f5d1b6d1e</TD>
 </TR>
 
@@ -248,25 +248,25 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>interviewers</TT></TD>
-  <TD><FONT color="red">string</FONT></TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
   <TD>Number of interviewers who worked on this interview</TD>
   <TD>1</TD>
 </TR>
 <TR>
   <TD><TT>rejections\_\_sup</TT></TD>
-  <TD><FONT color="red">string</FONT></TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
   <TD>How many times this interview was rejected by supervisors</TD>
   <TD>0</TD>
 </TR>
 <TR>
   <TD><TT>rejections\_\_hq</TT></TD>
-  <TD><FONT color="red">string</FONT></TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
   <TD>How many times this interview was rejected by HQ</TD>
   <TD>1</TD>
 </TR>
 <TR>
   <TD><TT>entities\_\_errors</TT></TD>
-  <TD><FONT color="red">string</FONT></TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
   <TD>Number of questions and static texts with errors</TD>
   <TD>10</TD>
 </TR>
@@ -298,7 +298,7 @@ The contents of the system-generated data files is described in the table below:
 <TR>
   <TD><TT>interview\_\_id</TT></TD>
   <TD>string</TD>
-  <TD>Unique 32-character long identifier of the interview</TD>
+  <TD>Unique 32-character long identifier (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview</TD>
   <TD>5b3c8288289646699580e16f5d1b6d1e</TD>
 </TR>
 
@@ -311,28 +311,28 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>id1</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 1st level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id2</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 2nd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id3</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 3rd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id4</TT></TD>
-  <TD><FONT color="red">\*string</FONT></TD>
+  <TD><FONT color="magenta">\*numeric</FONT></TD>
   <TD>Roster ID of the 4th level of nesting</TD>
   <TD>7</TD>
 </TR>
@@ -346,9 +346,9 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>type</TT></TD>
-  <TD><FONT color="magenta">string</FONT></TD>
-  <TD>Type of the variable where the validation error occurred</TD>
-  <TD><FONT color="red">Question</FONT></TD>
+  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>Type of the variable where the validation error occurred. See <A href="#coding_type">type codes</A>.</TD>
+  <TD><FONT color="magenta">2</FONT></TD>
 </TR>
 
 <TR>
@@ -368,15 +368,28 @@ The contents of the system-generated data files is described in the table below:
 
 </TABLE>
 
-Fields indicated with a star (\*) are optional and present only if the questionnaire template contains rosters.
+Fields indicated with a star (\*) are optional and present only if the questionnaire 
+template contains rosters.
 
-Where a value is shown in <FONT color="red">red</FONT> or <FONT color="magenta">magenta</FONT> color, this may be (and likely will be) changed in the upcoming releases.
+Where a value is shown in <FONT color="magenta">magenta</FONT> color, this alerts 
+of a recent change in how this value is saved.
 
 
 
 <TABLE border=1>
+<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_role">Coding of roles
+<TR bgcolor="Orange">
+  <TH width=80>Code</TH>
+  <TH width=200>Meaning</TH>
+</TR>
+<TR><TD>0</TD><TD>&#60;UNKNOWN ROLE&#62;</TD></TR>
+<TR><TD>1</TD><TD>Interviewer</TD></TR>
+<TR><TD>2</TD><TD>Supervisor</TD></TR>
+<TR><TD>3</TD><TD>Headquarter</TD></TR>
+<TR><TD>4</TD><TD>Administrator</TD></TR>
+<TR><TD>5</TD><TD>Api User</TD></TR>
 
-<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_action">Coding of actions
+<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_action"><BR>Coding of actions
 <TR bgcolor="Orange">
   <TH width=80>Code</TH>
   <TH width=200>Meaning</TH>
@@ -400,7 +413,7 @@ Where a value is shown in <FONT color="red">red</FONT> or <FONT color="magenta">
 <TR><TD>16</TD><TD>TranslationSwitched</TD></TR>
 <TR><TD>17</TD><TD>OpenedBySupervisor</TD></TR>
 <TR><TD>18</TD><TD>ClosedBySupervisor</TD></TR>
-<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_status">Coding of the interview status
+<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_status"><BR>Coding of interview statuses
 <TR bgcolor="Orange">
   <TH width=80>Code</TH>
   <TH width=200>Meaning</TH>
@@ -418,6 +431,16 @@ Where a value is shown in <FONT color="red">red</FONT> or <FONT color="magenta">
 <TR><TD>120</TD><TD>ApprovedBySupervisor</TD></TR>
 <TR><TD>125</TD><TD>RejectedByHeadquarters</TD></TR>
 <TR><TD>130</TD><TD>ApprovedByHeadquarters</TD></TR>
+
+<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_type"><BR>Coding of types
+<TR bgcolor="Orange">
+  <TH width=80>Code</TH>
+  <TH width=200>Meaning</TH>
+</TR>
+<TR><TD>1</TD><TD>Section</TD></TR>
+<TR><TD>2</TD><TD>Question</TD></TR>
+<TR><TD>3</TD><TD>StaticText</TD></TR>
+<TR><TD>4</TD><TD>Variable</TD></TR>
 </TABLE>
 
 
