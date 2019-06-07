@@ -1,3 +1,5 @@
++++
++++
 - **Offline Supervisor app** improvements and additional features.
 - **Variable name** in the questionnaire translation file.
 - **Comments on questions** can now be deleted

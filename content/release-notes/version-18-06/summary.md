@@ -1,3 +1,5 @@
++++
++++
 -   **New Geography question** adds polylines, multipoint and other
     variants for offline selection on the map;
 -   **Offline selection is now accessible from the syntax** in

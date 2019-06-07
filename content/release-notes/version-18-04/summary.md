@@ -1,3 +1,5 @@
++++
++++
 -   Validation warnings;
 -   Special values for numeric questions;
 -   Capturing signatures;

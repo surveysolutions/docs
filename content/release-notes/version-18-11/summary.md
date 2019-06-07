@@ -1,3 +1,5 @@
++++
++++
 - Small feature improvements and bug fixes
 - An additional level of encryption of the data stored on tablets.
 

@@ -4,6 +4,7 @@ title = "Survey Solutions | Support"
 theme = "surveysolutions" 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 enableGitInfo = true
+googleAnalytics = "UA-129284684-1"
 
 [frontmatter]
 lastmod = ["lastmod", ":git", "date", "publishDate"]

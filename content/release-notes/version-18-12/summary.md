@@ -1,3 +1,5 @@
++++
++++
 - An extra level of data encryption on tablets comparable and exceeding industry standards for data security.
 - Support for audio, video and PDF files in attachments.
 - Heat map overlay in Map reports and improvements in processing maps with more than 50,000 coordinates.

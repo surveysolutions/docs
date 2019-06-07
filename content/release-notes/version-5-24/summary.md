@@ -1,3 +1,5 @@
++++
++++
 -   **Export of calculated variables** with collected survey data;
 -   new appearance of the assignment and interview cards on an
     interviewer dashboard;
