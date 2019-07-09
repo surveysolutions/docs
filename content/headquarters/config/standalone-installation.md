@@ -12,7 +12,7 @@ make sure that you have an installed and running instance of
 PostgreSQL.  
   
 You can download PostgreSQL from
-[here](http://www.openscg.com/bigsql/postgresql/archive-packages/) and run the
+[here](https://www.postgresql.org/download/windows/) and run the
 setup. _We currently run PostgreSQL **version 10.6** on our servers_.  
 During the process you'll set the port on which server will be running as well
 as a password for built-in user (postgres by default).  
