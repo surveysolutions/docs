@@ -1,7 +1,7 @@
 ﻿+++
 title = "Standalone Installation"
 keywords = ["local installation"]
-date = 2017-03-17T00:59:53Z
+date = 2019-07-03T00:59:53Z
 aliases = ["/customer/portal/articles/2768436-standalone-installation","/customer/en/portal/articles/2768436-standalone-installation","/customer/portal/articles/2768436","/customer/en/portal/articles/2768436","/headquarters/standalone-installation"]
 
 +++
