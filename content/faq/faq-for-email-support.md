@@ -16,12 +16,14 @@ aliases = ["/customer/portal/articles/2846777-faq-for-email-support","/customer/
 
 2. Write your request clearly. If we don't understand it, we will ask for
     clarification and it will take longer to resolve your issue.
-    Messages simply reporting {{% fntproc class="text-success" %}}"X doesn't work"{{% /fntproc %}}
-    or {{% fntproc class="text-success" %}}"X is not working"{{% /fntproc %}} without steps to reproduce the problem will be immediately returned to sender for clarification without further investigation.
+    Messages simply reporting {{< fntproc class="text-success" >}}"X doesn't work"{{< /fntproc >}}
+    or {{< fntproc class="text-success" >}}"X is not working"{{< /fntproc >}} without steps to reproduce the problem will be immediately returned to sender for clarification without further investigation.
 
-3. All of the questions of the kind {{% fntproc class="text-success" %}}"Is it possible to do X in Survey Solutions?"{{% /fntproc %}} or 
-    {{% fntproc class="text-success" %}}"How do I do X in Survey Solutions?"{{% /fntproc %}}
+3. All of the questions of the kind {{< fntproc class="text-success" >}}"Is it possible to do X in Survey Solutions?"{{< /fntproc >}} or 
+    {{< fntproc class="text-success" >}}"How do I do X in Survey Solutions?"{{< /fntproc >}}
+    
     should not be sent to the support team directly, but rather be
+
     posted to the user forum as public questions: [https://forum.mysurvey.solutions](https://forum.mysurvey.solutions)
 
 4. Introduce yourself, your survey and your questionnaire. Do not assume we or
@@ -39,7 +41,7 @@ aliases = ["/customer/portal/articles/2846777-faq-for-email-support","/customer/
 
 8. Once the issue is resolved and you have a new issue, start a new request,
     do not answer to the old thread of the resolved issue. Do not write
-    {{% fntproc class="text-success" %}}"Thank you for resolving issue A, and I have two more questions B and C"{{% /fntproc %}}.
+    {{< fntproc class="text-success" >}}"Thank you for resolving issue A, and I have two more questions B and C"{{< /fntproc >}}.
     Instead close the thread of issue A confirming it is resolved, start
     a new request for issue B and start another for issue C.
 
