@@ -13,7 +13,7 @@ Hyperlinks to various parts of the questionnaire may be included into the texts 
 
 In this case the words ‘_date of birth_’ will be shown as a hyperlink offering to jump to the question with variable name _dob_. 
 
-{{< imgproc "images/hyperlink_in_error.png" Fit "330x374" />}}
+{{< imgScale src="images/hyperlink_in_error.png" class="sm-img">}}
 
 This helps interviewers navigate through the questionnaire, especially when the validation check utilizes answers from different sections. 
 
@@ -31,7 +31,7 @@ Read more about audio audit [here](/headquarters/audio-audit).
 
 Searchable libraries of questions and answer options from which users may copy content. The question bank draws from questions in public questionnaires. The classifications library draws from a [compilation by the International Household Survey Network](http://www.ihsn.org/projects/question-bank).
 
-{{< imgproc "images/classification-tab.png" Fit "635x480" />}}
+{{< imgScale src="images/classification-tab.png" class="lg-img">}}
 
 Read more about the question bank [here](/questionnaire-designer/components/question-bank/), and the classifications library [here](/questionnaire-designer/components/classification-library/).
 
@@ -40,7 +40,7 @@ Read more about the question bank [here](/questionnaire-designer/components/ques
 
 A plain mode roster is a presentation of the roster without buttons leading to a deeper level, but rather showing all the roster questions repeated in the same scrollable area. This is especially convenient when there are only a handful of questions in the roster, such as price-quantity-unit for many items, and going behind the button and back is very time consuming for the interviewers. We designate the roster to be shown in plain mode simply by checking the corresponding checkbox in the Designer.
 
-{{< imgproc "images/flat_roster.png" Fit "640x480" />}}
+{{< imgScale src="images/flat_roster.png" class="sm-img">}}
 
 Read more about plain-mode presentation of rosters in the following [article](/questionnaire-designer/components/plain-roster/).
 

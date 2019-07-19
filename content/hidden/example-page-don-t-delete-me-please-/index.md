@@ -234,7 +234,7 @@ header. By default table width is 500px
 
 Example:
 
-<table>
+<table class="table">
 <thead>
 <tr class="header">
 <th>Company</th>
@@ -278,12 +278,12 @@ Example:
 
 ### Table with borders
 
-To add borders and highlight the title add class **table\_with\_border**
+To add borders and highlight the title add class **table-striped**
 to the table
 
 Example:
 
-<table>
+<table class="table table-striped">
 <thead>
 <tr class="header">
 <th>Company</th>
@@ -327,12 +327,11 @@ Example:
 
 ### Table with striped rows and borders
 
-Use class **table-striped** to add zebra-striping to any table row and
-class **table\_with\_border** to add borders
+Use class **table-bordered** 
 
 Example:
 
-<table>
+<table class="table table-bordered">
 <thead>
 <tr class="header">
 <th>Company</th>

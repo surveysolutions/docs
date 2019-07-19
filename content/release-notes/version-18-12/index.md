@@ -9,7 +9,7 @@ date = 2018-12-04T11:38:43-04:00
 
 In addition to the images that can be inserted into the questionnaire, the questionnaire authors can now include audio, video and PDF documents as attachments. This opens up a possibility to include various samples of information for the respondent or provide video instructions on how certain actions need to be taken, for example operating complex measurement equipment. One obvious application for the PDF attachment is inclusion of the interviewer’s manual into the questionnaire so it is always a click away when it is needed to double check the definitions.
 
-{{< imgproc "images/attachments.png" Fit "800x600" />}}
+{{< imgScale src="images/attachments.png"  class="md-img">}}
 
 The media attachments are an integral part of the questionnaire and will be synchronized with it all together. If you need to change an attachment you do it in the Designer, which results in a new version of the questionnaire.
 
@@ -21,7 +21,7 @@ Users of older versions of Android operating system (prior to Android version 5.
 
 Normally when a date is asked in the date question, the calendar opens at the current date. When this is not desirable, a different default date may be specified. For example, if we know that many people in the survey have applied for benefits in a certain program right at the time when it was started a year ago, we can specify that date as the default. This will reduce the amount of scrolling in the calendar to reach the particular date.
 
-{{< imgproc "images/default_value.png" Fit "800x600" />}}
+{{< imgScale src="images/default_value.png"  class="md-img">}}
 
 Note that this value is a constant and is the same for all the respondents in the survey.
 
@@ -37,11 +37,11 @@ Now there is a global flag, an attribute of the questionnaire set in its setting
 
 A heatmap is a new way of presenting the concentration of observations in the map report at the Headquarters. The earlier presentation (remains available) is relying on clustering of points.
 
-{{< imgproc "images/map.png" Fit "800x600" />}}
+{{< imgScale src="images/map.png" >}}
 
 In the heatmap, the areas with higher concentration of observations are shown with more red color while the areas of lesser concentration are shown with more green color.
 
-{{< imgproc "images/heatmap.png" Fit "800x600" />}}
+{{< imgScale src="images/heatmap.png" >}}
 
 Note, that the heatmap fully preserves anonymity of the respondents. These maps could be used to show the progress of surveys without revealing the exact locations of the interviews.
 
@@ -49,7 +49,7 @@ Note, that the heatmap fully preserves anonymity of the respondents. These maps 
 
 New charts are added to the interviewer profile reflecting the use of traffic to measure sent, received and total traffic. This is useful for the clients utilizing the mobile networks for synchronization and want to monitor the usage of traffic by their interviewers.
 
-{{< imgproc "images/traffic.png" Fit "800x600" />}}
+{{< imgScale src="images/traffic.png"  class="md-img">}}
 
 The traffic volume is estimated as total size of data transmitted regardless of the connection mode (WiFi, 3G, etc). The rounding, compression, and other factors on the side of the ISP may cause a difference between this estimate and actual data usage.
 

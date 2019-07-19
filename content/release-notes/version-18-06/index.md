@@ -97,7 +97,7 @@ New Headquarters Features
     whether a particular interviewer has abnormally large number of
     households not found.
 
-<img src="images/881381.png" width="640" />
+{{< imgScale src="images/881381.png"  class="lg-img">}}
 
 1.  Upgrade of assignments: Survey Solutions will now assist the
     Headquarters users in migrating assignments in case of a
@@ -152,7 +152,7 @@ burden of preparation of data for preloading in panel surveys.
     actions by the interviewer on a tablet, including actions on
     interviews that are still not completed. For example:
 
-<img src="images/881382.png" width="640" />  
+{{< imgScale src="images/881382.png"  class="md-img">}}
 This log is useful in resolving the debates where the interviewer claims
 that the data was collected, but subsequently “disappeared”.
 
@@ -164,7 +164,7 @@ that the data was collected, but subsequently “disappeared”.
     status of each interview: started (blue), completed (green) or
     rejected (red).
 
- <img src="images/881380.png" width="640" />
+{{< imgScale src="images/881380.png"  class="lg-img">}}
 
 1.  Interviewer profile also contains a new warning (red message:
     “Relinked”) if the interviewer has relinked his/her device.

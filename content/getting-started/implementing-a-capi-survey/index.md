@@ -238,7 +238,8 @@ needed for the first survey using Survey Solutions. It will enable the superviso
 to check questionnaires, communicate with the field teams and headquarters, and to 
 generate and interpret reports.
 
-{{< imgproc "images/preparation_timeline.png" Fit "1071x600" />}}
+{{< imgScale src="images/preparation_timeline.png">}}
+
 Figure 1 : CAPI Survey Schedule Example
 
 

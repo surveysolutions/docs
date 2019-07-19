@@ -33,7 +33,7 @@ is most useful when the items are numerous (max 200) and lengthy and inconvenien
 to navigate. For example, the list of political parties, agricultural crops, or 
 other similar items.
 
-<IMG src="images/multiselect-combobox-runtime.png" width=483>
+{{< imgScale src="images/multiselect-combobox-runtime.png"  class="sm-img">}}
 
 
 The selection is done with the help of a combobox control. The interviewer first 
@@ -42,7 +42,7 @@ may be added only once to the selection and will not appear in the search result
 if it is already posted as a selection. The syntax of expressions and export format 
 is exactly the same as for a regular multiselect question (with checkboxes).
 
-<IMG src="images/multiselect-combobox-design.png" width=483>
+{{< imgScale src="images/multiselect-combobox-design.png"  class="md-img">}}
 
 
 ## Cascading with list of categories.

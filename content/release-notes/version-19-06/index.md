@@ -11,7 +11,7 @@ Some rosters may be presented in grid form in web interviews (also if the interv
 is using web-interviewer by logging in to the server through the web site, but not
 on the tablet).
 
-<CENTER><IMG src="images/table_roster.png" width=785></CENTER>
+{{< imgScale src="images/table_roster.png" class="lg-img">}}
 
 The rosters that can be presented in such a form are [for the moment] limited to
 only the numeric and text question types, with up to the 10 questions, but we intend
