@@ -1,5 +1,4 @@
 +++
-draft = true
 +++
 - Improvements to management of interviewers at the HQ;
 - Improvements in **presentation of table rosters**;

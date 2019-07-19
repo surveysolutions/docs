@@ -2,7 +2,6 @@
 title = "Version 19.07"
 keywords = ["19.07"]
 date = 2019-07-18T13:13:13Z
-draft = true
 +++
 
 
