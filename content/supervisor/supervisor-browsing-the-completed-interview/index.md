@@ -16,16 +16,17 @@ Survey Solutions, log in at demo.mysurvey.solutions using a supervisor
 account.  
   
   
-{{< imgproc "images/774335.png" Fit "800x600" />}}  
+{{< imgScale src="images/774335.png"  class="sm-img">}}
  
+
 
  Step 2
 -------
 
   
 Go to the *Interviews* tab  
-  
-{{< imgproc "images/774336.png" Fit "800x600" />}}  
+
+{{< imgScale src="images/774336.png">}} 
    
   
  
@@ -37,9 +38,11 @@ Go to the *Interviews* tab
 From the filter on the left side of the screen, select *Completed*  
   
   
-{{< imgproc "images/774357.png" Fit "800x600" />}}  
+{{< imgScale src="images/774357.png">}} 
   
  
+
+
 
  Step 4
 -------
@@ -48,12 +51,14 @@ From the filter on the left side of the screen, select *Completed*
 Click on the *Interview Key* for the interview that you would like to
 browse.   
   
-{{< imgproc "images/774359.png" Fit "800x600" />}}  
+{{< imgScale src="images/774359.png">}} 
   
   
 Now you can see all the answers given by the respondents—the answers
 marked in red are invalid according to the validation rules.   
  
+
+
 
  Step 5
 -------
@@ -63,4 +68,4 @@ If the interview should be approved, click on the *Approve* button. To
 return it to the interviewer, click on the *Reject* button.  
   
   
-{{< imgproc "images/774360.png" Fit "800x600" />}}
+{{< imgScale src="images/774360.png">}} 

@@ -18,7 +18,7 @@ the check box to the left of the assignment(s) to be assigned to an
 interviewer. (As a supervisor you can select multiple assignments to be
 assigned in a single action). Then, click on Assign and select an
 interviewer from the pop-up menu.</span>  
-<img src="images/863068.png" width="1100" />  
+{{< imgScale src="images/863068.png">}} 
   
 <span
 style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">This

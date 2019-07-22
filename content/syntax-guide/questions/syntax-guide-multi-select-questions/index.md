@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2661196-syntax-guide-multi-select-question
 Two types of multi-select questions
 ===================================
 
-{{< imgproc "images/721592.png" Fit "800x600" />}}
+{{< imgScale src="images/721592.png"  class="lg-img">}} 
 
 There are two types of multi-select questions. They differ not only in
 the way they appear, but in the way their answers can be referenced with
@@ -32,7 +32,7 @@ stored in an array.
 
 To make this abstract statement more concrete, take an example.
 
-{{< imgproc "images/721593.png" Fit "800x600" />}}
+{{< imgScale src="images/721593.png"  class="sm-img">}}
 
 In the figure, the selected items are: maize (1) and ground bean (27).
 
@@ -300,7 +300,7 @@ containts the values of all items, whatever each item's status.
 
 To make things more clear, consider the following example.
 
-{{< imgproc "images/721595.png" Fit "800x600" />}}
+{{< imgScale src="images/721595.png"  class="sm-img">}}
 
 In the image above, all items are answered with a "yes" or "no". The
 "yes" answers are: Mortar/pestle (501), Bed (502), Chair (504), and

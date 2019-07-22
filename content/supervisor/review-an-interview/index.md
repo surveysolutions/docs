@@ -7,14 +7,14 @@ aliases = ["/customer/portal/articles/2495547-review-an-interview","/customer/en
 
 +++
 
-{{< imgproc "images/772963.png" Fit "800x600" />}}  
+{{< imgScale src="images/772963.png"  class="lg-img">}} 
   
 First, click on the **Interviews** tab at the top of the screen.  
    
 Then, click on the interview key of the interview that you would like to
 review.  
   
-{{< imgproc "images/772962.png" Fit "800x600" />}}   
+{{< imgScale src="images/772962.png"  class="sm-img">}} 
   
 To review the interview, the supervisor will need to use several
 tools.  
@@ -29,7 +29,7 @@ review the case in another language.
 To do so, click on the ***Language*** drop down menu on the left most
 menu and choose another language.   
   
-{{< imgproc "images/841228.png" Fit "800x600" />}}  
+{{< imgScale src="images/841228.png"  class="sm-img">}} 
  
 
 Navigate
@@ -51,7 +51,7 @@ section, subsection, or roster to expand the element to navigate
 directly to an item in that section, subsection or roster.   
   
   
-{{< imgproc "images/841231.png" Fit "800x600" />}}  
+{{< imgScale src="images/841231.png"  class="lg-img">}} 
    
   
 
@@ -84,7 +84,7 @@ question of interest. To reset all the filters and see all the questions
 in the interview, click on the ***View all (reset all filters)***
 link below all the filters.  
    
-{{< imgproc "images/841240.png" Fit "800x600" />}}  
+{{< imgScale src="images/841240.png"  class="lg-img">}}  
   
   
  
@@ -105,8 +105,8 @@ To add a flag, navigate to the question where you want to leave a flag,
 moving your cursor to the top left-hand side of the screen. Then, click
 on the flag icon. Once a flag has been added, the supervisor can click
 on the *flagged* filter to see the field or fields bearing a flag.  
-   
-{{< imgproc "images/841243.png" Fit "800x600" />}}  
+  
+{{< imgScale src="images/841243.png"  class="lg-img">}} 
  
 
 Add comments
@@ -125,7 +125,7 @@ The supervisor can post multiple comments to any question. After they
 can be added, comments cannot be deleted but they can be hidden using
 the gray 3-dots on the top right corner of the question.  
   
-{{< imgproc "images/841247.png" Fit "800x600" />}}
+{{< imgScale src="images/841247.png"  class="md-img">}} 
 
 Approve, Reject
 ---------------
@@ -139,13 +139,13 @@ The supervisor will use the buttons in the left most pane to approve or
 reject the interview. To approve, click on the green ***Approve***
 button; to reject, the red ***Reject*** button.  
    
-{{< imgproc "images/841248.png" Fit "800x600" />}}  
+{{< imgScale src="images/841248.png"  class="sm-img">}} 
   
 Whichever button is selected, a pop up confirmation screen will appear
 with the opportunity to provide comments on the questionnaire as a
 whole.  
   
-{{< imgproc "images/841249.png" Fit "800x600" />}}  
+{{< imgScale src="images/841249.png"  class="lg-img">}} 
   
 At this confirmation screen, click on the blue ***OK*** to confirm your
 approval or rejection. Click on the ***CANCEL*** button to go back to
@@ -177,4 +177,4 @@ Review interviews in a flat, compact view
 -----------------------------------------
 
 Interviewers and Supervisors may now **review interviews in a flat, compact view**. By clicking OVERVIEW, they can see a compact presentation of the interview. The purpose of the flat view representation both on tablets and on HQ is to offer to interviewers and supervisors an alternative and, for some users, more convenient way to review interviews. _This feature was requested by Statistical Mauritius and other users_.
-{{< imgproc "images/interview flat view - on tablet, and on HQ or Supervisor.png" Fit "800x600" />}}
+{{< imgScale src="images/interview flat view - on tablet, and on HQ or Supervisor.png"  class="lg-img">}} 

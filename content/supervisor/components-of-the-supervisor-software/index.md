@@ -62,7 +62,7 @@ The Interview interface consists of several pieces:
 5.  Search tool, which can be used to find survey cases through keywords
     (marked 5).  
 
-{{< imgproc "images/772945.png" Fit "800x600" />}}  
+{{< imgScale src="images/772945.png"  class="lg-img">}} 
   
   
   
@@ -80,7 +80,7 @@ for reviewing, commenting, and approving or rejecting the case.
 The **Interview review panel **has several components (as displayed
 below):  
   
-{{< imgproc "images/772958.png" Fit "800x600" />}}  
+{{< imgScale src="images/772958.png"  class="lg-img">}}   
  
 
 1.  *Filters (marked 1 in the image above) *are on the left-hand of the
@@ -127,11 +127,11 @@ management that the supervisor handles. Headquarters determines which
 human resources are in which team. Supervisor is relegated to the role
 of managing the user accounts for their team. To do so, the supervisor
 clicks on the team member's name.  
+
+{{< imgScale src="images/772959.png"  class="lg-img">}} 
   
-{{< imgproc "images/772959.png" Fit "800x600" />}}  
   
-  
-{{< imgproc "images/772960.png" Fit "800x600" />}}
+{{< imgScale src="images/772960.png"  class="md-img">}} 
 
 <span id="Assignments"></span>Assignments
 -----------------------------------------

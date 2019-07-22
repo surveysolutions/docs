@@ -29,7 +29,7 @@ the example, ***assume A = 20 and B = 10***
   
  
 
-<table>
+<table class="table">
 <thead>
 <tr class="header">
 <th><strong>Operator</strong></th>
@@ -91,7 +91,7 @@ These operators compare two values and return either **TRUE** or
 Solutions:  
  
 
-<table>
+<table class="table">
 <thead>
 <tr class="header">
 <th><strong>Operator</strong></th>
@@ -167,7 +167,7 @@ tables show the logical operators supported by Survey Solutions: 
   
  
 
-<table>
+<table class="table">
 <thead>
 <tr class="header">
 <th><strong>Operator</strong></th>
@@ -230,7 +230,7 @@ Solutions instrument.
   
  
 
-<table>
+<table class="table">
 <thead>
 <tr class="header">
 <th><strong>Operator</strong></th>

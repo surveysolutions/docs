@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2877883-reassign-an-interview","/customer/
 To begin, click on the <span class="underline">Interviews tab</span> at
 the top of the screen**.**The supervisor application will then show the
 full list of interview cases.   
-{{< imgproc "images/819040.png" Fit "800x600" />}}  
+{{< imgScale src="images/819040.png">}} 
  
 
 Cases to be reassigned to another interviewer
@@ -40,8 +40,9 @@ status.  There are three possible scenarios:
     interviews by pressing *Reject* button on the toolbar, then reassign
     the interviews to another interviewer. To reassign the case, select
     the check box to the left of the survey case(s), then click on
-    *Assign* and select an Interviewer from the pop-up menu.   
-    {{< imgproc "images/819042.png" Fit "800x600" />}} {{< imgproc "images/819043.png" Fit "800x600" />}}  
+    *Assign* and select an Interviewer from the pop-up menu.  
+    
+{{< imgScale src="images/819042.png">}}  {{< imgScale src="images/819043.png"  class="md-img">}} 
       
     Another similar scenario where this protocol can be applied is
     when the first interviewer has opened a number of assignments and

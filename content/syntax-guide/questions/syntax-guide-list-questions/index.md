@@ -22,7 +22,7 @@ and “2” is the number(Item1).
 <span style="text-align: center;">{3, “Richard Smith”}</span>  
 <span style="text-align: center;">\]</span>  
 <span style="text-align: center;"> </span>  
-{{< imgproc "images/644260.png" Fit "800x600" />}}  
+{{< imgScale src="images/644260.png"  class="sm-img">}} 
   
   
  The following functions can be used in conditions for list questions:
@@ -40,7 +40,6 @@ and “2” is the number(Item1).
 
  Checks the number of items listed.   
  
-
 ### Syntax 
 
     varList.Length
@@ -62,15 +61,12 @@ the previous question.
     self==hholdNum
 
   
-   
 Or alternatively use the variable name:  
  
 
     hholdList.Length == hholdNum
 
   
-   
- 
 
 <span id="item2"></span>Item2
 -----------------------------
