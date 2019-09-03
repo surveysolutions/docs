@@ -11,7 +11,7 @@ Survey Solutions from version 5.7 allows the users embedding images into
 questionnaires. These images can be presented by configuring the static
 text elements. For details on the use of the images in the
 questionnaires, see the article
-on [Questionnaire Attachments](http://surveysolutions.desk.com/customer/en/portal/articles/2466173-questionnaire-attachments).  
+on [Questionnaire Attachments](/questionnaire-designer/toolbar/questionnaire-attachments).  
   
 The following file types are supported:
 
