@@ -1,3 +1,3 @@
 ﻿+++
-title = "Computer Assisted Web Interviewing (CAPI)"
+title = "Computer Assisted Web Interviewing (CAWI)"
 +++
