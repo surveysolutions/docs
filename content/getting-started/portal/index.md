@@ -126,6 +126,11 @@ related to a particular server.
 Number of new (unread) notifications is shown in the main menu next to the notifications
 menu item (as shown in the illustration: 29).
 
+<CENTER><TABLE width=50%><TR><TD>
+**IMPORTANT: Notifications are sent from an unsupervised email account. Do not reply to the 
+notification address as we will not be able to receive/process such messages.**
+</TD></TD></TABLE></CENTER>
+
 ### Download
 
 Download takes you to the page where an installation file of the data server part of
@@ -160,4 +165,3 @@ At the bottom of the page there is a selector for the language of the portal.
 <CENTER><IMG src="images/portal_language_selection.png" width=160></CENTER><BR>
 
 You can make an adjustment to another language if the default language is not the most convenient to work with.
-
