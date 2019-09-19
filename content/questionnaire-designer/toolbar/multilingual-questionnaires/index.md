@@ -7,6 +7,10 @@ aliases = ["/customer/portal/articles/2626663-multilingual-questionnaires","/cus
 
 +++
 
+This article describes composing multilingual questionnaires. For switching the 
+language of the Survey Solutions software itself and supported languages refer 
+to the [localization overview article](/faq/language/).
+
 Often times researchers work in contexts where respondents of a survey
 speak different languages. Therefore, to administer surveys and collect
 higher quality data it is important to have questionnaires in the
