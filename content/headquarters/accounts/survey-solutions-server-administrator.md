@@ -19,9 +19,9 @@ actions:
 -   [create HQ](/headquarters/teams-and-roles-tab-creating-user-accounts-#hqaccounts)
     user accounts,
     [observer](/headquarters/teams-and-roles-tab-creating-user-accounts-#observer)
-    user accounts and
+    user accounts and
     [API](/headquarters/survey-solutions-api)
-    user accounts (in addition to supervisors and interviewers as an HQ
+    user accounts (in addition to supervisors and interviewers as an HQ
     user can do), change passwords for these users;
 -   [set up a logo for the server and the tablets](/headquarters/admin-settings);
 -   [leave a message for all of the HQ users and supervisors](/headquarters/admin-settings);
@@ -43,4 +43,4 @@ Some obvious security recommendations:
 -   do not mention the administrator password in emails;
 -   do not use administrator account for day-to-day HQ operations.
 
-See more recommendations in the [Password Best Practices](http://localhost:1313/interviewer/app/password-best-practices/).
+See more recommendations in the [Password Best Practices](/interviewer/app/password-best-practices/).

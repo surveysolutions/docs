@@ -18,8 +18,8 @@ The following actions/events are recorded in the audit log on the server:
   <LI> survey questionnaire imported;
   <LI> survey data exported;
   <LI> survey deleted (questionnaire and data);
-  <LI> [observer](http://localhost:1313/headquarters/accounts/survey-solutions-server-observer/), 
-headquarters or [API user](http://localhost:1313/headquarters/api/survey-solutions-api/) created;
+  <LI> [observer](/headquarters/accounts/survey-solutions-server-observer/), 
+headquarters or [API user](/headquarters/api/survey-solutions-api/) created;
   <LI> interviewer moved from one team to another;
   <LI> assignment size changed;
   <LI> assignments upgraded to a newer version of the questionnaire.

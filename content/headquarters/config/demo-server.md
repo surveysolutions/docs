@@ -26,7 +26,7 @@ For a real survey you can request a dedicated [cloud server](https://support.mys
 
 - it is not accessible to others;
 - it is not cleared during the time you requested;
-- you get the most powerful [administrator](http://localhost:1313/headquarters/accounts/survey-solutions-server-administrator/) account, which can create multiple headquarters, API and observer accounts.
+- you get the most powerful [administrator](/headquarters/accounts/survey-solutions-server-administrator/) account, which can create multiple headquarters, API and observer accounts.
 
 If you are conducting training sessions on Survey Solutions with multiple participants, you can request a dedicated [cloud server](https://support.mysurvey.solutions/faq/cloud-server-instructions/) for the time of the training.
 
