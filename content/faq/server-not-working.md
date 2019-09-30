@@ -2,7 +2,7 @@
 title = "Server Not Working"
 keywords = ["server "]
 date = 2018-03-02T15:16:36Z
-lastmod = 2018-03-02T15:16:36Z
+lastmod = 2019-09-30T00:00:00Z
 aliases = ["/customer/portal/articles/2926278-server-not-working","/customer/en/portal/articles/2926278-server-not-working","/customer/portal/articles/2926278","/customer/en/portal/articles/2926278"]
 
 +++
@@ -16,10 +16,13 @@ server, rather than the server itself.
 Before sending the report that a server is "not working" use any of the
 following tools to confirm that this is indeed the case:
 
--   <http://downforeveryoneorjustme.com/ssi.mysurvey.solutions>
--   <https://isitdownorjust.me/ssi-mysurvey-solutions/>
--   <https://down.com>
--   any other alternative tool of this kind.
+- <http://downforeveryoneorjustme.com/demo.mysurvey.solutions>
+- <http://currentlydown.com/demo.mysurvey.solutions>  
+- <https://isitdownorjust.me/demo-mysurvey-solutions/>
+- <https://www.site24x7.com/check-website-availability.html>  
+- <http://www.freesitestatus.com/en/quicktest.php>  
+- <https://down.com>
+- any other alternative tool of this kind.
 
 *These are the third-party tools and we neither produce, nor provide any
 training or support related to these tools.*  
@@ -27,23 +30,10 @@ training or support related to these tools.*
 If the above tools indicate that the server is functional, you will need
 to work with your network administrator to resolve the issue.  
   
-In your report <span class="underline">**include the following
-information**</span>:
+In your report <span class="underline">**include the information according to the [ORANGE checklist](/faq/issue-reporting/#orange)**</span>:
 
-1.  exact URL of the server you are trying to access, such as
-    <https://demo.mysurvey.solutions> (do not write "*my server*", "*our
-    server*" and such).
-2.  exact date and time when you tried to access the server, specify
-    your[time zone](https://www.timeanddate.com/time/map/), for example:
-    UTC+2:00;
-3.  include your IP address from which you tried to access the server.
-    To determine it, type ["my ip" in the Google search
-    box](https://www.google.com/search?q=my+ip).
-4.  include the screenshot with the report of the above listed tools;
-5.  include the screenshot with the server response (what you are seeing
-    when you are trying to access the server).
 
-Specifying all of the above information will expedite the handling of
+Specifying all of this information will expedite the handling of
 the issue. If any of this information is missing, we may need to contact
 you to obtain it, which will delay the troubleshooting.  
   

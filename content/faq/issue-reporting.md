@@ -11,10 +11,32 @@ support agent to collect the information based on one of the following lists.
 
 <TABLE border=1>
 
-<TR><TD><TD align=center><BR><H2>Red list</H2><TD>
+<TR><TD><A name="orange"><TD align=center><BR><H2>Orange list</H2><TD>
+<TR align=center bgcolor="orange"><TH>#<TH width=50%>information item<TH width=50%>example</TH>
+<TR bgcolor="orange">
+<TD align=center>1<TD>Full server name. Please, do not write '*my server*', '*our server*', '*one of our servers*'.
+<TD>*https://demo.mysurvey.solutions*
+<TR bgcolor="orange">
+<TD align=center>2<TD>Exact date and time when you tried to access the server, specify
+    your [time zone](https://www.timeanddate.com/time/map/)
+<TD>*Aug 7, 2019 at 16:34 UTC+2:00*  <BR>or<BR>*Aug 1, 2019 at 06:59 Pacific Standard Time*
+<TR bgcolor="orange">
+<TD align=center>3<TD>Include your IP address from which you tried to access the server.
+    To determine it, type ["my ip" in the Google search
+    box](https://www.google.com/search?q=my+ip)
+<TD> *127.0.0.1*
+<TR bgcolor="orange">
+<TD align=center>4<TD>A screenshot with the report of the tools listed [here](/faq/server-not-working/)
+<TD>
+<TR bgcolor="orange">
+<TD align=center>5<TD>A screenshot with the server response (what you are seeing
+    when you are trying to access the server).
+<TD>
+
+<TR><TD><A name="red"><TD align=center><BR><H2>Red list</H2><TD>
 <TR align=center bgcolor="pink"><TH>#<TH width=50%>information item<TH width=50%>example</TH>
 <TR bgcolor="pink">
-<TD align=center>1<TD>Full server name
+<TD align=center>1<TD>Full server name. Please, do not write '*my server*', '*our server*', '*one of our servers*'.
 <TD>*https://demo.mysurvey.solutions*
 <TR bgcolor="pink">
 <TD align=center>2<TD>User name (login) of the user(s) experiencing the problem
@@ -23,10 +45,10 @@ support agent to collect the information based on one of the following lists.
 <TD align=center>3<TD>Date and time when the problem was last experienced, (if known, also when the problem was first experienced)
 <TD> *Aug 7, 2019 at 16:34 Pacific Standard Time*.
 
-<TR><TD><TD align=center><BR><H2>Blue list</H2><TD>
+<TR><TD><A name="blue"><TD align=center><BR><H2>Blue list</H2><TD>
 <TR align=center bgcolor="DeepSkyBlue"><TH>#<TH width=50%>information item<TH width=50%>example</TH>
 <TR bgcolor="DeepSkyBlue">
-<TD align=center>1<TD>Full server name
+<TD align=center>1<TD>Full server name. Please, do not write '*my server*', '*our server*', '*one of our servers*'.
 <TD>*https://demo.mysurvey.solutions*
 <TR bgcolor="DeepSkyBlue">
 <TD align=center>2<TD>User name (login) of the user(s) experiencing the problem
@@ -48,10 +70,10 @@ support agent to collect the information based on one of the following lists.
 <TD>*Aug 7, 2019 18:39 Pacific Standard Time*.
 
 
-<TR><TD><TD align=center><BR><H2>Green list</H2><TD>
+<TR><TD><A name="green"><TD align=center><BR><H2>Green list</H2><TD>
 <TR align=center bgcolor="LightGreen"><TH width=3%>#<TH width=50%>information item<TH width=50%>example</TH>
 <TR bgcolor="LightGreen">
-<TD align=center>1<TD>Full server name. Do not write '*my server*', '*our server*', '*one of our servers*'.
+<TD align=center>1<TD>Full server name. Please, do not write '*my server*', '*our server*', '*one of our servers*'.
 <TD>*https://demo.mysurvey.solutions*
 <TR bgcolor="LightGreen">
 <TD align=center>2<TD>User name (login) of the user(s) experiencing the problem
