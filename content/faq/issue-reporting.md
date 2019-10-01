@@ -93,7 +93,6 @@ support agent to collect the information based on one of the following lists.
 <TR bgcolor="LightGreen">
 <TD align=center>7<TD>Date and time when the support package was sent by that interviewer to the HQ (step #6)
 <TD>*Aug 7, 2019 18:39 Pacific Standard Time*.
-<TD>
 <TR bgcolor="LightGreen">
 <TD align=center>8<TD>Assignment number and/or the interview key and status with which the user is experiencing the problem
 <TD>*interview 32-64-12-90 from assignment nr. 2317*.
