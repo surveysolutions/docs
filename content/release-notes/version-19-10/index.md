@@ -32,7 +32,7 @@ assignment details page. The page contains two kinds of information:
 A new system-generated file is available with every export of the data: 
 assignment__actions, which tracks the changes made to assignments. 
 Read more on the format of this file in the 
-[following article](/headquarters/export/system-generated---export-file-anatomy/).
+[following article](/headquarters/export/system-generated-export-file-anatomy/).
 
 
 ## Assignment comments
