@@ -62,8 +62,10 @@ Right-clicking on the server name will open a context menu with the following av
 
 - ***Open*** - view the timeline and information about that server.
 - ***Request server extension*** - creates a new server extension request for this server.
+- ***Request to stop the server*** - (<FONT color="red">careful!</FONT>) create a new request to stop/erase/destroy the server and all data.
 - ***Transfer server*** - create a new request to transfer server ownership to another user.
 
+<CENTER><IMG src="images/portal_server_actions.png" width=366></CENTER><BR>
 
 ### Requests page
 
@@ -89,7 +91,12 @@ This menu allows creation of new requests of the following types:
 - ***Server extension request***;
 - ***Transfer server ownership***.
 
-Each request is an electronic form that must be filled out by the user. Incomplete, inaccurate or misleading information may delay processing or cause the request to be rejected. After the submission each request is assigned a 4-digit request number and appears in the requests list (see requests page above).
+Each request is an electronic form that must be filled out by the user. Incomplete, 
+inaccurate or misleading information may delay processing or cause the request to be 
+rejected. After the submission each request is assigned a 4-digit request number and 
+appears in the requests list (see requests page above).
+
+See also the relevant information on [cloud server requests](/faq/cloud-server-request/).
 
 
 ### Notifications

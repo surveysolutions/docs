@@ -2,7 +2,7 @@
 title = "System generated files"
 keywords = ["export, action, status, errors"]
 date = 2018-12-12T12:12:12Z
-lastmod = 2010-06-05T06:06:06Z
+lastmod = 2019-10-01T01:01:01Z
 
 
 +++
@@ -10,12 +10,17 @@ lastmod = 2010-06-05T06:06:06Z
 Every archive of data exported from the Survey Solutions Headquarters 
 contains among the user data the following system-generated data files:
 
+- assignment__actions;
 - interview__actions;
 - interview__comments;
-- interview__diagnostics;
+- [interview__diagnostics](/headquarters/export/interview_diagnostics_file/);
 - interview__errors.
 
-The data files are also accompanied by an automatically generated file
+The above data files are saved in the same data format as the main survey 
+data, for example, if the main data is requested in Stata format, the 
+system-generated data files will also be exported in Stata format.
+
+The data files are also accompanied by an automatically generated text file
 named <TT>export\_\_readme.txt</TT>. This file documents which version of
 the Survey Solutions software was used to export the data, when the 
 export was done, and placement of variables into the data files. Here is
@@ -26,9 +31,95 @@ The contents of the system-generated data files is described in the table below:
 
 <TABLE border=1>
 
-<TR bgcolor="PowderBlue"><TD colspan=4><H2><a id="interview__actions">interview__actions</H2></TD></TR>
+<TR bgcolor="PowderBlue"><TD colspan=4><H2><a id="assignment__actions">assignment__actions</H2></TD></TR>
+
+<TR align=center>
+  <TH width=140>Variable</TH>
+  <TH width=60>Type</TH>
+  <TH width=300>Meaning</TH>
+  <TH width=200>Example</TH>
+</TR>
 
 <TR>
+  <TD><TT>assignment__id</TT></TD>
+  <TD>numeric</TD>
+  <TD>Unique id of the assignment.</TD>
+  <TD>6037</TD>
+</TR>
+
+<TR>
+  <TD><TT>date</TT></TD>
+  <TD>string</TD>
+  <TD>Date when the action was taken</TD>
+  <TD>2018-12-12</TD>
+</TR>
+
+<TR>
+  <TD><TT>time</TT></TD>
+  <TD>string</TD>
+  <TD>Time when the action was taken</TD>
+  <TD>10:11:12</TD>
+</TR>
+
+<TR>
+  <TD><TT>action</TT></TD>
+  <TD>numeric</TD>
+  <TD>Type of action taken. See <A href="#coding_actiona">assignment action codes</A>.</TD>
+  <TD>12</TD>
+</TR>
+
+<TR>
+  <TD><TT>originator</TT></TD>
+  <TD>string</TD>
+  <TD>Login name of the person performing the action</TD>
+  <TD>JohnSup</TD>
+</TR>
+
+<TR>
+  <TD><TT>role</TT></TD>
+  <TD>numeric</TD>
+  <TD>System role of the person performing the action. See <A href="#coding_role">role codes</A>.</TD>
+  <TD>2</TD>
+</TR>
+
+<TR>
+  <TD><TT>responsible_name</TT></TD>
+  <TD>string</TD>
+  <TD>Login name of the person now responsible for the interview</TD>
+  <TD>JackInt</TD>
+</TR>
+
+<TR>
+  <TD><TT>responsible_role</TT></TD>
+  <TD>numeric</TD>
+  <TD>System role of the person now responsible for the interview. See <A href="#coding_role">role codes</A>.</TD>
+  <TD>1</TD>
+</TR>
+
+<TR>
+  <TD><TT>old__value</TT></TD>
+  <TD>string</TD>
+  <TD>Value that was changed (optional).</TD>
+  <TD>3</TD>
+</TR>
+
+<TR>
+  <TD><TT>new__value</TT></TD>
+  <TD>string</TD>
+  <TD>New value that was specified (optional).</TD>
+  <TD>5</TD>
+</TR>
+
+<TR>
+  <TD><TT>comment</TT></TD>
+  <TD>string</TD>
+  <TD>Any comment left by the action originator.</TD>
+  <TD>Complete this assignment by Friday!</TD>
+</TR>
+
+<TR bgcolor="PowderBlue"><TD colspan=4><H2><a id="interview__actions">interview__actions</H2></TD></TR>
+
+<TR align=center>
   <TH width=140>Variable</TH>
   <TH width=60>Type</TH>
   <TH width=300>Meaning</TH>
@@ -79,9 +170,9 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>role</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>System role of the person performing the action. See <A href="#coding_role">role codes</A>.</TD>
-  <TD>Supervisor</TD>
+  <TD>2</TD>
 </TR>
 
 <TR>
@@ -93,16 +184,16 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>responsible_role</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>System role of the person now responsible for the interview. See <A href="#coding_role">role codes</A>.</TD>
-  <TD>Interviewer</TD>
+  <TD>1</TD>
 </TR>
 
 <TR bgcolor="PowderBlue">
   <TD colspan=4><H2><a id="interview__comments">interview__comments</H2></TD>
 </TR>
 
-<TR>
+<TR align=center>
   <TH>Variable</TH>
   <TH>Type</TH>
   <TH>Meaning</TH>
@@ -132,28 +223,28 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>id1</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 1st level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id2</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 2nd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id3</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 3rd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id4</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 4th level of nesting</TD>
   <TD>7</TD>
 </TR>
@@ -176,7 +267,7 @@ The contents of the system-generated data files is described in the table below:
   <TD><TT>date</TT></TD>
   <TD>string</TD>
   <TD>Date when the comment was left</TD>
-  <TD><FONT color="magenta">2018-12-31</FONT></TD>
+  <TD>2018-12-31</TD>
 </TR>
 
 <TR>
@@ -195,9 +286,9 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>role</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>System role of the person leaving the comment. See <A href="#coding_role">role codes</A>.</TD>
-  <TD>Supervisor</TD>
+  <TD>2</TD>
 </TR>
 
 <TR>
@@ -211,7 +302,7 @@ The contents of the system-generated data files is described in the table below:
   <TD colspan=4><H2><a id="interview__diagnostics">interview__diagnostics</H2></TD>
 </TR>
 
-<TR>
+<TR align=center>
   <TH>Variable</TH>
   <TH>Type</TH>
   <TH>Meaning</TH>
@@ -248,25 +339,25 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>interviewers</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>Number of interviewers who worked on this interview</TD>
   <TD>1</TD>
 </TR>
 <TR>
   <TD><TT>rejections\_\_sup</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>How many times this interview was rejected by supervisors</TD>
   <TD>0</TD>
 </TR>
 <TR>
   <TD><TT>rejections\_\_hq</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>How many times this interview was rejected by HQ</TD>
   <TD>1</TD>
 </TR>
 <TR>
   <TD><TT>entities\_\_errors</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>Number of questions and static texts with errors</TD>
   <TD>10</TD>
 </TR>
@@ -281,7 +372,7 @@ The contents of the system-generated data files is described in the table below:
   <TD colspan=4><H2><a id="interview__errors">interview__errors</H2></TD>
 </TR>
 
-<TR>
+<TR align=center>
   <TH>Variable</TH>
   <TH>Type</TH>
   <TH>Meaning</TH>
@@ -311,28 +402,28 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>id1</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 1st level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id2</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 2nd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id3</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 3rd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id4</TT></TD>
-  <TD><FONT color="magenta">\*numeric</FONT></TD>
+  <TD>\*numeric</TD>
   <TD>Roster ID of the 4th level of nesting</TD>
   <TD>7</TD>
 </TR>
@@ -346,9 +437,9 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>type</TT></TD>
-  <TD><FONT color="magenta">numeric</FONT></TD>
+  <TD>numeric</TD>
   <TD>Type of the variable where the validation error occurred. See <A href="#coding_type">type codes</A>.</TD>
-  <TD><FONT color="magenta">2</FONT></TD>
+  <TD>2</TD>
 </TR>
 
 <TR>
@@ -368,79 +459,108 @@ The contents of the system-generated data files is described in the table below:
 
 </TABLE>
 
-Fields indicated with a star (\*) are optional and present only if the questionnaire 
+Fields indicated with a star (\*) are optional and present only if the questionnaire
 template contains rosters.
 
-Where a value is shown in <FONT color="magenta">magenta</FONT> color, this alerts 
-of a recent change in how this value is saved.
 
 
+## Code tables
+
+For coded variables in the system-generated data files the following tables outline the meaning of the codes:
+
+- [coding of roles](#coding_role);
+- [coding of assignment actions](#coding_actiona);
+- [coding of interview actions](#coding_action);
+- [coding of interview statuses](#coding_status);
+- [coding of object types](#coding_type).
 
 <TABLE border=1>
-<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_role">Coding of roles
-<TR bgcolor="Orange">
+<TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_role"><H5>Coding of roles</H5></TD></TR>
+<TR bgcolor="Orange" align=center>
   <TH width=80>Code</TH>
   <TH width=200>Meaning</TH>
 </TR>
-<TR><TD>0</TD><TD>&#60;UNKNOWN ROLE&#62;</TD></TR>
-<TR><TD>1</TD><TD>Interviewer</TD></TR>
-<TR><TD>2</TD><TD>Supervisor</TD></TR>
-<TR><TD>3</TD><TD>Headquarter</TD></TR>
-<TR><TD>4</TD><TD>Administrator</TD></TR>
-<TR><TD>5</TD><TD>Api User</TD></TR>
+<TR><TD align=center>0</TD><TD>&#60;UNKNOWN ROLE&#62;</TD></TR>
+<TR><TD align=center>1</TD><TD>Interviewer</TD></TR>
+<TR><TD align=center>2</TD><TD>Supervisor</TD></TR>
+<TR><TD align=center>3</TD><TD>Headquarter</TD></TR>
+<TR><TD align=center>4</TD><TD>Administrator</TD></TR>
+<TR><TD align=center>5</TD><TD>Api User</TD></TR>
 
-<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_action"><BR>Coding of actions
-<TR bgcolor="Orange">
+<TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
+<TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_actiona"><BR><H5>Coding of assignment actions</H5></TD></TR>
+<TR bgcolor="Orange" align=center>
   <TH width=80>Code</TH>
   <TH width=200>Meaning</TH>
 </TR>
-<TR><TD>0</TD><TD>SupervisorAssigned</TD></TR>
-<TR><TD>1</TD><TD>InterviewerAssigned</TD></TR>
-<TR><TD>2</TD><TD>FirstAnswerSet</TD></TR>
-<TR><TD>3</TD><TD>Completed</TD></TR>
-<TR><TD>4</TD><TD>Restarted</TD></TR>
-<TR><TD>5</TD><TD>ApprovedBySupervisor</TD></TR>
-<TR><TD>6</TD><TD>ApprovedByHeadquarter</TD></TR>
-<TR><TD>7</TD><TD>RejectedBySupervisor</TD></TR>
-<TR><TD>8</TD><TD>RejectedByHeadquarter</TD></TR>
-<TR><TD>9</TD><TD>Deleted</TD></TR>
-<TR><TD>10</TD><TD>Restored</TD></TR>
-<TR><TD>11</TD><TD>UnapprovedByHeadquarter</TD></TR>
-<TR><TD>12</TD><TD>Created</TD></TR>
-<TR><TD>13</TD><TD>InterviewReceivedByTablet</TD></TR>
-<TR><TD>14</TD><TD>Resumed</TD></TR>
-<TR><TD>15</TD><TD>Paused</TD></TR>
-<TR><TD>16</TD><TD>TranslationSwitched</TD></TR>
-<TR><TD>17</TD><TD>OpenedBySupervisor</TD></TR>
-<TR><TD>18</TD><TD>ClosedBySupervisor</TD></TR>
-<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_status"><BR>Coding of interview statuses
-<TR bgcolor="Orange">
-  <TH width=80>Code</TH>
-  <TH width=200>Meaning</TH>
-</TR>
-<TR><TD>-1</TD><TD>Deleted</TD></TR>
-<TR><TD>0</TD><TD>Restored</TD></TR>
-<TR><TD>20</TD><TD>Created</TD></TR>
-<TR><TD>40</TD><TD>SupervisorAssigned</TD></TR>
-<TR><TD>60</TD><TD>InterviewerAssigned</TD></TR>
-<TR><TD>65</TD><TD>RejectedBySupervisor</TD></TR>
-<TR><TD>80</TD><TD>ReadyForInterview</TD></TR>
-<TR><TD>85</TD><TD>SentToCapi</TD></TR>
-<TR><TD>95</TD><TD>Restarted</TD></TR>
-<TR><TD>100</TD><TD>Completed</TD></TR>
-<TR><TD>120</TD><TD>ApprovedBySupervisor</TD></TR>
-<TR><TD>125</TD><TD>RejectedByHeadquarters</TD></TR>
-<TR><TD>130</TD><TD>ApprovedByHeadquarters</TD></TR>
+<TR><TD align=center>0</TD><TD>Unknown</TD></TR>
+<TR><TD align=center>1</TD><TD>Created</TD></TR>
+<TR><TD align=center>2</TD><TD>Archived</TD></TR>
+<TR><TD align=center>3</TD><TD>Deleted</TD></TR>
+<TR><TD align=center>4</TD><TD>ReceivedByTablet</TD></TR>
+<TR><TD align=center>5</TD><TD>UnArchived</TD></TR>
+<TR><TD align=center>6</TD><TD>AudioRecordingChanged</TD></TR>
+<TR><TD align=center>7</TD><TD>Reassigned</TD></TR>
+<TR><TD align=center>8</TD><TD>QuantityChanged</TD></TR>
+<TR><TD align=center>9</TD><TD>WebModeChanged</TD></TR>
 
-<TR bgcolor="PowderBlue"><TD colspan=2><A id="coding_type"><BR>Coding of types
-<TR bgcolor="Orange">
+<TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
+<TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_action"><BR><H5>Coding of interview actions</H5></TD></TR>
+<TR bgcolor="Orange" align=center>
   <TH width=80>Code</TH>
   <TH width=200>Meaning</TH>
 </TR>
-<TR><TD>1</TD><TD>Section</TD></TR>
-<TR><TD>2</TD><TD>Question</TD></TR>
-<TR><TD>3</TD><TD>StaticText</TD></TR>
-<TR><TD>4</TD><TD>Variable</TD></TR>
+<TR><TD align=center>0</TD><TD>SupervisorAssigned</TD></TR>
+<TR><TD align=center>1</TD><TD>InterviewerAssigned</TD></TR>
+<TR><TD align=center>2</TD><TD>FirstAnswerSet</TD></TR>
+<TR><TD align=center>3</TD><TD>Completed</TD></TR>
+<TR><TD align=center>4</TD><TD>Restarted</TD></TR>
+<TR><TD align=center>5</TD><TD>ApprovedBySupervisor</TD></TR>
+<TR><TD align=center>6</TD><TD>ApprovedByHeadquarter</TD></TR>
+<TR><TD align=center>7</TD><TD>RejectedBySupervisor</TD></TR>
+<TR><TD align=center>8</TD><TD>RejectedByHeadquarter</TD></TR>
+<TR><TD align=center>9</TD><TD>Deleted</TD></TR>
+<TR><TD align=center>10</TD><TD>Restored</TD></TR>
+<TR><TD align=center>11</TD><TD>UnapprovedByHeadquarter</TD></TR>
+<TR><TD align=center>12</TD><TD>Created</TD></TR>
+<TR><TD align=center>13</TD><TD>InterviewReceivedByTablet</TD></TR>
+<TR><TD align=center>14</TD><TD>Resumed</TD></TR>
+<TR><TD align=center>15</TD><TD>Paused</TD></TR>
+<TR><TD align=center>16</TD><TD>TranslationSwitched</TD></TR>
+<TR><TD align=center>17</TD><TD>OpenedBySupervisor</TD></TR>
+<TR><TD align=center>18</TD><TD>ClosedBySupervisor</TD></TR>
+
+<TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
+<TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_status"><BR><H5>Coding of interview statuses </H5></TD></TR>
+<TR bgcolor="Orange" align=center>
+  <TH width=80>Code</TH>
+  <TH width=200>Meaning</TH>
+</TR>
+<TR><TD align=center>-1</TD><TD>Deleted</TD></TR>
+<TR><TD align=center>0</TD><TD>Restored</TD></TR>
+<TR><TD align=center>20</TD><TD>Created</TD></TR>
+<TR><TD align=center>40</TD><TD>SupervisorAssigned</TD></TR>
+<TR><TD align=center>60</TD><TD>InterviewerAssigned</TD></TR>
+<TR><TD align=center>65</TD><TD>RejectedBySupervisor</TD></TR>
+<TR><TD align=center>80</TD><TD>ReadyForInterview</TD></TR>
+<TR><TD align=center>85</TD><TD>SentToCapi</TD></TR>
+<TR><TD align=center>95</TD><TD>Restarted</TD></TR>
+<TR><TD align=center>100</TD><TD>Completed</TD></TR>
+<TR><TD align=center>120</TD><TD>ApprovedBySupervisor</TD></TR>
+<TR><TD align=center>125</TD><TD>RejectedByHeadquarters</TD></TR>
+<TR><TD align=center>130</TD><TD>ApprovedByHeadquarters</TD></TR>
+
+<TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
+<TR bgcolor="PowderBlue"><TD colspan=2 align=center><A id="coding_type"><BR><H5>Coding of types</H5></TD></TR>
+<TR bgcolor="Orange" align=center>
+  <TH width=80>Code</TH>
+  <TH width=200>Meaning</TH>
+</TR>
+<TR><TD align=center>1</TD><TD>Section</TD></TR>
+<TR><TD align=center>2</TD><TD>Question</TD></TR>
+<TR><TD align=center>3</TD><TD>StaticText</TD></TR>
+<TR><TD align=center>4</TD><TD>Variable</TD></TR>
 </TABLE>
+
 
 
