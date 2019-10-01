@@ -13,7 +13,7 @@ of interviews:
 *   number of questions with comments,
 *   duration of the interview etc.
 
-For a description of available fields and their types, refer to [this article](/headquarters/export/system-generated---export-file-anatomy#interview__diagnostics).
+For a description of available fields and their types, refer to [this article](/headquarters/export/system-generated-export-file-anatomy#interview__diagnostics).
 
 This is especially useful for user-written monitoring systems that work alongside 
 Survey Solutions and continually monitor the quality of incoming data by 
