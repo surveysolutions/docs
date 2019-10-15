@@ -30,10 +30,9 @@ specifications above.
 
 **Software:**
 
-- OS Microsoft Windows Server 2012R2 (Survey Solutions server should
-not be installed on MS Windows Server 2008 generation);
+- OS Microsoft Windows Server 2016 or newer.
 - [Microsoft .Net Framework 4.8] (https://dotnet.microsoft.com/download/dotnet-framework/net48).
-- PostGRE SQL (see [standalone installation instructions](/headquarters/config/standalone-installation/)).
+- PostgreSQL (see [standalone installation instructions](/headquarters/config/standalone-installation/)).
 
 Survey Solutions is working under Microsoft IIS which is 
 [built-in into the OS](https://support.microsoft.com/en-us/help/224609/how-to-obtain-versions-of-internet-information-server-iis).
