@@ -40,6 +40,7 @@ independent testing before volume purchases of tablets.
     consume more power and reduce autonomous work. The choice of the
     screen depends on the convenience of use with the software and is
     usually determined experimentally.
+-   **Android 8.0** we highly recommend choosing tablets with android 8 preinstalled. Starting from this version it should be easier for manufacturers to update existing devices because of [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html).
 
   Tested Devices
 ---------------
@@ -68,36 +69,6 @@ no longer be available on the market.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>Asus Nexus 7 (2013)</td>
-<td>4.4.4</td>
-<td>+</td>
-<td>+</td>
-<td>2GB</td>
-<td>32GB</td>
-<td>7&quot;</td>
-<td>$200</td>
-</tr>
-<tr class="even">
-<td>Dell Venue 8 3840</td>
-<td>4.4.4</td>
-<td>+</td>
-<td>+</td>
-<td>1GB</td>
-<td>16GB</td>
-<td>8&quot;</td>
-<td>$170</td>
-</tr>
-<tr class="odd">
-<td>Dell Venue 8 3830</td>
-<td>4.4.2</td>
-<td>+</td>
-<td>+</td>
-<td>2GB</td>
-<td>32GB</td>
-<td>8&quot;</td>
-<td>$150</td>
-</tr>
 <tr class="even">
 <td>HTC Nexus 9</td>
 <td>6.0.1</td>
@@ -109,16 +80,6 @@ no longer be available on the market.
 <td>$450</td>
 </tr>
 <tr class="odd">
-<td>Samsung Galaxy TAB 3</td>
-<td>4.4.2</td>
-<td> -</td>
-<td>+</td>
-<td>1.5GB</td>
-<td>16GB</td>
-<td>8&quot;</td>
-<td>$250</td>
-</tr>
-<tr class="even">
 <td>Samsung Galaxy TAB 4</td>
 <td>5.1.1</td>
 <td>+</td>
@@ -128,23 +89,13 @@ no longer be available on the market.
 <td>7&quot;</td>
 <td>$300</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Samsung Galaxy TAB A</td>
 <td>5.0.2</td>
 <td>+</td>
 <td>+</td>
 <td>1.5GB</td>
 <td>16GB</td>
-<td>8&quot;</td>
-<td>$350</td>
-</tr>
-<tr class="even">
-<td>Samsung Galaxy Note</td>
-<td>4.4.2</td>
-<td>+</td>
-<td>+</td>
-<td>2GB</td>
-<td>32GB</td>
 <td>8&quot;</td>
 <td>$350</td>
 </tr>
@@ -167,16 +118,6 @@ no longer be available on the market.
 <td>32GB</td>
 <td>10&quot;</td>
 <td>$300</td>
-</tr>
-<tr class="odd">
-<td>NVidia Shield k1</td>
-<td>5.0.1</td>
-<td> -</td>
-<td>+</td>
-<td>2GB</td>
-<td>16GB</td>
-<td>8&quot;</td>
-<td>$200</td>
 </tr>
 <tr class="even">
 <td>Lenovo TAB 2 A8-50F</td>
