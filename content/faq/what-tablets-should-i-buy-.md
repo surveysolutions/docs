@@ -132,7 +132,7 @@ no longer be available on the market.
 </tr>
 
 <tr>
-<td>[Xiaomi Mi Pad 4](https://www.gsmarena.com/xiaomi_mi_pad_4-9249.php)</td>
+  <td><a href="https://www.gsmarena.com/xiaomi_mi_pad_4-9249.php" target="_blank">Xiaomi Mi Pad 4</a></td>
 <td>8.1</td>
 <td>+</td>
 <td>+</td>
