@@ -64,8 +64,6 @@ no longer be available on the market.
 <th>RAM</th>
 <th>Flash Storage</th>
 <th>Screen</th>
-<th>Approx Price<br />
-(US Market)</th>
 </tr>
 </thead>
 <tbody>
@@ -77,7 +75,6 @@ no longer be available on the market.
 <td>2GB</td>
 <td>32GB</td>
 <td>8.9&quot;</td>
-<td>$450</td>
 </tr>
 <tr class="odd">
 <td>Samsung Galaxy TAB 4</td>
@@ -87,7 +84,6 @@ no longer be available on the market.
 <td>1.5GB</td>
 <td>16GB</td>
 <td>7&quot;</td>
-<td>$300</td>
 </tr>
 <tr class="even">
 <td>Samsung Galaxy TAB A</td>
@@ -97,7 +93,6 @@ no longer be available on the market.
 <td>1.5GB</td>
 <td>16GB</td>
 <td>8&quot;</td>
-<td>$350</td>
 </tr>
 <tr class="odd">
 <td>Samsung Galaxy Tab S</td>
@@ -107,7 +102,6 @@ no longer be available on the market.
 <td>3GB</td>
 <td>16GB</td>
 <td>8.4&quot;</td>
-<td>$400</td>
 </tr>
 <tr class="even">
 <td>Samsung Nexus 10</td>
@@ -117,17 +111,15 @@ no longer be available on the market.
 <td>2GB</td>
 <td>32GB</td>
 <td>10&quot;</td>
-<td>$300</td>
 </tr>
 <tr class="even">
 <td>Lenovo TAB 2 A8-50F</td>
 <td>5.1.0</td>
-<td> -</td>
+<td>-</td>
 <td>+</td>
 <td>1GB</td>
 <td>16GB</td>
 <td>8&quot;</td>
-<td>$150</td>
 </tr>
 <tr>
 <td>Samsung Galaxy Tab A</td>
@@ -137,7 +129,16 @@ no longer be available on the market.
 <td>2GB</td>
 <td>32-128GB</td>
 <td>10.1&quot;</td>
-<td>$230</td>
+</tr>
+
+<tr>
+<td>[Xiaomi Mi Pad 4](https://www.gsmarena.com/xiaomi_mi_pad_4-9249.php)</td>
+<td>8.1</td>
+<td>+</td>
+<td>+</td>
+<td>3GB</td>
+<td>32-64GB</td>
+<td>8&quot;</td>
 </tr>
 
 </tbody>
