@@ -129,6 +129,17 @@ no longer be available on the market.
 <td>8&quot;</td>
 <td>$150</td>
 </tr>
+<tr>
+<td>Samsung Galaxy Tab A</td>
+<td>9.0</td>
+<td>-</td>
+<td>+</td>
+<td>2GB</td>
+<td>32-128GB</td>
+<td>10.1&quot;</td>
+<td>$230</td>
+</tr>
+
 </tbody>
 </table>
 
