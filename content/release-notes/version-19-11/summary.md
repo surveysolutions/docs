@@ -1,11 +1,11 @@
 +++
 +++
-- Questionnaire import history;
-- Create new questionnaire from history;
-- Questionnaire preview form history;
-- Questionnaire history comments;
-- Questionnaire details page;
-- Comments during questionnaire import;
-- PDF version of questionnaire on HQ;
-- Export archive contains PDF;
+
+- Questionnaire details page at the Headquarters;
+- Data export archive now contains more information;
+- Revision comments in the Designer;
+- Questionnaire import comment at Headquarters;
+- Revision review in the Designer;
+- Device logs;
+- Multiple web interviews may be started from the same assignment link.
 - [View](/release-notes/version-19-11).
