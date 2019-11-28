@@ -155,7 +155,10 @@ The following table outlines the types of the events recorded in the paradata an
 
 <TR>
   <TD>KeyAssigned</TD>
-  <TD>Newly created interview is assigned an interview key.</TD>
+  <TD>Newly created interview is assigned an interview key. Also occurs when a key 
+  of the interview is modified tue to a collision with an existing interview's key. 
+  Latest event will reflect the current interview key. Event may once OR twice per 
+  interview only.</TD>
   <TD>Interview key in the form NN-NN-NN-NN</TD>
 </TR>
 
@@ -196,9 +199,21 @@ The following table outlines the types of the events recorded in the paradata an
 </TR>
 
 <TR>
+  <TD>RejectedByHeadquarter</TD>
+  <TD>Occurs when an interview is rejected by a headquarters user.</TD>
+  <TD>Comment written by the HQ user when the interview was rejected.</TD>
+</TR>
+
+<TR>
   <TD>RejectedBySupervisor</TD>
   <TD>Occurs when an interview is rejected by the supervisor.</TD>
   <TD>Comment written by the supervisor when the interview was rejected.</TD>
+</TR>
+
+<TR>
+  <TD>Restarted</TD>
+  <TD>Occurs when an interview is restarted on a tablet (from a completed status).</TD>
+  <TD>NO PARAMETERS</TD>
 </TR>
 
 <TR>
@@ -211,6 +226,12 @@ The following table outlines the types of the events recorded in the paradata an
   <TD>SupervisorAssigned</TD>
   <TD>Newly created interview is assigned as responsibility to the team of the interviewer, which started the interview.</TD>
   <TD><FONT color="red">NO PARAMETERS</FONT></TD>
+</TR>
+
+<TR>
+  <TD>TranslationSwitched</TD>
+  <TD>Occurs when the language (translation) of the interview is switched.</TD>
+  <TD>Name of the selected language.</TD>
 </TR>
 
 <TR>
