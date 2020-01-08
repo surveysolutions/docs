@@ -63,7 +63,7 @@ support agent to collect the information based on one of the following lists.
 <TD align=center>5<TD>Survey Solutions Interviewer App version on the tablet of the affected interviewer
 <TD>*19.07.5 (build 25531)*.
 <TR bgcolor="DeepSkyBlue">
-<TD align=center>6<TD>Send tablet information: on the tablet of the affected interviewer go to the<BR>*MENU* --> *Diagnostics* --> '*Collect and send to HQ all tablet information*'.
+<TD align=center>6<TD>Send tablet information: on the tablet of the affected interviewer go to the<BR>*MENU* --> *<A href="/interviewer/troubleshooting/interviewer-app-diagnostics/#bullet4">Diagnostics</A>* --> '*Collect and send to HQ all tablet information*'.
 <TD>
 <TR bgcolor="DeepSkyBlue">
 <TD align=center>7<TD>Date and time when the support package was sent by that interviewer to the HQ (step #6)
@@ -88,7 +88,7 @@ support agent to collect the information based on one of the following lists.
 <TD align=center>5<TD>Survey Solutions Interviewer App version on the tablet of the affected interviewer
 <TD>*19.07.5 (build 25531)*.
 <TR bgcolor="LightGreen">
-<TD align=center>6<TD>Send tablet information: on the tablet of the affected interviewer go to the<BR>*MENU* --> *Diagnostics* --> '*Collect and send to HQ all tablet information*'.
+<TD align=center>6<TD>Send tablet information: on the tablet of the affected interviewer go to the<BR>*MENU* --> *<A href="/interviewer/troubleshooting/interviewer-app-diagnostics/#bullet4">Diagnostics</A>* --> '*Collect and send to HQ all tablet information*'.
 <TD>
 <TR bgcolor="LightGreen">
 <TD align=center>7<TD>Date and time when the support package was sent by that interviewer to the HQ (step #6)

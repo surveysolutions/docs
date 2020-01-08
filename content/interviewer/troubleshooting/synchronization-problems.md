@@ -46,7 +46,8 @@ The tablet is searching the server by name, known as the
 This setting is entered once when the Survey Solutions App is installed
 and logged in for the first time. Normally it doesn't change throughout
 the data collection, though a possibility to change it exists in the
-Interviewer app settings.  
+<A href="/interviewer/troubleshooting/interviewer-app-settings/">
+Interviewer app settings</A>.
 
 
 **If you are experiencing a repetitive synchronization error after several
@@ -127,7 +128,7 @@ Or use an alternative network/connection.</td>
 <tr class="even">
 <td> </td>
 <td valign=top>Survey Solutions synchronization point is entered incorrectly (or subsequently changed).</td>
-<td valign=top>Verify in the interviewer app settings (<em>Supervisor URL</em>) that the entered URL or IP is accurate for the Survey Solutions server.</td>
+<td valign=top>Verify in the <A href="/interviewer/troubleshooting/interviewer-app-settings/">interviewer app settings</A> (<em>Supervisor URL</em>) that the entered URL or IP is accurate for the Survey Solutions server.</td>
 </tr>
 <tr class="odd">
 <td> </td>
@@ -141,7 +142,7 @@ Contact the server administrator with the error message displayed in the browser
 <tr class="even">
 <td valign=top><span style="color:#FFA07A;">Synchronization was interrupted, please try again. Timeout when connecting to the Survey Solutions Supervisor website. Check your internet connection.</span></td>
 <td valign=top>Extremely slow network with packages delivered after a significant delay or lost.</td>
-<td valign=top>Check the <em>Server Response timeout</em> setting in the Settings of the Interviewer app is reasonably large, increase if necessary.<br />
+<td valign=top>Check the <em>Server Response timeout</em> setting in the <A href="/interviewer/troubleshooting/interviewer-app-settings/">Settings of the Interviewer App</A> app is reasonably large, increase if necessary.<br />
 <br />
 Use alternative network if available.<br />
 <br />

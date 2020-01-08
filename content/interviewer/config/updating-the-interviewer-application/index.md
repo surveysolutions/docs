@@ -49,7 +49,7 @@ To navigate there, follow these steps. For Headquarters, click on Teams
 and Roles, and then select Interviewers. For Supervisor, simply click on
 Teams and Roles.  
   
-For Interviewers, the Diagnostics tab of the Interviewer application
+For Interviewers, the <A href="/interviewer/troubleshooting/interviewer-app-diagnostics/">Diagnostics dialog of the Interviewer App</A>
 provides an easy tool for checking whether a new version of Interviewer
 is available. The steps for doing so are discussed immediately below.  
 {{< imgproc "images/858258.png" Fit "800x600" />}}
