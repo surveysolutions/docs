@@ -11,25 +11,25 @@ When laying out the questionnaire in the Survey Solutions Designer, mind
 the following design restrictions by question type:  
  
 
-<table>
+<table class="table table-striped table-hover">
 <thead>
-<tr class="header">
-<th style="text-align: center;">Type of question</th>
-<th style="text-align: center;">Can be used<br />
+<tr class="header bg-warning">
+<th style="text-align: center;" width=16%>Type of question</th>
+<th style="text-align: center;" width=12%>Can be used<br />
 as interviewer</th>
-<th style="text-align: center;">Can be used<br />
+<th style="text-align: center;" width=12%>Can be used<br />
 as supervisor</th>
-<th style="text-align: center;">Can be used<br />
+<th style="text-align: center;" width=12%>Can be used<br />
 as identifying</th>
-<th style="text-align: center;">Can be used<br />
+<th style="text-align: center;" width=12%>Can be used<br />
 as hidden</th>
-<th style="text-align: center;">Can be preloaded</th>
-<th style="text-align: center;">Can be used in substitutions</th>
-<th style="text-align: center;">Can be used in<br />
+<th style="text-align: center;" width=12%>Can be preloaded</th>
+<th style="text-align: center;" width=12%>Can be used in substitutions</th>
+<th style="text-align: center;" width=12%>Can be used in<br />
 Web interviews</th>
 </tr>
 </thead>
-<tbody>
+<tbody >
 <tr class="odd">
 <td style="text-align: center;">Audio</td>
 <td style="text-align: center;">YES</td>
