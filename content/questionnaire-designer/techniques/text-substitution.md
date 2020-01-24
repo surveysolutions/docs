@@ -2,7 +2,7 @@
 title = "Text substitution"
 keywords = ["substitution", "piping"]
 date = 2020-01-23T00:00:00Z
-lastmod = 2020-01-23T00:00:00Z
+lastmod = 2020-01-24T00:00:00Z
 
 +++
 
@@ -94,4 +94,6 @@ Hints and notes
 - No recursion: if a text value substituted in contains anything enclosed in %-signs, that fragment does not get substituted.
 
 - Where you may use substitution, you may use *just* the substitution. The following question text is technically valid: <TT>%qtext%</TT>. What question the interviewers (in CAPI) or respondents (in CAWI) will actually see on the screen depends on the value of **qtext**.
+
+- Rosters triggered by numeric questions, where source of names is not defined (possible) will have the item index 1, 2, 3, ... substituted in, instead of the the <TT>%rostertitle%</TT>.
 
