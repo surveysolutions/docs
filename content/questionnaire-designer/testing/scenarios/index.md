@@ -19,7 +19,7 @@ Two actions are available for a scenario in the Designer:
 
 Here is what you need to know about scenarios:
 
-- The scenarios are saved from the tester (WebTester or the Tester App).
+- The scenarios are saved from the WebTester.
 - There can be multiple scenarios for the same questionnaire.
 - A scenario doesn't have to cover all questions in the questionnaire, but may be
 incomplete, for example, a scenario may cover just the first section or two.
@@ -32,7 +32,7 @@ questionnaire.
 - Scenarios are **not copied** when you copy a section or the whole questionnaire
 into another questionnaire.
 - To edit a scenario, you need to run it first, then make any changes interactively
-in the Tester (or WebTester), then save under the same or a different scenario name. 
+in the WebTester, then save under the same or a different scenario name. 
 One **may not** edit scenario steps directly, only view.
 - Saving a scenario requires **edit permission** for accessing the questionnaire.
 - Creation and changes to scenarios are **not** reflected in the questionnaire history.
