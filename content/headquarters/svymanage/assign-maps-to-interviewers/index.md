@@ -30,7 +30,7 @@ in the list with a comma.
 It is normal that a user name is mentioned for more than one map. That user
 will have access to all of the maps where his name was mentioned and no other.
 
-Here is an example of such a file: [usermaps.tab](files/usermaps.tab).
+Here is an example of such a file: [usermaps.tab](http://www.radyakin.org/suso/support/usermaps.tab).
 
 Uploading the map assignments <B><I>replaces</I></B> the previous map assignments.
 If the map was assigned to an interviewer and subsequently a map assignments
