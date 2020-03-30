@@ -14,6 +14,8 @@ Online approach utilizing any computer with a web-browser
 This approach is most suitable for the interviewers working at a location with stable/responsive internet connectivity. 
 The functionality and interface of the web-interviewer is also described in the pages linked from [here](https://support.mysurvey.solutions/interviewer/web-interviewer/web-interviewer-overview/).
 It is recommended that these generic instructions are reviewed and customized by survey administrators for each particular survey.
+The article is oriented on the agencies already having experience in using Survey Solutions for face-to-face (CAPI) surveys and in need to re-orient their operations for the telephone surveys.
+
 
 ### Requirements
 

@@ -1,5 +1,5 @@
 +++
-title = "Web Interviewer Retraining Instructions"
+title = "CATI Interviewer Retraining Instructions"
 keywords = ["web interviewer", "telephone", "phone", "cati"]
 date = 2020-03-28T00:00:00Z
 +++
@@ -12,6 +12,7 @@ Offline approach utilizing tablets
 -----------------------------------------
 
 This approach is most suitable for the interviewers working at a location with poor/slow/not-reliable internet connectivity. It is recommended that these generic instructions are reviewed and customized by survey administrators for each particular survey.
+The article is oriented on the agencies already having experience in using Survey Solutions for face-to-face (CAPI) surveys and in need to re-orient their operations for the telephone surveys.
 
 ### Requirements
 
