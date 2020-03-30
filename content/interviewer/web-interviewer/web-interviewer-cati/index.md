@@ -33,3 +33,9 @@ outcomes:
 - phone number not serviced or not valid anymore;
 - phone number belongs to/call is answered by a different person;
 etc.
+
+For organizations migrating their operations from face-to-face interviews to CATI the following generic protocol descriptions are available:
+
+- [using tablets](https://support.mysurvey.solutions/interviewer/special/cati/)
+- [using web-interviewer](https://support.mysurvey.solutions/interviewer/web-interviewer/web-interviewer-instr/)
+

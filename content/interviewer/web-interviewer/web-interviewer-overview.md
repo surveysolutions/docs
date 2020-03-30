@@ -54,6 +54,3 @@ Further articles explain particular aspects of working with the the web intervie
 - [interviewing](/interviewer/web-interviewer/web-interviewer-interviewing);
 - [use in call-centres / CATI](/interviewer/web-interviewer/web-interviewer-cati).
 - [important notes](/interviewer/web-interviewer/web-interviewer-important-notes).
-
-
-
