@@ -34,6 +34,9 @@ outcomes:
 - phone number belongs to/call is answered by a different person;
 etc.
 
+A very extensive guide on the result codes is published on the site of the American Association for Public Opinion Research (AAPOR):
+["Standard Definitions. Final Dispositions of Case Codes and Outcome Rates for Surveys"](https://www.aapor.org/AAPOR_Main/media/publications/Standard-Definitions20169theditionfinal.pdf)
+
 For organizations migrating their operations from face-to-face interviews to CATI the following generic protocol descriptions are available:
 
 - [using tablets](https://support.mysurvey.solutions/interviewer/special/cati/)
