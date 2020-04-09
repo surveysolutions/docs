@@ -24,7 +24,11 @@ for studying the application, or
 - [standalone servers](https://support.mysurvey.solutions/headquarters/config/standalone-server/) 
 for survey data collection.
 
-<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+<BR>
+
+The World Bank Project TTLs - contact [support@mysurvey.solutions](mailto:support@mysurvey.solutions?subject=Data collection proposal for project P######) with project details/proposals.
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
 
 
 
