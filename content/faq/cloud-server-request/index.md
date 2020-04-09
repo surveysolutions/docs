@@ -2,13 +2,34 @@
 title = "Cloud server request"
 keywords = [""]
 date = 2017-01-23T11:41:42Z
-lastmod = 2019-07-16T00:00:01Z
+lastmod = 2020-04-09T00:00:01Z
 aliases = ["/customer/portal/articles/2723103-cloud-server-request","/customer/en/portal/articles/2723103-cloud-server-request","/customer/portal/articles/2723103","/customer/en/portal/articles/2723103"]
 
 +++
 
-<IMG src="images/timeline.png">
 
+
+
+<BR><BR><BR>
+
+<STRONG>⚠️ <FONT color="Maroon">The article below describes the process of requesting cloud servers that was 
+in effect until April 09, 2020.</FONT></STRONG>
+<BR><BR>
+
+Effective April 09, 2020 use:
+
+- [PDS (personal demonstration servers)](/headquarters/config/personal-demo-server/) 
+for studying the application, or 
+
+- [standalone servers](https://support.mysurvey.solutions/headquarters/config/standalone-server/) 
+for survey data collection.
+
+<BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+
+
+
+
+<IMG src="images/timeline.png">
 
 Process overview
 ---------------

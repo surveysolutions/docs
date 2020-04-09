@@ -5,41 +5,9 @@ date = 2019-07-17T00:00:01Z
 +++
 
 A Standalone Survey Solutions Server is any server where 
-Survey Solutions is installed outside of the cloud 
+Survey Solutions is installed outside of the  
 facilities managed by the Survey Solutions developers 
 team.
-
-Most of the users prefer the cloud-based servers for their
-reliability and convenience, yet standalone servers
-may be sometimes required for performance or legal 
-considerations.
-
-We strongly recommend our users who are just starting with 
-Survey Solutions to use our [free cloud servers](https://support.mysurvey.solutions/faq/cloud-server-instructions/)
-on the WB infrastructure. There is a learning curve in 
-collecting data with Survey Solutions CAPI and, from our 
-experience, it might difficult for our users to adjust 
-their data collection practices to protocols imposed by 
-Survey Solutions simultaneously with dealing with issues 
-that might arise from a local installation.
-
-Local installation of Survey Solutions is also much harder 
-for us to support. It is very difficult for us to separate 
-issues related with local network configurations, firewalls, 
-ports, etc. from the issue directly related with Survey 
-Solutions. It is also difficult for the Survey Solutions 
-support to work on the remote servers. In some cases, 
-actions of inexperienced users caused data loses and 
-interruptions in the data collection.
-
-The server instances on the World Bank cloud provide level 
-of data [security](https://support.mysurvey.solutions/faq/how-secure-is-the-world-bank-cloud-/)
-and reliability that is extremely difficult to achieve with 
-the local installation.
-
-We recommend you using Survey Solutions on the World Bank 
-cloud servers for two-three surveys and then discuss with 
-us a possibility of switching to a local server.
 
 The following articles describe the main points that you
 would need to know before you setup your server.
