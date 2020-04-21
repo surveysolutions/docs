@@ -1,7 +1,7 @@
 +++
 title = "Personal Demo Server"
 keywords = ["personal", "server"]
-date = 2020-04-06T00:00:01Z
+date = 2020-04-20T00:00:01Z
 +++
 
 
@@ -18,7 +18,7 @@ limitations of the PDS:
 
 - Every Survey Solutions user may request one PDS. 
 - There are no forms to fill and the server becomes available shortly after the request is submitted.
-- The address of the server is *https://USERNAME.demo.mysurvey.solutions*
+- The address of the server is *https://username-demo.mysurvey.solutions*
 and cannot be changed.
 - The server and all stored data will be automatically deleted 30 days after it was created.
 - A PDS may not be extended, but can be requested again after it expires.
