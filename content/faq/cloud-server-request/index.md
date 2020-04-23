@@ -21,7 +21,7 @@ Effective April 09, 2020 use:
 - [PDS (personal demonstration servers)](/headquarters/config/personal-demo-server/) 
 for studying the application, or 
 
-- [standalone servers](https://support.mysurvey.solutions/headquarters/config/standalone-server/) 
+- [standalone servers](/headquarters/config/standalone-server/) 
 for survey data collection.
 
 <BR>
