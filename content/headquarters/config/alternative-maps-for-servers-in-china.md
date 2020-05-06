@@ -9,11 +9,17 @@ aliases = ["/customer/portal/articles/2932213-alternative-maps-for-servers-in-ch
 
 Survey Solutions map reports utilize maps provided by Google through
 their online service. To enable access to Google maps from China, the
-following two parameters should be added to the ***appSettings***
-section in ***web.config*** configuration file of the Survey Solutions
+following two parameters should be added to the ***GoogleMap***
+section in ***appsettings.Production.ini*** configuration file of the Survey Solutions
 server:  
-  
-`<add key="Google.Map.BaseApiUrl" value="http://maps.google.cn"/> <add key="Google.Map.BaseUrl" value="http://google.cn"/>`  
+
+`
+[GoogleMap]
+# put your api key here
+ApiKey="" 
+ApiBaseUrl=http://maps.google.cn
+BaseUrl=http://google.cn
+`  
   
 This will replace the common Google maps engine used by all countries
 with the one specific for China. A restart of the web server may be
