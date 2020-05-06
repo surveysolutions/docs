@@ -13,13 +13,13 @@ following two parameters should be added to the ***GoogleMap***
 section in ***appsettings.Production.ini*** configuration file of the Survey Solutions
 server:  
 
-`
+```
 [GoogleMap]
 # put your api key here
 ApiKey="" 
 ApiBaseUrl=http://maps.google.cn
 BaseUrl=http://google.cn
-`  
+```  
   
 This will replace the common Google maps engine used by all countries
 with the one specific for China. A restart of the web server may be
