@@ -1,8 +1,8 @@
 ﻿+++
 title = "Alternative maps for servers in China"
-keywords = [""]
+keywords = ["maps", "configuration"]
 date = 2018-04-03T17:03:44Z
-lastmod = 2018-04-03T17:03:44Z
+lastmod = 2020-05-06T13:03:44Z
 aliases = ["/customer/portal/articles/2932213-alternative-maps-for-servers-in-china","/customer/en/portal/articles/2932213-alternative-maps-for-servers-in-china","/customer/portal/articles/2932213","/customer/en/portal/articles/2932213","/headquarters/alternative-maps-for-servers-in-china"]
 
 +++
