@@ -31,7 +31,7 @@ specifications above.
 **Software:**
 
 - OS Microsoft Windows Server 2016 or newer.
-- [Microsoft .Net Framework 4.8] (https://dotnet.microsoft.com/download/dotnet-framework/net48).
+- [Microsoft .Net Core 3.1 runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1).
 - PostgreSQL (see [standalone installation instructions](/headquarters/config/standalone-installation/)).
 
 Survey Solutions is working under Microsoft IIS which is 
