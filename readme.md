@@ -9,7 +9,7 @@ We use HUGO - static site generator framework to build this site. You can read m
 
 - clone the repository locally.
 
-- download Hugo from [here](https://github.com/gohugoio/hugo/releases) - this is a single binary without *any* dependencies.
+- download Hugo from [here](https://github.com/gohugoio/hugo/releases) - this is a single binary without *any* dependencies. Currently we build the site with [0.70.0 version for Windows 64bit](https://github.com/gohugoio/hugo/releases/download/v0.70.0/hugo_0.70.0_Windows-64bit.zip)
 
 - create a new article by simply adding new file (with .md extension) to the appropriate section
 

@@ -6,6 +6,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 enableGitInfo = true
 googleAnalytics = "UA-129284684-1"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [frontmatter]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
 
