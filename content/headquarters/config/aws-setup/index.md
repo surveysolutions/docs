@@ -78,7 +78,7 @@ Delete default web site from IIS web sites list and add :80 port binding to Surv
   * **Type**: HTTP
 * Save rules
 
-In Survey Solutions installation location `Site` folder find `appsettings.production.ini` file, and remove 9700 port from `BaseUrl`. 
+In Survey Solutions installation location `Site` folder find `appsettings.production.ini` file, and remove 9700 port from `BaseUrl`.
 
 When done correctly you should be able to access Survey Solutions application from your browser by using public DNS:
 ![Public DNS EC2](images/ec2_public_dns.png)
@@ -86,9 +86,13 @@ When done correctly you should be able to access Survey Solutions application fr
 Copy value from your console to browser address bar:
 ![Testing connection](images/ec2_ss_running.png)
 
+### DNS and SSL
+
+Also we recommend enabling public DNS name for your survey solutions instance. Choose any DNS registrar you like, or maybe you already have domain name. When it is resolved to public IP address of amazon ec2 instance change `BaseURL` setting in `appsettings.production.ini` file. If SSL it used, set `BaseUrl` to `https://%your dns name%`.
+
 ### S3 Configuration
 
-Survey solutions can store multimedia data (images, audio audit, etc) on s3 storage to reduce load on database instance. 
+Survey solutions can store multimedia data (images, audio audit, etc) on s3 storage to reduce load on database instance.
 
 In order to enable s3 storage open s3 service console and create new bucket (you will need to pick name according to [naming rules](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)):
 ![Bucket creation](images/new-bucket.png)
