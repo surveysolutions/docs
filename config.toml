@@ -6,6 +6,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 enableGitInfo = true
 googleAnalytics = "UA-129284684-1"
 
+[markup]
+  [markup.highlight]
+    style = "vs"
 [markup.goldmark.renderer]
 unsafe= true
 
