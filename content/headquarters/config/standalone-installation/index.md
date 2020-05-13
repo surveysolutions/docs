@@ -7,9 +7,10 @@ aliases = ["/customer/portal/articles/2768436-standalone-installation","/custome
 +++
 
 Installation has following steps:
+
 1. [Installing PostgreSQL](#installing-postgresql)
 2. [Installing SurveySolutions](#installing-surveysolutions)
-4. [Post installation configuration](#post-installation-configuration)
+3. [Post installation configuration](#post-installation-configuration)
 
 ## Installing PostgreSQL
 
@@ -26,7 +27,8 @@ Port on which server will be running:
 
 After installation is complete, follow the instructions for [tuning PostgreSQL for production use](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)
 
-## Installing SurveySolutions
+## Installing Survey Solutions
+
 Download [survey solutions installer](https://mysurvey.solutions/Download)
 
 Run SurveySolutions.exe. It will ask you for two parameters:  
@@ -47,7 +49,7 @@ In order to check if application is running correctly you can open http://localh
 
 ## Post installation configuration
 
-By default survey solutions is installed as web application and runs behind IIS web server. It uses 9700 port, it is fine for the default setup, but will require all users when refering to your server to write this :9700 port name at the end of the URL. Also most firewalls will block custom ports by default and it might require additional configuration on client side to access server. If you need to change port you can do it in IIS config. To access it right click on start menu, select run option and execute `inetmgr` command. There you can find Survey Solutions application:
+By default survey solutions is installed as web application and runs behind IIS web server. It uses 9700 port, it is fine for the default setup, but will require all users when referring to your server to write this :9700 port name at the end of the URL. Also most firewalls will block custom ports by default and it might require additional configuration on client side to access server. If you need to change port you can do it in IIS config. To access it right click on start menu, select run option and execute `inetmgr` command. There you can find Survey Solutions application:
 ![Survey Solutions in IIS](images/ss_iis_settings.png)
 
 If you click on Bindings... link in the right panel you will be able to add new ports, like 80 for http and 443 for https.
@@ -56,20 +58,22 @@ If your survey solutions instance is exposed via public internet access it is hi
 
 ### Application configuration
 
-Open `/Site` folder where survey solutions is installed, and open `appsettings.production.ini` file. This file will not be replaced during application upgrades and will retain your local server configuration. 
+Open `/Site` folder where survey solutions is installed, and open `appsettings.production.ini` file. This file will not be replaced during application upgrades and will retain your local server configuration.
 ![Survey Solutions configuration file](images/ss_config.png)
 
-
 #### Base URL
+
 If your server has domain name you need to change `BaseUrl` value to the name you have (without trailing slash at the end of the URL). Make sure that this URL can open Survey Solutions app from server where application is installed, otherwise export won't work. 
 
 #### Captcha
-Captcha is used to application from brute force attacks on user accounts and for protection of web mode from automatic creation of interviews. 
-Default version is hosted one, it does not require any configuration but is less sequre.
+
+Captcha is used to application from brute force attacks on user accounts and for protection of web mode from automatic creation of interviews.
+Default version is hosted one, it does not require any configuration but is less secure.
 Other option is to use google recapcha. You will need 2 keys from google recaptcha service. Navigate to [creation page](https://www.google.com/recaptcha/admin/create) and create new site. Use your public DNS name that is configured in survey solutions `BaseUrl` property. On creation page select reCAPTCHA v2. After creation you will see a page where you can copy site key and secret key.
 
 To use google catpcha service add following content into your `appsettings.production.ini` file:
-```
+
+``` INI
 [Captcha]
 CaptchaType=Recaptcha
 SecretKey=%Your secret key%
@@ -78,10 +82,13 @@ Version=v2
 ```
 
 #### Google maps
-If you are using gps question you should change [google maps api key](https://developers.google.com/maps/documentation/javascript/get-api-key). Ater creating it on console add it to the `appsettings.production.ini`:
-```
+
+If you are using gps question you should change [google maps api key](https://developers.google.com/maps/documentation/javascript/get-api-key). After creating it on console add it to the `appsettings.production.ini`:
+
+``` INI
 [GoogleMap]
 ApiKey=%your api key%
 ```
-when not conifured properly you will see error `ReferenceError: google is not defined` on maps report page:
+
+when not configured properly you will see error `ReferenceError: google is not defined` on maps report page:
 ![Survey Solutions maps error](images/ss_maps_error.png)
