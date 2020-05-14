@@ -17,7 +17,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
-    lastreleasenote = "version-20-04"
+    lastreleasenote = "version-20-05"
     contactformurl = "https://mysurvey.solutions/ContactUs"
 
     [params.algolia]
