@@ -12,4 +12,4 @@ operable immediately upon completion of the installation
 without the need to submit a request for approval for 
 such an installation.
 
-See also: [Survey Solutions server setup](\headquarters\config\server-setup).
+See also: [Survey Solutions server setup](/headquarters/config/server-setup).
