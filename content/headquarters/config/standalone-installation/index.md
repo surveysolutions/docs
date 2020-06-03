@@ -58,12 +58,19 @@ If your survey solutions instance is exposed via public internet access it is hi
 
 ### Application configuration
 
-Open `/Site` folder where survey solutions is installed, and open `appsettings.production.ini` file. This file will not be replaced during application upgrades and will retain your local server configuration.
+Open `/Site` folder where survey solutions is installed, and open `appsettings.Production.ini` file. This file will not be replaced during application upgrades and will retain your local server configuration.
 ![Survey Solutions configuration file](images/ss_config.png)
 
 #### Base URL
 
-If your server has domain name you need to change `BaseUrl` value to the name you have (without trailing slash at the end of the URL). Make sure that this URL can open Survey Solutions app from server where application is installed, otherwise export won't work. 
+If your server has domain name you need to change `BaseUrl` value to the name you have (without trailing slash at the end of the URL). Make sure that this URL can be used to open Survey Solutions app from server where application is installed, otherwise export won't work.
+
+Example of ini file with configured base url:
+
+``` INI
+[Headquarters]
+BaseUrl=https://demo.mysurvey.solutions
+```
 
 #### Captcha
 
@@ -71,7 +78,7 @@ Captcha is used to application from brute force attacks on user accounts and for
 Default version is hosted one, it does not require any configuration but is less secure.
 Other option is to use google recapcha. You will need 2 keys from google recaptcha service. Navigate to [creation page](https://www.google.com/recaptcha/admin/create) and create new site. Use your public DNS name that is configured in survey solutions `BaseUrl` property. On creation page select reCAPTCHA v2. After creation you will see a page where you can copy site key and secret key.
 
-To use google catpcha service add following content into your `appsettings.production.ini` file:
+To use google catpcha service add following content into your `appsettings.Production.ini` file:
 
 ``` INI
 [Captcha]
@@ -83,7 +90,7 @@ Version=v2
 
 #### Google maps
 
-If you are using gps question you should change [google maps api key](https://developers.google.com/maps/documentation/javascript/get-api-key). After creating it on console add it to the `appsettings.production.ini`:
+If you are using gps question you should change [google maps api key](https://developers.google.com/maps/documentation/javascript/get-api-key). After creating it on console add it to the `appsettings.Production.ini`:
 
 ``` INI
 [GoogleMap]
