@@ -19,9 +19,17 @@ to install the prerequisites and the Survey Solutions itself.
 
 - The installation file for survey solutions may be obtained 
 from the Downloads section of the 
-[self-service portal](https://mysurvey.solutions). There is 
-only one installation set regardless where you want to install: 
-to a physical server or a cloud-based server.
+[self-service portal](https://mysurvey.solutions). 
+
+- There is only one installation set regardless where you want 
+to install: to a physical server or to a cloud-based server.
+
+- To install the Survey Solutions to your server, follow the 
+[installation instructions](https://support.mysurvey.solutions/headquarters/config/standalone-installation/).
+
+- If you are installing specifically to Amazon AWS cloud, there 
+are additional instructions available:
+[Installation to AWS](https://support.mysurvey.solutions/headquarters/config/aws-setup/).
 
 - Your network firewall or security software may need to
 be configured to permit Survey Solutions. See 
@@ -35,3 +43,10 @@ follow the Survey Solutions release notifications and
 update your server periodically. You decide yourself on
 the frequency of the backups, updates and other maintenance
 that you do on your server.
+
+The following page may be helpful in troubleshooting the errors with your server 
+installation: [Server errors](https://support.mysurvey.solutions/headquarters/config/standalone-server-errors/)
+
+If you experience any problem with exporting the data from the server, 
+check out [these instructions](https://support.mysurvey.solutions/headquarters/config/export-service/) first.
+
