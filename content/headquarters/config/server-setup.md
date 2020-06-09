@@ -8,32 +8,31 @@ aliases = ["/headquarters/config/standalone-server"]
 This article describes the main steps to setup your own 
 Survey Solutions server.
 
-- Study the [requirements for a server](https://support.mysurvey.solutions/faq/server-requirements/). 
+- Study the [requirements for a server]({{< ref "/faq/server-requirements" >}}). 
 These requirements are minimal and may be periodically revised. 
 Your survey may require a different hardware configuration.
 You may need to calibrate for a few months before the survey
 to determine the optimal configuration.
 
-- Follow the [installation instructions](https://support.mysurvey.solutions/headquarters/config/standalone-installation/)
+- Follow the [installation instructions]({{< ref "/headquarters/config/standalone-installation" >}})
 to install the prerequisites and the Survey Solutions itself. 
 
 - The installation file for survey solutions may be obtained 
-from the Downloads section of the 
-[self-service portal](https://mysurvey.solutions). 
+from the [Download](https://mysurvey.solutions/download) section of the self-service portal. 
 
 - There is only one installation set regardless where you want 
 to install: to a physical server or to a cloud-based server.
 
 - To install the Survey Solutions to your server, follow the 
-[installation instructions](https://support.mysurvey.solutions/headquarters/config/standalone-installation/).
+[installation instructions]({{< ref "/headquarters/config/standalone-installation" >}}).
 
 - If you are installing specifically to Amazon AWS cloud, there 
 are additional instructions available:
-[Installation to AWS](https://support.mysurvey.solutions/headquarters/config/aws-setup/).
+[Installation to AWS]({{< ref "/headquarters/config/aws-setup" >}}).
 
 - Your network firewall or security software may need to
 be configured to permit Survey Solutions. See 
-[#3 in the FAQ](https://support.mysurvey.solutions/getting-started/faq-for-it-personnel/).
+[#3 in the FAQ]({{< ref "/getting-started/faq-for-it-personnel" >}}).
 
 - Your backup system may need to be configured to cover
 the Survey Solutions data.
@@ -45,8 +44,8 @@ the frequency of the backups, updates and other maintenance
 that you do on your server.
 
 The following page may be helpful in troubleshooting the errors with your server 
-installation: [Server errors](https://support.mysurvey.solutions/headquarters/config/standalone-server-errors/)
+installation: [Server errors]({{< ref "/headquarters/config/standalone-server-errors" >}}).
 
 If you experience any problem with exporting the data from the server, 
-check out [these instructions](https://support.mysurvey.solutions/headquarters/config/export-service/) first.
+check out [these instructions]({{< ref "/headquarters/config/export-service" >}}) first.
 
