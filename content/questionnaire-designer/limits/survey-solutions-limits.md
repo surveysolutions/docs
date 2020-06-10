@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = [""]
 date = 2017-02-02T08:32:16Z
-lastmod = 2019-02-15T23:45:56Z
+lastmod = 2020-06-10T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -125,7 +125,7 @@ limits.
 </tr>
 <tr>
 <td>Maximum number of data rows in a lookup table:</td>
-<td style="text-align: center;">5,000 [rows]</td>
+<td style="text-align: center;">15,000 [rows]</td>
 </tr>
 <tr>
 <td>Maximum number of data columns in a lookup table:</td>
