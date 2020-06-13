@@ -35,17 +35,21 @@ The integration mode is usually dictated by the external system, which
 may determine, for example, in which language the system is implemented
 or to which storage the data is transferred from Survey Solutions.  
   
+To utilize an API in your application an API user account must be
+created by the server administrator:  
+{{< imgproc "images/799204.png" Fit "800x600" />}}  
+
 What Survey Solutions is making available to external
 applications/systems is a set of levers, which allow performing the same
 tasks performed by the actual users of the software. This functionality
 is implemented through a set of standardized web requests which are
 documented in the following [interactive guide for API
 users](https://demo.mysurvey.solutions/apidocs/index#/).  
-  
-To utilize an API in your application an API user account must be
-created by the server administrator:  
-{{< imgproc "images/799204.png" Fit "800x600" />}}  
-  
+
+There are also awailable native clients for following languages:
+- [R package]({{< ref "/headquarters/api/api-r-package" >}})
+- [ssaw](https://github.com/vavalomi/ssaw) Python package
+
 Every Survey Solutions server provides an API. It is important to verify
 the reference against the exact version contained in your server to make
 sure the correct syntax for API calls is being used. This syntax may be
