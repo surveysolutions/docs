@@ -99,3 +99,12 @@ ApiKey=%your api key%
 
 when not configured properly you will see error `ReferenceError: google is not defined` on maps report page:
 ![Survey Solutions maps error](images/ss_maps_error.png)
+
+#### GeoTIFF files support
+
+If you are using [gis](/questionnaire-designer/questions/offline-gis-functionality-expansion/) functionality and plan using TIFF files as maps you need to install [GDAL](https://gdal.org/) library. Easiest way to do it (on windows) is to use [OSGeo4W project](https://trac.osgeo.org/osgeo4w/wiki). Download installer from their web site and install only "GDAL". By default survey solutions is using default installation path to find GDAL binaries: `C:\OSGeo4W64\bin\`. If you installed it to another folder add configuration in your `appsettings.Production.ini`:
+
+``` INI
+[Geospatial]
+GdalHome=%Path to bin where GDAL is intalled%
+```
