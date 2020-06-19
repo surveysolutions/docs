@@ -7,10 +7,12 @@ enableGitInfo = true
 googleAnalytics = "UA-129284684-1"
 
 [markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     style = "vs"
-[markup.goldmark.renderer]
-unsafe= true
 
 [frontmatter]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
