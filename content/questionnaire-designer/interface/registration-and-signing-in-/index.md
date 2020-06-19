@@ -22,7 +22,9 @@ To log in for the first time, you need to create an account. 
     confirmation email from *wbcapi@worldbank.org*, and click on the
     *complete registration* link.
 
-<CENTER><IMG src="images/login_designer.png" width=800></CENTER>
+<CENTER>
+![Screenshot](images/login_designer.png)
+</CENTER>
   
 After signing in with your Questionnaire Designer credentials, you will
 be directed to the *My Questionnaires* tab, which lists all the
