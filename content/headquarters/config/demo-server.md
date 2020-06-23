@@ -1,8 +1,8 @@
 ﻿+++
 title = "Demo server"
 keywords = [""]
-date = 2019-02-08T11:11:11Z
-lastmod = 2019-02-08T11:11:11Z
+date = 2020-06-22T11:11:11Z
+lastmod = 2020-06-22T11:11:11Z
 +++
 
 Survey Solutions developers team provides a special demo server equipped with the latest version of the Survey Solutions Headquarters for the users that want to:
@@ -22,11 +22,6 @@ and sign in with the username **Headquarters1** and password **Headquarters1**.
 
 *We ask the users never change the password for this headquarters user on the demo server. We also ask the users not to interfere with each other. If you didn't create a particular interviewer or supervisor account, don't touch it, or the work assigned to it.*
 
-For a real survey you can request a dedicated [cloud server](https://support.mysurvey.solutions/faq/cloud-server-instructions/) with the advantages that:
+We also provide miniature sandbox-like PDS ([Personal Demo Servers](/headquarters/config/personal-demo-server/)), which can be instantly created from the [self-service portal](/getting-started/portal/) by individual users that prefer no interaction with other users. 
 
-- it is not accessible to others;
-- it is not cleared during the time you requested;
-- you get the most powerful [administrator](/headquarters/accounts/survey-solutions-server-administrator/) account, which can create multiple headquarters, API and observer accounts.
-
-If you are conducting training sessions on Survey Solutions with multiple participants, you can request a dedicated [cloud server](https://support.mysurvey.solutions/faq/cloud-server-instructions/) for the time of the training.
-
+⚠️ Neither the demonstration server above, nor the PDS are intended for real data collection. [Set up your own server for data collection](https://support.mysurvey.solutions/headquarters/config/server-setup/).
