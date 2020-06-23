@@ -26,10 +26,6 @@ for survey data collection.
 <BR>
 
 The World Bank Project TTLs - contact 
-[support@mysurvey.solutions](mailto:support@mysurvey.solutions?subject=Data collection proposal for project P######) 
-with project details/proposals.
+<A href="mailto:support@mysurvey.solutions?subject=Data collection proposal for project P######">support@mysurvey.solutions</A> with project details/proposals.
 
 <BR><BR>
-
-
-
