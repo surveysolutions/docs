@@ -6,7 +6,7 @@ lastmod = 2020-01-24T00:00:00Z
 
 +++
 
-In Survey Solutions the questionnaire designer may design questionnaires that use text substitution, denoted with an identifier enclosed in percentage signs, like so: <TT>%varname%</TT>.
+In Survey Solutions it is possible to design questionnaires that use text substitution, denoted with an identifier enclosed in percentage signs, like so: <TT>%varname%</TT>.
 
 In other software this may be known under the term "*text piping*", "*answer piping*", "*text propagation*", etc.
 
@@ -19,9 +19,12 @@ The common situations when you may want to use this are:
 For text substitution it is important **what** may be substituted in, and **where** a substitution may be used.
 
 <BR>
-What may be substituted?
---------------------------
+
+##### What may be substituted?
+
+
 <BR>
+
 You can substitute:
 
 - variable names associated with **questions**, to refer to the answer to that question;
@@ -36,9 +39,11 @@ For single-select categorical questions the substituted value is the option text
 If the answer to a question has not been given (question disabled, answer was never entered, answer was cleared, etc) or the calculated value was not calculated (variable in a disabled section, exception occurred during calculation, calculation resulted in a null value), then the substitution will insert specifically this: [...]
 
 <BR>
-Where a substitution may occur?
---------------------------------
+
+##### Where a substitution may occur?
+
 <BR>
+
 **You may use text substitution in:**
 
 - text of a question;
@@ -54,8 +59,9 @@ Where a substitution may occur?
 - syntax expressions of any kind.
 
 <BR>
-System-defined variables
----------------------------
+
+##### System-defined variables
+
 <BR>
 
 Survey Solutions permits the use of the following in substitutions:
@@ -64,8 +70,9 @@ Survey Solutions permits the use of the following in substitutions:
 - <TT>%self%</TT> will substitute in the value of the current question. The substitution is invalid if used outside of a question context.
 
 <BR>
-Examples
----------
+
+##### Examples
+
 <BR>
 
 - How old is %respondentname%?
@@ -73,8 +80,9 @@ Examples
 - You have told me that the area of your parcel is %parcelarea% acres, which is %calcareaha% in hectares. Is this correct?
 
 <BR>
-Hints and notes
----------------
+
+##### Hints and notes
+
 <BR>
 
 - Check the spelling if you are getting an error [WB0017].
@@ -89,11 +97,10 @@ Hints and notes
 
 - You may refer to the value of the question in its own validation message, and this has a lot of practical sense. For example, you can define a check with the following message: "*Warning! The person is %self% years old, which is possible, but unlikely! Interviewer, confirm with the respondent!*"
 
-- If the substitution contains any HTML formatting tags, when they are encountered they will **not** be applied, but displayed verbatim. Still the substitution obeys the formatting applied directly where it is used. For example, the question text "*How old is &lt; FONT color="maroon"&gt;%personname%&lt;/FONT&gt;?*" may appear as "**How old is <FONT color="maroon">Christina</FONT>?**", where the color is applied due to our specification, and the bold font is used always in all questions (fixed style of Survey Solutions).
+- If the substitution contains any [HTML formatting tags](/questionnaire-designer/techniques/formatting-text/), when they are encountered they will **not** be applied, but displayed verbatim. Still the substitution obeys the formatting applied directly where it is used. For example, the question text "*How old is &lt; FONT color="maroon"&gt;%personname%&lt;/FONT&gt;?*" may appear as "**How old is <FONT color="maroon">Christina</FONT>?**", where the color is applied due to our specification, and the bold font is used always in all questions (fixed style of Survey Solutions).
 
 - No recursion: if a text value substituted in contains anything enclosed in %-signs, that fragment does not get substituted.
 
 - Where you may use substitution, you may use *just* the substitution. The following question text is technically valid: <TT>%qtext%</TT>. What question the interviewers (in CAPI) or respondents (in CAWI) will actually see on the screen depends on the value of **qtext**.
 
 - Rosters triggered by numeric questions, where source of names is not defined (possible) will have the item index 1, 2, 3, ... substituted in, instead of the the <TT>%rostertitle%</TT>.
-
