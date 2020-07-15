@@ -41,3 +41,23 @@ should be informative (date is contained instead of the * in real files). For ex
 <FONT color="red">6. "This application only runs on Windows Server NNNN or higher."</FONT>
 
 This error message is issued during the installation when the installation is taking place on a machine not satisfying the minimal [requirements](/faq/server-requirements/). Make sure you install Survey Solutions on a server version of MS Windows, not on a regular desktop version. Note also, that MS Windows NNNN Professional is not a server version of MS Windows.
+
+<FONT color="red">7. "An unexpected error occured during export."</FONT>
+
+This error message may be seen at the data export page and is rare. It signals 
+about a situation, which was unanticipated and the Survey Solutions export 
+service didn't manage to produce the data export file. It is not possible to 
+say what exactly went wrong simply from this error message. Instead the application
+log files must be inspected as they would contain evidence of what step of the
+export has failed and what was the unexpected situation. This technical information 
+is accessible to the IT-personnel (person administrating the server) and is not 
+published on the data export page.
+
+Users in the role of Headquarters should notify their server administrator regarding
+the occurrence of this error.
+
+The administrator will find the necessary logs in the <TT>Logs</TT> subfolder of the
+folder where the Survey Solutions is installed. The log files are organized by date
+to simplify locating the necessary files. They are text files, so the administrators 
+can read them to try to identify the error themselves, or to inspect the information 
+being sent if there are any privacy concerns.
