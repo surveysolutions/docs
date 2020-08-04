@@ -13,34 +13,40 @@ Technical Requirements
 Survey Solutions software works with Android tablets with the following
 specifications:
 
-- **Version of Android OS**: Android 5.0 or better is required.
+- **Version of Android OS**:
+  - Android 5.0 or better is required, Survey Solutions will not work at all on tablets below Android 5.0.
+  - tablets on Android 5.0.1 and 5.0.2 are known to have communication problems with some SSL certificates;
+  - tablets with versions of Android below 6.0 may be not displaying all characters of the current Unicode standard;
+  - all versions of Android below 8.0 are [no longer supported](https://en.wikipedia.org/wiki/Android_version_history) by the manufacturers and correspondingly tablets that can't be updated to Android 8.0 or above should be considered unsafe for the World Bank projects.
 - **RAM**: Minimum 1.5GB
 - **Storage**: 8GB of flash memory storage. At least 1GB of available
-space must be available for Survey Solutions' use. The Survey Solutions 
+space must be available for Survey Solutions' use. The Survey Solutions
 software installation package (.apk) is less than 100MB, but more space
-will be required during the operation of the software. The ultimate 
-requirements for space depend on the kind of survey (questionnaire) and 
-the mode of use of the tablet (number of assignments, simultaneously 
+will be required during the operation of the software. The ultimate
+requirements for space depend on the kind of survey (questionnaire) and
+the mode of use of the tablet (number of assignments, simultaneously
 started assignments, rejections, etc.
-- **WiFi** module, which can be used for software setup, upgrades, and 
+- **WiFi** module, which can be used for software setup, upgrades, and
 synchronization while in the office.
-- **3G/4G** connectivity module is required for synchronization from 
+- **3G/4G** connectivity module is required for synchronization from
 the field.
 
 
-Minimal requirements are not necessarily going to be optimal for a 
+Minimal requirements are not necessarily going to be optimal for a
 particular application. Better technical characteristics will improve
-responsiveness of the program and the user experience. Conduct your 
+responsiveness of the program and the user experience. Conduct your
 independent testing before volume purchases of tablets.
-  
-  
+
+
 **Optional:**
 
 -   **Screen size** 7-8-inch screens are often chosen. Bigger screens
     consume more power and reduce autonomous work. The choice of the
     screen depends on the convenience of use with the software and is
     usually determined experimentally.
--   **Android 8.0** we highly recommend choosing tablets with android 8 preinstalled. Starting from this version it should be easier for manufacturers to update existing devices because of [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html).
+-   **Android 8.0** we highly recommend choosing tablets with Android
+    8 preinstalled. Starting from this version it should be easier for
+    manufacturers to update existing devices because of [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html).
 
   Tested Devices
 ---------------
