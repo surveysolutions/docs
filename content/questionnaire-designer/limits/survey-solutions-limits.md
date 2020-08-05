@@ -157,6 +157,10 @@ limits.
 <td style="text-align: center;">300 [MB]</td>
 </tr>
 <tr>
+<td>Maximum size of the (zipped) map preload file:</td>
+<td style="text-align: center;">500 [MB]</td>
+</tr>
+<tr>
 <td>Maximum size of the questionnaire (not including attachments)</td>
 <td style="text-align: center;">5 [MB]</td>
 </tr>
@@ -196,7 +200,7 @@ limits.
 </tbody>
 </table>
 
-  
+
 \*) in addition to the limit on number of questions a roster may not
 contain nested rosters to qualify as a simple roster, read [more details
 here](http://support.mysurvey.solutions/customer/en/portal/articles/2472543-rosters);  
