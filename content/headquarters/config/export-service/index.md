@@ -5,6 +5,12 @@ date = 2020-06-04
 aliases = []
 +++
 
+## Version 20.08 and newer
+
+Version 20.08 is delivered with export service embedded within Headquarters application. No separate windows service is installed in the system, only IIS website. All the information regarding startup of export you can find in logs folder. You still need to have `BaseUrl` configured properly, but no need to manage `ExportServiceUrl` configuration.
+
+## Version 20.07 and older
+
 Survey solutions comes in two parts. Headquarters user facing web application (usually executed within IIS web server) and Export background windows service. Web site is communicating with its export service using HTTP protocol and specified in settings port. If you open your `appsettings.Production.ini` file you can find two URLs that are important for export service:
 
 ``` INI
