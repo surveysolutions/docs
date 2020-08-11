@@ -11,7 +11,7 @@ aliases = ["/customer/portal/articles/2847917-faq-for-it-personnel","/customer/e
 *The recommended minimal hardware specifications required for Survey
 Solutions to function properly for a questionnaire of about 500
 questions and for the survey of about 10,000 respondents. The minimal
-requirements represent the specifications for the oldest tables that can
+requirements represent the specifications for the oldest tablets that can
 run Survey Solutions. We advise to procure newest devices with the
 latest version of Android for the projects that expect to run for two or
 three years. Please refer to [google.com](http://google.com/) for the
@@ -205,7 +205,7 @@ devices supporting this latest version.*
                         </ul>
                         <h6>17. What requirements does Survey Solutions have for the tablets?</h6>
                         <ul>
-                            <li>See <a href="http://support.mysurvey.solutions/customer/en/portal/articles/2505822" target="_blank">Technical Requirements for Tablets</a></li>
+                            <li>See <a href="/faq/what-tablets-should-i-buy-/" target="_blank">Technical Requirements for Tablets</a></li>
                         </ul>
                         <h6>18. What screen size is best for Survey Solutions?</h6>
                         <ul>
