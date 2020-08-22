@@ -12,7 +12,7 @@ questions](/questionnaire-designer/numeric-question) are recorded in the
 long [data type](/syntax-guide/data-types) for integer numbers and
 record in the double [data type](/syntax-guide/data-types) for real
 numbers (ie 1.5, 2.73, 15.25, 2.0).  
-  
+
 The following functions and operators can be used in conditions for
 numeric questions:  
  
@@ -37,7 +37,7 @@ numeric questions:
 
 ### Math Functions
 
-  
+
 These are the functions in the C\# Math Class that could be useful in
 your instrument:
 
@@ -75,15 +75,15 @@ your instrument:
 
 ### Description
 
-  
+
 Checks if a value falls within a specified range.  
  
 
 ### Syntax
 
-  
+
 ***var.InRange(a,b)***  
-  
+
 This function will return ***true ***if ***a ≤ var ≤ b***. Otherwise, it
 will return ***false***. The values of a and b can either be numbers or
 variables. This function provides a more simple way to write the
@@ -91,24 +91,24 @@ condition:
 
     var ≥ a && var ≤ b
 
-  
-  
+
+
  
 
 ### Example 1
 
-  
+
 Assume there is a question (**days\_worked**) that asks the respondent
 how many days in the last 7 days did they work at their primary job. We
 want to check that the response is between 0 and 7 days as a validation
 condition.  
-  
+
 For this check, we would write the validation condition for the question
 like this:
 
     self.InRange(0,7)
 
-  
+
 It can also be written using the variable name:
 
     days_worked.InRange(0,7)
@@ -117,30 +117,13 @@ It can also be written using the variable name:
 
 ### Example 2
 
- 
-
-Assume there is a
-[question](https://solutions.worldbank.org/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/chapter/20a1b67d72390695b07f91848bd6e90c/question/f158e83c87794f53b53ec67b004e93db)
-(**dob\_year**) in your survey that asks for the year of birth of the
-household member. This survey is being conducted in 2016 so we want to
-check that the year entered falls in the range of 1900 to 2016. This
-will also prevent interviewers from entering a year that does not
-contain 4 digits.  
-  
-For this check, we would write the validation condition for the question
-like this:
+A common check for numeric questions is a range check to verify that the answer
+to the question is within certain bounds. To verify, for example, that year of
+birth is within 1900 to 2020 range we write a validation condition for this
+variable:
 
     self.InRange(1900,2016)
 
-  
-  
-It can also be written using the variable name:
-
-    dob_year.InRange(1900,2016)
-
-  
-  
- 
 
 **<span id="inlist"></span>InList**
 -----------------------------------
@@ -149,14 +132,14 @@ It can also be written using the variable name:
 
 ### Description
 
-  
+
 Checks if a value matches any of the values in a specified list.
 
 ### Syntax
 
-  
+
 ***var.InList(a,b,c,d,...)***  
-  
+
 This function will return ***true*** if ***var*** matches any of the
 arguments in the provided list. Otherwise, it will return ***false***.
 The values in the list can either be numbers or variables. This function
@@ -168,7 +151,7 @@ provides a more simple way to write the condition:
 
 ### Example 1
 
-  
+
 Assume you have a question (satisfied) that asks people to rank how
 satisfied they are with their life on a scale of 1 to 5 with 1
 being very unsatisfied and 5 being very satisfied. For people that
@@ -178,8 +161,8 @@ you would code the enabling conditions like this:
 
     satisfied.InList(1,5)
 
-  
-  
+
+
  
 
 **<span id="abs"></span>Abs**
@@ -189,16 +172,16 @@ you would code the enabling conditions like this:
 
 ### Description
 
-  
+
 Returns the absolute value of a number. The absolute value of a real
 number can be thought of as the distance of the number from zero.  
  
 
 ### Syntax
 
-  
+
 ***Math.Abs(z)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
@@ -210,10 +193,10 @@ error.
     Math.Abs(-6)     // returns 6
     Math.Abs(6)      // returns 6
     Math.Abs(7-3.5)  // returns 3.5
-    Math.Abs(3.5-7)  // returns ;3.5
+    Math.Abs(3.5-7)  // returns 3.5
 
-  
-  
+
+
  
 
 **<span id="ceiling"></span>Ceiling**
@@ -223,16 +206,16 @@ error.
 
 ### Description
 
-  
+
 Returns the smallest integral value that is greater than or equal to the
 value provided.  
  
 
 ### Syntax
 
-  
+
 ***Math.Ceiling(z)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
@@ -246,8 +229,8 @@ error.
     Math.Ceiling(6-3.5) // returns 3
     Math.Ceiling(4-2)   // returns 2
 
-  
-  
+
+
  
 
 **<span id="floor"></span>Floor**
@@ -257,16 +240,16 @@ error.
 
 ### Description
 
-  
+
 Returns the largest integral value that is less than or equal to the
 value provided  
  
 
 ### Syntax
 
-  
+
 ***Math.Floor(z)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile error.
@@ -287,15 +270,15 @@ to add **.Value** to the end of each variable to avoid a compile error.
 
 ### Description
 
-  
+
 Returns the larger of two values  
  
 
 ### Syntax
 
-  
+
 ***Math.Max(a,b)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile error.
@@ -309,8 +292,8 @@ to add **.Value** to the end of each variable to avoid a compile error.
     Math.Max(-10,0.5)   // returns 0
     Math.Max(6,1)       // returns 6
 
-  
-  
+
+
  
 
 **<span id="min"></span>Min**
@@ -320,15 +303,15 @@ to add **.Value** to the end of each variable to avoid a compile error.
 
 ### Description
 
-  
+
 Returns the smaller of two values  
  
 
 ### Syntax
 
-  
+
 ***Math.Min(a,b)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
@@ -349,16 +332,16 @@ error.
 
 ### Description
 
-  
+
 Returns a specified number raised to the power of another specified
 number  
  
 
 ### Syntax
 
-  
+
 ***Math.Pow(a,b)***  
-  
+
 The number a is raised to the power of b. The value for a and b can be
 an expression, a variable or a number. If you are using a variable or an
 expression with multiple variables, you will have to add **.Value** to
@@ -373,7 +356,7 @@ the end of each variable to avoid a compile error.
 
 ### Example 2
 
-  
+
 You have two questions in your survey that ask for: 1) weight of a
 person in kilogram (**weight**) and 2) height of a person in centimeters
 (**height**). Both variables **height** and **weight** are real numbers
@@ -382,15 +365,15 @@ person in kilogram (**weight**) and 2) height of a person in centimeters
 (BMI)](https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html)
 of the person and make sure it is in a certain range to validate that
 the weight and height were entered correctly.  
-  
+
 For this check, the code for the validation condition would look like
 this:
 
     (weight/Math.Pow((height.Value,2)).InRange(10,40)
 
-  
-  
-  
+
+
+
  
 
 **<span id="round"></span>Round**
@@ -400,15 +383,15 @@ this:
 
 ### Description
 
-  
+
 Rounds a specified value to the nearest integer value  
  
 
 ### Syntax
 
-  
+
 ***Math.Round(z)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile error.
@@ -419,8 +402,8 @@ to add **.Value** to the end of each variable to avoid a compile error.
     Math.Round(20.6)    // returns 21
     Math.Round(10-1.5)  // returns 9
 
-  
-  
+
+
  
 
 **<span id="sign"></span>Sign**
@@ -430,7 +413,7 @@ to add **.Value** to the end of each variable to avoid a compile error.
 
 ### Description
 
-  
+
 Returns whether the value is negative, positive, or zero. If the value
 if negative, then it will return the value -1. If the number is
 positive, then it will return the value 1. If the number is zero, then
@@ -439,9 +422,9 @@ it will return the value 0.
 
 ### Syntax
 
-  
+
 ***Math.Sign(z)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
@@ -455,8 +438,8 @@ error.
     Math.Sign(-2)       // returns -1
     Math.Sign(-5 + 2)   // returns -1
 
-  
-  
+
+
  
 
 **<span id="sqrt"></span>Sqrt**
@@ -466,16 +449,16 @@ error.
 
 ### Description
 
-  
+
 Returns the square root of a specified number. This will return an error
 if the specified number is negative.  
  
 
 ### Syntax
 
-  
+
 ***Math.Sqrt(z)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
@@ -488,8 +471,8 @@ error.
     Math.Sqrt(144)      // returns 12
     Math.Sqrt(12 + 13)  // returns 5
 
-  
-  
+
+
  
 
 **<span id="truncate"></span>Truncate**
@@ -499,21 +482,21 @@ error.
 
 ### Description
 
-  
+
 Returns the integer part of a specified number. In other words, this
 returns the value of the number before the decimal point.  
  
 
 ### Syntax
 
-  
+
 ***Math.Truncate(z)***  
-  
+
 The value for z can be an expression, a variable or a number. If you are
 using a variable or an expression with multiple variables, you will have
 to add **.Value** to the end of each variable to avoid a compile
 error.  
-  
+
  
 
 ### Example

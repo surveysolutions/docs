@@ -7,7 +7,7 @@ aliases = ["/customer/portal/articles/2847917-faq-for-it-personnel","/customer/e
 
 +++
 
-  
+
 *The recommended minimal hardware specifications required for Survey
 Solutions to function properly for a questionnaire of about 500
 questions and for the survey of about 10,000 respondents. The minimal
@@ -82,19 +82,15 @@ devices supporting this latest version.*
                         </ul>
                         <h6>4. We have necessary server equipment, but no specialists to install the Survey Solutions software. Is it possible to get help?</h6>
                         <ul>
-                            <li>Our developers can help set up the software on your server remotely.</li>
-                            <li>Remote access (RDP) and admin rights are required for this.</li>
+                            <li>If you encounter any difficulties in setting up your server, please inquire in the [forum of the Survey Solutions community of users](https://forum.mysurvey.solutions).</li>
                         </ul>
                         <h6>5. We don’t have a proper server. Is a server necessary for Survey Solutions, or can we use the software with the tablets only?</h6>
                         <ul>
                             <li>A server provides essential functionality and is absolutely required for data collection with Survey Solutions.</li>
-                            <li>Server’s functionality is described in the guide for headquarters’ users, available in the documentation section of our homepage:
-                            <a href="http://www.worldbank.org/capi" target="_blank">http://worldbank.org/capi</a></li>
                         </ul>
                         <h6>6. We don’t have a proper server. Are there any alternatives?</h6>
                         <ul>
-                            <li>Survey Solutions developers can set up a cloud-based server using major international cloud solutions providers.</li>
-                            <li>If there are local cloud server providers matching the requirements for the server, they can be used as well.</li>
+                            <li>You can install Survey Solutions using major cloud server providers: Amazon, Google, Microsoft and others. The software and functionality is the same regardless whether it is installed in the cloud or on a local machine.</li>
                         </ul>
                         <h6>7. How many servers will we need?</h6>
                         <ul>
@@ -339,10 +335,11 @@ devices supporting this latest version.*
                         </ul>
                         <h6>30. If we host Survey Solutions on our own server, how do we make sure that we get the updates?</h6>
                         <ul>
-                            <li>Every person having an account on the Survey Solutions Designer gets automatic notifications regarding new releases.</li>
-                            <li>Release notes can be viewed here: <a href="/release-notes/release-notes" target="_blank">Release notes</a></li>
-                            <li>The updates procedure depends both on the most recent and the installed version of Survey Solutions.</li>
+                            <li>Notifications about new version releases are routinely posted as: <a href="/release-notes/release-notes" target="_blank">Release notes</a></li>
                             <li>The update of the server component of Survey Solutions is not automatic and should be undertaken by the server administrator after careful consideration of the new features and current data collection situation.</li>
+                            <li>The updates procedure depends both on the most recent and the installed version of Survey Solutions.</li>
+                            <li>Lagging behind for several versions is not recommended as this means you are not getting the bugfixes and access to the new features.</li>
+                            <li>If you are reporting a bug, our first recommendation is usually to catch up with the currently released version.
                         </ul>
                         <h6>31. Can we restrict the tablets so that no other software can be used on the tablets?</h6>
                         <ul>
@@ -381,29 +378,30 @@ devices supporting this latest version.*
                         </ul>
                         <h6>36. Is the data on the Designer site shared between the users?</h6>
                         <ul>
-                            <li>The Designer site <a href="http://solutions.worldbank.org/" target="_blank">http://solutions.worldbank.org</a> is intended for designing the survey questionnaires. It does not store or share the data collected during surveys using those questionnaires, but stores blank forms only.</li>
+                            <li>The Designer site <a href="http://designer.mysurvey.solutions/" target="_blank">http://designer.mysurvey.solutions/</a> is intended for designing the survey questionnaires. It does not store or share the data collected during surveys using those questionnaires, but stores blank forms only.</li>
                             <li>Multiple users can collaborate and work on developing questionnaire forms together.</li>
                         </ul>
                         <h6>37. Can we use tablets or Apple computers to design a survey using the online designer tool?</h6>
                         <ul>
                             <li>The implementation of browser functionality differs between different browsers and different platforms.</li>
-                            <li>Survey Solutions Designer does not explicitly rule out the use of any particular browser or platform. However, the use of anything else beyond the current Windows versions of Google Chrome, Mozilla Firefox, and Microsoft Internet Explorer is not tested, not supported, and not guaranteed.</li>
+                            <li>Survey Solutions Designer does not explicitly rule out the use of any particular browser or platform. However, the use of anything else beyond the current Windows versions of Google Chrome, Mozilla Firefox, and Microsoft Edge is not tested, not supported, and not guaranteed.</li>
+                            <li>The use of Microsoft Internet Explorer has been deprecated.</li>
                             <li>To download a compatible browser visit links below:</li>
                             <li><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a></li>
                             <li><a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Firefox</a></li>
-                            <li><a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank">Microsoft Internet Explorer</a></li>
+                            <li><a href="https://www.microsoft.com/edge" target="_blank">Microsoft Edge</a></li>
                         </ul>
-                        <h6>38. What is a demo Headquarter server?</h6>
+                        <h6>38. What is a Survey Solutions Demo server?</h6>
                         <ul>
-                            <li><p>Demo Headquarter server <a href="http://demo.wbcapi.org/" target="_blank">http://demo.mysurvey.solutions</a> is set up for demonstration purposes so that anyone can try how the Survey Solutions program works and evaluate its functionality and suitability for their survey.</p></li>
+                            <li><p>Demo Headquarter server is set up for demonstration purposes so that anyone can try how the Survey Solutions program works and evaluate its functionality and suitability for their survey.</p></li>
                             <li><p>For that reason, the access to the headquarter server is not restricted and anyone can login there.</p></li>
-                            <li><p>The demo server is not intended for any real data collection.</p></li>
+                            <li><p>The Demo server is not intended for any real data collection.</p></li>
                             <li><p>Read more about the use of the demo server (including login and password to access it) in <a href="/headquarters/config/demo-server" target="_blank">this article</a>.</p></li>
                         </ul>
                         <h6>39. We like your system and we want to change it (improve it, modify it, customize it). How should we start?</h6>
                         <ul>
                             <li>We do not distribute the source code of Survey Solutions.</li>
-                            <li>We listen to the suggestions of our users. If there is a useful feature that is missing from our functionality, please let us know.</li>
+                            <li>We listen to the suggestions of our users. If there is a useful feature that is missing from our functionality, please let us know in the [forum](https://forum.mysurvey.solutions).</li>
                         </ul>
                     </div>
                 </div>

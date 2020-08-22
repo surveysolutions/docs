@@ -68,7 +68,7 @@ household members according to the following criteria:
 -   Only show household members that are at least 10 years older than
     the household member currently being interviewed
 
-  
+
 This question is a single select linked to the household roster. For
 this example, assume that the variable for the gender of the household
 member is *gender* and for age is *age*. You would write the filter for
@@ -83,4 +83,4 @@ the answer options to look like this:
     age >= (@current.age + 10)
 
 To see an example of this code in the public questionnaire, see this
-[question](https://solutions.worldbank.org/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/chapter/86a1285cec7b59c70bb230ee8e3bc181/question/c6e3c5abced7db09046a7e65f9ddcd1b).
+[question](https://designer.mysurvey.solutions/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8).

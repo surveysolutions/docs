@@ -18,7 +18,7 @@ and validation conditions for rosters that can both:
     in the roster
 
 {{< imgproc "images/717594.png" Fit "800x600" />}}  
-  
+
 In this article, we will cover the [general syntax](#syntax), [common
 operators](#operators), provide a few [examples](#examples) on how to
 write enabling and validation conditions for rosters. Additionally, this
@@ -62,25 +62,12 @@ The general syntax for rosters is:
 </tbody>
 </table>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 The part of the syntax in the parentheses after the operator is called
 the "lambda expression." The lambda expression specifies the query
 criteria for the LINQ expression.  
 The value that is returned by the statement depends on the operator
 used. LINQ expressions can also be used to write more complex queries to
 a [look up table](/questionnaire-designer/lookup-tables).  
-  
- 
 
 <span id="operators"></span>**Commonly Used Operators**
 -------------------------------------------------------
@@ -100,10 +87,6 @@ most useful LINQ operators for Survey Solutions are:
     criteria. In most cases, this will be the first row that matches the
     search criteria If no element matches the query criteria, then it
     returns null.
-
-  
-  
- 
 
 <span id="examples"></span>**Example 1**
 ----------------------------------------
@@ -133,7 +116,7 @@ expression will return true if there are any woman 15-49 years old in
 the household. It will return false if there are none. If instead we
 wanted to count the number of women 15-49 years old in the household,
 then we would use the *Count* operator.  
-  
+
  
 
 **Example 2**
@@ -161,7 +144,7 @@ that we can provide more detailed error messages to the interviewers.
 
 ### Case 1. There is more than one household head
 
-  
+
 For this case, we want to check that another person has not been listed
 as the household head if a household member has been identified as the
 household head. We will use the [conditional expression
@@ -170,10 +153,10 @@ to code this validation. It would be coded like:
 
      // Is this person the household head?
     relat==1 ?
-        
+
         // If household head, check that there is only one household head listed
-        (hhroster.Count(x=>x.relat==1)==1) 
-        
+        (hhroster.Count(x=>x.relat==1)==1)
+
         // If not a household head, then do not do anything
         : true
 
@@ -183,12 +166,12 @@ expression, *relat==1?* makes it so that it will only check that there
 is only one head if the current person was recorded to be a household
 head. If the person is not listed as a household head, then no error
 will be flagged.  
-  
+
  
 
 ### Case 2. There is no household head
 
-  
+
 For this case, we only want to run this check after question about the
 relationship to head has been answered for everyone because this
 validation will trigger for every person until the household head is
@@ -198,10 +181,10 @@ to code this validation. It would be coded like this:
 
     // Has relationship to head been answered for all household members?
     hhroster.All(x=>x.relat!=null) ?
-        
+
         //  If all information has been filled out, check for a head was listed
         !(hhroster.Count(x=>x.relat==1)==0)
-        
+
         // If all information has not been filled, do not do anything
         : true
 
@@ -212,17 +195,13 @@ members that are listed as a household head and check that the number of
 household heads listed is not equal to 0. If not all the relationship to
 household head has not been filled out for every member, then no error
 will be flagged.  
-  
+
 If you would like to learn more about and test out these two validation
 conditions, you can refer to this
-[question](https://solutions.worldbank.org/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/chapter/20a1b67d72390695b07f91848bd6e90c/question/b87aeba00d9b48ac91f3b7e15cae9bed)
-in the Household Roster public questionnaire.Case 1 is validation
-condition 1 in the question. Case 2 is validation condition 5 in the
-question. You can use the
-[Tester](/questionnaire-designer/testing-your-questionnaires-using-the-tester-application)
-application to test the questionnaire.  
+[public questionnaire](https://designer.mysurvey.solutions/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/)
+Case 1 is validation condition 1 in the question. Case 2 is validation
+condition 5 in the question.
  
-
 <span id="moreref"></span>**More resources on LINQ**
 ----------------------------------------------------
 

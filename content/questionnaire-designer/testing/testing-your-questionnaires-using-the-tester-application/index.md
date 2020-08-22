@@ -19,13 +19,13 @@ This article will walk you through the process of installing and testing
 your questionnaire using the Android Questionnaire Tester app on a
 tablet. 
 
-  
+
  
 
 Step 1
 ------
 
-  
+
 **Before you start—you will need to set up a [Google
 account](https://accounts.google.com/signup) if you do not already have
 one.**  
@@ -45,7 +45,7 @@ account, you can create one [here](https://accounts.google.com/signup).
 Step 2
 ------
 
-  
+
 **Open the [Google Play store](https://play.google.com/store)**  
  
 
@@ -55,7 +55,7 @@ Step 2
 
 On the home screen of your Android device, tap on the *Play
 Store* icon.  
-  
+
  
 
  
@@ -63,7 +63,7 @@ Store* icon.
 Step 3
 ------
 
-  
+
 **Enter your Google Account credentials**  
  
 
@@ -74,8 +74,8 @@ Step 3
 If you have not used any Google services on your tablet, you will be
 asked to enter your username and password. Insert it and accept the
 terms and conditions of the Google Play Store.  
-  
-  
+
+
  
 
 <table>
@@ -87,7 +87,7 @@ terms and conditions of the Google Play Store.
 </tbody>
 </table>
 
-  
+
  
 
  
@@ -95,7 +95,7 @@ terms and conditions of the Google Play Store.
 Step 4
 ------
 
-  
+
 **Search for *Survey Solutions***
 
  
@@ -107,8 +107,8 @@ At the top-left corner of the screen that follows, you will find a
 *Search* field. Insert *Survey Solutions* to look for the Tester app. As
 you are redirected to the results page, tap on the first app starting
 from the left.  
-  
-  
+
+
  
 
 <table>
@@ -120,8 +120,8 @@ from the left.
 </tbody>
 </table>
 
-  
-  
+
+
  
 
  
@@ -129,19 +129,19 @@ from the left.
 Step 5
 ------
 
-  
+
 **Install the software**
 
  
 
  
 
-  
+
 On the next screen, tap the *Install* button. Soon, the installation
 will start. Once it is finished, the *Install* button will be replaced
 by the *Open* button. Tap on it to open the Questionnaire Tester.
 
-  
+
  
 
 <table>
@@ -154,13 +154,13 @@ by the *Open* button. Tap on it to open the Questionnaire Tester.
 </tbody>
 </table>
 
-  
+
  
 
 Step 6
 ------
 
-  
+
 **Log in**  
  
 
@@ -169,7 +169,7 @@ Step 6
  
 
 Sign in using the same username and password that you have used with the
-Questionnaire Designer at *solutions.worldbank.org*. On the next screen
+Questionnaire Designer at *designer.worldbank.org*. On the next screen
 you will find a list of all the questionnaires that you have created.
 Select the one that you would like to test by tapping on its name.
 **Your questionnaire will have to compile without errors before you can
@@ -186,19 +186,19 @@ currently has errors.
 </tbody>
 </table>
 
-  
+
  
 
 Step 7
 ------
 
-  
+
 **You are ready to test the questionnaire!**  
-  
-  
+
+
 {{< imgproc "images/661369.png" Fit "800x600" />}}
 
-  
+
 If you have made changes to the questionnaire in Designer and want to
 see the changes you have made in Tester, you will have to reload the
 questionnaire. To reload the questionnaire, click on the button at the
@@ -206,5 +206,5 @@ top right with two arrows to reload the questionnaire. All the changes
 you have made in Designer will now be applied in Tester. Any data that
 you have entered previously will remain after reloading the
 questionnaire.  
-  
+
 {{< imgproc "images/795433.png" Fit "800x600" />}}

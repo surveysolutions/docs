@@ -20,7 +20,7 @@ self, [@rowcode](#rowcode), [@optioncode](#optioncode), and
 self
 ----
 
-  
+
 For validation conditions, a very useful system generate
 variable is<span
 style="font-family:courier new,courier,monospace;"> self</span>. This
@@ -29,11 +29,11 @@ style="font-family:courier new,courier,monospace;">self</span> instead
 of the question's variable name in a question's validation conditions is
 advised because you will not have to change the variable name in the
 validation condition if the variable name for the question is changed.  
-  
+
 It is important to note that using <span
 style="font-family:courier new,courier,monospace;">self</span> in the
 enabling condition will cause an compile error.  
-  
+
 ***Example:***  
 You have a question "How many rooms does this house have?" with the
 variable name <span
@@ -50,12 +50,12 @@ equivalent.
 <span id="rowcode"></span>@rowcode
 ----------------------------------
 
-  
+
 This system generated variable allows you to reference specific rows
 within a roster. This variable can be used in enabling conditions and
 validations. Additionally, @rowcode can also be used to refer to certain
 rows in a [look up table](/questionnaire-designer/lookup-tables).  
-  
+
 ***Example 1:***  
 Assume you have roster of items and you have a question that should only
 be asked of two of the items (item \#110 and item \#114). In this case,
@@ -64,9 +64,9 @@ style="font-family:courier new,courier,monospace;">@rowcode</span> to
 refer to the item number. Then you would use <span
 style="font-family:courier new,courier,monospace;">@rowcode</span> and
 write the enabling condition to be like below:  
-  
+
 {{< imgproc "images/676595.png" Fit "800x600"/>}}  
-  
+
 ***Example 2:***  
 Assume you have a roster of items that the household could have bought
 in the last 7 days. You want to check that the amount of money spent is
@@ -81,7 +81,7 @@ style="line-height: 20.8px;"> to code the upper bound specific to that
 item. </span>To code this check, you would write the validation
 condition to be like below:  
 {{< imgproc "images/676607.png" Fit "800x600" />}}  
-  
+
  
 
  
@@ -89,7 +89,7 @@ condition to be like below:
 <span id="optioncode"></span>@optioncode
 ----------------------------------------
 
-  
+
 This system generated variable, @optioncode, is used to filter answer
 options for [single
 select](/questionnaire-designer/categorical-single-select-question)
@@ -97,7 +97,7 @@ questions and
 [multi-select](/questionnaire-designer/categorical-multi-select-question)
 questions. @optioncode refers to the numeric code for each answer
 option.  
-  
+
 ***Example:***  
 Assume you have a question that asks when in the past calendar year a
 business has been in operation. You want to filter the answer options so
@@ -108,30 +108,30 @@ have a question that captures the the date of the interview (<span
 style="font-family:courier new,courier,monospace;">InterviewDate</span>).
 You will use date time functions to code this filter. You should write
 the filter to look like below:  
-  
+
 {{< imgScale src="images/705590.png"  class="md-img">}}
-  
+
  
 
-  
+
 The code<span style="font-family:courier new,courier,monospace;">
 InterviewDate.Value.Month</span> takes the numeric month value from the
 InterviewDate variable. The filter will be evaluated for every option
 code and it will only display the options that it evaluate to true. In
 this case, months in the future will evaluate to false and will not
 appear as an answer option.  
-  
+
  
 
 <span id="current"></span>@current
 ----------------------------------
 
-  
+
 This system generated variable, @current, is very useful in code to
 filter answer options. @current refers to the current line or occurence
 in the roster. For example, @current refers to the current household
 member that you are on in the household roster.  
-  
+
 ***Example:***  
 Assume you have a question that asks the interviewer to select the ID of
 the spouse of the current household member. You want to filter the
@@ -146,7 +146,6 @@ this example, assume that the variable for the gender of the household
 member is <span
 style="font-family:courier new,courier,monospace;">gender</span>. You
 would write the filter for the answer options to look like this:  
-{{< imgScale src="images/705614.png"  class="md-img">}} 
-  
-To see an example of this code in the public questionnaire, see this
-[question](https://solutions.worldbank.org/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/chapter/86a1285cec7b59c70bb230ee8e3bc181/question/3a3102b57b22af7172e239bb5fd4ca0d).
+{{< imgScale src="images/705614.png"  class="md-img">}}
+
+To see an example of this code in a public [questionnaire](https://designer.mysurvey.solutions/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/).
