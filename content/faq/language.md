@@ -5,7 +5,7 @@ date = 2019-09-18T12:00:00Z
 
 +++
 
-The Survey Solutions **questionnaire can be designed in any language supported in Unicode**. 
+The Survey Solutions **questionnaire can be designed in any language supported in Unicode**.
 See details in [this article](/faq/which-languages-can-be-used/).
 
 A questionnaire may be multilingual. See details in [multilingual questionnaires](/questionnaire-designer/toolbar/multilingual-questionnaires/)
@@ -34,9 +34,9 @@ For the langauges applicable to Survey Solutions software components refer to th
 <TR align=center><TD>Ukrainian<TD>+<TD>-<TD>-</TR>
 <TR><TD colspan="4"><HR></TD></TR>
 <TR align=center>
- <TD>**How to switch the language?**
- <TD>[**readme**](/interviewer/config/interface-localization/)
- <TD>[**readme**](/headquarters/config/changing-the-interface-language/)
- <TD>[**readme**](/headquarters/config/changing-the-interface-language/)</TR>
+ <TD><B>How to switch the language?</B>
+ <TD><A href="/interviewer/config/interface-localization/"><B>readme</B></A>
+ <TD><A href="/headquarters/config/changing-the-interface-language/"><B>readme</B></A>
+ <TD><A href="/headquarters/config/changing-the-interface-language/"><B>readme</B></A></TR>
 <TR><TD colspan="4"><HR></TD></TR>
 </TABLE>
