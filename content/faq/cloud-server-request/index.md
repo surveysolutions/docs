@@ -22,6 +22,7 @@ Starting from April 09, 2020:
 
 - for new surveys setup a server as described here [Survey Solutions Server](/headquarters/config/standalone-server/) using any of the following hosting options<BR>(any service providers below are mentioned as examples and should not be interpreted as a recommendation):
 
+    *   UN Agencies, request from the [UN International Computing Centre](https://www.unicc.org/)
     *	Request a server from your government <BR>(for example *[National Informatics Centre](https://www.nic.in/services-main-page/)* in India, *[GDCC/G-Cloud](https://gdcc.onde.go.th/)* in Thailand, etc.);
     *	Request a server from a global/international cloud server provider, some examples:
         -	Amazon AWS: https://aws.amazon.com/ <BR>(for questions: [Amazon's contact form](https://aws.amazon.com/contact-us/)).
