@@ -7,52 +7,31 @@ date = 2019-08-28
 
 +++
 
-The Survey Solutions Supervisor App
-===========================================
-
-<IMG src="images/image3.png" width=10%>
+# The Survey Solutions Supervisor App
 
 The Survey Solutions tablet supervisor app opens a possibility for the in-field supervision 
 without the need to utilize the internet.
 
-A common use scenario is when a team of interviewers along with the supervisor work in a 
-remote location for a prolonged time and no communication possible to exchange the data with 
-the server. At the same time it is still desirable for the supervisors to control the work 
-of his team. The app allows them to
+A common use scenario is when a team of interviewers along with the supervisor work in a remote location for a prolonged time and no communication possible to exchange the data with the server. At the same time it is still desirable for the supervisors to control the work of his team. The app allows them to
 
-  - distribute assignments between the interviewers in that area;
-  - review and comment the incoming interviews;
-  - answer supervisor questions;
-  - make a decision to approve or reject the completed interviews;
-  - collect and store the interviews completed by all the members of the team, synchronize
-  them with the server in a single synchronization session;
-  - distribute the updates of the Interviewer application to the interviewers.
+- distribute assignments between the interviewers in that area;
+- review and comment the incoming interviews;
+- answer supervisor questions;
+- make a decision to approve or reject the completed interviews;
+- collect and store the interviews completed by all the members of the team, synchronize them with the server in a single synchronization session;
+- distribute the updates of the Interviewer application to the interviewers.
 
-Importantly the supervisor app is working with the data stored on the supervisor tablet and 
-does not require internet connectivity for the above functionality. Only synchronization with 
-the server of the supervisor app requires the internet connection.
-
+Importantly the supervisor app is working with the data stored on the supervisor tablet and does not require internet connectivity for the above functionality. Only synchronization with the server of the supervisor app requires the internet connection.
 <CENTER><IMG src="images/image5.png" width=50%></CENTER>
 
+## Communications
 
-Communications
-----------------------
+<IMG src="images/image8.png" width=32> **Vertical synchronization:** the supervisor tablet must be connected to the WiFi or 3G or similar connection to the Internet to exchange the data with the server.
 
-<IMG src="images/image8.png" width=32> **Vertical synchronization:** the supervisor tablet 
-must be connected to the WiFi or 3G or similar connection to the Internet to exchange the 
-data with the server.
+<IMG src="images/image9.png" width=32> **Horizontal synchronization:** the tablets rely on the [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth) and [WiFi-Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct) technologies to find each other and exchange the data between themselves. Both are short-range communications, meaning the tablets must be in close proximity (meters away) to each other. During the horizontal synchronization the connection to other networks will be switched off (this may disconnect other applications installed on the tablet from the Internet) and such connection may be reinstated by Android automatically once the Survey Solutions synchronization is completed.
 
-<IMG src="images/image9.png" width=32>**Horizontal synchronization:** the tablets rely on the 
-[Bluetooth](https://en.wikipedia.org/wiki/Bluetooth) and [WiFi-Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct)
-technologies to find each other and exchange the data between themselves. Both are short-range 
-communications, meaning the tablets must be in close proximity (meters away) to each other. 
-During the horizontal synchronization the connection to other networks will be switched off 
-(this may disconnect other applications installed on the tablet from the Internet) and such 
-connection may be reinstated by Android automatically once the Survey Solutions 
-synchronization is completed.
+## Installation
 
-Installation
---------------------------
 The supervisor app has the same hardware and software requirements as the interviewer app, so the
 same tablets may be used for both interviewers and supervisors. Yet the work load on the supervisor
 tablet may be larger, and with large amount of assignments/interviews the memory capacity of the
@@ -60,19 +39,15 @@ tablet becomes critical.
 
 To acquire the app the supervisor should:
 
-  1. While connected, e.g. in the office, start the browser and proceed to the page corresponding
-  to the synchronization point, such as https://demo.mysurvey.solutions .
-  2. Login into his account with the supervisor credentials.
-  3. Click on his name in the right corner and select 'Download supervisor app', wait for the
-  download to complete and start the installation.
-  4. Confirm the security settings if prompted.
+  1. Update google play services to latest version using [google instructions](https://support.google.com/googleplay/answer/9037938)
+  1. While connected, e.g. in the office, start the browser and proceed to the page corresponding to the synchronization point, such as https://demo.mysurvey.solutions.
+  1. Login into his account with the supervisor credentials.
+  1. Click on his name in the right corner and select 'Download supervisor app', wait for the download to complete and start the installation.
+  1. Confirm the security settings if prompted.
 
 <CENTER><IMG src="images/image4.png" width=400></CENTER>
 
-Note that the supervisor app will accumulate data from multiple tablets, and will need to also
-carry the interviewer app to be distributed as updates to the interviewers. Thus the storage space 
-consumed by the supervisor app is bigger than the interviewer app. Have at least 2GB free space 
-when you install it and watch the available space closely as the survey progresses.
+**Note** that the supervisor app will accumulate data from multiple tablets, and will need to also carry the interviewer app to be distributed as updates to the interviewers. Thus the storage space consumed by the supervisor app is bigger than the interviewer app. Have at least 2GB free space when you install it and watch the available space closely as the survey progresses.
 
 Initialization
 ----------------------------
@@ -97,7 +72,7 @@ synchronization.
 Supervisor App Functionality
 -------------------------------------
 
-<CENTER><IMG src="images/image13.png" width=400></CENTER>
+<CENTER><IMG src="images/image13.png" width=600></CENTER>
 
 The supervisor app provides the following menu choices:
 
@@ -106,7 +81,7 @@ distributed between the interviewers of the team. The assignments are represente
 identifying information and the <ASSIGN> button, after clicking which the supervisor can select
 the name of the interviewer to complete the assignment.
 
-<CENTER><IMG src="images/image1a.png" width=400></CENTER>
+<CENTER><IMG src="images/image1a.png" width=600></CENTER>
 
 **Waiting for your action** -- completed interviews received from the interviewers will be shown 
 on this page, each represented by a card with the 'OPEN' button. After reviewing the interview
@@ -118,7 +93,7 @@ by the supervisor and awaiting the synchronization with their recipients.
 **Sent to interviewer** -- shows the interviews and assignments that have been already received 
 by the interviewers.
 
-<CENTER><IMG src="images/image12.png" width=400></CENTER>
+<CENTER><IMG src="images/image12.png" width=600></CENTER>
 
 Color coding
 ------------------
@@ -134,7 +109,7 @@ The following colors are used to highlight the sides of the cards in the interfa
 Reviewing interviews
 ------------------------
 
-<CENTER><IMG src="images/image6.png" width=400></CENTER>
+<CENTER><IMG src="images/image6.png" width=600></CENTER>
 
 Interviews that have been submitted by the interviewers to the supervisor can be found seen at the 
 'waiting for your action' page. The supervisor can view the interview details in exactly the same 
@@ -145,13 +120,13 @@ comments to any questions and answer supervisor questions. Supervisors can't cha
 The supervisor can open the interview many times and switch between multiple interviews before
 making a decision on whether to approve or reject an interview.
 
-<CENTER><IMG src="images/image11.png" width=400></CENTER>
+<CENTER><IMG src="images/image11.png" width=600></CENTER>
 
 If the supervisor rejects an interview to the interviewer and it's picked up, the supervisor still 
 has access to the interview details and may continue reading the interview information with the 
 understanding that it is potentially being modified at the same time by the interviewer.
 
-<CENTER><IMG src="images/image2.png" width=400></CENTER>
+<CENTER><IMG src="images/image2.png" width=600></CENTER>
 
 
 
@@ -208,12 +183,12 @@ does not contain any equivalent of the:
 Updates
 -------------
 
-<CENTER><IMG src="images/image10.png" width=400></CENTER>
+<CENTER><IMG src="images/image10.png" width=600></CENTER>
 
 The Supervisor App will receive all the updates from the server. We recommend to always update 
 the Supervisor app immediately as the updates are received.
 
-<CENTER><IMG src="images/image7.png" width=400></CENTER>
+<CENTER><IMG src="images/image7.png" width=600></CENTER>
 
 The interviewers working with the supervisor will see the updates during synchronization with 
 the supervisor. Receiving updates in this way doesn't consume additional traffic on the 
@@ -229,10 +204,7 @@ Common use scenarios and ideas
 We have anticipated that the offline supervisor app would be useful for the following common 
 situations:
 
-  1. **Distributions of assignments** -- the team is working in the remote area without 
-  connection and the distribution of the assignments between the interviewers may be done 
-  only in the area, hence the interviewers can't travel with the assignments pre-synced 
-  to their tablets.
+  1. **Distributions of assignments** -- the team is working in the remote area without connection and the distribution of the assignments between the interviewers may be done only in the area, hence the interviewers can't travel with the assignments pre-synced to their tablets.
   2. **Replacements** -- the issuance of the replacement assignments in the remote areas 
   where the number of replacements is limited (e.g. 3 replacements for 12 households in EA)
   and it is not a priori known which interviewers will need replacements.
@@ -263,7 +235,6 @@ situations:
 
 <FONT COLOR="MAROON">
 Caution!
---------------
 
 The interviewers that have switched to the synchronization with the supervisor app can not
 return to the original mode of direct synchronization with the server. For that the whole
