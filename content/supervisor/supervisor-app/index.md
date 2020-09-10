@@ -137,35 +137,28 @@ Commentaries
 The supervisor app shows all the commentaries in the chronological sequence of how they were left 
 by the users.
 
-
-
-Bypassing the supervisor
-----------------------------
+## Bypassing the supervisor
 
 A direct assignment by the HQ users to the interviewers is possible even when the interviewer is 
 synchronizing with the supervisor app. In such a case the interviewer receives the assignment 
 after the following three actions are completed in this order: assignment is made by the HQ, 
 supervisor synchronizes, interviewer in question synchronizes.
 
-Reassignment
-------------------
+## Reassignment
 
 Reassignment is possible in the supervisor app. But it is important to coordinate the actions 
 between the original and the new responsible interviewers to avoid duplicate interviewing. Make 
 sure the original interviewer synchronizes after reassignment and before the second interviewer, 
 so that his responsibility is taken off from him before the work starts.
 
-Synchronization
--------------------
+## Synchronization
 
 During vertical synchronization the program is blocked and awaits for the synchronization to 
 complete. During the horizontal synchronization the supervisor app keeps waiting for other 
 tablets to connect, so that multiple interviewers can send data to the same supervisor at 
 the same time.
 
-
-Limitations
-----------------------
+## Limitations
 
 The first version of the offline supervisor app addresses the most common tasks of our users 
 working in remote areas without coverage. We had to forgo some of the online supervisors' 
@@ -233,8 +226,7 @@ situations:
   to the internet and can thus achieve better security.
 
 
-<FONT COLOR="MAROON">
-Caution!
+{{< panel title="Warning:" style="warning">}}
 
 The interviewers that have switched to the synchronization with the supervisor app can not
 return to the original mode of direct synchronization with the server. For that the whole
@@ -246,21 +238,14 @@ data stored in the supervisor tablet will be irrecoverably lost.
 
 The same will happen if the supervisor tablet is lost, stolen or destroyed.
 
-Synchronize the supervisor tablet to the server whenever the opportunity arises to secure 
-the collected data!
+Synchronize the supervisor tablet to the server whenever the opportunity arises to secure the collected data!
 
-Relinking the interviewer tablets working in the synchronization mode with the offline
-supervisor may lead to undesirable consequences, as the supervisor app knows nothing about 
-the relinking happened on the server.
+Relinking the interviewer tablets working in the synchronization mode with the offline supervisor may lead to undesirable consequences, as the supervisor app knows nothing about the relinking happened on the server.
 
-Interviewer tablets synchronizing data through the supervisor app will not receive operating 
-system patches and updates and prolonged work with no updates is undesirable for security 
-reasons. Periodically connect interviewer tablets to Internet when opportunity arises to 
-allow them receive updates for the OS and other installed applications.
+Interviewer tablets synchronizing data through the supervisor app will not receive operating system patches and updates and prolonged work with no updates is undesirable for security reasons. Periodically connect interviewer tablets to Internet when opportunity arises to allow them receive updates for the OS and other installed applications.
 
-</FONT>
+{{% /panel %}}
 
-The Supervisor app is actively developed at the moment. If you have interesting ideas or
-suggestions, feel free to post them to our user forum: https://forum.mysurvey.solutions
+The Supervisor app is actively developed at the moment. If you have interesting ideas or suggestions, feel free to post them to our user forum: https://forum.mysurvey.solutions
 
 The original 2018-article announcing the Supervisor App is linked [here](announcement).
