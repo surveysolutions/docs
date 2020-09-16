@@ -55,7 +55,7 @@ After database is started copy endpoint address
 
 ## Survey Solutions installation
 
-When your instance is running, connect to it with rdp [using instructions](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html). Once connected, execute [standalone installation]({{< ref "/headquarters/config/standalone-installation#installing-surveysolutions" >}}) steps (skip PostgreSQL part). When asked for database connection, input endpoint from RDS setup and database credentials.
+When your instance is running, connect to it with rdp [using instructions](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html). Once connected, execute [installation]({{< ref "/headquarters/config/server-installation#installing-surveysolutions" >}}) steps (skip PostgreSQL part). When asked for database connection, input endpoint from RDS setup and database credentials.
 
 ### Change port from 9700 to 80
 

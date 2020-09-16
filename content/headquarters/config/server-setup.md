@@ -14,19 +14,19 @@ Your survey may require a different hardware configuration.
 You may need to calibrate for a few months before the survey
 to determine the optimal configuration.
 
-- Follow the [installation instructions]({{< ref "/headquarters/config/standalone-installation" >}})
+- Follow the [installation instructions]({{< ref "/headquarters/config/server-installation" >}})
 to install the prerequisites and the Survey Solutions itself. 
 
-- The installation file for survey solutions may be obtained 
-from the [Download](https://mysurvey.solutions/download) section of the self-service portal. 
+- Note: there is only one installation set regardless where you want 
+to install: to a physical server or to a cloud-based server. The 
+installation file for survey solutions may be obtained 
+from the [Download](https://mysurvey.solutions/download) section of 
+the self-service portal. 
 
-- There is only one installation set regardless where you want 
-to install: to a physical server or to a cloud-based server.
+    - To install the Survey Solutions to your server, follow the 
+[installation instructions]({{< ref "/headquarters/config/server-installation" >}}).
 
-- To install the Survey Solutions to your server, follow the 
-[installation instructions]({{< ref "/headquarters/config/standalone-installation" >}}).
-
-- If you are installing specifically to Amazon AWS cloud, there 
+    - If you are installing specifically to Amazon AWS cloud, there 
 are additional instructions available:
 [Installation to AWS]({{< ref "/headquarters/config/aws-setup" >}}).
 

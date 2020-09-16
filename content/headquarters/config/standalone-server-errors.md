@@ -2,6 +2,8 @@
 title ="Data Server Errors"
 keywords = ["local", "standalone", "self-hosted", "error"]
 date = 2020-06-15T00:00:00Z
+aliases = ["/customer/portal/articles/standalone-server-errors"]
+
 
 +++
 
@@ -68,5 +70,5 @@ The message is displayed when the user accesses the map report at the server, wh
 the map engine settings were not configured correctly and hence the map may not be
 displayed.
 
-See the [Google maps](/headquarters/config/standalone-installation/#google-maps)
+See the [Google maps](/headquarters/config/server-installation/#google-maps)
 section of the server installation instructions.
