@@ -25,9 +25,18 @@ Starting from April 09, 2020:
     *   UN Agencies, request from the [UN International Computing Centre](https://www.unicc.org/)
     *	Request a server from your government <BR>(for example *[National Informatics Centre](https://www.nic.in/services-main-page/)* in India, *[GDCC/G-Cloud](https://gdcc.onde.go.th/)* in Thailand, etc.);
     *	Request a server from a global/international cloud server provider, some examples:
-        -	Amazon AWS: https://aws.amazon.com/ <BR>(for questions: [Amazon's contact form](https://aws.amazon.com/contact-us/)).
-        -	Google Cloud: https://cloud.google.com/ <BR>(for questions: [Google's contact form](https://cloud.google.com/contact)).
-        -	Microsoft Azure: https://azure.microsoft.com/en-us/ <BR>(for questions: [Microsoft's contact form](https://azure.microsoft.com/en-us/overview/sales-number/)).
+        -	Amazon AWS: https://aws.amazon.com/
+            - for questions: [Amazon's contact form](https://aws.amazon.com/contact-us/),
+            - [Amazon AWS compliance](https://aws.amazon.com/compliance/), and
+            - [GDPR compliance](https://aws.amazon.com/compliance/gdpr-center/).            
+        -	Google Cloud: https://cloud.google.com/
+            - for questions: [Google's contact form](https://cloud.google.com/contact)
+            - [Google cloud compliance](https://cloud.google.com/security/compliance)), and
+            - [GDPR compliance](https://cloud.google.com/security/gdpr).
+        -	Microsoft Azure: https://azure.microsoft.com/en-us/
+            - for questions: [Microsoft's contact form](https://azure.microsoft.com/en-us/overview/sales-number/),
+            - [Microsoft Azure compliance](https://docs.microsoft.com/en-us/azure/compliance/), and
+            - [GDPR compliance](https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr).
     *	Request a server from a local cloud server provider or a telecom company <BR>(discuss in [this forum thread](https://azure.microsoft.com/en-us/overview/sales-number/));
     *	Set up a server in your organization by either establishing a new or repurposing an existing server.<BR>See more information [here](/headquarters/config/standalone-server/).   
 
