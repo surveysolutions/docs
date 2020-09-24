@@ -8,7 +8,7 @@ lastmod = 2019-03-15T12:00:00Z
 
 Server requirements are periodically revised. The characteristics below are
 outlined for a survey of no more than 100,000 interviews. 
-[Contact support](https://mysurvey.solutions/ContactUs) for a consultation if:
+You may need a more powerful server if:
 
 - your survey is larger, or 
 - you plan to host several surveys, or 
