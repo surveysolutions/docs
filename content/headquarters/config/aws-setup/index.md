@@ -18,6 +18,13 @@ Installation has following steps:
 
 In order to have connection between Survey Solutions and PostgreSQL you can create new security group as described in [here](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.Scenarios.html).
 
+From the AWS Management Console:
+
+- Click on `EC2` under the `Compute` heading
+- Scroll down the left-hand navigation to `Network & Security`
+- Click on `Security Groups`
+- Click on `Create security group`
+
 In the create security group specify name and description:
 
 ![Create Security Group](images/create_sg.png)
@@ -40,6 +47,22 @@ Keep database port to be default one (5432)
 After database is started copy endpoint address
 ![PostgreSQL endpoint](images/rds_endpoint.png)
 
+Be sure to retain the following information for accessing the PostgreSQL:
+
+- login
+- password
+- endpoint
+
+These details will be needed in a later step to connect the RDS with the EC2 instance.
+
+To find the endpoint:
+
+- Navigate to `RDS` from the Amazon Management Console
+- Click on `DB Instances` under `Resources` in the main pane
+- Click on the RDS instance DB identifier of the desired RDS
+- Click on the `Connectivity & security` tab
+- Copy the endpoint under `Endpoint & port`
+
 ## Create ec2 instance
 
 * In the services list Compute section select ec2
@@ -48,14 +71,37 @@ After database is started copy endpoint address
 * In search bar type "Windows"
 * Select Microsoft Windows Server 2019 Base
   ![Image selection](images/ec2_image_selection.png)
-* In tear selection pick one that suites your needs. You can check for server requirements here
+* In tier selection pick one that suites your needs. You can check for server requirements here
 * After instance is created right click on it, select Networking -> Change Security Groups and assign group Survey Solutions
   ![Assign Security Group](images/ec2_sg_assign.png)
 * Launch selected instance
 
 ## Survey Solutions installation
 
-When your instance is running, connect to it with rdp [using instructions](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html). Once connected, execute [installation]({{< ref "/headquarters/config/server-installation#installing-surveysolutions" >}}) steps (skip PostgreSQL part). When asked for database connection, input endpoint from RDS setup and database credentials.
+### Connect to the EC2 instance
+
+When your instance is running, connect to it with RDP [using instructions](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html). 
+
+### Download Survey Solutions installer
+
+Once connected, download the Survey Solutions installer. Before doing so, you may need to change the security settings of Internet Explorer (IE) on the EC2 instance to make download possible. To do so:
+
+- Open IE
+- Navigate to Settings>Internet>Security>Trusted Sites
+- Add `https://mysurvey.solutions` as a trusted site
+- Reduce the security level for this zone to `Medium-low`
+- Click `Apply` and `OK`
+
+To download the Survey Solutions installer:
+
+- Navigate to [installer download page](https://mysurvey.solutions/Download) in a browser outside of the RDP connection
+- Right-click on the `DOWNLOAD THE LATEST INSTALLER` button
+- Select `Copy link address`
+- Paste the link into the address bar of IE in the RDP connection in order to download the installation file on the EC2 instance
+
+### Install Survey Solutions
+
+Once the installer is downlaoded, perform these [installation]({{< ref "/headquarters/config/server-installation#installing-surveysolutions" >}}) steps (skip PostgreSQL part). When asked for database connection, input endpoint from RDS setup and database credentials. 
 
 ### Change port from 9700 to 80
 
@@ -63,9 +109,15 @@ Delete default web site from IIS web sites list and add :80 port binding to Surv
 
   1. Right click on start menu -> run
   1. Execute `inetmgr` to start IIS manager
-  1. On Right click on "Default Web Site" and select delete
+  1. Look in the left-hand `Connections` panel
+  1. Expand the entry
+  1. Expand `Sites`
+  1. On Right click on `Default Web Site` and select remove
   1. Select Survey Solutions site
-  1. In the right panel add :80 port binding
+  1. In the right panel under `Edit Site`, click on `Bindings`
+  1. Select the existing site binding
+  1. Change `Port` from 9700 to 80
+  1. Leave host name empty for now
 
 ### Expose 80 port to external users
 
@@ -76,9 +128,10 @@ Delete default web site from IIS web sites list and add :80 port binding to Surv
 * Click Edit Inbound Rules
 * Add Rule
   * **Type**: HTTP
+  * **Select**: `0.0.0.0/0` as Source
 * Save rules
 
-In Survey Solutions installation location `Site` folder find `appsettings.production.ini` file, and remove 9700 port from `BaseUrl`.
+In Survey Solutions installation location `Site` folder find `appsettings.production.ini` file, and remove `:9700` from `BaseUrl`.
 
 When done correctly you should be able to access Survey Solutions application from your browser by using public DNS:
 ![Public DNS EC2](images/ec2_public_dns.png)
