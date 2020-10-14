@@ -15,7 +15,7 @@ Installation has following steps:
 ## Installing PostgreSQL
 
 Make sure that you have an installed and running instance of PostgreSQL **before running SurveySolutions.exe**
-  
+
 You can download PostgreSQL from [here](https://www.postgresql.org/download/windows/) and run the
 setup. Pick latest stable version.
 
@@ -32,20 +32,21 @@ After installation is complete, follow the instructions for [tuning PostgreSQL f
 Download [survey solutions installer](https://mysurvey.solutions/Download)
 
 Run SurveySolutions.exe. It will ask you for two parameters:  
-Install location – choose any or keep the default (C:\Survey Solutions)  
+Install location – choose any or keep the default (`C:\Survey Solutions`)
 ![Survey Solutions location](images/ss_location.png)
 
 PostgreSQL connection parameters (default values will be already there)
 – here specify port and password from step 1:
 ![Survey Solutions database connection](images/ss_connection_settings.png)
-  
+
 That's it. At the end, finish installation page will automatically open
 in your browser where you'll be able to create administrator user for
 Survey Solutions Headquarters application. The link to the site will be
 automatically added to your start menu, but you can always access it by
-directly typing the address in the browser's address bar. 
+directly typing the address in the browser's address bar.
 
-In order to check if application is running correctly you can open http://localhost:9700/.hc url. It should output `Healthy` message.
+In order to check if application is running correctly you can open
+http://localhost:9700/.hc URL. It should output `Healthy` message.
 
 ## Post installation configuration
 
@@ -56,6 +57,26 @@ If you click on Bindings... link in the right panel you will be able to add new 
 
 If your survey solutions instance is exposed via public internet access it is highly recommended to setup SSL encryption for web server. Configuration depends on certificate provider that you are going to choose, so refer to their documentation on how to setup IIS.
 
+### Firewall rules
+
+To permit communication of Survey Solutions with the Designer and other utilized
+services you may need to enable certain ports or types of communication as
+listed below. The instructions vary by type of the security software used.
+See #3 in the [FAQ for IT](/getting-started/faq-for-it-personnel/) for common
+security software instructions.
+
+- allow incoming connections to the port that you've set up the server binding of Survey Solutions;
+- allow outgoing connections to the Designer site: `https://designer.mysurvey.solutions`;
+- allow outgoing connections to the Survey Solutions portal: `https://mysurvey.solutions`.
+
+In addition expect the client (browser) to
+
+- send queries to the Maps server being used:
+typically `https://maps.googleapis.com` and `https://google.com`
+(or see [here](/headquarters/config/alternative-maps-for-servers-in-china/) for
+alternative settings for China);
+- send queries to the CAPTCHA server being used (if it is used): https://www.google.com and https://www.gstatic.com
+
 ### Application configuration
 
 Open `/Site` folder where survey solutions is installed, and open `appsettings.Production.ini` file. This file will not be replaced during application upgrades and will retain your local server configuration.
@@ -65,7 +86,7 @@ Open `/Site` folder where survey solutions is installed, and open `appsettings.P
 
 If your server has domain name you need to change `BaseUrl` value to the name you have (without trailing slash at the end of the URL). Make sure that this URL can be used to open Survey Solutions app from server where application is installed, otherwise export won't work.
 
-Example of ini file with configured base url:
+Example of an ini-file with configured base URL:
 
 ``` INI
 [Headquarters]
@@ -108,3 +129,14 @@ If you are using [gis](/questionnaire-designer/questions/offline-gis-functionali
 [Geospatial]
 GdalHome=%Path to bin where GDAL is intalled%
 ```
+
+#### Load Balancer
+
+If you are using a load balancer, please make sure that it is configured to use:
+
+- sticky sessions, and
+- web sockets.
+
+If this is not satisfied, web interviews will not work resulting in errors for
+the respondents (this may not be immediately obvious to the person setting up
+the Survey Solutions server).
