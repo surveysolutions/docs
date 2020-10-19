@@ -29,9 +29,9 @@
 </div>
 {{end}}
 
-{{ if .Pages }}
+{{ if .RegularPages }}
     {{ if .Sections }}<p>articles without section</p>{{ end }}
-    {{ range (.Paginate ( .Data.Pages.ByLastmod.Reverse )).Pages }}
+    {{ range (.Paginate ( .RegularPages.ByLastmod.Reverse )).Pages }}
         <div class="article-short-view pl-5 position-relative">
             <h3>
                 <a href="{{ .Permalink }}">{{.Title}}</a>
