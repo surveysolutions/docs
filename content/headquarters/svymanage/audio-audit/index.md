@@ -1,6 +1,8 @@
 +++
 title = "Audio audit"
 keywords = ["audio audit", "audit", "recording", "quality"]
+lastmod = 2019-02-04T18:04:38Z
+aliases = ["/headquarters/audio-audit"]
 draft = false
 +++
 
