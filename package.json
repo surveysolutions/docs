@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "algolia": "atomic-algolia"
+    "algolia": "atomic-algolia",
+    "build": "hugo",
+    "serve": "hugo server -D -F"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/wbcapi/supportsite.git"
   },
   "dependencies": {
-    "atomic-algolia": "^0.3.17"
+    "atomic-algolia": "^0.3.17",
+    "hugo-bin": "0.64.5"
   }
 }
