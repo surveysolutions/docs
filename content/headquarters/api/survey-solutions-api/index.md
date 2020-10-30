@@ -1,6 +1,6 @@
 ﻿+++
 title = "Survey Solutions API"
-keywords = [""]
+keywords = ["api", "ssaw", "SurveySolutionsAPI"]
 date = 2017-07-19T19:29:51Z
 lastmod = 2017-07-19T19:29:51Z
 aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api"]
@@ -46,7 +46,7 @@ is implemented through a set of standardized web requests which are
 documented in the following [interactive guide for API
 users](https://demo.mysurvey.solutions/apidocs/index#/).  
 
-There are also awailable native clients for following languages:
+There are also available native clients for following languages:
 - [R package]({{< ref "/headquarters/api/api-r-package" >}})
 - [ssaw](https://github.com/vavalomi/ssaw) Python package
 
