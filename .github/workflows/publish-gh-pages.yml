@@ -29,3 +29,4 @@ jobs:
         external_repository: surveysolutions/mysurvey.solutions 
         deploy_key: ${{ secrets.DEPLOY_PAGES }}
         publish_dir: ./homepage/public
+        commit_message: ${{ github.event.head_commit.message }}
