@@ -27,5 +27,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         external_repository: surveysolutions/mysurvey.solutions 
-        personal_token: ${{ secrets.DEPLOY_PAGES }}
+        deploy_key: ${{ secrets.DEPLOY_PAGES }}
         publish_dir: ./homepage/public
