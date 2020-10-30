@@ -19,9 +19,10 @@ We use HUGO - static site generator framework to build this site. You can read m
 
 - commit your changes and push to the remote repository
 
-## Contributing content (2)
+## Contributing content lite mode
 
 - Clone repository
 - Install Nodejs
 - run `npm i` - this will install Hugo from npm repository into `node_modules` folder
 - run `npm run serve` to run development Hugo server with auto reload with Draft pages preview
+- commit and push changes

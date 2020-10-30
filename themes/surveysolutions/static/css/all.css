@@ -839,3 +839,17 @@ pre {
 .table-hover tbody tr:hover {
   background-color: rgba(150, 213, 238, .75) !important;
 }
+
+blockquote {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  box-sizing: border-box;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 1em 10px .1em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
