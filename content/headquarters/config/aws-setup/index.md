@@ -1,6 +1,6 @@
 +++
 title = "AWS setup"
-keywords = ["installation", "configuration", "cloud"]
+keywords = ["installation", "configuration", "cloud", "aws"]
 date = 2020-05-08T12:00:00Z
 aliases = []
 +++
