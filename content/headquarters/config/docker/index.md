@@ -6,35 +6,22 @@ aliases = []
 draft = true
 +++
 
-You can install and run Survey Solutions Headquarters using the official Docker image.
-Survey Solutions Headquarters application is now available as Docker Container application and hosted at Docker Hub: <https://hub.docker.com/r/surveysolutions/surveysolutions>
-
-## Versions
-
-Latest release of Survey Solutions
-
-```
-surveysolutions/surveysolutions:latest
-```
-
-Specific version
-```
-surveysolutions/surveysolutions:<version>
-```
-
-List of available tags can be found here: <https://hub.docker.com/r/surveysolutions/surveysolutions/tags>
+You can install and run Survey Solutions Headquarters using the [official Docker image](https://hub.docker.com/r/surveysolutions/surveysolutions).
 
 ### Prerequisite
 
-There is no hard requirements on Linux distributive to use. Please refer to docker documentation page on how to install Docker for Your operating system - <https://docs.docker.com/get-docker>
+Survey Solutions container can be executed on any hosting system that is capable of running linux/amd64 containers.
+Please refer to docker documentation page on how to install Docker for Your operating system - <https://docs.docker.com/get-docker>
 
-> Survey Solutions is linux based container image and cannot be run in Windows Containers. To run Survey Solutions in Docker in Windows you will need WSL2 - <https://docs.microsoft.com/en-us/windows/wsl/compare-versions#whats-new-in-wsl-2>
+> Survey Solutions has linux based container image and cannot be run in Windows Containers. To run Survey Solutions in Docker on Windows you will need [WSL2](https://docs.microsoft.com/en-us/windows/wsl/compare-versions#whats-new-in-wsl-2)
+
+You still need to have **PostgreSQL** server running, there is an [example](https://hub.docker.com/r/surveysolutions/surveysolutions) on doing it using docker with docker-compose.
 
 ### Run Survey Solutions
 
 > Note: If you are on a Linux system, you might need to add `sudo` before the commands.
 
-```
+``` CMD
 docker pull surveysolutions/surveysolutions
 
 docker run -p 80:80 --name hq \
@@ -45,16 +32,15 @@ docker run -p 80:80 --name hq \
 ```
 
 > `HQ_Headquarters__TenantName` is required env variable in this release, this setting will be optional in future
-
-> `HQ_ConnectionStrings__DefaultConnection` Connection String to Postgres instance. For parameters documentation refer to this doc: <https://www.npgsql.org/doc/connection-string-parameters.html>
+> `HQ_ConnectionStrings__DefaultConnection` Connection String to Postgres instance. For parameters documentation refer to [documentation](https://www.npgsql.org/doc/connection-string-parameters.html)
 
 #### Volumes
 
-Docker provide quite a lot of options on how to handle persitent data - <https://docs.docker.com/storage>
+Survey Solutions has 3 usages of file system that should be persisted: interview binary data (images), asp.net core data protection keys and logs.
 
-To store Survey Solutions data You can map local folder to container or use [Docker Volumes](https://docs.docker.com/storage/volumes)
+Docker provide quite a lot of options on how to [handle persitent data](https://docs.docker.com/storage). To preserve Survey Solutions data You must map local folder into container or use [Docker Volumes](https://docs.docker.com/storage/volumes).
 
-When hosting in Docker aspnet core applications should manage a volume for Data Protection keys: <https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/configuration/overview?view=aspnetcore-3.1#persisting-keys-when-hosting-in-a-docker-containe>
+When hosting in Docker, aspnet core applications should manage a volume for Data Protection keys: <https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/configuration/overview?view=aspnetcore-3.1#persisting-keys-when-hosting-in-a-docker-containe>.
 
 Use following volume map to handle: `dataprotection:/root/.aspnet/DataProtection-Keys`, where `dataprotection` is a volume name.
 
@@ -130,7 +116,7 @@ docker run -p 80:80 -p 443:443 --name hq \
 
 Typing all those docker run parameters can be quite error prone. We provide a template for sample repository for running Survey Solutions with `docker-compose` in this repository <https://github.com/surveysolutions/docker-compose>.
 
-> While running Postgres instance in docker is viable solution, we strongly recommend to run Postgres in separate server or use "managed" solutions provided by cloud providers(i.e. Amazon RDS, Azure Database for PostgreSQL, Google Cloud SQL, etc...)
+> While running Postgres instance in docker is viable solution, we strongly recommend to run PostgreSQL in separate server or use "managed" solutions provided by cloud providers(i.e. Amazon RDS, Azure Database for PostgreSQL, Google Cloud SQL, etc...)
 
 ### Required configuration settings
 
@@ -145,5 +131,5 @@ There is several required configuration that You should be aware of to run in Do
 ## Updating Survey Solutions
 
 - Stop docker container with Survey Solutions
-- Run `docker pull surveysolutions/surveysolutions` 
+- Run `docker pull surveysolutions/surveysolutions`
 - Restart docker container
