@@ -20,7 +20,7 @@ LOC=westeurope \
 STOREACC=surveysolutions \
 SHARE_NAME=surveysolutions \
 PGSERVER=suso-postgres \
-PGPASS=xYTJ9J^5eFEno1d
+PGPASS=password
 ```
 
 > - `RG` - resource group where all survey solutions related resources are going to be grouped
