@@ -191,7 +191,7 @@ The combination of the assignment's **quantity**, **email** and
 
 When the email is specified during the assignment creation, the
 Survey Solutions can utilize one of the [bulk email delivery
-services](https://support.mysurvey.solutions/headquarters/cawi/email-providers/)
+services](/headquarters/cawi/email-providers/)
 to deliver the invitations for the survey. If these services
 have not been configured yet, the headquarters user must contact
 the server administrator, as such configuration requires 
@@ -358,7 +358,7 @@ Depending on the scenario of the survey as outlined by the table in step #3,
 you will have one or multiple links to be delivered to the respondents.
 Note that in any of the cases, Survey Solutions doesn't send the
 invitations/notifications directly, but utilizes a special [bulk email delivery
-service](https://support.mysurvey.solutions/headquarters/cawi/email-providers/)
+service](/headquarters/cawi/email-providers/)
 to deliver the corresponding messages. Refer to the corresponding article on 
 how to set it up. Once it is set up, one can go to *Menu &#x2192; Survey Setup
 &#x2192;* click the questionnaire name &#x2192; *Send invitations* to send out

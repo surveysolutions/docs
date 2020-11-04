@@ -8,7 +8,7 @@ aliases = ["/customer/portal/articles/2931999-special-values-for-numeric-questio
 +++
 
 [Numeric
-questions](http://support.mysurvey.solutions/customer/en/portal/articles/2468719)
+questions](/customer/en/portal/articles/2468719)
 may be enhanced with special values. For example, a numeric wage
 question may contain in addition to a numeric input, a selection of
 "*minimum wage*" and "*last month's wage*" categories. They can be set

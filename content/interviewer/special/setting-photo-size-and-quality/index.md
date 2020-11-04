@@ -11,7 +11,7 @@ aliases = ["/customer/portal/articles/2767819-setting-photo-size-and-quality","/
 ***<span style="color:#A52A2A;">Survey Solutions v5.22 automatically
 restricts the size of the images captured by the Interviewer App (see
 </span>[<span
-style="color:#A52A2A;">limits</span>](http://support.mysurvey.solutions/customer/en/portal/articles/2733269-survey-solutions-limits)<span
+style="color:#A52A2A;">limits</span>](/customer/en/portal/articles/2733269-survey-solutions-limits)<span
 style="color:#A52A2A;">).  
 The information below is applicable only if you wish to produce files
 even smaller than those automatically produced.</span>***  

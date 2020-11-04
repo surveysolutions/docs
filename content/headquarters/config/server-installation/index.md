@@ -67,7 +67,7 @@ security software instructions.
 
 - allow incoming connections to the port that you've set up the server binding of Survey Solutions;
 - allow outgoing connections to the Designer site: `https://designer.mysurvey.solutions`;
-- allow outgoing connections to the Survey Solutions portal: `https://mysurvey.solutions`.
+- allow outgoing connections to the Survey Solutions site: `https://mysurvey.solutions`.
 
 In addition expect the client (browser) to
 

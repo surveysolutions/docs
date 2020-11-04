@@ -9,7 +9,7 @@ draft = true
 
 This article demonstrates the sequence of steps that solve the
 [user-submitted
-question](http://support.mysurvey.solutions/customer/portal/questions/16822110):  
+question](/customer/portal/questions/16822110):  
   
 Step 0:  
 {{< imgproc "images/748680.png" Fit "800x600" />}}  

@@ -47,7 +47,7 @@ The dashboard contains the list of sampling units that you need to
 visit. When you approach one of the listed sampling units, select the
 corresponding entry to start the interview. For more information about
 the Interviewer dashboard, refer to [this
-article](http://support.mysurvey.solutions/customer/en/portal/articles/2835148).  
+article](/customer/en/portal/articles/2835148).  
   
   
 {{< imgproc "images/794969.png" Fit "800x600" />}}  

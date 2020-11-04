@@ -8,7 +8,7 @@ aliases = ["/customer/portal/articles/2751355-selecting-a-person","/customer/en/
 +++
 
 For random selection refer to [this
-article](http://support.mysurvey.solutions/customer/portal/questions/16695907).
+article](/customer/portal/questions/16695907).
 Here an example of determined selection is discussed.  
   
 Consider you wish to select a child attaining the lowest grade, with

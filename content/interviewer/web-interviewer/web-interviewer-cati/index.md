@@ -39,6 +39,6 @@ A very extensive guide on the result codes is published on the site of the Ameri
 
 For organizations migrating their operations from face-to-face interviews to CATI the following generic protocol descriptions are available:
 
-- [using tablets](https://support.mysurvey.solutions/interviewer/special/cati/)
-- [using web-interviewer](https://support.mysurvey.solutions/interviewer/web-interviewer/web-interviewer-instr/)
+- [using tablets](/interviewer/special/cati/)
+- [using web-interviewer](/interviewer/web-interviewer/web-interviewer-instr/)
 

@@ -21,9 +21,9 @@ corresponding linked articles.
     article](/questionnaire-designer/special-values-for-numeric-questions);
 -   **Capturing signatures**, (as requested by Mr. *Eugene Ehlers*,
     AHRI) [read the
-    article](http://support.mysurvey.solutions/customer/en/portal/articles/2931992);
+    article](/customer/en/portal/articles/2931992);
 -   **Comments in Designer**, [read the
-    article](http://support.mysurvey.solutions/customer/en/portal/articles/2932008);
+    article](/customer/en/portal/articles/2932008);
 -   **Export questionnaires as HTML** (as requested by Mr. *Edwin St.
     Catherine*, CSO St. Lucia);
 -   **Reload questionnaire in Web Tester**: When the reload button is

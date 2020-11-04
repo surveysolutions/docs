@@ -19,36 +19,9 @@ body {
   left: 0;
   width: 100%;
 }
-
-
-
-
 .container{
   max-width: 1160px;
 }
-/* Custom page CSS
--------------------------------------------------- */
-/* @font-face {
-  font-family: 'RobotoBold';
-  src: url('../fonts/RobotoBold.woff2') format('woff2'),
-       url('../fonts/RobotoBold.woff') format('woff'),
-       url('../fonts/RobotoBold.ttf') format('truetype'),
-       url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
-} */
-/* @font-face {
-  font-family: 'RobotoLight';
-  src: url('../fonts/RobotoLight.woff2') format('woff2'),
-       url('../fonts/RobotoLight.woff') format('woff'),
-       url('../fonts/RobotoLight.ttf') format('truetype'),
-       url('../fonts/RobotoLight.svg#RobotoLight') format('svg');
-} */
-/* @font-face {
-  font-family: 'RobotoRegular';
-  src: url('../fonts/RobotoRegular.woff2') format('woff2'),
-       url('../fonts/RobotoRegular.woff') format('woff'),
-       url('../fonts/RobotoRegular.ttf') format('truetype'),
-       url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
-} */
 .btn-search span,
 .tutorials,
 .img-container:before{

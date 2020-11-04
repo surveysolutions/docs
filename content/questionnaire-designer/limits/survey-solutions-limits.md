@@ -203,7 +203,7 @@ limits.
 
 \*) in addition to the limit on number of questions a roster may not
 contain nested rosters to qualify as a simple roster, read [more details
-here](http://support.mysurvey.solutions/customer/en/portal/articles/2472543-rosters);  
+here](/customer/en/portal/articles/2472543-rosters);  
 \*\*)  in addition to the requirement for password complexity: at least
 one digit, at least one lower case character, and at least one upper
 case character;  

@@ -60,7 +60,7 @@ Survey Solutions development team remains committed to providing our users with 
 
 Besides the answers to all questions, the multimedia information (audio recordings, photographs) is also encrypted. In addition, the data stored by Survey Solutions on the tablet is saved to the private storage, which is protected by the Android OS from access of other applications.
 
-The protection of the data during transmission is achieved by utilizing SSL secure layer for the servers where SSL-certificate is installed (all Survey Solutions cloud servers requested from https://mysurvey.solutions portal are secured using this mechanism). This protection remains effective and is unaffected by the recent changes.
+The protection of the data during transmission is achieved by utilizing SSL secure layer for the servers where SSL-certificate is installed (all Survey Solutions personal demo servers requested from https://pds.mysurvey.solutions portal are secured using this mechanism). This protection remains effective and is unaffected by the recent changes.
 
 Existing users that update their servers (either themselves on the local servers, or by our technicians for cloud-based servers) will benefit from the encryption automatically. During the update the existing data on the tablets will be encrypted with an automatically generated password (this may take a couple of minutes, be patient). No other actions are required on the side of the interviewers and their work is not affected by the encryption happening automatically.
 

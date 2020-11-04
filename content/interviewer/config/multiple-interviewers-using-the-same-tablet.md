@@ -12,7 +12,7 @@ interviewer account there is an indication of the currently linked
 device. In short this means that at any moment any interviewer may be
 utilizing only one device for data collection. Re-linking of the devices
 is possible, but it has some important consequences (explained
-[here](http://support.mysurvey.solutions/customer/en/portal/articles/2578016)).   
+[here](/customer/en/portal/articles/2578016)).   
   
 At the same time it is still possible for multiple interviewers to use
 the same tablet for data collection, but every interviewer must have a
@@ -33,6 +33,6 @@ creates a different account on the tablet and still tries to login with
 the same credentials, this would be equivalent to switching to a new
 device (re-linking) and will provoke the re-linking warning with the
 same consequences (described
-[here](http://support.mysurvey.solutions/customer/en/portal/articles/2578016)).
+[here](/customer/en/portal/articles/2578016)).
 Hence it is important that the interviewer continues to use the same
 (Android OS) user account for logging in to Survey Solutions.

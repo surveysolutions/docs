@@ -1,6 +1,7 @@
 +++
 title = "Personal Demo Server"
 keywords = ["personal", "server"]
+aliases = ["/getting-started/portal"]
 date = 2020-04-20T00:00:01Z
 +++
 
@@ -11,8 +12,8 @@ Headquarters/Admin functionality using a personal demo server (PDS).
 <CENTER><IMG src="images\server.jpg"></CENTER>
 
 Personal demo servers are managed through the [self-service 
-portal](https://support.mysurvey.solutions/getting-started/portal/). 
-You start by [submitting a corresponding request](https://mysurvey.solutions/PersonalDemoServerRequest). 
+portal](https://pds.mysurvey.solutions). 
+You start by [submitting a corresponding request](https://pds.mysurvey.solutions/PersonalDemoServerRequest). 
 Before you proceed, make sure you understand the purpose and
 limitations of the PDS:
 
@@ -30,7 +31,7 @@ and not to collect any real survey data. In fact the PDS are configured to
 handle only minimal workloads (approx 1,000 interviews).
 
 Once you learn how Survey Solutions works on a PDS, you can proceed to learning 
-about [standalone servers](https://support.mysurvey.solutions/headquarters/config/standalone-server/)
+about [standalone servers](/headquarters/config/standalone-server/)
 and prepare a server for your data collection operations.
 
 

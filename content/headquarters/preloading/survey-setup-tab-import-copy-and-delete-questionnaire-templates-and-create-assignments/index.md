@@ -261,7 +261,7 @@ that make up the questionnaire template. These questions will not appear
 on the interviewer's dashboard, and the values can be edited on the
 tablet. (**For information on how to protect the values of some question
 types from being changed on the tablet, please refer to [this
-article](http://support.mysurvey.solutions/customer/en/portal/articles/2942758-protecting-pre-loaded-answers)**).
+article](/customer/en/portal/articles/2942758-protecting-pre-loaded-answers)**).
 Third, headquarters must include identifiers in the Id and ParentId
 fields so that each record is unique and that the headquarters software
 can link each *child *.tab file to its *parent* file. The Id, typically

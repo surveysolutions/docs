@@ -20,5 +20,5 @@ To store the signature, click the "***Store signature***" button.
 In the web mode interviews an image of the signature (picture file) can
 be uploaded as a file. Signatures are exported as images. For more
 information about picture questions, see the [Picture
-question](http://support.mysurvey.solutions/customer/en/portal/articles/2469927)
+question](/customer/en/portal/articles/2469927)
 article.

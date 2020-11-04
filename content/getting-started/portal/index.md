@@ -3,6 +3,7 @@ title = "Self-service portal"
 keywords = ["portal"]
 date = 2019-09-04T12:00:00Z
 lastmod = 2019-09-04T12:32:00Z
+expirydate = 2020-11-01T12:00:00Z
 +++
 
 All data servers of Survey Solutions are requested and managed from the self-service portal.

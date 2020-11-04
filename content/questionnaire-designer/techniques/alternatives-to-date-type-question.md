@@ -8,7 +8,7 @@ aliases = ["/customer/portal/articles/2791155-alternatives-to-date-type-question
 +++
 
 A [date type
-question](http://support.mysurvey.solutions/customer/en/portal/articles/2469077)
+question](/customer/en/portal/articles/2469077)
 requires three components of the date to be specified: year, month, day.
 If any of them is not known, the interviewers may not enter the other
 ones, even if they are known.  

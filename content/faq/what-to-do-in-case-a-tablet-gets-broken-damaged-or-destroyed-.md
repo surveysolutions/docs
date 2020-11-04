@@ -36,7 +36,7 @@ the tablet is later found to be working while the replacement tablet has
 been already introduced to the stock, the data from the old tablet <span
 class="underline">will not be accepted</span> by the system. See
 warnings illustrated in [this
-article](http://support.mysurvey.solutions/customer/en/portal/articles/2578016).  
+article](/customer/en/portal/articles/2578016).  
   
 **To minimize damages from the physical damage:**
 

@@ -7,11 +7,11 @@ aliases = []
 
 Survey Solutions contains a built-in mechanism for logging the problems and transmitting the log data from tablets to the HQ server. This helps to investigate the issues where the interviewers can not supply any detailed problem report and commonly describe the problem with "*it doesn't work*" or "*it crashes*" and it is difficult or not possible to access the device directly.
 
-The information contained in the device logs is rather technical and should be interpreted by IT personnel or software developers. If you are looking for a description of activities undertaken by an interviewer, rather than solving a technical problem, then the [Interviewer Actions Log](https://support.mysurvey.solutions/headquarters/reporting/detailed-action-log/) must be used instead.
+The information contained in the device logs is rather technical and should be interpreted by IT personnel or software developers. If you are looking for a description of activities undertaken by an interviewer, rather than solving a technical problem, then the [Interviewer Actions Log](/headquarters/reporting/detailed-action-log/) must be used instead.
 
 ###### On the tablet
 
-To obtain the device logs the interviewer should proceed to the `Menu` -> `Diagnostics` -> `Send trace logs` (which is option #3 in the article describing the [Diagnostics page](https://support.mysurvey.solutions/interviewer/troubleshooting/interviewer-app-diagnostics/)).
+To obtain the device logs the interviewer should proceed to the `Menu` -> `Diagnostics` -> `Send trace logs` (which is option #3 in the article describing the [Diagnostics page](/interviewer/troubleshooting/interviewer-app-diagnostics/)).
 
 Internet connectivity is required to transmit the device logs to the server.
 

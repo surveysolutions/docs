@@ -43,6 +43,6 @@ questionnaire interface provides access to the questionnaire:
     PNG or JPEG file format.  
       
      {{< imgproc "images/710360.png" Fit "800x600" />}}
-7.  **[Comments](http://support.mysurvey.solutions/customer/en/portal/articles/2932008)**,
+7.  **[Comments](/customer/en/portal/articles/2932008)**,
     displays a full list of all the comments in the questionnaire.
     Resolved comments are also noted here. {{< imgproc "images/866657.png" Fit "800x600" />}}

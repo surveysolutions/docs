@@ -77,5 +77,5 @@ Repeat this procedure for each enumerator. 
   
 If you need to create a lot of user accounts for your survey,
 Headquarters allows [batch creation of user
-accounts](http://support.mysurvey.solutions/customer/en/portal/articles/2483438-batch-user-upload)
+accounts](/customer/en/portal/articles/2483438-batch-user-upload)
 to help save you time.

@@ -26,5 +26,5 @@ Comments can be marked as resolved, but even resolved comments are still
 recorded with the questionnaire.  
   
 A questionnaire can be shared by inviting users from the questionnaire's
-[settings](http://support.mysurvey.solutions/customer/en/portal/articles/2465929)
+[settings](/customer/en/portal/articles/2465929)
 dialog.
