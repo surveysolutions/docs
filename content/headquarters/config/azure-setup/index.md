@@ -113,17 +113,18 @@ az webapp config storage-account add --resource-group $RG --name $WEBAPPNAME --c
 
 ```
 
-Now to make sure all changes take affect restart webapp:
-
-``` bash
-az webapp restart --name $WEBAPPNAME --resource-group $RG
-```
-
 Enable https redirect:
 
 ``` bash
 az webapp update -g $RG -n $WEBAPPNAME --https-only true
 ```
+
+Now to make sure all changes take effect restart webapp:
+
+``` bash
+az webapp restart --name $WEBAPPNAME --resource-group $RG
+```
+
 
 In order to see running instance execute command:
 
