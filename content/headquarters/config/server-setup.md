@@ -23,12 +23,18 @@ installation file for survey solutions may be obtained
 from the [Download](https://mysurvey.solutions/download) section of 
 the self-service portal. 
 
-    - To install the Survey Solutions to your server, follow the 
+    - To install the Survey Solutions to your Windows server, follow the 
 [installation instructions]({{< ref "/headquarters/config/server-installation" >}}).
 
-    - If you are installing specifically to Amazon AWS cloud, there 
+    - To host your Survey Solitions instance inside a docker container, follow the 
+[docker instructions]({{< ref "/headquarters/config/docker" >}}).
+
+    - If you are deploying to Amazon AWS cloud, there 
 are additional instructions available:
 [Installation to AWS]({{< ref "/headquarters/config/aws-setup" >}}).
+
+    - For deployment on Microsoft Azure, please take a look at
+[Azure setup]({{< ref "/headquarters/config/azure-setup" >}}).
 
 - Your network firewall or security software may need to
 be configured to permit Survey Solutions. See 
