@@ -3,10 +3,9 @@ title = "Deployment with Docker"
 keywords = ["installation", "configuration", "docker"]
 date = 2020-11-01T12:00:00Z
 aliases = []
-draft = true
 +++
 
-You can install and run Survey Solutions Headquarters using the [official Docker image](https://hub.docker.com/r/surveysolutions/surveysolutions).
+You can install and run Survey Solutions Headquarters using our [official Docker image](https://hub.docker.com/r/surveysolutions/surveysolutions).
 
 ### Prerequisite
 
@@ -22,7 +21,6 @@ You still need to have **PostgreSQL** server running, there is an [example](http
 > Note: If you are on a Linux system, you might need to add `sudo` before the commands.
 
 ``` CMD
-docker pull surveysolutions/surveysolutions
 
 docker run -p 80:80 --name hq \
     -e "HQ_Headquarters__TenantName=hq" \
