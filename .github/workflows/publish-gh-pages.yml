@@ -31,3 +31,4 @@ jobs:
         publish_dir: ./homepage/public
         commit_message: ${{ github.event.head_commit.message }}
         force_orphan: true
+        cname: mysurvey.solutions
