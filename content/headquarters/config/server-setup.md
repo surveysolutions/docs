@@ -2,7 +2,7 @@
 title = "Survey Solutions Server"
 keywords = ["local installation", "standalone", "own server"]
 date = 2020-05-27T00:00:01Z
-aliases = ["/headquarters/config/standalone-server"]
+aliases = ["/headquarters/config/standalone-server", "/headquarters/config/standalone-installation"]
 +++
 
 This article describes the main steps to setup your own 
