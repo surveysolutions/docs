@@ -26,7 +26,7 @@ the self-service portal.
     - To install the Survey Solutions to your Windows server, follow the 
 [installation instructions]({{< ref "/headquarters/config/server-installation" >}}).
 
-    - To host your Survey Solitions instance inside a docker container, follow the 
+    - To host your Survey Solutions instance inside a docker container, follow the 
 [docker instructions]({{< ref "/headquarters/config/docker" >}}).
 
     - If you are deploying to Amazon AWS cloud, there 
