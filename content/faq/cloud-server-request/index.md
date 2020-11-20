@@ -28,20 +28,24 @@ Starting from April 09, 2020:
         -	Amazon AWS: https://aws.amazon.com/
             - for questions: [Amazon's contact form](https://aws.amazon.com/contact-us/),
             - [Amazon AWS compliance](https://aws.amazon.com/compliance/), and
-            - [GDPR compliance](https://aws.amazon.com/compliance/gdpr-center/).            
+            - [GDPR compliance](https://aws.amazon.com/compliance/gdpr-center/).
+            - [Costs calculator](https://calculator.aws/#/).           
         -	Google Cloud: https://cloud.google.com/
             - for questions: [Google's contact form](https://cloud.google.com/contact)
             - [Google cloud compliance](https://cloud.google.com/security/compliance)), and
             - [GDPR compliance](https://cloud.google.com/security/gdpr).
+            - [Costs calculator](https://cloud.google.com/products/calculator).
         -	Microsoft Azure: https://azure.microsoft.com/en-us/
             - for questions: [Microsoft's contact form](https://azure.microsoft.com/en-us/overview/sales-number/),
             - [Microsoft Azure compliance](https://docs.microsoft.com/en-us/azure/compliance/), and
             - [GDPR compliance](https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr).
+            - [Costs calculator](https://azure.microsoft.com/en-us/pricing/calculator/).
     *	Request a server from a local cloud server provider or a telecom company <BR>(discuss in [this forum thread](https://azure.microsoft.com/en-us/overview/sales-number/));
     *	Set up a server in your organization by either establishing a new or repurposing an existing server.<BR>See more information [here](/headquarters/config/standalone-server/).   
 
 <BR>
-Please consult all applicable laws and regulations of your country regarding data storage, transfer and processing, especially when the service provider indicates that the servers are physically located in a different country or does not disclose their location. Please take a note that your organization may have rates and pricing different from the generic pricing conditions that the cloud providers publish. Please inquire directly with the cloud server providers to get the most accurate information on the costs.
+Please consult all applicable laws and regulations of your country regarding data storage, transfer and processing, especially when the service provider indicates that the servers are physically located in a different country or does not disclose their location. Please take a note that your organization may have rates and pricing different from the generic pricing conditions that the cloud providers publish. Please note that the costs may vary by region.
+Please inquire directly with the cloud server providers to get the most accurate information on the costs.
 <BR><BR>
 If the situation changes we will make corresponding announcements on this page and in the users' forum.
 <BR><BR>
