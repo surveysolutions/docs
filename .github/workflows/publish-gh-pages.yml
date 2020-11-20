@@ -23,6 +23,9 @@ jobs:
     - name: Build
       run: hugo --minify --cleanDestinationDir --source homepage
 
+    - name: Old portal had Download as windows is case insensitive
+      run: cp -r ./homepage/public/download ./homepage/public/Download
+  
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
