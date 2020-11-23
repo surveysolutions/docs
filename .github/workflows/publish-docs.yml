@@ -1,8 +1,10 @@
-name: publish-gh-pages
+name: publish-docs
 
 on:
   push:
     branches: [ master ]
+    paths-ignore:
+    - 'homepage/**'
 
 jobs:
   deploy:
@@ -21,17 +23,13 @@ jobs:
         hugo-version: 'latest'
 
     - name: Build
-      run: hugo --minify --cleanDestinationDir --source homepage
-
-    - name: Old portal had Download as windows is case insensitive
-      run: cp -r ./homepage/public/download ./homepage/public/Download
+      run: hugo --minify --cleanDestinationDir
   
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        external_repository: surveysolutions/mysurvey.solutions 
+        external_repository: surveysolutions/support.mysurvey.solutions 
         deploy_key: ${{ secrets.DEPLOY_PAGES }}
-        publish_dir: ./homepage/public
+        publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
         force_orphan: true
-        cname: mysurvey.solutions
