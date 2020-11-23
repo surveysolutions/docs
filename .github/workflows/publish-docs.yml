@@ -29,9 +29,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-      run: |
-        npm install
-        npm run algolia
+    - run: npm install
+    - run: npm run algolia
       env:
         ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         ALGOLIA_APP_ID: "5IDMO489J3"
