@@ -25,12 +25,15 @@ jobs:
     - name: Build
       run: hugo --minify --cleanDestinationDir
  
-    - name: Update search index
+    - name: Setup Node
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: npm install
-    - run: npm run algolia
+
+    - name: Update search index
+      run: |
+        npm install
+        npm run algolia
       env:
         ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         ALGOLIA_APP_ID: "5IDMO489J3"
@@ -45,3 +48,4 @@ jobs:
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
         force_orphan: true
+        cname: support.mysurvey.solutions
