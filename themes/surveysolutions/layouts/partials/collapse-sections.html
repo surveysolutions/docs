@@ -34,7 +34,7 @@
     {{ range (.Paginate ( .RegularPages.ByLastmod.Reverse )).Pages }}
         <div class="article-short-view pl-5 position-relative">
             <h3>
-                <a href="{{ .Permalink }}">{{.Title}}</a>
+                <a href="{{ .RelPermalink }}">{{.Title}}</a>
             </h3>
             <p>{{.Summary}}</p>
             <span class="data d-block">{{.Lastmod.Format "January 2, 2006"}}</span>

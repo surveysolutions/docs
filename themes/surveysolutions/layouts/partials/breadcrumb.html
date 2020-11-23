@@ -11,7 +11,7 @@
   {{ if eq .p1 .p2 }}
   <li class="breadcrumb-item active" aria-current="page">{{ .p1.Title }}
   {{ else }}
-  <li class="breadcrumb-item"><a href="{{ .p1.Permalink }}">{{ cond .p1.IsHome "Home" (.p1.Title)}}</a>
+  <li class="breadcrumb-item"><a href="{{ .p1.RelPermalink }}">{{ cond .p1.IsHome "Home" (.p1.Title)}}</a>
   {{ end }}
   </li>
   {{ end }}
