@@ -24,7 +24,20 @@ jobs:
 
     - name: Build
       run: hugo --minify --cleanDestinationDir
-  
+ 
+    - name: Update search index
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+      run: |
+        npm install
+        npm run algolia
+      env:
+        ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+        ALGOLIA_APP_ID: "5IDMO489J3"
+        ALGOLIA_INDEX_NAME: "support.mysurvey.solutions"
+        ALGOLIA_INDEX_FILE: "public/algolia.json"
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
