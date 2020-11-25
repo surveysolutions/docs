@@ -16,7 +16,6 @@ $env:ALGOLIA_INDEX_FILE = "public/algolia.json"
 $content = (Get-Item public).FullName
 
 Remove-Item (Join-Path $content "algolia.json") -ErrorAction "Continue"
-Remove-Item (Join-Path $content "hidden") -Recurse
 
 # --- STEP 3: deploy the site to the production with the MSDEPLOY tool.
 

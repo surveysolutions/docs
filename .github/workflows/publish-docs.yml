@@ -1,0 +1,51 @@
+name: publish-docs
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore:
+    - 'homepage/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+
+    - name: Build
+      run: hugo --minify --cleanDestinationDir
+ 
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - name: Update search index
+      run: |
+        npm install
+        npm run algolia
+      env:
+        ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+        ALGOLIA_APP_ID: "5IDMO489J3"
+        ALGOLIA_INDEX_NAME: "support.mysurvey.solutions"
+        ALGOLIA_INDEX_FILE: "public/algolia.json"
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        external_repository: surveysolutions/support.mysurvey.solutions 
+        deploy_key: ${{ secrets.DEPLOY_SUPPORT_PAGES }}
+        publish_dir: ./public
+        commit_message: ${{ github.event.head_commit.message }}
+        force_orphan: true
+        cname: support.mysurvey.solutions

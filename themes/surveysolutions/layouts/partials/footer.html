@@ -6,7 +6,7 @@
 				<p class="h3 pt-3 mb-2 mb-sm-3 ml-3 ml-sm-0">Survey Solutions {{ range .Params.keywords }}{{ . }}{{ end }}</p>
 				<ul class="list-unstyled mb-0 ml-3 ml-sm-0">
 					<li>
-						<a href="{{.Permalink}}"> What's new in version {{ range .Params.keywords }}{{ . }}{{ end }}</a>
+						<a href="{{.RelPermalink}}"> What's new in version {{ range .Params.keywords }}{{ . }}{{ end }}</a>
 					</li>
 					<li>
 						<a href="/release-notes">Version history</a>
