@@ -1,7 +1,7 @@
 +++
 title = "Web Interviewing"
 keywords = ["web interviewing", "CAWI", "Self-enumeration"]
-liases = ["/getting-started/computer-assisted-web-interviewing-cawi-"]
+aliases = ["/getting-started/computer-assisted-web-interviewing-cawi-"]
 date = 2020-01-28T00:00:00Z
 lastmod = 2020-10-30T00:00:00Z
 

@@ -72,3 +72,20 @@ displayed.
 
 See the [Google maps](/headquarters/config/server-installation/#google-maps)
 section of the server installation instructions.
+
+
+<FONT color="red">9. "Application cannot connect to database using provided connection string"</FONT>
+
+The Survey Solutions server couldn't connect to the database that stores its
+data. This could be due to a number of reasons, most commonly because either the
+address of the DB server is specified incorrectly or because the server is not
+reachable.
+
+<FONT color="red">10. "Error 28P01: password authentication failed for user
+UUUUUU."</FONT>
+
+The error occurs at application startup and indicates that Survey Solutions
+could not access the database using the user name/password combination specified
+in the connection string. Typically the name of the user 'postgres' is mentioned
+in the error message unless a different user has been specified in the db
+connection string.
