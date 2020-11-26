@@ -4,7 +4,10 @@ keywords = ["email", "template"]
 
 +++
 
-Survey Solutions can send email notifications to the respondents to the web surveys (CAWI). These notifications can be configured at the web interview setup page: `Menu`-->`Survey Setup`-->`Questionnaires`-->`YourQuestionnaire`-->`Web interview setup`.
+Survey Solutions can send email notifications to the respondents to the web
+surveys (CAWI). These notifications can be configured at the web interview
+setup page: `Menu` &#x2192; `Survey Setup` &#x2192; `Questionnaires` &#x2192;
+`YourQuestionnaire` &#x2192; `Web interview setup`.
 
 Survey Solutions server automatically determines, which notifications need to be
 sent out to the respondents. Every hour the notifications of the type marked
@@ -20,7 +23,7 @@ descriptions below.
 <TABLE class="table table-striped table-hover" border>
 <TR class="header bg-warning">
   <TH width=200>Notification message</TH>
-  <TH>Description</TH>
+  <TH>Message description</TH>
 </TR>
 
 <TR>
@@ -155,12 +158,14 @@ invitations/notifications for a survey need to be sent out in different
 languages, such survey must be split into two (or more) Survey Solutions surveys
 and email templates for them configured separately.
 
+#### Notification message structure
+
 Each notification message consists of multiple blocks:
 
 <TABLE class="table table-striped table-hover" border>
 <TR class="header bg-warning">
-  <TH width=200>Block</TH>
-  <TH>Description</TH>
+  <TH width=200>Message block</TH>
+  <TH>Block description</TH>
 </TR>
 
 <TR>
