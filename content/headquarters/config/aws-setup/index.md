@@ -5,13 +5,13 @@ date = 2020-05-08T12:00:00Z
 aliases = []
 +++
 
-# Installation of survey solutions on amazon AWS
+# Installation of Survey Solutions on Amazon AWS
 
-Installation has following steps:
+The installation consists of the following steps:
 
  1. [Create security group](#create-security-group) for web server and RDS to be able to communicate
  1. [Create PostgreSQL instance](#create-PostgreSQL-RDS-instance)
- 1. [Create ec2 instance](#create-ec2-instance) for running Survey Solutions
+ 1. [Create EC2 instance](#create-ec2-instance) for running Survey Solutions
  1. [Install Survey Solutions](#survey-solutions-installation)
 
 ## Create security group
@@ -32,12 +32,12 @@ In the create security group specify name and description:
 In the rules page add single required rule:
 
 * **Type**: PostgreSQL
-* **Source**: Start typying "Survey Solutions" and select just created security group
+* **Source**: Start typing "Survey Solutions" and select just created security group
 ![Security Group Rules](images/sg_pg_rule.png)
 
 ## Create PostgreSQL RDS instance
 
-Create an RDS PostgreSQL instance using [this documentation](https://aws.amazon.com/getting-started/tutorials/create-connect-postgresql-db), you don't need to install database client, but it can be used to test database connection.
+Create an RDS PostgreSQL instance using [this documentation](https://aws.amazon.com/getting-started/tutorials/create-connect-postgresql-db), you don't need to install a database client, but it can be used to test the database connection.
 
 During creation process expand *Additional connectivity configuration* section and assign created "Survey Solutions" security group
 ![Security Group Rules](images/rds_sg_selection.png)
@@ -63,9 +63,9 @@ To find the endpoint:
 - Click on the `Connectivity & security` tab
 - Copy the endpoint under `Endpoint & port`
 
-## Create ec2 instance
+## Create EC2 instance
 
-* In the services list Compute section select ec2
+* In the services list Compute section select EC2
 * Find "Launch instance menu"
   ![Image selection](images/ec2_launch.png)
 * In search bar type "Windows"
@@ -80,7 +80,7 @@ To find the endpoint:
 
 ### Connect to the EC2 instance
 
-When your instance is running, connect to it with RDP [using instructions](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html). 
+When your instance is running, connect to it with RDP [using instructions](https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/connecting_to_windows_instance.html).
 
 ### Download Survey Solutions installer
 
@@ -95,24 +95,24 @@ Once connected, download the Survey Solutions installer. Before doing so, you ma
 To download the Survey Solutions installer:
 
 - Navigate to [installer download page](https://mysurvey.solutions/Download) in a browser outside of the RDP connection
-- Right-click on the `DOWNLOAD THE LATEST INSTALLER` button
+- Right-click the `DOWNLOAD` button
 - Select `Copy link address`
 - Paste the link into the address bar of IE in the RDP connection in order to download the installation file on the EC2 instance
 
 ### Install Survey Solutions
 
-Once the installer is downlaoded, perform these [installation]({{< ref "/headquarters/config/server-installation#installing-surveysolutions" >}}) steps (skip PostgreSQL part). When asked for database connection, input endpoint from RDS setup and database credentials. 
+Once the installer is downloaded, perform these [installation]({{< ref "/headquarters/config/server-installation#installing-surveysolutions" >}}) steps (skip PostgreSQL part). When asked for the database connection, enter the endpoint from RDS setup and database credentials.
 
 ### Change port from 9700 to 80
 
 Delete default web site from IIS web sites list and add :80 port binding to Survey Solutions web site:
 
-  1. Right click on start menu -> run
+  1. Right-click on `start menu` -> `run`
   1. Execute `inetmgr` to start IIS manager
   1. Look in the left-hand `Connections` panel
   1. Expand the entry
   1. Expand `Sites`
-  1. On Right click on `Default Web Site` and select remove
+  1. Right-click on `Default Web Site` and select `remove`
   1. Select Survey Solutions site
   1. In the right panel under `Edit Site`, click on `Bindings`
   1. Select the existing site binding
@@ -121,7 +121,7 @@ Delete default web site from IIS web sites list and add :80 port binding to Surv
 
 ### Expose 80 port to external users
 
-* In the AWS console ec2 running instances find security group where only web server is included (for me it is "launch-wizard-1"):
+* In the AWS console EC2 running instances find security group where only web server is included (for me it is "launch-wizard-1"):
   ![Open 80 port security group](images/ec2_sg_web.png)
 * Navigate to Network & Security -> Security Groups in the left panel
 * Find group of the web server and click on it
@@ -141,30 +141,30 @@ Copy value from your console to browser address bar:
 
 ### DNS and SSL
 
-Also we recommend enabling public DNS name for your survey solutions instance. Choose any DNS registrar you like, or maybe you already have domain name. When it is resolved to public IP address of amazon ec2 instance change `BaseURL` setting in `appsettings.production.ini` file. If SSL it used, set `BaseUrl` to `https://%your dns name%`.
+Also we recommend enabling public DNS name for your survey solutions instance. Choose any DNS registrar you like, or maybe you already have domain name. When it is resolved to public IP address of Amazon EC2 instance change `BaseURL` setting in `appsettings.production.ini` file. If SSL is used, set `BaseUrl` to `https://%your dns name%`.
 
 ### S3 Configuration
 
-Survey solutions can store multimedia data (images, audio audit, etc) on s3 storage to reduce load on database instance.
+Survey Solutions can store multimedia data (images, audio audit, etc) in [Amazon S3 storage](https://aws.amazon.com/s3/) to reduce load on database instance.
 
-In order to enable s3 storage open s3 service console and create new bucket (you will need to pick name according to [naming rules](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)):
+In order to enable S3 storage open S3 service console and create new bucket (you will need to pick name according to [naming rules](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html)):
 ![Bucket creation](images/new-bucket.png)
 
-Now to enable Survey Solutions access to that bucket new IAM role will be required. In order to create it in services list find IAM, then go to Roles->Create new role:
+Now to enable Survey Solutions access to that bucket new IAM role will be required. In order to create it in services list find IAM, then go to `Roles`->`Create new role`:
 ![Role creation](images/create-role.png)
 
 Provide name, and attach appropriate policy:
 ![Role creation](images/s3-access.png)
 
-In order to attach this role to ec2 instance open ec2 console, find appropriate image and select `Attach/Replace IAM role`:
+In order to attach this role to EC2 instance open EC2 console, find the appropriate image and select `Attach/Replace IAM role`:
 ![Attach role](images/attach-role.png)
-Then select created role:
+Then select the created role:
 ![Attach role. Role selection](images/attach-role-name.png)
 
 In Survey Solutions installation location `Site` folder find `appsettings.production.ini` file.
 
 1. Change storage options. In configuration file replace `AppData` key value to `AppData=s3://%Your bucket name%/survey-solutions`
-1. Add section with region configuration (use same region as your s3 bucket)
+1. Add section with region configuration (use same region as your S3 bucket)
 
 Your configuration file should contain such configuration:
 
@@ -176,6 +176,6 @@ TempData=..\Data_Site
 Region=us-east-1 # replace with your region
 ```
 
-Restart windows image for changes to take effect.
+Restart Windows image for changes to take effect.
 
-Survey solutions will create folder with configured tenant name where it will store binary data for interviews.
+Survey Solutions will create folder with configured tenant name where it will store the binary data for the interviews.

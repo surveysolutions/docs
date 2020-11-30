@@ -29,7 +29,8 @@ Starting from April 09, 2020:
             - for questions: [Amazon's contact form](https://aws.amazon.com/contact-us/),
             - [Amazon AWS compliance](https://aws.amazon.com/compliance/), and
             - [GDPR compliance](https://aws.amazon.com/compliance/gdpr-center/).
-            - [Costs calculator](https://calculator.aws/#/).           
+            - [Costs calculator](https://calculator.aws/#/).
+            - [AWS installation instructions](/headquarters/config/aws-setup/).
         -	Google Cloud: https://cloud.google.com/
             - for questions: [Google's contact form](https://cloud.google.com/contact)
             - [Google cloud compliance](https://cloud.google.com/security/compliance)), and
@@ -40,6 +41,7 @@ Starting from April 09, 2020:
             - [Microsoft Azure compliance](https://docs.microsoft.com/en-us/azure/compliance/), and
             - [GDPR compliance](https://docs.microsoft.com/en-us/microsoft-365/compliance/gdpr).
             - [Costs calculator](https://azure.microsoft.com/en-us/pricing/calculator/).
+            - [Azure installation instructions](/headquarters/config/azure-setup/)       
     *	Request a server from a local cloud server provider or a telecom company <BR>(discuss in [this forum thread](https://azure.microsoft.com/en-us/overview/sales-number/));
     *	Set up a server in your organization by either establishing a new or repurposing an existing server.<BR>See more information [here](/headquarters/config/standalone-server/).   
 

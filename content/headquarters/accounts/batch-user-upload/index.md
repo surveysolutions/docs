@@ -58,7 +58,9 @@ selections in the HQ. Note also, that the specified login name for an account
 may not be changed in the future (though the whole account may be locked).
 <BR><BR>
 The login name must be between 3 and 15 characters long, and may contain only
-letters, digits and the underscore symbol.
+letters, digits and the underscore symbol. The letters must be from Latin
+(English) alphabet only: 'A'..'Z' or 'a'..'z'. Other letters (Cyrillic, Arabic,
+etc.) are not valid for usage in login names.
 </TD></TR>
 
 <TR><TD>Password</TD><TD>The password to the user account. The password is
@@ -67,7 +69,8 @@ case-sensitive.
 An account password must satisfy the following complexity requirements:
 
 <UL>
-<LI>be at least 10 characters long,
+<LI>be at least 10 characters long, letters from non-Latin alphabets (Cyrillic,
+  Arabic, etc.) may be included in the password,
 <LI>include at least one digit ('0'-'9'),
 <LI>include at least one uppercase ('A'-'Z') letter,
 <LI>include at least one lowercase ('a'-'z') letter.
