@@ -7,14 +7,12 @@ aliases = ["/customer/portal/articles/2885558-survey-solutions-server-administra
 
 +++
 
-Every Survey Solutions server has an administrator:
+Every Survey Solutions server has an administrator. This is the first user
+account created after Survey Solutions is installed, typically by the same
+person who performed the installation.
 
--   **Local server** - the first user created after Survey Solutions is installed.
--   **Cloud server** - the credentials are sent to the client that
-    [requested the server](/faq/cloud-server-request).
-
-An administrator can do everything an HQ user can do plus some exclusive
-actions:
+An administrator can do (almost) everything an HQ user can do plus some
+exclusive actions:
 
 -   [create HQ](/headquarters/teams-and-roles-tab-creating-user-accounts-#hqaccounts)
     user accounts,
@@ -31,10 +29,16 @@ actions:
 -   unarchive a user;
 -   inspect the [server audit log](/headquarters/svymanage/audit-log/).
 
+Note that a server administrator may not be designated responsible for
+assignments, while a headquarters user may be.
+
+{{< panel title="" style="warning">}}
+<BR>
 Administrator is a privileged account and can do important actions which
 may result in damage to data. Assign a responsible and informed person
-as an administrator! We recommend that the administrator has attended a
-comprehensive Survey Solutions training.
+as an administrator! We recommend that the administrator has attended a comprehensive
+Survey Solutions training.
+{{% /panel %}}
 
 Some obvious security recommendations:
 
