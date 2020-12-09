@@ -17,7 +17,7 @@ Installation has following steps:
 Make sure that you have an installed and running instance of PostgreSQL **before running SurveySolutions.exe**
 
 You can download PostgreSQL from [here](https://www.postgresql.org/download/windows/) and run the
-setup. Pick latest stable version.
+setup. Pick latest stable version (Survey Solutions will not work with PostgreSQL prior to version 10.0).
 
 During the process you'll set the password:
 ![Postgres password](images/pg_password.png "PostgreSQL password")
