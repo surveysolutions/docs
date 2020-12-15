@@ -1,8 +1,8 @@
 ﻿+++
 title = "Survey Solutions Limits"
-keywords = [""]
+keywords = ["limit", "maximum"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2020-06-10T00:00:01Z
+lastmod = 2020-12-15T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -93,7 +93,7 @@ limits.
 </tr>
 <tr>
 <td>Maximum number of suggestions in a combobox categorical question:</td>
-<td style="text-align: center;">15 [items]</td>
+<td style="text-align: center;">50 [items]</td>
 </tr>
 <tr>
 <td>Maximum length of a category label in a categorical question:</td>
