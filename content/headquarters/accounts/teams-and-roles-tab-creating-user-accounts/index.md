@@ -40,6 +40,12 @@ Administrators can similarly create headquarters,
 [observer](/headquarters/accounts/survey-solutions-server-observer/) and API
 accounts filling out exactly the same forms.
 
+Survey Solutions **does not** utilize the contact information (specified in the
+full name, contact email and phone number fields) to make automatic
+notifications or robocalls. Instead this information is stored for convenience
+of the survey managers (HQ and team supervisors) if they need to reach, for
+example, a particular interviewer.
+
 When creating interviewer accounts, one must additionally specify to
 which team the interviewer is assigned by selecting the appropriate supervisor's
 name. Correspondingly, to create a team, first create the supervisor, then
