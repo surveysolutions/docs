@@ -71,7 +71,7 @@ To find the endpoint:
 * In search bar type "Windows"
 * Select Microsoft Windows Server 2019 Base
   ![Image selection](images/ec2_image_selection.png)
-* In tier selection pick one that suites your needs. You can check for server requirements here
+* In tier selection pick one that suites your needs. You can [check for server requirements here](/faq/server-requirements/).
 * After instance is created right click on it, select Networking -> Change Security Groups and assign group Survey Solutions
   ![Assign Security Group](images/ec2_sg_assign.png)
 * Launch selected instance
