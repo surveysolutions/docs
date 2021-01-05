@@ -2,7 +2,7 @@
 title = "Shape file overlay"
 keywords = [""]
 date = 2018-06-06T21:39:31Z
-lastmod = 2018-06-06T21:39:31Z
+lastmod = 2020-12-22T00:00:00Z
 aliases = ["/customer/portal/articles/2942852-shape-file-overlay","/customer/en/portal/articles/2942852-shape-file-overlay","/customer/portal/articles/2942852","/customer/en/portal/articles/2942852","/interviewer/shape-file-overlay"]
 
 +++
@@ -31,6 +31,10 @@ Once the shapefile is present on the tablet, it will be automatically
 overlaid over the baseline map, and the interviewer will have a visual
 indication whether the choices he/she is making in the geography
 question are within or outside of the area of interest.  
+
+If the shapefile contains an attribute ***label***, the values of this
+attribute are used as annotations for the polygons, otherwise no
+annotations are shown.
   
-As of v18.06 the shapefiles are not centrally managed at the Survey
+As of v20.12 the shapefiles are not centrally managed at the Survey
 Solutions Headquarters.

@@ -89,3 +89,47 @@ could not access the database using the user name/password combination specified
 in the connection string. Typically the name of the user 'postgres' is mentioned
 in the error message unless a different user has been specified in the db
 connection string.
+
+<FONT color="red">11.<PRE>
+...
+Exception data:
+    Severity: ERROR
+    SqlState: XX001
+    MessageText: could not read block ###### in file "~~~~~~~~": read only ### of ### bytes
+...
+</PRE></FONT>
+
+This error message is not displayed to the user, but may be encountered in the
+server log files visible to the system administrator (typically a different
+person from the Survey Solutions administrator). Visual clues to the users
+may vary, but generally may present themselves as "strange behavior", which
+could be, for example, the Survey Solutions indicating that the export of
+data has been started, but never completes, or saying that a user has been
+created, while in fact it is not, and other similar unexplained deviations.
+
+If it is present, it indicates that there was a problem reading the data stored
+in the database and transaction was aborted. **This is a serious error**, commonly
+caused by defective hardware.
+
+Most of the users are never concerned about the database used by
+Survey Solutions internally, since all the data structures needed for functioning
+of the software are created, updated, and deleted automatically. Technically,
+though, Survey Solutions uses PostgreSQL database for storing the data (this
+  may change in the future, refer to the installation instructions for the
+  current version, section on prerequisites/dependencies).
+
+If the above error message is encountered in the log files, the system
+administrator should plan for a recovery process. Some possible reasons for
+this problem and advice for recovery are available at the following page:
+[PostgreSQL-wiki:Corruption](https://wiki.postgresql.org/wiki/Corruption).
+
+Continuing the use of a system with a corrupt database may aggravate the
+problem, making the recovery more difficult or impossible. Still, the system
+administrator must proceed with caution and make a snapshot of the data
+before making any corrections, because introducing any changes may limit
+the subsequent options for recovery.
+
+The exact steps to do vary case by case, but will likely require professional
+expertise and results may vary. This is not an error caused by Survey
+Solutions code, so Survey Solutions developers will not be able to
+provide assistance in case of such failures.
