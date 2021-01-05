@@ -1,6 +1,6 @@
 +++
 title ="Data Server Errors"
-keywords = ["local", "standalone", "self-hosted", "error"]
+keywords = ["local", "standalone", "self-hosted", "error", "troubleshooting"]
 date = 2020-06-15T00:00:00Z
 aliases = ["/customer/portal/articles/standalone-server-errors"]
 
