@@ -14,10 +14,13 @@ Installation has following steps:
 
 ## Installing PostgreSQL
 
-Make sure that you have an installed and running instance of PostgreSQL **before running SurveySolutions.exe**
+Make sure that you have an installed and running instance of PostgreSQL
+**before running SurveySolutions.exe**
 
-You can download PostgreSQL from [here](https://www.postgresql.org/download/windows/) and run the
-setup. Pick the latest stable version (note: Survey Solutions will not work with PostgreSQL prior to version 10.0).
+You can download PostgreSQL from
+[here](https://www.postgresql.org/download/windows/) and run the setup. Pick
+the latest stable version (note: Survey Solutions will not work with PostgreSQL
+  prior to version 10.0).
 
 During the process you'll set the password for the database superuser:
 
@@ -43,7 +46,8 @@ After the installation is complete, follow the instructions for
 
 Download the [Survey Solutions installer](https://mysurvey.solutions/Download)
 
-Run SurveySolutions.exe. It will ask you for two parameters: install location and PostgreSQL connection parameters.
+Run SurveySolutions.exe. It will ask you for two parameters: install location
+and PostgreSQL connection parameters.
 
 For the install location – choose any or keep the default (`C:\Survey Solutions\`)
 
@@ -54,7 +58,9 @@ For the install location – choose any or keep the default (`C:\Survey Solution
 </details>
 <BR>
 
-For PostgreSQL connection parameters (default values will be already there) specify the port and password you've chosen when setting up the PostgreSQL earlier:
+For PostgreSQL connection parameters (default values will be already there)
+specify the port and password you've chosen when setting up the PostgreSQL
+earlier:
 <details>
   <summary>📷 Survey Solutions database connection</summary>
 
@@ -133,9 +139,12 @@ listed below. The instructions vary by type of the security software used.
 See #3 in the [FAQ for IT](/getting-started/faq-for-it-personnel/) for common
 security software instructions.
 
-- allow incoming connections to the port that you've set up the server binding of Survey Solutions;
-- allow outgoing connections to the Designer site: `https://designer.mysurvey.solutions`;
-- allow outgoing connections to the Survey Solutions site: `https://mysurvey.solutions`.
+- allow incoming connections to the port that you've set up the server binding
+of Survey Solutions;
+- allow outgoing connections to the Designer site:
+`https://designer.mysurvey.solutions`;
+- allow outgoing connections to the Survey Solutions site:
+`https://mysurvey.solutions`.
 
 In addition expect the client (browser) to
 
@@ -143,7 +152,15 @@ In addition expect the client (browser) to
 typically `https://maps.googleapis.com` and `https://google.com`
 (or see [here](/headquarters/config/alternative-maps-for-servers-in-china/) for
 alternative settings for China);
-- send queries to the CAPTCHA server being used (if it is used): `https://www.google.com` and `https://www.gstatic.com`
+- send queries to the CAPTCHA server being used (if it is used):
+`https://www.google.com` and `https://www.gstatic.com`
+
+Survey Solutions operates with HTTP/HTTPS requests that may be rather large
+(multiple MB). Your server must be configured to receive and process such
+queries (rather than block them). This may necessitate additional
+[WAF configuration](https://en.wikipedia.org/wiki/Web_application_firewall). If
+this is not permitted, the interviewers may not be able to synchronize their
+tablets.
 
 <A name="loadbalancer"></A>
 ### Load balancer
@@ -160,7 +177,9 @@ the Survey Solutions server).
 <A name="configuration"></A>
 ### Survey Solutions application configuration
 
-Open the `/Site` folder where Survey Solutions is installed, and open `appsettings.Production.ini` file. This file will not be replaced during application upgrades and will retain your local server configuration.
+Open the `/Site` folder where Survey Solutions is installed, and open
+`appsettings.Production.ini` file. This file will not be replaced during
+application upgrades and will retain your local server configuration.
 
 <details>
   <summary>📷 Survey Solutions configuration file</summary>
@@ -172,7 +191,10 @@ Open the `/Site` folder where Survey Solutions is installed, and open `appsettin
 <A name="baseurl"></A>
 #### Base URL
 
-If your server has domain name you need to change `BaseUrl` value to the name you have (without trailing slash at the end of the URL). Make sure that this URL can be used to open Survey Solutions app from server where application is installed, otherwise export won't work.
+If your server has domain name you need to change `BaseUrl` value to the name
+you have (without trailing slash at the end of the URL). Make sure that this
+URL can be used to open Survey Solutions app from server where application is
+installed, otherwise export won't work.
 
 Example of an ini-file with configured base URL:
 
@@ -242,7 +264,9 @@ when not configured properly you will see error
 <A name="geotiff"></A>
 #### GeoTIFF files support
 
-If you are using [gis](/questionnaire-designer/questions/offline-gis-functionality-expansion/) functionality and plan using TIFF files as maps you need to install the
+If you are using
+[GIS](/questionnaire-designer/questions/offline-gis-functionality-expansion/)
+functionality and plan using TIFF files as maps, then you need to install the
 [GDAL](https://gdal.org/) library. The simplest way to do it (on Windows)
 is to use the [OSGeo4W project](https://trac.osgeo.org/osgeo4w/wiki):
 download installer from their web site and install only "GDAL".
