@@ -24,7 +24,9 @@ An account that is archived:
 
 - may not be used to log in to the system through the web interface;
 - will not be accepted for synchronization;
-- will not be available as a selection in drop-down selections for responsible for interviews and assignments, and be similarly suppressed from other dialogs in the system which imply an active account.
+- will not be available as a selection in drop-down selections for responsible for interviews and assignments, and be similarly suppressed from other dialogs in the system which imply an active account;
+- any web interviews or web assignments for which the archived
+interviewer was responsible will stay open and valid.
 
 Accounts that are archived may be subsequently un-archived. To do this, as an administrator proceed to the interviewers page, select *"Archived interviewers"* instead of the default *"Active interviewers"* in the filter. Then select the account and click *Unarchive*.
 
