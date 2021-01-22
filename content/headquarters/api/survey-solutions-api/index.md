@@ -3,7 +3,7 @@ title = "Survey Solutions API"
 keywords = ["api", "ssaw", "SurveySolutionsAPI"]
 date = 2017-07-19T19:29:51Z
 lastmod = 2017-07-19T19:29:51Z
-aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api"]
+aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api","/headquarters/api/api-for-data-export"]
 
 +++
 
@@ -11,12 +11,9 @@ Survey Solutions includes a powerful and flexible API which allows
 automating some tasks and allows our users to build larger systems,
 which may compliment Survey Solutions to achieve larger goals.   
   
-We have shown earlier how an external application may use [API to make
-Survey Solutions to export the data in the desired
-format](/headquarters/api-for-data-export).  
-  
-Other examples of use could be:
+Some examples of use could be:
 
+-   schedule periodic export of collected data
 -   an external dashboard or monitoring and reporting system, which
     updates some indicators every night and publishes them to a website,
     or
