@@ -44,8 +44,9 @@ documented in the following [interactive guide for API
 users](https://demo.mysurvey.solutions/apidocs/index#/).  
 
 There are also available native clients for following languages:
+- [PowerShell module]({{< ref "/headquarters/api/ps-module" >}})
 - [R package]({{< ref "/headquarters/api/api-r-package" >}})
-- [ssaw](https://github.com/vavalomi/ssaw) Python package
+- [Python package](https://github.com/vavalomi/ssaw)
 
 Every Survey Solutions server provides an API. It is important to verify
 the reference against the exact version contained in your server to make
