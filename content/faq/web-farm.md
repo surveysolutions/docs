@@ -46,9 +46,9 @@ For Web Farm mode Survey Solutions Headquarters should run behing load balancer 
 
 Survey Solutions require that both WebSockets and StickySessions are enabled for all survey modes.
 
-### Survey Solution Configuration
+### Survey Solutions Configuration
 
-For Survey Solution Headquarters configuration following settings should be enabled for ALL instances of HQ in `[Scheduler]` settings
+For Survey Solutions Headquarters configuration following settings should be enabled for ALL instances of HQ in `[Scheduler]` settings
 
 ```ini
 [Scheduler]

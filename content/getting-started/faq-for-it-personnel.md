@@ -143,7 +143,7 @@ devices supporting this latest version.*
                         <ul>
                             <li>No. The interviews are conducted while the tablets are not connected.</li>
                             <li>Internet connection is not required and 3G/4G or WiFi traffic is not consumed during interviews.</li>
-                            <li>Survey Solution accumulates collected data on the tablet and sends it to the server during synchronization.</li>
+                            <li>Survey Solutions accumulates collected data on the tablet and sends it to the server during synchronization.</li>
                         </ul>
                         <h6>12. 3G/4G coverage is rather spotty in our country. Is it still possible to use Survey Solutions?</h6>
                         <ul>
