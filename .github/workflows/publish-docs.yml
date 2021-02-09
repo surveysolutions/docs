@@ -43,9 +43,9 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        external_repository: surveysolutions/support.mysurvey.solutions 
+        external_repository: surveysolutions/docs.mysurvey.solutions 
         deploy_key: ${{ secrets.DEPLOY_SUPPORT_PAGES }}
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
         force_orphan: true
-        cname: support.mysurvey.solutions
+        cname: docs.mysurvey.solutions
