@@ -36,6 +36,10 @@ For example: "*the issue occurs with Survey Solutions v24.09 on all Samsung SMT-
 
 1. Check whether there were any OS-updates (or third party software updates) installed recently on the tablets in the 'non-working' group. Clearly state what version and update of the Android OS is set up on the affected device(s).
 
+1. Have a security check (antivirus, antimalware) of the affected tablets, especially when there is no systematic difference between the 'working' and 'non-working' groups in hardware characteristics or OS version and configuration.
+
+1. Check tablets for presence of any other applications that may be competing for the resources with the Interviewer App (social networks, games, messengers, unknown applications). Uninstall everything that is not needed for the normal work of an interviewer.
+
 1. Try a different questionnaire: create a simple questionnaire of a handful of questions and see if the issue occurs there too. Exercise your judgement as to how big this should be and what questions to include. When in doubt use 10 questions of different types or model the section of your actual questionnaire where the slowness appears. For a quick check use a public questionnaire '*ServiceB2*' from the '*Service and maintenance*' folder. If the benchmark questionnaire is responsive the problem is likely related to your particular questionnaire. If not responsive, then this benchmark questionnaire can be used in all subsequent steps/tests.
 
 1. If the benchmark/example questionnaire does not exhibit the issue, start reducing your questionnaire by cutting off some of the pieces of it (work on a copy, of course). Delete sections, individual questions or their conditions. And periodically retest the questionnaire. Once it becomes responsive again, review the recent deletions to identify which one has caused the performance to improve.
