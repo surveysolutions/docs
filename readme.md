@@ -1,6 +1,6 @@
-# Survey Solutions support website
+# Survey Solutions documentation website
 
-This repository contains articles (and binary files) from [https://support.musyrvey.solutions](https://support.mysurvey.solutions)
+This repository contains articles (and binary files) from [https://docs.musyrvey.solutions](https://docs.mysurvey.solutions)
 
 We use HUGO - static site generator framework to build this site. You can read more about Hugo
 [here](https://gohugo.io/getting-started/).

@@ -1,6 +1,6 @@
-baseURL = "https://support.mysurvey.solutions/"
+baseURL = "https://docs.mysurvey.solutions/"
 languageCode = "en-us"
-title = "Survey Solutions | Support"
+title = "Survey Solutions | Documentation"
 theme = "surveysolutions" 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 enableGitInfo = true
