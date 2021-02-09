@@ -5,14 +5,14 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  padding-bottom: 270px;
+  padding-bottom: 70px;
   font: 14px/16px "Roboto";
   min-height: 100%;
   position: relative;
   min-width: 380px;
 }
 .footer {
-  height: 270px;
+  height: 70px;
   background-color: #f1f2f3;
   position: absolute;
   bottom: 0;
@@ -598,12 +598,6 @@ pre {
   }
   .section .section-title h3{
     min-height: auto;
-  }
-  body{
-    padding-bottom: 348px;
-  }
-  .footer{
-    height: 348px;
   }
   .footer .h3{
     font-size: 1rem;
