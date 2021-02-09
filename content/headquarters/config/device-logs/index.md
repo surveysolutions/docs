@@ -29,7 +29,7 @@ The table is sortable by any of the columns. Click on the column header to sort.
 
 ###### Device log example
 
-Each device log is a zip-archive, which contains one or more files with a description of various actions, error messages, etc which occurred on the tablet (whether or not the interviewer was explicitly notified about them). These are text files and can be opened with a text editor to inspect their contents. You can do so before sending the files if requested so by the support.
+Each device log is a zip-archive, which contains one or more files with a description of various actions, error messages, etc which occurred on the tablet (whether or not the interviewer was explicitly notified about them). These are text files and can be opened with a text editor to inspect their contents. You can do so before sending the files if requested so by the development team.
 
 <CENTER><IMG src="images/DeviceLogs.png" width="500"></CENTER>
 

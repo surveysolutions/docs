@@ -5,8 +5,8 @@ date = 2019-08-06T00:00:00Z
 +++
 
 
-When reporting a technical problem in Survey Solutions, you may be requested by the 
-support agent to collect the information based on one of the following lists.
+When reporting a technical problem in Survey Solutions, you may be requested by
+our team member to collect the information based on one of the following lists.
 
 
 <TABLE border=1>

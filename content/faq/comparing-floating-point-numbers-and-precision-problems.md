@@ -7,7 +7,7 @@ aliases = ["/customer/portal/articles/2736012-comparing-floating-point-numbers-a
 
 +++
 
-Our support service often receives reports on suspected bugs in Survey
+Our development team often receives reports on suspected bugs in Survey
 Solutions on the grounds of a situation similar to the one described
 below. These reports stem from misunderstanding of some fundamental
 concepts of how computations are done by a computer, and not due to an

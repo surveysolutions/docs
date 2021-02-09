@@ -13,7 +13,7 @@ Introduction to the Survey Solutions API R-package
 The World Bank's Computer Assisted Survey System (CASS) **Survey Solutions** 
 is a powerful tool for high quality data collection and used in many statistical 
 offices around the world. Besides the standard GUI, it also comes with a 
-powerful [REST API](https://support.mysurvey.solutions/).
+powerful API.
 
 To further facilitate its integration in a fully automated workflow we have 
 developed this [R package](https://github.com/michael-cw/SurveySolutionsAPI), 

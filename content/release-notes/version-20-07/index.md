@@ -87,6 +87,6 @@ Server administrators are requested to inspect the indications of this panel for
 - Every questionnaire shall contain at least 1 section other than the cover section and at least one non-identifying question.
 - Identifying question **must** have variable labels specified.
 - One can no longer directly specify a question's scope as identifying - all identifying questions are designated as such when they are placed into the cover page section.
-- Server administrator can now download the [server audit log](https://support.mysurvey.solutions/headquarters/svymanage/audit-log/) as a single file in CSV, TAB, or XLSX format.
+- Server administrator can now download the [server audit log](/headquarters/svymanage/audit-log/) as a single file in CSV, TAB, or XLSX format.
 - The API endpoint for creating the assingments now supports all the same question types as preloading throught the interface (file upload).
 - The time-axis of the cumulative chart report used to show duplicate labels under some conditions - this has been fixed.
