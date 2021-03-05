@@ -49,20 +49,11 @@ This error message is issued during the installation when the installation is ta
 This error message may be seen at the data export page and is rare. It signals
 about a situation, which was unanticipated and the Survey Solutions export
 service didn't manage to produce the data export file. It is not possible to
-say what exactly went wrong simply from this error message. Instead the application
-log files must be inspected as they would contain evidence of what step of the
-export has failed and what was the unexpected situation. This technical information
-is accessible to the IT-personnel (person administrating the server) and is not
-published on the data export page.
-
-Users in the role of Headquarters should notify their server administrator regarding
-the occurrence of this error.
-
-The administrator will find the necessary logs in the <TT>Logs</TT> subfolder of the
-folder where the Survey Solutions is installed. The log files are organized by date
-to simplify locating the necessary files. They are text files, so the administrators
-can read them to try to identify the error themselves, or to inspect the information
-being sent if there are any privacy concerns.
+say what exactly went wrong simply from this error message. Instead the server
+administrator should review the <A href="#logs">server logs</A> and if not able to
+identify the problem independently, contact support. Users in the role of
+Headquarters should notify their server administrator regarding the occurrence
+of this error.
 
 <FONT color="red">8. "ReferenceError: google is not defined."</FONT>
 
@@ -133,3 +124,21 @@ The exact steps to do vary case by case, but will likely require professional
 expertise and results may vary. This is not an error caused by Survey
 Solutions code, so Survey Solutions developers will not be able to
 provide assistance in case of such failures.
+
+<A name="logs">
+### Application log files
+
+In some cases the application log files must be inspected for evidence of what
+step of the  has failed and/or what was the unexpected situation. This technical information is accessible to the IT-personnel (person administrating the server)
+and is not published on any of the web pages served by the server.
+
+The administrator will find the necessary logs in the `Logs` subfolder of the
+folder where the Survey Solutions is installed. The log files are organized by date
+to simplify locating the necessary files. They are text files, so the administrators
+can read them to try to identify the error themselves, or to inspect the information
+being sent if there are any privacy concerns.
+
+If Survey Solutions was installed using the default destination
+`C:\Survey Solutions` then the log files are placed to the folder `C:\Survey Solutions\Site\Logs` and the files are named `headquarters.[date].log`.
+
+If you are sending the log files to support, please keep in mind that our messaging system does not support attachments of multiple megabytes in size. If you need to send large files (more than ~1MB) please use a file sharing service and send us the link instead. If you encrypt your log files with a password, don't forget to include it into the same message.
