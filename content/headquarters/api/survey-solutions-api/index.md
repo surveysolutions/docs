@@ -47,6 +47,7 @@ There are also available native clients for following languages:
 - [PowerShell module]({{< ref "/headquarters/api/ps-module" >}})
 - [R package]({{< ref "/headquarters/api/api-r-package" >}})
 - [Python package](https://github.com/vavalomi/ssaw)
+- [.NET package](/headquarters/api/dot-net-package)
 
 Every Survey Solutions server provides an API. It is important to verify
 the reference against the exact version contained in your server to make
