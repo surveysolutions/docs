@@ -9,7 +9,7 @@ aliases = ["/customer/portal/articles/2942597-version-18-06","/customer/en/porta
 
 Today, on June 05, 2018 we are happy to release version 18.06 with lots
 of new and useful features.  
-  
+
 <span class="underline">Announcement:</span> Survey Solutions VI Virtual
 User Group Meeting:
 
@@ -26,7 +26,7 @@ Meeting password: 9SabPdMH<br />
 </tbody>
 </table>
 
-  
+
 <span style="color:#B22222;"><span class="underline">Important
 notification for self-hosted users:</span> the changes in the Designer
 are compatibility-breaking so all users of Survey Solutions on the local
@@ -127,7 +127,7 @@ Solutions preload the very same files that it exports and reduces the
 burden of preparation of data for preloading in panel surveys.
 
 1.  [Protection of answers to preloaded
-    questions](http://support.mysurvey.solutions/customer/en/portal/articles/2942758)
+    questions]/customer/en/portal/articles/2942758)
     is available in advanced preloading only for questions of type
     multi-select, numeric and text list. This feature may be most useful
     for panel surveys where data obtained in the initial visit must be
@@ -154,12 +154,12 @@ burden of preparation of data for preloading in panel surveys.
 
 {{< imgScale src="images/881382.png"  class="md-img">}}
 This log is useful in resolving the debates where the interviewer claims
-that the data was collected, but subsequently “disappeared”.
+that the data was collected, but subsequently "disappeared".
 
 1.  New online map report for interviewer movement shows historical
     positions (trajectory) of the interviewer on the map. This report is
     interviewer-specific and is available on the interviewer profile
-    page. It shows the location of all of the interviewer’s interviews
+    page. It shows the location of all of the interviewer's interviews
     in chronological order, along with colors highlighting the current
     status of each interview: started (blue), completed (green) or
     rejected (red).
@@ -178,7 +178,7 @@ New Interviewer Features
     (as requested by Sergiy Radyakin, World Bank).
 2.  Behavior of the linked question has changed. Earlier, any changes to
     the source question caused all dependent linked questions throughout
-    the questionnaire to be “unanswered”. Now, only those items removed
+    the questionnaire to be "unanswered". Now, only those items removed
     from the source are removed from the linked questions, with other
     items selection not affected. For example, if Peter was the only
     household member, and selected as the household head in a linked

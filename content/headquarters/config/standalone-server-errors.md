@@ -126,11 +126,10 @@ Solutions code, so Survey Solutions developers will not be able to
 provide assistance in case of such failures.
 
 <A name="logs">
+
 ### Application log files
 
-In some cases the application log files must be inspected for evidence of what
-step of the  has failed and/or what was the unexpected situation. This technical information is accessible to the IT-personnel (person administrating the server)
-and is not published on any of the web pages served by the server.
+In some cases the application log files must be inspected for evidence of what step of the  has failed and/or what was the unexpected situation. This technical information is accessible to the IT-personnel (person administrating the server) and is not published on any of the web pages served by the server.
 
 The administrator will find the necessary logs in the `Logs` subfolder of the
 folder where the Survey Solutions is installed. The log files are organized by date

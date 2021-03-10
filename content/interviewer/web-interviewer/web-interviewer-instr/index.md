@@ -11,8 +11,8 @@ Collecting data with Survey Solutions over the phone
 Online approach utilizing any computer with a web-browser
 -------------------------------------------------------------
 
-This approach is most suitable for the interviewers working at a location with stable/responsive internet connectivity. 
-The functionality and interface of the web-interviewer is also described in the pages linked from [here](https://support.mysurvey.solutions/interviewer/web-interviewer/web-interviewer-overview/).
+This approach is most suitable for the interviewers working at a location with stable/responsive internet connectivity.
+The functionality and interface of the web-interviewer is also described in the pages linked from [here](/interviewer/web-interviewer/web-interviewer-overview/).
 It is recommended that these generic instructions are reviewed and customized by survey administrators for each particular survey.
 The article is oriented on the agencies already having experience in using Survey Solutions for face-to-face (CAPI) surveys and in need to re-orient their operations for the telephone surveys.
 
@@ -37,7 +37,7 @@ On any day when you work, follow this algorithm:
 
 1. At the beginning of your shift, connect to the internet, enter the address of the server (synchronization point) to the browser’s address line and proceed to the site. Enter your interviewer’s credentials issued by your office to the login form.
 2. Once logged in, you will find one or more assignments and possibly rejected interviews. Each is appearing as an item (line in the table) on your dashboard.
-3. Each item contains a field named PHONE with a phone number. 
+3. Each item contains a field named PHONE with a phone number.
 4. It may also contain a person’s name and other identifying information, and possibly a comment on when the number should be dialed. If there is no comment on when to dial, that phone may be called at any time.
 5. Review your work items and determine which one you can contact next. If you have any interviews rejected by your supervisor, give them the priority, then the started interviews that you haven’t finalized, then all the remaining interviews.
 6. Open the interview by clicking the OPEN button on the interview (or START NEW for new interviews).
@@ -68,11 +68,10 @@ Z) All other outcomes.
 17. Log out from the website at the end of your shift.
 18. Next time you work, proceed to step #1. You may find some new assignments and some interviews rejected by the supervisors at your dashboard as you keep on working. Not all the interviews that were marked to be continued may be returned to you -- your supervisor may decide that they can be better finished by other interviewers.
 
-Notes: 
+Notes:
 
 1. Your work as the web-interviewer will require internet connectivity for the whole duration of the interview. Avoid the use of any other software that may compete for the bandwidth (YouTube, messengers, games, music players, etc).
 2. If at any time you find that you’ve exhausted the allowance for wireless connection (either on the phone you make your phone calls with, or on line you are using for accessing the internet) contact your supervisor and explain.
 3. It is possible that the respondent will request the interview may be continued on the next day *"at any time"*. Prepare before the start of the interview with a couple of slots that you know are possible for the next day. This will help arrange a schedule with no conflicting appointments.
 4. While it is technically possible to log in from two different devices it is not recommended. Choose one device and one browser you are most comfortable with, and stick to working with it.
 5. It may be technically possible to use the same computer for also making the calls through Skype or other messenger capable of connecting to phone networks. In that case you may not need the phone for making the calls (requirement 1). Make sure this mode provides both sufficient sound quality for maintaining the conversation and reliable connectivity to the data site.
-

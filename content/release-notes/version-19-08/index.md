@@ -37,8 +37,8 @@ Yet the involvement of the supervisors was necessary in surveys where supervisor
 were included, as the HQ-users didn't have a possibility to fill out those questions.
 
 This limitation has been overcome in v19.08 and the HQ-users can now respond to the supervisor
-questions before approving the interview. This allows creating flatter hierarchies in small 
-surveys, where all the supervisory work is done by the HQ users without the necessity to man 
+questions before approving the interview. This allows creating flatter hierarchies in small
+surveys, where all the supervisory work is done by the HQ users without the necessity to man
 the supervisor position.
 
 ## Detailed user action log can be accessed via API.
@@ -46,8 +46,8 @@ the supervisor position.
 The detailed actions log is useful for monitoring the activity of the users, such as when they
 synchronize and whether they started working on an assignment.
 
-See the support page for more information on the detailed actions log:
-https://support.mysurvey.solutions/headquarters/reporting/detailed-action-log/
+See the support page for more information on the
+[detailed actions log](/headquarters/reporting/detailed-action-log/)
 
 <P>This log was previously only available interactively at the HQ. Now, in v19.08 a new API query
 has been added to permit a download of such a log (for a particular interviewer) from an

@@ -7,9 +7,6 @@ aliases = ["/customer/portal/articles/2842561-randomizing-order-of-questions","/
 
 +++
 
-This article is motivated by [this user
-question](http://support.mysurvey.solutions/customer/portal/questions/17104444).  
-
 In this example we will consider similar questions (all of them
 categorical single-select) rating different aspects of the stay in a
 resort hotel. Our objective is to present the questions in different
