@@ -42,6 +42,14 @@ and the port, on which the PostgreSQL server will be running:
 After the installation is complete, follow the instructions for
 [tuning PostgreSQL for production use](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)
 
+By default, PostgreSQL us setup to allow connections from the same server only. If you are going to install
+Survey Solutions on the same server, you don't need to change this default. However if you are splitting the database
+and the web application into two separate servers (may be advisable for larger-scale operations when administration and
+maintenance of the database is better by its own) you have to explicitly allow connections from external server to reach
+your PostgreSQL database. This is done by modifying pg_hba.config file and adding ip address of the webserver, which
+will run Survey Solutions. Please take a look at the [documentation](https://www.postgresql.org/docs/13/auth-pg-hba-conf.html)
+for further details.
+
 ## Installing Survey Solutions
 
 Download the [Survey Solutions installer](https://mysurvey.solutions/Download)
