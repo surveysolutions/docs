@@ -8,7 +8,7 @@
             </div>
 
             <div class="container">
-            {{ range .Pages.ByLastmod.Reverse }}
+            {{ range .Pages.ByDate.Reverse }}
             <div class="mb-4 pb-2 border-bottom release-notes-short-view">
                 <h3 class="mb-0">Survey Solutions {{index .Keywords 0}}</h3>
                 <span class="d-block text-right">{{.Date.Format "January 2, 2006"}}</span>
