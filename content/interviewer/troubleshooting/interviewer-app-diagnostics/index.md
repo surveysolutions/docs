@@ -24,10 +24,12 @@ The Diagnostics dialog provides tools for troubleshooting. Most of these tools r
 </map>
 
 
-Below is the explanation of these tools with some example illustrations.
+Below is the explanation of these tools with some example illustrations (NB clickable items below).
 
-<OL>
-<LI> <A name="bullet1"> <STRONG>Version NNN. Check for a new version</STRONG>
+
+
+<details><summary> <A name="bullet1"> <STRONG>1. Version NNN. Check for a new version</STRONG></summary>
+
 <P>The Interviewer App will try to connect to the synchronization point
 (server) and check for the availability of a new version of the App.</P>
 
@@ -36,8 +38,10 @@ Below is the explanation of these tools with some example illustrations.
 <P>Normally the updates are received and installed during the
 synchronization. Use this item when the synchronization doesn't succeed
 for any reason. The tablet must be online for this feature to succeed.</P>
+</details>
 
-<LI> <A name="bullet2"> <STRONG>Test bandwidth to server</STRONG>
+
+<details><summary><A name="bullet2"> <STRONG>2. Test bandwidth to server</STRONG></summary>
 <P>The Interviewer App will try to connect to the
 synchronization point (server) and measure the response timing.</P>
 
@@ -45,8 +49,10 @@ synchronization point (server) and measure the response timing.</P>
 
 <P>Use this to diagnose the connectivity to the server issues, and quality
 of connection. The tablet must be online for this feature to succeed.</P>
+</details>
 
-<LI> <A name="bullet3"> <STRONG>Send trace logs</STRONG>
+<details><summary><A name="bullet3"> <STRONG>3. Send trace logs</STRONG></summary>
+
 <P>This will collect on the tablet device and send
 to the synchronization point (server) the detailed logs of the
 interviewer's work.</P>
@@ -54,8 +60,9 @@ interviewer's work.</P>
 <P>The device logs (introduced in v19.11) are available
 for <A href="/headquarters/config/device-logs/">review at the server by the ADMIN user</A>
 only. The tablet must be online for this feature to succeed.</P>
+</details>
 
-<LI> <A name="bullet4"> <STRONG>Collect and send to HQ all tablet information</STRONG>
+<details><summary><A name="bullet4"> <STRONG>4. Collect and send to HQ all tablet information</STRONG></summary>
 <P>This will collect, pack, and send to the
 synchronization point (server) all the content stored on the tablet.</P>
 
@@ -72,8 +79,8 @@ if you are concerned about the traffic use).</P>
 <P>Make sure you confirm sending and wait for the sending to succeed,
 otherwise the your data will not reach the synchronization point.</P>
 <P>The tablet must be online for this feature to succeed.</P>
-
-<LI> <A name="bullet5"> <STRONG>Generate support package</STRONG>
+</details>
+<details><summary><A name="bullet5"> <STRONG>5. Generate support package</STRONG></summary>
 <P>This will save all the information stored on the tablet to a file
 that can be transferred to the support team when requested.</P>
 
@@ -85,8 +92,9 @@ not be used or attempted to be used as such. You will not be able to
 restore the interviews data from this file.  The tablet doesn't need
 to be online for this feature to succeed, the resulting file may
 be shared using any means (saved to SD card, USB-stick, etc).</P>
-
-<LI> <A name="bullet6"> <STRONG> Share all technical information</STRONG>
+</details>
+<details>
+<summary><A name="bullet6"> <STRONG>6. Share all technical information</STRONG></summary>
 <P>This will collect the descriptive information about the device and the
 Interviewer App installation and generate a textual description that can
 be shared with the support team or a colleague/consultant providing
@@ -97,5 +105,4 @@ technical support. Here is an example of such a description</P>
 <P>The tablet must doesn't need to be online for this feature to succeed.
 The resulting textual description may be shared using any means (saved to
 a file, sent by email, etc).</P>
-
-</OL>
+</details>
