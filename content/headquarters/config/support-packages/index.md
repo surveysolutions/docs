@@ -1,9 +1,12 @@
 +++
-title = "Tablet information packages"
-keywords = ["configuration", "troubleshoot", "tablet", "support package"]
+title = "Support packages"
+keywords = ["configuration", "troubleshoot", "tablet", "support package", "tablet information package"]
 date = 2021-03-17
 aliases = []
 +++
+
+***Support packages*** are also known as *tablet information packages*. These
+terms are used interchangeably in this documentation.
 
 Survey Solutions contains a built-in mechanism for collecting the data from
 tablets and transmitting it to the HQ server. This helps to investigate the
