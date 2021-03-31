@@ -17,15 +17,17 @@ Internet connectivity is required to transmit the device logs to the server.
 
 ###### On the server
 
-The trace logs sent from other devices are available to the server administrator, who can access them from `Menu` -> `Administration` -> `Device logs`:
+The trace logs sent from other devices are available to the server administrator, who can access them from `Menu` &#x2192; `Server Administration` &#x2192; click particular workspace name &#x2192; `Device logs`:
 
 <CENTER><IMG src="images/SendLogs2.png" width="800"></CENTER>
 
 The table contains the device identifier (visible on the tablet in the [Settings Dialog](/interviewer/troubleshooting/interviewer-app-settings/)), name (if available) and date/time when the logs package was sent.
 
-Note that the name may be missing, as the logs may be sent even before the user has successfully logged in. 
+Note that the user name may be missing, as the logs may be sent even before the user has successfully logged in.
 
 The table is sortable by any of the columns. Click on the column header to sort.
+
+To download the device logs, click on a particular row and select `Download` from the menu that appears.
 
 ###### Device log example
 
@@ -33,3 +35,6 @@ Each device log is a zip-archive, which contains one or more files with a descri
 
 <CENTER><IMG src="images/DeviceLogs.png" width="500"></CENTER>
 
+{{< panel title="Note:" style="info">}}
+  Exactly the same device logs are also contained in tablet information packages ([support packages](/headquarters/config/support-packages/)). <BR> If you've already received a tablet information package there is usually no need to retrieve the device logs separately.
+{{< /panel >}}

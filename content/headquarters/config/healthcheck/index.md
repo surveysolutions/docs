@@ -31,5 +31,20 @@ number of broken packages may become positive due to miscoordination between the
 interviewers and supervisors (e.g. the same interview rejected to two different
 interviewers) even under normal work.
 
+The following can be the statuses for the healthcheck:
+
+- ***Healthy*** (green) - export service is responding and can access headquarters;
+- ***Degraded*** (yellow) - export service is not answering;
+- ***Unhealthy*** (red) - export service cannot access headquarters;
+
+The healthcheck status is available for monitoring remotely (without
+authorization) at the following URL: https://your.server.name/.hc
+
+For example, for the publicly available demo server the healthcheck status URL is:
+https://demo.mysurvey.solutions/.hc
+
+The response contains exactly one word: "*Healthy*", "*Degraded*", or
+"*Unhealthy*".
+
 The healthcheck diagnostics tool has been added in version 20.07 of Survey
 Solutions.
