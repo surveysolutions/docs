@@ -3,7 +3,7 @@ title = "Download and Install the Interviewer Application"
 keywords = ["interviewer","tablet","download app","app"]
 date = 2016-06-23T22:41:13Z
 lastmod = 2016-06-23T22:41:13Z
-aliases = ["/customer/portal/articles/2475216-download-and-install-the-interviewer-application","/customer/en/portal/articles/2475216-download-and-install-the-interviewer-application","/customer/portal/articles/2475216","/customer/en/portal/articles/2475216","/getting-started/download-and-install-the-interviewer-application", "/interviewer-installation"]
+aliases = ["/customer/portal/articles/2475216-download-and-install-the-interviewer-application","/customer/en/portal/articles/2475216-download-and-install-the-interviewer-application","/customer/portal/articles/2475216","/customer/en/portal/articles/2475216","/getting-started/download-and-install-the-interviewer-application", "/interviewer-installation.html"]
 
 +++
 
