@@ -47,6 +47,7 @@ jobs:
         external_repository: surveysolutions/docs.mysurvey.solutions 
         deploy_key: ${{ secrets.DEPLOY_SUPPORT_PAGES }}
         publish_dir: ./public
+        exclude_assets: '.github,algolia.json'
         commit_message: ${{ github.event.head_commit.message }}
         force_orphan: true
         cname: docs.mysurvey.solutions
