@@ -24,25 +24,21 @@ the latest stable version (note: Survey Solutions will not work with PostgreSQL
 
 During the process you'll set the password for the database superuser:
 
-<details>
-  <summary>📷 PostgreSQL password</summary>
-
-  ![Postgres password](images/pg_password.png "PostgreSQL password")
-</details>
-<BR>
+{{% folded summary="📷 PostgreSQL password" %}}
+![Postgres password](images/pg_password.png "PostgreSQL password")
+{{% /folded %}}
 
 and the port, on which the PostgreSQL server will be running:
-<details>
-  <summary>📷 PostgreSQL port</summary>
 
-  ![Postgres port](images/pg_port.png "PostgreSQL port")
-</details>
-<BR>
+{{% folded summary="📷 PostgreSQL port" %}}
+![Postgres port](images/pg_port.png "PostgreSQL port")
+{{% /folded %}}
+
 
 After the installation is complete, follow the instructions for
 [tuning PostgreSQL for production use](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)
 
-By default, PostgreSQL us setup to allow connections from the same server only. If you are going to install
+By default, PostgreSQL is set up to allow connections from the same server only. If you are going to install
 Survey Solutions on the same server, you don't need to change this default. However if you are splitting the database
 and the web application into two separate servers (may be advisable for larger-scale operations when administration and
 maintenance of the database is better by its own) you have to explicitly allow connections from external server to reach
@@ -59,23 +55,16 @@ and PostgreSQL connection parameters.
 
 For the install location – choose any or keep the default (`C:\Survey Solutions\`)
 
-<details>
-  <summary>📷 Survey Solutions location</summary>
-
-  ![Survey Solutions location](images/ss_location.png)
-</details>
-<BR>
+{{% folded summary="📷 Survey Solutions location" %}}
+![Survey Solutions location](images/ss_location.png)
+{{% /folded %}}
 
 For PostgreSQL connection parameters (default values will be already there)
 specify the port and password you've chosen when setting up the PostgreSQL
 earlier:
-<details>
-  <summary>📷 Survey Solutions database connection</summary>
-
-  ![Survey Solutions database connection](images/ss_connection_settings.png)
-</details>
-<BR>
-
+{{% folded summary="📷 Survey Solutions database connection" %}}
+![Survey Solutions database connection](images/ss_connection_settings.png)
+{{% /folded %}}
 
 That's it. At the end, finish installation page will automatically open
 in your browser where you'll be able to create administrator user for
@@ -101,35 +90,62 @@ The post-installation configuration involves the following:
   - [Google Maps](#googlemaps);
   - [GeoTIFF](#geotiff).
 
-<A name="bindings"></A>
-### Adjusting the site bindings
+### Adjusting the site bindings {#bindings}
 
-By default Survey Solutions is installed as a web application and runs
-behind the IIS web server. By default it uses port 9700. This will
-require all users to add the port number :9700 when referring to your
-server in any URL.
+By default, Survey Solutions is installed as a web application and runs
+behind the IIS web server using port 9700. A custom port is used
+to avoid potential conflicts with existing web applications you may already be
+running on the same server. Also, most firewalls will block custom ports by default
+and this will help you in protecting your data by not exposing your application to 
+external networks/Internet unintentionally.
 
-Most firewalls will block custom ports by default and additional
-configuration may be required to have the server accessible from
-external networks/Internet.
+Accessing your application via `localhost` only works from the same computer, in order
+to connect to it from a different machine or an Android tablet, you have to use (and know)
+your server's ip address.
 
-If you need to change port you can do it in the IIS configuration manager.
+One option to find the computer's ip address information is using `ipconfig`. To
+access it, right click on start menu, select run option and execute `ipconfig /all` command.
+
+{{% folded summary="📷 Finding ip address" %}}
+![Finding ip address](images/ss_ipconfig.png)
+{{% /folded %}}
+
+`/all` option is used in case your server has multiple network interfaces.
+
+Once you locate the appropriate address, you can access your server from any other device (connected to the same network)
+by typing `http://server_ip_address:9700/` in the browser. For our example, the address would look like
+this: `http://192.168.136.128:9700/` 
+
+You can now change the port 9700 to 80 in the IIS configuration manager.
 To access it right click on start menu, select run option and execute the
 `inetmgr` command.
 
 In the IIS Manager you will find the Survey Solutions application:
-<details>
-  <summary>📷 Survey Solutions in IIS Manager</summary>
-
-  ![Survey Solutions in IIS Manager](images/ss_iis_settings.png)
-</details>
-<BR>
+{{% folded summary="📷 Survey Solutions in IIS Manager" %}}
+![Survey Solutions in IIS Manager](images/ss_iis_settings.png)
+{{% /folded %}}
 
 If you click on the `Bindings...` link in the right panel you will be
-able to add new ports, such as 80 for HTTP and 443 for HTTPS.
+able to add or modify ports that application listens to, such as 80 for HTTP, or 443 for HTTPS (see [below](#ssl)).
 
-<A name="ssl"></A>
-### SSL certificate
+Now you can ommit the custom port number when accessing the server - `http://192.168.136.128/`.
+
+Remembering and always typing ip address to connect to the server is still not the best and convinient approach. You
+could instead attach a domain name to your server, which would simplify work considerably. Moreover, in order to be
+able to use [ssl](#ssl) encryption, you must have a domain name attached to the web application.
+
+Obtaining a domain name for the specific purpose of running one application will depend on the way you'd like it to be 
+accessed by your team and the users. If you would like to get a sub-domain (third-level, forth-level, etc, domain) under
+an existing domain name (for example, your organization already operates http://www.coolcompany.com address and you want to add
+http://survey.coolcompany.com) it may be as easy as contacting the right person/team who manages the main address and ask them 
+to issue the sub-domain for you.
+
+But if you instead prefer to have a dedicated, second-level domain name, like http://mycoolsurveys.com address, you will need to
+first buy and register the new address. There are many companies who provide global, or country-specific domain registration services,
+some of them offering free or discounted options, so finding an appropriate solution for your need would involve little
+[searching](https://www.google.com/search?channel=fs&client=ubuntu&q=buying+a+domain+name).
+
+### SSL certificate {#ssl}
 If your Survey Solutions instance is exposed to the public in the Internet,
 it is highly recommended to setup SSL encryption for web server by applying
 an SSL certificate.
@@ -138,8 +154,7 @@ The configuration depends on the
 [certificate provider](https://en.wikipedia.org/wiki/Certificate_authority#Providers)
 that you choose, so refer to their documentation on how to setup IIS.
 
-<A name="firewall"></A>
-### Firewall rules
+### Firewall rules {#firewall}
 
 To permit communication of Survey Solutions with the Designer and other utilized
 services you may need to enable certain ports or types of communication as
@@ -170,8 +185,7 @@ queries (rather than block them). This may necessitate additional
 this is not permitted, the interviewers may not be able to synchronize their
 tablets.
 
-<A name="loadbalancer"></A>
-### Load balancer
+### Load balancer {#loadbalancer}
 
 If you are using a load balancer, please make sure that it is configured to use:
 
@@ -182,22 +196,17 @@ If this is not satisfied, web interviews will not work resulting in errors for
 the respondents (this may not be immediately obvious to the person setting up
 the Survey Solutions server).
 
-<A name="configuration"></A>
-### Survey Solutions application configuration
+### Survey Solutions application configuration {#configuration}
 
 Open the `/Site` folder where Survey Solutions is installed, and open
 `appsettings.Production.ini` file. This file will not be replaced during
 application upgrades and will retain your local server configuration.
 
-<details>
-  <summary>📷 Survey Solutions configuration file</summary>
+{{% folded summary="📷 Survey Solutions configuration file" %}}
+![Survey Solutions configuration file](images/ss_config.png)
+{{% /folded %}}
 
-  ![Survey Solutions configuration file](images/ss_config.png)
-</details>
-<BR>
-
-<A name="baseurl"></A>
-#### Base URL
+#### Base URL {#baseurl}
 
 If your server has domain name you need to change `BaseUrl` value to the name
 you have (without trailing slash at the end of the URL). Make sure that this
@@ -210,8 +219,8 @@ Example of an ini-file with configured base URL:
 [Headquarters]
 BaseUrl=https://demo.mysurvey.solutions
 ```
-<A name="captcha"></A>
-#### Captcha
+
+#### Captcha {#captcha}
 
 A captcha is used to safeguard the application from brute force attacks on
 user accounts and for protection of web mode from automatic creation of
@@ -246,8 +255,7 @@ SiteKey=%Your site key%
 Version=v2
 ```
 
-<A name="googlemaps"></A>
-#### Google maps
+#### Google maps {#googlemaps}
 
 If you are using a GPS question you should change
 [Google maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key).
@@ -262,15 +270,11 @@ ApiKey=%Your API key%
 when not configured properly you will see error
 `ReferenceError: google is not defined` on the map report page:
 
-<details>
-  <summary>📷 Survey Solutions maps error</summary>
+{{% folded summary="📷 Survey Solutions maps error" %}}
+![Survey Solutions maps error](images/ss_maps_error.png)
+{{% /folded %}}
 
-  ![Survey Solutions maps error](images/ss_maps_error.png)
-</details>
-<BR>
-
-<A name="geotiff"></A>
-#### GeoTIFF files support
+#### GeoTIFF files support {#geotiff}
 
 If you are using
 [GIS](/questionnaire-designer/questions/offline-gis-functionality-expansion/)

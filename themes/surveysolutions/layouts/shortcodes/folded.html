@@ -1,0 +1,7 @@
+<details>
+    {{ if isset .Params "summary" }}<summary>{{ index .Params "summary" }}</summary>{{ end }}
+    {{ with .Inner }}
+	{{ . }}
+	{{ end }}
+</details>
+<BR>
