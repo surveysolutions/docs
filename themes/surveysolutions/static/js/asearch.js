@@ -74,7 +74,7 @@ autocomplete('#aa-search-input',
 	]).on('autocomplete:selected', function (event, suggestion, dataset) {
 		var siteurl = '';
 		if (dataset == 'forum') {
-			siteurl = 'http://forum.mysurvey.solutions';
+			siteurl = 'https://forum.mysurvey.solutions';
 		}
 		window.location.href = siteurl + suggestion.url;
 		enterPressed = true;
