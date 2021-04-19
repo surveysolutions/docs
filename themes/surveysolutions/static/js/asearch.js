@@ -9,7 +9,7 @@ autocomplete('#aa-search-input',
 		debug: false,
 		templates: {
 			dropdownMenu: '#my-custom-menu-template',
-			footer: '<div class="branding float-right">Search by <img src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg" /></div>'
+			footer: '<div class="branding float-right"><img src="/img/search-by-algolia-light-background.svg" /></div>'
 		}
 	},
 	[
