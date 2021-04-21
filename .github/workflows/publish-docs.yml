@@ -25,21 +25,25 @@ jobs:
     - name: Build
       run: hugo --minify --cleanDestinationDir
 
-    - name: Update search index
-      continue-on-error: true
+    - name: Setup python
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
+
+    - name: Update search index
+      continue-on-error: true
       run: python update-search-index.py
       env:
         ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         ALGOLIA_APP_ID: "5IDMO489J3"
 
-    - name: Update search index [npm]
-      continue-on-error: true
+    - name: Setup node
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+
+    - name: Update search index [npm]
+      continue-on-error: true
       run: |
         npm install
         npm run algolia
