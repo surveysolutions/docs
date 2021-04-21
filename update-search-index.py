@@ -61,24 +61,26 @@ if posts_to_delete > 0:
     print(f"Deleteing {posts_to_delete} posts")
     free_space(posts_index, posts, posts_to_delete)
 
-batch_operations = []
-for id in to_be_added:
-    batch_operations.append({
+batch_operations = [{
+        "action": "deleteObject",
+        "indexName": "support.mysurvey.solutions",
+        "body": {"objectID": id}
+    } for id in to_be_deleted]
+
+# delete objects first so that we don run over the quota
+client.multiple_batch(batch_operations)
+
+
+batch_operations = [{
         "action": "addObject",
         "indexName": "support.mysurvey.solutions",
         "body": local_articles[id]
-    })
+    } for id in to_be_added]
 for id in to_be_updated:
     batch_operations.append({
         "action": "updateObject",
         "indexName": "support.mysurvey.solutions",
         "body": local_articles[id]
-    })
-for id in to_be_deleted:
-    batch_operations.append({
-        "action": "deleteObject",
-        "indexName": "support.mysurvey.solutions",
-        "body": {"objectID": id}
     })
 
 client.multiple_batch(batch_operations)
