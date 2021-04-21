@@ -10,7 +10,7 @@
         {{- $.Scratch.Add "content" " " -}}
         {{- $.Scratch.Add "content" . -}}
       {{- end -}}
-      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+      {{- $.Scratch.Add "index" (dict "objectID" (print .File.UniqueID "-0") "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
     {{- end -}}
     {{- if gt .PlainWords 1000 -}}
       {{- $.Scratch.Delete "content" -}}
@@ -18,7 +18,7 @@
         {{- $.Scratch.Add "content" " " -}}
         {{- $.Scratch.Add "content" . -}}
       {{- end -}}
-      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+      {{- $.Scratch.Add "index" (dict "objectID" (print .File.UniqueID "-1") "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
     {{- end -}}
     {{- if gt .PlainWords 2000 -}}
       {{- $.Scratch.Delete "content" -}}
@@ -26,7 +26,7 @@
         {{- $.Scratch.Add "content" " " -}}
         {{- $.Scratch.Add "content" . -}}
       {{- end -}}
-      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+      {{- $.Scratch.Add "index" (dict "objectID" (print .File.UniqueID "-2") "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
     {{- end -}}
     {{- if gt .PlainWords 3000 -}}
       {{- $.Scratch.Delete "content" -}}
@@ -34,7 +34,7 @@
         {{- $.Scratch.Add "content" " " -}}
         {{- $.Scratch.Add "content" . -}}
       {{- end -}}
-      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+      {{- $.Scratch.Add "index" (dict "objectID" (print .File.UniqueID "-3") "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
     {{- end -}}
     {{- if gt .PlainWords 4000 -}}
       {{- $.Scratch.Delete "content" -}}
@@ -42,7 +42,7 @@
         {{- $.Scratch.Add "content" " " -}}
         {{- $.Scratch.Add "content" . -}}
       {{- end -}}
-      {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
+      {{- $.Scratch.Add "index" (dict "objectID" (print .File.UniqueID "-4") "lang" .Lang "lastmod" (.Lastmod.Format "January 2, 2006") "content" ($.Scratch.Get "content") "title" .Title "type" .Type "url" .RelPermalink "wordcount" .WordCount "section" $pagesection.Title "keywords" .Keywords)}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
