@@ -32,7 +32,9 @@ jobs:
 
     - name: Update search index
       continue-on-error: true
-      run: python update-search-index.py
+      run: |
+        python -m pip install --upgrade 'algoliasearch>=2.0,<3.0'
+        python update-search-index.py
       env:
         ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         ALGOLIA_APP_ID: "5IDMO489J3"
