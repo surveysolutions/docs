@@ -63,3 +63,12 @@ supervisors/HQ-users to review the interviews on the server.
 <CENTER><A href="images/ping-pong.png">
   <img src="images/ping-pong.png" width=800>
 </A></CENTER>
+
+{{< panel title="" style="warning">}}
+<BR>
+The web sockets test is only informative if ran from an external network 
+(from the internet). When run directly on the server it will indicate 
+availability of web sockets, yet the real user experience may be different.
+{{% /panel %}}
+
+
