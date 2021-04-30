@@ -47,7 +47,7 @@ The same information is available through API queries to help automated
 systems that may reflect this information in the form of calendars or
 schedules.
 
-Alert interviewers of wrong clock settings
+### Alert interviewers of wrong clock settings
 
 Complete discharge of a tablet may lead to reset of the built-in clock to
 some default value, such as the date of manufacturing of the tablet, or
