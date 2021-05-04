@@ -57,79 +57,71 @@ conßnectivity problems. This will help you track down the exact reason
 for the problem and use the troubleshooting guide below to find a remedy
 for it.**
 
-<table>
+<table border=1>
+
 <thead>
-<tr>
-<th>Message</th>
-<th>Possible situation</th>
-<th>Recommendations</th>
+<tr bgcolor="orange">
+  <th><CENTER>Message</CENTER></th>
+  <th><CENTER>Possible situation</CENTER></th>
+  <th><CENTER>Recommendations</CENTER></th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td><span style="color:#008000;">Synchronization successfully completed. All assignments were updated.</span></td>
+<td width=160><span style="color:#008000;">Synchronization successfully completed. All assignments were updated.</span></td>
 <td >Situation normal. No error.</td>
 <td>Continue working as usual.</td>
 </tr>
 <tr>
-<td><span style="color:#FFA07A;">Synchronization was interrupted, please try again. No network. Check your network settings.</span></td>
+<td rowspan=7 valign=top><span style="color:#FFA07A;">Synchronization was interrupted, please try again. No network. Check your network settings.</span></td>
 <td>Not connected to WiFi network or lost the network connection during synchronization.</td>
 <td>Check the connection to network is established. Try to open any site known to be operational at the moment, e.g. <em>www.google.com</em></td>
 </tr>
 <tr>
-<td> </td>
 <td>Out of coverage area.</td>
 <td>Move to the area with 3G/4G wireless coverage.</td>
 </tr>
 <tr>
-<td> </td>
 <td>Mobile data switched off.</td>
 <td>Switch the mobile data on in the tablet settings.</td>
 </tr>
 <tr>
-<td> </td>
 <td>SIM card or data transfer disabled by the wireless provider.</td>
 <td>Check if any site can be opened in browser. If not contact the SIM card (wireless) provider.</td>
 </tr>
 <tr>
-<td> </td>
 <td>SIM card hardware malfunction</td>
 <td>Check the SIM card is working in a different device. If not, replace the SIM card.</td>
 </tr>
 <tr>
-<td> </td>
 <td>SIM card data plan traffic is exhausted.</td>
 <td>Purchase additional traffic allowance from the SIM card vendor, or use an alternative network.</td>
 </tr>
 <tr>
-<td> </td>
 <td>Tablet hardware issue</td>
 <td>Check the wireless card and antenna according to the tablet manufacturer's checklist.</td>
 </tr>
 <tr>
-<td><span style="color:#FFA07A;">Synchronization was interrupted, please try again. No connection to the Survey Solutions Supervisor. Please make sure that the website is available.</span></td>
+<td rowspan=6 valign=top><span style="color:#FFA07A;">Synchronization was interrupted, please try again. No connection to the Survey Solutions Supervisor. Please make sure that the website is available.</span></td>
 <td>Connected to a network, which requires further authentication or acceptance of special conditions, or payment.</td>
 <td>Authenticate in the network (common for networks in hotels, cafes, etc)</td>
 </tr>
 <tr>
-<td> </td>
 <td>Connected to a network, which limits access to certain sites or resources.</td>
 <td>Make sure the HQ address of the server is whitelisted in the network.</td>
 </tr>
 <tr>
-<td> </td>
 <td>Connected to a network, which limits access to Internet during certain hours.</td>
 <td>Reconnect and retry during the hours when the network permits connections outside.<br />
 <br />
 Or use an alternative network/connection.</td>
 </tr>
 <tr>
-<td> </td>
 <td>Survey Solutions synchronization point is entered incorrectly (or subsequently changed).</td>
 <td>Verify in the <A href="/interviewer/troubleshooting/interviewer-app-settings/">interviewer app settings</A> (<em>Supervisor URL</em>) that the entered URL or IP is accurate for the Survey Solutions server.</td>
 </tr>
 <tr>
-<td>
 <td>Survey Solutions web server is down. </td>
 <td>Wait for 30 minutes (or until the end of the planned outage/maintenance period) and retry.<br />
 <br />
@@ -138,7 +130,11 @@ If the issue persists, open the synchronization point address in the web browser
 Contact the server administrator with the error message displayed in the browser (attach a screenshot).</td>
 </tr>
 <tr>
-<td><span style="color:#FFA07A;">Synchronization was interrupted, please try again. Timeout when connecting to the Survey Solutions Supervisor website. Check your internet connection.</span></td>
+  <td>Survey Solutions server is misconfigured</td>
+  <td>If the message is issued on initialization of the Interviewer App on the tablet, and the site responds normally, when accessed from the same tablet, then check with the server administrator if the server is blocking any queries based on the WAF rules and introduce exceptions for the Survey Solutions.</TD>
+
+<tr>
+<td rowspan=2 valign=top><span style="color:#FFA07A;">Synchronization was interrupted, please try again. Timeout when connecting to the Survey Solutions Supervisor website. Check your internet connection.</span></td>
 <td>Extremely slow network with packages delivered after a significant delay or lost.</td>
 <td>Check the <em>Server Response timeout</em> setting in the [Settings of the Interviewer App](/interviewer/troubleshooting/interviewer-app-settings/) app is reasonably large, increase if necessary.<br />
 <br />
@@ -147,7 +143,6 @@ Use alternative network if available.<br />
 Retry in different time when the network is not so busy.</td>
 </tr>
 <tr>
-<td> </td>
 <td>Connected to a network where the firewall is setup to prevent access to outside resources with timeout rather than special denial code.</td>
 <td>Contact the network administrator to check the firewall settings of the network and make sure the synchronization point is accessible.</td>
 </tr>

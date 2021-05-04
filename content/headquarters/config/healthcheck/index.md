@@ -49,13 +49,13 @@ The response contains exactly one word: "*Healthy*", "*Degraded*", or
 The healthcheck diagnostics tool has been added in version 20.07 of Survey
 Solutions.
 
-### Web socket connectivity check
+### WebSocket connectivity check
 
 Following the server metrics the healthcheck page shows the process of testing
-the web socket connectivity. Under the normal operation the user should observe
+the WebSocket connectivity. Under the normal operation the user should observe
 a sequence of PING and PONG messages with an interval of about 1-3 seconds. If
 only PING messages are observed and no PONG responses are received, then the
-server is experiencing a disruption in the web sockets connectivity. This
+server is experiencing a disruption in the WebSocket connectivity. This
 connectivity is necessary for [SignalR](https://en.wikipedia.org/wiki/SignalR),
 which is utilized in Survey Solutions to conduct web interviews and allow the
 supervisors/HQ-users to review the interviews on the server.
@@ -66,9 +66,16 @@ supervisors/HQ-users to review the interviews on the server.
 
 {{< panel title="" style="warning">}}
 <BR>
-The web sockets test is only informative if ran from an external network 
+The WebSockets test is only informative if ran from an external network 
 (from the internet). When run directly on the server it will indicate 
-availability of web sockets, yet the real user experience may be different.
+availability of WebSockets, yet the real user experience may be different.
 {{% /panel %}}
 
+{{< panel title="" style="warning">}}
+<BR>
+Note also that the PING-PONG communication here may indicate that a response 
+has been received, but not over the <I>WebSockets</I>, but rather using <I>LongPolling</I>.
+This is not sufficient for Survey Solutions. Make sure the test succeeds in
+communication specifically over <B>WebSockets</B>.
+{{% /panel %}}
 
