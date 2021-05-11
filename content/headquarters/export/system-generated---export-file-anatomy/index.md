@@ -7,22 +7,22 @@ lastmod = 2019-10-01T01:01:01Z
 
 +++
 
-Every archive of data exported from the Survey Solutions Headquarters 
+Every archive of data exported from the Survey Solutions Headquarters
 contains among the user data the following system-generated data files:
 
-- assignment__actions;
-- interview__actions;
-- interview__comments;
-- [interview__diagnostics](/headquarters/export/interview_diagnostics_file/);
-- interview__errors.
+- `assignment__actions`
+- `interview__actions`
+- `interview__comments`
+- [`interview__diagnostics`](/headquarters/export/interview_diagnostics_file/)
+- `interview__errors`
 
-The above data files are saved in the same data format as the main survey 
-data, for example, if the main data is requested in Stata format, the 
+The above data files are saved in the same data format as the main survey
+data, for example, if the main data is requested in Stata format, the
 system-generated data files will also be exported in Stata format.
 
 The data files are also accompanied by an automatically generated text file
-named <TT>export\_\_readme.txt</TT>. This file documents which version of
-the Survey Solutions software was used to export the data, when the 
+named <TT>export__readme.txt</TT>. This file documents which version of
+the Survey Solutions software was used to export the data, when the
 export was done, and placement of variables into the data files. Here is
 an <A href="resources/export__readme.txt">example</A> of such a file that
 may be accompanying, e.g. an agricultural survey.
@@ -216,35 +216,35 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>roster</TT></TD>
-  <TD>\*string</TD>
+  <TD>*string</TD>
   <TD>Name of the roster containing the variable</TD>
   <TD>members</TD>
 </TR>
 
 <TR>
   <TD><TT>id1</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 1st level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id2</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 2nd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id3</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 3rd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id4</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 4th level of nesting</TD>
   <TD>7</TD>
 </TR>
@@ -310,21 +310,21 @@ The contents of the system-generated data files is described in the table below:
 </TR>
 
 <TR>
-  <TD><TT>interview\_\_key</TT></TD>
+  <TD><TT>interview__key</TT></TD>
   <TD>string</TD>
   <TD>Interview key (identifier in XX-XX-XX-XX format)</TD>
   <TD>12-34-56-78</TD>
 </TR>
 
 <TR>
-  <TD><TT>interview\_\_id</TT></TD>
+  <TD><TT>interview__id</TT></TD>
   <TD>string</TD>
   <TD>Unique 32-character long identifier (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview</TD>
   <TD>5b3c8288289646699580e16f5d1b6d1e</TD>
 </TR>
 
 <TR>
-  <TD><TT>interview\_\_status</TT></TD>
+  <TD><TT>interview__status</TT></TD>
   <TD>numeric</TD>
   <TD>Last status of interview. See <A href="#coding_status">status codes</A>.</TD>
   <TD>100</TD>
@@ -344,25 +344,25 @@ The contents of the system-generated data files is described in the table below:
   <TD>1</TD>
 </TR>
 <TR>
-  <TD><TT>rejections\_\_sup</TT></TD>
+  <TD><TT>rejections__sup</TT></TD>
   <TD>numeric</TD>
   <TD>How many times this interview was rejected by supervisors</TD>
   <TD>0</TD>
 </TR>
 <TR>
-  <TD><TT>rejections\_\_hq</TT></TD>
+  <TD><TT>rejections__hq</TT></TD>
   <TD>numeric</TD>
   <TD>How many times this interview was rejected by HQ</TD>
   <TD>1</TD>
 </TR>
 <TR>
-  <TD><TT>entities\_\_errors</TT></TD>
+  <TD><TT>entities__errors</TT></TD>
   <TD>numeric</TD>
   <TD>Number of questions and static texts with errors</TD>
   <TD>10</TD>
 </TR>
 <TR>
-  <TD><TT>interview\_\_duration</TT></TD>
+  <TD><TT>interview__duration</TT></TD>
   <TD>string</TD>
   <TD>Active time it took to complete the interview, DD.HH:MM:SS</TD>
   <TD>00.05:28:39</TD>
@@ -380,14 +380,14 @@ The contents of the system-generated data files is described in the table below:
 </TR>
 
 <TR>
-  <TD><TT>interview\_\_key</TT></TD>
+  <TD><TT>interview__key</TT></TD>
   <TD>string</TD>
   <TD>Interview key (identifier in XX-XX-XX-XX format)</TD>
   <TD>12-34-56-78</TD>
 </TR>
 
 <TR>
-  <TD><TT>interview\_\_id</TT></TD>
+  <TD><TT>interview__id</TT></TD>
   <TD>string</TD>
   <TD>Unique 32-character long identifier (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview</TD>
   <TD>5b3c8288289646699580e16f5d1b6d1e</TD>
@@ -395,35 +395,35 @@ The contents of the system-generated data files is described in the table below:
 
 <TR>
   <TD><TT>roster</TT></TD>
-  <TD>\*string</TD>
+  <TD>*string</TD>
   <TD>Name of the roster containing the variable</TD>
   <TD>members</TD>
 </TR>
 
 <TR>
   <TD><TT>id1</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 1st level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id2</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 2nd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id3</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 3rd level of nesting</TD>
   <TD>7</TD>
 </TR>
 
 <TR>
   <TD><TT>id4</TT></TD>
-  <TD>\*numeric</TD>
+  <TD>*numeric</TD>
   <TD>Roster ID of the 4th level of nesting</TD>
   <TD>7</TD>
 </TR>
@@ -459,7 +459,7 @@ The contents of the system-generated data files is described in the table below:
 
 </TABLE>
 
-Fields indicated with a star (\*) are optional and present only if the questionnaire
+Fields indicated with a star (*) are optional and present only if the questionnaire
 template contains rosters.
 
 
@@ -493,14 +493,13 @@ For coded variables in the system-generated data files the following tables outl
   <TH width=80>Code</TH>
   <TH width=200>Meaning</TH>
 </TR>
-<TR><TD align=center>0</TD><TD>Unknown</TD></TR>
 <TR><TD align=center>1</TD><TD>Created</TD></TR>
-<TR><TD align=center>2</TD><TD>Archived</TD></TR>
-<TR><TD align=center>3</TD><TD>Deleted</TD></TR>
+<TR><TD align=center>2</TD><TD>Deleted</TD></TR>
+<TR><TD align=center>3</TD><TD>Reassigned</TD></TR>
 <TR><TD align=center>4</TD><TD>ReceivedByTablet</TD></TR>
-<TR><TD align=center>5</TD><TD>UnArchived</TD></TR>
-<TR><TD align=center>6</TD><TD>AudioRecordingChanged</TD></TR>
-<TR><TD align=center>7</TD><TD>Reassigned</TD></TR>
+<TR><TD align=center>5</TD><TD>Archived</TD></TR>
+<TR><TD align=center>6</TD><TD>Unarchived</TD></TR>
+<TR><TD align=center>7</TD><TD>AudioRecordingChanged</TD></TR>
 <TR><TD align=center>8</TD><TD>QuantityChanged</TD></TR>
 <TR><TD align=center>9</TD><TD>WebModeChanged</TD></TR>
 
@@ -561,6 +560,3 @@ For coded variables in the system-generated data files the following tables outl
 <TR><TD align=center>3</TD><TD>StaticText</TD></TR>
 <TR><TD align=center>4</TD><TD>Variable</TD></TR>
 </TABLE>
-
-
-
