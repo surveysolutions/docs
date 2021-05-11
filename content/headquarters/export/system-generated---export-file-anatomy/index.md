@@ -493,13 +493,14 @@ For coded variables in the system-generated data files the following tables outl
   <TH width=80>Code</TH>
   <TH width=200>Meaning</TH>
 </TR>
+<TR><TD align=center>0</TD><TD>Unknown</TD></TR>
 <TR><TD align=center>1</TD><TD>Created</TD></TR>
-<TR><TD align=center>2</TD><TD>Deleted</TD></TR>
-<TR><TD align=center>3</TD><TD>Reassigned</TD></TR>
+<TR><TD align=center>2</TD><TD>Archived</TD></TR>
+<TR><TD align=center>3</TD><TD>Deleted</TD></TR>
 <TR><TD align=center>4</TD><TD>ReceivedByTablet</TD></TR>
-<TR><TD align=center>5</TD><TD>Archived</TD></TR>
-<TR><TD align=center>6</TD><TD>Unarchived</TD></TR>
-<TR><TD align=center>7</TD><TD>AudioRecordingChanged</TD></TR>
+<TR><TD align=center>5</TD><TD>Unarchived</TD></TR>
+<TR><TD align=center>6</TD><TD>AudioRecordingChanged</TD></TR>
+<TR><TD align=center>7</TD><TD>Reassigned</TD></TR>
 <TR><TD align=center>8</TD><TD>QuantityChanged</TD></TR>
 <TR><TD align=center>9</TD><TD>WebModeChanged</TD></TR>
 
