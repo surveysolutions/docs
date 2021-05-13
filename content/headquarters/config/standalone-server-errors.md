@@ -81,7 +81,7 @@ in the connection string. Typically the name of the user 'postgres' is mentioned
 in the error message unless a different user has been specified in the db
 connection string.
 
-<FONT color="red">11.<PRE>
+<FONT color="red">11. PostgreSQL error XX001<PRE>
 ...
 Exception data:
     Severity: ERROR
@@ -106,8 +106,9 @@ Most of the users are never concerned about the database used by
 Survey Solutions internally, since all the data structures needed for functioning
 of the software are created, updated, and deleted automatically. Technically,
 though, Survey Solutions uses PostgreSQL database for storing the data (this
-  may change in the future, refer to the installation instructions for the
-  current version, section on prerequisites/dependencies).
+may change in the future, refer to the installation instructions for the
+current version, section on prerequisites/dependencies). 
+(<A href="https://www.postgresql.org/docs/12/errcodes-appendix.html">PostgreSQL error</A>)
 
 If the above error message is encountered in the log files, the system
 administrator should plan for a recovery process. Some possible reasons for
@@ -126,7 +127,7 @@ Solutions code, so Survey Solutions developers will not be able to
 provide assistance in case of such failures.
 
 
-<FONT color="red">12.<PRE>
+<FONT color="red">12. PostgreSQL error XX002<PRE>
 ...
 Exception data:
     Severity: ERROR
@@ -137,9 +138,10 @@ Exception data:
 </PRE></FONT>
 
 The above error message is evidence of violation of integrity of the database
-where Survey Solutions stores its data in the server. If the problem is caused
-by failing hardware, then the severity is high and the user should follow the 
-same advice as in the case #11 above.
+where Survey Solutions stores its data in the server 
+(<A href="https://www.postgresql.org/docs/12/errcodes-appendix.html">PostgreSQL error</A>). 
+If the problem is caused by failing hardware, then the severity is high and 
+the user should follow the same advice as in the case #11 above.
 
 If the thorough analysis of the hardware (including search for bad sectors, 
 file read fails, etc) indicates that the hardware is healthy and reliable, the

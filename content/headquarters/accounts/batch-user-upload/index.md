@@ -1,9 +1,15 @@
 ﻿+++
 title = "Batch User Upload"
-keywords = ["batch","create case","survey case","sample mode"]
+keywords = ["batch"]
 date = 2016-06-30T18:18:21Z
-lastmod = 2020-11-27T01:01:01Z
-aliases = ["/customer/portal/articles/2483438-batch-user-upload","/customer/en/portal/articles/2483438-batch-user-upload","/customer/portal/articles/2483438","/customer/en/portal/articles/2483438","/headquarters/batch-user-upload"]
+lastmod = 2021-04-29T01:01:01Z
+aliases = [
+  "/customer/portal/articles/2483438-batch-user-upload",
+  "/customer/en/portal/articles/2483438-batch-user-upload",
+  "/customer/portal/articles/2483438",
+  "/customer/en/portal/articles/2483438",
+  "/headquarters/batch-user-upload"
+]
 
 +++
 
