@@ -7,9 +7,9 @@ lastmod = 2021-05-11T00:00:00Z
 
 The new version 21.05 brings the following new features:
 
-1. User management across workspaces;
-1. Multiple workspaces on the tablets;
-1. Own-passwords enforcement;
+1. User management across workspaces
+1. Multiple workspaces on the tablets
+1. Own-passwords enforcement
 1. CAPI/CAWI Switch
 1. Dynamic filters
 1. Exposed variables
@@ -128,6 +128,5 @@ Exposed variables is a new feature in Survey Solutions Headquarters that allows 
 We have introduced an [interview progress indicator](/interviewer/app/progress-indicator) shows the progress of the interview as a percentage of answered questions in all questions.
 
 ### Other changes and fixes
-
 - Reminders were sent to web respondents if they failed to respond to a CAWI survey even after the survey was closed (web-mode disabled). This has been fixed.
 - [Command line parameters](/headquarters/config/installer-command-line/) for the Survey Solutions server installer have been introduced.
