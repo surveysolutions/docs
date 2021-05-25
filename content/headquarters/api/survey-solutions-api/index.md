@@ -10,7 +10,7 @@ aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/e
 Survey Solutions includes a powerful and flexible API which allows
 automating some tasks and allows our users to build larger systems,
 which may compliment Survey Solutions to achieve larger goals.   
-  
+
 Some examples of use could be:
 
 -   schedule periodic export of collected data
@@ -25,33 +25,69 @@ Some examples of use could be:
 -   facility management, inventory and price monitoring systems, etc,
     etc.
 
-  
+
 It is up to our users to decide on the particular scenario of use taking
 into account their needs and existing legacy systems already in place.
 The integration mode is usually dictated by the external system, which
 may determine, for example, in which language the system is implemented
 or to which storage the data is transferred from Survey Solutions.  
-  
+
 To utilize an API in your application an API user account must be
-created by the server administrator:  
-{{< imgproc "images/799204.png" Fit "800x600" />}}  
+created by the server administrator.
 
 What Survey Solutions is making available to external
 applications/systems is a set of levers, which allow performing the same
 tasks performed by the actual users of the software. This functionality
 is implemented through a set of standardized web requests which are
 documented in the following [interactive guide for API
-users](https://demo.mysurvey.solutions/apidocs/index#/).  
-
-There are also available native clients for following languages:
-- [.NET package](/headquarters/api/dot-net-package)
-- [PowerShell module]({{< ref "/headquarters/api/ps-module" >}})
-- [Python package](https://github.com/vavalomi/ssaw)
-- [R package]({{< ref "/headquarters/api/api-r-package" >}})
-- [Stata package](https://github.com/radyakin/susoapi)
-
-
-Every Survey Solutions server provides an API. It is important to verify
+users](https://demo.mysurvey.solutions/apidocs/index#/). Every Survey Solutions server provides an API. It is important to verify
 the reference against the exact version contained in your server to make
 sure the correct syntax for API calls is being used. This syntax may be
-expanded or revised in future releases.
+expanded or revised in future releases.  
+
+
+#### API Clients
+
+The API clients listed below provide convenient access to the API functionality for developers in the corresponding environments/languages.
+
+<TABLE  class="table table-striped table-hover" border>
+<TR>
+  <TH width=100><CENTER>API Client</CENTER></TH>
+  <TH width=100><CENTER>Source code</CENTER></TH>
+  <TH width=100><CENTER>Manual</CENTER></TH>
+  <TH width=100><CENTER>More info</CENTER></TH>
+</TR>
+
+<TR>
+  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/240px-.NET_Logo.svg.png" width=48><BR>.NET package</CENTER></TD>
+  <TD><CENTER><A href="https://github.com/SlyNet/SurveySolutionsClient"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
+  <TD>
+  <TD><CENTER><A href="/headquarters/api/dot-net-package/">more</A></CENTER>
+
+<TR>
+  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" width=48><BR>PowerShell module</CENTER></TD>
+  <TD><CENTER><A href="https://github.com/vavalomi/ssaw-powershell"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
+  <TD>
+  <TD><CENTER><A href="/headquarters/api/ps-module/">more</A></CENTER>
+
+<TR>
+  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/48px-Python.svg.png" width=48><BR>Python package</CENTER></TD>
+  <TD><CENTER><A href="https://github.com/vavalomi/ssaw"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
+  <TD>
+  <TD><CENTER><A href=""></A></CENTER>
+
+<TR>
+  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/310px-R_logo.svg.png" width=48><BR>R package</CENTER></TD>
+    <TD><CENTER><A href="https://github.com/michael-cw/SurveySolutionsAPI"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
+  <TD>
+  <TD><CENTER><A href="/headquarters/api/api-r-package/">more</A></CENTER>
+
+<TR>
+  <TD><CENTER><IMG src="images/s16_72.png" width=48><BR>
+  Stata package</CENTER></TD>
+  <TD><CENTER><A href="https://github.com/radyakin/susoapi"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
+  <TD><CENTER><A href="https://github.com/radyakin/susoapi/releases/latest/download/susoapi.pdf"><IMG src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" style="height:48px;"><BR>Manual in PDF</A></CENTER>
+  <TD></TD>
+</TABLE>
+
+Users of other languages can develop their applications by calling the API points directly, or by developing own API client for their specific programming language. If you do so, please share a notice in the <A href="https://forum.mysurvey.solutions">users' forum</A>.
