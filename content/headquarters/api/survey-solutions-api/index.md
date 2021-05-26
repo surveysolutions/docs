@@ -2,7 +2,6 @@
 title = "Survey Solutions API"
 keywords = ["api", "ssaw", "SurveySolutionsAPI"]
 date = 2017-07-19T19:29:51Z
-lastmod = 2017-07-19T19:29:51Z
 aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api","/headquarters/api/api-for-data-export"]
 
 +++
@@ -59,34 +58,33 @@ The API clients listed below provide convenient access to the API functionality 
 </TR>
 
 <TR>
-  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/240px-.NET_Logo.svg.png" width=48><BR>.NET package</CENTER></TD>
-  <TD><CENTER><A href="https://github.com/SlyNet/SurveySolutionsClient"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
-  <TD>
-  <TD><CENTER><A href="/headquarters/api/dot-net-package/">more</A></CENTER>
+  <TD><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/240px-.NET_Logo.svg.png" width=48><BR>.NET package</TD>
+  <TD><CENTER><A href="https://github.com/SlyNet/SurveySolutionsClient"><IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
+  <TD></TD>
+  <TD><CENTER><A href="/headquarters/api/dot-net-package/">more</A></CENTER></TD>
 
 <TR>
   <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png" width=48><BR>PowerShell module</CENTER></TD>
-  <TD><CENTER><A href="https://github.com/vavalomi/ssaw-powershell"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
-  <TD>
-  <TD><CENTER><A href="/headquarters/api/ps-module/">more</A></CENTER>
+  <TD><CENTER><A href="https://github.com/vavalomi/ssaw-powershell"><IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
+  <TD></TD>
+  <TD><CENTER><A href="/headquarters/api/ps-module/">more</A></CENTER></TD>
 
 <TR>
   <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/48px-Python.svg.png" width=48><BR>Python package</CENTER></TD>
-  <TD><CENTER><A href="https://github.com/vavalomi/ssaw"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
-  <TD>
-  <TD><CENTER><A href=""></A></CENTER>
+  <TD><CENTER><A href="https://github.com/vavalomi/ssaw"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
+  <TD><CENTER><A href="https://ssaw.readthedocs.io/">online documentation</A></CENTER></TD>
+  <TD><CENTER><A href=""></A></CENTER></TD>
 
 <TR>
   <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/310px-R_logo.svg.png" width=48><BR>R package</CENTER></TD>
-    <TD><CENTER><A href="https://github.com/michael-cw/SurveySolutionsAPI"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
-  <TD>
-  <TD><CENTER><A href="/headquarters/api/api-r-package/">more</A></CENTER>
+    <TD><CENTER><A href="https://github.com/michael-cw/SurveySolutionsAPI"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
+  <TD></TD>
+  <TD><CENTER><A href="/headquarters/api/api-r-package/">more</A></CENTER></TD>
 
 <TR>
-  <TD><CENTER><IMG src="images/s16_72.png" width=48><BR>
-  Stata package</CENTER></TD>
-  <TD><CENTER><A href="https://github.com/radyakin/susoapi"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER>
-  <TD><CENTER><A href="https://github.com/radyakin/susoapi/releases/latest/download/susoapi.pdf"><IMG src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" style="height:48px;"><BR>Manual in PDF</A></CENTER>
+  <TD><CENTER><IMG src="images/s16_72.png" width=48><BR>Stata package</CENTER></TD>
+  <TD><CENTER><A href="https://github.com/radyakin/susoapi"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
+  <TD><CENTER><A href="https://github.com/radyakin/susoapi/releases/latest/download/susoapi.pdf"><IMG src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" style="height:48px;"><BR>Manual in PDF</A></CENTER></TD>
   <TD></TD>
 </TABLE>
 
