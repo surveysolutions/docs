@@ -34,13 +34,9 @@ docker run -p 80:80 --name hq \
 
 #### Volumes
 
-Survey Solutions has 3 usages of file system that should be persisted: interview binary data (images), asp.net core data protection keys and logs.
+Survey Solutions has two usages of file system that should be persisted: interview binary data (images) and logs.
 
 Docker provide quite a lot of options on how to [handle persitent data](https://docs.docker.com/storage). To preserve Survey Solutions data You must map local folder into container or use [Docker Volumes](https://docs.docker.com/storage/volumes).
-
-When hosting in Docker, aspnet core applications should manage a volume for Data Protection keys: <https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/configuration/overview?view=aspnetcore-3.1#persisting-keys-when-hosting-in-a-docker-containe>.
-
-Use following volume map to handle: `dataprotection:/root/.aspnet/DataProtection-Keys`, where `dataprotection` is a volume name.
 
 All images uploaded to HQ during interviews are stored in `/app/AppData` folder.
 
@@ -55,7 +51,6 @@ docker run -p 80:80 --name hq \
     -e "HQ_Headquarters__BaseUrl=http://localhost" \
     -e "HQ_ConnectionStrings__DefaultConnection=Server=db;Port=5432;User Id=postgres;Password=pg_password;Database=SurveySolutions" \
     -v "hq_data:/app/AppData" \
-    -v "data_protection:/root/.aspnet/DataProtection-Keys" \
     surveysolutions/surveysolutions:latest
 ```
 
@@ -67,7 +62,6 @@ docker run -p 80:80 --name hq \
     -e "HQ_Headquarters__BaseUrl=http://localhost" \
     -e "HQ_ConnectionStrings__DefaultConnection=Server=db;Port=5432;User Id=postgres;Password=pg_password;Database=SurveySolutions" \
     -v "./data/app:/app/AppData" \
-    -v "./data/protection:/root/.aspnet/DataProtection-Keys" \
     surveysolutions/surveysolutions:latest
 ```
 
@@ -106,7 +100,6 @@ docker run -p 80:80 -p 443:443 --name hq \
     -e "ASPNETCORE_Kestrel__Certificates__Default__Password=password" \
     -v "/srv/hq/hq_data/app:/app/AppData" \
     -v "/srv/hq/.ssl/cert.pfx:/ssl/cert.pfx" \
-    -v "/srv/hq/protection:/root/.aspnet/DataProtection-Keys" \
     surveysolutions/surveysolutions:latest
 ```
 
