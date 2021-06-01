@@ -24,7 +24,7 @@ Survey Solutions offline maps may be prepared in any of the following formats:
 </TR>
 
 <TR>
-  <TD> <A href="https://en.wikipedia.org/wiki/GeoTIFF">GeoTIFF</A><TD>*.tiff <TD>raster<TD><A href="https://www.ogc.org/standards/geotiff">OGC GeoTIFF standard</A></TD>  
+  <TD> <A href="https://en.wikipedia.org/wiki/GeoTIFF">GeoTIFF</A><TD>*.tiff <TD>raster<TD><A href="https://www.ogc.org/standards/geotiff">OGC GeoTIFF standard</A><BR><A href="https://download.osgeo.org/geotiff/samples/pci_eg/lcc-27.tif">Example file</A> and <A href="https://download.osgeo.org/geotiff/samples/pci_eg/lcc-27.txt">description</A> (external links).</TD>  
 </TR>
 
 <TR>
@@ -34,4 +34,12 @@ Survey Solutions offline maps may be prepared in any of the following formats:
 </TR>
 
 </TABLE>
-*) Shapefiles cannot be uploaded to the headquarters and must be distributed manually to the interviewers' tablets. See <A href="https://docs.mysurvey.solutions/interviewer/special/shape-file-overlay/">shape file overlay</A>.
+<P>
+*) Shapefiles cannot be uploaded to the headquarters and must be distributed manually to the interviewers' tablets. See <A href="https://docs.mysurvey.solutions/interviewer/special/shape-file-overlay/">shape file overlay</A>.</P>
+
+
+Useful links:
+<UL>
+<LI><P><A href="https://www.arcgis.com/home/item.html?id=226d23f076da478bba4589e7eae95952">ESRI World imagery (for export)</A></P>
+<LI><P><A href="https://esri.maps.arcgis.com/apps/mapviewer/index.html">ESRI Map viewer</A></P>
+</UL>
