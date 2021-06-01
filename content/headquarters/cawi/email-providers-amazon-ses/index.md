@@ -45,12 +45,11 @@ Access Key`. You will be issued an *Access Key* and you will obtain the
 this pair (though you can issue another *Key + Secret* pair later).
 
 In the email service provider dialog of the Survey Solutions you will
-need to enter the three items:
+need to enter these SES-specific items:
 
-- Confirmed email address;
 - Access Key;
-- Secret Access Key.
-
+- Secret Access Key;
+- Region.
 
 <CENTER><IMG src="images/amazonses-screenshot.png" width=800></CENTER>
 <BR>
@@ -59,8 +58,12 @@ If you've just created your AWS account it is likely in the sandbox mode
 and it will only permit you to send the notifications to the emails that
 you yourself have confirmed. To reach real survey respondents you will need
 to `Request Increased Sending Limits`, where you submit (to Amazon) the
-information about your intents. When you fill out this form for <B>region</B>
-pick specifically <I>"US East (Northern Virginia)"</I> aka <B>us-east-1</B>.
+information about your intents.
+
+Note that when you fill out the Survey Solutions email provider settings, you
+need to specify the region, with exactly the same value as selected when setting
+uo your SES account, for example, <I>"US East (Northern Virginia)"</I> aka
+<B>us-east-1</B>.
 
 On the basis of the information you provide you will be assigned various
 limits on number of emails that may be sent per second, per 24-hour period
