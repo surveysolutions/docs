@@ -153,8 +153,38 @@ In order to enable S3 storage open S3 service console and create new bucket (you
 Now to enable Survey Solutions access to that bucket new IAM role will be required. In order to create it in services list find IAM, then go to `Roles`->`Create new role`:
 ![Role creation](images/create-role.png)
 
-Provide name, and attach appropriate policy:
+Provide name, and attach appropriate S3 full access policy:
 ![Role creation](images/s3-access.png)
+Or create restricted policy via "Create Policy" button and to JSON tab add following content:
+
+- AWS IAM user should have following permissions on bucket:
+    - s3:GetObject
+    - s3:ListBucket
+    - s3:PutObject
+    - s3:DeleteObject
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:DeleteObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::%YOUR_BUCKET_NAME%/*",
+                "arn:aws:s3:::%YOUR_BUCKET_NAME%"
+            ]
+        }
+    ]
+}
+```
+Replace `%YOUR_BUCKET_NAME%` with Your own bucket name
 
 In order to attach this role to EC2 instance open EC2 console, find the appropriate image and select `Attach/Replace IAM role`:
 ![Attach role](images/attach-role.png)
@@ -163,19 +193,128 @@ Then select the created role:
 
 In Survey Solutions installation location `Site` folder find `appsettings.production.ini` file.
 
-1. Change storage options. In configuration file replace `AppData` key value to `AppData=s3://%Your bucket name%/survey-solutions`
-1. Add section with region configuration (use same region as your S3 bucket)
+1. Change storage options. In configuration file replace `AppData` key value to `AppData=s3://%Your bucket name%/hq`
+  a. `hq` is the prefix for all data from HQ. Like a folder in file system where HQ will store it's files
+2. Add section with region configuration (use same region as your S3 bucket)
 
 Your configuration file should contain such configuration:
 
 ``` ini
 [FileStorage]
-AppData=s3://%Your bucket name%/survey-solutions
-TempData=..\Data_Site
+AppData = s3:/%YOUR_BUCKET_NAME%/hq
+
 [AWS]
-Region=us-east-1 # replace with your region
+Region = us-east-1 # replace with your region
 ```
 
 Restart Windows image for changes to take effect.
 
 Survey Solutions will create folder with configured tenant name where it will store the binary data for the interviews.
+
+
+### How to configure S3 outside of Amazon EC2 server 
+
+It is also posible to use S3 object storage outside of Amazon Cloud, but be aware that Amazon will apply additional billing on all used traffic between Your server and S3. You will need IAM user credentials (secret key ID and secret key)
+
+![Secret keys](images/secret-keys.png)
+
+#### On IIS
+
+For deployment on IIS You need to create special `credentials` file with IAM user credentials, and provide HQ application a location of this file
+
+1. Create `credential` file somewhere on server, for example `C:\inetpub\credentials` or into Survey Solutions installation folder
+2. Put there IAM user credentials in following form:
+```
+[default]
+aws_access_key_id = AKxxxxxxxxxxxxx
+aws_secret_access_key = HwIgxxxxxxxxxxxxxxxxxxxxxxyU
+```
+3. Add following lines in AWS section to `appsettings.production.ini` of Survey Solutions Headquarters application
+```ini
+[AWS]
+Region = us-east-1
+Profile = default
+ProfilesLocation = C:\inetpub\credentials
+
+[FileStorage]
+AppData="s3:/%YOUR_BUCKET_NAME%/hq"
+```
+
+#### On Docker 
+
+For Docker deployment You can specify secret keys in ENV variables:
+
+Docker-compose.yml
+```yml
+version: '3'
+services:
+  hq:
+    image: 'surveysolutions/surveysolutions'
+    depends_on:
+     - "db"
+    environment: 
+      HQ_ConnectionStrings__DefaultConnection: 'db connection string'
+      HQ_Headquarters__BaseUrl: 'http://demo.hq.app'
+      AWS_ACCESS_KEY_ID: AKIAxxxxxxxxxxxZL3Q
+      AWS_SECRET_ACCESS_KEY: HwIgxxxxxxxxxxxxxxxxxxxxxxxxxJ5yU
+      HQ_FileStorage__AppData: s3:/%YOUR_BUCKET_NAME%/hq
+    restart: always
+```
+
+#### Using MiniO `new in v21.06 of HQ`
+
+It also possible to configure HQ to work with MiniO - self hosted object storage service https://min.io/
+There is a few additional settings required to be provided: 
+ - `ServiceURL` pointing to MiniO installation
+ - `ForcePathStyle` equal `true` as required by MiniO
+ - `UseHttp` equal `true` if MiniO is hosted without SSL
+
+```ini
+[AWS]
+Profile = default
+ServiceURL = https://minio.url
+Region = us-east-1
+ForcePathStyle = true
+
+[FileStorage]
+AppData="s3://hqdemobucket/hq"
+```
+
+In Docker
+
+```yml
+version: '3'
+services:
+  hq:
+    image: 'surveysolutions/surveysolutions'
+    depends_on:
+     - "db"
+    environment: 
+      HQ_ConnectionStrings__DefaultConnection: 'Server=db;Port=5432;User Id=postgres;Password=pg_password;Database=SurveySolutions'
+      HQ_Headquarters__BaseUrl: https://hqurl
+      HQ_AWS__Region: us-east-1
+      HQ_AWS__ServiceURL: http://minio
+      HQ_AWS__UseHttp: true  # only required if minio has no https support
+      HQ_AWS__ForcePathStyle: true
+      AWS_ACCESS_KEY_ID: "minio"
+      AWS_SECRET_ACCESS_KEY: "minio123"
+      HQ_FileStorage__AppData: s3://miniobucket/hq
+    restart: always
+    ports:
+      - 80:80
+  minio:
+    image: minio/minio
+    volumes:
+      - storageVolume:/data
+    expose:
+      - "9000"
+    ports:
+      - 9000:9000
+    command: server /data
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+volumes:
+    storageVolume:
+    
+```
