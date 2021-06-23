@@ -38,7 +38,7 @@ This error occurring at the startup of the website may be caused by various conf
 - <TT>headquarters.*.log</TT> and
 - <TT>headquarters.verbose.json.*.log</TT>
 
-should be informative (date is contained instead of the * in real files). For example, this error may occur if the database connection string entered during the installation was specified incorrectly.
+should be informative (date is contained instead of the * in real files). For example, this error may occur if the database connection string entered during the installation was specified incorrectly. See also #15 below if the message also mentions database connectivity.
 
 <FONT color="red">6. "This application only runs on Windows Server NNNN or higher."</FONT>
 
@@ -107,7 +107,7 @@ Survey Solutions internally, since all the data structures needed for functionin
 of the software are created, updated, and deleted automatically. Technically,
 though, Survey Solutions uses PostgreSQL database for storing the data (this
 may change in the future, refer to the installation instructions for the
-current version, section on prerequisites/dependencies). 
+current version, section on prerequisites/dependencies).
 (<A href="https://www.postgresql.org/docs/12/errcodes-appendix.html">PostgreSQL error</A>)
 
 If the above error message is encountered in the log files, the system
@@ -138,12 +138,12 @@ Exception data:
 </PRE></FONT>
 
 The above error message is evidence of violation of integrity of the database
-where Survey Solutions stores its data in the server 
-(<A href="https://www.postgresql.org/docs/12/errcodes-appendix.html">PostgreSQL error</A>). 
-If the problem is caused by failing hardware, then the severity is high and 
+where Survey Solutions stores its data in the server
+(<A href="https://www.postgresql.org/docs/12/errcodes-appendix.html">PostgreSQL error</A>).
+If the problem is caused by failing hardware, then the severity is high and
 the user should follow the same advice as in the case #11 above.
 
-If the thorough analysis of the hardware (including search for bad sectors, 
+If the thorough analysis of the hardware (including search for bad sectors,
 file read fails, etc) indicates that the hardware is healthy and reliable, the
 user should reindex the database as advised in the message.
 
@@ -151,10 +151,10 @@ Reindexing is a standard non-destructive maintenance operation, see for example 
 [external site video](https://youtu.be/VYuYNRvxTvw?t=490)
 or [section 6.5 in the pgAdmin documentation](https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v5.2/docs/pgadmin4-5.2.pdf)
 
-The database index may be rebuilt if the data is not affected. But if the 
-hardware has failed for the index, next time it may fail for the data, 
-which will not be recoverable. Hence disregarding the hardware check 
-is risky and not recommended. See also: 
+The database index may be rebuilt if the data is not affected. But if the
+hardware has failed for the index, next time it may fail for the data,
+which will not be recoverable. Hence disregarding the hardware check
+is risky and not recommended. See also:
 [PostgreSQL-wiki:Corruption](https://wiki.postgresql.org/wiki/Corruption).
 
 
@@ -163,12 +163,12 @@ is risky and not recommended. See also:
 <P>
 An interviewer may report inability to log in to the tablet Interviewer App
 (see <A href="/interviewer/troubleshooting/synchronization-problems/">synchronization problems</A>).
-This could be due to the server's 
-<A href="https://en.wikipedia.org/wiki/Web_application_firewall">WAF</A> configuration. 
-The issue occurs typically 
+This could be due to the server's
+<A href="https://en.wikipedia.org/wiki/Web_application_firewall">WAF</A> configuration.
+The issue occurs typically
  and manifests itself with:</P>
 <UL>
-  <LI>an error message indicating that the site is not available: 
+  <LI>an error message indicating that the site is not available:
       <I>"No connection to the Survey Solutions Supervisor. Please make sure that the website is available."</I></LI>
   <LI>during the first login to the tablet Interviewer App</LI>
   <LI>the site is responding when accessed from a browser of the same tablet</LI>
@@ -176,15 +176,15 @@ The issue occurs typically
 </UL>
 </P>
 
-<P>The issue can be diagnozed by making a probe synchronization and then 
-reviewing the WAF log by the timestamp when the communication with the 
-server was attempted. The log will contain the blocked query, for example 
-<TT>/api/interviewer/...</TT> and the user-agent will indicate 
+<P>The issue can be diagnozed by making a probe synchronization and then
+reviewing the WAF log by the timestamp when the communication with the
+server was attempted. The log will contain the blocked query, for example
+<TT>/api/interviewer/...</TT> and the user-agent will indicate
 <TT>org.worldbank.solutions.interviewer/21.01</TT> (or a similar version id).</P>
 
-<P>The exact unblocking actions depend on the software facilitating WAF 
-and the rules engaged and requires cooperation of the person or organization 
-managing the WAF. See example for <A href="https://support.f5.com/csp/article/K7931">BIG-IP ASM</A> 
+<P>The exact unblocking actions depend on the software facilitating WAF
+and the rules engaged and requires cooperation of the person or organization
+managing the WAF. See example for <A href="https://support.f5.com/csp/article/K7931">BIG-IP ASM</A>
 on a third-party site.</P>
 
 
@@ -197,16 +197,23 @@ The issue has the following symptomatics:
 - an interviewer working on the server can't start an interview, or
 - a respondent to web-interiew can't open it.
 
-<P>Survey Solutions uses <A href="https://en.wikipedia.org/wiki/SignalR">SignalR</A> library, 
+<P>Survey Solutions uses <A href="https://en.wikipedia.org/wiki/SignalR">SignalR</A> library,
 which communicates over <A href="https://en.wikipedia.org/wiki/WebSocket">WebSockets</A>.
-If the WebSockets connectivity is not available, the above-mentioned functionality will not 
-be available either. Survey Solutions may not control WebSockets on its own. WebSockets must 
-be enabled by the person installing the Survey Solutions server. See more details at this 
+If the WebSockets connectivity is not available, the above-mentioned functionality will not
+be available either. Survey Solutions may not control WebSockets on its own. WebSockets must
+be enabled by the person installing the Survey Solutions server. See more details at this
 <A href="https://docs.microsoft.com/en-us/iis/configuration/system.webserver/websocket">Microsoft's page</A>.</P>
 
-<P>To help diagnoze this problem, refer to the <B><I>WebSocket connectivity check</I></B> 
+<P>To help diagnoze this problem, refer to the <B><I>WebSocket connectivity check</I></B>
 as described in the <A href="/headquarters/config/healthcheck/">Healthcheck</A> article.</P>
 
+<FONT color="red">15. Application cannot connect to database using provided
+connection string. Check application log file for details</FONT><BR>
+
+This message may be encountered when accessing the server login page in
+a browser, and indicates that the server failed to start. The application
+log files are described below. For this specific error, please refer to the
+page [DB connection errors](/headquarters/config/db-connection-errors).
 
 
 <A name="logs">
