@@ -2,9 +2,7 @@ name: publish-docs
 
 on:
   push:
-    branches: [ master ]
-    paths-ignore:
-    - 'homepage/**'
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -42,10 +40,8 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        external_repository: surveysolutions/docs.mysurvey.solutions 
-        deploy_key: ${{ secrets.DEPLOY_SUPPORT_PAGES }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
         exclude_assets: '.github,algolia.json'
-        commit_message: ${{ github.event.head_commit.message }}
         force_orphan: true
         cname: docs.mysurvey.solutions
