@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = ["limit", "maximum"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2020-12-15T00:00:01Z
+lastmod = 2021-06-28T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -195,6 +195,15 @@ limits.
 <tr>
 <td>Length of a comment:</td>
 <td style="text-align: center;">500 (characters)</td>
+</tr>
+<tr>
+<td>Timeout for inactive web-interviewing sessions:</td>
+<td style="text-align: center;">15 (minutes)</td>
+</tr>
+<tr>
+<td>Maximum number of unsuccessful login attempts before a
+<A href="/headquarters/accounts/captcha/">CAPTCHA</A> gets activated:</td>
+<td style="text-align: center;">5 (attempts)</td>
 </tr>
 
 </tbody>

@@ -96,7 +96,7 @@ By default, Survey Solutions is installed as a web application and runs
 behind the IIS web server using port 9700. A custom port is used
 to avoid potential conflicts with existing web applications you may already be
 running on the same server. Also, most firewalls will block custom ports by default
-and this will help you in protecting your data by not exposing your application to 
+and this will help you in protecting your data by not exposing your application to
 external networks/Internet unintentionally.
 
 Accessing your application via `localhost` only works from the same computer, in order
@@ -114,7 +114,7 @@ access it, right click on start menu, select run option and execute `ipconfig /a
 
 Once you locate the appropriate address, you can access your server from any other device (connected to the same network)
 by typing `http://server_ip_address:9700/` in the browser. For our example, the address would look like
-this: `http://192.168.136.128:9700/` 
+this: `http://192.168.136.128:9700/`
 
 You can now change the port 9700 to 80 in the IIS configuration manager.
 To access it right click on start menu, select run option and execute the
@@ -134,10 +134,10 @@ Remembering and always typing ip address to connect to the server is still not t
 could instead attach a domain name to your server, which would simplify work considerably. Moreover, in order to be
 able to use [ssl](#ssl) encryption, you must have a domain name attached to the web application.
 
-Obtaining a domain name for the specific purpose of running one application will depend on the way you'd like it to be 
+Obtaining a domain name for the specific purpose of running one application will depend on the way you'd like it to be
 accessed by your team and the users. If you would like to get a sub-domain (third-level, forth-level, etc, domain) under
 an existing domain name (for example, your organization already operates http://www.coolcompany.com address and you want to add
-http://survey.coolcompany.com) it may be as easy as contacting the right person/team who manages the main address and ask them 
+http://survey.coolcompany.com) it may be as easy as contacting the right person/team who manages the main address and ask them
 to issue the sub-domain for you.
 
 But if you instead prefer to have a dedicated, second-level domain name, like http://mycoolsurveys.com address, you will need to
@@ -196,10 +196,19 @@ If this is not satisfied, web interviews will not work resulting in errors for
 the respondents (this may not be immediately obvious to the person setting up
 the Survey Solutions server).
 
+If the Survey Solutions web server is placed behind a load balancer with
+SSL-termination, the following setting must be added to the `Policies` section
+of the `appsettings.production.ini` configuration file:
+
+```
+[Policies]
+CookiesSecurePolicyAlways=true
+```
+
 ### Survey Solutions application configuration {#configuration}
 
 Open the `/Site` folder where Survey Solutions is installed, and open
-`appsettings.Production.ini` file. This file will not be replaced during
+`appsettings.production.ini` file. This file will not be replaced during
 application upgrades and will retain your local server configuration.
 
 {{% folded summary="📷 Survey Solutions configuration file" %}}
@@ -222,9 +231,9 @@ BaseUrl=https://demo.mysurvey.solutions
 
 #### Captcha {#captcha}
 
-A captcha is used to safeguard the application from brute force attacks on
-user accounts and for protection of web mode from automatic creation of
-interviews.
+A [captcha](/headquarters/accounts/captcha/) is used to safeguard the
+application from brute-force attacks on user accounts and for protection of 
+web mode from automatic creation of interviews.
 
 Survey Solutions may utilize a built-in (hosted) implementation of captcha
 (default) or an external reCAPTCHA provided by Google (to be configured as
