@@ -7,9 +7,15 @@ We use HUGO - static site generator framework to build this site. You can read m
 
 ## Contributing content
 
-- clone the repository locally.
+If you found a mistake in any article, cannot find describtion of a feature, or have any other suggestion to improve this documentation, you can simply create an issue.  
+We would be absolutely delighted if you'd like to help by writing a new article. Feel free to create an issue, or a new topic on the [forum](https://forum.mysurvey.solutions) to discuss the changes with the team.
 
-- download Hugo from [here](https://github.com/gohugoio/hugo/releases) - this is a single binary without *any* dependencies.
+Once the content is agreed, following steps describe the process to add the new article:
+
+
+- fork the repository and then clone it locally.
+
+- download Hugo from [here](https://github.com/gohugoio/hugo/releases) for your operating system - this is a single binary without *any* dependencies.
 
 - create a new article by simply adding new file (with .md extension) to the appropriate section
 
