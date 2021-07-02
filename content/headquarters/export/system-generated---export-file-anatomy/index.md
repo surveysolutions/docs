@@ -529,6 +529,8 @@ For coded variables in the system-generated data files the following tables outl
 <TR><TD align=center>16</TD><TD>TranslationSwitched</TD></TR>
 <TR><TD align=center>17</TD><TD>OpenedBySupervisor</TD></TR>
 <TR><TD align=center>18</TD><TD>ClosedBySupervisor</TD></TR>
+<TR><TD align=center>19</TD><TD>InterviewSwitchedToCawiMode</TD></TR>
+<TR><TD align=center>20</TD><TD>InterviewSwitchedToCapiMode</TD></TR>
 
 <TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
 <TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_status"><BR><H5>Coding of interview statuses </H5></TD></TR>
