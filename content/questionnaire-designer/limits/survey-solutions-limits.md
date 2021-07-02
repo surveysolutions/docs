@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = ["limit", "maximum"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2021-06-28T00:00:01Z
+lastmod = 2021-07-01T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -90,6 +90,10 @@ limits.
 <td>Maximum number of items in a categorical question<br />
 (with all options visible to interviewer):</td>
 <td style="text-align: center;"><span style="font-size: 13px;">200 [items]</span></td>
+</tr>
+<tr>
+<td>Maximum number of validations (rules and messages) that can be attached to a single element:</td>
+<td style="text-align: center;">10 [validations]</td>
 </tr>
 <tr>
 <td>Maximum number of suggestions in a combobox categorical question:</td>

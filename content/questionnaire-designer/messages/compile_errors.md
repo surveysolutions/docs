@@ -31,7 +31,7 @@ messages issued by the Designer when the questionnaire is compiled.
 <TR><TD>WB0003</TD><TD>Enabling condition has a syntax error.</TD><TD></TD></TR>
 <TR><TD>WB0004</TD><TD>Variable cannot have empty expression.</TD><TD></TD></TR>
 <TR><TD>WB0005</TD><TD>Variable expression has length more than {0} characters.</TD><TD></TD></TR>
-<TR><TD>WB0006</TD><TD>Only one GPS question could be marked as identifying</TD><TD></TD></TR>
+<TR><TD>WB0006</TD><TD>Only one GPS question could be marked as identifying</TD><TD>Means that only one GPS location question may be placed to the cover page. Since different questionnaires may have different variable names for the GPS questions, Survey Solutions picks the location question not by variable name, but by position (first GPS location question in the cover page) when drawing the map dashboard. Hence this restriction. Additional GPS location questions may be placed in other sections of the questionnaire.</TD></TR>
 <TR><TD>WB0007</TD><TD>Multi select yes/no question can't be linked</TD><TD></TD></TR>
 <TR><TD>WB0008</TD><TD>It is not allowed to use substitutions in variable label</TD><TD></TD></TR>
 <TR><TD>WB0009</TD><TD>Roster size question is missing.</TD><TD></TD></TR>
