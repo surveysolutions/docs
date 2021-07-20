@@ -214,16 +214,16 @@ messages issued by the Designer when the questionnaire is compiled.
 <TR><TD>WB0263</TD><TD>First section cannot have enabling condition.</TD><TD></TD></TR>
 <TR><TD>WB0264</TD><TD>You have a GPS question. Tablets must support geolocation to be used with this questionnaire.</TD><TD></TD></TR>
 <TR><TD>WB0265</TD><TD>More than {0}% of questions are text questions. Text questions are difficult to answer on tablets. Consider using single- or multi-choice questions instead.</TD><TD></TD></TR>
-<TR><TD>WB0266</TD><TD>Duplicate questions. (Questions have the same title.)</TD><TD></TD></TR>
+<TR><TD>WB0266</TD><TD>Duplicate questions. (Questions have the same title.)</TD><TD>This may or may not be an error. Sometimes questions can be understood in context, such as the "Other (specify)" requirements in categorical questions usually result in "Please specify the 'other'" in the following question. If you don't like the warning, make the questions distinct by clarifying the question "Please specify the other food type" or "Please specify the other source of fertilizer".</TD></TR>
 <TR><TD>WB0267</TD><TD>You have a barcode question. Tablets must support autofocus to be used with this questionnaire.</TD><TD></TD></TR>
 <TR><TD>WB0268</TD><TD>You try to use substitution for unsupported entity.</TD><TD></TD></TR>
 <TR><TD>WB0269</TD><TD>Question cannot have empty title.</TD><TD></TD></TR>
-<TR><TD>WB0270</TD><TD>Section should not contain more than {0} questions.</TD><TD></TD></TR>
+<TR><TD>WB0270</TD><TD>Section should not contain more than {0} questions.</TD><TD>Move some of the questions to a different section</TD></TR>
 <TR><TD>WB0271</TD><TD>Macro cannot be empty.</TD><TD></TD></TR>
-<TR><TD>WB0272</TD><TD>Enabling condition is using forbidden type.</TD><TD></TD></TR>
-<TR><TD>WB0273</TD><TD>Validation condition is using forbidden type.</TD><TD></TD></TR>
-<TR><TD>WB0274</TD><TD>Variable is using forbidden type.</TD><TD></TD></TR>
-<TR><TD>WB0275</TD><TD>Filter expression is using forbidden type.</TD><TD></TD></TR>
+<TR><TD>WB0272</TD><TD>Enabling condition is using forbidden type.</TD><TD><A href="/syntax-guide/cslanguage/forbidden-type/">explanation</A></TD></TR>
+<TR><TD>WB0273</TD><TD>Validation condition is using forbidden type.</TD><TD><A href="/syntax-guide/cslanguage/forbidden-type/">explanation</A></TD></TR>
+<TR><TD>WB0274</TD><TD>Variable is using forbidden type.</TD><TD><A href="/syntax-guide/cslanguage/forbidden-type/">explanation</A></TD></TR>
+<TR><TD>WB0275</TD><TD>Filter expression is using forbidden type.</TD><TD><A href="/syntax-guide/cslanguage/forbidden-type/">explanation</A></TD></TR>
 <TR><TD>WB0276</TD><TD>@rowname variable is not supported anymore.</TD><TD></TD></TR>
 <TR><TD>WB0277</TD><TD>Questionnaire title shouldn't have two and more consecutive underscore characters.</TD><TD></TD></TR>
 <TR><TD>WB0278</TD><TD>Plain mode allowed only for rosters with no more than {0} elements.</TD><TD></TD></TR>

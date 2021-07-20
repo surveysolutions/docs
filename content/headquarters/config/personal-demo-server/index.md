@@ -3,6 +3,7 @@ title = "Personal Demo Server"
 keywords = ["personal", "server"]
 aliases = ["/getting-started/portal"]
 date = 2020-04-20T00:00:01Z
+lastmod = 2021-07-19T00:00:00Z
 +++
 
 
@@ -34,4 +35,4 @@ Once you learn how Survey Solutions works on a PDS, you can proceed to learning
 about [standalone servers](/headquarters/config/standalone-server/)
 and prepare a server for your data collection operations.
 
-
+[Password reset instructions](/headquarters/config/pds-password-reset/)
