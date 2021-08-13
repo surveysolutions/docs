@@ -11,7 +11,7 @@ secure. We have introduced numerous patches addressing security concerns.
 We appreciate the advice and helpful suggestions that we have received from
 the UN International Computing Centre (UNICC), National Institute of Statistics
 (INSSE) Romania, the World Bank security team, and a professional software
-security inspector from Argentina.
+security inspector from Uruguay.
 
 The changes introduced in v21.06 are listed below.
 
