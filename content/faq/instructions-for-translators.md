@@ -1,20 +1,20 @@
 +++
 title = "Instructions for the Translators of the Survey Solutions Interface"
 keywords = [""]
-date = 2021-06-07T00:00:00Z
+date = 2021-08-19T00:00:00Z
 +++
-
 
 * You receive a single Excel file and these instructions. You deliver just the translated Excel file.
 * Do not rename the spreadsheet. Do not convert to any other file format.
 * Translate text from column E (titled **_INVARIANT_**) to column F (titled with your language).
+* If you can't translate the original text for any reason, the translation should be left **blank** (do not copy text from column E to column F in this case).
 * Do not modify any other text/cells anywhere else in the spreadsheet, even if there is a typo in
 the original text (feel free to notify about any discovered typos or problems in your email message, but not in this file).
 * Do not add or remove any lines.
 * Do not distort the HTML tags, such as: **&#60;br/&#62;**
 * Do not touch anything inside the curly brackets {}, for example *"{value}"* must remain *"{value}"* , do
 not translate the word *"value"* inside the curly brackets.
-* Pay attention to details. There may be very similar terms with minute differences.
+* Some texts may contain terms in dual curly brackets {{}}, for example *"{{count}} interviews will be approved."*. Maintain the nesting in the translation. Do not reduce to {}.
 * The translation **MUST HAVE** all the same entries {0}, {1}, ... as the
 original! (If there were three in the original, must be the same three mentioned
 in the translation). The order of mentioning may be changed, however, for example:
@@ -38,10 +38,15 @@ in any translation. Same applies to:
 etc.
 * You may decide to translate units Kb, MB, GB, or keep them in English, whichever is more
 prevalent/intuitive.
-* The terms *questionnaire*, *interview*, and *assignment* mean different documents in
+* Pay attention to details. There may be very similar terms with minute differences.
+* The terms [*questionnaire*](/faq/glossary/#questionnaire), [*interview*](/faq/glossary/#interview), and [*assignment*](/faq/glossary/#assignment) mean different documents in
 Survey Solutions and the difference must be maintained in the translation.
 * The terms *interviewer* and *enumerator* mean the same thing in Survey Solutions.
 Translators may opt to use a single term do denote either.
+* You may want to refer to the [glossary](/faq/glossary/) online to double check the meaning of some of the terms as we apply them.
+* Use of quotes: different languages have different conventions to quote the text. In some places (such as in HTML tags: *&#60;font color="red"&#62;No internet connection&#60;/font&#62;*
+) specifically the unicode *quotation mark* character is expected (") (Unicode number
+U+0022) and should not be replaced with any other type of quotes, such as («) („) etc.
 
 
 {{< panel title="Warning:" style="warning">}}
