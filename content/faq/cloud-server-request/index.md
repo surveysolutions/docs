@@ -4,7 +4,7 @@ keywords = [""]
 date = 2017-01-23T11:41:42Z
 lastmod = 2020-08-31T00:00:01Z
 aliases = ["/customer/portal/articles/2723103-cloud-server-request","/customer/en/portal/articles/2723103-cloud-server-request","/customer/portal/articles/2723103","/customer/en/portal/articles/2723103"]
-
+noindex = true
 +++
 
 
