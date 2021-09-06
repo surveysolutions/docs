@@ -21,6 +21,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
     lastreleasenote = "version-21-06"
     contactformurl = "https://pds.mysurvey.solutions/ContactUs"
+    images = ['img/logo.png']
 
     [params.algolia]
         vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
