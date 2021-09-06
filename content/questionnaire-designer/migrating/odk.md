@@ -12,7 +12,7 @@ To simplify migration from *Open Data Kit (ODK)* or compatible systems (*Survey1
 - [operators](#operators), and
 - [functions](#functions).
 
-Individual system implementation of these features may vary. [Online documentation for ODK](https://docs.getodk.org/) was used as a reference when compiling the list of alternatives (accessed August 2021).
+Individual system implementation of these features may vary. [Online documentation for ODK](https://docs.getodk.org/) was used as a reference when compiling the list of alternatives (accessed August 2021). For specifics of function implementation in different systems, refer to their respective documentation pages, e.g. for [Survey123](https://doc.arcgis.com/en/survey123/desktop/create-surveys/xlsformformulas.htm), for [SurveyCTO](https://docs.surveycto.com/02-designing-forms/01-core-concepts/09.expressions.html), etc.
 
 Where we leave a note *"#no alternative"*, this is to be interpreted that there is no 1:1 mapping of an ODK feature to a corresponding Survey Solutions feature, and no obvious workaround. Yet this is usually not a dead end, and a workaround may be formulated for a particular situation.
 
