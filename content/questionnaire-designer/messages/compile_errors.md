@@ -46,7 +46,7 @@ messages issued by the Designer when the questionnaire is compiled.
 <TR><TD>WB0019</TD><TD>Substitution cannot reference items from a deeper roster level.</TD><TD></TD></TR>
 <TR><TD>WB0020</TD><TD>Another Macro with the same name already exists.</TD><TD></TD></TR>
 <TR><TD>WB0021</TD><TD>Max number of answers is greater than number of answer options.</TD><TD></TD></TR>
-<TR><TD>WB0022</TD><TD>Question of this type cannot be identifying.</TD><TD></TD></TR>
+<TR><TD>WB0022</TD><TD>Question of this type cannot be identifying.</TD><TD>The Designer tool will not let you directly select a question type that is not usable at the cover page. However, if you copy such a question (e.g. multiple select) from another section and paste it into the cover page, this will result in a questionnaire with this error.</TD></TR>
 <TR><TD>WB0023</TD><TD>Roster size source question is incorrect. Only numeric, categorical with multi-select or text list questions can be used.</TD><TD></TD></TR>
 <TR><TD>WB0024</TD><TD>Lookup table has invalid name.</TD><TD></TD></TR>
 <TR><TD>WB0025</TD><TD>Lookup table cannot have empty name.</TD><TD></TD></TR>
@@ -139,7 +139,7 @@ messages issued by the Designer when the questionnaire is compiled.
 <TR><TD>WB0114</TD><TD>Categorical question supports only integer values in range from {0} to {1}</TD><TD></TD></TR>
 <TR><TD>WB0115</TD><TD>Fixed rosters only support integer values.</TD><TD></TD></TR>
 <TR><TD>WB0116</TD><TD>Linked question references a list question from wrong level.</TD><TD></TD></TR>
-<TR><TD>WB0117</TD><TD>Linked to list question doesn't support categories filter</TD><TD></TD></TR>
+<TR><TD>WB0117</TD><TD><STRIKE>Linked to list question doesn't support categories filter</STRIKE></TD><TD>Filters are now applicable to questions linked to lists as well. You should not be getting this error anymore.</TD></TR>
 <TR><TD>WB0118</TD><TD>Expression referencing forbidden DateTime properties: {0}, {1}, {2}. Consider using current time question instead.</TD><TD></TD></TR>
 <TR><TD>WB0119</TD><TD>Questionnaire's title can't have more than {0} symbols.</TD><TD></TD></TR>
 <TR><TD>WB0120</TD><TD>The titles of sections and sub-sections cannot be empty or contain whitespace only.</TD><TD></TD></TR>

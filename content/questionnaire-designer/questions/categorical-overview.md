@@ -8,17 +8,20 @@ lastmod = 2021-09-13T01:01:01Z
 
 <TABLE class="table table-striped table-hover">
 
-<TR>
+<thead>
+
+<TR class="header bg-warning">
 <TH colspan=5><CENTER>Question type/configuration</CENTER></TH>
 <TH rowspan=2><CENTER>Use</CENTER></TH>
 
-<TR>
+<TR class="header bg-warning">
   <TH>Selection</TH>
   <TH>Presentation</TH>
   <TH>Linked</TH>
   <TH>Ordered</TH>
   <TH>Cascading</TH>
 </TR>
+</thead>
 
 <TR>
   <TD colspan=6>Single</TD>
@@ -208,10 +211,16 @@ lastmod = 2021-09-13T01:01:01Z
 
 - All categories in categorical questions must have distinct numeric integer codes (may be negative or positive or include 0).
 
-- Any of the above-mentioned question variants may involve a filter imposed on the categories.
+- Any of the above-mentioned question variants may involve a filter imposed on the categories (except for questions used in the cover page [WB0029]).
+
+- Multiple select categorical questions may not be used in the cover page section of the questionnaire [WB0022].
 
 - Any of the non-linked variants of the questions may utilize either the categories specified directly in the question, or reusable categories defined at the questionnaire level.
 
 - All multiselect questions may have a constant limit on the number of selections.
 
 - Ordered multiple select question types put an extra burden on the respondent to mentally grasp all possible choices and sort them in order of some attribute (such as cost, frequency of use, date of purchase, etc).
+
+- Categorical selection questions with defined categories must have at least 2 of them defined. A filter may reduce the choices to 1 or 0.
+
+- A categorical selection question with 0 selections is considered to be **not answered** as concerned by the *IsAnswered()* function. It is advisable to disable a categorical question without possible selections by applying a proper enabling condition.
