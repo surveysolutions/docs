@@ -6,7 +6,7 @@ lastmod = 2021-09-13T01:01:01Z
 +++
 
 
-<TABLE>
+<TABLE class="table table-striped table-hover">
 
 <TR>
 <TH colspan=5><CENTER>Question type/configuration</CENTER></TH>
@@ -208,7 +208,7 @@ lastmod = 2021-09-13T01:01:01Z
 
 - All categories in categorical questions must have distinct numeric integer codes (may be negative or positive or include 0).
 
-- Any of the above-mentioned question variants may involve a filter imposed on the categories, (except the linked questions for which the source of categories has been specified as a text-list question).
+- Any of the above-mentioned question variants may involve a filter imposed on the categories.
 
 - Any of the non-linked variants of the questions may utilize either the categories specified directly in the question, or reusable categories defined at the questionnaire level.
 
