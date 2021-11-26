@@ -25,7 +25,12 @@ migration
 
 These commands and their subcommands and options are described below.
 
+## Version
 `version` --> Print application version information
+
+This command doesn't have any subcommands or options.
+
+## Users
 
 `users` --> Manage users of Headquarters
 
@@ -50,6 +55,8 @@ These commands and their subcommands and options are described below.
 
     --username or --login
 
+## workspaces
+
 `workspaces` --> Manage workspaces
 
   `add` Subcommand to add new workspace to Headquarters
@@ -59,6 +66,8 @@ These commands and their subcommands and options are described below.
     --title or -t Title of the workspace
 
   `list` Subcommand to list workspaces
+
+## Migrate
 
 `migrate` --> Migrate database to latest version
 
