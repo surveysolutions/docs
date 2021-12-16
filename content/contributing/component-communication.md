@@ -82,6 +82,21 @@ After login to the Interviewer application dashboard is displayed with selected 
 
 ### IV. Headquarters and Designer
 
+Headquarters provides UI to enter login and password to connect to Designer and validates them by calling Designer API. If validation succeded it calls Designer API to get list of questoinnaries. Once questionnaire is selected to be imported and import is requested the following actions are performed:
+1. Credentials to Designer are validated
+2. Headquarters prepares to import questionnare in exclusive mode (same questionnare cannot be imported simuteniously)
+3. Headquarters requests Designer API to get questionnaire providing information about what version of questionnaire it supports. If designer has questionnaire that has errors or version of questionnaire on Designer is higher that Hadquarters supports error will be returned. The following results could be returned:
+  Unauthorized (401) - User is not authorized to performe this action any more. Might be locked by admin during the import.
+  Forbidden (403) - User has no access rights to this questionnaire. Shared status was revoked by owner.
+  Upgrade requared (426) - Designer doesn't support old version of Headquarters
+  ExpectationFailed (417) - Questionnaire contains new features not supported by the Headquarters
+  PreconditionFailed (412) - Questionnaire contains errors
+  NotFound (404) - Questionnaire not found. Might be deleted from the server
+  ServiceUnavailable (503) - Server error occured
+  RequestTimeout (408) - Responce was not received within defined timeframe
+ 4. If the previous step sucseeded Headquarters requests backup archive and PDF files for questionnaire
+ 5. Assignments are migrating if migration was requested 
+
 ### V. WebTester and Designer
 
 ### VI. Tester and Designer
