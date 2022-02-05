@@ -232,7 +232,7 @@ BaseUrl=https://demo.mysurvey.solutions
 #### Captcha {#captcha}
 
 A [captcha](/headquarters/accounts/captcha/) is used to safeguard the
-application from brute-force attacks on user accounts and for protection of 
+application from brute-force attacks on user accounts and for protection of
 web mode from automatic creation of interviews.
 
 Survey Solutions may utilize a built-in (hosted) implementation of captcha
@@ -304,3 +304,13 @@ GdalHome=%Path to bin where GDAL is intalled%
 If this step is not performed, the users of this Survey Solutions instance
 will not be able to upload maps in GeoTIFF format to the HQ. They will still
 be able to upload maps in other accepted formats.
+
+
+### For Survey Solutions data servers controlled by the World Bank
+If you are receiving a message
+```
+The requested URL was rejected. If you think you have made a valid request to a page on our website please report by clicking on the below link.
+Your support ID is: ###################
+```
+(where ##...# denotes a numeric ID), please write to `lbadmin` from your
+World Bank-staff email account and cite the message you received including the ##..# number. Please note: *this message is not produced by the Survey Solutions software*.
