@@ -1,5 +1,5 @@
 +++
-title = "TOKEN=BASED AUTHENTICATION"
+title = "Token-based authentication"
 
 keywords = ["account", "security", "token", "API"]
 date = 2022-02-09T00:00:00Z
