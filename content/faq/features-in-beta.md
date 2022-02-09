@@ -11,12 +11,12 @@ Survey Solutions is an actively developed software. New features are
 added in monthly updates. Some of the features are released with status
 "beta", meaning they are still being finalized and must be carefully
 evaluated for reliability and suitability by our clients.  
-  
+
 At the moment the following features are in the status "beta":
 
 - satellite map viewing, positioning, and area measurement on the
-    tablets in the Interviewer App. This feature is known to be
-    incompatible with Android 64-bit OS in versions of Survey Solutions 
-    prior to 18.08.
+    tablets in the Interviewer App.
 - shapefile overlay in a geography-type question.
 - offline supervisor App.
+
+**Please note that the mapping functionality is known to be incompatible with Android devices based on x86 architecture and this will not be fixed.**

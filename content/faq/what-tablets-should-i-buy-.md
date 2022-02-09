@@ -14,10 +14,10 @@ Survey Solutions software works with Android tablets with the following
 specifications:
 
 - **Version of Android OS**:
-  - Android 5.0 or better is required, Survey Solutions will not work at all on tablets below Android 5.0.
+  - Android 5.0 or better is required; Survey Solutions will not work at all on tablets below Android 5.0.
   - tablets on Android 5.0.1 and 5.0.2 are known to have communication problems with some SSL certificates;
   - tablets with versions of Android below 6.0 may be not displaying all characters of the current Unicode standard;
-  - all versions of Android below 8.0 are [no longer supported](https://en.wikipedia.org/wiki/Android_version_history) by the manufacturers and correspondingly tablets that can't be updated to Android 8.0 or above should be considered unsafe for the World Bank projects.
+  - all versions of Android below 9.0 are [no longer supported](https://en.wikipedia.org/wiki/Android_version_history) by the manufacturers and correspondingly tablets that can't be updated to Android 9.0 or above should be considered unsafe for the World Bank projects.
 - **RAM**: Minimum 1.5GB
 - **Storage**: 8GB of flash memory storage. At least 1GB of available
 space must be available for Survey Solutions' use. The Survey Solutions
@@ -31,6 +31,12 @@ synchronization while in the office.
 - **3G/4G** connectivity module is required for synchronization from
 the field.
 
+- **Hardware architecture**: Survey Solutions Interviewer will not be
+  able to display maps on
+  devices based on x86 architecture, for example, on devices based on
+  the *Intel Atom Z3745* chip. This incompatibility is known and will
+  not be fixed. Users installing the Interviewer app on such devices
+  must opt for the version without the maps.
 
 Minimal requirements are not necessarily going to be optimal for a
 particular application. Better technical characteristics will improve
@@ -44,120 +50,20 @@ independent testing before volume purchases of tablets.
     consume more power and reduce autonomous work. The choice of the
     screen depends on the convenience of use with the software and is
     usually determined experimentally.
--   **Android 8.0** we highly recommend choosing tablets with Android
-    8 preinstalled. Starting from this version it should be easier for
-    manufacturers to update existing devices because of [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html).
+-   **Android 8.0** or higher is recommended because of [Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html), which should make it easier for the manufacturers to update produced devices.
 
-  Tested Devices
+
+Testing Devices
 ---------------
+We conduct periodic tests of the software and use a range of devices with different characteristics. The objective of this testing is to make sure each of our releases continues to work on the declared platform. Availability, prices and support by manufacturers of these devices vary greatly.
 
-The World Bank-Survey Solutions team is not in the position of
-recommending devices. In January 2016 we have tested several devices
-for compatibily with the version of Survey Solutions current at that
-time. The description of the tested devices is presented in the table
-below for historical purposes, since these devices may no longer be
-compatible with the current version of Survey Solutions, and/or may
-no longer be available on the market.
+We recommend conducting your own independent testing especially before purchasing of tablets in bulk.
 
+The World Bank-Survey Solutions team is not in the position of recommending specific devices, brands, or vendors.
 
-<table border=1 align=center>
-<thead>
-<tr class="header">
-<th>Tablet model</th>
-<th>Android version</th>
-<th>3G or 4G</th>
-<th>WiFi</th>
-<th>RAM</th>
-<th>Flash Storage</th>
-<th>Screen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="even">
-<td>HTC Nexus 9</td>
-<td>6.0.1</td>
-<td>+</td>
-<td>+</td>
-<td>2GB</td>
-<td>32GB</td>
-<td>8.9&quot;</td>
-</tr>
-<tr class="odd">
-<td>Samsung Galaxy TAB 4</td>
-<td>5.1.1</td>
-<td>+</td>
-<td>+</td>
-<td>1.5GB</td>
-<td>16GB</td>
-<td>7&quot;</td>
-</tr>
-<tr class="even">
-<td>Samsung Galaxy TAB A</td>
-<td>5.0.2</td>
-<td>+</td>
-<td>+</td>
-<td>1.5GB</td>
-<td>16GB</td>
-<td>8&quot;</td>
-</tr>
-<tr class="odd">
-<td>Samsung Galaxy Tab S</td>
-<td>5.0.2</td>
-<td>+</td>
-<td>+</td>
-<td>3GB</td>
-<td>16GB</td>
-<td>8.4&quot;</td>
-</tr>
-<tr class="even">
-<td>Samsung Nexus 10</td>
-<td>5.0.2</td>
-<td> -</td>
-<td>+</td>
-<td>2GB</td>
-<td>32GB</td>
-<td>10&quot;</td>
-</tr>
-<tr class="even">
-<td>Lenovo TAB 2 A8-50F</td>
-<td>5.1.0</td>
-<td>-</td>
-<td>+</td>
-<td>1GB</td>
-<td>16GB</td>
-<td>8&quot;</td>
-</tr>
-<tr>
-<td>Samsung Galaxy Tab A</td>
-<td>9.0</td>
-<td>-</td>
-<td>+</td>
-<td>2GB</td>
-<td>32-128GB</td>
-<td>10.1&quot;</td>
-</tr>
+Share your experience
+------------------------
 
-<tr>
-  <td><a href="https://www.gsmarena.com/xiaomi_mi_pad_4-9249.php" target="_blank">Xiaomi Mi Pad 4</a></td>
-<td>8.1</td>
-<td>+</td>
-<td>+</td>
-<td>3GB</td>
-<td>32-64GB</td>
-<td>8&quot;</td>
-</tr>
+[Survey Solutions users' forum](https://forum.mysurvey.solutions/) is an excellent place to share your feedback about particular devices (tablets, phones) that you've tried. Most readers will be interested in compatibility, performance and usability details that you can provide.
 
-</tbody>
-</table>
-
-<BR>
-NB: The testing was performed by the developers of Survey Solutions CAPI
-software. Conduct your independent testing before volume purchases of
-tablets. Same models may be available in different markets under
-different model numbers.
-
-
-We are no longer trying to keep this list current. If you tried a different model
-and determined it works fine with Survey Solutions, please mention this in the users' forum
-along with the version number of the Survey Solutions software that
-you've used.
+Whether you are providing positive or negative feedback, please, try to stay objective and keep it informative and supplemented with useful data. Please, mention the device brand, model number, version of Android, and version of the Survey Solutions Interviewer app that you've tried, and any other details you think may be helpful.
