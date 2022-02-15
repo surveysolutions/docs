@@ -1,7 +1,7 @@
 +++
 title = "Audio audit"
 keywords = ["audio audit", "audit", "recording", "quality"]
-lastmod = 2019-02-04T18:04:38Z
+lastmod = 2022-02-14T12:00:00Z
 aliases = ["/headquarters/audio-audit"]
 draft = false
 +++
@@ -9,7 +9,7 @@ draft = false
 Description
 ----------------------------------------
 
-Audio auditing enables Headquarters to listen in on interviews secretly. Audio auditing automatically records the full interview for selected assignments, stores the recording in encrypted audio files, and synchronizes these audio files along with the linked interview files.
+Audio auditing enables Headquarters to listen in on interviews secretly. Audio auditing automatically records the full interview for selected assignments, stores the recording in encrypted audio files, and synchronizes these audio files along with the linked interview files. It is not possible to record only parts of an interview, but it is possible to select which assignments will be recorded.
 
 How to enable/disable audio auditing
 ----------------------------------------
@@ -28,25 +28,10 @@ To disable (enable) audio auditing, follow the same process to deselect (select)
 
 ### After creating an assignment
 
-- Navigate to Survey Setup > Assignments
-- Click in the AUDIO RECORDING column to enable (disable) audio auditing for selected assignment
+- Navigate to `Survey Setup` > `Assignments`
+- Click in the `AUDIO RECORDING` column to enable (disable) audio auditing for selected assignment
 
 This action only affects the selected assignment.
-
-How to get and understand audio files
-----------------------------------------
-
-To get audio files:
-
-- Download the binary data for a template
-- Navigate to the AudioAudit folder
-
-To understand files, it is important to note that:
-
-- Each audio file contains the recording of one interview session. These are the same sessions documented in the interview__actions file. A session starts when: either an interview is opened or the tablet wakes up while an interview is open. A session ends when: either the interview is closed or when the tablet goes to sleep.
-- File names indicate content. The file name consists of : the interview__id + audio-audit + the date and time of the interview session. 
-
-If an interview session is longer than 20 minutes, the audio will be split into files that contain at most 20-minute chunks. For example, if an interview consists of 34 minutes of continuous interviewing, there will be two audio files: one that covers the first 20 minutes; another that covers the next 14 minutes.
 
 How audio auditing is enforced on the tablet
 ----------------------------------------
@@ -67,3 +52,8 @@ Important considerations
 Audio recordings will increase the amount of data that needs to be synchronized with the server.
 
 For technical reasons, interviews and their audio files must be sent together. The audio files are synced first, and then the interview file. That means the interview file will only be sent once the, potentially quite large, audio files have been sent.
+
+Audio audit data format
+----------------------------
+
+See [audio audit files](/headquarters/export/audio-audit-files) article for details.
