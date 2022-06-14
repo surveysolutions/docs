@@ -2,11 +2,12 @@
 title = "Shape file overlay"
 keywords = [""]
 date = 2018-06-06T21:39:31Z
-lastmod = 2021-05-15T00:00:00Z
+lastmod = 2022-06-14T00:00:00Z
 aliases = ["/customer/portal/articles/2942852-shape-file-overlay","/customer/en/portal/articles/2942852-shape-file-overlay","/customer/portal/articles/2942852","/customer/en/portal/articles/2942852","/interviewer/shape-file-overlay"]
 
 +++
 
+**<span style="color:#800000;">This feature has been revised in the recent [update v22.06](/release-notes/version-22-06/). Please refer to the [shapefile maps](/headquarters/svymanage/shapefile-maps/) article for description of the updated functionality.</span>**  
 
 **<span style="color:#800000;">This feature is added in v18.06 for beta
 testing. We recommend our users to utilize it with a caution and keep us

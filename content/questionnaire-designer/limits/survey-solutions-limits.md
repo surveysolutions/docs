@@ -157,12 +157,15 @@ limits.
 <td style="text-align: center;">3 [minutes]</td>
 </tr>
 <tr>
-<td>Maximum size of the preload file:</td>
+<td>Maximum size of the assignments preload file:</td>
 <td style="text-align: center;">300 [MB]</td>
 </tr>
 <tr>
-<td>Maximum size of the (zipped) map preload file:</td>
+<td>Maximum size of the (compressed/zipped) map preload file:</td>
 <td style="text-align: center;">500 [MB]</td>
+</tr>
+<td>Maximum size of any (decompressed/unzipped) map preload file:</td>
+<td style="text-align: center;">512 [MB]</td>
 </tr>
 <tr>
 <td>Maximum size of the questionnaire (not including attachments)</td>
