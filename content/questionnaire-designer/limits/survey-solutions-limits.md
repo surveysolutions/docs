@@ -8,8 +8,8 @@ aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/custome
 +++
 
 The table below summarizes some of the Survey Solutions limits.  
-It is not advisable to design a questionnaire on the margin of these
-limits.  
+It is not advisable to design a questionnaire or work flow that is balancing on
+the margin of these limits.  
  
 
 <table class="table table-striped ">
@@ -197,20 +197,24 @@ limits.
 </tr>
 <tr>
 <td>Length of an internally generated case ID (GUID):</td>
-<td style="text-align: center;">32 (hexadecimal digits)</td>
+<td style="text-align: center;">32 [hexadecimal digits]</td>
 </tr>
 <tr>
 <td>Length of a comment:</td>
-<td style="text-align: center;">500 (characters)</td>
+<td style="text-align: center;">500 [characters]</td>
 </tr>
 <tr>
 <td>Timeout for inactive web-interviewing sessions:</td>
-<td style="text-align: center;">15 (minutes)</td>
+<td style="text-align: center;">15 [minutes]</td>
 </tr>
 <tr>
 <td>Maximum number of unsuccessful login attempts before a
 <A href="/headquarters/accounts/captcha/">CAPTCHA</A> gets activated:</td>
-<td style="text-align: center;">5 (attempts)</td>
+<td style="text-align: center;">5 [attempts]</td>
+</tr>
+<tr>
+<td>Maximum number of interviews that can be requested in a <I>finite</I> assignment****:</td>
+<td style="text-align: center;">10,000 [interviews]</td>
 </tr>
 
 </tbody>
@@ -223,4 +227,5 @@ here](/customer/en/portal/articles/2472543-rosters);
 \*\*)  in addition to the requirement for password complexity: at least
 one digit, at least one lower case character, and at least one upper
 case character;  
-\*\*\*) Since version 18.12 large number of markers will be clustered on the server before being shown on the map.
+\*\*\*) Since version 18.12 large number of markers will be clustered on the server before being shown on the map;  
+\*\*\*\*) Infinite-size assignmnets are not affected by this limit.
