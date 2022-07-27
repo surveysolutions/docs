@@ -54,3 +54,13 @@ The checkmarks in this dialog indicate the workspaces that the selected
 user currently has access to. The administrator can add or remove access
 to any workspaces by adding and removing the appropriate checkboxes. Any
 such changes are applied immediately on pressing the `Update` button.
+
+
+Note also that a user may be left without access to any workspace. In this
+case when that user tries to log in, he or she will be denied access to the 
+system:
+<CENTER>
+  <A href="images/accessdenied.png">
+     <IMG src="images/accessdenied.png" width=400>
+  </A>
+</CENTER>
