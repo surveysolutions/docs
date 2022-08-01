@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = ["limit", "maximum"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2021-07-01T00:00:01Z
+lastmod = 2022-08-01T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -106,6 +106,11 @@ the margin of these limits.
 <tr>
 <td>Maximum number of list items in a text list question type:</td>
 <td style="text-align: center;">200 [items]</td>
+</tr>
+<tr>
+<td>Maximum length of response to a text question type that can be entered:<BR>
+(This limit does not apply to content that is pre-loaded by file upload method)</td>
+<td style="text-align: center;">500 [characters]</td>
 </tr>
 <tr>
 <td>Earliest date that can be entered into a date question:</td>
@@ -213,7 +218,8 @@ the margin of these limits.
 <td style="text-align: center;">5 [attempts]</td>
 </tr>
 <tr>
-<td>Maximum number of interviews that can be requested in a <I>finite</I> assignment****:</td>
+<td>Maximum number of interviews that can be requested in a <I>finite</I> assignment:<BR>
+(Infinite-size assignments are not affected by this limit).</td>
 <td style="text-align: center;">10,000 [interviews]</td>
 </tr>
 
@@ -227,5 +233,4 @@ here](/customer/en/portal/articles/2472543-rosters);
 \*\*)  in addition to the requirement for password complexity: at least
 one digit, at least one lower case character, and at least one upper
 case character;  
-\*\*\*) Since version 18.12 large number of markers will be clustered on the server before being shown on the map;  
-\*\*\*\*) Infinite-size assignmnets are not affected by this limit.
+\*\*\*) Since version 18.12 large number of markers will be clustered on the server before being shown on the map.
