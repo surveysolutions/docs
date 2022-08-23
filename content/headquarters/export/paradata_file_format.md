@@ -2,7 +2,7 @@
 title = "Paradata file format"
 keywords = ["export, action, paradata"]
 date = 2018-12-28T12:12:12Z
-lastmod = 2021-08-26T12:12:12Z
+lastmod = 2022-08-23T12:12:12Z
 
 
 +++
@@ -56,21 +56,21 @@ The paradata is supplied in a zip archive with a tab-delimited data file inside.
 <TR>
   <TD>role</TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>Role of the person mentioned in the 'responsible' column, one of the following: Interviewer, Supervisor, Headquarter</TD>
+  <TD>Role of the person mentioned in the `responsible` column, one of the following: Interviewer, Supervisor, Headquarter</TD>
   <TD>Interviewer</TD>
 </TR>
 
 <TR>
-  <TD>timestamp</TD>
+  <TD>timestamp_utc</TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>Date and time when the event occurred combined in a single timestamp.</TD>
+  <TD>Date and time when the event occurred combined in a single timestamp (in UTC).</TD>
   <TD>2018-12-28T23:00:59</TD>
 </TR>
 
 <TR>
-  <TD>offset</TD>
+  <TD>tz_offset</TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>Time offset relative to UTC.</TD>
+  <TD>Time zone offset relative to UTC.</TD>
   <TD>-05:00:00</TD>
 </TR>
 
@@ -348,12 +348,12 @@ The following table outlines the types of the events tracked by Survey Solutions
 </CENTER>
 <BR>
 <P>
-<A id="rosteraddress"><B><I>OptionalRosterAddress</I></B> denotes one or more numeric rowcodes
+<A id="rosteraddress"><B><I>OptionalRosterAddress</I></B> denotes one or more numeric <TT>rowcodes</TT>
 for each level of nesting when the event affects an item (question,
-variable, etc) in a roster. In case of multiple rowcodes they are
-separated by commas. For example, 2.0,5.0,0.0 may correspond to the job
-coded 0, of the person with rowcode 5 of the household with rowcode 2. If
-the item is not part of any roster, it's OptionalRosterAddress is blank.</P>
+variable, etc) in a roster. In case of multiple <TT>rowcode</TT>s they are
+separated by commas. For example, <TT>2.0,5.0,0.0</TT> may correspond to the job
+coded 0, of the person with <TT>rowcode</TT> 5 of the household with <TT>rowcode</TT> 2. If
+the item is not part of any roster, it's <TT>OptionalRosterAddress</TT> is blank.</P>
 <P>
 <A id="varname"><B><I>Varname</I></B> is the name of the data variable
 corresponding to a question or a calculated variable (as specified in

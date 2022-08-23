@@ -2,7 +2,7 @@
 title = "Version 20.09"
 keywords = ["20.09"]
 date = 2020-09-17T01:01:01Z
-lastmod = 2020-09-17T01:01:01Z
+lastmod = 2022-08-23T01:01:01Z
 +++
 
 
@@ -65,9 +65,9 @@ The organization of the metadata in the Survey Solutions export file is
 described in the following article: [Organization of meta-data storage in the
 exported data](/headquarters/export/metadata-organization/)
 
-Paradata export files have the following changes: variable `timestamp__utc` shows
+Paradata export files have the following changes: variable `timestamp_utc` shows
 the event timestamp in the UTC using the following format: `YYYY-MM-DDThh:mmZ`,
-and variable `tz__offset` contains the difference in hours between the time zone
+and variable `tz_offset` contains the difference in hours between the time zone
 of the event origin and the UTC. For example, if the timestamp in paradata is
 recorded as `2020-09-19T16:45Z` with time zone offset `+3:00` then the clock was
 showing `19:45` of the same date at the location where the event originated.
@@ -115,3 +115,14 @@ update.
 
 - **Bugfix** to an issue with the keyboard getting in the way while working with
 the Interviewer app [reported in the forum](https://forum.mysurvey.solutions/t/options-hidden-behind-the-keyboard/2871).
+
+--------
+<BR><BR>
+
+***Earlier version of this page incorrectly specified variable names
+`timestamp_utc` and `tz_offset` as `timestamp__utc` and `tz__offset`.
+This has been rectified. Note, the correct spelling of these variable
+names includes only single underscore character, not two.***
+
+<BR><BR>
+--------
