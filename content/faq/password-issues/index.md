@@ -2,9 +2,12 @@
 title = "Password issues"
 keywords = ["Password"]
 date = 2022-08-26T00:00:00Z
+lastmod = 2022-09-05T00:00:00Z
 +++
 
 ### Password issues
+
+Click on the description of the case (1-15) below. Instructions vary depending on the type of password/login you are having an issue with.
 
 <details>
   <summary>
@@ -44,7 +47,7 @@ You can update the email address associated with your account:
 </details>
 
 <details>
-  <summary><B>5. Forgot your password and/or username for the users' forum?**</B></summary>
+  <summary><B>5. Forgot your password and/or username for the users' forum?</B></summary>
 
 Users' forum is located at https://forum.mysurvey.solutions .
 
