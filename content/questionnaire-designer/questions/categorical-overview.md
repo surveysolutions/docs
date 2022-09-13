@@ -11,10 +11,11 @@ lastmod = 2021-09-13T01:01:01Z
 <thead>
 
 <TR class="header bg-warning">
-<TH colspan=5><CENTER>Question type/configuration</CENTER></TH>
+<TH colspan=6><CENTER>Question type/configuration</CENTER></TH>
 <TH rowspan=2><CENTER>Use</CENTER></TH>
 
 <TR class="header bg-warning">
+  <TH>#</TH>
   <TH>Selection</TH>
   <TH>Presentation</TH>
   <TH>Linked</TH>
@@ -24,10 +25,11 @@ lastmod = 2021-09-13T01:01:01Z
 </thead>
 
 <TR>
-  <TD colspan=6>Single</TD>
+  <TD colspan=7><B>Single</B></TD>
 </TR>
 
 <TR>
+  <TD>1</TD>
   <TD>Single</TD>
   <TD>radio-buttons</TD>
   <TD></TD>
@@ -38,6 +40,7 @@ lastmod = 2021-09-13T01:01:01Z
 
 
 <TR>
+  <TD>2</TD>
   <TD>Single</TD>
   <TD>combobox</TD>
   <TD></TD>
@@ -47,6 +50,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>3</TD>
   <TD>Single</TD>
   <TD>radio-buttons</TD>
   <TD>linked</TD>
@@ -56,6 +60,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>4</TD>
   <TD>Single</TD>
   <TD>combobox</TD>
   <TD>linked</TD>
@@ -65,6 +70,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>5</TD>
   <TD>Single</TD>
   <TD>radio-buttons</TD>
   <TD></TD>
@@ -74,6 +80,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>6</TD>
   <TD>Single</TD>
   <TD>combobox</TD>
   <TD></TD>
@@ -83,10 +90,11 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
-  <TD colspan=6>Multiple</TD>
+  <TD colspan=7><B>Multiple</B></TD>
 </TR>
 
 <TR>
+  <TD>1</TD>
   <TD>Multiple</TD>
   <TD>checkboxes</TD>
   <TD></TD>
@@ -96,6 +104,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>2</TD>
   <TD>Multiple</TD>
   <TD>yes/no buttons</TD>
   <TD></TD>
@@ -105,6 +114,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>3</TD>
   <TD>Multiple</TD>
   <TD>combobox</TD>
   <TD></TD>
@@ -114,6 +124,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>4</TD>
   <TD>Multiple</TD>
   <TD>checkboxes</TD>
   <TD>linked</TD>
@@ -123,6 +134,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>5</TD>
   <TD>Multiple</TD>
   <TD>yes/no buttons</TD>
   <TD>linked</TD>
@@ -132,6 +144,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>6</TD>
   <TD>Multiple</TD>
   <TD>combobox</TD>
   <TD>linked</TD>
@@ -141,6 +154,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>7</TD>
   <TD>Multiple</TD>
   <TD>checkboxes</TD>
   <TD></TD>
@@ -150,6 +164,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>8</TD>
   <TD>Multiple</TD>
   <TD>yes/no buttons</TD>
   <TD></TD>
@@ -167,6 +182,7 @@ lastmod = 2021-09-13T01:01:01Z
 
 
 <TR>
+  <TD>9</TD>
   <TD>Multiple</TD>
   <TD>combobox</TD>
   <TD></TD>
@@ -178,6 +194,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>10</TD>
   <TD>Multiple</TD>
   <TD>checkboxes</TD>
   <TD>linked</TD>
@@ -188,6 +205,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>11</TD>
   <TD>Multiple</TD>
   <TD>yes/no buttons</TD>
   <TD>linked</TD>
@@ -197,6 +215,7 @@ lastmod = 2021-09-13T01:01:01Z
 </TR>
 
 <TR>
+  <TD>12</TD>
   <TD>Multiple</TD>
   <TD>combobox</TD>
   <TD>linked</TD>
