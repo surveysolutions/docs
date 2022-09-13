@@ -101,8 +101,8 @@ The accounts created at step #4 cannot be deleted, but can be locked by the user
 
 END OF PROCEDURE B2.
 
-
-PROCEDURE B3.
+----
+<a name="B3"></a>PROCEDURE B3.
 ===================
 
 Procedure B3 shall be applied when the tablet can not communicate with the server and thus can't send the logs there.
@@ -118,6 +118,29 @@ Procedure B3 shall be applied when the tablet can not communicate with the serve
 
 END OF PROCEDURE B3
 
+----
+<a name="C1"></a>PROCEDURE C1
+=========================
+
+This procedure is to be performed when the user obtains an unexplained error `403 "Forbidden"` while working with the data server.
+
+1. Open the browser's development console (press `F12`).
+2. Switch to the `Network` tab.
+3. Refresh the current page (press `F5`) on which `error 403` was obtained.
+4. Select the page document in the `Name` tab.
+5. Check the `server` parameter in the `Response headers`.
+
+<CENTER><A href="images/header_correct.png"><IMG src="images/header_correct.png"></A></CENTER>
+
+The proper value should mention '*Microsoft-IIS*' for servers hosted in Microsoft IIS on Windows or '*Kestrel*' for servers hosted in Docker.
+
+<CENTER><A href="images/header_incorrect.png"><IMG src="images/header_incorrect.png"></A></CENTER>
+
+**Any other `server` value in this response header is indicative of some other device or program responding *instead* of Survey Solutions. Consult your network administrator regarding this issue.**
+
+END OF PROCEDURE C1
+
+----
 
 PROCEDURE M1. Dropping temporary export schemas
 =========================
