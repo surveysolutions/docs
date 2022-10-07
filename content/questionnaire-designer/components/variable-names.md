@@ -2,7 +2,7 @@
 title = "Variable names"
 keywords = [""]
 date = 2019-02-19T10:00:00Z
-lastmod = 2019-02-19T10:00:00Z
+lastmod = 2022-10-06T10:00:00Z
 +++
 
 A variable name (an identifier) must be assigned to every question, calculated variable, and roster in Survey Solutions. Additionally it must also be assigned to the whole questionnaire, and may be assigned to sections and subsections.
@@ -11,7 +11,7 @@ Variable names are used for:
 
 - referring to questions in the C# syntax expressions;
 - naming the data columns in the export data files;
-- referring to the origin of event in paradata events, errors and comments files. 
+- referring to the origin of event in paradata events, errors and comments files.
 
 A variable name is a word that consists only of the following:
 
@@ -27,7 +27,7 @@ Variable names are shown in green color in the questionnaire Designer.
 
 The following are examples of valid variable names: _age_, _gender_, _x25_, _age\_of\_hh\_head_.
 
-The following are examples of invalid variable names: 
+The following are examples of invalid variable names:
 
 - _age\__ (ends with an underscore);
 - _0st_ (starts with a digit);
@@ -47,17 +47,17 @@ In addition to the above restrictions, a variable name may not be a reserved key
             "throw", "true", "try", "typeof", "uint", "ulong", "unchecked",
             "unsafe", "ushort", "using", "virtual", "void", "volatile", "while"
 
-            "_all", "_b", "byte", "_coef", "_cons", "double", "float", "if", "in", "int", 
+            "_all", "_b", "byte", "_coef", "_cons", "double", "float", "if", "in", "int",
             "long", "_n", "_pi", "_pred", "_rc", "_skip", "strl", "using", "with"
 
-            "all", "and", "by", "eq", "ge", "gt", "le", "lt", "ne", "not", "or", 
+            "all", "and", "by", "eq", "ge", "gt", "le", "lt", "ne", "not", "or",
             "to", "with"
 
-            "rowcode","rowname","rowindex","roster","id", "parentid1", "parentid2", 
-            "parentid3", "parentid4", "self", "state", "quest", "optioncode", 
-            "complete", "cover", "overview"
+            "rowcode", "rowname", "rowindex", "roster","id", "parentid1", "parentid2",
+            "parentid3", "parentid4", "self", "state", "quest", "optioncode",
+            "complete", "cover", "overview", "questionnaire"
 
-            "con", "prn", "aux", "nul", 
+            "con", "prn", "aux", "nul",
             "com1", "com2", "com3", "com4", "com5", "com6", "com7", "com8","com9",
             "lpt1", "lpt2","lpt3", "lpt4", "lpt5", "lpt6", "lpt7", "lpt8", "lpt9"
 

@@ -2,14 +2,14 @@
 title = "Survey Solutions Limits"
 keywords = ["limit", "maximum"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2022-08-01T00:00:01Z
+lastmod = 2022-10-07T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
 
 The table below summarizes some of the Survey Solutions limits.  
-It is not advisable to design a questionnaire or work flow that is balancing on
-the margin of these limits.  
+It is not advisable to design a questionnaire or rely on a work flow that
+is balancing on the margin of these limits.  
  
 
 <table class="table table-striped ">
@@ -35,7 +35,7 @@ the margin of these limits.
 </tr>
 <tr>
 <td>Maximum question text length:</td>
-<td style="text-align: center;"><span style="font-size: 13px;">500 [characters] </span></td>
+<td style="text-align: center;"><span style="font-size: 13px;">2,000 [characters] </span></td>
 </tr>
 <tr>
 <td>Maximum length of a variable label:</td>
@@ -152,6 +152,10 @@ the margin of these limits.
 <td>Maximum size of a single image for upload to static text<br />
 (larger images result in warnings): </td>
 <td style="text-align: center;">5 [MB]</td>
+</tr>
+<tr>
+<td>Maximum image dimensions for upload to static text: </td>
+<td style="text-align: center;">4,096 x 4,096 [pixels]</td>
 </tr>
 <tr>
 <td>Maximum size of the longer side of captured images:</td>
