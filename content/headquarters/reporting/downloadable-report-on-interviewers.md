@@ -11,15 +11,15 @@ This report is accessible in CSV, TSV, or Excel formats from the list of
 the interviewers screen and contains important information about the
 equipment being used by the interviewer and various statistics about the
 interviewer accounts, equipment status, etc.  
-  
+
 Thematically the indicators reported here are placed in the following
 groups:
 
-<table>
+<table border=1 class="table table-striped table-hover">
 <thead>
 <tr class="header">
-<th style="text-align: center;">Indicator naming</th>
-<th>Group</th>
+<th style="text-align: center;" bgcolor="Orange">Indicator naming</th>
+<th style="text-align: center;" bgcolor="Orange">Group</th>
 </tr>
 </thead>
 <tbody>
@@ -51,16 +51,16 @@ these indicators characterize the state of the interviewer's dashboard.</td>
 </tbody>
 </table>
 
-  
+
 Below is the full list of the indicators exported in this report and
 their interpretation
 
-<table>
+<table border=1 class="table table-striped table-hover">
 <thead>
 <tr class="header">
-<th>Indicator</th>
-<th>Interpretation</th>
-<th>What to expect, example</th>
+<th style="text-align: center;" bgcolor="Orange">Indicator</th>
+<th style="text-align: center;" bgcolor="Orange">Interpretation</th>
+<th style="text-align: center;" bgcolor="Orange">What to expect (example)</th>
 </tr>
 </thead>
 <tbody>
@@ -80,6 +80,26 @@ their interpretation
 <td>maryjackson</td>
 </tr>
 <tr class="even">
+<td>i_fullName</td>
+<td>(optional) full name of the interviewer (if specified)</td>
+<td>John SMITH</td>
+</tr>
+<tr class="odd">
+<td>i_email</td>
+<td>(optional) contact email for interviewer (if specified)</td>
+<td>john@nowhere.org</td>
+</tr>
+<tr class="even">
+<td>i_phone</td>
+<td>(optional) contact phone number of the interviewer (if specified)</td>
+<td>555-4321</td>
+</tr>
+<tr class="odd">
+<td>i_lastLoginDate</td>
+<td>Date of last login to the server. Missing if never logged in.<BR>(UTC, in the format YYYY-MM-DDThh:mm:ss)</td>
+<td>2022-04-15T13:39:38</td>
+</tr>
+<tr class="even">
 <td>s_appVersion</td>
 <td>Version of the Survey Solutions Interviewer App installed on the tablet of this interviewer</td>
 <td>5.25.10 (build 12345) with Maps</td>
@@ -91,8 +111,8 @@ their interpretation
 </tr>
 <tr class="even">
 <td>s_linkedDate</td>
-<td>Date when the tablet was linked or last re-linked</td>
-<td>11/16/2017 4:11:04 PM</td>
+<td>Date when the tablet was linked or last re-linked<BR>Note: date only, no time.</td>
+<td>11/16/2017</td>
 </tr>
 <tr class="odd">
 <td>i_nSyncSucc</td>
@@ -111,8 +131,8 @@ their interpretation
 </tr>
 <tr class="even">
 <td>t_lastCommDate</td>
-<td>Last communication date</td>
-<td>11/15/2017 12:00:00 AM</td>
+<td>Last communication date<BR>(UTC, in the format YYYY-MM-DDThh:mm:ss).</td>
+<td>2022-04-15T13:39:38</td>
 </tr>
 <tr class="odd">
 <td>t_id</td>
@@ -121,7 +141,7 @@ their interpretation
 </tr>
 <tr class="even">
 <td>t_serialNumber</td>
-<td>Tablet device serial number</td>
+<td>Tablet device serial number*.</td>
 <td>1374c8ba06c120a8</td>
 </tr>
 <tr class="odd">
@@ -156,17 +176,17 @@ their interpretation
 </tr>
 <tr class="odd">
 <td>s_updatedDate</td>
-<td>Date of the last update of the installed Survey Solutions App</td>
-<td>11/15/2017 12:00:00 AM</td>
+<td>Date of the last update of the installed Survey Solutions App<BR>(UTC, in the format YYYY-MM-DDThh:mm:ss)</td>
+<td>2022-04-15T13:39:38</td>
 </tr>
 <tr class="even">
 <td>s_lastKnownLocationLat</td>
-<td>Latitude of the last known location of the tablet*</td>
+<td>Latitude of the last known location of the tablet**</td>
 <td>43</td>
 </tr>
 <tr class="odd">
 <td>s_lastKnownLocationLon</td>
-<td>Longitude of the last known location of the tablet*</td>
+<td>Longitude of the last known location of the tablet**</td>
 <td>-29</td>
 </tr>
 <tr class="even">
@@ -216,18 +236,18 @@ their interpretation
 </tr>
 <tr class="odd">
 <td>z_serverClockAtBeginLastSync</td>
-<td>Server clock at the beginning of the last synchronization session</td>
-<td>9/30/2017 9:51:15 AM</td>
+<td>Server clock at the beginning of the last synchronization session<BR>(UTC, in the format YYYY-MM-DDThh:mm:ss)</td>
+<td>2022-04-15T13:39:38</td>
 </tr>
 <tr class="even">
 <td>z_tabletClockAtBeginLastSync</td>
-<td>Tablet clock at the beginning of the last synchronization session</td>
-<td>9/30/2017 9:56:56 AM</td>
+<td>Tablet clock at the beginning of the last synchronization session<BR>(UTC, in the format YYYY-MM-DDThh:mm:ss)</td>
+<td>2022-04-15T13:39:38</td>
 </tr>
 <tr class="odd">
 <td>z_connectionType</td>
 <td>Type of connection used during the last synchronization session</td>
-<td>3G, GPRS, WIFI, LAN**</td>
+<td>3G, GPRS, WIFI, LAN***</td>
 </tr>
 <tr class="even">
 <td>z_connectionSubType</td>
@@ -267,7 +287,14 @@ their interpretation
 </tbody>
 </table>
 
-\* Coordinates represent only the last known location of the tablet,
+**Notes**
+
+\* each manufacturer may opt for a different numbering scheme, or opt for not
+assigning unique serial numbers; do not rely on this number to uniquely
+identify a particular physical device.
+
+\*\* coordinates represent only the last known location of the tablet,
 which may differ from the current location of the tablet;  
-\*\* exact spelling of categories may vary by models, for example: WiFi
-or WIFI
+
+\*\*\* exact spelling of categories may vary by models, for example: WiFi
+or WIFI.
