@@ -24,6 +24,7 @@ For the langauges applicable to Survey Solutions software components refer to th
 <TR align=center><TD>Chinese<TD>+<TD>+<TD>+</TR>
 <TR><TD colspan="4"><HR></TD></TR>
 <TR align=center><TD>Arabic<TD>+<TD>+<TD>-</TR>
+<TR align=center><TD>Czech<TD>+<TD>+<TD>-</TR>
 <TR align=center><TD>Portuguese<TD>+<TD>+<TD>-</TR>
 <TR align=center><TD>Georgian<TD>+<TD>+<TD>-</TR>
 <TR align=center><TD>Romanian<TD>+<TD>+<TD>-</TR>

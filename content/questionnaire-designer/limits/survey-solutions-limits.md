@@ -209,8 +209,14 @@ is balancing on the margin of these limits.
 <td style="text-align: center;">32 [hexadecimal digits]</td>
 </tr>
 <tr>
-<td>Length of a comment:</td>
+<td>Maximum length of a comment to a question:</td>
 <td style="text-align: center;">500 [characters]</td>
+</tr>
+<td>Maximum length of a comment to an assignment:</td>
+<td style="text-align: center;">500 [characters]</td>
+</tr>
+<td>Maximum length of a comment to approval/rejection transaction:</td>
+<td style="text-align: center;">200 [characters]</td>
 </tr>
 <tr>
 <td>Timeout for inactive web-interviewing sessions:</td>
