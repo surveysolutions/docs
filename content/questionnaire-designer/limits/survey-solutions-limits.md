@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = ["limit", "maximum"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2022-10-07T00:00:01Z
+lastmod = 2022-12-04T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -226,6 +226,11 @@ is balancing on the margin of these limits.
 <td>Maximum number of unsuccessful login attempts before a
 <A href="/headquarters/accounts/captcha/">CAPTCHA</A> gets activated:</td>
 <td style="text-align: center;">5 [attempts]</td>
+</tr>
+<tr>
+<td>Maximum length of a customized notification email
+<A href="/headquarters/cawi/email-templates/">email templates</A></td>
+<td style="text-align: center;">1,000 [characters]</td>
 </tr>
 <tr>
 <td>Maximum number of interviews that can be requested in a <I>finite</I> assignment:<BR>
