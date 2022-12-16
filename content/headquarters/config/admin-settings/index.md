@@ -9,7 +9,8 @@ aliases = ["/customer/portal/articles/2707388-admin-settings","/customer/en/port
 
 Survey Solutions server [administrator](/headquarters/accounts/survey-solutions-server-administrator/)
 may adjust the server settings. These settings affect simultaneously all surveys
-and all users on the server and have the effect immediately when applied.
+and all users in a particular workspace on the server and have the effect
+immediately when applied.
 
 These settings are visible only to the user logged in in an administrative role
 and can be accessed from: `Menu` &#x2192; `Administration` &#x2192; `Settings`.
@@ -108,6 +109,19 @@ synchronization will be performed during synchronization with the server.
 
 - To enable partial synchronization set the checkbox to checked state.
 - To disable partial synchronization set the checkbox to unchecked state.
+
+Numeric parameter `Geography question accuracy` sets the requested accuracy
+(in meters) for geography-type  questions with automatic and semi-automatic
+measurement. It accepts integer values from 1m to 1,000m.
+
+**default = 10**
+
+Numeric parameter `Geography question period` regulates how frequently the
+points will be recorded in a geography-type question by setting up the period
+between the recordings of the points. The period is measured in seconds. Any
+value from 5 to 1,000 may be specified.
+
+**default = 10**
 
 ### Web interview settings
 

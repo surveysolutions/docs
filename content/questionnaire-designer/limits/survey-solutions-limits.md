@@ -238,6 +238,33 @@ is balancing on the margin of these limits.
 <td style="text-align: center;">10,000 [interviews]</td>
 </tr>
 
+
+
+
+<tr>
+<td>Minimum value for accuracy of location detection in automatic and semi-automatic modes in geography questions:</td>
+<td style="text-align: center;">1 [meter]</td>
+</tr>
+<tr>
+<td>Maximum value for accuracy of location detection in automatic and semi-automatic modes in geography questions:</td>
+<td style="text-align: center;">1,000 [meters]</td>
+</tr>
+
+<tr>
+<td>Minimum value for frequency of location detection in automatic mode in geography questions:</td>
+<td style="text-align: center;">5 [seconds]</td>
+</tr>
+
+<tr>
+<td>Maximum value for frequency of location detection in automatic mode in geography questions:</td>
+<td style="text-align: center;">1,000 [seconds]</td>
+</tr>
+
+
+
+
+
+
 </tbody>
 </table>
 
