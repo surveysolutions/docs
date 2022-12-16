@@ -296,12 +296,16 @@ into multiple columns:
 "*lg,lt;lg,lt;....;lg,lt*", where *lg* is the longitude and *lt* is the
 latitude of each point, a decimal dot is always used for fractional values;
 - `Q__area` - calculated area (in square meters) of the selected polygon or a
-missing value if the geometry type is anything different from `polygon`;
+0 (zero value) if the geometry type is anything different from `polygon`;
 - `Q__len` - length (in meters) of the selected polygon or polyline, or a
-missing value if the geometry type is anything different from `polygon` or
+0 (zero value) if the geometry type is anything different from `polygon` or
 `polyline`;
 - `Q__num` - number of recorded points;
 - `Q__racc` - requested accuracy (in meters) effective at the time when the
-question was answered if the input method for Q was `automatic` or a missing
-value;
-- `Q__rfrq` - requested frequency (in seconds) effective at the time when the question was answered.
+question was answered if the input method for Q was `automatic` or `semi-automatic`, otherwise a system missing value;
+- `Q__rfrq` - requested frequency (in seconds) effective at the time when
+the question was answered or a system missing if the input method is not
+`automatic`.
+
+Please note that if the question was not answered, then all of the fields
+will take values mentioned as *'reserved values'* in the [Missing values](/headquarters/export/missing-values/) article.
