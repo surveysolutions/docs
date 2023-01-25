@@ -1,4 +1,5 @@
 +++
+title = "Browser requirements"
 keywords = ["browser"]
 date = 2023-01-24T00:00:00Z
 +++
