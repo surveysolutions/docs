@@ -25,7 +25,7 @@ You still need to have **PostgreSQL** server running, there is an [example](http
 docker run -p 80:80 --name hq \
     -e "HQ_Headquarters__TenantName=hq" \
     -e "HQ_Headquarters__BaseUrl=http://localhost" \
-    -e "HQ_ConnectionStrings__DefaultConnection: 'Persist Security Info=true;Server=db;Port=5432;User Id=postgres;Password=pg_password;Database=SurveySolutions" \
+    -e "HQ_ConnectionStrings__DefaultConnection=Persist Security Info=true;Server=db;Port=5432;User Id=postgres;Password=pg_password;Database=SurveySolutions" \
     surveysolutions/surveysolutions:latest
 ```
 
