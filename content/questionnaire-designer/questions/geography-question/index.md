@@ -307,5 +307,5 @@ question was answered if the input method for Q was `automatic` or `semi-automat
 the question was answered or a system missing if the input method is not
 `automatic`.
 
-Please note that if the question was not answered, then all of the fields
+Please note that if the question was not answered, then **all of the above fields**
 will take values mentioned as *'reserved values'* in the [Missing values](/headquarters/export/missing-values/) article.

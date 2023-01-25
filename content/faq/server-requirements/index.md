@@ -13,8 +13,7 @@ Server requirements are periodically revised. The characteristics below are outl
 - if you plan to collect any multimedia data (photos, audio recordings, etc), or
 - there are other non-standard circumstances.
 
-Requirements for the server depend on the use and the type of the survey.
-Below is a minimal configuration. Better hardware allows better performance.
+Requirements for the server depend on the use and the type of the survey. Below is a minimal configuration. Better hardware allows better performance.
 
 **Hardware:**
 
@@ -27,9 +26,9 @@ If you are planning to purchase new hardware and wish for the server to be opera
 **Software:**
 
 - OS Microsoft Windows Server 2016 or newer / Linux server that supports running docker images.
-- [Microsoft .Net Core 3.1 runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1).
-- Starting version 21.01 runs on [ASP.NET Core Runtime 5](https://dotnet.microsoft.com/download/dotnet-core/5.0).
 - Latest version of PostgreSQL (see [standalone installation instructions](/headquarters/config/standalone-installation/)).
+
+During the installation, the Survey Solutions installer will examine the presence of necessary libraries and if any of them is missing, will attempt to download and install them from their distribution sites.
 
 On windows Survey Solutions is working under Microsoft IIS which is [built-in into the OS](https://support.microsoft.com/en-us/help/224609/how-to-obtain-versions-of-internet-information-server-iis).
 
