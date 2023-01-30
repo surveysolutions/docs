@@ -9,7 +9,7 @@ The changes introduced in v22.06 are listed below. They were added with funding 
 
 Each of the new features is described in detail in the linked documentation article.
 
-1. [Centralized distribution of the shapefiles](/headquarters/svymanage/shapefile-maps/).
+1. [Centralized distribution of the shapefiles](/headquarters/mapsmanage/shapefile-maps/).
 1. [Anonymous questionnaire sharing](/questionnaire-designer/interface/anonymous-sharing/)
 1. Other changes and bugfixes
 
