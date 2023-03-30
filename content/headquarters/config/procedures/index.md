@@ -142,7 +142,7 @@ END OF PROCEDURE C1
 
 ----
 
-PROCEDURE M1. Dropping temporary export schemas
+<a name="M1"></a>PROCEDURE M1. Dropping temporary export schemas
 =========================
 
 The procedure below may be used in cases when the data export does not succeed, such as when a message appears of "An unexpected error during data export...". Note that this message may be appearing in different situations and the below listed procedure will not be able to resolve all of them.
