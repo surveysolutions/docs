@@ -5,6 +5,8 @@ date = 2023-04-05T11:11:11Z
 lastmod = 2023-04-05T11:11:11Z
 +++
 
+*This article explains the importance of adequate storage space for a Survey Solutions server.*
+
 <CENTER>
   <IMG src="images/storage.jpg">
 </CENTER>
@@ -104,11 +106,11 @@ bureaucratically and technically;
 - how expensive or critical is the loss of responses, or having server
 downtime, etc.
 
-As a rule of thumb: if you feel that the data cumulates with the speed that
+👍 As a rule of thumb: if you feel that the data cumulates with the speed that
 you have less than a week-worth of storage left, start doing the revisions
 immediately.
 
-As a rule of thumb: if you have consumed **half** of the storage space,
+👍 As a rule of thumb: if you have consumed **half** of the storage space,
 consider increasing it. (of course this depends on whether you've reached
 this point in the beginning, middle, or the end of the data collection,
 but remember that even if you are not collecting additional interviews,
