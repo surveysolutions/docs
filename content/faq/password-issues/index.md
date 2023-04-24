@@ -120,7 +120,7 @@ Make sure you are responding to the same email to which the original invitation 
 2. Verify that it was reset by signing in online. If it is, then you will be asked to create a new password for your account (your own password, different from the one issued to you by the administrator).
 3. On the tablet when logging in login with the new password that you've selected. Do this for at least 5 times and the login form will display an additional button `TRY TO SIGN IN ONLINE`. Use this button to let the tablet connect to the server and get updated information on the changed password. The tablet must be connected to the internet at this step.
 
-[Click for more information](interviewer/app/password-reset/).
+[Click for more information](/interviewer/app/password-reset/).
 </details>
 
 
