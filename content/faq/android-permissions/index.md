@@ -27,7 +27,7 @@ it comes to Survey Solutions the following permissions are requested:
  - store maps received from the HQ;
  - store troubleshooting packages.
 
-5. Access to **nearby devices** is used to:
+5. Access to <A href="images/nearby_permission.png">nearby devices</A> is used to:
  - establish connection for synchronization between the Interviewer and Supervisor apps.
 
 <CENTER>
