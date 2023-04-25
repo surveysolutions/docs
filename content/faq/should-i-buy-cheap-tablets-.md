@@ -3,7 +3,12 @@ title = "Should I buy cheap tablets?"
 keywords = [""]
 date = 2016-09-20T21:16:20Z
 lastmod = 2016-09-20T21:16:20Z
-aliases = ["/customer/portal/articles/2576135-should-i-buy-cheap-tablets-","/customer/en/portal/articles/2576135-should-i-buy-cheap-tablets-","/customer/portal/articles/2576135","/customer/en/portal/articles/2576135"]
+aliases = [
+    "/customer/portal/articles/2576135-should-i-buy-cheap-tablets-",
+    "/customer/en/portal/articles/2576135-should-i-buy-cheap-tablets-",
+    "/customer/portal/articles/2576135",
+    "/customer/en/portal/articles/2576135"
+]
 
 +++
 
@@ -18,10 +23,4 @@ is more important, such tablets have lower per survey costs on the long
 run - you will be able to use them for the next two or three years in
 multiple surveys.
 
-Please see the [list of
-tablets](/faq/what-tablets-should-i-buy)
-we tested and recommend for the use with Survey Solutions.
-
-Please also refer to the [presentation
-document](http://siteresources.worldbank.org/INTCOMPTOOLS/Resources/8213623-1380598436379/9346245-1428626374876/ss_it_qa.pdf)
-on tablet specifications.
+See also [Which tablets should I buy?](/faq/what-tablets-should-i-buy-/)
