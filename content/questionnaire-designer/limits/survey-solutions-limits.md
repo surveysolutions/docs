@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = ["limit", "maximum"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2022-12-04T00:00:01Z
+lastmod = 2023-04-23T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -110,7 +110,7 @@ is balancing on the margin of these limits.
 <tr>
 <td>Maximum length of response to a text question type that can be entered:<BR>
 (This limit does not apply to content that is pre-loaded by file upload method)</td>
-<td style="text-align: center;">500 [characters]</td>
+<td style="text-align: center;">750 [characters]</td>
 </tr>
 <tr>
 <td>Earliest date that can be entered into a date question:</td>
@@ -210,7 +210,7 @@ is balancing on the margin of these limits.
 </tr>
 <tr>
 <td>Maximum length of a comment to a question:</td>
-<td style="text-align: center;">500 [characters]</td>
+<td style="text-align: center;">750 [characters]</td>
 </tr>
 <td>Maximum length of a comment to an assignment:</td>
 <td style="text-align: center;">500 [characters]</td>
