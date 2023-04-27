@@ -8,28 +8,18 @@ aliases = []
 Survey Solutions server administrator has access to the special healthcheck
 page using the following: `menu` &#x2192; `Administration` &#x2192; `Diagnostics`.
 
-This page may appear like the following:
-
-<CENTER><A href="images/administration_diagnostics.png">
-  <img src="images/administration_diagnostics.png" width=800>
+<CENTER><A href="images/healthcheck_overview_annotated.png">
+  <img src="images/healthcheck_overview_annotated.png" width=800>
 </A></CENTER>
 
-This page shows two kinds of information:
+The health check diagnostics page shows:
 
-- left side shows diagnostics related to server configuration, whether the
-settings are set up correctly and the different components are able to talk
-to each other;
+1. Overall server health status.
+2. Results of diagnostic checks.
+3. Server metrics.
+4. Statistics by workspace of the server.
 
-- right side shows various metrics of the server performance, such as the
-CPU load, memory usage, number of concurrent queries, or the database footprint.
-
-Server administrators are requested to inspect the indications of this panel for
-common problems before bringing them up to the support.
-
-Under proper configuration all components at the left side should be green. The
-number of broken packages may become positive due to miscoordination between the
-interviewers and supervisors (e.g. the same interview rejected to two different
-interviewers) even under normal work.
+#### Overall server health check
 
 The following can be the statuses for the healthcheck:
 
@@ -37,17 +27,88 @@ The following can be the statuses for the healthcheck:
 - ***Degraded*** (yellow) - export service is not answering;
 - ***Unhealthy*** (red) - export service cannot access headquarters;
 
-The healthcheck status is available for monitoring remotely (without
-authorization) at the following URL: https://your.server.name/.hc
+#### Results of diagnostic checks.
 
-For example, for the publicly available demo server the healthcheck status URL is:
-https://demo.mysurvey.solutions/.hc
+These are the diagnostic checks related to server configuration: whether the
+settings are set up correctly and the different components are able to talk
+to each other. Most of these settings are taken from the application
+configuration file, which is modified during the server post-installation
+configuration.
 
-The response contains exactly one word: "*Healthy*", "*Degraded*", or
-"*Unhealthy*".
+#### Server metrics.
 
-The healthcheck diagnostics tool has been added in version 20.07 of Survey
-Solutions.
+Server metrics characterize the server performance and workload, such as the
+CPU load, memory usage, number of concurrent queries, or the database footprint.
+
+- **CPU usage** the higher the value, the more busy the server is. Values close
+to 100% indicate that the server may be inadequate for the survey operation,
+which may result in requests not being addressed.
+
+- **Working memory usage** reports the consumption of memory (in GB). If this
+value approaches the physical amount of memory expanding the memory may
+improve the overall performance of the server.
+
+- **Database size** indicates overall DB footprint (estimation). Watch for the
+growth of the DB footprint especially on the systems that impose limits on the
+growth of the DB, such as RDS instances in AWS and other cloud-based providers.
+
+- **Web interview connections** reflects the number of concurrent web interview
+sessions (includes the review of completed interviews by the supervisors/HQ
+users, etc).
+
+- **Stateful interviews in cache** reflects the dynamics of the interviews cache,
+which expedites access to the contents of the interviews, such as when the
+interview is opened by several users.
+
+- **Exceptions count** reflects the number of exceptions experienced by the
+server software. Review the Survey Solutions server logs if this number is
+positive.
+
+- **Database connections** shows the number of connections from the Survey
+Solutions web server to the DB server (refer to [PostgreSQL documentation
+](https://www.postgresql.org/docs/current/runtime-config-connection.html)).
+
+- **Database network usage** reflects the read/write traffic between the web
+server and the DB server.
+
+- **Requests** indicates the rate of requests to the server (in requests per
+second).
+
+
+#### Statistics by workspace of the server
+
+For each workspace it reports:
+- number of interviews, number of events and the corresponding size of the
+events database;
+- size of the workspace data;
+- number of emails regarding the completion of interviews in the sending
+queue currently.
+
+Database-related metrics are as reported by Postgres and are based on estimation.
+
+Please note that calculating server metrics may take some time. During the
+calculation the healthcheck page will show:
+
+<CENTER><A href="images/calculating_metrics.png">
+  <img src="images/calculating_metrics.png" width=492>
+</A></CENTER>
+
+Server administrators are requested to inspect the indications of this panel for
+common problems before bringing them up to the support.
+
+Under proper configuration all the checks in the health check page should
+pass in green. The number of broken packages may become positive due to
+miscoordination between the interviewers and supervisors (e.g. the same
+interview rejected to two different interviewers) even under normal work.
+
+#### Remote monitoring
+
+The overall healthcheck status is available for monitoring remotely (without
+authorization) at the following URL: `https://your.server.name/.hc` the response
+to which contains exactly one word: "*Healthy*", "*Degraded*", or "*Unhealthy*".
+
+For example, for the publicly available demo server the healthcheck status
+URL is: https://demo.mysurvey.solutions/.hc
 
 ### WebSocket connectivity check
 
@@ -66,16 +127,15 @@ supervisors/HQ-users to review the interviews on the server.
 
 {{< panel title="" style="warning">}}
 <BR>
-The WebSockets test is only informative if ran from an external network 
-(from the internet). When run directly on the server it will indicate 
+The WebSockets test is only informative if ran from an external network
+(from the internet). When run directly on the server it will indicate
 availability of WebSockets, yet the real user experience may be different.
 {{% /panel %}}
 
 {{< panel title="" style="warning">}}
 <BR>
-Note also that the PING-PONG communication here may indicate that a response 
+Note also that the PING-PONG communication here may indicate that a response
 has been received, but not over the <I>WebSockets</I>, but rather using <I>LongPolling</I>.
 This is not sufficient for Survey Solutions. Make sure the test succeeds in
 communication specifically over <B>WebSockets</B>.
 {{% /panel %}}
-
