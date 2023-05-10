@@ -2,7 +2,7 @@
 title = "Survey Solutions API"
 keywords = ["api", "ssaw", "REST", "GraphQL", "SurveySolutionsAPI"]
 date = 2017-07-19T19:29:51Z
-lastmod = 2022-05-010T10:10:10Z
+lastmod = 2022-05-01T10:10:10Z
 aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api","/headquarters/api/api-for-data-export"]
 
 +++
