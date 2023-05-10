@@ -1,7 +1,8 @@
 ﻿+++
 title = "Survey Solutions API"
-keywords = ["api", "ssaw", "SurveySolutionsAPI"]
+keywords = ["api", "ssaw", "REST", "GraphQL", "SurveySolutionsAPI"]
 date = 2017-07-19T19:29:51Z
+lastmod = 2022-05-010T10:10:10Z
 aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api","/headquarters/api/api-for-data-export"]
 
 +++
@@ -37,9 +38,14 @@ created by the server administrator.
 What Survey Solutions is making available to external
 applications/systems is a set of levers, which allow performing the same
 tasks performed by the actual users of the software. This functionality
-is implemented through a set of standardized web requests which are
-documented in the following [interactive guide for API
-users](https://demo.mysurvey.solutions/apidocs/index#/). Every Survey Solutions server provides an API. It is important to verify
+is implemented through a set of standardized web requests which are implemented following the REST and GraphQL standards and are
+documented in the following:
+
+- [interactive guide for REST API
+users](https://demo.mysurvey.solutions/apidocs/index.html)
+- [interactive guide for GraphQL API users](https://demo.mysurvey.solutions/graphql)
+
+Every Survey Solutions server provides an API. It is important to verify
 the reference against the exact version contained in your server to make
 sure the correct syntax for API calls is being used. This syntax may be
 expanded or revised in future releases.  
@@ -58,7 +64,7 @@ The API clients listed below provide convenient access to the API functionality 
 </TR>
 
 <TR>
-  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/.NET_Logo.svg/240px-.NET_Logo.svg.png" width=48><BR>.NET package<BR>Maintained by: <I>Andrii Kozhyn</I></CENTER></TD>
+  <TD><CENTER><IMG src="images/ms-dot-net-logo.png" width=48><BR>.NET package<BR>Maintained by: <I>Andrii Kozhyn</I></CENTER></TD>
   <TD><CENTER><A href="https://github.com/SlyNet/SurveySolutionsClient"><IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
   <TD></TD>
   <TD><CENTER><A href="/headquarters/api/dot-net-package/">more</A></CENTER></TD>
