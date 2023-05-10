@@ -1,7 +1,7 @@
 +++
 title= "API: R-package"
 author= "Michael Wild"
-date= "2023-02-16"
+date= 2023-02-16T07:07:07Z
 +++
 
 Introduction to the Survey Solutions API R-package
