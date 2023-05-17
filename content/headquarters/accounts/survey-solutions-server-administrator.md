@@ -2,7 +2,7 @@
 title = "Survey Solutions Server Administrator"
 keywords = [""]
 date = 2017-10-06T15:14:22Z
-lastmod = 2021-01-20T00:00:00Z
+lastmod = 2023-05-17T00:00:00Z
 aliases = [
 "/customer/portal/articles/2885558-survey-solutions-server-administrator",
 "/customer/en/portal/articles/2885558-survey-solutions-server-administrator",
@@ -41,16 +41,19 @@ Survey Solutions training.
 An administrator can do (almost) everything an HQ user can do plus some
 exclusive actions:
 
--   [create HQ](/headquarters/teams-and-roles-tab-creating-user-accounts-#hqaccounts)
+- create and manage [workspaces](/headquarters/accounts/workspaces/);  
+- [create HQ](/headquarters/teams-and-roles-tab-creating-user-accounts-#hqaccounts)
     user accounts,
     [observer](/headquarters/teams-and-roles-tab-creating-user-accounts-#observer)
     user accounts and
     [API](/headquarters/survey-solutions-api)
     user accounts (in addition to supervisors and interviewers as an HQ
     user can do), change passwords for these users;
--   [set up a logo for the server and the tablets](/headquarters/admin-settings);
--   [leave a message for all of the HQ users and supervisors](/headquarters/admin-settings);
--   [password-protect downloadable data](/headquarters/admin-settings);
+-   configure [workspace-related settings](/headquarters/admin-settings):
+  - set up a logo for the server and the tablets;
+  - leave a message for all of the HQ users and supervisors;
+  - password-protect downloadable data;
+  - configure other workspace-related settings and permissions.
 -   [delete a survey](/faq/deleting-a-survey)
     (questionnaire and all data);
 -   unarchive a user;
@@ -106,22 +109,23 @@ following procedures:
      tasks that can't be performed by HQs.
   1. Collect and analyze user problem reports. Attempt to address them to
       the extent possible. Refer the users to the corresponding sections
-      of the manuals. Elevate the problems requiring developers' attention
-      to {{< contactformurl label="support" >}}.
+      of the manuals and for non-described situations to the [Survey Solutions users' forum](https://forum.mysurvey.solutions).
   1. Preserve the copies of the uploaded sample files and split-key
       files.
   1. Periodically download, back up, and securely store the export data.
   1. Promptly respond to the notifications of the network administrator.
   1. Monitor the progress of the survey.
-  1. Monitor and install the updates to the Survey Solutions software.
+  1. Monitor and install the updates to the Survey Solutions software (!).
   1. Monitor and install updates to other software and OS installed on
-     the server to maintain safe and secure environment.
+     the server to maintain safe and secure environment(!).
+
+*(!) requires access to the server's operating system GUI or command line.*
 
 </details>
 <details>
   <summary>Actions after the end of the survey</summary>
-  At the end of your survey you need to secure the collected data, to avoid
-  it being irreversibly lost.
+
+  At the end of your survey you need to secure the collected data, to avoid it being irreversibly lost. You may need to repeat the following actions for every workspace (if there are multiple workspaces set up on the server).
 
   1. Instruct the interviewers to stop conducting interviews, mark them
       as completed.

@@ -2,18 +2,18 @@
 title = "Admin Settings"
 keywords = ["admin","logo","encryption","accounts"]
 date = 2017-01-09T22:11:21Z
-lastmod = 2020-11-25T01:01:01Z
+lastmod = 2023-05-17T01:01:01Z
 aliases = ["/customer/portal/articles/2707388-admin-settings","/customer/en/portal/articles/2707388-admin-settings","/customer/portal/articles/2707388","/customer/en/portal/articles/2707388","/headquarters/admin-settings"]
 
 +++
 
 Survey Solutions server [administrator](/headquarters/accounts/survey-solutions-server-administrator/)
 may adjust the server settings. These settings affect simultaneously all surveys
-and all users in a particular workspace on the server and have the effect
+and all users *in a particular workspace* on the server and have the effect
 immediately when applied.
 
 These settings are visible only to the user logged in in an administrative role
-and can be accessed from: `Menu` &#x2192; `Administration` &#x2192; `Settings`.
+and can be accessed from: `Menu` &#x2192; `Administration` &#x2192; click particular workspace name &#x2192; `Settings`.
 
 ### Export Encryption
 
