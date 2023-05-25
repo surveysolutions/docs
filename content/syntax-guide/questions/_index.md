@@ -1,3 +1,5 @@
 ﻿+++
-title = "Questions: check how different questions can be addressed in the syntax."
+title = "Questions"
 +++
+
+Check how different question types are handled in the syntax expressions.

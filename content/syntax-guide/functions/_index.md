@@ -1,3 +1,5 @@
 ﻿+++
-title = "Functions Reference: see detailed description of functions you can use."
+title = "Functions Reference"
 +++
+
+See detailed description of functions you can use.
