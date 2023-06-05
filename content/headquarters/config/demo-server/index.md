@@ -18,7 +18,7 @@ When you are using the demo server, you will start with the headquarters user ro
 
 To access the demo server, in your browser proceed to:
 https://demo.mysurvey.solutions
-and sign in with the username `Headquarters1` and password `Headquarters1`.
+and sign in with the username `DemoHQ` and password `XjQ2gTqFe8`.
 
 ***We ask the users never change the password for this headquarters user on the demo server!!***
 
