@@ -70,7 +70,7 @@ Map dashboard explained
 - zoom to extent of the map;
 - show current location marker (may take time to determine position).
 
-5. Assignment marker - blue diamond.
+5. Assignment marker - yellow diamond.
 
 6. Current location marker - blue circle with arrow.
 
@@ -79,16 +79,3 @@ Map dashboard explained
 8. Rejected interview marker - red circle.
 
 9. Started interview marker - blue circle.
-
-
-Map balloon
-------------
-<CENTER><IMG src="images/map_dashboard_balloon.png" width=640></CENTER>
-
-1. Assignment number (interview key for interviews).
-
-2. Questionnaire title and version.
-
-3. Number of interviews to be collected (for assignments only).
-
-4. Button to start a new interview from assignment (assignments only) or open the interview (for interviews in any status).
