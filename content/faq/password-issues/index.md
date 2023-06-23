@@ -1,11 +1,9 @@
 +++
 title = "Password issues"
 keywords = ["Password"]
-date = 2022-08-26T00:00:00Z
-lastmod = 2022-09-05T00:00:00Z
+date = 2023-06-22T00:00:00Z
+lastmod = 2023-06-22T00:00:00Z
 +++
-
-### Password issues
 
 Click on the description of the case (1-15) below. Instructions vary depending on the type of password/login you are having an issue with.
 
@@ -76,14 +74,23 @@ Follow the instructions in this email.
 
 <details>
   <summary><B>8. Forgot password for an account on a PDS server? (your role is any other than Administrator at that PDS server).</B></summary>
-
+  <BR>
+  <P>
 Contact the administrator of that PDS server for assistance. If you don't know who the administrator is, contact the person who has issued you the account credentials in the first place. The new password assigned to the user by the Administrator will need to be reset by that user after the first successful login.
+</P><P>
+A headquarters user may perform the password reset operation for user accounts of interviewers and supervisors only if that headquarters user is controlling that interviewer (resp. supervisor) in all workspaces that that interviewer (resp. supervisor) has access to. Otherwise only the server administrator may do the password reset for that user.
+</P>
 </details>
 
 <details>
   <summary><B>9. Forgot password for an account on a data collection server? (your role is any other than Administrator at that server).</B></summary>
-
+<BR>
+<P>
 Contact the administrator of that data collection server for assistance. If you don't know who the administrator is, contact the person who has issued you the account credentials in the first place. The new password assigned to the user by the Administrator will need to be reset by that user after the first successful login.
+</P>
+<P>
+A headquarters user may perform the password reset operation for user accounts of interviewers and supervisors only if that headquarters user is controlling that interviewer (resp. supervisor) in all workspaces that that interviewer (resp. supervisor) has access to. Otherwise only the server administrator may do the password reset for that user.
+</P>
 </details>
 
 <details>
@@ -185,6 +192,7 @@ There are multiple other possible reasons why a user is not able to login:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 #### See also
+- [Password change](/faq/password-change/).
 - [Password best practices](/interviewer/app/password-best-practices/).
 - [Survey Solutions Server Administrator](/headquarters/accounts/survey-solutions-server-administrator/).
 - [Creating user accounts](/headquarters/accounts/teams-and-roles-tab-creating-user-accounts/).
