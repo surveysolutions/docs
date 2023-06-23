@@ -85,26 +85,7 @@ by the server administrator, see user profile settings in
 {{< /panel >}}
 
 
-{{< panel title="Note on passwords:" style="warning">}}
-
-- **Interviewers** may never change their own password. They must rely
-on their superiors to assist with this matter.
-
-- **Supervisors** may change passwords of interviewers of their team
-(without the need to know the original password) and can change
-their own password (must enter old password).
-
-- **Headquarters** users may change the password of any of the
-supervisors or interviewers (without the need to know the
-original password) and can change their own password (must enter
-their old password).
-
-- **Administrator**  may change any password (without knowing the
-original one) except of his own (without which he can't even
-login).
-
-In addition to password protection, since version 20.05 of
-Survey Solutions, any user may set up a [2-factor authentication](/headquarters/accounts/two-factor-authentication/) for using the server accounts.
-
-See also [password best practices](/interviewer/app/password-best-practices/)
-{{< /panel >}}
+#### See also
+- [Password change](/faq/password-change/).
+- [Password best practices](/interviewer/app/password-best-practices/).
+- [2-factor authentication](/headquarters/accounts/two-factor-authentication/).

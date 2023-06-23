@@ -21,6 +21,8 @@ In the following table users assuming the role mentioned in the rows can change 
 
 ##### Note also:
 
-1. There is no functionality to *reveal* own password (or the password of another user) in clear text after that password is set. If the user forgets the password, the password for that account needs to be reset. See also [Password issues](/faq/password-issues/).
+1. To change *own* password the user needs to enter the old password in addition to the new password. To change the password of another user (when permitted) there is no need to enter the value of the old password.
 
-2. If the password for a user account has been assigned by a user other than the owner of that account that password must be changed on first login by the account owner (own password enforcement). For interviewers and supervisors that can be done from the tablet application or by logging in to the server, for other user accounts only by logging in to the server. Own password enforcement does not apply to accounts in API and administrator roles.
+2. There is no functionality to *reveal* own password (or the password of another user) in clear text after that password is set. If the user forgets the password, the password for that account needs to be reset. See also [Password issues](/faq/password-issues/).
+
+3. If the password for a user account has been assigned by a user other than the owner of that account that password must be changed on first login by the account owner (own password enforcement). For interviewers and supervisors that can be done from the tablet application or by logging in to the server, for other user accounts only by logging in to the server. Own password enforcement does not apply to accounts in API and administrator roles.
