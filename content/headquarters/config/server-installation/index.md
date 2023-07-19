@@ -88,12 +88,13 @@ The post-installation configuration involves the following:
   - [BaseURL](#baseurl);
   - [Captcha](#captcha);
   - [Google Maps](#googlemaps);
-  - [GeoTIFF](#geotiff).
+  - [GeoTIFF](#geotiff);
+  - [DB connections pool](#connpool).
 
 ### Adjusting the site bindings {#bindings}
 
 By default, Survey Solutions is installed as a web application and runs
-behind the IIS web server using port 9700. A custom port is used
+behind the IIS web server using port `9700`. A custom port is used
 to avoid potential conflicts with existing web applications you may already be
 running on the same server. Also, most firewalls will block custom ports by default
 and this will help you in protecting your data by not exposing your application to
@@ -116,7 +117,7 @@ Once you locate the appropriate address, you can access your server from any oth
 by typing `http://server_ip_address:9700/` in the browser. For our example, the address would look like
 this: `http://192.168.136.128:9700/`
 
-You can now change the port 9700 to 80 in the IIS configuration manager.
+You can now change the port `9700` to `80` in the IIS configuration manager.
 To access it right click on start menu, select run option and execute the
 `inetmgr` command.
 
@@ -229,6 +230,13 @@ Example of an ini-file with configured base URL:
 BaseUrl=https://demo.mysurvey.solutions
 ```
 
+Survey Solutions administrator can see if the `BaseURL` setting is not set up correctly in the [Healthcheck](/headquarters/config/healthcheck/) page.
+
+Without the correct specification of the `BaseURL` the server will not be able to generate correct links for:
+- downloading interviewer and supervisor apps (in qrcode);
+- sending invitations to web surveys.
+
+
 #### Captcha {#captcha}
 
 A [captcha](/headquarters/accounts/captcha/) is used to safeguard the
@@ -305,6 +313,31 @@ If this step is not performed, the users of this Survey Solutions instance
 will not be able to upload maps in GeoTIFF format to the HQ. They will still
 be able to upload maps in other accepted formats.
 
+### Adjusting the settings of the DB connections pool {#connpool}
+Survey Solutions communicates with the DB by utilizing a pool of connections,
+the size of which is regulated by the `Maximum Pool Size` parameter (integer).
+
+If your server is servicing many users and/or is facilitating collection of a
+large web survey with many respondents you may need to increase the value of
+this parameter from its default value `100` to a larger value. This is done by
+adding the following:
+```
+Maximum Pool Size=#;
+```
+to the `Default Connection` key in the `Connection Strings` section of the
+`appsettings.production.ini` file, where `#` is the maximum pool size you
+want to set, for example: `200`.
+
+See here for more information: https://www.npgsql.org/doc/connection-string-parameters.html
+
+You will need to restart the Survey Solutions server for the new setting to
+take effect.
+
+Note that the DB server must permit that number of connections as well, and
+may need to be revised too.
+
+See here for more information: https://www.postgresql.org/docs/current/runtime-config-connection.html
+
 
 ### For Survey Solutions data servers controlled by the World Bank
 If you are receiving a message
@@ -312,5 +345,5 @@ If you are receiving a message
 The requested URL was rejected. If you think you have made a valid request to a page on our website please report by clicking on the below link.
 Your support ID is: ###################
 ```
-(where ##...# denotes a numeric ID), please write to `lbadmin` from your
-World Bank-staff email account and cite the message you received including the ##..# number. Please note: *this message is not produced by the Survey Solutions software*.
+(where ``##...#`` denotes a numeric ID), please write to `lbadmin` from your
+World Bank-staff email account and cite the message you received including the `##..#` number. Please note: *this message is not produced by the Survey Solutions software*.
