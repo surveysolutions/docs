@@ -8,7 +8,7 @@ aliases = ["/customer/portal/articles/2465868-panel-of-advanced-instruments","/c
 +++
 
 The panel of advanced instruments located at the left side of the
-questionnaire Designer interface provides access to the additional 
+questionnaire Designer interface provides access to the additional
 tools for configuring the questionnaire:
 
 <TABLE width=800>
@@ -32,9 +32,9 @@ tools for configuring the questionnaire:
 </TR>
 
 <TR>
-  <TD><IMG src="images/toolbar_cat.png"></TD>
+  <TD><A href="/questionnaire-designer/toolbar/reusable-categories/"><IMG src="images/toolbar_cat.png"></A></TD>
   <TD></TD>
-  <TD><B>Reusable categories</B><BR>Add, edit, and delete sets of categories used in categorical questions.</TD>
+  <TD><B>Reusable categories</B><BR>Add, edit, and delete sets of categories used in categorical questions.<BR><A href="/questionnaire-designer/toolbar/reusable-categories/">(more info)</A></TD>
 </TR>
 
 <TR>
