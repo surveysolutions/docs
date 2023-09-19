@@ -18,7 +18,7 @@ Survey Solutions software works with Android tablets with the following
 specifications:
 
 - **Version of Android OS**:
-  - Android 6.0 or better is required; 
+  - Android 7.0 or better is required; 
   - All versions of Android below 9.0 are 
 [no longer supported](https://en.wikipedia.org/wiki/Android_version_history) 
 by the manufacturers and correspondingly tablets that can't be updated to 
