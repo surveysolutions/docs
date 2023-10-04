@@ -24,6 +24,7 @@ Starting from April 09, 2020:
 
     *   UN Agencies, request from the [UN International Computing Centre](https://www.unicc.org/)
     *	Request a server from your government <BR>(for example *[National Informatics Centre](https://www.nic.in/services-main-page/)* in India, *[GDCC/G-Cloud](https://gdcc.onde.go.th/)* in Thailand, etc.);
+    * Request a server from your National Statistical Office (NSO) <BR>(for example [NSB of Bhuthan](https://www.nsb.gov.bt/services/survey-solution-server-request/));
     *	Request a server from a global/international cloud server provider, some examples:
         -	Amazon AWS: https://aws.amazon.com/
             - for questions: [Amazon's contact form](https://aws.amazon.com/contact-us/),

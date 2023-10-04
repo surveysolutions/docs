@@ -290,8 +290,8 @@ devices supporting this latest version.*
                     <div class="px-4 py-3 position-relative">
                         <h6>27. What database does Survey Solutions use to store data? How can we access it from our system?</h6>
                         <ul>
-                            <li>Survey Solutions uses a proprietary database system to store and retrieve the data.</li>
-                            <li>Data in the Survey Solutions database is not directly accessible from any other software the client might use for other operations.</li>
+                            <li>Survey Solutions uses a PostgreSQL system to store and retrieve the data. If in the future, the DB engine is changed in favor of a different database management system, the installation instruction and requirements will be updated.</li>
+                            <li>The exact database structure is changing frequently between the versions and it should be assumed that there will be more changes in the future. For that reason, the data in the Survey Solutions database should not be accessed directly by any other software the client might use for other operations.</li>
                             <li>The data is exported by the Survey Solutions server on demand in the form of a downloadable file.</li>
                         </ul>
                         <h6>28. What is the format of the exported file? Is it suitable for our software X?</h6>
@@ -299,6 +299,7 @@ devices supporting this latest version.*
                             <li>The software exports the data as an archive containing multiple files in tab-delimited unicode text format. Binary files (images) are downloaded separately. Survey Solutions documentation explains the particulars on how questions of different types (numeric, text, choice, etc) are saved in the data file.</li>
                             <li>Tab-delimited text format is a popular data interchange format suitable for import for many modern databases, spreadsheets, and statistical packages.</li>
                             <li>Consult your software operating manual on the support of tab-delimited (also known as tab-separated) data.</li>
+                            <li>Additionally, the survey data may be exported in the binary formats of Stata or SPSS statistical packages.</li>
                         </ul>
                 </div>
             </div>
@@ -363,17 +364,17 @@ devices supporting this latest version.*
                             <li>Old device is automatically excluded and no data from it will ever be accepted.</li>
                             <li>The interviewer can continue her work on the new replacement device from the point consistent with the last synchronization.</li>
                         </ul>
-                        <h6>34. We want to host Survey Solutions on our own server. Can we back up it’s proprietary database?</h6>
+                        <h6>34. We want to host Survey Solutions on our own server. Can we back up it’s database?</h6>
                         <ul>
-                            <li>Yes. Our developers will instruct which files need to be backed up in your particular installation.</li>
-                             <li>You can schedule the backups of those files with your desired frequency.</li>
+                            <li>Yes. When Survey Solutions stores data on your server you have a possibility to do data backups, including automatic/scheduled backups with your desired frequency.
+                            </li>
                         </ul>
                         <h6>35. If I have to make changes to the questionnaire during the field work, for example I want to add response options to a question, how do I get these changes to the interviewers?</h6>
                         <ul>
                             <li>Any changes to questionnaires are not automatically delivered to interviewers.</li>
                             <li>Each Survey Solutions server contains a copy of the questionnaire used for data collection, which is imported by the headquarter user.</li>
                             <li>Importing a new version of the questionnaire to the Survey Solutions server does not affect existing assignments for that survey, but defines the questionnaire that will be used for future assignments.</li>
-                            <li>To update the questionnaire for existing assignments, they must be deleted and recreated usign the newly imported version of the questionnaire. This is only possible for blank assignments and not for started / completed / rejected / etc.</li>
+                            <li>To update the questionnaire for existing assignments, they must be deleted (technically <I>archived</I>) and recreated using the newly imported version of the questionnaire. Survey Solutions provides an "assignments upgrade" feature to do this automatically when a questionnaire is imported. This is only possible for new assignments and not for started / completed / rejected / approved interviews.</li>
                             <li>Updating questionnaire after the fieldwork has started is not recommended.</li>
                         </ul>
                         <h6>36. Is the data on the Designer site shared between the users?</h6>
@@ -400,8 +401,9 @@ devices supporting this latest version.*
                         </ul>
                         <h6>39. We like your system and we want to change it (improve it, modify it, customize it). How should we start?</h6>
                         <ul>
-                            <li>We do not distribute the source code of Survey Solutions.</li>
                             <li>We listen to the suggestions of our users. If there is a useful feature that is missing from our functionality, please let us know in the [forum](https://forum.mysurvey.solutions).</li>
+                            <li><s>We do not distribute the source code of Survey Solutions.</s></li>
+                            <li>Survey Solutions' code is published in GitHub in the following public repository: <A href="https://github.com/surveysolutions/surveysolutions">Survey Solutions</A>. </LI>
                         </ul>
                     </div>
                 </div>

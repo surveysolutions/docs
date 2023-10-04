@@ -4,12 +4,12 @@ date = 2023-05-24T01:01:01Z
 +++
 
 Survey Solutions uses C# language for writing the expressions, such as enabling
-or validation conditions. The C# language organizes classes of objects into 
+or validation conditions. The C# language organizes classes of objects into
 `namespaces`. To use a class from a namespace the C# program must have access to
-the corresponding namespace. Survey Solutions provides access to the following 
+the corresponding namespace. Survey Solutions provides access to the following
 namespaces:
 
-- [`System`](https://learn.microsoft.com/en-us/dotnet/api/system?view=netstandard-1.0)
+- [`System`](https://learn.microsoft.com/en-us/dotnet/api/system?view=netstandard-1.0) (except these specific properties: `DateTime.Now`, `DateTime.UtcNow`, `DateTime.Today`)
 - [`System.Collections`](https://learn.microsoft.com/en-us/dotnet/api/system.collections?view=netstandard-1.0)
 - [`Systems.Collections.Generic`](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic?view=netstandard-1.0)
 - [`System.Linq`](https://learn.microsoft.com/en-us/dotnet/api/system.linq?view=netstandard-1.0)
@@ -17,22 +17,22 @@ namespaces:
 - `System.Linq.Queryable`
 - [`System.Text.RegularExpressions`](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions?view=netstandard-1.0)
 
-You can click on the name of the namespace to see which classes, functions, etc. 
-the namespace avails for the user. `System.Linq.Queryable` is technically a class, 
+You can click on the name of the namespace to see which classes, functions, etc.
+the namespace avails for the user. `System.Linq.Queryable` is technically a class,
 documented [here](https://learn.microsoft.com/en-us/dotnet/api/system.linq.queryable?view=net-7.0&viewFallbackFrom=netstandard-1.0).
 
-Some classes contained in the available namespaces are prohibited for security 
+Some classes contained in the available namespaces are prohibited for security
 reasons, these include all of the following:
 
-- `System.Activator` 
-- `System.AppContext` 
-- `System.AppDomain` 
+- `System.Activator`
+- `System.AppContext`
+- `System.AppDomain`
 - `System.Console`
-- `System.Environment` 
+- `System.Environment`
 - `System.GC`
 
-In Addition to the above C# namespaces Survey Solutions avails some specialized 
-functions to the users, such as `GpsDistance()` or `ContainsAny()`, which are 
+In Addition to the above C# namespaces Survey Solutions avails some specialized
+functions to the users, such as `GpsDistance()` or `ContainsAny()`, which are
 based in its own namespace.
 
 See also [forbidden type](../forbidden-type/) and [data types](../data-types/).

@@ -127,7 +127,7 @@ Solutions preload the very same files that it exports and reduces the
 burden of preparation of data for preloading in panel surveys.
 
 1.  [Protection of answers to preloaded
-    questions]/customer/en/portal/articles/2942758)
+    questions](/headquarters/preloading/protecting-pre-loaded-answers/)
     is available in advanced preloading only for questions of type
     multi-select, numeric and text list. This feature may be most useful
     for panel surveys where data obtained in the initial visit must be
@@ -166,7 +166,7 @@ that the data was collected, but subsequently "disappeared".
 
 {{< imgScale src="images/881380.png"  class="lg-img">}}
 
-1.  Interviewer profile also contains a new warning (red message:
+2.  Interviewer profile also contains a new warning (red message:
     “Relinked”) if the interviewer has relinked his/her device.
 
 New Interviewer Features
