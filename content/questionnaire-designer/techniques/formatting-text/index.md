@@ -38,7 +38,7 @@ discontinue the larger text.
 - Size. Use &lt;font
 size=SIZE&gt;&lt;/font&gt;. For example, use &lt;font
 size=6&gt; and type in the text. Then,
-use &lt;/font&gt; to discontinue the size change.
+use &lt;/font&gt; to discontinue the size change. NB: font size may be working differently between the tablet and web-version of the instrument!
 
 **Script**  
 - Subscript. Use &lt;sub&gt; to begin subscript. Then, use
