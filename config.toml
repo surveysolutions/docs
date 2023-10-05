@@ -19,7 +19,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
     description = "Knowledge Base for Survey Solutions CAPI and CAWI platform"
-    lastreleasenote = "version-23-06"
+    lastreleasenote = "version-23-09"
     contactformurl = "https://pds.mysurvey.solutions/ContactUs"
     images = ['img/logo.png']
 
