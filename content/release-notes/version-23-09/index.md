@@ -117,3 +117,5 @@ presented editable and read-only versions of the cover page separately);
 in earlier versions);
 - adding questionnaire title to the questionnaire details page (more
 prominently).
+
+<FONT color="red">Alert: Android 7.0 or more recent is required for this version!</FONT>

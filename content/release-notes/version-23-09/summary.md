@@ -13,3 +13,4 @@
 - Assignment color update.
 - PDF transcripts of interviews no longer contain preloaded values of hidden questions.
 - Other changes, bugfixes, and announcements: [view](/release-notes/version-23-09).
+- Android 7.0 or more recent is required for this version!
