@@ -61,10 +61,10 @@ accounts on the server is available by accessing the `Server administration` -->
 The list supports filtering by workspace and role of the user, as well as
 narrowing down the users to a particular group:
 
-- 'missing workspaces' - users not assigned to any workspace.
-- 'with disabled workspaces only' - users that don't have access to any enabled workspace.
-- 'locked users' - users with an account lock placed on them.
-- 'archived users' - users that have been archived.
+- '*missing workspaces*' - users not assigned to any workspace.
+- '*with disabled workspaces only*' - users that don't have access to any enabled workspace.
+- '*locked users*' - users with an account lock placed on them.
+- '*archived users*' - users that have been archived.
 
 A search box allows to seek the list for a user with a particular account
 name or a full name.
@@ -86,7 +86,7 @@ The `name` of each workspace must be distinct from the name of any other workspa
 Examples of the `name` attribute include: "*lfs2024*", "*census2025*", "*monitoring*", "*2026*".
 Note that `name` may start with a digit or consist solely of digits (in contrast to variable names).
 
-Reserved names: the system excludes some names as reserved. Users can create workspaces with any other names except the following: "*administration*", "*api*", "*apidocs*", "*graphql*", "*users*".
+Reserved names: the system excludes some names as reserved. Users can create workspaces with any other names except the following: "*account*", "*administration*", "*api*", "*apidocs*", "*graphql*", "*metrics*", "*users*".
 
 #### Workspace `display name` attribute
 

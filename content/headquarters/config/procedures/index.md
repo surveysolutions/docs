@@ -136,9 +136,40 @@ The proper value should mention '*Microsoft-IIS*' for servers hosted in Microsof
 
 <CENTER><A href="images/header_incorrect.png"><IMG src="images/header_incorrect.png"></A></CENTER>
 
-**Any other `server` value in this response header is indicative of some other device or program responding *instead* of Survey Solutions. Consult your network administrator regarding this issue.**
+**Any other `server` value in this response header is indicative of some other
+device or program responding *instead* of Survey Solutions. Consult your network
+administrator regarding this issue.**
 
 END OF PROCEDURE C1
+
+----
+<a name="C2"></a>PROCEDURE C2: Checking the system log.
+=========================
+
+This procedure is to be performed when the user seeks for evidence of server
+errors not logged in the application log (applicable to Windows-based servers).
+
+This procedure makes use of the
+[**Event Viewer**](https://en.wikipedia.org/wiki/Event_Viewer), which is part of
+MS Windows operating system.
+
+<CENTER><A href="images/event_viewer.png"><IMG src="images/event_viewer.png"></A></CENTER>
+
+1. Log in to the server experiencing the problem.
+2. Press the [Windows key](https://en.wikipedia.org/wiki/Windows_key).
+3. Type: `Event Viewer`
+4. When *Event Viewer* App is suggested, click to start it.
+5. In the *Event Viewer* interface select `Windows Logs`, then `Application`.
+6. Seek for the events with level `Error`. (Use timestamps as guidance to
+navigate to the part of the log close to the occurance of the problem.)
+7. When errors are found, click on each log entry and inspect the information
+shown in the `General` and `Details` tabs.
+
+Subsequent troubleshooting steps will depend on the kind of errors found in the log.
+
+
+
+END OF PROCEDURE C2
 
 ----
 
