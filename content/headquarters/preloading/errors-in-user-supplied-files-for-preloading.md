@@ -9,28 +9,28 @@ aliases = ["/customer/portal/articles/2928007-errors-in-user-supplied-files-for-
 
 Survey Solutions allows preloading assignments with data, including
 answers to questions inside rosters and nested rosters.  
-  
+
 It is the user's responsibility to supply valid input files for this
 process. The user-supplied files will be validated to match the
 questionnaire template that is being preloaded. Survey Solutions can
 detect a number of inconsistencies and common problems and will indicate
 them during preloading.   
-  
+
 Each detected error is having a code listed in the table below.
 Additional checks may be added in the future.   
-  
+
 When an error is detected in the preloading file, Survey Solutions may
 reject such input data fully or partially. If Survey Solutions rejects
 the preloading file completely, and you can't localize the problem (in
 which interview it occurs) it is a good idea to try to break down the
 preloading file into smaller portions to identify, in which specific
 interview the problem is present.  
-  
+
 Many of the messages below are accompanied by various identifying
 information, such as a line number in the file, values of identifying
 questions, variable names, roster indices or other supplementary
 information that helps localizing the problem.  
-  
+
 It is a good practice to establish a reproducible process of creating
 assignments (preloading data files) by writing scripts/programs that can
 be adjusted and re-run to obtain the desired preloading file. Survey
@@ -42,14 +42,14 @@ format of input data for Survey Solutions changes, or if the sample file
 needs to be replicated for troubleshooting purposes.  
  
 
-<table>
+<table class="table table-striped table-hover">
 <colgroup>
 <col style="width: 33%" />
 <col style="width: 33%" />
 <col style="width: 33%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr class="header bg-warning">
 <th>Code</th>
 <th>Message</th>
 <th>Description/Comment</th>
@@ -254,7 +254,7 @@ Check the format of the date/time values you are preloading.
 Invalid GPS value.
 </div></td>
 <td><div>
-Check the GPS coordinates for validity. Express coordinates in degrees and decimals, such as 51.50, not in degrees and minutes, seconds, not 51<span style="font-size: small; color: rgb(84, 84, 84); font-family: Roboto, arial, sans-serif;">°30'00&quot;.</span>
+Check the GPS coordinates for validity. Express coordinates in degrees and decimals, such as <TT><I>51.50</I></TT>, not in degrees and minutes, seconds, not <TT><I>51&deg;30&prime;00&quot;</I></TT>.
 </div></td>
 </tr>
 <tr class="even">
@@ -413,7 +413,9 @@ Two or more columns have the same name.
 <td><div>
 There should be no two columns with identical names in any file, downloaded from or uploaded to Survey Solutions.<br />
 <br />
-Check column names for typos. For columns that correspond to lists, make sure the indices are present in column titles, for example, member__0, member__1, etc.
+Check column names for typos. For columns that correspond to lists, make sure
+the indices are present in column titles, for example, <I>member__0</I>,
+<I>member__1</I>, etc.
 </div></td>
 </tr>
 <tr class="odd">
@@ -424,7 +426,7 @@ Check column names for typos. For columns that correspond to lists, make sure th
 Latitude must be greater than -90° and less than 90°.
 </div></td>
 <td><div>
-Check that the values of latitude in the preloading file are all within the -90, 90 range. <br />
+Check that the values of latitude in the preloading file are all within the <TT>-90, 90</TT> range. <br />
 <br />
 If your coordinates come from some other projection you may need to convert (reproject) to degrees.
 </div></td>
@@ -437,7 +439,7 @@ If your coordinates come from some other projection you may need to convert (rep
 Longitude must be greater than -180° and less than 180°.
 </div></td>
 <td><div>
-Check that the values of longitude in the preloading file are all within the -180, 180 range. <br />
+Check that the values of longitude in the preloading file are all within the <TT>-180, 180</TT> range. <br />
 <br />
 If your coordinates come from some other projection you may need to convert (reproject) to degrees.
 </div></td>
@@ -558,6 +560,7 @@ Provide a valid value for all ids.
 <br />
 Make sure that this file is a text file and contains a single column with the name <em>variable__name</em>. Mind the double underscores in the name of this column.</td>
 </tr>
+
 <tr class="odd">
 <td><span class="s" style="color: rgb(187, 136, 68);">PL0048</span></td>
 <td>Protected variable is not found in provided questionnaire</td>
@@ -565,6 +568,7 @@ Make sure that this file is a text file and contains a single column with the na
 <br />
 Check the names of the variables versus the names in the questionnaire Designer. For text list and multi-select categorical questions only the root name must be specified, e.g. <em>hhmembers</em>, not <em>hhmembers__2</em>.</td>
 </tr>
+
 <tr class="even">
 <td><span class="s" style="color: rgb(187, 136, 68);">PL0049</span></td>
 <td>Variable has type that does not support protection</td>
@@ -572,7 +576,127 @@ Check the names of the variables versus the names in the questionnaire Designer.
 <br />
 Check the file for typos in variable names.<br />
 <br />
-Check the types of the variable mentioned in the error message. It must be one of the permitted for protection.</td>
+Check the types of the variable mentioned in the error message. It must be one
+of the permitted for protection.</td>
 </tr>
+
+
+<tr class="odd">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0050</span></td>
+<td>Negative value is not allowed for Categorical Multi select question.</td>
+<td>Check the value being preloaded into a multi-select question.</td>
+</tr>
+
+<tr class="even">
+<td><span class="s" style="color: rgb(187, 136, 68);">?</span></td>
+<td>Password-protected archives are not supported</td>
+<td>Upload the preloading data in an archive without a password, since there
+is no way for the server to unpack password-protected data.</td>
+</tr>
+
+<tr class="odd">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0052</span></td>
+<td>List roster should have a column for text list answers</td>
+<td>When preloading values in the roster triggered by a text list type question,
+include a column of text values in the roster-level file. The variable should be
+having the same name as name of the trigger question itself.</td>
+</tr>
+
+<tr class="even">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0053</span></td>
+<td>Inconsistent roster code for numeric roster. Sequence of roster codes
+should be 0, 1, ... to count of roster instances</td>
+<td>Check the IDs of the items in the roster file. Correct the IDs to follow
+the indicated sequence.</td>
+</tr>
+
+<tr class="odd">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0054</span></td>
+<td>Max quantity shouldn't be more than &#35; .</td>
+<td>The value specified for <TT><I>_quantity</I></TT> is too large,
+overshooting the indicated limit value.
+<BR><BR>
+Review the requested quantities of interviews. Break large assignments into
+two or more smaller size assignments, or use the specific value
+<TT><I>-1</I></TT> to indicate infinite-size assignments.
+</td>
+</tr>
+
+<tr class="even">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0055</span></td>
+<td>Email is not valid</td>
+<td>Value indicated in the <TT><I>_email</I></TT> field of the preloading file is
+not a valid email for one or multiple assignments. Review and correct the email
+values.</td>
+</tr>
+
+<tr class="odd">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0056</span></td>
+<td>Invalid Password. At least 6 numbers and upper case letters or single symbol
+'?' to generate password</td>
+<td>Value indicated in the <TT><I>_password</I></TT> field of the preloading
+file does not comply with the password rules. Review the passwords specified in
+the preloading file and specify passwords that are compliant with the indicated
+rules, or specify the question mark for the cases where you want Survey
+Solutions to automatically generate a valid password.</td>
+</tr>
+
+<tr class="even">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0057</span></td>
+<td>For assignments with provided email allowed quantity is 1</td>
+<td>Assignments distributed over email necessarily need the quantity value of
+<TT><I>1</I></TT>.</td>
+</tr>
+
+<tr class="odd">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0058</span></td>
+<td>Web Mode has to be activated for assignments having Email</td>
+<td>The parameter <TT><I>_email<I></TT> should only be prefilled if the mode
+for an assignment is CAWI (web).</td>
+</tr>
+
+<tr class="even">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0059</span></td>
+<td>Web Mode has to be activated for assignments having Password</td>
+<td>The parameter <TT><I>_password<I></TT> should only be prefilled if the mode
+for an assignment is CAWI (web).</td>
+</tr>
+
+<tr class="odd">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0060</span></td>
+<td>Assignment with size 1 for web mode should have either email or password
+provided</td>
+<td>Make sure you specify a valid email, or valid password (or both) for
+web-assignments of size <TT><I>1</I></TT>.</td>
+</tr>
+
+<tr class="even">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0061</span></td>
+<td>Password is not unique. Password by assignment for web mode with
+quantity 1 should be unique</td>
+<td>Check that within the preloading file no two assignments have identical
+passwords specified. Specify the question mark for the assignments where you
+want Survey Solutions to automatically generate a valid password.</td>
+</tr>
+
+<tr class="odd">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0062</span></td>
+<td>All assignments for web interviews must be made to an interviewer</td>
+<td>Check the values of the <TT><I>_responsible</I></TT> field. For
+web-assignments the responsible person should be an account in the role
+<I>Interviewer</I>.</td>
+</tr>
+
+<tr class="even">
+<td><span class="s" style="color: rgb(187, 136, 68);">PL0063</span></td>
+<td>Answer to question with variable name {0} can't be preloaded, since it is
+of unsupported type. Refer to the following support article
+https://support.mysurvey.solutions/questionnaire-designer/limits/design-limitations-by-question-type
+for details of what can be preloaded in the current version.</td>
+<td>You are trying to preload a question, where preloading is not possible
+based on the question type. Refer to the linked resource for a discussion of
+where preloading is possible.</td>
+</tr>
+
 </tbody>
 </table>
