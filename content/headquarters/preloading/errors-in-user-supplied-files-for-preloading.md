@@ -322,9 +322,9 @@ Preloading data were not found
 Responsible field was not provided for 1 or more observations
 </div></td>
 <td><div>
-If the _responsible column is present in the preloading data, it must be all populated without any blanks.<br />
+If the <TT><I>_responsible</I></TT> column is present in the preloading data, it must be all populated without any blanks.<br />
 <br />
-Check _responsible column for blanks (missings) and fill out with appropriate account names.
+Check <TT><I>_responsible</I></TT> column for blanks (missings) and fill out with appropriate account names.
 </div></td>
 </tr>
 <tr class="even">
@@ -337,7 +337,7 @@ Responsible does not exist for 1 or more observations
 <td><div>
 Name specified as responsible person (recepient of the assignment) does not exist.<br />
 <br />
-Check _responsible column for typos. Make sure all of the accounts mentioned are already created in the HQ and have either a supervisor or interviewer role.
+Check <TT><I>_responsible</I></TT> column for typos. Make sure all of the accounts mentioned are already created in the HQ and have either a supervisor or interviewer role.
 </div></td>
 </tr>
 <tr class="odd">
@@ -363,7 +363,7 @@ User is not Supervisor or Interviewer for 1 or more observations
 <td><div>
 Preloading file contains a login name of a person who is neither a supervisor nor an interviewer, and hence may not receive an assignment.<br />
 <br />
-Check the names and roles of the account names mentioned in the _responsible column. Revise so that everyone is either a supervisor or an interviewer.
+Check the names and roles of the account names mentioned in the <TT><I>_responsible</I></TT> column. Revise so that everyone is either a supervisor or an interviewer.
 </div></td>
 </tr>
 <tr class="odd">
