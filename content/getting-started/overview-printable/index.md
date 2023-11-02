@@ -14,5 +14,5 @@ and [French](resources/SurveySolutionsBooklet_2018oct(FRA).pdf) languages
 An older overview [flyer](resources/flyer2.pdf) is also downloadable (in English only, 2 pages, less than 2MB).
 
 The Statistics Division of the Food and Agriculture Organization of the United Nations (FAO)
- has published overview booklets in [English](http://gsars.org/wp-content/uploads/2018/03/GS-CAPI-SUSO-BROCHURE-05.pdf)
-and [French](http://gsars.org/wp-content/uploads/2018/04/GS-CAPI-SUSO-BROCHURE-FR-001.pdf) (8 pages, less than 1MB).
+ has published overview booklets in [English](resources/GS-CAPI-SUSO-BROCHURE-05.pdf)
+and [French](resources/GS-CAPI-SUSO-BROCHURE-FR-001.pdf) (8 pages, less than 1MB). (Their GSARS.ORG website is no longer available, but the preserved copies are linked here.)
