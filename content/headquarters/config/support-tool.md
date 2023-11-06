@@ -81,8 +81,11 @@ Users may also type: `WB.UI.Headquarters.exe -help` to obtain a quick summary of
 
 Most users will never encounter a situation where they would need to use this support tool. But when they do, most commonly the support tool needs to be used:
 
-1. to reset the password of the server administrator if it is forgotten;
+1. to reset the password of the server administrator if it is forgotten, for example:
+`.\WB.UI.Headquarters.exe manage users reset-password --username ACCOUNTNAME --password "NEWPASSWORD"`
 2. if the administrator's account became inaccessible due to the two-factor authentication, where the token generator became lost, stolen, damaged, or otherwise inaccessible, for example: `.\WB.UI.Headquarters.exe manage users disable2fa --login loginName`
 3. in the situations where we need to release the automatic lock on login attempts when we believe that the account is no longer under a threat; for example: `.\WB.UI.Headquarters.exe manage users releaselock --login loginName`
 4. to create a second administrator account;
 5. to programmatically create a number of users and workspaces.
+
+**Note:** *make sure the new password that you assign when you do a password reset is compliant with the minimum security requirements for the account password at this server!*
