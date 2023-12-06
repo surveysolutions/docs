@@ -2,6 +2,7 @@
 title = "Interview diagnostics file"
 keywords = ["export", "interview", "diagnostics"]
 date = 2018-09-28
+lastmod = 2023-12-05T00:00:00Z
 aliases = ["/headquarters/interview_diagnostics_file"]
 +++
 
@@ -13,7 +14,7 @@ of interviews:
 *   number of questions with comments,
 *   duration of the interview etc.
 
-For a description of available fields and their types, refer to [this article](/headquarters/export/system-generated-export-file-anatomy#interview__diagnostics).
+For a description of available fields and their types, refer to [this article](/headquarters/export/system-generated---export-file-anatomy/#interview__diagnostics).
 
 This is especially useful for user-written monitoring systems that work alongside 
 Survey Solutions and continually monitor the quality of incoming data by 
@@ -24,4 +25,10 @@ obtain the same information for API consumers.
 
 _This feature was proposed by Andreas Kutka and other users._
 
-{{< imgproc "images/interview__diagnostics.jpg" Resize "x600" />}}
+
+<CENTER>
+  <A href="images/interview__diagnostics.png">
+    <IMG src="images/interview__diagnostics.png" width=800>
+  </A>
+</CENTER>
+
