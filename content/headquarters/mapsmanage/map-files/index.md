@@ -43,7 +43,7 @@ The following actions are available here:
 In Survey Solutions all maps are first uploaded to the server, then
 distributed to the interviewers based on assignments of maps.
 
-One or multiple maps in acceptable [map formats](/headquarters/svymanage/map-formats/)
+One or multiple maps in acceptable [map formats](/headquarters/mapsmanage/map-formats/)
 are uploaded in archived form (as a single *.zip archive) by clicking the green
 `Upload ZIP file` button at the `Map files` page: `Survey Setup` --> `Maps` --> `Upload ZIP file`
 

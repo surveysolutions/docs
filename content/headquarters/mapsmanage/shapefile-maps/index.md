@@ -2,6 +2,10 @@
 title = "Shapefile maps"
 date = 2022-06-14T00:00:00Z
 lastmod = 2022-06-14T00:00:00Z
+
+aliases = ["/customer/portal/articles/2942852-shape-file-overlay","/customer/en/portal/articles/2942852-shape-file-overlay","/customer/portal/articles/2942852","/customer/en/portal/articles/2942852","/interviewer/shape-file-overlay","/interviewer/special/shape-file-overlay"]
+
+
 +++
 
 Survey Solutions Interviewer App displays maps for two purposes:
@@ -13,7 +17,7 @@ Survey Solutions has been employing this functionality for several years already
 
 An interviewer without a visual clue on what is his area of responsibility may cross into the area of responsibility of another interviewer or out of the sampled area resulting in enumeration of duplicate or ineligible dwellings/households.
 
-This is particularly important in case of spatial sampling, where the area of responsibility doesn’t have boundaries defined by natural or man-made features easily observable (for example, river banks, or streets), but rather defined conceptually as limits on the coordinates (for example, the latitude between LS and LN, and the longitude between LW and LE).
+This is particularly important in case of spatial sampling, where the area of responsibility doesn't have boundaries defined by natural or man-made features easily observable (for example, river banks, or streets), but rather defined conceptually as limits on the coordinates (for example, the latitude between LS and LN, and the longitude between LW and LE).
 
 Ensuring that the interviewers remain in the valid area can be done by supplying the boundaries of such areas as an additional layer to be combined with the base layer map. A number of map file formats exist for this purpose of which shapefiles stands out:
 
@@ -35,7 +39,7 @@ Below we discuss each of these steps in more detail.
 
 ### 1. Packing the shapefile components into a zip-archive with maps
 
-Each shapefile is represented as multiple files on a disk, most importantly the *.shp, *.shx, *.dbf, and *.prj files. All of them must be packed and uploaded to the server for the shapefile to be usable.
+Each shapefile is represented as multiple files on a disk (see [shapefile components](https://en.wikipedia.org/wiki/Shapefile)), most importantly the `*.shp`, `*.shx`, `*.dbf`, and `*.prj` files. All of them must be packed and uploaded to the server for the shapefile to be usable.
 
 Packing can be done with any zip-packer, including the [zip-packer that is built into Windows OS](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
 
@@ -133,6 +137,6 @@ Boundaries that are shown can be removed by clicking the `HIDE BOUNDARIES` butto
 
 As part of the development work to improve the The API of Survey Solutions has been extended with an endpoint to upload maps to the Survey Solutions data server. This is a new GraphQL query `.uploadMap()`. This allows integration with external tools that are capable of generating digital maps, for example selecting them from a library of satellite imagery covering the area or indicating the bounds of the sampled area by generating a corresponding shapefile.
 
-The `.uploadMap()` mutation facilitates uploading a zip archive file with one or multiple maps in a single or in different formats (for example, one can upload a base layer in the tpk format and a corresponding boundary as a shapefile, all packed into the same archive). There is a limit on the size of this maps archive, which is the same for the API and for the manual maps upload as mentioned above.
+The `.uploadMap()` mutation facilitates uploading a zip archive file with one or multiple maps in a single or in different formats (for example, one can upload a base layer in the tpk format and a corresponding boundary as a shapefile, all packed into the same archive). There is a [limit](/questionnaire-designer/limits/survey-solutions-limits/) on the size of this maps archive, which is the same for the API and for the manual maps upload as mentioned above.
 
 See more details on the API in the [interactive GraphQL documentation](https://demo.mysurvey.solutions/graphql/).
