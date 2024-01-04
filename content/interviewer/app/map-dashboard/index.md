@@ -2,7 +2,7 @@
 title = "Map Dashboard"
 keywords = ["dashboard","map"]
 date = 2020-07-20T00:00:00Z
-lastmod = 2020-07-20T00:00:00Z
+lastmod = 2024-01-03T00:00:00Z
 +++
 
 Overview of the map dashboard
@@ -43,7 +43,7 @@ geographical position for any of the following reasons:
 - location of the interview is off the current visible map.
 
 Interviewers should double-check with the regular dashboard to conclusively
-establish the presence and status of a certain interview.
+establish the presence and status of a certain interview or assignment.
 {{< /panel >}}
 
 Map dashboard explained
@@ -51,31 +51,34 @@ Map dashboard explained
 
 <CENTER><IMG src="images/map_dashboard_explained.png" width=640></CENTER>
 
-1. Menu to apply filter by questionnaire and select what to plot: assignments, interviews, or both. When a questionnaire is selected all versions of this questionnaire are treated as if they are the same version.
+1. Menu to apply filter by questionnaire and select what to plot: assignments,
+interviews, or both. When a questionnaire is selected all versions of this
+questionnaire are treated as if they are the same version.
 
 2. Active map selector. Interviewers may select any one of the:
-- online: imagery;
-- online: imagery with labels;
-- online: open street map;
-- map of the world;
-- user uploaded offline maps.
+    - online: imagery;
+    - online: imagery with labels;
+    - online: open street map;
+    - map of the world;
+    - user-uploaded offline maps.
 
 3. Controls to:
-- align (rotate) the map to point in the North direction at the top of the screen;
-- zoom in;
-- zoom out.
+    - align (rotate) the map to point in the North direction at the top of the
+screen;
+    - zoom in;
+    - zoom out.
 
 4. Controls to:
-- zoom to extent of the data;
-- zoom to extent of the map;
-- show current location marker (may take time to determine position).
+    - zoom to extent of the data;
+    - zoom to extent of the map;
+    - show current location marker (may take time to determine position).
 
-5. Assignment marker - yellow diamond.
+5. Assignment marker - purple diamond: <FONT color="A371F7" size=5>⯁</FONT>.
 
-6. Current location marker - blue circle with arrow.
+6. Current location marker - blue circle with an arrow.
 
-7. Completed interview marker - green circle.
+7. Completed interview marker - green circle: <FONT color="1F9500" size=6>●</FONT>.
 
-8. Rejected interview marker - red circle.
+8. Rejected interview marker - red circle: <FONT color="E4512B" size=6>●</FONT>.
 
-9. Started interview marker - blue circle.
+9. Started interview marker - blue circle: <FONT color="2A81CB" size=6>●</FONT>.
