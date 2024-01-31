@@ -2,6 +2,7 @@
 title = "Language"
 keywords = ["Language", "translation", "localization", "fonts"]
 date = 2019-09-18T12:00:00Z
+lastmod=2024-01-30T12:00:00Z
 
 +++
 {{< imgproc "images/languages_flags.jpg" Fit "800x9000" />}}
@@ -17,23 +18,23 @@ For the langauges applicable to Survey Solutions software components refer to th
 <TR><TD colspan="4"><HR></TD></TR>
 <TR align=center><TH>Language<TH>Interviewer (App)<TH>Headquarters<TH>Designer</TR>
 <TR><TD colspan="4"><HR></TD></TR>
-<TR align=center><TD>English<TD>+<TD>+<TD>+</TR>
-<TR align=center><TD>Russian<TD>+<TD>+<TD>+</TR>
-<TR align=center><TD>French<TD>+<TD>+<TD>+</TR>
-<TR align=center><TD>Spanish<TD>+<TD>+<TD>+</TR>
-<TR align=center><TD>Chinese<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD>English<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD>Russian<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD>French<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD>Spanish<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD>Chinese<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD>Czech<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD>Ukrainian<TD>+<TD>+<TD>+</TR>
 <TR><TD colspan="4"><HR></TD></TR>
-<TR align=center><TD>Arabic<TD>+<TD>+<TD>-</TR>
-<TR align=center><TD>Czech<TD>+<TD>+<TD>-</TR>
-<TR align=center><TD>Portuguese<TD>+<TD>+<TD>-</TR>
-<TR align=center><TD>Georgian<TD>+<TD>+<TD>-</TR>
-<TR align=center><TD>Romanian<TD>+<TD>+<TD>-</TR>
+  <TR align=center><TD>Arabic<TD>+<TD>+<TD>-</TR>
+  <TR align=center><TD>Portuguese<TD>+<TD>+<TD>-</TR>
+  <TR align=center><TD>Georgian<TD>+<TD>+<TD>-</TR>
+  <TR align=center><TD>Romanian<TD>+<TD>+<TD>-</TR>
 <TR><TD colspan="4"><HR></TD></TR>
-<TR align=center><TD>Indonesian<TD>+<TD>-<TD>-</TR>
-<TR align=center><TD>Khmer<TD>+<TD>-<TD>-</TR>
-<TR align=center><TD>Thai<TD>+<TD>-<TD>-</TR>
-<TR align=center><TD>Vietnamese<TD>+<TD>-<TD>-</TR>
-<TR align=center><TD>Ukrainian<TD>+<TD>-<TD>-</TR>
+  <TR align=center><TD>Indonesian<TD>+<TD>-<TD>-</TR>
+  <TR align=center><TD>Khmer<TD>+<TD>-<TD>-</TR>
+  <TR align=center><TD>Thai<TD>+<TD>-<TD>-</TR>
+  <TR align=center><TD>Vietnamese<TD>+<TD>-<TD>-</TR>
 <TR><TD colspan="4"><HR></TD></TR>
 <TR align=center>
  <TD><B>How to switch the language?</B>
