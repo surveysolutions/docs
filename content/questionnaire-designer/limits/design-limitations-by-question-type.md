@@ -2,7 +2,7 @@
 title = "Design limitations by question type"
 keywords = ["question types preloading"]
 date = 2018-03-12T21:48:31Z
-lastmod = 2020-07-20T00:00:00Z
+lastmod = 2024-03-06T00:00:00Z
 aliases = ["/customer/portal/articles/2928242-design-limitations-by-question-type","/customer/en/portal/articles/2928242-design-limitations-by-question-type","/customer/portal/articles/2928242","/customer/en/portal/articles/2928242","/questionnaire-designer/design-limitations-by-question-type"]
 
 +++
@@ -30,135 +30,136 @@ Web interviews</th>
 </tr>
 </thead>
 <tbody >
-<tr class="odd">
-<td style="text-align: center;">Audio</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>Audio</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">Barcode</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES<br />
-appears as text entry</td>
+<tr>
+<td style="text-align: center;"><B>Barcode</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT><br />
+<FONT COLOR="navy"><I>(appears as text entry)</I></FONT></td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">Categorical multi-select</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES<br />
-<span style="text-align: center;">NO for linked</span></td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES<br />
-<span style="text-align: center;">NO for linked</span></td>
-<td style="text-align: center;">YES<br />
-NO for linked</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>Categorical multi-select</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT><br />
+<span style="text-align: center;"><FONT COLOR="RED">(NO for linked)</FONT></span></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT><br />
+<span style="text-align: center;"><FONT COLOR="RED">(NO for linked)</FONT></span></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT><br />
+<FONT COLOR="RED">(NO for linked)</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">Categorical single-select</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES<br />
-<span style="text-align: center;">NO for linked</span></td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES<br />
-<span style="text-align: center;">NO for linked</span></td>
-<td style="text-align: center;">YES,<br />
-NO for linked</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>Categorical single-select</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT><br />
+<span style="text-align: center;"><FONT COLOR="RED">(NO for linked)</FONT></span></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT><br />
+<span style="text-align: center;"><FONT COLOR="RED">(NO for linked)</FONT></span></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT>,<br />
+<FONT COLOR="RED">(NO for linked)</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">Date</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>Date</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">Geography</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
+<tr>
+<td style="text-align: center;"><B>Geography</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">GPS</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>GPS</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">List</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>List</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">Numeric</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>Numeric</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">Picture</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">NO</td>
-<td style="text-align: center;">YES,<br />
-Upload file only</td>
+<tr>
+<td style="text-align: center;"><B>Picture</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="RED">NO</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT>,<br />
+<FONT COLOR="navy"><I>(upload file only)</i></FONT></td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">Text</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
-<td style="text-align: center;">YES</td>
+<tr>
+<td style="text-align: center;"><B>Text</B></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
+<td style="text-align: center;"><FONT COLOR="GREEN">YES</FONT></td>
 </tr>
 </tbody>
 </table>
 
-Cover page may not contain sub-sections or rosters.  
-For Date questions the serialization format for substitutions is
-YYYY-MM-DD.  
-For DateTime variables and timestamp questions the serialization format
-for substitutions is YYYY-MM-DD hh:mm:ss  
-For GPS location questions latitude and longitude coordinates must be
-preloaded together or skipped together.  
-Only one GPS location question may be placed into the cover page section.  
-Calculated variables of any type do not have any scope, can't be
+***Please note:***
+
+* The [cover page](/questionnaire-designer/components/special-section-cover/) is a special section that may not contain sub-sections or rosters.
+* For `Date` questions the serialization format for substitutions is: `YYYY-MM-DD`.
+* For `DateTime` variables and `Date` questions with timestamp recording, 
+the serialization format for substitutions is: `YYYY-MM-DD hh:mm:ss`.
+* For `GPS` (location) questions the latitude and longitude coordinates must be
+either preloaded together or skipped together.
+* Only one `GPS` (location) question may be placed into the cover page section (be identifying).
+* [Calculated variables](/questionnaire-designer/components/variables/) of any type do not have any scope, can't be
 preloaded, can always be used in substitutions, can always be used in
-Web interviews.
+Web interviews, can be placed on the questionnaire's cover page.
