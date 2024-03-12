@@ -82,7 +82,7 @@ devices supporting this latest version.*
                         </ul>
                         <h6>4. We have necessary server equipment, but no specialists to install the Survey Solutions software. Is it possible to get help?</h6>
                         <ul>
-                            <li>If you encounter any difficulties in setting up your server, please inquire in the [forum of the Survey Solutions community of users](https://forum.mysurvey.solutions).</li>
+                            <li>If you encounter any difficulties in setting up your server, please inquire in the <A href="https://forum.mysurvey.solutions">forum of the Survey Solutions community of users</A>.</li>
                         </ul>
                         <h6>5. We don’t have a proper server. Is a server necessary for Survey Solutions, or can we use the software with the tablets only?</h6>
                         <ul>
@@ -401,7 +401,7 @@ devices supporting this latest version.*
                         </ul>
                         <h6>39. We like your system and we want to change it (improve it, modify it, customize it). How should we start?</h6>
                         <ul>
-                            <li>We listen to the suggestions of our users. If there is a useful feature that is missing from our functionality, please let us know in the [forum](https://forum.mysurvey.solutions).</li>
+                            <li>We listen to the suggestions of our users. If there is a useful feature that is missing from our functionality, please let us know in the <A href="https://forum.mysurvey.solutions">forum</A>.</li>
                             <li><s>We do not distribute the source code of Survey Solutions.</s></li>
                             <li>Survey Solutions' code is published in GitHub in the following public repository: <A href="https://github.com/surveysolutions/surveysolutions">Survey Solutions</A>. </LI>
                         </ul>
