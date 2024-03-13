@@ -31,7 +31,16 @@ One is tempted to introduce new, larger/higher-performing nodes into the pool of
   </A>
 </CENTER>
 
-Rather than manipulating the number of nodes, one needs to tell Survey Solutions nodes whether they are responsible for production of the export data or not. This can be done with the help of the `ReadOnly` flag in the section `[Job]` of the `appsettings.production.ini` configuration file (*requires Survey Solutions version 23.09.4 or newer*). The default value of this flag (if not specified) is ***false***, meaning the node is not in the state preventing it from processing export jobs. In other words, at default configuration the node is participating in the pool of the nodes that are eligible for processing data export jobs. But this flag can be raised to ***true***, indicating that even when this node sees an upcoming export job, it will not take action, allowing other nodes to process it. The strategy is to delegate handling the export jobs to the highest performing node(s) only, while designating all other notes to be in the readonly state in the farm (marked orange in the diagram below):
+Rather than manipulating the number of nodes, one needs to tell Survey Solutions nodes whether they are responsible for production of the export data or not. This can be done with the help of the `IsReadOnly` flag in the section `[Job]` of the `appsettings.production.ini` configuration file (*requires Survey Solutions version 23.09.4 or newer*).
+
+```
+
+[Job]
+IsReadOnly=true
+
+```
+
+The default value of this flag (if not specified) is ***false***, meaning the node is not in the state preventing it from processing export jobs. In other words, at default configuration the node is participating in the pool of the nodes that are eligible for processing data export jobs. But this flag can be raised to ***true***, indicating that even when this node sees an upcoming export job, it will not take action, allowing other nodes to process it. The strategy is to delegate handling the export jobs to the highest performing node(s) only, while designating all other notes to be in the readonly state in the farm (marked orange in the diagram below):
 
 <CENTER>
   <A href="images/nodes4.png">
@@ -43,6 +52,13 @@ This strategy guarantees that when a new export job is posted it will be handled
 
 **Note that:**
 
-1. `Readonly` here is meant with respect to export jobs. Nodes marked as `readonly=true` can still handle `POST` requests, such as to receive data from interviewers' synchronization streams, or answers submitted by web respondents.
+1. The concept of ***read only*** here is meant with respect to export jobs. Nodes marked as `IsReadOnly=true` can still handle `POST` requests, such as to receive data from interviewers' synchronization streams, or answers submitted by web respondents.
 
-2. Regardless of the typology of nodes involved in the farm, they should share a common storage for the generated and uploaded files, which is regulated by the keys `AppData` and `TempData` of the `[FileStorage]` section of the `appsettings.production.ini` file and this storage should not be affected by raising and dismantling the dynamic nodes.
+2. Regardless of the typology of nodes involved in the farm, they should share a common storage, which is regulated by the key `AppData` of the `[FileStorage]` section of the `appsettings.production.ini` file and this storage should not be affected by raising and dismantling the dynamic nodes.
+
+```
+
+[FileStorage]
+AppData=\\NetStore\AppData
+
+```
