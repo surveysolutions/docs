@@ -2,7 +2,7 @@
 title = "Lookup Tables"
 keywords = ["conditions","table","reference","rowcode","lookup"]
 date = 2016-06-16T16:33:33Z
-lastmod = 2023-08-08T00:00:00Z
+lastmod = 2024-03-13T00:00:00Z
 aliases = ["/customer/portal/articles/2466966-lookup-tables","/customer/en/portal/articles/2466966-lookup-tables","/customer/portal/articles/2466966","/customer/en/portal/articles/2466966","/questionnaire-designer/lookup-tables"]
 +++
 
@@ -10,7 +10,8 @@ Overview
 -----------------------------
 
 *Lookup tables* are reference tables that may be used in the syntax expressions,
-for example in validation and enabling conditions. Lookup tables are prepared as external tab-delimited files and uploaded to the questionnaire in the Designer.  
+for example in validation and enabling conditions. Lookup tables are prepared as
+external tab-delimited files and uploaded to the questionnaire in the Designer.  
 
 We use lookup tables to find content by some code and apply that content in
 validations and enabling conditions as part of larger expressions.
@@ -21,24 +22,25 @@ suitable to store string content. The lookup code is often a code of an item in
 a price survey, occupational code in a labor force survey, or a code of crop in
 an agricultural survey. It may also be a combination code of two or more codes
 (for example a district code and a locality code).
-   
-Lookup tables are particularly convenient for storing time series data, such as historical exchange rates for various currencies. Other uses involve storing
-estimated crop yields by crop, ranges of salaries by occupation, etc. While anthropometric z-scores can be implemented via lookup tables as well, users
+
+Lookup tables are particularly convenient for storing time series data, such as
+historical exchange rates for various currencies. Other uses involve storing
+estimated crop yields by crop, ranges of salaries by occupation, etc. While
+anthropometric z-scores can be implemented via lookup tables as well, users
 should refer to specialized z-score functions instead.
 
 Lookup tables are inappropriate to store confidential data. For example, do not
-store the correspondence between e.g. the `tax number` and `taxable income` of individuals in the survey population as a lookup table.
-
+store the correspondence between e.g. the *tax number* and *taxable income* of
+individuals in the survey population as a lookup table.
 
 Format
 -----------------------------
 
 The lookup tables must conform to the following format:  
  
-- Contain the `rowcode` column, and up to `10` other numeric columns with
-reference data.
-- Values in `rowcode` column must be integer and unique.
-- Other columns must contain reference data (integer or fractional).
+- Contain the `rowcode` column all values in which are integer and unique.
+- Contain one or more other numeric columns with reference data (these columns
+may contain integer or fractional values).
 - These other columns may be named arbitrarily as long as there are no
 duplicates and the column names comply with the
 [variable naming](/questionnaire-designer/components/variable-names/)
@@ -51,8 +53,9 @@ delimiter.
 - Lookup table may include blank values, in which case the value retrieved from
 the table is C#'s **null** value.
 
-Lookup tables may include up to `15,000` rows of reference data. A questionnaire
-may include multiple lookup tables.
+The number of rows and columns in lookup tables is restricted. See
+[Survey Solutions Limits](/questionnaire-designer/limits/survey-solutions-limits/)
+for particular limits. Note that a questionnaire may include multiple lookup tables.
 
 Note that the data uploaded as lookup tables is constant during the survey. If
 one needs to change the values stored in the lookup table, the questionnaire
@@ -63,19 +66,21 @@ Setting up lookup tables
 
 <CENTER>
     <A href="images/lookup_table_setup.png">
-        <IMG src="images/lookup_table_setup.png">
+        <IMG src="images/lookup_table_setup.png" width=640>
     </A>
 </CENTER>
 
 **Uploading a lookup table**
 
-1. Click on the *lookup table* icon in the [panel of advanced instruments](/questionnaire-designer/toolbar/panel-of-advanced-instruments/).
+1. Click on the *lookup table* icon in the
+[panel of advanced instruments](/questionnaire-designer/toolbar/panel-of-advanced-instruments/).
 
 2. Click on the `ADD NEW LOOKUP TABLE` link.  
 
-3. Type in the `table name` (which must be unique), and click on the `SELECT FILE` link to upload the tab-delimited lookup table.
+3. Type in the `table name` (which must be unique), and click on the 
+`SELECT FILE` link to upload the tab-delimited lookup table.
 
-4. Click `save`.
+4. Click `SAVE`.
 
 The Designer will verify if the uploaded file is compliant with the format
 requirements and issue an error message (and reject the file) if it is not
@@ -177,3 +182,10 @@ value with the threshold of `2.0` hectares.
 Note that we don't have to check if the codes are contained in the lookup table,
 because the lookup table is matched at design time with all the possible choices
 in the categorical question.
+
+### Random numbers
+
+Lookup tables can store sequences of random numbers. Here is a
+[lookup table](images/rnd_table_15000.txt) with `15,000` random integer numbers
+from the interval `[0;999999]` stored in the column named `rnum` and the
+[Stata script](images/generate_rnd_15000.do) that generated it.
