@@ -75,11 +75,13 @@ This command doesn't have any subcommands or options.
 
   --timeout Limit wait time for DB in seconds. Default is 0. Used in conjunction with `--wait-for-db` option
 
-Users may also type: `WB.UI.Headquarters.exe -help` to obtain a quick summary of commands in the version they have installed.
+Users may also type: `WB.UI.Headquarters.exe -help` to obtain a quick summary of
+commands in the version they have installed.
 
 ### Common use
 
-Most users will never encounter a situation where they would need to use this support tool. But when they do, most commonly the support tool needs to be used:
+Most users will never encounter a situation where they would need to use this
+support tool. But when they do, most commonly the support tool needs to be used:
 
 1. to reset the password of the server administrator if it is forgotten, for example:
 `.\WB.UI.Headquarters.exe manage users reset-password --username ACCOUNTNAME --password "NEWPASSWORD"`
@@ -88,4 +90,42 @@ Most users will never encounter a situation where they would need to use this su
 4. to create a second administrator account;
 5. to programmatically create a number of users and workspaces.
 
-**Note:** *make sure the new password that you assign when you do a password reset is compliant with the minimum security requirements for the account password at this server!*
+**Note:** *make sure the new password that you assign when you do a password
+reset is compliant with the minimum security requirements for the account
+password at this server!*
+
+### Use with Docker
+
+When Survey Solutions is deployed in Docker, the command must be directed at a
+particular Docker container:
+
+```
+...>docker exec CONTAINERID dotnet WB.UI.Headquarters.dll NORMALSYNTAX
+```
+
+Here:
+* `CONTAINERID` is the ID of the Docker container you want to direct the
+command to, and
+* `NORMALSYNTAX` is the syntax you'd otherwise write after
+`WB.UI.Headquarters.exe` using the above description.
+
+**Example 1**
+
+to reset the password of the user with login name *admin* to the
+value *AghyrAbyrr25* in the Docker container with the ID
+*d7d17a143852*
+one can submit the following command:
+
+```
+c:\dock>docker exec d7d17a143852 dotnet WB.UI.Headquarters.dll manage users reset-password --username admin --password "AghyrAbyrr25"
+[16:18:59 INF] Headquarters Reset password for user admin succeeded
+```
+
+**Example 2**
+
+to obtain the list of workspaces defined in the server running in the same
+Docker container:
+```
+c:\dock>docker exec d7d17a143852 dotnet WB.UI.Headquarters.dll manage workspaces list
+primary         Default Workspace
+```
