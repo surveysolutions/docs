@@ -68,9 +68,14 @@ earlier:
 
 That's it. At the end, finish installation page will automatically open
 in your browser where you'll be able to create administrator user for
-Survey Solutions Headquarters application. The link to the site will be
-automatically added to your start menu, but you can always access it by
-directly typing the address in the browser's address bar.
+Survey Solutions Headquarters application.
+
+{{% folded summary="📷 Create a new Administrator user" %}}
+![Create a new Administrator user](images/finish_installation.png "Create a new Administrator user")
+{{% /folded %}}
+
+The link to the site will be automatically added to your start menu, but you
+can always access it by directly typing the address in the browser's address bar.
 
 In order to check if the application is running correctly you can open
 `http://localhost:9700/.hc` URL. It should output `Healthy` message.
