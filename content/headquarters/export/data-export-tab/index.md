@@ -1,85 +1,214 @@
 ﻿+++
-title = "Data Export Tab"
+title = "Data Export"
 keywords = ["export","headquarters"]
 date = 2016-07-11T19:45:00Z
-lastmod = 2016-07-11T19:45:00Z
+lastmod = 2024-05-02T11:11:11Z
 aliases = ["/customer/portal/articles/2494108-data-export-tab","/customer/en/portal/articles/2494108-data-export-tab","/customer/portal/articles/2494108","/customer/en/portal/articles/2494108","/headquarters/data-export-tab"]
 
 +++
 
-Overview
---------
+Export of data may be requested at any time when the Survey Solutions server is
+running (during or after the survey) and it doesn't cause any interruption of
+the synchronization (of mobile devices) or online work (CAWI surveys). In case
+the server is busy processing other export requests, the new export jobs are
+put into a queue and processed sequentially. This article describes how to
+request a data export from Survey Solutions.
 
-  
-The Data Export tab enables headquarters to export:
 
--   Data for all survey cases or by survey case status (interviewer
-    assigned, completed, approved by supervisor, or approved by
-    headquarters
--   Binary data
--   Metadata
--   Paradata
+<CENTER>
+  <A href="images/export_request_annotated.png">
+    <IMG src="images/export_request_annotated.png" width=800>
+  </A>
+</CENTER>
 
- 
 
-How to export data
-------------------
+<aside class="warning admonition-content">
 
- 
+🛈 Data export functionality is available to users in the following roles:
 
-### Step 1
+ - Headquarters,
+ - Administrator.
 
-  
-Log in to the server as the headquarters user. If you are testing Survey
-Solutions, log in at
-[https://demo.mysurvey.solutions](http://demo.mysurvey.solutions).  
-  
-{{< imgproc "images/732246.png" Fit "800x600" />}}  
-**<span style="color: rgb(255, 0, 0);">Note that each institution using
-Survey Solutions will utilize their own server. Consequently, the server
-address above may not be applicable. </span>**  
-  
- 
+</aside>
 
-### Step 2
+1. In the main menu select `Data Export`.
+2. Select the questionnaire corresponding to the survey that needs to be exported.
+3. Select the questionnaire version (from available at the server).
+4. Select the status of interviews that need to be exported or leave blank for
+ export of all interviews (in any status).
+5. Select data type, *main survey data*, *binary data*, or *paradata*.
+6. Select whether to include metadata (does not apply to paradata export).
+7. Select the format of the data file (does not apply to paradata export):
+    * **Tab-separated data (*.tab)** - unicode text format with tab-character
+    used as a delimiter.
+    * **Stata format (*.dta)** - Stata statistical package format, Stata version 14 or newer can open these files.
+    * **SPSS format (*.sav)** - SPSS statistical package format.
 
-  
-Click on the *Data Export* tab  
-  
-{{< imgproc "images/732247.png" Fit "800x600" />}}  
- 
+8. Select the export file destination:
+    * **Download** - exported data will be prepared for downloading to the user's machine.
+    * **Upload to OneDrive** - when the data is ready it will be pushed to OneDrive cloud storage.
+    * **Upload to DropBox** - when the data is ready it will be pushed to DropBox cloud storage.
+    * **Upload to Google Drive** - when the data is ready it will be pushed to Google Drive cloud storage.
+9. Press the `Add to Queue` button to create a new export job and add it to the queue of export jobs.
 
-### Step 3
+If the queue is empty, a new job is immediately picked for processing.
+Once an export job is processed, the result is either uploaded to the cloud
+destination, or a `Download` button is presented to the user in a card
+corresponding to the export job.
 
-  
-Select the questionnaire template whose data you would like to export.
-In the Status menu, you can choose among exporting all the data
-(independently of the interview status) or only the interviews that were
-already approved by headquarters.  
-  
-Scroll down the page to see all the data types available for export.   
-  
-{{< imgproc "images/732248.png" Fit "800x600" />}}  
- 
+The cards are placed in the queue regardless whether the export was requested
+directly from the web interface, or by submitting the corresponding request via
+the [Survey Solutions' API](/headquarters/api/survey-solutions-api/).
 
-### Step 4
+#### Statuses of interviews
+In step 4 the user may select all interviews by not specifying any particular
+status, or rather select one of the following:
 
-  
-Click on the generate button for the type of data file that you would
-like to download. For DDI, skip to step 5.   
-  
-{{< imgproc "images/732249.png" Fit "800x600" />}}  
- 
+- `interviewer assigned`
+- `completed`
+- `approved by supervisor`
+- `approved by headquarters`
 
-### Step 5
+Note that selection is based on the _current_ status of interview when the export
+of data is requested, and not on any of the past statuses that the interview
+had. For example, if the interview is currently in the status
+`Approved by Headquarters` it will not get exported when the status `Completed`
+is specified, despite having one or more `Completed` events in the past.
 
-  
-Click on the download button after the update is completed.  
-  
-{{< imgproc "images/732250.png" Fit "800x600" />}}  
-  
-  
- 
 
- 
--
+#### Metadata
+
+If metadata is requested to be included with main survey data, it includes:
+
+- a DDI description file (in XML format);
+- PDF documents containing textual representation of the questionnaire
+(1 document per each translation of the questionnaire);
+- a questionnaire document (in JSON format);
+- questionnaire attachments (images, and other files that may be embedded into
+the questionnaire).
+
+<aside class="warning admonition-content">
+
+🛈 Regardless of the choices you make for type of data to export and selection
+of the interviews, the export is compressed into a zip-archive and needs to be
+unpacked before use.
+
+The zip-archive can be protected with password set by the server administrator for
+a particular workspace, see
+[admin settings](/headquarters/config/admin-settings/).
+
+</aside>
+
+
+#### Export card
+
+Export cards corresponding to past export jobs can also be seen here.
+
+<CENTER>
+  <A href="images/export_card_annotated.png">
+    <IMG src="images/export_card_annotated.png" width=800>
+  </A>
+</CENTER>
+
+Each such card compactly displays a great amount of information about the export
+job:
+
+
+<TABLE class="table table-striped table-hover">
+<TR>
+<TH>#</TH>
+<TH>Explanation</TH>
+<TH>In this example</TH>
+</TR>
+
+<TR>
+<TD>1.</TD>
+<TD>Export job number</TD>
+<TD><TT>21131</TT></TD>
+</TR>
+
+<TR>
+<TD>2.</TD>
+<TD>Job status</TD>
+<TD><TT>COMPLETED</TT></TD>
+</TR>
+
+<TR>
+<TD>3.</TD>
+<TD>Timestamp when the export job was created</TD>
+<TD><TT>May 01, 2024 22:08</TT></TD>
+</TR>
+
+<TR>
+<TD>4.</TD>
+<TD>Card menu button.</TD>
+<TD></TD>
+</TR>
+
+<TR>
+<TD>5.</TD>
+<TD>Title of the questionnaire and version</TD>
+<TD><I>"2023_24 Kenya Integrated Survey of Agriculture Pilot"</I> version <TT>2</TT></TD>
+</TR>
+
+<TR>
+<TD>6.</TD>
+<TD>Format of export data</TD>
+<TD><TT>paradata</TT></TD>
+</TR>
+
+<TR>
+<TD>7.</TD>
+<TD>Selection of interviews for export</TD>
+<TD>interviews in all statuses</TD>
+</TR>
+
+<TR>
+<TD>8.</TD>
+<TD>Selection of language/translation</TD>
+<TD>original language</TD>
+</TR>
+
+<TR>
+<TD>9.</TD>
+<TD>Destination</TD>
+<TD>the job prepared a file for downloading by the user</TD>
+</TR>
+
+<TR>
+<TD>10.</TD>
+<TD>Time spent in queue</TD>
+<TD>about a minute</TD>
+</TR>
+
+<TR>
+<TD>11.</TD>
+<TD>Time spent on production of the export data</TD>
+<TD>a few seconds</TD>
+</TR>
+
+<TR>
+<TD>12.</TD>
+<TD>Timestamp when this job output was last updated</TD>
+<TD>updated at the time the job was created, no subsequent updating</TD>
+</TR>
+
+<TR>
+<TD>13.</TD>
+<TD>Approximate size of the file for download</TD>
+<TD>about 0.5 MB</TD>
+</TR>
+
+<TR>
+<TD>14.</TD>
+<TD><TT>DOWNLOAD</TT> button<BR>(during production of the export data, while the <TT>DOWNLOAD</TT> button is not available, this space is utilized to display the current export step, such as <TT>RUNNING</TT> or <TT>COMPRESSING</TT>).</TD>
+<TD>
+</TR>
+
+</TABLE>
+
+
+#### See also
+
+* Description of the [paradata file format](/headquarters/export/paradata_file_format/);
+* Description of the [system-generated data files](/headquarters/export/system-generated---export-file-anatomy/).
