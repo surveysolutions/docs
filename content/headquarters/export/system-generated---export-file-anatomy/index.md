@@ -2,7 +2,7 @@
 title = "System generated files"
 keywords = ["export, action, status, errors"]
 date = 2018-12-12T12:12:12Z
-lastmod = 2019-10-01T01:01:01Z
+lastmod = 2024-05-05T23:23:23Z
 
 
 +++
@@ -485,7 +485,7 @@ For coded variables in the system-generated data files the following tables outl
 <TR><TD align=center>2</TD><TD>Supervisor</TD></TR>
 <TR><TD align=center>3</TD><TD>Headquarter</TD></TR>
 <TR><TD align=center>4</TD><TD>Administrator</TD></TR>
-<TR><TD align=center>5</TD><TD>Api User</TD></TR>
+<TR><TD align=center>5</TD><TD>API User</TD></TR>
 
 <TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
 <TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_actiona"><BR><H5>Coding of assignment actions</H5></TD></TR>
@@ -531,6 +531,7 @@ For coded variables in the system-generated data files the following tables outl
 <TR><TD align=center>18</TD><TD>ClosedBySupervisor</TD></TR>
 <TR><TD align=center>19</TD><TD>InterviewSwitchedToCawiMode</TD></TR>
 <TR><TD align=center>20</TD><TD>InterviewSwitchedToCapiMode</TD></TR>
+<TR><TD align=center>21</TD><TD>InterviewReceivedBySupervisor</TD></TR>
 
 <TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
 <TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_status"><BR><H5>Coding of interview statuses </H5></TD></TR>
@@ -563,3 +564,6 @@ For coded variables in the system-generated data files the following tables outl
 <TR><TD align=center>3</TD><TD>StaticText</TD></TR>
 <TR><TD align=center>4</TD><TD>Variable</TD></TR>
 </TABLE>
+
+### See also:
+[paradata file format](/headquarters/export/paradata_file_format/)
