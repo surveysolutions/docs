@@ -2,8 +2,19 @@
 title = "Data Export"
 keywords = ["export","headquarters"]
 date = 2016-07-11T19:45:00Z
-lastmod = 2024-05-02T11:11:11Z
-aliases = ["/customer/portal/articles/2494108-data-export-tab","/customer/en/portal/articles/2494108-data-export-tab","/customer/portal/articles/2494108","/customer/en/portal/articles/2494108","/headquarters/data-export-tab"]
+lastmod = 2024-05-06T11:11:11Z
+aliases = [
+  "/customer/portal/articles/2494108-data-export-tab",
+  "/customer/en/portal/articles/2494108-data-export-tab",
+  "/customer/portal/articles/2494108",
+  "/customer/en/portal/articles/2494108",
+  "/headquarters/data-export-tab",
+  "/customer/portal/articles/2932041-export-to-cloud-storage",
+  "/customer/en/portal/articles/2932041-export-to-cloud-storage",
+  "/customer/portal/articles/2932041",
+  "/customer/en/portal/articles/2932041",
+  "/headquarters/export-to-cloud-storage"
+]
 
 +++
 
@@ -44,7 +55,7 @@ request a data export from Survey Solutions.
     * **Stata format (*.dta)** - Stata statistical package format, Stata version 14 or newer can open these files.
     * **SPSS format (*.sav)** - SPSS statistical package format.
 
-8. Select the export file destination:
+8. Select the export file destination (Binary data files, such as pictures and audio recordings are often large and can be time-consuming to download. One can opt for pushing the data to own cloud storage, rather than downloading directly):
     * **Download** - exported data will be prepared for downloading to the user's machine.
     * **Upload to OneDrive** - when the data is ready it will be pushed to OneDrive cloud storage.
     * **Upload to DropBox** - when the data is ready it will be pushed to DropBox cloud storage.
@@ -59,6 +70,11 @@ corresponding to the export job.
 The cards are placed in the queue regardless whether the export was requested
 directly from the web interface, or by submitting the corresponding request via
 the [Survey Solutions' API](/headquarters/api/survey-solutions-api/).
+
+If you've chosen export to the cloud storage, authenticate yourself with the
+corresponding cloud storage provider. Note that despite the cloud-to-cloud data
+transfer is usually faster than direct download, it may still take significant
+time to complete, especially for large surveys.
 
 #### Statuses of interviews
 In step 4 the user may select all interviews by not specifying any particular
@@ -87,15 +103,19 @@ If metadata is requested to be included with main survey data, it includes:
 - questionnaire attachments (images, and other files that may be embedded into
 the questionnaire).
 
+See more on this in [Organization of meta-data storage in the exported
+data](/headquarters/export/metadata-organization/).
+
+
 <aside class="warning admonition-content">
 
-🛈 Regardless of the choices you make for type of data to export and selection
-of the interviews, the export is compressed into a zip-archive and needs to be
-unpacked before use.
+🛈 Regardless of the choices you make for type of data to export and
+        selection of the interviews, the export is compressed into a zip-archive
+        and needs to be unpacked before use.
 
-The zip-archive can be protected with password set by the server administrator for
-a particular workspace, see
-[admin settings](/headquarters/config/admin-settings/).
+The zip-archive can be protected with password set by the server
+        administrator for a particular workspace, see
+        [admin settings](/headquarters/config/admin-settings/).
 
 </aside>
 
@@ -189,8 +209,8 @@ job:
 
 <TR>
 <TD>12.</TD>
-<TD>Timestamp when this job output was last updated</TD>
-<TD>updated at the time the job was created, no subsequent updating</TD>
+<TD>Timestamp when this job's output was last updated (output can be regenerated, see below)</TD>
+<TD><TT>May 01, 2024 22:08</TT></TD>
 </TR>
 
 <TR>
@@ -207,6 +227,16 @@ job:
 
 </TABLE>
 
+#### Export card menu
+Export card menu (4) provides only one item, which allows to **regenerate** the
+export of data with the same parameters, as for the current card.
+
+When regeneration is started, a new export job is created and placed into the
+queue (and a new card appears in the export queue with a new job number).
+However, when the job completes, its result overrides all other jobs' export
+data matching the same parameters. Hence there are two timestamps on each card,
+reflecting the point of processing of the job (3) and update of the data file
+(12).
 
 #### See also
 
