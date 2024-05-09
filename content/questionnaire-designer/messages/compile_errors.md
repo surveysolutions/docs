@@ -2,13 +2,35 @@
 title = "Compile errors"
 keywords = ["error"]
 date = 2020-10-22T01:01:01Z
-lastmod = 2020-11-18T01:01:01Z
+lastmod = 2024-05-08T01:01:01Z
 +++
 
 
 Survey Solutions Designer conducts analysis of your questionnaire for many
-common problems and design errors. The following table summarizes the error
-messages issued by the Designer when the questionnaire is compiled.
+common problems and design errors. The following table summarizes the messages
+issued by the Designer when the questionnaire is compiled.
+
+Some of these messages indicate a situation of an *error*, where the current
+questionnaire is invalid and may not be used for data collection until the
+indicated problem is fixed. For example, these are the syntax errors in
+expressions (see `WB0002` or `WB0003` below) or duplication of identifiers of
+variables (`WB0026`), and other similar problems.
+
+Other messages correspond to a situation of a *warning*, which hint on a
+potential improvement in efficiency, or a notable situation, which may be
+something to evaluate in the context of a specific survey. For example,
+Survey Solutions Designer may detect that the same categories are defined in
+several different questions, and advise to make use of
+[reusable categories](/questionnaire-designer/toolbar/reusable-categories/):
+see `WB0296` below. While this is not an error, it is something that will make
+the management of these sets of categories easier and reduce the work for
+translators of the questionnaire to other languages. Another example is a
+warning about the absence of a GPS question in the questionnaire. Having the
+location of the interview opens up great possibilities for data analysis,
+integration, and quality control, and is easily obtainable with modern tools,
+so it can very well be an oversight that it is not included, and yet it is not
+mandatory and up to the author of the questionnaire to decide whether to
+include it or not in a particular survey questionnaire.
 
 <TABLE class="table table-striped table-hover>
 
@@ -148,7 +170,7 @@ messages issued by the Designer when the questionnaire is compiled.
 <TR><TD>WB0123</TD><TD>Variable name or roster ID shouldn't start with digit or underscore</TD><TD></TD></TR>
 <TR><TD>WB0124</TD><TD>Variable name or roster ID shouldn't end with underscore</TD><TD></TD></TR>
 <TR><TD>WB0125</TD><TD>Variable name or roster ID shouldn't have two and more consecutive underscore characters.</TD><TD></TD></TR>
-<TR><TD>WB0126</TD><TD>Variable name or roster ID should be unique in questionnaire's scope.</TD><TD></TD></TR>
+
 <TR><TD>WB0127</TD><TD>There is at least one duplicate of "Title" and "Parent Value" pairs. The list should not contain any duplicates.</TD><TD></TD></TR>
 <TR><TD>WB0128</TD><TD>Number of decimal places is not in range from {0} to {1}.</TD><TD></TD></TR>
 <TR><TD>WB0129</TD><TD>Category title is empty or too long. Title's length should be in range from {0} to {1} characters.</TD><TD></TD></TR>
