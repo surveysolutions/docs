@@ -67,4 +67,10 @@ tools for configuring the questionnaire:
   <TD><B>Comments</B><BR>Review and navigate to comments in the questionnaire.<BR><A href="/questionnaire-designer/toolbar/comments-in-designer/">(more info)</A></TD>
 </TR>
 
+<TR>
+  <TD><A href="/questionnaire-designer/techniques/critical-rules-and-questions/"><IMG src="images/toolbar_critical.png"></A></TD>
+  <TD></TD>
+  <TD><B>Critical rules</B><BR>Define any critical rules that must be checked before submission of an interview based on this questionnaire.<BR><A href="/questionnaire-designer/techniques/critical-rules-and-questions/">(more info)</A></TD>
+</TR>
+
 </TABLE>
