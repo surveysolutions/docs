@@ -1,19 +1,32 @@
 ﻿+++
-title = "Admin Settings"
+title = "Workspace Settings"
 keywords = ["admin","logo","encryption","accounts"]
 date = 2017-01-09T22:11:21Z
-lastmod = 2023-05-17T01:01:01Z
-aliases = ["/customer/portal/articles/2707388-admin-settings","/customer/en/portal/articles/2707388-admin-settings","/customer/portal/articles/2707388","/customer/en/portal/articles/2707388","/headquarters/admin-settings"]
+lastmod = 2024-06-05T11:11:11Z
+aliases = [
+  "/customer/portal/articles/2707388-admin-settings",
+  "/customer/en/portal/articles/2707388-admin-settings",
+  "/customer/portal/articles/2707388",
+  "/customer/en/portal/articles/2707388",
+  "/headquarters/admin-settings",
+  "/headquarters/config/admin-settings/",
+  "/headquarters/config/workspace-settings"
+]
 
 +++
 
 Survey Solutions server [administrator](/headquarters/accounts/survey-solutions-server-administrator/)
-may adjust the server settings. These settings affect simultaneously all surveys
-and all users *in a particular workspace* on the server and have the effect
+may adjust the workspace settings. These settings affect simultaneously all
+surveys and all users *in a particular workspace* on the server and have the effect
 immediately when applied.
 
 These settings are visible only to the user logged in in an administrative role
-and can be accessed from: `Menu` &#x2192; `Administration` &#x2192; click particular workspace name &#x2192; `Settings`.
+and can be accessed from:
+
+- for the current workspace: `Menu` &#x2192; `Settings` &#x2192; `Workspace settings`.
+- for any other workspace: `Menu` &#x2192; `Administration` &#x2192; click particular workspace name &#x2192; `Settings`.
+
+
 
 ### Export Encryption
 
@@ -122,6 +135,27 @@ between the recordings of the points. The period is measured in seconds. Any
 value from 5 to 1,000 may be specified.
 
 **default = 10**
+
+Textual parameter `ESRI API key` is the key that the user needs to obtain from
+[Esri](https://www.esri.com/en-us/about/) to utilize online source of tiles for
+the base map layer when using the map dashboard or answering geography type
+questions in Interviewer and Supervisor apps. Additional details are in the
+[online maps key](/headquarters/mapsmanage/online-maps-key/) topic.
+
+<FONT color="maroon">Usage of the
+`ESRI API key` may (and likely will) cost you money.  It is important to
+familiarize yourself with the pricing, plans, charges and limits as applicable.
+These conditions may be changed, possibly even without prior notice. Pricing
+and billing conditions may depend on whether the user is a private user or an
+organization. All of the billing for this service occurs between you and the
+corresponding provider, the Survey Solutions developers are not charging you
+for this service.</FONT>
+
+By default the API key is blank (not specified) and the online maps are not
+selectable.
+
+**default = ""**
+
 
 ### Web interview settings
 

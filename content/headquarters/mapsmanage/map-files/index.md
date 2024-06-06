@@ -2,7 +2,7 @@
 title = "Map files"
 keywords = [""]
 date = 2022-12-14T00:00:01Z
-lastmod = 2022-12-14T00:00:01Z
+lastmod = 2024-06-05T00:00:01Z
 
 +++
 
@@ -97,8 +97,10 @@ For any every user, the survey manager can see, which maps are assigned to that 
 The map assignments file is a file, which is uploaded to the
 Survey Solutions Headquarters to regulate which interviewer
 has access to which offline maps. Online maps need not be assigned to individual
-users, all users have access to online maps provided that they have Internet
-connectivity when trying to use them.
+users, all users have access to online maps provided that they have received a
+valid [key for online maps usage](/headquarters/mapsmanage/online-maps-key/)
+(entered by administrator in the [workspace settings](/headquarters/config/workspace-settings/))
+and have Internet connectivity when attempting to use them.
 
 The offline maps are used by the interviewers to record answers to the
 geography type questions and for displaying data on the
