@@ -130,12 +130,13 @@ In the new version the value `200` replaces the older limit of `60` where it was
 limiting the growth of the roster. This should make the rosters functionality
 more predictable during design time and simplify planning.
 
+A single roster may now contain more than `10,000` elements, but other limits, 
+such as the total number of elements (currently `80,000`) continue to apply 
+and limit the rosters' growth.
+
 Users are advised to take caution when planning 'explosive' data structures,
 which multiply the questions and consider the total time for the interview and
 acceptable respondent's burden as important limiting factors.
-
-Other limits on the rosters, such as the total number of elements (currently
-`80,000`) continue to apply.
 
 Users are advised to consult the
 [Survey Solutions Limits](/questionnaire-designer/limits/survey-solutions-limits/)

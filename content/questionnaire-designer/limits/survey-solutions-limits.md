@@ -1,8 +1,8 @@
 ﻿+++
 title = "Survey Solutions Limits"
-keywords = ["limit", "maximum"]
+keywords = ["limits", "limit", "maximum", "capacity", "constraints"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2023-04-23T00:00:01Z
+lastmod = 2024-06-06T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -26,7 +26,9 @@ is balancing on the margin of these limits.
 <td style="text-align: center;">400 [questions]</td>
 </tr>
 <tr>
-<td>Maximum number of roster elements in a single roster (including rosters nested into it):</td>
+<td>Maximum number of roster elements in a single roster (including rosters nested into it):<BR>
+(applies to versions older than <A href="/release-notes/version-24-06#roster-limits-revised">v24.06</A>)
+</td>
 <td style="text-align: center;">10,000 [items]</td>
 </tr>
 <tr>
@@ -63,8 +65,11 @@ is balancing on the margin of these limits.
 <td style="text-align: center;">9 [levels]</td>
 </tr>
 <tr>
-<td>Maximum number of items in a roster:</td>
-<td style="text-align: center;"><span style="font-size: 13px;">60 [items]</span></td>
+<td>Maximum number of items in a roster:<BR>
+(for versions older than <A href="/release-notes/version-24-06#roster-limits-revised">v24.06</A> it is 60 [items])
+
+</td>
+<td style="text-align: center;"><span style="font-size: 13px;">200 [items]</span></td>
 </tr>
 <tr>
 <td>Maximum number of items in a simple roster:</td>
@@ -271,8 +276,12 @@ is balancing on the margin of these limits.
 
 \*) in addition to the limit on number of questions a roster may not
 contain nested rosters to qualify as a simple roster, read [more details
-here](/customer/en/portal/articles/2472543-rosters);  
+here](/customer/en/portal/articles/2472543-rosters); as of 
+<A href="/release-notes/version-24-06#roster-limits-revised">v24.06</A> 
+there is no longer a distinction between a ***roster*** and a ***simple roster***. 
+
 \*\*)  in addition to the requirement for password complexity: at least
 one digit, at least one lower case character, and at least one upper
 case character;  
+
 \*\*\*) Since version 18.12 large number of markers will be clustered on the server before being shown on the map.
