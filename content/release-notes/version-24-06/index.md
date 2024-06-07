@@ -2,7 +2,7 @@
 title = "Version 24.06"
 keywords = ["24.06"]
 date = 2024-06-06T00:00:00Z
-lastmod = 2023-06-06T00:00:00Z
+lastmod = 2024-06-06T00:00:00Z
 +++
 
 
