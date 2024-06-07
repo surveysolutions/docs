@@ -7,6 +7,6 @@
 - It is now possible to set up numeric questions to keep more digits without rounding;
 - Completion screen is revised, and now shows the list of questions left not answered in the interview, allowing jumping directly to such questions.
 
-- Other changes, bugfixes, and announcements: [view](/release-notes/version-23-09).
+- Other changes, bugfixes, and announcements: [view](/release-notes/version-24-06).
 - <FONT color="maroon">Users of Survey Solutions in Docker must familiarize themselves with important details in the full release notes before attempting an update.</FONT>
 
