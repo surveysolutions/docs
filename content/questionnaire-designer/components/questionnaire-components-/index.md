@@ -1,172 +1,167 @@
 ﻿+++
-title = "Questionnaire Components "
+title = "Questionnaire Elements"
 keywords = ["sections","sub-section","roster","question types","variables","static-text","building questionnaire"]
 date = 2016-06-16T17:27:48Z
-lastmod = 2016-06-16T17:27:48Z
+lastmod = 2024-09-25T00:00:00Z
 aliases = ["/customer/portal/articles/2467041-questionnaire-components-","/customer/en/portal/articles/2467041-questionnaire-components-","/customer/portal/articles/2467041","/customer/en/portal/articles/2467041","/questionnaire-designer/questionnaire-components-"]
 
 +++
+Any questionnaire created with the Survey Solutions Designer tool consists of
+two types of elements: sequenced and not-sequenced.
 
-Sections
---------
+- ***Sequenced elements*** are specified in sequence, and their precedence
+ultimately determines the order of the questions asked in the survey. They are:
+[Sections](#section),
+[Sub-sections](#subsection), 
+[Roster](#rosters),
+[Question](#questions),
+[Static Text](#static), and
+[Calculated Variables](/questionnaire-designer/components/variables).  
 
-  
-Any questionnaire created with this designer tool consists of sections
-and must have at least one section. Every section can in turn contain
-one or more: [Sub-sections](#subsection), [Question](#questions),
-[Roster](#rosters), [Static Text](#static), and
-[Variables](#variables).  
-   
- 
+- ***Not-sequenced elements*** are questionnaire elements that are included in
+the questionnaire, but their placement doesn't affect the flow of the questions.
+They are included as attachments, and referred by name, such as, for example,
+lookup tables. They are discussed
+separately, see [Panel of Advanced Instruments](https://docs.mysurvey.solutions/questionnaire-designer/toolbar/panel-of-advanced-instruments/).
 
-<span id="subsections"></span>Sub-sections
-------------------------------------------
+Any questionnaire consists of a number of ***group*** elements:
 
-  
-Subsections can contain one or more static-texts, questions, other
-sub-sections and rosters. They are used to group a set of questions
-related to a specific topic. For instance in household surveys a
-subsection can be used to group the questions related to the household’s
-characteristics. The main difference between subsections and rosters is
-that the questions within a sub-section are only asked once in an
-interview.  
-   
- 
+- ***section*** - group of the top level of nesting;
+- ***sub-section*** - group nested into some other group, which is not repeated;
+- ***roster*** - group, nested into some other group, which repeats its content, see [rosters](/questionnaire-designer/rosters). Rosters that are included into other rosters are called ***Nested rosters***.
 
-<span id="questions"></span>Questions
--------------------------------------
+A ***cover page*** is a special section that is used for case identification purposes.
+It is always the first in the sequence of questionnaire sections. See [Special Section: Cover Page](/questionnaire-designer/components/special-section-cover/).
 
-  
-You can add a question at the section level (not included in any
-sub-section or roster), within sub-sections or rosters, or after any
-question in the questionnaire. The available question types are
-displayed in the table below.   
- 
+The following elements are not groups and may not include other elements:
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><strong>Type of question</strong></th>
-<th style="text-align: center;"><strong>Icon</strong></th>
-<th style="text-align: center;"><strong>Data captured</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><a href="/questionnaire-designer/text-question">Text</a></td>
-<td style="text-align: center;"><img src="images/643148.png" /></td>
-<td style="text-align: center;">Alphanumeric characters (A-Z, a-z, 0-9), basic punctuation symbols and space.</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="/questionnaire-designer/numeric-question">Numeric</a></td>
-<td style="text-align: center;"><img src="images/643179.png" /></td>
-<td style="text-align: center;">Numeric characters (0-9). Integer or Real numbers. </td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="/questionnaire-designer/date-question">Date</a></td>
-<td style="text-align: center;"><img src="images/643186.png" /></td>
-<td style="text-align: center;"><div>
-<strong> </strong>A date in the Gregorian calendar.<br />
-The format of the date corresponds with the tablet’s date settings . 
-</div></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="/questionnaire-designer/categorical-single-select-question">Categorical: Single-select </a></td>
-<td style="text-align: center;"><img src="images/643199.png" /></td>
-<td style="text-align: center;">One option from a list of answer options which are mutually exclusive.<br />
- </td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="/questionnaire-designer/categorical-multi-select-question">Categorical: Multi-select</a> <br />
- </td>
-<td style="text-align: center;"><img src="images/643203.png" /></td>
-<td style="text-align: center;">One or more options from a list of answer options. <br />
- </td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="/questionnaire-designer/list-question">List</a></td>
-<td style="text-align: center;"><img src="images/643209.png" /></td>
-<td style="text-align: center;">An open list composed of alphanumeric characters (A-Z, a-z, 0-9), basic punctuation symbols and space.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="/questionnaire-designer/gps-question">GPS</a></td>
-<td style="text-align: center;"><img src="images/643211.png" /></td>
-<td style="text-align: center;">Set of geographic coordinates (latitude, longitude, accuracy, altitude), which identify the location of the tablet.</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="/questionnaire-designer/barcode-question">Barcode</a></td>
-<td style="text-align: center;"><img src="images/643214.png" /></td>
-<td style="text-align: center;">Optical machine-readable representation of data relating to an object.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="/questionnaire-designer/picture-question">Picture</a> </td>
-<td style="text-align: center;"><img src="images/643216.png" /></td>
-<td style="text-align: center;">Binary files.</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><a href="/questionnaire-designer/static-text">Static-text</a> </td>
-<td style="text-align: center;"><img src="images/643217.png" /></td>
-<td style="text-align: center;">Does not capture data. </td>
-</tr>
-</tbody>
-</table>
+- ***question*** - question defined by its [type](/questionnaire-designer/components/question-type) and [properties](/questionnaire-designer/components/question-properties/);
+- ***static text*** - informational text included into the questionnaire, see [static text](/questionnaire-designer/static-text);
+- ***calculated variable*** - a named and typed calculatable expression, see [variables](/questionnaire-designer/components/variables).
 
- 
+Groups may contain other elements, as permitted according to the table shown
+below.
 
-<a href="/questionnaire-designer/rosters" id="rosters">Rosters</a>
-------------------------------------------------------------------
 
-  
-Sometimes it is necessary to repeat the same set of questions multiple
-times. *Rosters* allow you to create an auto-propagated group of
-questions. In other words, roster groups are used to display the same
-set of questions several times.  
-   
-For example, a roster group can be implemented in national household or
-agricultural surveys. In the former the enumerator collects data on
-name, age, gender, etc. per household member. In the latter the
-enumerator collects data on crop, quantity harvested, unit of the
-quantity, etc. per plot of land.  
-   
-As all the questions within the group will be asked for each individual
-or item, it is necessary to have an individual or item id (titles of the
-rows) that identifies each set of questions. These titles can be created
-automatically (during the interview) or manually (during the creation of
-the questionnaire). The latter are also called fixed set of items.  
-   
-Survey Solutions has 4 roster sources. Three of them depend on the
-question type linked to the roster : *numeric question*, *list
-question* and *multi-select question*. No question is linked to the
-fourth roster source: *fixed set of items*.  
-  
- 
 
-<a href="/questionnaire-designer/static-text" id="static">Static-text</a>
--------------------------------------------------------------------------
 
-  
-Static-texts are used to convey information to the enumerator or the
-interviewee. An example of the former can be: “When listing the
-employees, begin with the director and then continue with the names of
-the other employees in order of responsibility, from highest to lowest.”
-An example for the latter can be: “All information collected in this
-questionnaire is confidential and will be used for statistical purposes
-only.  
- 
+<TABLE class="table table-striped table-bordered table-hover">
 
-  <a href="/questionnaire-designer/variables" id="variables">Variables</a>
--------------------------------------------------------------------------
+<TR>
+  <TH rowspan=2 style="text-align:center">Group</TH>
+  <TH colspan=7 style="text-align:center">Element</TH>
+</TR>
 
-  
-Variables are computable expressions, which can be added to a
-questionnaire for convenience when operating with large and/or complex
-expressions. Variables are a powerful addition to the functionality of
-Survey Solutions. Variables can be used to simplify and improve the
-validation and enabling conditions. Content of variables can be used in
-the question text or in static text to provide more informative, dynamic
-questions or static text.
+<TR style="text-align:center">
+  <TH>Questionnaire</TH>
+  <TH>Section</TH>
+  <TH>Sub-section</TH>
+  <TH>Roster</TH>
+  <TH>Question</TH>
+  <TH>Static text</TH>
+  <TH>Calculated variable</TH>
+</TR>
+
+<TR style="text-align:center">
+  <TH>Questionnaire</TH>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD>M</TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+</TR>
+
+<TR style="text-align:center">
+  <TH>Cover page section</TH>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+</TR>
+
+<TR style="text-align:center">
+  <TH>Section</TH>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+</TR>
+
+<TR style="text-align:center">
+  <TH>Sub-section</TH>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+</TR>
+
+<TR style="text-align:center">
+  <TH>Roster</TH>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="red">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">N</FONT></TD>
+</TR>
+
+</TABLE>
+
+
+**Legend:**
+
+<TABLE>
+  <TR><TD width=10%></TD><TH><FONT color="green"> Y </FONT></TH><TD> = Yes, group may include elements of this kind</TD></TR>
+  <TR><TD></TD><TH><FONT color="red"> N </FONT></TH><TD> = No, group may not include elements of this kind</TD></TR>
+  <TR><TD></TD><TH> M </TH><TD> = The group must include at least one element of this kind</TD></TR>
+</TABLE>
+<BR>
+
+**Other restrictions:**
+- level of roster nesting is [limited](/questionnaire-designer/limits/survey-solutions-limits/);
+- total level of nesting or rosters and sub-sections is [limited](/questionnaire-designer/limits/survey-solutions-limits/);
+- the set of question types that can be included in the cover page is [limited](/questionnaire-designer/limits/survey-solutions-limits/);
+- some display modes of rosters impose additional limitations on contents, see e.g. [Tabular presentation of rosters](/questionnaire-designer/components/table-rosters);
+- number of questions that can be included into a group is [limited](/questionnaire-designer/limits/survey-solutions-limits/).
+
+
+#### Operations with Questionnaire Elements
+
+**Adding Elements to a Questionnaire**
+
+We use the context menu or the buttons shown in the questions panel of the
+Designer (bottom menu) to add all sequenced elements, except sections.
+
+The sections can be added by accessing the `Table of contents` tool in the
+[Panel of Advanced Instruments](/questionnaire-designer/toolbar/panel-of-advanced-instruments/).
+
+**Copying and Pasting Elements of the Questionnaire**
+One can copy and paste the sequenced elements of the questionnaire by using the
+corresponding items in the context menu:
+- right-click the element and select `Copy`;
+- right-click an existing element and select `Paste after`, or select `Paste`
+in the bottom menu if no element exists in this section yet.
+
+**Deleting Elements of the Questionnaire**
+Select the element you want to delete and click the `DELETE` link at the
+bottom-right corner. Or select the element by right-clicking on it and select
+`DELETE` from the context menu that appears.
+
+**Ordering Elements in the Questionnaire**
+To change the position of a questionnaire element relative to other elements one
+can drag it and drop to the new position (within a section), or if the element
+needs to be moved to a different section, then the element must be selected (by
+left-clicking it) and moved to a different section by clicking `MOVE TO` link
+at the bottom-right corner.
