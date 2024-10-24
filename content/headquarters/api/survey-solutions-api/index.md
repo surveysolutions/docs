@@ -2,7 +2,7 @@
 title = "Survey Solutions API"
 keywords = ["api", "ssaw", "REST", "GraphQL", "SurveySolutionsAPI"]
 date = 2017-07-19T19:29:51Z
-lastmod = 2022-05-01T10:10:10Z
+lastmod = 2024-10-24T00:00:00Z
 aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api","/headquarters/api/api-for-data-export"]
 
 +++
@@ -55,7 +55,7 @@ expanded or revised in future releases.
 
 The API clients listed below provide convenient access to the API functionality for developers in the corresponding environments/languages.
 
-<TABLE  class="table table-striped table-hover" border>
+<TABLE class="table table-striped table-hover table-bordered" >
 <TR>
   <TH width=100><CENTER>API Client</CENTER></TH>
   <TH width=100><CENTER>Source code</CENTER></TH>
@@ -104,6 +104,18 @@ The API clients listed below provide convenient access to the API functionality 
   <TD><CENTER><A href="https://github.com/radyakin/susoapi"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
   <TD><CENTER><A href="https://github.com/radyakin/susoapi/releases/latest/download/susoapi.pdf"><IMG src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" style="height:48px;"><BR>Manual in PDF</A></CENTER></TD>
   <TD></TD>
+</TR>
+
+<TR>
+  <TD><CENTER><IMG src="images/s16_72.png" width=48><BR>Stata package<BR>Maintained by: <I>Peter Brueckmann</I></CENTER></TD>
+
+  <TD><CENTER><A href="https://github.com/petbrueck/sursol"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
+
+  <TD></TD>
+
+  <TD><CENTER><A href="https://github.com/petbrueck/sursol?tab=readme-ov-file#sursol---stata-codes-for-survey-solutions"><BR>more</A></CENTER></TD>
+</TR>
+
 </TABLE>
 
 Users of other languages can develop their applications by calling the API points directly, or by developing own API client for their specific programming language. If you do so, please share a notice in the <A href="https://forum.mysurvey.solutions">users' forum</A>.

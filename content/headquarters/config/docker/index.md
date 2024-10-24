@@ -18,7 +18,7 @@ You still need to have **PostgreSQL** server running, there is an [example](http
 
 ### Run Survey Solutions
 
-> Note: If you are on a Linux system, you might need to add `sudo` before the commands.
+> Note: If you are on a Linux system, you might need to add `sudo` before these commands.
 
 ``` CMD
 
@@ -43,8 +43,8 @@ All images uploaded to HQ during interviews are stored in `/app/AppData` folder.
 #### Using docker volumes
 
 ```bash
-docker create volume hq_data
-docker create volume data_protection
+docker volume create hq_data
+docker volume create data_protection
 
 docker run -p 80:80 --name hq \
     -e "HQ_Headquarters__TenantName=hq" \
