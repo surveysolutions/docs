@@ -1,0 +1,76 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta property="og:url" content="https://docs.mysurvey.solutions/interviewer/config/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Setup and Configuration"><meta property="og:description" content="Knowledge Base for Survey Solutions CAPI and CAWI platform"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Setup and Configuration</title>
+<link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/interviewer/>Interviewer</a></li><li class="breadcrumb-item active" aria-current=page>Setup and Configuration</li></ol></nav><section><div class=mb-4><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Setup and Configuration</h2></div><div class=list_of_articles><div class="article-short-view pl-5 position-relative"><h3><a href=/interviewer/config/set-up-an-interviewer-tablet-by-scanning-a-barcode/>Set up an interviewer tablet by scanning a QR-code</a></h3><p><p>When an interviewer launches the Interviewer App for the first time she needs
+to provide the following three parameters:</p><ul><li>URL of the server (synchronization point),</li><li>login of the interviewer (account name on that server),</li><li>and the password of the interviewer.</li></ul><p>Typing in the server address may be time consuming and prone to errors, so to
+simplify the process Survey Solutions permits entering this information by
+scanning a barcode. This is especially useful for the ITs setting up a large
+number of tablets in the office for many interviewers at the start of the
+survey.</p></p><span class="data d-block">August 26, 2022</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/interviewer/config/multiple-interviewers-using-the-same-tablet/>Multiple interviewers using the same tablet</a></h3><p><p>Survey Solutions uses device tracking mechanism where for each
+interviewer account there is an indication of the currently linked
+device. In short this means that at any moment any interviewer may be
+utilizing only one device for data collection. Re-linking of the devices
+is possible, but it has some important consequences (explained
+<a href=/customer/en/portal/articles/2578016>here</a>). </p><p>At the same time it is still possible for multiple interviewers to use
+the same tablet for data collection, but every interviewer must have a
+<span class=underline><strong>different user account in the Android
+operating system</strong></span> to permit this. If this is not done, once the
+first interviewer initializes the connection, his name will be fixed in
+Survey Solutions, and other interviewers will not be able to log in.
+Refer to the Android OS documentation for <a href=https://source.android.com/devices/tech/admin/multi-user>supporting multiple
+users</a> on the
+same tablet.</p></p><span class="data d-block">May 7, 2018</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/interviewer/config/updating-the-interviewer-application/>Updating the Interviewer application</a></h3><p><h2 id=why-update>Why update</h2><p>There are several reasons why:</p><ul><li><strong>New features.</strong> With most releases of Survey Solutions, new
+features are introduced&ndash;new question types, new user interface, new
+actions, etc. To take advantage of new features, the Interviewer
+application must be updated.</li><li><strong>Bug fixes and performance improvements.</strong> Each releases of Survey
+Solutions contains numerous bugs and performance improvements. To
+avoid bugs and ensure the best performance, the Interviewer
+application should be updated regularly.</li><li><strong>Break with backwards compatibility.</strong> In general, older versions
+of the Interviewer application will continue to work with an updated
+Headquarters server. In some cases relatively rare cases, however,
+new features break this backwards compatibility. When this happens,
+the Interviewer application needs to be updated so that the tablet
+can continue communicating with the server.</li></ul><h2 id=when-to-update>When to update</h2><p>At a minimum, the Interviewer application should be updated every month.
+Every two months, typically a new version of Survey Solutions is
+released. In the intervening time, smaller updates and bug fixes are
+released.</p></p><span class="data d-block">February 22, 2018</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/interviewer/config/interface-localization/>Interviewer App interface language/localization</a></h3><p><p>The Interviewer application responds to the device language setting of the
+mobile device. Localization affects the interface of the application, such as
+menus, dialogs and application error messages. The languages currently
+available are listed in the <a href=/faq/language/>localization overview article</a>.</p><img style=max-width:100%;height:auto src=/interviewer/config/interface-localization/images/657931_hu10578266664836302840.png width=518 height=530><p>The exact steps to change may differ slightly for different device models and
+operating system versions, but described generically in this
+<a href="https://support.google.com/android/answer/12395118?hl=en">Android HelpCenter article</a>.</p><p>Note that you can still design the questionnaire itself
+<a href=/faq/which-languages-can-be-used/>in any language</a>, including the texts of
+the questions, their options, instructions, and validation messages. Survey
+Solutions also allows
+<a href=/questionnaire-designer/toolbar/multilingual-questionnaires/>multilingual questionnaires</a>,
+which allow switching the language even during the interview.</p></p><span class="data d-block">July 13, 2016</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/interviewer/config/synchronization-completing-the-interview/>Synchronization & Completing the Interview</a></h3><p><h1 id=1-logging-in>1. Logging in</h1><p>You can log in using the user name and password that you received from
+your supervisor. Tap on the eye icon to see your password to make sure
+you have entered it in correctly.<br>  <br>If you cannot log in, although you are sure that the username and
+password are correct, synchronise the tablet (see next step)</p><img style=max-width:100%;height:auto src=/interviewer/config/synchronization-completing-the-interview/images/795440_hu4430760159887165323.png width=450 height=600><p> </p><h1 id=2-synchronize>2. Synchronize</h1><p>You should synchronize your tablet as often as your supervisor has
+instructed you to.<br> <br>Synchronization requires internet access. To synchronize, press the
+“Synchronize” button at the top right corner of the toolbar. The results
+of the synchronization will be displayed: how many new assignments were
+received, how many were received as rejected and so on. </p></p><span class="data d-block">June 24, 2016</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/interviewer/config/download-and-install-the-interviewer-application/>Download and Install the Interviewer Application</a></h3><p><p><strong>Step 1:</strong> On the home screen of the tablet, click on the
+<em><strong>Applications</strong></em> button. The button is usually located in the middle
+of the bottom toolbar and the icon is a circle with six dots. In the
+applications menu, Select <em><strong>Settings. <em><strong>Select <em><strong>Security</strong></em> and make
+sure that</strong></em> Unknown Sources - Allow installing application from sources
+other than the Play Store</strong></em> is selected/ticked.</p><p><img style=max-width:100%;height:auto src=/interviewer/config/download-and-install-the-interviewer-application/images/731725_hu12926164970689897434.png width=200 height=320>
+<img style=max-width:100%;height:auto src=/interviewer/config/download-and-install-the-interviewer-application/images/731760_hu414376102584589845.png width=200 height=320>
+<img style=max-width:100%;height:auto src=/interviewer/config/download-and-install-the-interviewer-application/images/731762_hu6045208038833056554.png width=200 height=320></p></p><span class="data d-block">June 23, 2016</span></div></div></div></section></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2024 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=http://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

@@ -1,0 +1,76 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta property="og:url" content="https://docs.mysurvey.solutions/questionnaire-designer/techniques/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Solutions to common design problems"><meta property="og:description" content="Knowledge Base for Survey Solutions CAPI and CAWI platform"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Solutions to common design problems</title>
+<link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/>Questionnaire Designer</a></li><li class="breadcrumb-item active" aria-current=page>Solutions to common design problems</li></ol></nav><section><div class=mb-4><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Solutions to common design problems</h2></div><div class=list_of_articles><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/critical-rules-and-questions/>Critical rules and questions</a></h3><p><p>Critical rules and questions designate conditions under which an interview may
+be completed. The questionnaire author declares such conditions in the Designer
+tool, and subsequently the headquarters user decides on what action Survey
+Solutions will undertake with these conditions before the interview can be
+completed (see types of actions below).</p><p>Most users will find the critical questions feature straightforward to use: if
+a question is declared critical in the Designer, then it must have an answer at
+the time of completion.</p></p><span class="data d-block">June 5, 2024</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/mandatory-required-questions/>Mandatory (required) questions</a></h3><p><p>A respondent may refuse to answer a particular question, may not know the
+answer, or, perhaps, a family member may be unavailable for answering - these
+are common situations during the interviewing process.</p><p>Every once in a while our support team is receiving questions on how to
+designate a question &ldquo;<em>required</em>&rdquo;, so that the interview may not proceed
+unless this particular question is answered. The justification could be
+that the answer is critically important to determine subsequent
+trajectory through the questionnaire: eligible/non-eligible for
+interview, treated/controls, etc.</p></p><span class="data d-block">June 5, 2024</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/text-substitution/>Text substitution</a></h3><p><p>In Survey Solutions it is possible to design questionnaires that use text substitution, denoted with an identifier enclosed in percentage signs, like so: <tt>%varname%</tt>.</p><p>In other software this may be known under the term &ldquo;<em>text piping</em>&rdquo;, &ldquo;<em>answer piping</em>&rdquo;, &ldquo;<em>text propagation</em>&rdquo;, etc.</p><p>The common situations when you may want to use this are:</p><ul><li>mention an answer collected earlier;</li><li>display a calculated result;</li><li>display reference values, etc.</li></ul><p>For text substitution it is important <strong>what</strong> may be substituted in, and <strong>where</strong> a substitution may be used.</p></p><span class="data d-block">January 24, 2020</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/randomizing-order-of-questions/>Randomizing order of questions</a></h3><p><p>In this example we will consider similar questions (all of them
+categorical single-select) rating different aspects of the stay in a
+resort hotel. Our objective is to present the questions in different
+order for different respondents. Our other objective is to avoid
+pre-programming sequences of questions, as this is tedious and creates
+questionnaires with just a few sequences of questions.</p><p>We will rely on the following Survey Solutions elements:</p><ul><li>text substitution (text-piping) with the whole question text being
+substituted;</li><li>random value to make the sequences of questions differ for different
+respondents;</li><li>shuffling algorithm, we will use D. Knuth&rsquo;s version of the
+Fisher-Yates algorithm, but many others will do just as well;</li><li>and a few other tricks.  </li></ul><p>In Survey Solutions Designer tool, we will compose a questionnaire like
+the following:<br><img style=max-width:100%;height:auto src=/questionnaire-designer/techniques/randomizing-order-of-questions/images/798456_hu6328248836250054639.png width=800 height=469></p></p><span class="data d-block">July 17, 2017</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/alternatives-to-date-type-question/>Alternatives to Date Type Question</a></h3><p><p>A <a href=/customer/en/portal/articles/2469077>date type
+question</a>
+requires three components of the date to be specified: year, month, day.
+If any of them is not known, the interviewers may not enter the other
+ones, even if they are known.</p><p>When this is not acceptable, date type question should <span class=underline>not</span> be used. Instead consider one of the
+following alternatives:</p><ol><li>Three separate questions;</li><li>Patterned text question, with pattern specified as
+####-##-##</li><li>Categorical question with year-month combinations, such as:</li></ol><ul><li>2016-September</li><li>2016-October</li><li>2016-November</li><li>2016-December</li><li>2017-January</li><li>2017-February</li><li>2017-March</li><li>2017-April</li></ul></p><span class="data d-block">April 20, 2017</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/replacement-strategies/>Replacement strategies</a></h3><p><p>Every sample-based survey is subject to non-response either for the
+reason of refusal or problems of locating the household: household has
+moved, person died, address recorded incorrectly, etc. Whichever is the
+reason, it must be properly reflected in the interview result code - a
+categorical variable set by the interviewer to indicate the outcome of
+the visit to the household.</p><p>Survey Solutions doesn&rsquo;t do sampling. A sampling specialist should
+perform sampling for your survey. The focus of the below discussion is
+not on how to properly select a replacement Y for a non-responding
+household X, but on:</p></p><span class="data d-block">April 10, 2017</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/selecting-a-person/>Selecting a person</a></h3><p><p>For random selection refer to <a href=/customer/portal/questions/16695907>this
+article</a>.
+Here an example of determined selection is discussed.</p><p>Consider you wish to select a child attaining the lowest grade, with
+selecting younger children to break the ties. We define <strong>selname</strong> as a
+string variable:</p><pre><code>selname=PERSONS.Where(
+    p=&gt;IsAnswered(p.name) 
+    &amp;&amp; IsAnswered(p.age)
+    &amp;&amp; IsAnswered(p.grade)
+).Where(
+    p=&gt;p.age.InRange(5,15) 
+    &amp;&amp; p.grade.InRange(1,98)
+).OrderBy(p=&gt;p.grade).ThenBy(p=&gt;p.age).First().name
+</code></pre><p>Note that if there are two or more children of the same age and grade
+exist in the same household, then the one entered first will be
+selected.</p></p><span class="data d-block">February 23, 2017</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/questionnaire-designer/techniques/formatting-text/>Formatting Text</a></h3><p><p>Question texts and static-texts can be formatted with a series of html
+tags. The html tags that can currently be used in Survey Solutions are
+described in this article.  </p><p><strong>Line break</strong><br>Use &lt;br> to insert a line break. Use &lt;br>&lt;br>&mldr;&lt;br> 
+to insert multiple empty lines. <br> <br><strong>Italic</strong><br>Use  &lt;i> to begin the use of italics. Then, use &lt;/i> when
+you want to discontinue the use of italics. <br> <br><strong>Underline</strong><br>Use &lt;u> to begin the use of underline. Then, use &lt;/u> when
+you want to discontinue the use of underline. <br> <br><strong>Teletype</strong><br>Use&lt;tt> to begin the use of Teletype. Then, use &lt;/tt> when
+you want to discontinue the use of Teletype.<br> <br><strong>Size</strong></p></p><span class="data d-block">June 22, 2016</span></div></div></div></section></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2024 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=http://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
