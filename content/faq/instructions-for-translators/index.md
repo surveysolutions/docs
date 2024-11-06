@@ -4,7 +4,7 @@ keywords = [""]
 date = 2024-11-05T00:00:00Z
 +++
 
-* Start by downloading the following Excel file ([Download Excel file](files\SurveySolutions.Translation.00.xlsx) corresponding to v24.06.6 of Survey Solutions) and then follow the rest of these instructions. You deliver just the translated Excel file and the title of the new language.
+* Start by downloading the following Excel file ([Download Excel file](files/SurveySolutions.Translation.00.xlsx) corresponding to v24.06.6 of Survey Solutions) and then follow the rest of these instructions. You deliver just the translated Excel file and the title of the new language.
 * Do not rename the spreadsheet. Do not convert to any other file format.
 * Translate text from column `E` (titled **_INVARIANT_**) to column `F` (titled with your language).
 * If you can't translate the original text for any reason, the translation should be left **blank** (do not copy text from column `E` to column `F` in this case).
