@@ -14,8 +14,8 @@ The new features in this release include the following:
 An assignment may have a shapefile associated with it. This association [`Target area` property] could be established either when assignment is created or it could be updated on the assignment details page. This property could be set before the shapefile is uploaded.
 
 <CENTER>
-  <A href="images/image1.png">
-    <IMG src="images/image1.png" width=500>
+  <A href="images/image5.png">
+    <IMG src="images/image5.png" width=500>
   </A>
 </CENTER>
 
@@ -23,8 +23,8 @@ Shapefile should be additionally linked to the interviewer and shapefile should 
 Interviews from such assignments are recommended to be created from the **Assignment map**.
 
 <CENTER>
-  <A href="images/image2.png">
-    <IMG src="images/image2.png" width=500>
+  <A href="images/image3.png">
+    <IMG src="images/image3.png" width=500>
   </A>
 </CENTER>
 
@@ -36,8 +36,8 @@ The shapefile will be automatically loaded on the map. Once a new **Geofencing**
 *The verification occurs only if the accuracy of the obtained location fits into limits. Could be changed in the workspace settings, default value is 10 meters.*
 
 <CENTER>
-  <A href="images/image3.png">
-    <IMG src="images/image3.png" width=500>
+  <A href="images/image4.png">
+    <IMG src="images/image4.png" width=500>
   </A>
 </CENTER>
 
@@ -49,16 +49,16 @@ Users will be able to load the required map and start geo tracking of the route 
 *Track recording occurs only if the accuracy of the obtained location fits into limits. Could be changed in the workspace settings, default value is 10 meters.*
 
 <CENTER>
-  <A href="images/image4.png">
-    <IMG src="images/image4.png" width=500>
+  <A href="images/image2.png">
+    <IMG src="images/image2.png" width=500>
   </A>
 </CENTER>
 
 Collected tracks could be checked on the Headquarters application after synchronization.  
 
 <CENTER>
-  <A href="images/image5.png">
-    <IMG src="images/image5.png" width=500>
+  <A href="images/image1.png">
+    <IMG src="images/image1.png" width=500>
   </A>
 </CENTER>
 
