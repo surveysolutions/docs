@@ -1,117 +1,67 @@
 ﻿+++
-title = "Question Scope "
-keywords = ["scope","interviewer","supervisor","prefilled","hidden","question properties"]
+title = "Question's Scope"
+keywords = ["scope","interviewer","supervisor","identifying","hidden","question properties"]
 date = 2016-06-17T18:26:26Z
-lastmod = 2016-06-17T18:26:26Z
-aliases = ["/customer/portal/articles/2468340-question-scope-","/customer/en/portal/articles/2468340-question-scope-","/customer/portal/articles/2468340","/customer/en/portal/articles/2468340","/questionnaire-designer/question-scope-"]
+lastmod = 2025-01-30T18:18:18Z
+aliases = [
+  "/customer/portal/articles/2468340-question-scope-",
+  "/customer/en/portal/articles/2468340-question-scope-",
+  "/customer/portal/articles/2468340",
+  "/customer/en/portal/articles/2468340",
+  "/questionnaire-designer/question-scope-"
+]
 
 +++
 
-The scope of a question defines who will be responsible for answering
-it. The scopes are: [interviewer](#interviewer),
-[identifying](#prefilled), [hidden](#hidden), and
-[supervisor](#supervisor). 
 
-  
- 
+The **scope** of a question establishes who will be responsible for answering
+that question. The scopes defined in Survey Solutions are:
 
-**To change the question scope from the default, **
+  - `identifying` - this scope applies to all questions placed to the cover
+  page and only to questions placed to the cover page. (Note that it is not
+  selectable for questions placed in any other section). If the answer to
+  an identifying question has been preloaded before the start of the interview,
+  then no other user of the system (in any role) will be able to change that
+  answer (interviewers will see those questions with a padlock icon 🔒).
 
-1.  Click on the *Question scope* dropdown box on the bottom right hand
-    corner of the question edit screen. 
-2.  Select the appropriate question scope. 
+  - `interviewer` - (this is the default scope) indicating that the question
+  should be asked and the answer entered during the interview (by the
+  interviewer in case of a CAPI mode, or the respondent in the CAWI mode).
 
-  
-{{< imgproc "images/774373.png" Fit "800x600" />}}
+  - `hidden` - defines that the question should not be visible, but rather be
+  used as a container for holding values that can be used elsewhere in the
+  questionnaire for conditions (enabling, validation, criticality, variables
+  calculation, filtering) or [text substitution](/questionnaire-designer/techniques/text-substitution/).
+  Hidden questions may only be preloaded, not answered.
 
- <span id="interviewer"></span>Interviewer
-------------------------------------------
+  - `supervisor` - this scope defines questions that must be hidden from the
+  interviewer or web-respondent, but shown to the supervisor after the interview
+  is completed. Headquarters users also have access to questions in this scope
+  (may see and modify the answers).
 
-When the scope *interviewer* is selected, enumerators ask the questions
-from the interviewee and enter their responses on the tablet. The
-default question scope is *interviewer*.
+Not all question types and scopes are compatible, for example, a `geography`
+type question may not be in the `identifying` scope, etc. See
+[Design limitations by question type](questionnaire-designer/limits/design-limitations-by-question-type/)
+for the permitted combinations of question types and scopes.
 
- <span id="prefilled"></span>Identifying
-----------------------------------------
+Note that preloading is different from identification. Any question in Survey
+Solutions (barring some excluded types, as described in
+[Design limitations by question type](questionnaire-designer/limits/design-limitations-by-question-type/))
+may be preloaded (whether on the cover page or in a different section), but
+placing a question on the cover page does not necessarily imply that the
+question must be or will be preloaded. Instead, depending on the operation, the
+officer creating the assignments may put available information (for example,
+the address of the household to be interviewed) and leave as blank the
+information that is not available before the interview starts, but will become
+available during the interview (for example, the name of the head of the
+household).
 
-The role of the questions defined as identifying includes the definition
-of uniqueness for the interviews and supplies ‘driving directions’ for
-the enumerators. Different types of information can be provided through
-these questions. Some examples are: province, household id, household
-address, national identification number and name of the household
-head.  
-  
-Identifying questions can only be *text, numeric, date* and
-*categorical: single-select* questions.
+Identifying fields are displayed on the
+[dashboard cards](https://docs.mysurvey.solutions/interviewer/app/dashboard-card/)
+to help the interviewers locate their designated targets.
 
-The behavior of questions defined as identifying and who is responsible
-for answering them depends on whether or not headquarters provides the
-information when creating the assignment. If not filled in during
-assignment creation, enumerators answer the identifying questions within
-questionnaires and the answers can be modified before completing the
-interview.  
-  
-The picture below shows how an enumerator will answer identifying
-questions on a tablet.   
-  
-{{< imgproc "images/643976.png" Fit "800x600" />}}  
-  
-  
-  
-When answers are provided by headquarters during assignment creation,
-the answers cannot be modified once the interview is created.  
-  
-  
-The picture below shows how a headquarters user will answer identifying
-questions when creating an assignment.  
-  
-  
-{{< imgproc "images/643978.png" Fit "800x600" />}}
+Interviewers don't see the comments left to supervisor questions and don't see
+any errors associated with validation of questions in supervisor's scope.
 
-  
-On the tablet, the enumerator sees the answers to the identifying
-questions on the d*ashboard* screen within the Interviewer application. 
-
-  
-{{< imgproc "images/643985.png" Fit "800x600" />}}  
-  
-  
- 
-
-<span id="hidden"></span>Hidden
--------------------------------
-
-  
-When the scope *HIDDEN* is selected, the question is destined to be
-hidden and store the prefilled values to be used in validations and
-enabling conditions. For example, one may create a validation that the
-highest educational attainment of a person now is no lower than it was
-during the last visit. At the same time, because they are hidden, they
-do not reveal their value to the interviewer, thus eliminating the
-possibility for a simple carry-over of the values from the previous wave
-of the survey without asking the respondent for the updated
-information.  
-   
-Note that *Picture* and *linked questions* cannot be hidden.
-
- <span id="supervisor"></span>Supervisor
-----------------------------------------
-
-  
-Supervisors and/or headquarters answer the questions defined as
-*supervisor* once the enumerator completes the interview and sends it
-back to the supervisor. For this reason, these questions are not
-displayed on the tablet.  
-  
-Filled by supervisor questions can only be *text, numeric, categorical:
-Single-select* and *categorical: multi-select* questions*.*  
-  
-Supervisors should follow the following steps to answer these questions:
-
-1.  Find the supervisor question by selecting the *supervisor's* filter
-    at the top of the page. 
-2.  Enter the answer within the empty field.
-3.  Save the answer by clicking on the green *Save* button.
-
-  
-{{< imgproc "images/644009.png" Fit "800x600" />}}​
+Supervisors and headquarters users do see hidden questions when reviewing the
+submitted interviews, but can't change their answers.
