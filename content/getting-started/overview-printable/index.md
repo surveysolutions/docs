@@ -6,6 +6,7 @@ lastmod = 2023-11-01T01:00:00Z
 
 +++
 
+This page contains downloadable resources for users wishing to have a quick look at the capabilities and possible uses of Suvey Solutions.
 
 <TABLE border=0>
 <TR bgcolor=lightblue>
