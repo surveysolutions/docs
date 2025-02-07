@@ -6,12 +6,12 @@ lastmod = 2023-11-01T01:00:00Z
 
 +++
 
-This page contains downloadable resources for users wishing to have a quick look at the capabilities and possible uses of Suvey Solutions.
+This page contains **downloadable resources** for users wishing to have a quick look at the capabilities and possible uses of Suvey Solutions.
 
 <TABLE border=0>
 <TR bgcolor=lightblue>
 <TD width=20>
-<TD width=200><A href="resources/SurveySolutionsBooklet_2018oct(ENG).pdf"><IMG src="images/brochure.png"></A>
+<TD width=200><A href="resources/SurveySolutionsBooklet_2018oct(ENG).pdf"><IMG src="/getting-started/overview-printable/images/brochure.png"></A>
 <TD width=20>
 <TD width=300>
 An overview booklet about Survey Solutions can be downloaded here as 
@@ -23,7 +23,7 @@ and <A href="resources/SurveySolutionsBooklet_2018oct(FRA).pdf">French</A> langu
 
 <TR>
 <TD width=20>
-<TD><A href="resources/flyer2.pdf"><IMG src="images/flyer.png"></A>
+<TD><A href="resources/flyer2.pdf"><IMG src="/getting-started/overview-printable/images/flyer.png"></A>
 <TD>
 <TD>
 An older overview <A href="resources/flyer2.pdf">flyer</A> is also downloadable (in English only, 2 pages, less than 2MB).
@@ -32,7 +32,7 @@ An older overview <A href="resources/flyer2.pdf">flyer</A> is also downloadable 
 
 <TR bgcolor=lightblue>
 <TD width=20>
-<TD><A href="resources/GS-CAPI-SUSO-BROCHURE-05.pdf"><IMG src="images/brochure_gs.png"></A>
+<TD><A href="resources/GS-CAPI-SUSO-BROCHURE-05.pdf"><IMG src="/getting-started/overview-printable/images/brochure_gs.png"></A>
 <TD>
 <TD>
 The Statistics Division of the Food and Agriculture Organization of the United Nations (FAO)
@@ -45,10 +45,12 @@ and <A href="resources/GS-CAPI-SUSO-BROCHURE-FR-001.pdf">French</A> (8 pages, le
 
 <TR>
 <TD width=20>
-<TD><A href="http://www.fao.org/3/ca7691en/CA7691EN.pdf"><IMG src="images/book_fao.png"></A>
+<TD><A href="http://www.fao.org/3/ca7691en/CA7691EN.pdf"><IMG src="/getting-started/overview-printable/images/book_fao.png"></A>
 <TD>
 <TD>
 The Food and Agriculture Organization of the United Nations (UN FAO) and Asian Development Bank (ADB) have compiled a handbook "<A href="http://www.fao.org/3/ca7691en/CA7691EN.pdf">Conducting Tablet-Based Field Data Collection with Survey Solutions: A Handbook (2020)</A>" (81 pages, 16MB) which will be useful for beginners to familiarize with the components of the system and its functionality as it was around 2018-2019.
 <TD width=20>
 </TR>
 </TABLE>
+
+Other resources may be available in our [Users' Forum](https://forum.mysurvey.solutions)
