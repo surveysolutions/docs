@@ -199,6 +199,46 @@
 		"surveyname":"2022 Population and Housing Census",
 		"surveyshortname":"",
 		"links":"<A href=https://stat.gov.kg/en/publications/perepis-naseleniya-i-zhilishnogo-fonda-kyrgyzskoj-respubliki-2022-goda-kniga-i-osnovnye-socialno-demograficheskie-harakteristiki/>Population and Housing Census of the Kyrgyz Republic 2022</A>"
+	  },
+	  {
+		"id":"21",
+		"countryid":"UGA",
+		"iso2code":"UG",
+		"countryname":"Uganda",
+		"year":"2016-2017",
+		"surveyname":"Uganda National Household Survey 2016/2017",
+		"surveyshortname":"UNHS 2016/2017",
+		"links":"<A href=https://www.ubos.org/wp-content/uploads/publications/03_20182016_UNHS_FINAL_REPORT.pdf>Uganda National Household Survey 2016/2017 Report</A>"
+	  },
+	  {
+		"id":"22",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2018",
+		"surveyname":"2018 Labour Force Survey",
+		"surveyshortname":"LFS 2018",
+		"links":"<A href=https://www.ilo.org/surveyLib/index.php/catalog/7986/download/49935>2018 Labour Force Survey Report. Bhutan</A>"
+	  },
+	  {
+		"id":"23",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"Bhutan Living Standard Survey 2022",
+		"surveyshortname":"BLSS 2022",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2023/01/METADATA-ON-2022-BLSS.pdf>Metadata on Bhutan Living Standard Survey 2022 (BLSS)</A>"
+	  },
+	  {
+		"id":"24",
+		"countryid":"ATG",
+		"iso2code":"AG",
+		"countryname":"Antigua and Barbuda",
+		"year":"2018",
+		"surveyname":"2018 Labour Force Survey",
+		"surveyshortname":"2018 LFS",
+		"links":"<A href=https://statistics.gov.ag/wp-content/uploads/2020/10/2018-Antigua-and-Barbuda-LFS-Report.pdf>Antigua and Barbuda 2018 Labour Force Survey Report</A>"
 	  }
 
 
