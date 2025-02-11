@@ -68,7 +68,7 @@
 		"year":"2021",
 		"surveyname":"2021 Labor Force Survey",
 		"surveyshortname":"LFS 2021",
-		"links":"<A href=https://sib.org.bz/wp-content/uploads/MigrationandBelize.pdf>Migration and Belize. Results of the Migration Modules Attached to the 2021 Labor Force Survey</A>"
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2021-04.pdf>Belize Labour Force Survey Report (April 2021).</A><BR><A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2021-09.pdf>Belize Labour Force Survey Report (September 2021).</A><BR><A href=https://sib.org.bz/wp-content/uploads/MigrationandBelize.pdf>Migration and Belize. Results of the Migration Modules Attached to the 2021 Labor Force Survey.</A><BR><A href=https://sib.org.bz/wp-content/uploads/FIES_AnalysisReportBelize.pdf>Prevalence of Food Insecurity in Belize - 2021.</A>"
 	  },
 	  {
 		"id":"8",
@@ -239,9 +239,237 @@
 		"surveyname":"2018 Labour Force Survey",
 		"surveyshortname":"2018 LFS",
 		"links":"<A href=https://statistics.gov.ag/wp-content/uploads/2020/10/2018-Antigua-and-Barbuda-LFS-Report.pdf>Antigua and Barbuda 2018 Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"25",
+		"countryid":"TZA",
+		"iso2code":"TZ",
+		"countryname":"Tanzania",
+		"year":"2019-2020",
+		"surveyname":"Zanzibar Household Budget Survey 2019/2020",
+		"surveyshortname":"2019/2020 HBS",
+		"links":"<A href=https://www.ocgs.go.tz/ReportOCGS/HBS%20Main%20Report_final%2031.12.2020%20printing%20(2).pdf>Main Report. 2019/2020 Household Budget Survey</A>"
+	  },
+	  {
+		"id":"26",
+		"countryid":"MSR",
+		"iso2code":"MS",
+		"countryname":"Montserrat",
+		"year":"2018",
+		"surveyname":"Intercensal Population Count and Labour Force Survey 2018",
+		"surveyshortname":"ICC/LFS 2018",
+		"links":"<A href=https://www.gov.ms/wp-content/uploads/2020/08/FINAL-REPORT-KEY-FINDINGS-CENSUS-LABOUR-FORCE-SURVEY-2018-.pdf>Intercensal Population Count and Labour Force Survey 2018. Key Findings Report</A>"
+	  },
+	  {
+		"id":"27",
+		"countryid":"LCA",
+		"iso2code":"LC",
+		"countryname":"St. Lucia",
+		"year":"2019",
+		"surveyname":"National Crime Victimization Survey 2019",
+		"surveyshortname":"SLNCVS 2020",
+		"links":"<A href=https://stats.gov.lc/wp-content/uploads/2020/08/CVS_Questionnaire_Saint-Lucia_Survey_2019.pdf>Questionnaire</A><BR><A href=https://stats.gov.lc/wp-content/uploads/2020/08/SLNCVS_Presentation_Main_Results_2020.pdf>Presentation</A>"
+	  },
+	  {
+		"id":"28",
+		"countryid":"JAM",
+		"iso2code":"JM",
+		"countryname":"Jamaica",
+		"year":"2019",
+		"surveyname":"Jamaica National Crime Victimization Survey 2019",
+		"surveyshortname":"SLNCVS 2020",
+		"links":"<A href=https://www.mns.gov.jm/sites/default/files/pdf/JNCVS%202019%20FINAL%20REPORT.pdf>Jamaica National Crime Victimization Survey (JNCVS) 2019 Report</A>"
+	  },
+	  {
+		"id":"29",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"2022 Gross National Happiness Survey",
+		"surveyshortname":"GNH 2022",
+		"links":"<A href=https://bhutanstudies.org.bt/wp-content/uploads/2025/01/2022-GNH-Survey-Report_compressed.pdf>2022 Gross National Happiness Report</A>"
+	  },
+	  {
+		"id":"30",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2020",
+		"surveyname":"2020 Labour Force Survey",
+		"surveyshortname":"LFS 2020",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2021/04/2020-Labour-Force-Survey-Report.pdf>2020 Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"31",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"2022 Jobseeker Survey",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/Jobseeker-Survey-Report-2022.pdf>Jobseeker Survey Report 2022</A>"
+	  },
+	  {
+		"id":"32",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2024",
+		"surveyname":"Industry Census of Bhutan 2024",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2024/08/INDUSTRY-CENSUS-OF-BHUTAN-2024.pdf> Industry Census Report of Bhutan 2024</A>"
+	  },
+	  {
+		"id":"33",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2021",
+		"surveyname":"Tourism Establishment Census of Bhutan 2021",
+		"surveyshortname":"TECOB 2021",
+		"links":"<A href=https://www.tourism.gov.bt/uploads/attachment_files/tcb_esC39jNL_Tourism%20Establishment%20Census%20of%20Bhutan%20-%20WEB.pdf>Tourism Establishment Census of Bhutan 2021 Report</A>"
+	  },
+	  {
+		"id":"34",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2023",
+		"surveyname":"5th National Health Survey. Integrated Stepwise Household Survey 2023",
+		"surveyshortname":"NHS 2023",
+		"links":"<A href=https://moh.gov.bt/wp-content/uploads/2025/01/Final_National-Health-Survey-2023-1.pdf>National Health Survey Report 2023,</A><BR><A href=https://moh.gov.bt/wp-content/uploads/2025/01/A4_Factsheets.pdf>Factsheets</A>"
+	  },
+	  {
+		"id":"35",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2017",
+		"surveyname":"Bhutan Living Standards Survey 2017",
+		"surveyshortname":"BLSS 2017",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/2020/10/BLSS-2017-Report.pdf>Bhutan Living Standards Survey Report 2017</A>"
+	  },
+	  {
+		"id":"36",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2015",
+		"surveyname":"Knowledge Attitude and Practice (KAP) Survey of Religious Personnel on Social Issues",
+		"surveyshortname":"KAP 2015",
+		"links":"<A href=https://www.nsb.gov.bt/download/5101/>KAP Survey Report 2015</A>"
+	  },
+	  {
+		"id":"37",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2019",
+		"surveyname":"National Waste Inventory Survey",
+		"surveyshortname":"NWIS 2019",
+		"links":"<A href=https://www.nsb.gov.bt/download/5089/>Nation’s waste on the scale</A>"
+	  },
+	  {
+		"id":"38",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2020",
+		"surveyname":"User Satisfaction Survey",
+		"surveyshortname":"",
+		"links":"<A href=https://www.nsb.gov.bt/download/7699/>User Satisfaction Survey Report</A>"
+	  },
+	  {
+		"id":"39",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2018",
+		"surveyname":"2018 Labor Force Survey",
+		"surveyshortname":"LFS 2018",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2018-04.pdf>Belize Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"40",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2019",
+		"surveyname":"2019 Labor Force Survey",
+		"surveyshortname":"LFS 2019",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2019-09.pdf>Belize Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"41",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2020",
+		"surveyname":"2020 Labor Force Survey",
+		"surveyshortname":"LFS 2020",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2020-09.pdf>Belize Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"42",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"2022 Labour Force Survey",
+		"surveyshortname":"LFS 2022",
+		"links":"<A href=https://www.nsb.gov.bt/download/11300/>2022 Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"43",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2019",
+		"surveyname":"National Domestic Tourism Survey",
+		"surveyshortname":"NDTS 2019",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/NDTS_Report.pdf>National Domestic Tourism Survey 2019 Report</A>"
+	  },
+	  {
+		"id":"44",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2023",
+		"surveyname":"General Business Census",
+		"surveyshortname":"RGE 2023",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/RGE_GABON_RAPPORT-DEFINITIF.pdf>Recensement Général des Enterprises. Principaux Resultats.</A><BR><A href=https://instatgabon.org/en/actualite/resultats-du-recensement-general-des-entreprises-rge-2023>Results of the General Business Census (RGE 2023)</A>"
+	  },
+	  {
+		"id":"45",
+		"countryid":"IND",
+		"iso2code":"IN",
+		"countryname":"India",
+		"year":"2017-2018",
+		"surveyname":"Periodic Labour Force Survey",
+		"surveyshortname":"PLFS",
+		"links":"<A href=https://mospi.gov.in/sites/default/files/publication_reports/Annual%20Report%2C%20PLFS%202017-18_31052019.pdf>Annual Report. Periodic Labour Force Survey (July 2017 - June 2018)</A>"
+	  },
+	  {
+		"id":"46",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2023",
+		"surveyname":"Enquete sur les Marges de Commerce et de Transport",
+		"surveyshortname":"EMCT 2023",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/EMCT_2023_RAPPORT%20DEFINTIF%20D'ANALYSE.pdf>Enquete sur les Marges de Commerce et de Transport. Rapport D'Analyse. Principaux Resultats - Octobre.</A>"
+	  },
+	  {
+		"id":"47",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2017",
+		"surveyname":"Enquete Gabonaise pour le Suivi et L'Evaluation de la Pauvrete de 2017",
+		"surveyshortname":"EGEP II 2017",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/EGEP/RAPPORT_DE__SYNTHESE.pdf>Analyse des conditions de vie des ménages au Gabon en 2017.</A>"
 	  }
-
-
 
 	]
 }
