@@ -1,0 +1,81 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/cawi/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Computer Assisted Web Interviewing (CAWI)"><meta property="og:description" content="Knowledge Base for Survey Solutions CAPI and CAWI platform"><meta property="og:locale" content="en_us"><meta property="og:type" content="website"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Computer Assisted Web Interviewing (CAWI)</title>
+<link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class="breadcrumb-item active" aria-current=page>Computer Assisted Web Interviewing (CAWI)</li></ol></nav><section><div class=mb-4><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Computer Assisted Web Interviewing (CAWI)</h2></div><div class=list_of_articles><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/email-providers/>Bulk email service providers</a></h3><p><p>Bulk email service providers solve the task of sending out a
+massive amount of emails. Survey Solutions may utilize such a
+service provider to deliver email invitations for CAWI surveys
+to the respondents. At the moment the following providers are supported:</p><ul><li>Amazon SES;</li><li>Twilio SendGrid;</li><li>Other senders that support Simple Mail Transfer Protocol (SMTP).</li></ul><p>You don&rsquo;t have to use the above services to conduct a CAWI
+survey, but in that case (just as it was in versions prior
+to 19.04) it will be your responsibility to deliver the links
+for the interviews to individual respondents. The use of the
+bulk email service providers streamlines this process.</p></p><span class="data d-block">August 6, 2024</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/email-providers-smtp/>Configuring SMTP server as an email service provider</a></h3><p><p>Servers providing <a href=https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>Simple Mail Transfer Protocol (SMTP)</a> service can be used to send out messages from Survey Solutions. The technical description for the SMTP has passed several revisions and users may refer to e.g. <a href=https://datatracker.ietf.org/doc/html/rfc8314>RFC 8314</a> for details.</p><center><a href=images/smtp-screenshot.png><img src=images/smtp-screenshot.png width=600></a></center><p>The settings specific to using SMTP are described below, while the other settings common to other service providers are described in the article <a href=/headquarters/cawi/email-providers/>Bulk email service providers</a>.</p><p><strong>Host</strong> - the address of the server (may also be referred to as the SMTP server, or outgoing mail server, etc. in your provider&rsquo;s documentation).</p></p><span class="data d-block">July 29, 2024</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/email-providers-amazon-ses/>Configuring Amazon SES as an email service provider</a></h3><p><p>Amazon provides a number of services (free and paid) that may
+be of interest to the application developer. Here we are specifically
+interested in utilizing the <strong>Simple Email Service (SES)</strong> from within Survey
+Solutions for mass email sending.</p><p><b><font color=maroon>Usage of this service may cost you money.
+Make sure you understand all charges, limits and policies before
+utilizing this service.</font></b></p><p><strong>Amazon Simple Email Service</strong> is available at the following address:
+<a href=https://aws.amazon.com/ses>https://aws.amazon.com/ses</a></p><p>If you are already an Amazon AWS user, you can login to your
+Management Console right away. Otherwise you will need to create
+a new AWS account.</p></p><span class="data d-block">May 24, 2021</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/webpage-templates/>Webpage Templates</a></h3><p><p>Survey Solutions presents several web pages to the respondents to the web
+surveys (CAWI). These pages may need to be customized at the web interview
+setup page: <code>Menu</code> → <code>Survey Setup</code> → <code>Questionnaires</code> →
+<code>YourQuestionnaire</code> → <code>Web interview setup</code>.</p><p>Changes made to these templates take immediate effect: any new page of the
+corresponding type will be shown using the most recently saved template.</p><table class="table table-striped table-hover" border><tr class="header bg-warning"><th width=200>Web page</th><th>Description</th></tr><tr><td>Welcome page</td><td><p>This page is shown to the respondent opening the link to a web interview.</p><p>The content of this page will usually contain description of the survey,
+its purposes and objectives, motivation for participation, and other
+descriptives/instructions.</p><p>The page consists of three user-editable elements:<ul><li>title,</li><li>description, and</li><li>the text on
+the button to start a new interview.</li></ul></p><p>Survey coordinator may apply formatting to the description part of this
+web page.</p></td></tr><tr><td>Resume Page</td><td><p>A resume page is shown to the respondents when they resume an
+interrupted interview (started, but not completed).</p><p>The page consists of three user-editable elements:<ul><li>title,</li><li>description, and</li><li>the text on
+the button to resume the interview.</li></ul></p><p>Survey coordinator may apply formatting to the description part of this
+web page.</p><p>The description may mention %QUESTIONNAIRE%, which will be automatically
+replaced with the name of the survey.</p></td></tr><tr><td>Complete</td><td><p>Provides a possibility to customize texts utilized at the
+system-generated <b><i>Complete</i></b> page of a web-interview.</p><p>The page consists of two user-editable elements:<ul><li>Note for supervisor, and</li><li>Complete.</li></ul></p><p>Survey coordinator may not apply formatting in any of the elements of this
+web page.</p></td></tr><tr><td>Finish page</td><td><p>Provides a possibility to customize texts utilized at the
+page displayed after a web-interview is completed.</p><p>The page consists of two user-editable elements:<ul><li>title, and</li><li>description.</li></ul></p><p>Survey coordinator may apply formatting to the description part of this
+web page.</p></td></tr></table><h4 id=text-formatting>Text formatting</h4><p>Where formatting is supported it is entered using the following toolbar:</p></p><span class="data d-block">November 26, 2020</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/email-templates/>Email Templates</a></h3><p><p>Survey Solutions can send email notifications to the respondents to the web
+surveys (CAWI). These notifications can be configured at the web interview
+setup page: <code>Menu</code> → <code>Survey Setup</code> → <code>Questionnaires</code> →
+<code>YourQuestionnaire</code> → <code>Web interview setup</code>.</p><p>Survey Solutions server automatically determines, which notifications need to be
+sent out to the respondents. Every hour the notifications of the type marked
+with ^ in the table below are sent out, if a
+<a href=/headquarters/cawi/email-providers/>bulk email service provider</a> has been set
+up.</p></p><span class="data d-block">November 26, 2020</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/web-interviewing/>Web Interviewing</a></h3><p><p>In addition to CAPI surveys on Android tablets, Survey Solutions
+provides two distinct possibilities:</p><ul><li><strong>Interviewing:</strong> Interviewers conduct interviews using the
+web interface (without a tablet);</li><li><strong>Self-enumeration:</strong> Respondents fill out interviews in the browser.</li></ul><p>The difference is essential:</p><ul><li><p>In the first case the person filling out the interview is a known
+member of the team, has an account created in the system, assigned
+to a team of a certain supervisor and so on. We use this mode when
+e.g. we set up a call centre and our interviewers don&rsquo;t physically
+travel to the respondent, so don&rsquo;t need a mobile device (tablet)
+or to work offline (disconnected), but collect multiple interviews
+and report to a certain supervisor;</p></p><span class="data d-block">October 30, 2020</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/email-providers-sendgrid/>Configuring Sendgrid as an email service provider</a></h3><p><p>SendGrid is a bulk email service provider that can be used in Survey
+Solutions for delivering invitations for CAWI surveys as an alternative
+to Amazon SES:
+<a href=https://sendgrid.com/>https://sendgrid.com/</a></p><p><b><font color=maroon>Usage of this service may cost you money.
+Make sure you understand all charges, limits and policies before
+utilizing this service.</font></b></p><p>SendGrid reqires you to have a domain and confirm yourself
+as a domain owner. The sending address must belong to this
+domain. For example, if you want to send emails from <i><a href=mailto:name@site.com>name@site.com</a></i>
+you must confirm yourself as the owner of the <i>site.com</i>.</p></p><span class="data d-block">March 31, 2019</span></div><div class="article-short-view pl-5 position-relative"><h3><a href=/headquarters/cawi/customize-web-interview-messages/>Customize web interview messages</a></h3><p><p>Web interviews conducted with Survey Solutions contain reasonable
+default messages suitable for many surveys. But if the default messages
+are not suitable for a certain purpose, they can be customized in the
+web survey setup dialog at the Survey Solutions Headquarters:</p><p><img src=images/866690.png alt="Editing custom text messages for web interviews"></p><p>For every parameter select if you wish to display a built-in default
+message, or a custom one, and if so, provide your custom (formatted)
+text of such a message. You can use the formatting toolbar provided in
+the editor to adjust the font color and font attributes, include
+numbered and bullet lists, and include hyperlinks.</p></p><span class="data d-block">April 2, 2018</span></div></div></div></section></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=http://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
