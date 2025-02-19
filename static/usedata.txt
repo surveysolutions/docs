@@ -247,7 +247,7 @@
 		"countryname":"Tanzania",
 		"year":"2019-2020",
 		"surveyname":"Zanzibar Household Budget Survey 2019/2020",
-		"surveyshortname":"2019/2020 HBS",
+		"surveyshortname":"HBS 2019/2020",
 		"links":"<A href=https://www.ocgs.go.tz/ReportOCGS/HBS%20Main%20Report_final%2031.12.2020%20printing%20(2).pdf>Main Report. 2019/2020 Household Budget Survey</A>"
 	  },
 	  {
@@ -267,7 +267,7 @@
 		"countryname":"St. Lucia",
 		"year":"2019",
 		"surveyname":"National Crime Victimization Survey 2019",
-		"surveyshortname":"SLNCVS 2020",
+		"surveyshortname":"SLNCVS 2019",
 		"links":"<A href=https://stats.gov.lc/wp-content/uploads/2020/08/CVS_Questionnaire_Saint-Lucia_Survey_2019.pdf>Questionnaire</A><BR><A href=https://stats.gov.lc/wp-content/uploads/2020/08/SLNCVS_Presentation_Main_Results_2020.pdf>Presentation</A>"
 	  },
 	  {
@@ -277,7 +277,7 @@
 		"countryname":"Jamaica",
 		"year":"2019",
 		"surveyname":"Jamaica National Crime Victimization Survey 2019",
-		"surveyshortname":"SLNCVS 2020",
+		"surveyshortname":"JNCVS 2019",
 		"links":"<A href=https://www.mns.gov.jm/sites/default/files/pdf/JNCVS%202019%20FINAL%20REPORT.pdf>Jamaica National Crime Victimization Survey (JNCVS) 2019 Report</A>"
 	  },
 	  {
@@ -469,7 +469,229 @@
 		"surveyname":"Enquete Gabonaise pour le Suivi et L'Evaluation de la Pauvrete de 2017",
 		"surveyshortname":"EGEP II 2017",
 		"links":"<A href=https://instatgabon.org/uploads/folder_1/EGEP/RAPPORT_DE__SYNTHESE.pdf>Analyse des conditions de vie des ménages au Gabon en 2017.</A>"
+	  },
+	  {
+		"id":"48",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2020",
+		"surveyname":"Le Recensement Général de l'Agriculture",
+		"surveyshortname":"RGA 2020",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/RGA/VOLUME%20III_RAPPORT%20MODULE%20DE%20BASE_RGA_GABON_VF.pdf>Le Recensement Général de l'Agriculture et du Systeme Permanent Integre de Statistiques Agricoles.</A>"
+	  },
+	  {
+		"id":"49",
+		"countryid":"TNZ",
+		"iso2code":"TZ",
+		"countryname":"Tanzania",
+		"year":"2020-2021",
+		"surveyname":"Tanzania National Panel Survey (2020-2021)",
+		"surveyshortname":"NPS 2020/2021",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/5639/download/61262>Basic Information Document - Tanzania National Panel Survey (2020-2021).</A>"
+	  },
+	  {
+		"id":"50",
+		"countryid":"TNZ",
+		"iso2code":"TZ",
+		"countryname":"Tanzania",
+		"year":"2017-2018",
+		"surveyname":"Household Budget Survey (2017-2018)",
+		"surveyshortname":"HBS 2017/2018",
+		"links":"<A href=https://www.nbs.go.tz/nbs/takwimu/hbs/2017_18_HBS_Key_Indicators_Report_Engl.pdf>Tanzania Mainland. Key Indicators Report. 2017-18 Household Budget Survey.</A>"
+	  },
+	  {
+		"id":"51",
+		"countryid":"UGA",
+		"iso2code":"UG",
+		"countryname":"Uganda",
+		"year":"2019",
+		"surveyname":"Disability Situational Analysis Household Survey 2019",
+		"surveyshortname":"",
+		"links":"<A href=https://www.developmentpathways.co.uk/wp-content/uploads/2020/09/Webready-DP1294-ESP-Disability-Uganda-Sept-2020.pdf>Situational Analysis of Persons with Disabilities in Uganda</A>"
+	  },
+	  {
+		"id":"52",
+		"countryid":"SSD",
+		"iso2code":"SS",
+		"countryname":"South Sudan",
+		"year":"2019",
+		"surveyname":"Integrated Business Establishments Survey 2019",
+		"surveyshortname":"",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/3847/download/49506>Questionnaire</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/3847"
+	  },
+	  {
+		"id":"53",
+		"countryid":"SLE",
+		"iso2code":"SL",
+		"countryname":"Sierra Leone",
+		"year":"2023",
+		"surveyname":"World Bank Enterprise Survey 2023",
+		"surveyshortname":"WBES",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/6471/download/259858>Implementation Report</A>"
+	  },
+	  {
+		"id":"54",
+		"countryid":"LCA",
+		"iso2code":"LC",
+		"countryname":"St. Lucia",
+		"year":"2020",
+		"surveyname":"Labour Market Needs Assessment Survey 2020",
+		"surveyshortname":"LMNAS 2020",
+		"links":"<A href=https://stats.gov.lc/wp-content/uploads/2021/07/L.M.N.A.S-2020-Final.pdf>Saint Lucia Labour Market Needs Assessment Survey Report, 2020</A>"
+	  },
+	  {
+		"id":"55",
+		"countryid":"JAM",
+		"iso2code":"JM",
+		"countryname":"Jamaica",
+		"year":"2018",
+		"surveyname":"Jamaica Survey of Establishments 2018",
+		"surveyshortname":"JSE 2018",
+		"links":"<A href=https://wups.statinja.gov.jm/WUP/2018Ad%20Hoc_JSE%20Final%20Report.pdf_STATINJa.pdf>The Report on the Jamaica Survey of Establishments 2018</A>"
+	  },
+	  {
+		"id":"56",
+		"countryid":"MHL",
+		"iso2code":"MH",
+		"countryname":"Marshall Islands",
+		"year":"2019-2020",
+		"surveyname":"Republic of Marshall Islands Household Income and Expenditure Survey 2019/2020",
+		"surveyshortname":"HIES 2019/2020",
+		"links":"<A href=https://www.ilo.org/surveyLib/index.php/catalog/7942/download/51858>Poverty, Food Consumption, Labour and Household Income and Expenditure in the Marshall Islands. A compendium of Analyses of the 2019/20 Household Income and Expenditure Survey.</A><BR><A href=https://www.ilo.org/surveyLib/index.php/catalog/7942/download/49371>Questionnaire</A>"
+	  },
+	  {
+		"id":"57",
+		"countryid":"MHL",
+		"iso2code":"MH",
+		"countryname":"Marshall Islands",
+		"year":"2021",
+		"surveyname":"2021 Census on Population and Housing",
+		"surveyshortname":"PHC 2021",
+		"links":"<A href=https://rmihealth.org/media/attachments/2024/08/29/rmi-2021-census-final-1.pdf>Republic of the Marshall Islands 2021 Census on Population and Housing. Analytical Report.</A>"
+	  },
+	  {
+		"id":"58",
+		"countryid":"JAM",
+		"iso2code":"JM",
+		"countryname":"Jamaica",
+		"year":"2021",
+		"surveyname":"Labour Force Survey 2021",
+		"surveyshortname":"LFS 2021",
+		"links":"<A href=https://wups.statinja.gov.jm/WUP/2021Annual%20Publications_The%20Jamaica%20Labour%20Force%20Survey%202021%20Annual%20Review.pdf_STATINJa.pdf>The Jamaica Labour Force Survey. 2021. Annual Review</A>"
+	  },
+	  {
+		"id":"59",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2019",
+		"surveyname":"Samoa Agriculture Census 2019",
+		"surveyshortname":"",
+		"links":"<A href=https://www.sbs.gov.ws/images/sbs-documents/Economics/SAMOA-AGRICULTURE-CENSUS/SAMOA_AGRICULTURE_CENSUS_2019.pdf>Samoa Agriculture Census 2019.</A><BR><A href=https://www.fao.org/fileadmin/templates/ess/ess_test_folder/World_Census_Agriculture/WCA_2020/WCA_2020_new_doc/WSM_QUE_ENG_2019.pdf>Questionnaire.</A>"
+	  },
+	  {
+		"id":"60",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2023",
+		"surveyname":"Household Income and Expenditure Survey",
+		"surveyshortname":"HIES 2023",
+		"links":"<A href=https://www.sbs.gov.ws/documents/economics/hies2023/Samoa_2023_HIES_Report.pdf>Samoa 2023 Household Income and Expenditure Survey Report.</A>"
+	  },
+	  {
+		"id":"61",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2017",
+		"surveyname":"Labour Force Survey",
+		"surveyshortname":"LFS 2017",
+		"links":"<A href=https://sbs.gov.ws/digi/2017-Social-Statistics-Samoa-LFS-Report-2017.pdf>Samoa Labour Force Survey 2017.</A>"
+	  },
+	  {
+		"id":"62",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2022",
+		"surveyname":"Samoa Labour Force and Child Labour Survey 2022",
+		"surveyshortname":"SLFCLS 2022",
+		"links":"<A href=https://www.sbs.gov.ws/documents/social/LFS/2022_SLFCLS_Report.pdf>Samoa Labour Force and Child Labour Survey 2022.</A>"
+	  },
+	  {
+		"id":"63",
+		"countryid":"TTO",
+		"iso2code":"TT",
+		"countryname":"Trinidad and Tobago",
+		"year":"2021",
+		"surveyname":"The National Digital Inclusion Survey 2021",
+		"surveyshortname":"DIS 2021",
+		"links":"<A href=https://cso.gov.tt/wp-content/uploads/2022/06/National-Digital-Inclusion-Survey-DIS-2021-Final-Report.pdf>National Digital Inclusion Survey 2021. Accelerating Digital Transformation.</A>"
+	  },
+	  {
+		"id":"64",
+		"countryid":"TTO",
+		"iso2code":"TT",
+		"countryname":"Trinidad and Tobago",
+		"year":"2019",
+		"surveyname":"FAO Socio-Economic Survey ",
+		"surveyshortname":"",
+		"links":"<A href=https://cso.gov.tt/stat_publications/socioeconomic-study-related-to-protected-areas-in-trinidad-and-tobago/>Report on the Socio-Economic Study related to Protected Areas in Trinidad and Tobago</A>"
+	  },
+	  {
+		"id":"65",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2018-2019",
+		"surveyname":"Economic Census of Bhutan",
+		"surveyshortname":"",
+		"links":"<A href=https://documents1.worldbank.org/curated/en/394101596187232452/pdf/Economic-Census-of-Bhutan-2018-2019.pdf>Economic Census of Bhutan 2018-2019</A>"
+	  },
+	  {
+		"id":"66",
+		"countryid":"MWI",
+		"iso2code":"MW",
+		"countryname":"Malawi",
+		"year":"2018-2019",
+		"surveyname":"Economic Census of Bhutan",
+		"surveyshortname":"",
+		"links":"<A href=https://documents1.worldbank.org/curated/en/394101596187232452/pdf/Economic-Census-of-Bhutan-2018-2019.pdf>Economic Census of Bhutan 2018-2019</A>"
+	  },
+	  {
+		"id":"67",
+		"countryid":"ZAF",
+		"iso2code":"ZA",
+		"countryname":"South Africa",
+		"year":"2016",
+		"surveyname":"Community Survey",
+		"surveyshortname":"CS 2016",
+		"links":"<A href=https://www.statssa.gov.za/publications/03-01-04/03-01-042016.pdf>Community Survey 2016. Data Quality Report.</A>"
+	  },
+	  {
+		"id":"68",
+		"countryid":"ZMB",
+		"iso2code":"ZM",
+		"countryname":"Zambia",
+		"year":"2023",
+		"surveyname":"2023 National Energy Access Survey",
+		"surveyshortname":"NEAS 2023",
+		"links":"<A href=https://www.rea.org.zm/wp-content/uploads/2025/01/National-Energy-Access-Survey-NEAS-Report.pdf>2023 National Energy Access Survey</A>"
+	  },
+	  {
+		"id":"69",
+		"countryid":"ZAF",
+		"iso2code":"ZA",
+		"countryname":"South Africa",
+		"year":"2021-2022",
+		"surveyname":"Governance, Public Safety, and Justice Survey",
+		"surveyshortname":"GPSJS 2021/2022",
+		"links":"<A href=https://www.statssa.gov.za/publications/P0341/P03412022.pdf>Governance, Public Safety, and Justice Survey. GPSJS 2021/2022</A>"
 	  }
+	  
 
 	]
 }
