@@ -448,7 +448,7 @@
 		"year":"2017-2018",
 		"surveyname":"Periodic Labour Force Survey",
 		"surveyshortname":"PLFS",
-		"links":"<A href=https://mospi.gov.in/sites/default/files/publication_reports/Annual%20Report%2C%20PLFS%202017-18_31052019.pdf>Annual Report. Periodic Labour Force Survey (July 2017 - June 2018)</A>"
+		"links":"<A href=https://mospi.gov.in/sites/default/files/publication_reports/Annual%20Report%2C%20PLFS%202017-18_31052019.pdf>Annual Report. Periodic Labour Force Survey (July 2017 - June 2018)</A><BR><A href=https://www.ncaer.org/wp-content/uploads/2022/09/An-Employment-Data-Strategy-for-India_Radhicka-Kapoor_India-Policy-Forum-2019-Vol-16-192-240.pdf>An Employment Data Strategy for India</A>"
 	  },
 	  {
 		"id":"46",
@@ -656,10 +656,11 @@
 		"countryid":"MWI",
 		"iso2code":"MW",
 		"countryname":"Malawi",
-		"year":"2018-2019",
-		"surveyname":"Economic Census of Bhutan",
-		"surveyshortname":"",
-		"links":"<A href=https://documents1.worldbank.org/curated/en/394101596187232452/pdf/Economic-Census-of-Bhutan-2018-2019.pdf>Economic Census of Bhutan 2018-2019</A>"
+		"year":"2019-2020",
+		"surveyname":"Fifth Integrated Household Survey 2019-2020",
+		"surveyshortname":"IHS5",
+		"links":"<A href=https://www.nsomalawi.mw/images/stories/data_on_line/economics/ihs/IHS5/IHS5_Final_Report.pdf>The Fifth Integrated Household Survey (IHS5) 2020 Report</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/3818/related-materials"
 	  },
 	  {
 		"id":"67",
@@ -689,9 +690,153 @@
 		"year":"2021-2022",
 		"surveyname":"Governance, Public Safety, and Justice Survey",
 		"surveyshortname":"GPSJS 2021/2022",
-		"links":"<A href=https://www.statssa.gov.za/publications/P0341/P03412022.pdf>Governance, Public Safety, and Justice Survey. GPSJS 2021/2022</A>"
+		"links":"<A href=https://www.statssa.gov.za/publications/P0341/P03412022.pdf>Governance, Public Safety, and Justice Survey. GPSJS 2021/2022</A>",
+		"microdatalink":"https://catalog.ihsn.org/catalog/11249/"
+		
+	  },
+	  {
+		"id":"70",
+		"countryid":"KWT",
+		"iso2code":"KW",
+		"countryname":"Kuwait",
+		"year":"2014",
+		"surveyname":"Labor Force Survey",
+		"surveyshortname":"LFS 2014",
+		"links":"<A href=https://iaos-isi.org/wp-content/uploads/2023/03/Mona_Al_daas_paper.pdf>Labor Statistics for evidence-based policies.</A>"
+	  },
+	  {
+		"id":"71",
+		"countryid":"SLB",
+		"iso2code":"SB",
+		"countryname":"Solomon Islands",
+		"year":"2024-2025",
+		"surveyname":"Household Income and Expenditure Survey",
+		"surveyshortname":"HIES 2024/2025",
+		"links":"<A href=https://statistics.gov.sb/sinso-successfully-concludes-hies-pilot-test/>SINSO successfully concludes HIES Pilot Test</A><BR><A href=https://solomons.gov.sb/sinso-meets-with-capi-trainer-for-hies-2024-2025-project/>SINSO meets with CAPI Trainer for HIES 2024-2025 Project</A>"
+	  },
+	  {
+		"id":"72",
+		"countryid":"SLB",
+		"iso2code":"SB",
+		"countryname":"Solomon Islands",
+		"year":"2020",
+		"surveyname":"High Frequency Phone Survey, 2020",
+		"surveyshortname":"",
+		"links":"<A href=https://microdata.fao.org/index.php/catalog/1764/pdf-documentation>Solomon Islands - High Frequency Phone Survey, 2020</A>"
+	  },
+	  {
+		"id":"73",
+		"countryid":"ETH",
+		"iso2code":"ET",
+		"countryname":"Ethiopia",
+		"year":"2018-2019",
+		"surveyname":"2018-19 Ethiopian Socioeconomic Survey - Wave 4",
+		"surveyshortname":"ESS 2018/19",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/3823/related-materials>Documentation: Questionnaires, Reports, Technical Documents</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/3823"
+		
+	  },
+	  {
+		"id":"74",
+		"countryid":"IDN",
+		"iso2code":"ID",
+		"countryname":"Indonesia",
+		"year":"2023-2024",
+		"surveyname":"Informal Sector Enterprise Survey 2023",
+		"surveyshortname":"ISES 2023",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/6480/download/259884>Questionnaire</A><A href=https://microdata.worldbank.org/index.php/catalog/6480/download/259885>The Informal Sector Enterprise Surveys in Cities in Indonesia 2023,Implementation Report</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/6480"
+	  },
+	  {
+		"id":"75",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"National Intergrity Assessment 2022",
+		"surveyshortname":"NIA 2022",
+		"links":"<A href=https://www.acc.org.bt/wp-content/uploads/2023/07/NIA_2022.pdf>National Integrity Assessment 2022</A>"
+	  },
+	  {
+		"id":"76",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"Establishment Survey 2022",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/NHRD-Advisory-2022.pdf>National HRD Advisory. Establishment Survey and Employee Survey Report</A>"
+	  },
+	  {
+		"id":"77",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2023",
+		"surveyname":"Establishment Survey 2022",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/NHRD-Advisory-2022.pdf>National HRD Advisory. Establishment Survey and Employee Survey Report</A>"
+	  },
+	  {
+		"id":"78",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2023",
+		"surveyname":"Integrated Agriculture and Livestock Census of Bhutan 2023",
+		"surveyshortname":"IALC-2023",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/NHRD-Advisory-2022.pdf>Integrated Agriculture and Livestock Census of Bhutan, 2023</A>"
+	  },
+	  {
+		"id":"79",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"Integrated Agriculture and Livestock Census of Bhutan 2022",
+		"surveyshortname":"IALC-2022",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2023/05/Report-re-for-web.pdf>Integrated Agriculture and Livestock Census of Bhutan, 2022</A>"
+	  },
+	  {
+		"id":"80",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2021",
+		"surveyname":"Livestock Census of Bhutan 2021",
+		"surveyshortname":"LC-2021",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2022/05/LC-2021-Book-for-WEB.pdf>Livestock Census 2021</A>"
+	  },
+	  {
+		"id":"81",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2021",
+		"surveyname":"Agriculture Survey of Bhutan 2021",
+		"surveyshortname":"AS 2021",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2022/06/ASR2021-Book-for-WEB.pdf>2021 Agriculture Survey Report</A>"
+	  },
+	  {
+		"id":"82",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2020",
+		"surveyname":"Agriculture Survey of Bhutan 2020",
+		"surveyshortname":"AS 2020",
+		"links":"<A href=https://www.nsb.gov.bt/download/9281/>Agriculture Statistics 2020</A>(includes Survey Solutions questionnaire as PDF)."
+	  },
+	  {
+		"id":"83",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2019",
+		"surveyname":"Domestic and Outbound Tourism Survey 2019",
+		"surveyshortname":"DOTS 2019",
+		"links":"<A href=https://www.tourism.gov.bt/uploads/attachment_files/tcb_NSwj_DOTS%202019.pdf>Domestic and Outbound Tourism Survey 2019</A>."
 	  }
 	  
-
 	]
 }
