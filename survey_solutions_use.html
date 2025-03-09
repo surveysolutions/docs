@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Worldwide Use of Survey Solutions</title>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/plug-ins/2.2.1/integration/font-awesome/dataTables.fontAwesome.css">
+
+<style type="text/css">
+  body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+  }
+  div.container {
+    margin: 0 auto;
+  }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js"></script>
+<script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+
+</head>
+
+
+<BODY>
+
+<H1>Worldwide Use of Survey Solutions</H1>
+
+<div class="container">
+<table id="survey_solutions_use" class="display" style="width:100%" border=1>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Year</th>
+                <th>Survey name</th>
+                <th>Short name</th>
+		<th>Links</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Country</th>
+                <th>Year</th>
+                <th>Survey name</th>
+                <th>Short name</th>
+		<th>Links</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+
+new DataTable('#survey_solutions_use', {
+    ajax: 'usedata.txt',
+    columns: [
+        /* 
+        { data: 'countryid' },
+        { data: 'iso2code' },
+        */
+        { data: 'countryname' },
+        { data: 'year' },
+        { data: 'surveyname' },
+        { data: 'surveyshortname' },
+	{ data: 'links'}
+    ], order: [[1, 'desc']],
+    /* "columnDefs": [ {
+        "targets": 4,
+        "render": function ( data, type, row, meta ) {
+            return '<a href="'+row.links+'" target="_blank">'+row.surveyshortname+'</a>';
+        }
+      } ]*/
+
+});
+    </script>
+
+
+
+</BODY>
+
+
+</HTML>
