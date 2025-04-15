@@ -211,6 +211,6 @@ For more information to write more complex LINQ queries in C\#:
     LINQ](http://stackoverflow.com/questions/16322/learning-about-linq)
 -   [MSDN](https://msdn.microsoft.com/en-us/library/mt693024.aspx)
 -   [101 LINQ
-    samples](https://code.msdn.microsoft.com/101-LINQ-Samples-3fb9811b)
+    samples](https://github.com/dotnet/try-samples/tree/main/101-linq-samples)
 -   [LINQ Query
     Operators](https://www.tutorialspoint.com/linq/linq_query_operators.htm)

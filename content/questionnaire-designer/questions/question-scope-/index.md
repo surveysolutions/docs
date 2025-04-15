@@ -41,12 +41,12 @@ that question. The scopes defined in Survey Solutions are:
 
 Not all question types and scopes are compatible, for example, a `geography`
 type question may not be in the `identifying` scope, etc. See
-[Design limitations by question type](questionnaire-designer/limits/design-limitations-by-question-type/)
+[Design limitations by question type](/questionnaire-designer/limits/design-limitations-by-question-type/)
 for the permitted combinations of question types and scopes.
 
 Note that preloading is different from identification. Any question in Survey
 Solutions (barring some excluded types, as described in
-[Design limitations by question type](questionnaire-designer/limits/design-limitations-by-question-type/))
+[Design limitations by question type](/questionnaire-designer/limits/design-limitations-by-question-type/))
 may be preloaded (whether on the cover page or in a different section), but
 placing a question on the cover page does not necessarily imply that the
 question must be or will be preloaded. Instead, depending on the operation, the
@@ -57,7 +57,7 @@ available during the interview (for example, the name of the head of the
 household).
 
 Identifying fields are displayed on the
-[dashboard cards](https://docs.mysurvey.solutions/interviewer/app/dashboard-card/)
+[dashboard cards](/interviewer/app/dashboard-card/)
 to help the interviewers locate their designated targets.
 
 Interviewers don't see the comments left to supervisor questions and don't see

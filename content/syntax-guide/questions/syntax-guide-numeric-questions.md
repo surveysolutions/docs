@@ -362,7 +362,7 @@ person in kilogram (**weight**) and 2) height of a person in centimeters
 (**height**). Both variables **height** and **weight** are real numbers
 (allows for decimal values) and not integers. You want to calculate the
 [Body Mass Index
-(BMI)](https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html)
+(BMI)](https://www.cdc.gov/bmi/faq/?CDC_AAref_Val=https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html)
 of the person and make sure it is in a certain range to validate that
 the weight and height were entered correctly.  
 

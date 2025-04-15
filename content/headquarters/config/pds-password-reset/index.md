@@ -14,7 +14,7 @@ menu item in the [self-service portal](https://pds.mysurvey.solutions).
 The new password will be automatically generated and sent to your email.
 The older password will no longer be valid.
 
-<CENTER><IMG src="images\pds_password_reset.png" width=60%></CENTER>
+<CENTER><IMG src="images/pds_password_reset.png" width=60%></CENTER>
 
 
 #### How do I know that a new password has been sent to me?

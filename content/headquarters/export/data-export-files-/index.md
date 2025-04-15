@@ -70,7 +70,7 @@ you have chosen to use.
     sciences. You can export an xml file with meta information about
     your data for processing in DDI compatible software, for
     example [Nesstar
-    Publisher ](http://www.nesstar.com/software/publisher.html)
+    Publisher ](https://www.ihsn.org/software/ddi-metadata-editor)
 -   <span style="line-height: 20.8px;"><span
     style="line-height: 20.8px;"><span style="line-height: 20.8px;">The
     following information is exported: the list of data files,
