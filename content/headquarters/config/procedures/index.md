@@ -153,7 +153,9 @@ This procedure makes use of the
 [**Event Viewer**](https://en.wikipedia.org/wiki/Event_Viewer), which is part of
 MS Windows operating system.
 
-<CENTER><A href="images/event_viewer.png"><IMG src="images/event_viewer.png"></A></CENTER>
+<CENTER><A href="images/event_viewer.png">
+<IMG src="images/event_viewer.png">
+</A></CENTER>
 
 1. Log in to the server experiencing the problem.
 2. Press the [Windows key](https://en.wikipedia.org/wiki/Windows_key).
@@ -165,7 +167,8 @@ navigate to the part of the log close to the occurance of the problem.)
 7. When errors are found, click on each log entry and inspect the information
 shown in the `General` and `Details` tabs.
 
-Subsequent troubleshooting steps will depend on the kind of errors found in the log.
+Subsequent troubleshooting steps will depend on the kind of errors found in the
+log.
 
 
 
@@ -176,28 +179,48 @@ END OF PROCEDURE C2
 <a name="M1"></a>PROCEDURE M1. Dropping temporary export schemas
 =========================
 
-The procedure below may be used in cases when the data export does not succeed, such as when a message appears of "An unexpected error during data export...". Note that this message may be appearing in different situations and the below listed procedure will not be able to resolve all of them.
+The procedure below may be used in cases when the data export does not succeed,
+such as when a message appears of "*An unexpected error during data export...*".
+Note that this message may be appearing in different situations and the below
+listed procedure will not be able to resolve all of them.
 
+Survey Solutions v23.04 and later can initiate this procedure from the web
+interface, which is a more error-proof and recommended way of performing it. See
+`Clear export cache` button in the
+[workspace settings](/headquarters/config/admin-settings/#clear-export-cache).
+Users of the earlier versions need to perform this procedure manually by
+following the steps outlined below.
 
 {{< panel title="Warning:" style="warning">}}
-When performed correctly the procedure is non-destructive, but if performed incorrectly may result in data loss. It is best performed by a qualified person with background in DB-management.
+When performed correctly the procedure is non-destructive, but if performed
+incorrectly may result in data loss. It is best performed by a qualified person
+with background in DB-management.
 {{% /panel %}}
 
 1. Install pgAdmin if it is not already installed:
 https://www.pgadmin.org/
 2. Stop the SurveySolutions site in IIS.
-3. Connect to your database using the same connection string used in installation of Survey Solutions. If you are performing maintenance on somebody else's server you will find the connection string (including the database name, user login and password) in the appsettings.ini file or inquire from the person who has access to these settings.
-4. Find schemas that start with <B><TT>hq_</TT></B> followed by a GUID (there may be more than 1 such schema).
+3. Connect to your database using the same connection string used in
+installation of Survey Solutions. If you are performing maintenance on somebody
+else's server you will find the connection string (including the database name,
+user login and password) in the appsettings.ini file or inquire from the person
+who has access to these settings.
+4. Find schemas that start with <B><TT>hq_</TT></B> followed by a GUID (there
+may be more than 1 such schema).
 ![Delet temporary schemas](images/delete_temp_schemas.png)
-5. Drop those schemas. If you are asked if you want cascading deletion, answer affirmatively.  A third party instruction on deleting schemas in PostgreSQL via commands and using a point-and-click interface of pgAdmin is available at <A href="https://www.javatpoint.com/postgresql-drop-schema">this external site</A>.
+5. Drop those schemas. If you are asked if you want cascading deletion, answer
+affirmatively.
 
 {{< panel title="Warning:" style="warning">}}
 Do not delete any other schemas, or your data will be lost.
 
-Only delete schemas starting with <B><TT>hq_</TT></B> and ending with a 32-hexdigit GUIDs.
+Only delete schemas starting with <B><TT>hq_</TT></B> and ending with a
+32-hexdigit GUIDs.
 {{% /panel %}}
 
 6. Restart the Survey Solutions site in IIS.
-7. Retry the export. The first export after performing the above steps may be considerably slower than your previous experience as the program is rebuilding the deleted schemas from raw data. The subsequent exports will be done faster.
+7. Retry the export. The first export after performing the above steps may be
+considerably slower than your previous experience as the program is rebuilding
+the deleted schemas from raw data. The subsequent exports will be done faster.
 
 END OF PROCEDURE M1
