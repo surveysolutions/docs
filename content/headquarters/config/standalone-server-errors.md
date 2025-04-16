@@ -29,7 +29,7 @@ On the cloud servers that our team manages this error is very unlikely as we ten
 
 <FONT color="red">4. "Export service unavailable."</FONT>
 
-Check the troubleshooting instructions for the export service contained in [this article](/headquarters/config/export-service/).
+You are likely using a very old version of Survey Solutions if you are seeing this message. Before troubleshooting the issue, consider updating first.
 
 <FONT color="red">5. "Error during the site initialization. Check application log for details."</FONT>
 

@@ -19,12 +19,15 @@ Before you proceed, make sure you understand the purpose and
 limitations of the PDS:
 
 - Every Survey Solutions user may request one PDS. 
-- There are no forms to fill and the server becomes available shortly after the request is submitted.
-- The address of the server is *https://username-demo.mysurvey.solutions*
+- There are no forms to fill and the server becomes available shortly after 
+the request is submitted.
+- The address of the server is `https://username-demo.mysurvey.solutions`
 and cannot be changed.
 - The server and all stored data will be automatically deleted 30 days after it was created.
 - A PDS may not be extended, but can be requested again after it expires.
-- We do not do backups of data stored on PDS and there is no possibility for any data recovery after the site has been stopped (all content is deleted immediately).
+- We do not do backups of data stored on PDS and there is no possibility for 
+any data recovery after the site has been stopped (all content is deleted 
+immediately).
 - Once a PDS is created for a user, it may not be transferred to another user.
 
 The objective of a PDS is to give the user a playground to study and experiment 

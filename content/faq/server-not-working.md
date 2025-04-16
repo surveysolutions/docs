@@ -21,11 +21,9 @@ indeed a problem with the server or with a specific user's device
 trying to access that server:
 
 - <http://downforeveryoneorjustme.com/demo.mysurvey.solutions>
-- <http://currentlydown.com/demo.mysurvey.solutions>  
 - <https://isitdownorjust.me/demo-mysurvey-solutions/>
 - <https://www.site24x7.com/check-website-availability.html>  
 - <http://www.freesitestatus.com/en/quicktest.php>  
-- <https://down.com>
 - any other alternative tool of this kind.
 
 *These are the third-party tools and we neither produce, nor provide 

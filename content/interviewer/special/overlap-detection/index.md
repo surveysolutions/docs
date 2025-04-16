@@ -8,7 +8,7 @@ aliases = [""]
 +++
 
 Overlap detection is feature in Survey Solutions’ [geography
-question](3/questionnaire-designer/questions/geography-question/).
+question](/questionnaire-designer/questions/geography-question/).
 It is applicable only to the geography questions
 placed in a roster. When activated by the questionnaire
 designer, it will assist the interviewers in marking the

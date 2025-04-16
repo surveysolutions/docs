@@ -66,10 +66,10 @@ key tasks. Can be set up on a [cloud server](#cloud-server) or a
 [local server](#local-server).
 
 #### Designer
-An online tool (website) to develop electronic [questionnaires](questionnaire)
+An online tool (website) to develop electronic [questionnaires](#questionnaire)
 to be used by the Survey Solutions data servers.
 
-Also, a person who is using this tool to design [questionnaires](questionnaire).
+Also, a person who is using this tool to design [questionnaires](#questionnaire).
 
 #### Email service provider
 An online service providing the capability to send large number of emails.

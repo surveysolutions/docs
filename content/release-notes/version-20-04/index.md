@@ -50,6 +50,6 @@ The new API is accessed through the v2 prefix. The old procedure for data export
 
 ### Export format changes
 
-The system-generated file [**assignment__actions**](/headquarters/export/system-generated-export-file-anatomy/) now contains information on **all** assignments. In earlier versions it contained only information on assignments that originated the interviews included in the particular export file.
+The system-generated file [**assignment__actions**](/headquarters/export/system-generated---export-file-anatomy/) now contains information on **all** assignments. In earlier versions it contained only information on assignments that originated the interviews included in the particular export file.
 
 This should help in building dashboards, analysis of survey progress and pending workloads.

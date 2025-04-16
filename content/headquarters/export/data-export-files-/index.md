@@ -7,7 +7,7 @@ aliases = ["/customer/portal/articles/2541274-data-export-files-","/customer/en/
 
 +++
 
-**Overview**
+Overview
 ------------
 
   
@@ -31,21 +31,21 @@ whereas -999999999 or  \#\#N/A\#\# (for string variables) will be
 exported whenever an answer to a question was expected, but not recorded
 for string variables).
 
- **Data formats**
+Data formats
 -----------------
 
    
 The actual files exported will differ slightly based on the file format
 you have chosen to use.  
    
-*Tab*** **
+**Tab**
 
 -   Exports tab-delimited data in .tab files
 -   Each file is accompanied by a Stata .do file that reads the .tab
     file into memory, and applies variable and value labels
 
    
-*Stata*  
+**Stata**
  
 
 -   Exports DTA files directly. If .do file for applying variable and
@@ -54,13 +54,13 @@ you have chosen to use.
 -   Version 14, which supports Unicode standard for string data. 
 
    
-*SPSS*  
+**SPSS**
  
 
 -   Exports SAV file directly. 
 
   
-<span style="line-height: 20.8px;">*DDI*** **</span>
+<span style="line-height: 20.8px;">**DDI**</span>
 
 -   <span style="line-height: 20.8px;">If you are thinking about
     committing your collected data into a public repository you are
@@ -77,9 +77,9 @@ you have chosen to use.
     variables, their types, labels, question texts, interviewer
     instructions, etc.</span></span></span>
 
- **How the questionnaire structure affects the number of export files **
-------------------------------------------------------------------------
 
+How the questionnaire structure affects the number of export files
+------------------------------------------------------------------------
   
 We will now explain how the data files are exported through an extended
 example. In Questionnaire Designer, the example survey (below) consists
@@ -100,5 +100,5 @@ Click the relevant links to see more detailed information regarding the
 anatomy of each
 file: [Questionnaire](/headquarters/questionnaire-data---export-file-anatomy) (both
 questionnaire and parent level files), [System
-Generated](/headquarters/system-generated---export-file-anatomy)   
+Generated](/headquarters/export/system-generated---export-file-anatomy/)   
 {{< imgproc "images/773031.png" Fit "800x600" />}}
