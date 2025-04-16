@@ -47,10 +47,10 @@ A new [API](/headquarters/api/api-interactive-description/) query is now availab
 Designers of questionnaires can now copy questions with reusable categories from one questionnaire to another. If the questionnaire doesn’t have the same matching categories, they will also be copied from the source questionnaire.
 
 ### Local server password policies
-Survey Solutions will obey password policies set up in the <TT>**appsettings.production.ini**</TT> file of the standalone data server. The administrator of the standalone server may adjust these policies to differ from the default requirements (for example to require passwords to be longer, or utilize certain types of characters). All Survey Solutions cloud servers (new and existing) continue using the same password policies.
+Survey Solutions will obey password policies set up in the `appsettings.production.ini` file of the standalone data server. The administrator of the standalone server may adjust these policies to differ from the default requirements (for example to require passwords to be longer, or utilize certain types of characters). All Survey Solutions cloud servers (new and existing) continue using the same password policies.
 
 ### Local server metrics
-A public metrics page is introduced for every standalone server: <TT>**www.YOURSERVERNAME.com/metrics**</TT>. 
+A public metrics page is introduced for every standalone server: `www.YOURSERVERNAME.com/metrics`. 
 This page publishes various statuses and performance indicators of the server. 
 The data is published in the [prometheus format](https://prometheus.io/docs/concepts/data_model/).
 

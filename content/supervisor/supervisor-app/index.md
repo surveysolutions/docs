@@ -240,12 +240,15 @@ The same will happen if the supervisor tablet is lost, stolen or destroyed.
 
 Synchronize the supervisor tablet to the server whenever the opportunity arises to secure the collected data!
 
-Relinking the interviewer tablets working in the synchronization mode with the offline supervisor may lead to undesirable consequences, as the supervisor app knows nothing about the relinking happened on the server.
+Relinking the interviewer tablets working in the synchronization mode with the offline 
+supervisor may lead to undesirable consequences, as the supervisor app knows nothing 
+about the relinking happened on the server.
 
-Interviewer tablets synchronizing data through the supervisor app will not receive operating system patches and updates and prolonged work with no updates is undesirable for security reasons. Periodically connect interviewer tablets to Internet when opportunity arises to allow them receive updates for the OS and other installed applications.
+Interviewer tablets synchronizing data through the supervisor app will not receive 
+operating system patches and updates and prolonged work with no updates is undesirable 
+for security reasons. Periodically connect interviewer tablets to Internet when 
+opportunity arises to allow them receive updates for the OS and other installed 
+applications.
 
 {{% /panel %}}
 
-The Supervisor app is actively developed at the moment. If you have interesting ideas or suggestions, feel free to post them to our user forum: https://forum.mysurvey.solutions
-
-The original 2018-article announcing the Supervisor App is linked [here](announcement).

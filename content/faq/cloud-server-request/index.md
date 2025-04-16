@@ -27,7 +27,7 @@ examples and should not be interpreted as a recommendation):
     * Request a server from your National Statistical Office (NSO) <BR>(for example
               [NSB of Bhuthan](https://www.nsb.gov.bt/services/survey-solution-server-request/));
     *	Request a server from your government <BR>(for example
-      *[National Informatics Centre](https://www.nic.in/services-main-page/)* in
+      *[National Informatics Centre](https://www.nic.in/service/national-cloud/)* in
       India, *[GDCC/G-Cloud](https://gdcc.onde.go.th/)* in Thailand, etc.);
     *	Request a server from a global/international cloud server provider, some examples:
         -	Amazon AWS: https://aws.amazon.com/
