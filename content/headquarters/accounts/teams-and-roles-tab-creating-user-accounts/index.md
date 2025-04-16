@@ -3,7 +3,7 @@ title = "Creating User Accounts "
 keywords = ["create user","create supervisor","create interviewer","accounts"]
 date = 2016-06-30T06:28:59Z
 lastmod = 2020-07-28T00:00:00Z
-aliases = ["/customer/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-","/customer/en/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-","/customer/portal/articles/2482233","/customer/en/portal/articles/2482233","/headquarters/teams-and-roles-tab-creating-user-accounts-","/headquarters/accounts/teams-and-roles-tab-creating-user-accounts-"]
+aliases = ["/customer/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-","/customer/en/portal/articles/2482233-teams-and-roles-tab-creating-user-accounts-","/customer/portal/articles/2482233","/customer/en/portal/articles/2482233","/headquarters/teams-and-roles-tab-creating-user-accounts-","/headquarters/accounts/teams-and-roles-tab-creating-user-accounts-","/getting-started/create-user-accounts-for-your-team-"]
 
 +++
 

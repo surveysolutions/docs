@@ -123,7 +123,5 @@ values for latitude and longitude specified will also preload the
 GPS acquisition date with a default value.
 
 - Rejection notifications to the respondents were previously not 
-delivered through the mass mail service for web interviews 
-(https://forum.mysurvey.solutions/t/download-web-link/2399).
-
-
+delivered through the mass mail service for web interviews as was
+reported in the [users' forum](https://forum.mysurvey.solutions/t/download-web-link/2399).

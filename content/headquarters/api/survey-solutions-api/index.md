@@ -3,7 +3,7 @@ title = "Survey Solutions API"
 keywords = ["api", "ssaw", "REST", "GraphQL", "SurveySolutionsAPI"]
 date = 2017-07-19T19:29:51Z
 lastmod = 2024-10-24T00:00:00Z
-aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api","/headquarters/api/api-for-data-export"]
+aliases = ["/customer/portal/articles/2844104-survey-solutions-api","/customer/en/portal/articles/2844104-survey-solutions-api","/customer/portal/articles/2844104","/customer/en/portal/articles/2844104","/headquarters/survey-solutions-api","/headquarters/api/api-for-data-export","/headquarters/api/api-interactive-description/"]
 
 +++
 
@@ -47,8 +47,11 @@ users](https://demo.mysurvey.solutions/apidocs/index.html)
 
 Every Survey Solutions server provides an API. It is important to verify
 the reference against the exact version contained in your server to make
-sure the correct syntax for API calls is being used. This syntax may be
-expanded or revised in future releases.  
+sure the correct syntax for API calls is being used. To see the version 
+of the API description that corresponds to your server, replace 
+`demo.mysurvey.solutions` in the above links with your server URL.
+
+This syntax may be expanded or revised in future releases.
 
 
 #### API Clients

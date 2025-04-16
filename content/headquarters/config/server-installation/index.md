@@ -138,18 +138,16 @@ Now you can ommit the custom port number when accessing the server - `http://192
 
 Remembering and always typing ip address to connect to the server is still not the best and convinient approach. You
 could instead attach a domain name to your server, which would simplify work considerably. Moreover, in order to be
-able to use [ssl](#ssl) encryption, you must have a domain name attached to the web application.
+able to use [SSL](#ssl) encryption, you must have a domain name attached to the web application.
 
 Obtaining a domain name for the specific purpose of running one application will depend on the way you'd like it to be
 accessed by your team and the users. If you would like to get a sub-domain (third-level, forth-level, etc, domain) under
-an existing domain name (for example, your organization already operates http://www.coolcompany.com address and you want to add
-http://survey.coolcompany.com) it may be as easy as contacting the right person/team who manages the main address and ask them
+an existing domain name (for example, your organization already operates `http://www.coolcompany.com` address and you want to add
+`http://survey.coolcompany.com`) it may be as easy as contacting the right person/team who manages the main address and ask them
 to issue the sub-domain for you.
 
-But if you instead prefer to have a dedicated, second-level domain name, like http://mycoolsurveys.com address, you will need to
-first buy and register the new address. There are many companies who provide global, or country-specific domain registration services,
-some of them offering free or discounted options, so finding an appropriate solution for your need would involve little
-[searching](https://www.google.com/search?channel=fs&client=ubuntu&q=buying+a+domain+name).
+But if you instead prefer to have a dedicated, second-level domain name, like `http://mycoolsurveys.com` address, you will need to
+first buy and [register your new domain](https://en.wikipedia.org/wiki/Domain_registration).
 
 ### SSL certificate {#ssl}
 If your Survey Solutions instance is exposed to the public in the Internet,

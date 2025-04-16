@@ -64,17 +64,17 @@ devices supporting this latest version.*
                             Firewall</a></li>
                             <li>Examples for configuring other common security software:
                                 <ul>
-                                    <li><a href="https://www.avast.com/en-us/faq.php?article=AVKB25" href="_blank">Avast Internet
+                                    <li><a href="https://www.avast.com/en-us/faq.php?article=AVKB25" target="_blank">Avast Internet
                                     Security</a></li>
-                                    <li><a href="https://help.comodo.com/topic-72-1-451-4772-.html" href="_blank">Comodo Internet
+                                    <li><a href="https://help.comodo.com/topic-72-1-451-4772-.html" target="_blank">Comodo Internet
                                     Security</a></li>
-                                    <li><a href="http://support.kaspersky.com/us/12101" href="_blank">Kaspersky Internet
+                                    <li><a href="http://support.kaspersky.com/us/12101" target="_blank">Kaspersky Internet
                                     Security</a></li>
-                                    <li><a href="https://service.mcafee.com/webcenter/portal/cp/home/articleview?locale=en-US&amp;articleId=TS100887" href="_blank">McAfee Internet
+                                    <li><a href="https://service.mcafee.com/webcenter/portal/cp/home/articleview?locale=en-US&amp;articleId=TS100887" target="_blank">McAfee Internet
                                     Security</a></li>
-                                    <li><a href="https://support.norton.com/sp/en/us/home/current/solutions/kb20100320035324EN_EndUserProfile_en_us" href="_blank">Norton Internet
+                                    <li><a href="https://support.norton.com/sp/en/us/home/current/solutions/kb20100320035324EN_EndUserProfile_en_us" target="_blank">Norton Internet
                                     Security</a></li>
-                                    <li><a href="http://download.zonealarm.com/bin/inclient/ZA_HelpCenter/91619.htm" href="_blank">ZoneAlarm Pro
+                                    <li><a href="http://download.zonealarm.com/bin/inclient/ZA_HelpCenter/91619.htm" target="_blank">ZoneAlarm Pro
                                     Firewall</a></li>
                                 </ul>
                             </li>
@@ -201,7 +201,7 @@ devices supporting this latest version.*
                         </ul>
                         <h6>17. What requirements does Survey Solutions have for the tablets?</h6>
                         <ul>
-                            <li>See <a href="/faq/what-tablets-should-i-buy-/" target="_blank">Technical Requirements for Tablets</a></li>
+                            <li>See <a href="/faq/what-tablets-should-i-buy-/">Technical Requirements for Tablets</a></li>
                         </ul>
                         <h6>18. What screen size is best for Survey Solutions?</h6>
                         <ul>
@@ -296,7 +296,7 @@ devices supporting this latest version.*
                         </ul>
                         <h6>28. What is the format of the exported file? Is it suitable for our software X?</h6>
                         <ul>
-                            <li>The software exports the data as an archive containing multiple files in tab-delimited unicode text format. Binary files (images) are downloaded separately. Survey Solutions documentation explains the particulars on how questions of different types (numeric, text, choice, etc) are saved in the data file.</li>
+                            <li>The software exports the data as an archive containing multiple files in tab-delimited Unicode text format. Binary files (images) are downloaded separately. Survey Solutions documentation explains the particulars on how questions of different types (numeric, text, choice, etc) are saved in the data file.</li>
                             <li>Tab-delimited text format is a popular data interchange format suitable for import for many modern databases, spreadsheets, and statistical packages.</li>
                             <li>Consult your software operating manual on the support of tab-delimited (also known as tab-separated) data.</li>
                             <li>Additionally, the survey data may be exported in the binary formats of Stata or SPSS statistical packages.</li>
@@ -336,7 +336,7 @@ devices supporting this latest version.*
                         </ul>
                         <h6>30. If we host Survey Solutions on our own server, how do we make sure that we get the updates?</h6>
                         <ul>
-                            <li>Notifications about new version releases are routinely posted as: <a href="/release-notes/release-notes" target="_blank">Release notes</a></li>
+                            <li>Notifications about new version releases are routinely posted as: <a href="/release-notes/release-notes"> Release notes</a></li>
                             <li>The update of the server component of Survey Solutions is not automatic and should be undertaken by the server administrator after careful consideration of the new features and current data collection situation.</li>
                             <li>The updates procedure depends both on the most recent and the installed version of Survey Solutions.</li>
                             <li>Lagging behind for several versions is not recommended as this means you are not getting the bugfixes and access to the new features.</li>
