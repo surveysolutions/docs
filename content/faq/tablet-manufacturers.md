@@ -9,7 +9,7 @@ contact your tablet manufacturer for support or consult other users in
 manufacturer-specific forums. Here are a few community forums lead by 
 the respective manufacturers:
 
-- <A href="https://community.acer.com/en/categories/android-tablets">Acer</A>;
+- <A href="https://community.acer.com/en/">Acer</A>;
 - <A href="https://www.dell.com/community/Tablets-Mobile-Devices/bd-p/Mobile-Devices">DELL</A>;
 - <A href="https://h30434.www3.hp.com/t5/Android/bd-p/android">Hewlett-Packard (HP)</A>;
 - <A href="https://consumer.huawei.com/en/community/list/?forumId=10007">Huawei</A>;

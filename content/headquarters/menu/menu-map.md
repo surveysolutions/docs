@@ -49,8 +49,8 @@ The items in curly brackets { } are links and buttons present in the dialogs. Th
   * Assignments
     * Assignment details
   * Maps
-    * Maps
-      * [Update user-to-map linking](/headquarters/svymanage/assign-maps-to-interviewers/)
+    * [Maps](/headquarters/mapsmanage/map-files/)
+      * Update user-to-map linking
       * User maps
 - [Data Export](/headquarters/export/data-export-tab/)
 - Administration

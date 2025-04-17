@@ -30,9 +30,9 @@ assignment details page. The page contains two kinds of information:
 - Detailed assignment information showing the currently effective properties of the assignment.
 
 A new system-generated file is available with every export of the data: 
-assignment__actions, which tracks the changes made to assignments. 
+`assignment__actions`, which tracks the changes made to assignments. 
 Read more on the format of this file in the 
-[following article](/headquarters/export/system-generated-export-file-anatomy/).
+[following article](/headquarters/export/system-generated---export-file-anatomy/#assignment__actions).
 
 
 ## Assignment comments
@@ -74,7 +74,7 @@ assignments.
 
 ## Multiselect combobox allows for large number of selections
 
-A multiselect categorical question has long been restricted to 200 options. This made 
+A multiselect categorical question has long been restricted to `200` options. This made 
 sense in the situations where all options were visible on the screen, but was not 
 suitable for some survey situations, when the number of potential choices is large. 
 The introduction of a combobox version of the multiselect question in version 19.04 
@@ -91,7 +91,7 @@ such as to inquire about details of every crop that is being cultivated in the a
 example.
 
 The number of positive selections is still 
-[limited to 200](/questionnaire-designer/limits/survey-solutions-limits/) 
+[limited](/questionnaire-designer/limits/survey-solutions-limits/) to `200` 
 (but can be further restricted to a lower number, as in any multiselect categorical 
 question).
 

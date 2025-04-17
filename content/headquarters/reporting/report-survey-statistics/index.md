@@ -29,12 +29,12 @@ For questions of numeric type
 </CENTER>
 
 The report presents the following descriptive statistics in the columns:
-count, average, sum, minimum, maximum, and percentiles: 5th, 50th and
-95th. The rows of the report correspond to teams or individual
+*count*, *average*, *sum*, *minimum*, *maximum*, and percentiles: *5th*, *50th*, and
+*95th*. The rows of the report correspond to teams or individual
 interviewers (selectable). The values may be restricted by specifying
 the minimum and maximum. Specifying a minimum of zero is commonly used
 to exclude the special values in numeric questions, often denoted with
--999, -997, or similar values.
+`-999`, `-997`, or similar values.
 
 For questions of categorical type
 ----------------------------------
@@ -49,8 +49,8 @@ its categories in the columns and teams or individual interviewers
 as a condition question. Then the report may be filtered by categories
 of this question. For example, the tabulation of occupation may be
 reported separately for male and for female workers. If a two-way
-tabulation is of interest, it can be produced by checking the "pivot
-table"ù checkbox. In this case the second question selected for
+tabulation is of interest, it can be produced by checking the `Pivot
+table` checkbox. In this case the second question selected for
 conditioning will be used as a second dimension of the two-way
 tabulation. The selection of teams or interviewers is ignored in this
 case. Totals by rows and columns are included.
