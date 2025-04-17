@@ -21,7 +21,7 @@ The naming convention used in forming this data archive is as following:
 
 `################################-audio-audit-YYYYMMDD_hhmmssfff.m4a`
 
-where `###..#`` is a 32-digit long hexadecimal ID of the interview `interview__id` (NB: without any dashes);
+where `###..#` is a 32-digit long hexadecimal ID of the interview (which is also contained in the main data files in the `interview__id` variable) (note: this is recorded without any dashes);
 * `YYYY` - four digit year;
 * `MM` - two digit month;
 * `DD` - two digit day;
@@ -30,7 +30,7 @@ where `###..#`` is a 32-digit long hexadecimal ID of the interview `interview__i
 * `ss` - two digit second;
 * `fff` - fractions of a second (milliseconds) - 3 digits.
 
-The timestamp included into the name of the file indicates the beginning of the recording session. Provided that there were no adjustments to the device clock, the audio recordings should be replayed in the increasing order of the timestamps.
+The timestamp included into the name of the file indicates the beginning of the recording session. Provided that there were no adjustments to the device clock, the audio recordings should be replayed in the chronological (increasing) order of the timestamps.
 
 All components of date and time are left-padded with zero if necessary to achieve the declared width.
 
