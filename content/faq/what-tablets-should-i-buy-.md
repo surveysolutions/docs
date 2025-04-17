@@ -18,14 +18,14 @@ Survey Solutions software works with Android tablets with the following
 specifications:
 
 - **Version of Android OS**:
-  - Android 7.0 or better is required; 
-  - All versions of Android below 9.0 are 
+  - Android 8.0 or better is required; 
+  - All versions of Android below 13.0 are 
 [no longer supported](https://en.wikipedia.org/wiki/Android_version_history) 
 by the manufacturers and correspondingly tablets that can't be updated to 
-Android 9.0 or above should be considered unsafe for the World Bank projects.
+Android 13.0 or above should be considered unsafe for the World Bank projects.
 
-- **RAM**: Minimum 1.5GB
-- **Storage**: 8GB of flash memory storage. At least 1GB of available
+- **RAM**: Minimum 2.0GB
+- **Storage**: 16GB of flash memory storage. At least 1GB of available
 space must be available for Survey Solutions' use. The Survey Solutions
 software installation package (.apk) is less than 200MB, but more space
 will be required during the operation of the software. The ultimate
@@ -56,11 +56,6 @@ independent testing before volume purchases of tablets.
     consume more power and reduce autonomous work. The choice of the
     screen depends on the convenience of use with the software and is
     usually determined experimentally.
--   **Android 8.0** or higher is recommended because of 
-[Project Treble](https://android-developers.googleblog.com/2017/05/here-comes-treble-modular-base-for.html), 
-which should make it easier for the manufacturers to update produced 
-devices.
-
 
 Testing Devices
 ---------------
