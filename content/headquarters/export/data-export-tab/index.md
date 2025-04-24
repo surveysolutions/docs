@@ -2,7 +2,7 @@
 title = "Data Export"
 keywords = ["export","headquarters"]
 date = 2016-07-11T19:45:00Z
-lastmod = 2024-05-06T11:11:11Z
+lastmod = 2025-04-13T11:11:11Z
 aliases = [
   "/customer/portal/articles/2494108-data-export-tab",
   "/customer/en/portal/articles/2494108-data-export-tab",
@@ -38,29 +38,35 @@ request a data export from Survey Solutions.
 🛈 Data export functionality is available to users in the following roles:
 
  - Headquarters,
- - Administrator.
+ - Administrator,
+
+ API users don't make use of the visual interface presented here, but can also
+ initiate data export and download the resulting files by submitting a
+ corresponding query.
 
 </aside>
 
 1. In the main menu select `Data Export`.
 2. Select the questionnaire corresponding to the survey that needs to be exported.
 3. Select the questionnaire version (from available at the server).
-4. Select the status of interviews that need to be exported or leave blank for
- export of all interviews (in any status).
-5. Select data type, *main survey data*, *binary data*, or *paradata*.
-6. Select whether to include metadata (does not apply to paradata export).
-7. Select the format of the data file (does not apply to paradata export):
+4. Select the questionnaire language (if questionnaire contains translations).
+5. Select the status of interviews that need to be exported or leave blank for
+export of all interviews (in any status).
+6. Select the period (only interviews last modified in this period are included in the export).
+7. Select data type, *main survey data*, *binary data*, *audio audit*, or *paradata*.
+8. Select whether to include metadata (does not apply to paradata export).
+9. Select the format of the data file (does not apply to paradata export):
     * **Tab-separated data (*.tab)** - unicode text format with tab-character
     used as a delimiter.
     * **Stata format (*.dta)** - Stata statistical package format, Stata version 14 or newer can open these files.
     * **SPSS format (*.sav)** - SPSS statistical package format.
 
-8. Select the export file destination (Binary data files, such as pictures and audio recordings are often large and can be time-consuming to download. One can opt for pushing the data to own cloud storage, rather than downloading directly):
+10. Select the export file destination (Binary data files, such as pictures and audio recordings are often large and can be time-consuming to download. One can opt for pushing the data to own cloud storage, rather than downloading directly):
     * **Download** - exported data will be prepared for downloading to the user's machine.
     * **Upload to OneDrive** - when the data is ready it will be pushed to OneDrive cloud storage.
     * **Upload to DropBox** - when the data is ready it will be pushed to DropBox cloud storage.
     * **Upload to Google Drive** - when the data is ready it will be pushed to Google Drive cloud storage.
-9. Press the `Add to Queue` button to create a new export job and add it to the queue of export jobs.
+11. Press the `Add to Queue` button to create a new export job and add it to the queue of export jobs.
 
 If the queue is empty, a new job is immediately picked for processing.
 Once an export job is processed, the result is either uploaded to the cloud
@@ -76,9 +82,16 @@ corresponding cloud storage provider. Note that despite the cloud-to-cloud data
 transfer is usually faster than direct download, it may still take significant
 time to complete, especially for large surveys.
 
-#### Statuses of interviews
-In step 4 the user may select all interviews by not specifying any particular
-status, or rather select one of the following:
+## Interview filters
+
+The data to be exported can be filtered by the following interview attributes:
+
+- interview status;
+- interview last updated date.
+
+### Filtering by interview statuses
+In step 5 the user may select all interviews (by not specifying any particular
+status), or rather select one of the following:
 
 - `interviewer assigned`
 - `completed`
@@ -91,13 +104,39 @@ had. For example, if the interview is currently in the status
 `Approved by Headquarters` it will not get exported when the status `Completed`
 is specified, despite having one or more `Completed` events in the past.
 
+### Filtering by date
+In step 6 the user may optionally specify a date interval (in this user's time
+zone) from the following options:
+
+- `last 24 hours`;
+- `last 7 days`;
+- `last 30 days`;
+- `today`;
+- `yesterday`;
+- `custom`.
+
+Additionally, if `custom` is specified, the user can specify the `from` and
+`to` date/time fields.
+
+Specifying the date filter includes into the export only those interviews that
+were last updated in the selected period. If no period is specified, the
+interviews are included in the export regardless of their last modified
+date/time values.
+
+If the `from` parameter is not specified, the interviews are taken from the
+earliest date available. Similarly, if the `to` parameter is not specified,
+the interviews are taken to the present moment (the moment when the export file
+is requested). If the `to` parameter is in the future, it is substituted with
+the date/time of the export request. If, however, the `to` moment precedes the
+`from`, then an error message is issued to the user, and the export file is not
+generated.
 
 #### Metadata
 
 If metadata is requested to be included with main survey data, it includes:
 
 - a DDI description file (in XML format);
-- PDF documents containing textual representation of the questionnaire
+- HTML document(s) containing textual representation of the questionnaire
 (1 document per each translation of the questionnaire);
 - a questionnaire document (in JSON format);
 - questionnaire attachments (images, and other files that may be embedded into
@@ -144,7 +183,7 @@ job:
 <TR>
 <TD>1.</TD>
 <TD>Export job number</TD>
-<TD><TT>21131</TT></TD>
+<TD><TT>1571</TT></TD>
 </TR>
 
 <TR>
@@ -156,37 +195,38 @@ job:
 <TR>
 <TD>3.</TD>
 <TD>Timestamp when the export job was created</TD>
-<TD><TT>May 01, 2024 22:08</TT></TD>
+<TD><TT>APR 14, 2025 11:21</TT></TD>
 </TR>
 
 <TR>
 <TD>4.</TD>
-<TD>Card menu button.</TD>
-<TD></TD>
+<TD>Title of the questionnaire and version</TD>
+<TD><I>"2023_24 Kenya Integrated Survey of Agriculture Pilot"</I>
+    version <TT>2</TT></TD>
 </TR>
 
 <TR>
 <TD>5.</TD>
-<TD>Title of the questionnaire and version</TD>
-<TD><I>"2023_24 Kenya Integrated Survey of Agriculture Pilot"</I> version <TT>2</TT></TD>
+<TD>Format of export data</TD>
+<TD><TT>STATA</TT></TD>
 </TR>
 
 <TR>
 <TD>6.</TD>
-<TD>Format of export data</TD>
-<TD><TT>paradata</TT></TD>
+<TD>Selection of interviews for export</TD>
+<TD>Interviews in status <I>Completed</I></TD>
 </TR>
 
 <TR>
 <TD>7.</TD>
-<TD>Selection of interviews for export</TD>
-<TD>interviews in all statuses</TD>
+<TD>Selection of language/translation</TD>
+<TD>Translation: Original</TD>
 </TR>
 
 <TR>
 <TD>8.</TD>
-<TD>Selection of language/translation</TD>
-<TD>original language</TD>
+<TD>Selection of the period of last modification of the interviews.</TD>
+<TD>From <TT>Apr 13, 2025 00:00</TT> to <TT>Apr 13, 2025 23:59</TT></TD>
 </TR>
 
 <TR>
@@ -198,47 +238,45 @@ job:
 <TR>
 <TD>10.</TD>
 <TD>Time spent in queue</TD>
-<TD>about a minute</TD>
+<TD>a few seconds</TD>
 </TR>
 
 <TR>
 <TD>11.</TD>
 <TD>Time spent on production of the export data</TD>
-<TD>a few seconds</TD>
+<TD>about a minute</TD>
 </TR>
 
 <TR>
 <TD>12.</TD>
-<TD>Timestamp when this job's output was last updated (output can be regenerated, see below)</TD>
-<TD><TT>May 01, 2024 22:08</TT></TD>
+<TD>Timestamp when this job's output was last updated</TD>
+<TD><TT>April 14, 2025 11:21</TT></TD>
 </TR>
 
 <TR>
 <TD>13.</TD>
 <TD>Approximate size of the file for download</TD>
-<TD>about 0.5 MB</TD>
+<TD>about 3.5 MB</TD>
 </TR>
 
 <TR>
 <TD>14.</TD>
-<TD><TT>DOWNLOAD</TT> button<BR>(during production of the export data, while the <TT>DOWNLOAD</TT> button is not available, this space is utilized to display the current export step, such as <TT>RUNNING</TT> or <TT>COMPRESSING</TT>).</TD>
+<TD><TT>DOWNLOAD</TT> button<BR>(during production of the export data, while the
+  <TT>DOWNLOAD</TT> button is not available, this space is utilized to display
+  the current export step, such as <TT>RUNNING</TT> or <TT>COMPRESSING</TT>).</TD>
 <TD>
 </TR>
 
 </TABLE>
 
-#### Export card menu
-Export card menu (4) provides only one item, which allows to **regenerate** the
-export of data with the same parameters, as for the current card.
+NB: Note that the dates and times in the export card are shown in the time zone
+of the user accessing the system through the web interface. A different user
+(located in a different time zone) may see different dates/times for the same
+data export jobs.
 
-When regeneration is started, a new export job is created and placed into the
-queue (and a new card appears in the export queue with a new job number).
-However, when the job completes, its result overrides all other jobs' export
-data matching the same parameters. Hence there are two timestamps on each card,
-reflecting the point of processing of the job (3) and update of the data file
-(12).
 
 #### See also
 
+* Description of the [data export](/headquarters/export/data-export-tab/)
 * Description of the [paradata file format](/headquarters/export/paradata_file_format/);
 * Description of the [system-generated data files](/headquarters/export/system-generated---export-file-anatomy/).

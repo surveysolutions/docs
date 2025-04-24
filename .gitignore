@@ -4,3 +4,4 @@ node_modules
 public
 hugo/*
 /hugo.exe
+/resources/

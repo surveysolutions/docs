@@ -244,7 +244,23 @@ is balancing on the margin of these limits.
 </tr>
 
 
+<tr>
+<td>Minimum value for the number of days to retain the produced export files:</td>
+<td style="text-align: center;">1 [day]</td>
+</tr>
+<tr>
+<td>Maximum value for the number of days to retain the produced export files:</td>
+<td style="text-align: center;">1,000 [days]</td>
+</tr>
 
+<tr>
+<td>Minimum value for the number of prepared export files to retain:</td>
+<td style="text-align: center;">1 [file]</td>
+</tr>
+<tr>
+<td>Maximum value for the number of prepared export files to retain:</td>
+<td style="text-align: center;">100,000 [files]</td>
+</tr>
 
 <tr>
 <td>Minimum value for accuracy of location detection in automatic and semi-automatic modes in geography questions:</td>
@@ -276,9 +292,9 @@ is balancing on the margin of these limits.
 
 \*) in addition to the limit on number of questions a roster may not
 contain nested rosters to qualify as a simple roster, read [more details
-here](/customer/en/portal/articles/2472543-rosters); as of 
-<A href="/release-notes/version-24-06#roster-limits-revised">v24.06</A> 
-there is no longer a distinction between a ***roster*** and a ***simple roster***. 
+here](/customer/en/portal/articles/2472543-rosters); as of
+<A href="/release-notes/version-24-06#roster-limits-revised">v24.06</A>
+there is no longer a distinction between a ***roster*** and a ***simple roster***.
 
 \*\*)  in addition to the requirement for password complexity: at least
 one digit, at least one lower case character, and at least one upper

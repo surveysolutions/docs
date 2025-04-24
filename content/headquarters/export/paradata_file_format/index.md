@@ -2,16 +2,25 @@
 title = "Paradata file format"
 keywords = ["export, action, paradata"]
 date = 2018-12-28T12:12:12Z
-lastmod = 2024-01-30T12:12:12Z
+lastmod = 2025-04-13T12:12:12Z
 
 
 +++
 
-Every survey collected in Survey Solutions is supplemented with a paradata file. No actions are needed from the questionnaire designers or headquarters team to collect it, it is produced automatically by the Survey Solutions software.
+Every survey collected in Survey Solutions is supplemented with a paradata file.
+No actions are needed from the questionnaire designers or headquarters team to
+collect it, it is produced automatically by the Survey Solutions software.
 
-The paradata files describe the process of data collection. They explain how the data was entered, detailing all edits, who and when undertaken them. These files may be large and most conveniently processed using specialized statistical packages, rather than general purpose tools.
+The paradata files describe the process of data collection. They explain how the
+data was entered, detailing all edits, who and when undertaken them. These files
+may be large and most conveniently processed using specialized statistical
+packages, rather than general purpose tools.
 
-The paradata is supplied in a <A href="https://en.wikipedia.org/wiki/ZIP_(file_format)">zip archive</A> with a tab-delimited data file and supplementary meta-data files inside.
+The paradata is supplied in a
+<A href="https://en.wikipedia.org/wiki/ZIP_(file_format)">zip archive</A> with
+a tab-delimited data file and supplementary meta-data files inside.
+
+
 ### Contents of paradata export archive
 
 <CENTER>
@@ -24,22 +33,28 @@ The paradata is supplied in a <A href="https://en.wikipedia.org/wiki/ZIP_(file_f
 
 <TR>
   <TD><TT> paradata.tab</TT></TD>
-  <TD>Paradata in tab-delimited format. Each line of this file corresponds to one recorded event. See below <A href="#paradatacolumns">description of the columns</A> of this file.</TD>
+  <TD>Paradata in tab-delimited format. Each line of this file corresponds to
+  one recorded event. See below <A href="#paradatacolumns">description of the
+  columns</A> of this file.</TD>
 </TR>
 
 <TR>
   <TD><TT> paradata.do</TT></TD>
-  <TD>Script for Stata statistical package to import tab-delimited paradata.<BR><A href="resources/paradata.do">Example</A></TD>
+  <TD>Script for Stata statistical package to import tab-delimited paradata.<BR>
+  <A href="resources/paradata.do">Example</A></TD>
 </TR>
 
 <TR>
   <TD><TT> export__readme.txt</TT></TD>
-  <TD>Human-readable description file (in text format).<BR><A href="resources/export__readme.txt">Example</A></TD>
+  <TD>Human-readable description file (in text format).<BR>
+  <A href="resources/export__readme.txt">Example</A></TD>
 </TR>
 
 <TR>
   <TD><TT> export__info.json</TT></TD>
-  <TD>Machine-readable description/identification file (in <A href="https://en.wikipedia.org/wiki/JSON">JSON format</A>).<BR><A href="resources/export__info.json">Example</A></TD>
+  <TD>Machine-readable description/identification file (in
+  <A href="https://en.wikipedia.org/wiki/JSON">JSON format</A>).<BR>
+  <A href="resources/export__info.json">Example</A></TD>
 </TR>
 
 </TABLE>
@@ -51,7 +66,8 @@ The paradata is supplied in a <A href="https://en.wikipedia.org/wiki/ZIP_(file_f
 
 ### Columns of `paradata.tab` file
 
-The paradata events are recorded (along with their attributes) placed in the following columns:
+The paradata events are recorded (along with their attributes) placed in the
+following columns:
 
 <CENTER>
 <TABLE border=1>
@@ -66,7 +82,8 @@ The paradata events are recorded (along with their attributes) placed in the fol
 <TR>
   <TD><TT>interview__id</TT></TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>32-hexadecimal ID  (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>) of the interview affected by the event.</TD>
+  <TD>32-hexadecimal ID  (<A href="https://en.wikipedia.org/wiki/Universally_unique_identifier">GUID</A>)
+  of the interview affected by the event.</TD>
   <TD><TT>75efdc0456fb4b35be4690bd19eab870</TT></TD>
 </TR>
 
@@ -80,7 +97,8 @@ The paradata events are recorded (along with their attributes) placed in the fol
 <TR>
   <TD><TT>event</TT></TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>Type of the event that has been recorded (see <A href="#eventcodes">coding of event types</A> below).</TD>
+  <TD>Type of the event that has been recorded (see <A href="#eventcodes">coding
+  of event types</A> below).</TD>
   <TD><TT>AnswerSet</TT></TD>
 </TR>
 
@@ -102,7 +120,9 @@ The paradata events are recorded (along with their attributes) placed in the fol
 <TR>
   <TD><TT>timestamp_utc</TT></TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>Date and time when the event occurred combined in a single timestamp (in <A href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time">UTC</A>), using the following format:<BR><TT>YYYY-MM-DDThh:mm:ss.msc</TT></TD>
+  <TD>Date and time when the event occurred combined in a single timestamp (in
+    <A href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time">UTC</A>),
+    using the following format:<BR><TT>YYYY-MM-DDThh:mm:ss.msc</TT></TD>
   <TD><TT>2018-12-28T23:00:59.123</TT></TD>
 </TR>
 
@@ -116,7 +136,8 @@ The paradata events are recorded (along with their attributes) placed in the fol
 <TR>
   <TD><TT>parameters</TT></TD>
   <TD><CENTER>string</CENTER></TD>
-  <TD>One or more parameters of the event, the interpretation of which depends on the type of event.</TD>
+  <TD>One or more parameters of the event, the interpretation of which depends
+  on the type of event.</TD>
   <TD><TT>GPSLOC||16.73526463,75.93207878[13]27||2.0</TT></TD>
 </TR>
 
@@ -128,8 +149,13 @@ The paradata events are recorded (along with their attributes) placed in the fol
 
 ### Paradata events and associated codes
 
-The following table outlines the types of the events tracked by Survey Solutions. You may encounter some of them (though not all) in the paradata. The table also provides the interpretation of the parameters column corresponding to each type of event. Presence of some of the types of events is dependent on the version of Survey Solutions.
-<BR>
+The following table outlines the types of the events tracked by Survey
+Solutions. You may encounter some of them (though not all) in the paradata. The
+table also provides the interpretation of the parameters column corresponding
+to each type of event. Presence of some of these events is dependent on the
+version of Survey Solutions and the mode of data collection (CAPI vs CAWI,
+with or without partial synchronization, etc).<BR>
+
 <CENTER>
 <TABLE border=1>
 
@@ -154,7 +180,7 @@ The following table outlines the types of the events tracked by Survey Solutions
   <TD><A href="#varname">varname</A>||value||<A href="#rosteraddress">OptionalRosterAddress</A><BR><BR>
   Values are mostly same as they are present in the tab-delimited export files, with a few exceptions where the value in the tab-delimited file is split among multiple columns. <BR><BR>
   Values of multiselect questions are recorded as codes of selected items separated by commas: <I>323.0, 315.0, 147.0</I><BR><BR>
-  Values of text list questions are recorded as specified items separated by the |-character: <I>Sergiy|Maryna|Natalia</I><BR><BR>
+  Values of text list questions are recorded as specified items separated by the <TT>|</TT>-character: <I>Sergiy|Maryna|Natalia</I><BR><BR>
   Values of GPS questions are represented in the form latitude,longitude[accuracy]altitude, such as <I>16.73526463,75.93207878[13]27</I>
   </TD>
 </TR>
@@ -206,7 +232,9 @@ The following table outlines the types of the events tracked by Survey Solutions
 <TR>
   <TD><I>GroupDisabled</I></TD>
   <TD align=center>16</TD>
-  <TD>⚠ This event is not included in the exported paradata file.<BR><BR>Event that corresponds to the group (section, subsection) being declared as enabled (to be skipped, not skipped).
+  <TD>⚠ This event is not included in the exported paradata file.<BR><BR>
+  Event that corresponds to the group (section, subsection) being declared as
+  enabled (to be skipped, not skipped).
   </TD>
   <TD>NO PARAMETERS.</TD>
 </TR>
@@ -214,7 +242,9 @@ The following table outlines the types of the events tracked by Survey Solutions
 <TR>
   <TD><I>GroupEnabled</I></TD>
   <TD align=center>15</TD>
-  <TD>⚠ This event is not included in the exported paradata file.<BR><BR>Event that corresponds to the group (section, subsection) being declared as disabled (to be answered, not skipped).
+  <TD>⚠ This event is not included in the exported paradata file.<BR><BR>
+  Event that corresponds to the group (section, subsection) being declared as
+  disabled (to be answered, not skipped).
   </TD>
   <TD>NO PARAMETERS.</TD>
 </TR>
@@ -229,8 +259,8 @@ The following table outlines the types of the events tracked by Survey Solutions
 <TR>
   <TD><I>InterviewerAssigned</I></TD>
   <TD align=center>1</TD>
-  <TD>Event that occurs when the interviewer becomes responsible for the interview
-  (for example, when the interview is created from an assignment).</TD>
+  <TD>Event that occurs when the interviewer becomes responsible for the
+  interview (for example, when the interview is created from an assignment).</TD>
   <TD>Name of the interviewer that became responsible for this interview.</TD>
 </TR>
 
@@ -245,10 +275,10 @@ The following table outlines the types of the events tracked by Survey Solutions
 <TR>
   <TD><I>KeyAssigned</I></TD>
   <TD align=center>27</TD>
-  <TD>Newly created interview is assigned an interview key. Also occurs when a key
-  of the interview is modified tue to a collision with an existing interview's key.
-  Latest event will reflect the current interview key. Event may once OR twice per
-  interview only.</TD>
+  <TD>Newly created interview is assigned an interview key. Also occurs when a
+  key of the interview is modified tue to a collision with an existing
+  interview's key. Latest event will reflect the current interview key. Event
+  may once OR twice per interview only.</TD>
   <TD>Interview key in the form: <TT>NN-NN-NN-NN</TT></TD>
 </TR>
 
@@ -422,3 +452,28 @@ Numeric codes used to encode the role in the paradata records have the following
 <TR><TD align=center><TT>5</TT></TD><TD align=center>API User</TD></TR>
 </TABLE>
 </CENTER>
+
+### Reduced paradata set
+
+When paradata is exported in a reduced set events with the following codes are
+intentionally omitted, even if contained in the recorded stream of events:
+
+- *QuestionEnabled* (13),
+- *QuestionDisabled* (14),
+- *GroupEnabled* (15),
+- *GroupDisabled* (16),
+- *QuestionDeclaredValid* (17),
+- *QuestionDeclaredInvalid* (18),
+- *VariableEnabled* (23), and
+- *VariableDisabled* (24).
+
+Omission of these events typically reduces the size of the paradata files, making
+their production and download faster. And yet, if these types of events are
+needed, they can be obtained in the full export of paradata events, and which
+is the default option during the paradata
+[export](/headquarters/export/data-export-tab/).
+
+Note, that the events in the paradata file are numbered sequentially from `1`
+onwards (for each interview), and because some events are omitted from the
+reduced paradata file their numbering will generally be different from the
+numbering of the same events in the full paradata file.
