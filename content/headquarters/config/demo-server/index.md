@@ -2,7 +2,7 @@
 title = "Demo server"
 keywords = [""]
 date = 2020-06-22T11:11:11Z
-lastmod = 2023-04-10T11:11:11Z
+lastmod = 2025-04-24T00:00:11Z
 +++
 
 Survey Solutions developers team provides a special demo server equipped with the latest version of the Survey Solutions Headquarters for the users that want to:
@@ -20,15 +20,17 @@ To access the demo server, in your browser proceed to:
 https://demo.mysurvey.solutions
 and sign in with the username `DemoHQ` and password `XjQ2gTqFe8`.
 
-***We ask the users never change the password for this headquarters user on the demo server!!***
+Or you can access the demo server as an [observer user](/headquarters/accounts/survey-solutions-server-observer/), by signing in with the username `DemoObs` and password `MjQ4zUaFe9`.
 
-Please, do <U>not</U> change the password for the above account even if you get a warning from the Chrome browser like the one shown here:
+***Passwords for these accounts can't be changed at the demo server since both user accounts have been declared as [restricted user accounts](/headquarters/accounts/restricted-account/)!!***
+
+Please, do <U>not</U> attempt to change the password for the above accounts even if you get a warning from the Chrome browser like the one shown here:
 
 <CENTER>
   <IMG src="images/change_your_password.png" width=320 border=1>
 </CENTER>
 
-(It is correct that the Chrome detects the password for the user is exposed, but this is exactly the intension to let the users log in.)
+(It is correct that Chrome detects the passwords for these accounts are exposed, and specifically on this page, but this is exactly the intension to let the users log in.)
 
 *We also ask the users not to interfere with each other. If you didn't create a particular interviewer or supervisor account, don't touch it, or the work assigned to it.*
 
