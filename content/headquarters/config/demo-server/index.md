@@ -1,41 +1,33 @@
 ﻿+++
 title = "Demo server"
-keywords = [""]
+keywords = ["access", "credentials", "password", "demonstration"]
 date = 2020-06-22T11:11:11Z
-lastmod = 2025-04-24T00:00:11Z
+lastmod = 2025-04-30T00:00:11Z
 +++
 
-Survey Solutions developers team provides a special demo server equipped with the latest version of the Survey Solutions Headquarters for the users that want to:
+You can access existing content of the demo server as an [observer user](/headquarters/accounts/survey-solutions-server-observer/), by signing in with the username `DemoObs` and password `MjQ4zUaFe9`.
 
-- explore the interface of the software,
-- try different roles,
-- test pre-loading data files,
-- see the new features added in a [recent release](/release-notes/).
-
-It is important to understand that this server may not be utilized for real survey data collection, because this server is a public server that anyone in the world can access, and also because the demo server is also periodically cleared (erazed), when it accumulates a lot of old surveys or users that are no longer active, usually once a month.
-
-When you are using the demo server, you will start with the headquarters user role, and can create your own supervisors and interviewers, import your own questionnaires, create assignments, conduct and approve interviews, export data.
-
-To access the demo server, in your browser proceed to:
-https://demo.mysurvey.solutions
-and sign in with the username `DemoHQ` and password `XjQ2gTqFe8`.
-
-Or you can access the demo server as an [observer user](/headquarters/accounts/survey-solutions-server-observer/), by signing in with the username `DemoObs` and password `MjQ4zUaFe9`.
-
-***Passwords for these accounts can't be changed at the demo server since both user accounts have been declared as [restricted user accounts](/headquarters/accounts/restricted-account/)!!***
-
-Please, do <U>not</U> attempt to change the password for the above accounts even if you get a warning from the Chrome browser like the one shown here:
-
+<details>
+<summary>
+Please, do <U>not</U> attempt to change the password for the above account even if you get a warning from your browser.
+</summary>
 <CENTER>
   <IMG src="images/change_your_password.png" width=320 border=1>
 </CENTER>
 
-(It is correct that Chrome detects the passwords for these accounts are exposed, and specifically on this page, but this is exactly the intension to let the users log in.)
+It is correct that the password for this account is exposed, and specifically on this page, but this is exactly the intension to let the users log in.<BR>
+<I>(Password for this account can't be changed at the demo server since it has been declared as a <A href="/headquarters/accounts/restricted-account/">restricted user account</A>)</I><BR>
+</details>
+<BR>
 
-*We also ask the users not to interfere with each other. If you didn't create a particular interviewer or supervisor account, don't touch it, or the work assigned to it.*
+We also provide miniature sandbox-like PDS ([Personal Demo Servers](/headquarters/config/personal-demo-server/)). 
+With a PDS you get control over the administrator account, and can create multiple other accounts in different roles to:
 
-We also provide miniature sandbox-like PDS ([Personal Demo Servers](/headquarters/config/personal-demo-server/)), which can be instantly created from the [self-service portal](https://pds.mysurvey.solutions/PersonalDemoServerRequest) by individual users that prefer no interaction with other users. With PDS you get a control over the administrator account, and can create multiple HQ accounts, observer accounts, or try the Survey Solutions API.
+- explore the interface of the software,
+- check which functionality is available in different roles,
+- test pre-loading data files,
+- try the Survey Solutions API,
+- see the new features added in a [recent release](/release-notes/).
 
-⚠️ Neither the demonstration server above, nor the PDS are intended for real data collection. [Set up your own server for data collection](/headquarters/config/server-setup/).
+⚠️ To set up your own server for real data collection read the following [instructions](/headquarters/config/server-setup/).
 
-⚠️ Remember that any data that you upload to the demo server is immediately visible to anyone. Do not upload anything confidential here: no real addresses, phone numbers, credit card numbers, or other sensitive or personally identifying information.
