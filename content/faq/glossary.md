@@ -267,7 +267,7 @@ Error messages issued as a result of the [validation](#validation), indicating
 that a certain answer or answers are not acceptable based on the logic of the
 [questionnaire](#questionnaire) developed by its author.
 
-### Workspace
+#### Workspace
 A named logical compartment on the server containing
 [questionnaires](#questionnaire), [assignments](#assignment),
 [interviews](#interview), and other information. [Users](#user) may be given
