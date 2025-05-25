@@ -1,0 +1,62 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="batch"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/accounts/batch-user-upload/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Batch User Upload"><meta property="og:description" content="Up to 10,000 user accounts can be created from a single tab-delimited file, which must include the login, password, and role of the user, and may include additional attributes, like email or phone.
+Batch creation of user accounts comes handy when:
+the same accounts need to be replicated on a different server; migrating from a different CAPI system with established accounts; the survey is so huge that manual creation of accounts via a web interface would take a significant amount of time. Creating user accounts in batch mode is available to both the administrator and the headquarter users. For new supervisor accounts the role must be specified as Supervisor (case-sensitive). For interviewer accounts the role must be specified as Interviewer (case-sensitive), and in addition the login of the supervisor must be specified, which determines the team where the interviewer account will be added. Interviewers may be added to existing supervisors, or to new supervisors mentioned anywhere in the users list."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2016-06-30T18:18:21+00:00"><meta property="article:modified_time" content="2021-04-29T01:01:01+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Batch User Upload</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/accounts/>Managing User Accounts</a></li><li class="breadcrumb-item active" aria-current=page>Batch User Upload</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Batch User Upload</h2><div class="data text-right">April 29, 2021</div></div><div class=article-content><p>Up to 10,000 user accounts can be created from a single tab-delimited
+file, which must include the <em><strong>login</strong></em>, <em><strong>password</strong></em>, and <em><strong>role</strong></em>
+of the user, and may include additional attributes, like <em>email</em> or
+<em>phone</em>.</p><p>Batch creation of user accounts comes handy when:</p><ul><li>the same accounts need to be replicated on a different server;</li><li>migrating from a different CAPI system with established accounts;</li><li>the survey is so huge that manual creation of accounts via a web
+interface would take a significant amount of time.</li></ul><p>Creating user accounts in batch mode is available to both the
+administrator and the headquarter users. For new supervisor accounts the
+role must be specified as <strong>Supervisor</strong> (case-sensitive). For
+interviewer accounts the role must be specified as <strong>Interviewer</strong>
+(case-sensitive), and in addition the login of the supervisor must be
+specified, which determines the team where the interviewer account will
+be added. Interviewers may be added to existing supervisors, or to new
+supervisors mentioned anywhere in the users list.</p><p>To upload the list of users in batch mode select: <code>Menu</code> →
+<code>Teams and Roles</code> → <code>Batch User Upload</code>.</p><p>Survey Solutions will request a file with the user accounts to be created,
+validate the uploaded file, and create the user accounts. If any problems or
+inconsistencies are found in the uploaded file, they will be reported and
+accounts not created.</p><p>Depending on the number of users and server performance this process may
+take a few minutes.</p><h4 id=file-format>File format</h4><p>The file with user accounts to be created must be prepared as a tab-delimited
+text file, with the first line listing the column names and subsequent lines
+(up to 10,000) listing user accounts (one account per each line).</p><p>The column names (case-insensitive) are as following:</p><table class="table table-striped table-hover" border><tr class="header bg-warning"><th>Column name</th><th>Column meaning</th></tr><tr><td colspan=2>Mandatory fields</td></tr><tr><td>Login</td><td>The login name of the user to be created. Note that the
+spelling (capitalization) of the user name will be retained in the reports and
+selections in the HQ. Note also, that the specified login name for an account
+may not be changed in the future (though the whole account may be locked).<br><br>The login name must be between 3 and 15 characters long, and may contain only
+letters, digits and the underscore symbol. The letters must be from Latin
+(English) alphabet only: 'A'..'Z' or 'a'..'z'. Other letters (Cyrillic, Arabic,
+etc.) are not valid for usage in login names.</td></tr><tr><td>Password</td><td>The password to the user account. The password is
+case-sensitive.<br><br>An account password must satisfy the following complexity requirements:<ul><li>be at least 10 characters long, letters from non-Latin alphabets (Cyrillic,
+Arabic, etc.) may be included in the password,<li>include at least one digit ('0'-'9'),<li>include at least one uppercase ('A'-'Z') letter,<li>include at least one lowercase ('a'-'z') letter.</ul></td></tr><tr><td>Role</td><td>The Survey Solutions user role assigned to the newly created
+user account. It is one of the following words: <i>Supervisor</i>,
+<i>Interviewer</i>. The spelling of the role is case-insensitive.</td></tr><tr><td>Supervisor</td><td>This value must only be specified for interviewer
+accounts and denotes the login-name of the supervisor, to whose team this
+interviewer account is added. The spelling of the supervisor's login-name
+is case-insensitive.</td></tr><tr><td colspan=2>Optional fields</td></tr><tr><td>Fullname</td><td>Real full name of the user that receives this account.<br><br>Person's name must be no longer than 100 characters and may only consist of
+letters, dots, spaces, and apostrophes.</td></tr><tr><td>Email</td><td>Email address of the user that receives this account.<br><br>An email address must conform to the rules of email addresses. Invalid email
+addresses may not be stored.</td></tr><tr><td>Phonenumber</td><td>Phone number of the user that receives this account.<br><br>The phone number must be numeric and no longer than 15 digits.</td></tr></table><p>Note that the fields <strong>login</strong>, <strong>password</strong> and <strong>role</strong> are mandatory, and
+must be filled out for every user in the list. The supervisor field <strong>must</strong>
+be specified for the interviewers&rsquo; accounts only.</p><h4 id=example-file>Example file</h4><p>Here is an <a href=users.tab>example file</a>, which creates a new team of supervisor
+<em>Heidy Jones</em>, and adds two new interviewer accounts for
+<em>Mary Smith</em> and <em>John Smith</em> to this team.</p><p>Do not use this file to create actual interviewer accounts as it shows the
+passwords publicly in clear text.</p><h4 id=possible-problems-that-may-be-reported>Possible problems that may be reported</h4><p>Survey Solutions will validate the uploaded list of the users report if
+any problems are found:</p><ul><li>empty required fields (login, password, role);</li><li>duplicate user accounts;</li><li>passwords not conforming to the security requirements (too short,
+etc);</li><li>unknown supervisors (all interviewers created must become part of
+the team of a supervisor known to the system);</li><li>and other checks as described in the fields&rsquo; descriptions above.</li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
