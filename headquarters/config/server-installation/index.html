@@ -1,0 +1,141 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="installation,configuration"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/config/server-installation/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Server Installation"><meta property="og:description" content="Installation has following steps:
+Installing PostgreSQL Installing SurveySolutions Post installation configuration Installing PostgreSQL Make sure that you have an installed and running instance of PostgreSQL before running SurveySolutions.exe
+You can download PostgreSQL from here and run the setup. Pick the latest stable version (note: Survey Solutions will not work with PostgreSQL prior to version 10.0).
+During the process you’ll set the password for the database superuser:
+📷 PostgreSQL password"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2020-05-06T14:14:00+00:00"><meta property="article:modified_time" content="2025-04-16T12:26:45-04:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Server Installation</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/config/>Setup and Configuration</a></li><li class="breadcrumb-item active" aria-current=page>Server Installation</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Server Installation</h2><div class="data text-right">April 16, 2025</div></div><div class=article-content><p>Installation has following steps:</p><ol><li><a href=#installing-postgresql>Installing PostgreSQL</a></li><li><a href=#installing-surveysolutions>Installing SurveySolutions</a></li><li><a href=#post-installation-configuration>Post installation configuration</a></li></ol><h2 id=installing-postgresql>Installing PostgreSQL</h2><p>Make sure that you have an installed and running instance of PostgreSQL
+<strong>before running SurveySolutions.exe</strong></p><p>You can download PostgreSQL from
+<a href=https://www.postgresql.org/download/windows/>here</a> and run the setup. Pick
+the latest stable version (note: Survey Solutions will not work with PostgreSQL
+prior to version 10.0).</p><p>During the process you&rsquo;ll set the password for the database superuser:</p><details><summary>📷 PostgreSQL password</summary><p><img src=images/pg_password.png alt="Postgres password" title="PostgreSQL password"></p></details><br><p>and the port, on which the PostgreSQL server will be running:</p><details><summary>📷 PostgreSQL port</summary><p><img src=images/pg_port.png alt="Postgres port" title="PostgreSQL port"></p></details><br><p>After the installation is complete, follow the instructions for
+<a href=https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server>tuning PostgreSQL for production use</a></p><p>By default, PostgreSQL is set up to allow connections from the same server only. If you are going to install
+Survey Solutions on the same server, you don&rsquo;t need to change this default. However if you are splitting the database
+and the web application into two separate servers (may be advisable for larger-scale operations when administration and
+maintenance of the database is better by its own) you have to explicitly allow connections from external server to reach
+your PostgreSQL database. This is done by modifying pg_hba.config file and adding ip address of the webserver, which
+will run Survey Solutions. Please take a look at the <a href=https://www.postgresql.org/docs/13/auth-pg-hba-conf.html>documentation</a>
+for further details.</p><h2 id=installing-survey-solutions>Installing Survey Solutions</h2><p>Download the <a href=https://mysurvey.solutions/Download>Survey Solutions installer</a></p><p>Run SurveySolutions.exe. It will ask you for two parameters: install location
+and PostgreSQL connection parameters.</p><p>For the install location – choose any or keep the default (<code>C:\Survey Solutions\</code>)</p><details><summary>📷 Survey Solutions location</summary><p><img src=images/ss_location.png alt="Survey Solutions location"></p></details><br><p>For PostgreSQL connection parameters (default values will be already there)
+specify the port and password you&rsquo;ve chosen when setting up the PostgreSQL
+earlier:</p><details><summary>📷 Survey Solutions database connection</summary><p><img src=images/ss_connection_settings.png alt="Survey Solutions database connection"></p></details><br><p>That&rsquo;s it. At the end, finish installation page will automatically open
+in your browser where you&rsquo;ll be able to create administrator user for
+Survey Solutions Headquarters application.</p><details><summary>📷 Create a new Administrator user</summary><p><img src=images/finish_installation.png alt="Create a new Administrator user" title="Create a new Administrator user"></p></details><br><p>The link to the site will be automatically added to your start menu, but you
+can always access it by directly typing the address in the browser&rsquo;s address bar.</p><p>In order to check if the application is running correctly you can open
+<code>http://localhost:9700/.hc</code> URL. It should output <code>Healthy</code> message.</p><h2 id=post-installation-configuration>Post installation configuration</h2><p>The post-installation configuration involves the following:</p><ul><li><p><a href=#bindings>adjusting the site bindings</a>;</p></li><li><p><a href=#ssl>SSL certificate</a>;</p></li><li><p><a href=#firewall>adjusting the firewall rules</a>;</p></li><li><p><a href=#loadbalancer>adjusting the load balancer</a>;</p></li><li><p><a href=#configuration>adjusting the application configuration</a>:</p><ul><li><a href=#baseurl>BaseURL</a>;</li><li><a href=#captcha>Captcha</a>;</li><li><a href=#googlemaps>Google Maps</a>;</li><li><a href=#geotiff>GeoTIFF</a>;</li><li><a href=#connpool>DB connections pool</a>.</li></ul></li></ul><h3 id=bindings>Adjusting the site bindings</h3><p>By default, Survey Solutions is installed as a web application and runs
+behind the IIS web server using port <code>9700</code>. A custom port is used
+to avoid potential conflicts with existing web applications you may already be
+running on the same server. Also, most firewalls will block custom ports by default
+and this will help you in protecting your data by not exposing your application to
+external networks/Internet unintentionally.</p><p>Accessing your application via <code>localhost</code> only works from the same computer, in order
+to connect to it from a different machine or an Android tablet, you have to use (and know)
+your server&rsquo;s ip address.</p><p>One option to find the computer&rsquo;s ip address information is using <code>ipconfig</code>. To
+access it, right click on start menu, select run option and execute <code>ipconfig /all</code> command.</p><details><summary>📷 Finding ip address</summary><p><img src=images/ss_ipconfig.png alt="Finding ip address"></p></details><br><p><code>/all</code> option is used in case your server has multiple network interfaces.</p><p>Once you locate the appropriate address, you can access your server from any other device (connected to the same network)
+by typing <code>http://server_ip_address:9700/</code> in the browser. For our example, the address would look like
+this: <code>http://192.168.136.128:9700/</code></p><p>You can now change the port <code>9700</code> to <code>80</code> in the IIS configuration manager.
+To access it right click on start menu, select run option and execute the
+<code>inetmgr</code> command.</p><p>In the IIS Manager you will find the Survey Solutions application:</p><details><summary>📷 Survey Solutions in IIS Manager</summary><p><img src=images/ss_iis_settings.png alt="Survey Solutions in IIS Manager"></p></details><br><p>If you click on the <code>Bindings...</code> link in the right panel you will be
+able to add or modify ports that application listens to, such as 80 for HTTP, or 443 for HTTPS (see <a href=#ssl>below</a>).</p><p>Now you can ommit the custom port number when accessing the server - <code>http://192.168.136.128/</code>.</p><p>Remembering and always typing ip address to connect to the server is still not the best and convinient approach. You
+could instead attach a domain name to your server, which would simplify work considerably. Moreover, in order to be
+able to use <a href=#ssl>SSL</a> encryption, you must have a domain name attached to the web application.</p><p>Obtaining a domain name for the specific purpose of running one application will depend on the way you&rsquo;d like it to be
+accessed by your team and the users. If you would like to get a sub-domain (third-level, forth-level, etc, domain) under
+an existing domain name (for example, your organization already operates <code>http://www.coolcompany.com</code> address and you want to add
+<code>http://survey.coolcompany.com</code>) it may be as easy as contacting the right person/team who manages the main address and ask them
+to issue the sub-domain for you.</p><p>But if you instead prefer to have a dedicated, second-level domain name, like <code>http://mycoolsurveys.com</code> address, you will need to
+first buy and <a href=https://en.wikipedia.org/wiki/Domain_registration>register your new domain</a>.</p><h3 id=ssl>SSL certificate</h3><p>If your Survey Solutions instance is exposed to the public in the Internet,
+it is highly recommended to setup SSL encryption for web server by applying
+an SSL certificate.</p><p>The configuration depends on the
+<a href=https://en.wikipedia.org/wiki/Certificate_authority#Providers>certificate provider</a>
+that you choose, so refer to their documentation on how to setup IIS.</p><h3 id=firewall>Firewall rules</h3><p>To permit communication of Survey Solutions with the Designer and other utilized
+services you may need to enable certain ports or types of communication as
+listed below. The instructions vary by type of the security software used.
+See #3 in the <a href=/getting-started/faq-for-it-personnel/>FAQ for IT</a> for common
+security software instructions.</p><ul><li>allow incoming connections to the port that you&rsquo;ve set up the server binding
+of Survey Solutions;</li><li>allow outgoing connections to the Designer site:
+<code>https://designer.mysurvey.solutions</code>;</li><li>allow outgoing connections to the Survey Solutions site:
+<code>https://mysurvey.solutions</code>.</li></ul><p>In addition expect the client (browser) to</p><ul><li>send queries to the Maps server being used:
+typically <code>https://maps.googleapis.com</code> and <code>https://google.com</code>
+(or see <a href=/headquarters/config/alternative-maps-for-servers-in-china/>here</a> for
+alternative settings for China);</li><li>send queries to the CAPTCHA server being used (if it is used):
+<code>https://www.google.com</code> and <code>https://www.gstatic.com</code></li></ul><p>Survey Solutions operates with HTTP/HTTPS requests that may be rather large
+(multiple MB). Your server must be configured to receive and process such
+queries (rather than block them). This may necessitate additional
+<a href=https://en.wikipedia.org/wiki/Web_application_firewall>WAF configuration</a>. If
+this is not permitted, the interviewers may not be able to synchronize their
+tablets.</p><h3 id=loadbalancer>Load balancer</h3><p>If you are using a load balancer, please make sure that it is configured to use:</p><ul><li>sticky sessions, and</li><li>web sockets.</li></ul><p>If this is not satisfied, web interviews will not work resulting in errors for
+the respondents (this may not be immediately obvious to the person setting up
+the Survey Solutions server).</p><p>If the Survey Solutions web server is placed behind a load balancer with
+SSL-termination, the following setting must be added to the <code>Policies</code> section
+of the <code>appsettings.production.ini</code> configuration file:</p><pre tabindex=0><code>[Policies]
+CookiesSecurePolicyAlways=true
+</code></pre><h3 id=configuration>Survey Solutions application configuration</h3><p>Open the <code>/Site</code> folder where Survey Solutions is installed, and open
+<code>appsettings.production.ini</code> file. This file will not be replaced during
+application upgrades and will retain your local server configuration.</p><details><summary>📷 Survey Solutions configuration file</summary><p><img src=images/ss_config.png alt="Survey Solutions configuration file"></p></details><br><h4 id=baseurl>Base URL</h4><p>If your server has domain name you need to change <code>BaseUrl</code> value to the name
+you have (without trailing slash at the end of the URL). Make sure that this
+URL can be used to open Survey Solutions app from server where application is
+installed, otherwise export won&rsquo;t work.</p><p>Example of an ini-file with configured base URL:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-INI data-lang=INI><span style=display:flex><span><span style=color:#00f>[Headquarters]</span>
+</span></span><span style=display:flex><span>BaseUrl=<span style=color:#a31515>https://demo.mysurvey.solutions</span>
+</span></span></code></pre></div><p>Survey Solutions administrator can see if the <code>BaseURL</code> setting is not set up correctly in the <a href=/headquarters/config/healthcheck/>Healthcheck</a> page.</p><p>Without the correct specification of the <code>BaseURL</code> the server will not be able to generate correct links for:</p><ul><li>downloading interviewer and supervisor apps (in qrcode);</li><li>sending invitations to web surveys.</li></ul><h4 id=captcha>Captcha</h4><p>A <a href=/headquarters/accounts/captcha/>captcha</a> is used to safeguard the
+application from brute-force attacks on user accounts and for protection of
+web mode from automatic creation of interviews.</p><p>Survey Solutions may utilize a built-in (hosted) implementation of captcha
+(default) or an external reCAPTCHA provided by Google (to be configured as
+per instructions below).</p><p>To take advantage of the more secure reCAPTCHA implementation by Google, you
+need to set it up in the Google reCAPTCHA admin and record the 2 issued keys
+into your configuration file.</p><ul><li>Navigate to <a href=https://www.google.com/recaptcha/admin/create>creation page</a>
+to register a new captcha. Click on the ℹ️-icons will give you helpful hints
+on how to fill out that form.</li><li>Specify your public DNS name that is configured in
+Survey Solutions <code>BaseUrl</code> property for the site name.</li><li>When selecting the reCAPTCHA type, select version 2 ("<em>reCAPTCHA v2</em>").</li><li>You can specify additional emails to receive notifications on problems or
+increase in suspicious traffic (alerts are issued by Google).</li></ul><p>After you click the <code>Submit</code> button you will see a page where you can copy
+the necessary <em>site key</em> and <em>secret key</em>. Then add the following content
+into your <code>appsettings.Production.ini</code> file:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-INI data-lang=INI><span style=display:flex><span><span style=color:#00f>[Captcha]</span>
+</span></span><span style=display:flex><span>CaptchaType=<span style=color:#a31515>Recaptcha</span>
+</span></span><span style=display:flex><span>SecretKey=<span style=color:#a31515>%Your secret key%</span>
+</span></span><span style=display:flex><span>SiteKey=<span style=color:#a31515>%Your site key%</span>
+</span></span><span style=display:flex><span>Version=<span style=color:#a31515>v2</span>
+</span></span></code></pre></div><h4 id=googlemaps>Google maps</h4><p>If you are using a GPS question you should change
+<a href=https://developers.google.com/maps/documentation/javascript/get-api-key>Google maps API key</a>.
+After creating it in the console, add it to the <code>appsettings.Production.ini</code>
+configuration file:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-INI data-lang=INI><span style=display:flex><span><span style=color:#00f>[GoogleMap]</span>
+</span></span><span style=display:flex><span>ApiKey=<span style=color:#a31515>%Your API key%</span>
+</span></span></code></pre></div><p>when not configured properly you will see error
+<code>ReferenceError: google is not defined</code> on the map report page:</p><details><summary>📷 Survey Solutions maps error</summary><p><img src=images/ss_maps_error.png alt="Survey Solutions maps error"></p></details><br><h4 id=geotiff>GeoTIFF files support</h4><p>If you are using
+<a href=/questionnaire-designer/questions/offline-gis-functionality-expansion/>GIS</a>
+functionality and plan using TIFF files as maps, then you need to install the
+<a href=https://gdal.org/>GDAL</a> library. The simplest way to do it (on Windows)
+is to use the <a href=https://trac.osgeo.org/osgeo4w/wiki>OSGeo4W project</a>:
+download installer from their web site and install only &ldquo;GDAL&rdquo;.</p><p>Survey Solutions will try to locate and make use of the GDAL libraries
+at the default installation path: <code>C:\OSGeo4W64\bin\</code>. If you&rsquo;ve installed
+it to another folder then add the following configuration to your
+<code>appsettings.Production.ini</code> file:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-INI data-lang=INI><span style=display:flex><span><span style=color:#00f>[Geospatial]</span>
+</span></span><span style=display:flex><span>GdalHome=<span style=color:#a31515>%Path to bin where GDAL is intalled%</span>
+</span></span></code></pre></div><p>If this step is not performed, the users of this Survey Solutions instance
+will not be able to upload maps in GeoTIFF format to the HQ. They will still
+be able to upload maps in other accepted formats.</p><h3 id=connpool>Adjusting the settings of the DB connections pool</h3><p>Survey Solutions communicates with the DB by utilizing a pool of connections,
+the size of which is regulated by the <code>Maximum Pool Size</code> parameter (integer).</p><p>If your server is servicing many users and/or is facilitating collection of a
+large web survey with many respondents you may need to increase the value of
+this parameter from its default value <code>100</code> to a larger value. This is done by
+adding the following:</p><pre tabindex=0><code>Maximum Pool Size=#;
+</code></pre><p>to the <code>Default Connection</code> key in the <code>Connection Strings</code> section of the
+<code>appsettings.production.ini</code> file, where <code>#</code> is the maximum pool size you
+want to set, for example: <code>200</code>.</p><p>See here for more information: <a href=https://www.npgsql.org/doc/connection-string-parameters.html>https://www.npgsql.org/doc/connection-string-parameters.html</a></p><p>You will need to restart the Survey Solutions server for the new setting to
+take effect.</p><p>Note that the DB server must permit that number of connections as well, and
+may need to be revised too.</p><p>See here for more information: <a href=https://www.postgresql.org/docs/current/runtime-config-connection.html>https://www.postgresql.org/docs/current/runtime-config-connection.html</a></p><h3 id=for-survey-solutions-data-servers-controlled-by-the-world-bank>For Survey Solutions data servers controlled by the World Bank</h3><p>If you are receiving a message</p><pre tabindex=0><code>The requested URL was rejected. If you think you have made a valid request to a page on our website please report by clicking on the below link.
+Your support ID is: ###################
+</code></pre><p>(where <code>##...#</code> denotes a numeric ID), please write to <code>lbadmin</code> from your
+World Bank-staff email account and cite the message you received including the <code>##..#</code> number. Please note: <em>this message is not produced by the Survey Solutions software</em>.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
