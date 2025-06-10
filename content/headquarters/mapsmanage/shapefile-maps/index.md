@@ -91,7 +91,7 @@ Once a shapefile is uploaded to the server, it is possible to see a preview of i
 
 Any map file (including shapefiles) needs to be assigned to the interviewer to be usable by him. Such an assignment is done by a user in the role headquarters or administrator.
 
-Such assignments are done by uploading a file that establishes the correspondence between the maps and a comma-delimited list of the user accounts that are assigned access to those maps. The structure of this file is described [here](/headquarters/svymanage/assign-maps-to-interviewers/).
+Such assignments are done by uploading a file that establishes the correspondence between the maps and a comma-delimited list of the user accounts that are assigned access to those maps. The structure of this file is described [here](/headquarters/mapsmanage/map-files/#update-assignments-of-maps-to-users).
 
 Any such uploaded file completely supersedes any previously made assignments (including any assignments done through the API calls).
 
