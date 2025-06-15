@@ -1,0 +1,79 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content><meta property="og:url" content="https://docs.mysurvey.solutions/faq/notes-on-compatibility-with-version-5-21/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Notes on Compatibility with version 5.21"><meta property="og:description" content="With version 5.21, we are making a big change by replacing census and sample mode with assignments. Previously when importing a questionnaire, users had to decide between sample mode (with a quantity of 1 interview per case) and census mode (with an unlimited quantity of interviews). With version 5.21, users will simply import the questionnaire and then proceed to making assignments with the imported template. Assignments will give headquarters users more flexibility because they can now specify the quantity of interviews they want when they generate each assignment."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="faq"><meta property="article:published_time" content="2017-07-05T16:42:01+00:00"><meta property="article:modified_time" content="2017-07-05T16:42:01+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Notes on Compatibility with version 5.21</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/faq/>FAQ</a></li><li class="breadcrumb-item active" aria-current=page>Notes on Compatibility with version 5.21</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Notes on Compatibility with version 5.21</h2><div class="data text-right">July 5, 2017</div></div><div class=article-content><p>With version 5.21, we are making a big change by replacing census and
+sample mode with assignments. Previously when importing a questionnaire,
+users had to decide between sample mode (with a quantity of 1 interview
+per case) and census mode (with an unlimited quantity of interviews).
+With version 5.21, users will simply import the questionnaire and then
+proceed to making assignments with the imported template. Assignments
+will give headquarters users more flexibility because they can now
+specify the quantity of interviews they want when they generate each
+assignment.</p><h2 id=whats-new-with-assignments>What&rsquo;s New with Assignments</h2><ul><li>Users will no longer be asked to specify census mode or sample mode
+when importing a questionnaire</li><li>Headquarters/admin can now specify the quantity of interviews they
+would like an interviewer to perform for each assignment.
+Headquarters/admin users will still be able to o specify an
+unlimited number of interviews per assignment (previously known as
+census mode). To specify an unlimited quantity when creating
+assignments one at a time, leave the *Quantity *field blank when
+creating the assignment. To add quantity in batch uploads for
+assignments, add a column titled <em>_quantity</em> to your tab delimited
+file to specify the quantity for each assignment. To specify an
+unlimited quantity, put &lsquo;-1&rsquo; in the _quantity column for that
+assignment.</li><li>Assignments can now be made to either supervisors or interviewers.
+Previously, assignments could only be made to supervisors.</li><li>Headquarter/admin users are no longer required to to fill out all
+the identifying variables when making an assignment.</li><li>Interviewers can fill in any identifying information that was left
+blank by the headquarters/admin users when the assignment was
+created.</li><li>Interviewers can discard incomplete interviews that are made
+accidentally or are no longer valid.</li></ul><h2 id=compatibility-with-older-versions>Compatibility with older versions</h2><p>If you currently have a survey in the field and the tablets have the
+Interviewer application of versions earlier than 5.21, it is not
+necessary to update the interviewer application on the tablets to
+proceed with fieldwork. To prevent disruption to your fieldwork, version
+5.21 on the server will be backwards compatible with previous versions
+of the Interviewer application. Below are important information on
+compatibility:</p><ul><li><strong>Synchronization to the server</strong>: Synchronization of completed and
+rejected interviews on tablets with Interviewer application versions
+earlier than 5.21 will work the same as before.</li><li><strong>Making assignments with a template imported in an older version</strong>:
+Assignments can still be made to supervisors/interviewers with
+templates imported on versions older than 5.21. The interviewer
+application does not need to be updated to 5.21 to receive these
+assignments made with questionnaires imported in an older version.
+Similar to previous versions, interviewers will see one card per
+interview. Additionally, assignments can be made using templates
+imported in older versions to tablets running version 5.21 of
+Interviewer applications. The cards for the assignments will look
+the same as an assignment created with a template imported in
+version 5.21.</li><li><strong>Making assignments with a newly imported template to an older
+version of the Interviewer application</strong>: If you make any
+assignments with a questionnaire template imported after your server
+has been updated to version 5.21, then the interviewers will have to
+update their Interviewer applications to version 5.21 in order to
+receive any assignments made with those templates. Interviewers will
+see an error when they try to login prompting them to update their
+Interviewer application. Interviewers can update in the Interviewer
+application by going to the link in the Diagnostics screen.</li><li><strong>Interviews created in previous versions</strong>: You will still be able
+to see and complete interviews created with earlier versions after
+updating the Interviewer application to version 5.21. However, these
+interviews cannot be discarded.</li><li><strong>Census mode questionnaires</strong>: Questionnaires imported as census
+mode will have the same functionality as before. It will have the
+added feature of being able to discard an interview that has been
+started.</li><li><strong>Batch upload of assignments</strong>: Users can continue to use the same
+batch upload tab files that they used in previous versions. If the
+tab file has no quantity column (column title: _quantity) or the
+quantity is left blank, then one interview will automatically be
+created for each assignment.</li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
