@@ -1,0 +1,48 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="testing,scenarios"><meta property="og:url" content="https://docs.mysurvey.solutions/questionnaire-designer/testing/scenarios/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Testing Scenarios"><meta property="og:description" content="Survey Solutions scenarios represent a storage of responses provided during a testing session. The objective is not to collect the data (use Interviewer App for that), but to simplify testing of complex questionnaires, which require a certain time-consuming input.
+Two actions are available for a scenario in the Designer:
+view: review the answers entered in the scenario; run: start testing and apply the scenario to the questionnaire. Here is what you need to know about scenarios:"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="questionnaire-designer"><meta property="article:published_time" content="2019-09-30T00:00:00+00:00"><meta property="article:modified_time" content="2024-01-17T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Testing Scenarios</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/>Questionnaire Designer</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/testing/>Questionnaire Testing</a></li><li class="breadcrumb-item active" aria-current=page>Testing Scenarios</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Testing Scenarios</h2><div class="data text-right">January 17, 2024</div></div><div class=article-content><p>Survey Solutions scenarios represent a storage of responses provided during a
+testing session. The objective is <strong>not</strong> to collect the data (use <a href=/interviewer/>Interviewer
+App</a> for that), but to simplify testing of complex
+questionnaires, which require a certain time-consuming input.</p><p>Two actions are available for a scenario in the Designer:</p><ul><li><strong>view:</strong> review the answers entered in the scenario;</li><li><strong>run:</strong> start testing and apply the scenario to the questionnaire.</li></ul><center><a href=images/scenarios.png><img src=images/scenarios.png width=640></a></center><p>Here is what you need to know about scenarios:</p><ul><li>The scenarios are saved from the <a href=/questionnaire-designer/testing/testing-your-questionnaire-with-the-online-tester/><strong>WebTester</strong></a>.</li><li>There can be multiple scenarios for the same questionnaire.</li><li>A scenario doesn&rsquo;t have to cover all questions in the questionnaire, but may
+be incomplete, for example, a scenario may cover just the first section or two.</li><li>A scenario may become <strong>no longer applicable</strong>. This can be when the changes
+in the questionnaire were significant (for example question type has changed)
+and the recorded scenario no longer applies to the new version. In this case an
+attempt to start a scenario will result in a message &ldquo;<em>Interview data can&rsquo;t be
+applied to new version of questionnaire. We apply some data only.</em>&rdquo;. This means
+that only some values saved in the scenario were loaded, up to the point where
+a saved value no longer &lsquo;fits&rsquo; the modified questionnaire. In rare cases this
+may result in no data loaded from the scenario (a blank questionnaire will
+open).</li><li>Scenarios are <strong>not copied</strong> when you copy a section or the whole
+questionnaire into another questionnaire.</li><li>To edit a scenario, you need to run it first, then make any changes
+interactively in the WebTester, then save under the same or a different scenario
+name. One <strong>may not</strong> edit the scenario steps directly, but only view them.</li><li>Saving a scenario requires <strong>edit permission</strong> for accessing the
+questionnaire (you have them if you own the questionnaire or it was shared with
+your account in <code>edit</code> sharing mode). If you don&rsquo;t have edit permissions for the
+questionnaire, an attempt to save a scenario will result in a
+<em>&ldquo;You have no access to the questionnaire&rdquo;</em> error message.</li><li>Creation and changes to scenarios are <strong>not</strong> reflected in the questionnaire
+history.</li><li>Language switches are <em><strong>not</strong></em> saved in the scenario: You can record the
+scenario in any language, then replay in any other language (by changing the
+default language of the questionnaire).</li><li>A scenario may involve input that results in validation errors. This is
+actually one of the objectives of scenarios, to make sure the validations work!</li><li>A scenario saves all the steps, how the answers were applied to the
+questionnaire, not just the resulting final state! This is obvious in the
+following illustration, representing a recording of the scenario steps (notice
+how the household size question <em>(hhsize)</em> was first answered with value <code>5</code>,
+then changed to <code>3</code>):</li></ul><center><a href=images/scenarios3.png><img src=images/scenarios3.png width=640></a></center></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
