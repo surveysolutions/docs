@@ -2,7 +2,7 @@
 title = "Interviewer App Diagnostics Dialog"
 keywords = ["diagnostics","interviewer","application","app"]
 date = 2020-01-08T00:00:00Z
-lastmod = 2020-01-08T00:00:00Z
+lastmod = 2025-09-18T00:00:00Z
 +++
 
 
@@ -24,12 +24,12 @@ The Diagnostics dialog provides tools for troubleshooting. Most of these tools r
 </map>
 
 
-Below is the explanation of these tools with some example illustrations (NB clickable items below).
+Below is the explanation of these tools with some example illustrations (click on the items to expand the explanation).
 
 
 
 <details><summary> <A name="bullet1"> <STRONG>1. Version NNN. Check for a new version</STRONG></summary>
-
+<P></P>
 <P>The Interviewer App will try to connect to the synchronization point
 (server) and check for the availability of a new version of the App.</P>
 
@@ -40,8 +40,10 @@ synchronization. Use this item when the synchronization doesn't succeed
 for any reason. The tablet must be online for this feature to succeed.</P>
 </details>
 
+<BR>
 
 <details><summary><A name="bullet2"> <STRONG>2. Test bandwidth to server</STRONG></summary>
+<P></P>
 <P>The Interviewer App will try to connect to the
 synchronization point (server) and measure the response timing.</P>
 
@@ -51,8 +53,10 @@ synchronization point (server) and measure the response timing.</P>
 of connection. The tablet must be online for this feature to succeed.</P>
 </details>
 
-<details><summary><A name="bullet3"> <STRONG>3. Send trace logs</STRONG></summary>
+<BR>
 
+<details><summary><A name="bullet3"> <STRONG>3. Send trace logs</STRONG></summary>
+<P></P>
 <P>This will collect on the tablet device and send
 to the synchronization point (server) the detailed logs of the
 interviewer's work.</P>
@@ -62,9 +66,19 @@ for <A href="/headquarters/config/device-logs/">review at the server by the ADMI
 only. The tablet must be online for this feature to succeed.</P>
 </details>
 
+<BR>
+
 <details><summary><A name="bullet4"> <STRONG>4. Collect and send to HQ all tablet information</STRONG></summary>
+<P></P>
 <P>This will collect, pack, and send to the
 synchronization point (server) all the content stored on the tablet.</P>
+
+{{< panel title="Warning!" style="danger" >}}
+This facility is intended for troubleshooting only. Specifically,
+this is NOT a backup feature and not a data transfer feature, and should
+not be used or attempted to be used as such. You will not be able to
+restore the interviews data from this file.
+{{< /panel >}}
 
 <P>This may take a significant time to prepare and to send. User's
 confirmation is required to access the storage files:</P>
@@ -80,21 +94,33 @@ if you are concerned about the traffic use).</P>
 otherwise the your data will not reach the synchronization point.</P>
 <P>The tablet must be online for this feature to succeed.</P>
 </details>
+
+<BR>
+
 <details><summary><A name="bullet5"> <STRONG>5. Generate support package</STRONG></summary>
+<P></P>
 <P>This will save all the information stored on the tablet to a file
 that can be transferred to the support team when requested.</P>
 
 <CENTER><IMG src="img/interviewer_backup_saved.png" width=400></CENTER>
 
-<P>This facility is intended for troubleshooting only, specifically,
+{{< panel title="Warning!" style="danger" >}}
+This facility is intended for troubleshooting only. Specifically,
 this is NOT a backup feature and not a data transfer feature, and should
 not be used or attempted to be used as such. You will not be able to
-restore the interviews data from this file.  The tablet doesn't need
-to be online for this feature to succeed, the resulting file may
-be shared using any means (saved to SD card, USB-stick, etc).</P>
+restore the interviews data from this file.
+{{< /panel >}}
+
+<P>The tablet doesn't need to be online for this feature to succeed. The
+resulting file may be shared using any means (saved to SD card, USB-stick,
+etc).</P>
 </details>
+
+<BR>
+
 <details>
 <summary><A name="bullet6"> <STRONG>6. Share all technical information</STRONG></summary>
+<P></P>
 <P>This will collect the descriptive information about the device and the
 Interviewer App installation and generate a textual description that can
 be shared with the support team or a colleague/consultant providing
