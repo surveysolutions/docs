@@ -1,0 +1,41 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="offline,gis,functionality"><meta property="og:url" content="https://docs.mysurvey.solutions/questionnaire-designer/questions/offline-gis-functionality-expansion/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Offline GIS Functionality Expansion"><meta property="og:description" content="Question type earlier called area is now renamed to geography and supports capture of various geographic information: area (polygons), paths (polylines), single (point) and multiple (multipoint) on offline maps. Each selection is exported as vectors of points. This question type is now accessible from the syntax to be used in conditional and validation expressions. The following properties can be used in the syntax:
+double geography.Area double geography.Length int geography.PointsCount In addition, the IsAnswered() function also supports this question type now. For example, we can ask to show the secondary parcel if the primary parcel has been already indicated:"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="questionnaire-designer"><meta property="article:published_time" content="2018-06-05T17:19:31+00:00"><meta property="article:modified_time" content="2018-09-27T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Offline GIS Functionality Expansion</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/>Questionnaire Designer</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/questions/>Question Types</a></li><li class="breadcrumb-item active" aria-current=page>Offline GIS Functionality Expansion</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Offline GIS Functionality Expansion</h2><div class="data text-right">September 27, 2018</div></div><div class=article-content><ol><li>Question type earlier called area is now renamed to geography and
+supports capture of various geographic information:</li></ol><ul><li>area (polygons),</li><li>paths (polylines),</li><li>single (point) and</li><li>multiple (multipoint)</li></ul><p>on offline maps. Each selection is exported as vectors of points. This
+question type is now accessible from the syntax to be used in
+conditional and validation expressions. The following properties can be
+used in the syntax:</p><ul><li><span style="font-family:courier new,courier,monospace">double
+geography.Area</span></li><li><span style="font-family:courier new,courier,monospace">double
+geography.Length</span></li><li><span style="font-family:courier new,courier,monospace">int
+geography.PointsCount</span></li></ul><p>In addition, the IsAnswered() function also supports this question type
+now. For example, we can ask to show the secondary parcel if the primary
+parcel has been already indicated:</p><pre><code>IsAnswered(primaryParcel)
+</code></pre><p>Or we can indicate an error if the area of the parcel is too small to be
+a parcel with a dwelling situated on it:</p><pre><code>self.Area&gt;=30
+</code></pre><p>Or for large parcels we could ask if they are also being used for
+agricultural purposes:</p><pre><code>primaryParcel.Area&gt;600
+</code></pre><p>Similarly for the paths we can measure the length and show warnings, for
+example, when they are unexpectedly large:</p><pre><code>self.Length&lt;=6000
+</code></pre><ol><li>Offline maps formats have been extended with the raster files,
+specifically <a href=https://en.wikipedia.org/wiki/GeoTIFF>GeoTIFF</a> files
+that can be produced with a wide range of commercially available and
+free to use tools.</li><li>BETA: A single shapefile map can be added
+to the maps storage on the tablet, and if added in this way will be
+automatically overlayed on top of the baseline map in offline map.</li></ol></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

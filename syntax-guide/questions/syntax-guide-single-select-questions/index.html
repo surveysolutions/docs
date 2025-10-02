@@ -1,0 +1,79 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="syntax,single select"><meta property="og:url" content="https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-single-select-questions/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Syntax Guide: Single-select questions"><meta property="og:description" content="Common tasks The section below lists the common tasks, and the elements of the syntax for accomplishing them.
+Comparison to a value Relational Operators less than, greater than, equal to, etc. Comparison to a range InRange. Checks if the selected answer falls within a range of user-specified values. Comparison to a list of values InList. Checks whether the selected answer is among the set of enumerated values. IsNoneOf. Confirms that the selected answer is not among the set of enumerated values. Count the number of values CountValue. Counts the number of times a specified value is recorded as the answer to the set of enumerated questions. Syntax explained InRange Syntax singleSelect.InRange(a,b)Description Checks if the selected answer falls within a range of user-specified values. Returns true if"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="syntax-guide"><meta property="article:published_time" content="2016-11-17T19:31:25+00:00"><meta property="article:modified_time" content="2016-11-17T19:31:25+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Syntax Guide: Single-select questions</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/syntax-guide/>Syntax Guide</a></li><li class=breadcrumb-item><a href=/syntax-guide/questions/>Questions</a></li><li class="breadcrumb-item active" aria-current=page>Syntax Guide: Single-select questions</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Syntax Guide: Single-select questions</h2><div class="data text-right">November 17, 2016</div></div><div class=article-content><h1 id=common-tasks>Common tasks</h1><p>The section below lists the common tasks, and the elements of the syntax
+for accomplishing them.</p><h2 id=comparison-to-a-value>Comparison to a value</h2><ul><li><a href=/syntax-guide/syntax-guide-operators>Relational Operators</a></li><li>less than, greater than, equal to, etc.</li></ul><h2 id=comparison-to-a-range>Comparison to a range</h2><ul><li><a href=#InRange>InRange.</a> Checks if the selected answer falls within a
+range of user-specified values.</li></ul><h2 id=comparison-to-a-list-of-values>Comparison to a list of values</h2><ul><li><a href=#InRange>InList</a>. Checks whether the selected answer is among the
+set of enumerated values.</li><li><a href=#IsNoneOf>IsNoneOf</a>. Confirms that the selected answer is not
+among the set of enumerated values.</li></ul><h2 id=count-the-number-of-values>Count the number of values</h2><ul><li><a href=#CountValue>CountValue</a>. Counts the number of times a specified
+value is recorded as the answer to the set of enumerated questions.</li></ul><h1 id=syntax-explained>Syntax explained</h1><h2 id=inrange><span id=InRange></span>InRange</h2><h3 id=syntax>Syntax</h3><pre><code>singleSelect.InRange(a,b)
+</code></pre><h3 id=description>Description</h3><p>Checks if the selected answer falls within a range of user-specified
+values. Returns <em>true</em> if</p><pre><code>a ≥ singleSelect ≥ b
+</code></pre><p>. Returns <em>false</em> otherwise.</p><p> </p><h3 id=example>Example</h3><p>For numeric questions, InRange was a convenient way to determine whether
+a value fell within a well-defined interval. For single-select
+questions, the same is true. But the use case is for identifying the set
+of ajacent answer options that map to a certain survey behavior, for
+example a skip.</p><p>Consider the set of questions below.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-single-select-questions/images/716957_hu_831bd65547229d1f.png width=331 height=541><p>For certain marital statuses, there is a follow-up question. For others,
+no such follow-up question is administered.</p><pre><code>    // administer B20 when the household member is married (i.e., answer 1 or 2 to B19)
+hh_b19.InRange(1,2)
+</code></pre><p>When answer 1 or 2 is selected in B19, the question B20 is enabled. When
+any other answer is provided for B19, question B20 is disabled.</p><h2 id=inlist><span id=InList></span>InList</h2><h3 id=syntax-1>Syntax</h3><pre><code>singleSelect.InList(a,b,c,...)
+</code></pre><h3 id=description-1>Description</h3><p>Check if the selected answer is part of the set of enumerated values.
+Returns <em>true</em> if</p><pre><code>singleSelect ∈ {a,b,c,...}
+</code></pre><p>. Returns <em>false</em> otherwise.</p><p> </p><h3 id=example-1-where-inrange-would-also-work>Example 1: Where InRange would also work</h3><p>See the example in the InRange section above. This could also have been
+done with InList.</p><pre><code>    // administer B20 when the household member is married (i.e., answer 1 or 2 to B19 hh_b19.InList(1,2)
+</code></pre><p>When the number of values in a range is small, InList may be roughly as
+effective a solution as InRange. When the number of values in the range
+is large, InRange is the better solution.</p><h3 id=example-2-where-inlist-is-the-better-choice>Example 2: Where InList is the better choice</h3><p>While InList and InRange may sometimes be used interchangeably, there
+are moments when InList is the clear choice. See the excerpt below for
+such an example.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-single-select-questions/images/716960_hu_9d23ea3880f7dc5b.png width=429 height=436><p>Let&rsquo;s describe the conditions under which question 6 is answered. If the
+interviewer records option 1 for question 4, then question 6 is asked.
+If options 4 or 5 are recorded, then question 6 is also administered.
+Otherwise, the interviewer skips to later questions. To summarize, then,
+question 6 is enabled when options 1, 4, or 5 is recorded. Or, in code:</p><pre><code>    // enable question 6 when answer is 1, 4, or 5 is chosen for question 4
+    ag_q4.InList(1,4,5)
+</code></pre><h2 id=isnoneof><span id=IsNoneOf></span>IsNoneOf</h2><h3 id=syntax-2>Syntax</h3><pre><code>singleSelect.IsNoneOf(a,b,c,...)
+</code></pre><h3 id=description-2>Description</h3><p>Checks that the selected answer is none of the listed values&ndash;in other
+words, is <span class=underline>not</span> part of the set of
+enumerated values. Returns <em>true</em> if</p><pre><code>singleSelect ∉ {a,b,c,...}
+</code></pre><p>. Returns <em>false</em> if singleSelect ∈ {a,b,c,&mldr;}.</p><p> </p><h3 id=example-1>Example</h3><p>Often, it is easier to say what should not be, rather than what should
+be. Consider the following example. Follow-up questions about firewood
+use are asked only if the household does <em>not</em> use firewood as its main
+source of cooking fuel.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-single-select-questions/images/716963_hu_adde58818de6493d.png width=470 height=465><p>Certainly, one could write the following enablement condition,
+identifying which answers lead the interviewer to F13.</p><pre><code>    // enable F13 if one of these answers selected for F12
+    self.InRange(3,10)
+</code></pre><p>However, it may be more efficient, more compact, and more readable to
+write which answers will disable F13.</p><pre><code>    // enable F13 if no firewood option is chosen for F12
+    self.IsNoneOf(1,2)
+</code></pre><h2 id=countvalue><span id=CountValue></span>CountValue</h2><h3 id=syntax-3>Syntax</h3><pre><code>CountValue(a,singleSelect1,singleSelect2,...)
+</code></pre><h3 id=description-3>Description</h3><p>Counts the number of times the value a is selected in the set of
+enumerated variables (i.e., singleSelect1, singleSelect2, &mldr;.). Returns
+the number of occurrences (as a long). Returns 0 if the value does not
+appear. Returns 0 if all variables are null or disabled.</p><h3 id=example-number-of-yes-answers>Example: Number of yes answers</h3><p>Sometimes, survey sections have not one but several screening questions.
+Typically, in that cases, the interviewer is asked to verify whether
+there is at least one &ldquo;yes&rdquo; answer in the series of screening questions.</p><p>Consider the labor module example below. Each household member is asked
+a series of yes/no screening questions (i.e., E06_1 - E06_6). If there
+is at least one &ldquo;yes&rdquo; answer, then more detailed labor questions are
+administered. If there is not a single &ldquo;yes&rdquo; answer, then interviewer
+administers a different set of questions.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-single-select-questions/images/716971_hu_6f7d4d0736dde07.png width=800 height=329><p>To implement this enablement condition, we can use the CountValue()
+method.</p><pre><code>    /* enable the questions after E06_6 if there is at least 1 &quot;yes&quot; answer */
+
+    // count the number of &quot;yes&quot; answers, and verify that it is greater than 0
+    CountValue(1,hh_e06_1,hh_e06_2,hh_e06_3,hh_e06_4,hh_e06_5,hh_e06_6) &gt; 0
+</code></pre></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

@@ -1,0 +1,69 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content><meta property="og:url" content="https://docs.mysurvey.solutions/interviewer/special/overlap-detection/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Overlap Detection"><meta property="og:description" content="Overlap detection is feature in Survey Solutions’ geography question. It is applicable only to the geography questions placed in a roster. When activated by the questionnaire designer, it will assist the interviewers in marking the areas in such a way that there is no overlap between multiple marked plots/parcels. This is important to avoid double-counting of any area in calculation of the total area.
+If an overlap is detected, the program signals about it at the bottom of the map, mentioning the other roster items with which an overlap was detected. Overlap detection works instantaneously, even if the answer to the question has not been saved yet."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="interviewer"><meta property="article:published_time" content="2022-12-15T00:00:01+00:00"><meta property="article:modified_time" content="2022-12-15T00:00:01+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Overlap Detection</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/interviewer/>Interviewer</a></li><li class=breadcrumb-item><a href=/interviewer/special/>Special Topics</a></li><li class="breadcrumb-item active" aria-current=page>Overlap Detection</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Overlap Detection</h2><div class="data text-right">December 15, 2022</div></div><div class=article-content><p>Overlap detection is feature in Survey Solutions’ <a href=/questionnaire-designer/questions/geography-question/>geography
+question</a>.
+It is applicable only to the geography questions
+placed in a roster. When activated by the questionnaire
+designer, it will assist the interviewers in marking the
+areas in such a way that there is no overlap between
+multiple marked plots/parcels. This is important to avoid
+double-counting of any area in calculation of the total
+area.</p><p>If an overlap is detected, the program signals about it at
+the bottom of the map, mentioning the other roster items
+with which an overlap was detected. Overlap detection works
+instantaneously, even if the answer to the question has not
+been saved yet.</p><center><a href=images/overlap_interviewer.png><img src=images/overlap_interviewer.png width=612></a></center><p>Note that the overlap applies to all variants of the
+geography question: polygon, polyline, multipoint and
+single point, though most common use is with marking
+the areas (polygons). An overlap is signaled when there
+is at least one common point of the current answer with
+the answer to the same geography question in any other
+items of the roster. Thus:</p><ul><li>for polygons: when they overlap with at least one
+common point;</li><li>for polylines: when they intersect in at least one
+point;</li><li>for multipoints: when there is at least one point
+common to the current answer and the answer to the
+same question in a different roster item.</li><li>for single points: when the two points are exactly
+the same.</li></ul><p>In practice, due to noise in measurement no two points
+in the single and multiple point geography questions
+will be exactly the same when measured with a sensor
+(even if the tablet is not moving at all). And if they
+happened to be the same, it is likely they are sourced
+not from a location sensor then.</p><p>The overlap detection serves a warning purpose only.
+It doesn’t prevent such data from being recorded and
+submitted by the interviewer.</p><p>The overlap detection applies to all modes of
+measurement: manual, automatic, and semi-automatic.</p><p>When overlap detection is switched on, the answers to the
+same question for other roster items are displayed on the same
+map, albeit in a different color:</p><center><a href=images/overlap_interviewer3.png><img src=images/overlap_interviewer3.png width=612></a></center><p><strong>Legend for colors:</strong></p><ul><li><b><font color=red>RED</font></b> - answer to the current
+geography question (e.g. current parcel);</li><li><b><font color=blue>BLUE</font></b> - answers to the same
+geography question for other roster items (e.g. other parcels),
+which do not overlap with the current one;</li><li><b><font color=orange>ORANGE</font></b> - answers to the
+same geography question for other roster items (e.g. other
+parcels) which do overlap with the current one.</li></ul><p>The overlap detection does not affect the export
+of the data, and whether the answer overlaps with
+another or not is not accessible from the syntax
+in writing expressions.</p><p>To activate overlap detection, tick the corresponding
+checkbox for those geography questions, where this is
+desirable.</p><p>The supervisors and headquarters users reviewing incoming
+interviews also have a view of the neighboring parcels and
+an overlap warning:</p><center><a href=images/overlap_server.jpg><img src=images/overlap_server.jpg width=612></a></center><p>In this example the overlap of the <em>THIRD PARCEL</em> (red circle) with the
+<em>SECOND PARCEL</em> (orange shape to its left) is detected, but this overlap is
+marginal and probably due to the noise in the location acquisition. Yet the
+overlap between the <em>THIRD PARCEL</em> and the <em>FIFTH PARCEL</em> is significant
+and is clearly double-counting the same area, and thus is likely a mistake.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

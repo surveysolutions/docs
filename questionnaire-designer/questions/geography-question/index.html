@@ -1,0 +1,124 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content><meta property="og:url" content="https://docs.mysurvey.solutions/questionnaire-designer/questions/geography-question/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Geography Question"><meta property="og:description" content="Description A question of geography-type can capture various geographical information. For example, it can be used to define the exact location of the dwelling and the area of a land plot.
+Geography-type questions are available only on mobile devices. In web interviews the question will appear as unsupported.
+Geography-type questions are available only in the version of the Interviewer App with ESRI map support.
+While it may be possible to answer the geography questions without using the base layer imagery, for example, with the automatic mode, the work is considerably more convenient for the interviewers when a base layer is provided. The map should be uploaded to the server first (see maps management), assigned to the interviewer, and the interviewer must synchronize the maps on the mobile device with the server."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="questionnaire-designer"><meta property="article:published_time" content="2017-10-12T18:32:01+00:00"><meta property="article:modified_time" content="2017-10-12T18:32:01+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Geography Question</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/>Questionnaire Designer</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/questions/>Question Types</a></li><li class="breadcrumb-item active" aria-current=page>Geography Question</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Geography Question</h2><div class="data text-right">October 12, 2017</div></div><div class=article-content><h2 id=description>Description </h2><p><img style=max-width:100%;height:auto src=/questionnaire-designer/questions/geography-question/images/825285_hu_cb2eb29fe2d7c452.png width=80 height=64>
+ </p><p>A question of geography-type can capture various geographical information. For
+example, it can be used to define the exact location of the dwelling and the
+area of a land plot.</p><p>Geography-type questions are available only on mobile devices. In web
+interviews the question will appear as
+<a href=/questionnaire-designer/questions/unsupported-question-type/>unsupported</a>.</p><p>Geography-type questions are available only in the version of the Interviewer
+App with ESRI map support.</p><p>While it may be possible to answer the geography questions without using the
+base layer imagery, for example, with the automatic mode, the work is
+considerably more convenient for the interviewers when a base layer is provided.
+The map should be uploaded to the server first (see maps management), assigned
+to the interviewer, and the interviewer must synchronize the maps on the mobile
+device with the server.</p><p> </p><h3 id=design>Design</h3><p>This question type has three specific parameters that can be set up in the
+Designer:</p><ol><li><p><code>Geometry type</code>: determines what answers this question will record and can
+be either of the:</p><ul><li><code>polygons</code> - to capture areas, such as land plots;</li><li><code>polyline</code> - to capture paths, such as path to travel from a dwelling to
+the source of water;</li><li><code>multipoint</code> - to capture multiple points, such as pharmacies or markets
+present in the vicinity of the dwelling;</li><li><code>point</code> - to capture a single location.</li></ul></li><li><p><code>Input mode</code>: determines how the answer is recorded, and can be one of the
+following values:</p><ul><li><code>manual</code> - the points are captured manually, by drawing on the mobile
+device&rsquo;s screen with a finger or a stylus;</li><li><code>automatic</code> - the points are captured from the location sensor automatically,
+with some <a href=/headquarters/config/admin-settings/#interviewersupervisor-application-settings>pre-defined frequency and
+accuracy</a>;</li><li><code>semiautomatic</code> - each point is captured from the location sensor when the
+user determines it is needed.</li></ul></li><li><p><code>Overlap detection</code> - checks for overlaps and automatically signals about
+overlaps of the answer of this question with the answers to the same question
+in other roster items.</p></li></ol><p>Other properties of the geography-type questions are same as for all other
+question types: variable name, variable label, question text, instruction text,
+etc. Note, however, that the name of the variable for a geography type question
+is limited to 26 characters.</p><p>Note also that the Tester App does not provide a possibility to set the
+requested frequency and accuracy parameters, but values 10 seconds and 20 meters
+are hardcoded into the App.</p><h3 id=use-in-syntax>Use in syntax</h3><p>The geography-type question may be referred in syntax expressions, for example,
+for the purpose of validation of the answer or for enabling/disabling other
+questions in the questionnaire.</p><p>If the variable name for the geography-type question is <em>Q</em>, then the following
+are defined:</p><ul><li><p><em>Q.Area</em> - area (in square meters) of the polygon recorded in <em>Q</em>. It is <code>null</code>
+if the geometry type is anything different from <em>polygon</em>.</p></li><li><p><em>Q.Length</em> - length (in meters) of the perimeter of the polygon or length of
+the polyline recorded in <em>Q</em>. It is <code>null</code> if the geometry type is anything
+different from <em>polygon</em> or <em>polyline</em>.</p></li><li><p><em>Q.PointsCount</em> - number of points recorded in <em>Q</em>.</p></li><li><p><em>Q.RequestedAccuracy</em> - requested minimal accuracy (in meters) as set up
+in the workspace settings;</p></li><li><p><em>Q.RequestedFrequency</em> - number of seconds between the location measurements
+as set up in the workspace settings;</p></li></ul><p>Note that if <em>Q</em> has been answered, then the number of points in <em>Q</em> is always:</p><ul><li>one, if <em>Q</em> &rsquo;s geometry is set as <code>point</code>;</li><li>more than one, if <em>Q</em> &rsquo;s geometry is set as <code>polyline</code>;</li><li>more than two, if <em>Q</em> &rsquo;s geometry is set as <code>polygon</code>.</li></ul><p>For example, to decide whether a particular plot is large or small (more or less than a threshold stored in T), one could:
+write <code>Q.Area > T</code>.</p><h3 id=appearance-on-a-mobile-device>Appearance on a mobile device</h3><center><a href=images/geography_explained.png><img src=images/geography_explained.png width=612></a></center><ol><li>Selector of the background map layer, indicating which map has been selected (<em>Center-Washington</em> in the illustration). If there are any shapefiles received by the interviewer, an optional button <code>Show boundaries</code> will appear immediately underneath.</li><li>Buttons to navigate to current location, to data extent, to map extent, and the menu (contains the <code>Clear all</code> menu item).</li><li><code>Undo</code> button (this button has no effect in the automatic mode).</li><li>Polygon being marked as the answer to the question in the automatic mode.</li><li>Marker showing the position of the interviewer and the direction of movement, as well as the accuracy of the last measurement of the coordinates, in meters (<em>1.60</em> in the illustration).</li><li>Buttons for zooming the map in and out, and rotate towards the North.</li><li>Buttons for cancelling and saving of the answer to the question. In semi-automatic mode the button to capture the next point <code>Add point</code> appears to the left.</li><li>Reference to the source/copyright note for the map imagery.</li></ol><h3 id=interviewer-actions-to-answer-a-geography-type-question>Interviewer actions to answer a geography-type question</h3><p>The actions that the interviewer needs to do to answer a geography-type
+question vary by mode.</p><h4 id=manual-mode>Manual mode</h4><p>In the manual mode the interviewer marks the answer to the geography question
+by tapping on the screen with a finger or a special stylus. This allows adding
+the points at precise locations according to satellite or aerial photography.</p><center><a href=images/manual_polygon.png><img src=images/manual_polygon.png width=412></a></center><p>This illustration shows a polygon being marked as an answer to the geography
+question. Blue squares denote the points, the coordinates of which will be
+recorded as the answer to the question. The white circles between them allow
+adding more points (inserting them between the existing, if necessary).</p><h4 id=automatic-mode>Automatic mode</h4><p>In the automatic mode the points are captured from the mobile device&rsquo;s location
+sensor (typically GPS) with certain frequency and accuracy as set up by the
+administrator. The interviewer needs to:</p><ol><li>Select a proper map in the maps selector.</li><li>Go to the boundary of the plot.</li><li>Start the capturing process by clicking the blue <code>Start</code> button.</li><li>Walk steadily around the area being measured and observe the waypoints being
+recorded.</li><li>As the interviewer completes the loop and approaches the starting point the
+yellow <code>Save</code> button will turn green, indicating that the interviewer has
+arrived sufficiently close to the starting point. &lsquo;Sufficiently close&rsquo; is
+understood here as &ldquo;<em>The length of the last segment (that is always automatically
+added) is smaller than the requested accuracy parameter.</em>&rdquo; If the interviewer
+attempts to click the <code>Save</code> button when it is yellow a corresponding message
+will be issued, prompting the interviewer to continue traversing the land plot.</li></ol><p>Note that the <code>Undo</code> button is not active in the automatic mode!</p><center><a href=images/auto_yellow.png><img src=images/auto_yellow.png width=412></a></center><p>At a large zoom level one can notice that there is an additional marker - a
+green circle, which also appears on the map.</p><center><a href=images/auto_mode_explain.png><img src=images/auto_mode_explain.png width=612></a></center><ol><li>trajectory of earlier movement;</li><li>last recorded data point;</li><li>animated marker of current position;</li><li>attention circles around the marker;</li><li>last measured location that is usable (accuracy is in line
+with requested accuracy for automatic measurements) and the corresponding
+accuracy value (in meters, 1.6 in the illustration);</li><li>possible current real position of the interviewer if continued movement in
+the same direction (no marker depicted).</li></ol><p>Interviewers paying attention to these fine details would notice that it
+appears as if the green circle shows the future location of the interviewer.
+This, however, is not the case. The green circle (5) shows the last successfully
+(accurately enough) measured location. During the period between the points (2)
+recording the device may have multiple candidate locations determined and
+depicted updating the position of the green circle marker (5).</p><details><summary>Example</summary>For example, if the points are recorded
+every 10 seconds, but it only takes half a second to determine the current
+location, then there will be 20 location points determined in between. While
+not all of them will be accurate enough, some will and the interviewer will
+see that the markers follow him/her on the map. If the accuracy of the new
+measurement is not acceptable, that measurement will be disregarded and the
+green circle will not change it's position. In the case where the very first
+acquisition is unsuccessful the circle will be yellow. This signals that the
+program is actively attempting to record the location, but the location
+information is just not accurate enough to be acceptable. The blue filled
+marker (3) doesn't immediately jump to the new (just determined) location, but
+rather moves there smoothly. This animation lag creates an illusion that the
+mobile device knew where the interviewer was going to. In fact by the time
+the animation completes the interviewer may have moved further in the direction
+of the movement, of which there is no information yet, until that location is
+determined by the location sensor.</details><h4 id=semi-automatic>Semi-automatic</h4><p>Semi-automatic mode of recording data provides more control to the interviewer.
+Rather than recording all locations with certain frequency, it records only the
+points that were specifically acquired by decision of the interviewer.</p><center><a href=images/semi_addpoint.png><img src=images/semi_addpoint.png width=412></a></center><ol><li>Select a proper map in the maps selector.</li><li>Go to the boundary of the plot.</li><li>Start the capturing process by clicking the blue <code>Start</code> button.</li><li>Walk steadily around the area being measured when needed, add waypoints
+by clicking the blue <code>Add Point</code> button.</li><li>If a point was added by mistake, one can remove it by clicking the <code>Undo</code>
+button, which is enabled in the semi-automatic mode.</li><li>As the interviewer completes the loop and approaches the starting point the
+yellow <code>Save</code> button will turn green, indicating that the interviewer has
+arrived sufficiently close to the starting point. &lsquo;Sufficiently close&rsquo; is
+understood here as &ldquo;<em>The length of the last segment (that is always automatically
+added) is smaller than the requested accuracy parameter.</em>&rdquo; If the interviewer
+attempts to click the <code>Save</code> button when it is yellow a corresponding message
+will be issued, prompting the interviewer to continue traversing the land plot.</li></ol><h3 id=appearance-in-the-interview-overview>Appearance in the interview overview.</h3><p>When the interviewer switches to the <code>Overview</code> page of the interview that
+contains a geography question, the interviewer will find the coordinates of
+points recorded as answers to the questions there (or a message &ldquo;<em>Not answered</em>&rdquo;
+if no answer was recorded for that question.</p><center><a href=images/geography_in_overview.png><img src=images/geography_in_overview.png width=512></a></center><h3 id=appearance-of-the-answered-geography-question>Appearance of the answered geography question</h3><h4 id=on-a-mobile-device>On a Mobile Device</h4><center><a href=images/geography_answered.png><img src=images/geography_answered.png width=512></a></center><h4 id=in-the-headquarters>In the Headquarters</h4><p>When supervisor or headquarters users are reviewing the data submitted by the
+interviewers they can see the marked shape on a map layer and can pan and zoom
+the map as needed.</p><center><a href=images/geography_at_hq.png><img src=images/geography_at_hq.png width=512></a></center><p>The reviewer also can see the area, length, number of points and values of
+accuracy and frequency. It is also possible to see individual waypoints by
+clicking the <code>SHOW COORDINATES</code> link.</p><h3 id=export>EXPORT</h3><p>Data recorded in the geography-type question <em>Q</em> is exported in the data file
+into multiple columns:</p><ul><li><code>Q</code> - sequence of coordinates of each recorded point in the string format
+&ldquo;<em>lg,lt;lg,lt;&mldr;.;lg,lt</em>&rdquo;, where <em>lg</em> is the longitude and <em>lt</em> is the
+latitude of each point, a decimal dot is always used for fractional values;</li><li><code>Q__area</code> - calculated area (in square meters) of the selected polygon or a
+0 (zero value) if the geometry type is anything different from <code>polygon</code>;</li><li><code>Q__len</code> - length (in meters) of the selected polygon or polyline, or a
+0 (zero value) if the geometry type is anything different from <code>polygon</code> or
+<code>polyline</code>;</li><li><code>Q__num</code> - number of recorded points;</li><li><code>Q__racc</code> - requested accuracy (in meters) effective at the time when the
+question was answered if the input method for Q was <code>automatic</code> or <code>semi-automatic</code>, otherwise a system missing value;</li><li><code>Q__rfrq</code> - requested frequency (in seconds) effective at the time when
+the question was answered or a system missing if the input method is not
+<code>automatic</code>.</li></ul><p>Please note that if the question was not answered, then <strong>all of the above fields</strong>
+will take values mentioned as <em>&lsquo;reserved values&rsquo;</em> in the <a href=/headquarters/export/missing-values/>Missing values</a> article.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
