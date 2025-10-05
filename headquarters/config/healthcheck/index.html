@@ -1,0 +1,66 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="healthcheck,diagnostics,troubleshooting"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/config/healthcheck/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Healthcheck"><meta property="og:description" content="Survey Solutions server administrator has access to the special healthcheck page using the following: menu → Administration → Diagnostics.
+The health check diagnostics page shows:
+Overall server health status. Results of diagnostic checks. Server metrics. Statistics by workspace of the server. Overall server health check The following can be the statuses for the healthcheck:
+Healthy (green) - export service is responding and can access headquarters; Degraded (yellow) - export service is not answering; Unhealthy (red) - export service cannot access headquarters; Results of diagnostic checks. These are the diagnostic checks related to server configuration: whether the settings are set up correctly and the different components are able to talk to each other. Most of these settings are taken from the application configuration file, which is modified during the server post-installation configuration."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2020-12-09T00:00:00+00:00"><meta property="article:modified_time" content="2023-04-27T17:26:36-04:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Healthcheck</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/config/>Setup and Configuration</a></li><li class="breadcrumb-item active" aria-current=page>Healthcheck</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Healthcheck</h2><div class="data text-right">April 27, 2023</div></div><div class=article-content><p>Survey Solutions server administrator has access to the special healthcheck
+page using the following: <code>menu</code> → <code>Administration</code> → <code>Diagnostics</code>.</p><center><a href=images/healthcheck_overview_annotated.png><img src=images/healthcheck_overview_annotated.png width=800></a></center><p>The health check diagnostics page shows:</p><ol><li>Overall server health status.</li><li>Results of diagnostic checks.</li><li>Server metrics.</li><li>Statistics by workspace of the server.</li></ol><h4 id=overall-server-health-check>Overall server health check</h4><p>The following can be the statuses for the healthcheck:</p><ul><li><em><strong>Healthy</strong></em> (green) - export service is responding and can access headquarters;</li><li><em><strong>Degraded</strong></em> (yellow) - export service is not answering;</li><li><em><strong>Unhealthy</strong></em> (red) - export service cannot access headquarters;</li></ul><h4 id=results-of-diagnostic-checks>Results of diagnostic checks.</h4><p>These are the diagnostic checks related to server configuration: whether the
+settings are set up correctly and the different components are able to talk
+to each other. Most of these settings are taken from the application
+configuration file, which is modified during the server post-installation
+configuration.</p><h4 id=server-metrics>Server metrics.</h4><p>Server metrics characterize the server performance and workload, such as the
+CPU load, memory usage, number of concurrent queries, or the database footprint.</p><ul><li><p><strong>CPU usage</strong> the higher the value, the more busy the server is. Values close
+to 100% indicate that the server may be inadequate for the survey operation,
+which may result in requests not being addressed.</p></li><li><p><strong>Working memory usage</strong> reports the consumption of memory (in GB). If this
+value approaches the physical amount of memory expanding the memory may
+improve the overall performance of the server.</p></li><li><p><strong>Database size</strong> indicates overall DB footprint (estimation). Watch for the
+growth of the DB footprint especially on the systems that impose limits on the
+growth of the DB, such as RDS instances in AWS and other cloud-based providers.</p></li><li><p><strong>Web interview connections</strong> reflects the number of concurrent web interview
+sessions (includes the review of completed interviews by the supervisors/HQ
+users, etc).</p></li><li><p><strong>Stateful interviews in cache</strong> reflects the dynamics of the interviews cache,
+which expedites access to the contents of the interviews, such as when the
+interview is opened by several users.</p></li><li><p><strong>Exceptions count</strong> reflects the number of exceptions experienced by the
+server software. Review the Survey Solutions server logs if this number is
+positive.</p></li><li><p><strong>Database connections</strong> shows the number of connections from the Survey
+Solutions web server to the DB server (refer to <a href=https://www.postgresql.org/docs/current/runtime-config-connection.html>PostgreSQL documentation
+</a>).</p></li><li><p><strong>Database network usage</strong> reflects the read/write traffic between the web
+server and the DB server.</p></li><li><p><strong>Requests</strong> indicates the rate of requests to the server (in requests per
+second).</p></li></ul><h4 id=statistics-by-workspace-of-the-server>Statistics by workspace of the server</h4><p>For each workspace it reports:</p><ul><li>number of interviews, number of events and the corresponding size of the
+events database;</li><li>size of the workspace data;</li><li>number of emails regarding the completion of interviews in the sending
+queue currently.</li></ul><p>Database-related metrics are as reported by Postgres and are based on estimation.</p><p>Please note that calculating server metrics may take some time. During the
+calculation the healthcheck page will show:</p><center><a href=images/calculating_metrics.png><img src=images/calculating_metrics.png width=492></a></center><p>Server administrators are requested to inspect the indications of this panel for
+common problems before bringing them up to the support.</p><p>Under proper configuration all the checks in the health check page should
+pass in green. The number of broken packages may become positive due to
+miscoordination between the interviewers and supervisors (e.g. the same
+interview rejected to two different interviewers) even under normal work.</p><h4 id=remote-monitoring>Remote monitoring</h4><p>The overall healthcheck status is available for monitoring remotely (without
+authorization) at the following URL: <code>https://your.server.name/.hc</code> the response
+to which contains exactly one word: &ldquo;<em>Healthy</em>&rdquo;, &ldquo;<em>Degraded</em>&rdquo;, or &ldquo;<em>Unhealthy</em>&rdquo;.</p><p>For example, for the publicly available demo server the healthcheck status
+URL is: <a href=https://demo.mysurvey.solutions/.hc>https://demo.mysurvey.solutions/.hc</a></p><h3 id=websocket-connectivity-check>WebSocket connectivity check</h3><p>Following the server metrics the healthcheck page shows the process of testing
+the WebSocket connectivity. Under the normal operation the user should observe
+a sequence of PING and PONG messages with an interval of about 1-3 seconds. If
+only PING messages are observed and no PONG responses are received, then the
+server is experiencing a disruption in the WebSocket connectivity. This
+connectivity is necessary for <a href=https://en.wikipedia.org/wiki/SignalR>SignalR</a>,
+which is utilized in Survey Solutions to conduct web interviews and allow the
+supervisors/HQ-users to review the interviews on the server.</p><center><a href=images/ping-pong.png><img src=images/ping-pong.png width=800></a></center><div class="card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-warning rounded" style=border-width:4px!important><div class="wrap border border-left-0 rounded"><div class="card-body pt-1"><br>The WebSockets test is only informative if ran from an external network
+(from the internet). When run directly on the server it will indicate
+availability of WebSockets, yet the real user experience may be different.</div></div></div><div class="card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-warning rounded" style=border-width:4px!important><div class="wrap border border-left-0 rounded"><div class="card-body pt-1"><br>Note also that the PING-PONG communication here may indicate that a response
+has been received, but not over the <i>WebSockets</i>, but rather using <i>LongPolling</i>.
+This is not sufficient for Survey Solutions. Make sure the test succeeds in
+communication specifically over <b>WebSockets</b>.</div></div></div></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

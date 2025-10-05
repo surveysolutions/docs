@@ -1,0 +1,83 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="20.05"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-20-05/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 20.05"><meta property="og:description" content="Survey Solutions v20.05 adds the following useful features:
+Partial synchronization of interviews. Two-factor authentication (2FA). Filtering of interviews by identifying fields. Split of the HQ list of interviews into processed and in-progress Other changes. Partial synchronization of interviews. Earlier versions of Survey Solutions were sending only completed interviews from the tablet to the server. A number of our users have described partial synchronization of the interviews as extremely important for their surveys. Partial synchronization allows sending the information from the tablet to the server, while keeping the interview data on the tablet. This has numerous advantages, among which:"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2020-05-13T01:01:01+00:00"><meta property="article:modified_time" content="2020-05-13T01:01:01+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 20.05</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 20.05</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 20.05</h2><div class="data text-right">May 13, 2020</div></div><div class=article-content><p>Survey Solutions v20.05 adds the following useful features:</p><ul><li>Partial synchronization of interviews.</li><li>Two-factor authentication (2FA).</li><li>Filtering of interviews by identifying fields.</li><li>Split of the HQ list of interviews into processed and in-progress</li><li>Other changes.</li></ul><h3 id=partial-synchronization-of-interviews>Partial synchronization of interviews.</h3><p>Earlier versions of Survey Solutions were sending only completed
+interviews from the tablet to the server. A number of our users
+have described partial synchronization of the interviews as
+extremely important for their surveys. Partial synchronization
+allows sending the information from the tablet to the server,
+while keeping the interview data on the tablet. This has numerous
+advantages, among which:</p><ul><li><em>Increased reliability</em>: if the tablet is lost or damaged, the
+server will contain the last state of the interview when it was
+synchronized, and the interviewer will be able to resume from that
+state on a different device;</li><li><em>Better interaction with the supervisor</em>, who can now start
+reviewing (and commenting) the beginning of the interview even
+before it is fully realized.</li></ul><p>But partial synchronization comes at a cost of higher traffic,
+which may or may not be desirable. Hence the partial synchronization
+is an opt-in. Whether to enable partial synchronization is up to
+the administrator of the server, who can enable it in the server&rsquo;s
+settings.</p><h3 id=two-factor-authentication-2fa>Two-factor authentication (2FA)</h3><p>Two-factor authentication enhances security of the system by
+requiring an additional method of confirming the identity of
+the user. Compared to simple password-based systems, this
+method relies on confirmation on two channels:</p><ol><li>Something the user knows (password);</li><li>Something the user has (security token).</li></ol><p>The security token is typically implemented as a software
+running on the user’s phone with a wide range of
+implementations for various platforms (Android, iOS, Windows,
+Windows Mobile, etc).</p><p>Any user of Survey Solutions server can now enable the
+two-factor authentication for his (her) account in the account
+profile.</p><p>Read more about how to set up and use the two factor
+authentication in
+<a href=/headquarters/accounts/two-factor-authentication/>this article</a>.</p><h3 id=filtering-interviews-by-identifying-questions>Filtering interviews by identifying questions</h3><p>The list of interviews can contain many thousands of interviews
+in the large surveys. Locating specific interviews may be
+overwhelming. That’s why we have introduced the filter for
+interviews based on the identifying questions (defined by the
+Designer).</p><p>To use the filters, first select the questionnaire and version
+(since the questions may differ in different questionnaires),
+then click <strong>Questions selector</strong> button and select the questions
+you want to be part of the filter and confirm your selection
+with <strong>OK</strong> button. Then specify the values you want to be used
+to filter the interviews, for example, only interviews from a
+particular enumeration area, state, or phone number.</p><h3 id=split-of-the-hq-list-of-interviews-into-processed-and-in-progress>Split of the HQ list of interviews into processed and in-progress</h3><p>Large surveys may run for years and involve conducting millions
+of interviews. Usually, once they are approved by the Headquarters
+users, that’s the terminal state and no further actions are needed.
+The new feature allows to de-clutter the HQ-users&rsquo; workspace. By
+default now the HQ-user sees the list of the interviews that are
+not approved by the HQ yet (in all other statuses). This will
+allow them to focus on the tasks that are still in the progress.
+If necessary, all interviews may be seen at the same time by
+switching the corresponding filter setting.</p><h3 id=other-changes>Other changes:</h3><ul><li><p>The list of the interviews is now reformatted to use the space
+within the columns more efficiently, variable labels of identifying
+questions are used instead of question texts where provided, and
+the column width is automatically adjusted to accommodate more
+content when multiple identifying questions are defined in the
+questionnaire.</p></li><li><p>Interviews that are approved by the Headquarters users are no
+longer displayed in the list of the interviews with default
+settings as they need no further processing.</p></li><li><p>Tablets running earlier versions of the interviewer app may send
+an interview to the updated server (to 20.5) without an update, but
+will require an update when receiving rejected interviews. This is
+normal.</p></li><li><p>Sections in disabled state were previously always hidden. Now
+they will obey their individual <strong>hide-if-disabled</strong> flag. Check
+your earlier designed questionnaires to verify their behavior.</p></li><li><p>Assignments are sorted on the tablets in the natural order of
+their identifying fields: first by the first identifying fields,
+then (if there are ties) by the second identifying field, and so on.
+This should simplify locating assignments in the dashboard that are
+targeting respondents in the same or near-by areas.</p></li><li><p>When assignments being preloaded contain a GPS question that has
+values for latitude and longitude specified will also preload the
+GPS acquisition date with a default value.</p></li><li><p>Rejection notifications to the respondents were previously not
+delivered through the mass mail service for web interviews as was
+reported in the <a href=https://forum.mysurvey.solutions/t/download-web-link/2399>users&rsquo; forum</a>.</p></li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
