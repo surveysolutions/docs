@@ -9,9 +9,11 @@ aliases = ["/customer/portal/articles/2507731-how-can-i-try-out-survey-solutions
 
 **Step 1:** Develop a test questionnaire by following the instructions
 in the [Getting Started with Survey
-Solutions](https://youtu.be/KR-uSx4uaXo)video tutorial.  
-  
+Solutions](https://www.youtube.com/watch?v=Obh4DdvmH-o)video tutorial.  
+
 **Step 2:** Explore the survey management system by following the
-instructions in the [Setting Up a Test Survey](https://youtu.be/_2jQ-GFf5fs) video tutorial.  
-  
+instructions in the
+[Setting Up a Test Survey](https://www.youtube.com/watch?v=mkUcZATFqko)
+video tutorial.  
+
 **Step 3:** Should you have any further questions, please contact us.

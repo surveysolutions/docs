@@ -10,7 +10,7 @@ lastmod = 2021-07-19T00:00:00Z
 Survey Solutions users may familiarize themselves with the 
 Headquarters/Admin functionality using a personal demo server (PDS).
 
-<CENTER><IMG src="images\server.jpg"></CENTER>
+<CENTER><IMG src="images/server.jpg"></CENTER>
 
 Personal demo servers are managed through the [self-service 
 portal](https://pds.mysurvey.solutions). 

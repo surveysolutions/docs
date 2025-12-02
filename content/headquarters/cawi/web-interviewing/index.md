@@ -444,8 +444,8 @@ uncheck the corresponding option in the ***'Web interview settings'***: `Menu`
 &#x2192; `Administration` &#x2192; `Settings` &#x2192; `Web interview settings`.
 
 <CENTER>
-  <A href="images\web_interview_settings.png">
-    <IMG src="images\web_interview_settings.png" width=640>
+  <A href="images/web_interview_settings.png">
+    <IMG src="images/web_interview_settings.png" width=640>
   </A>
 </CENTER>
 

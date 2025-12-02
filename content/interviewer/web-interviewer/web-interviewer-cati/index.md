@@ -2,6 +2,7 @@
 title = "Web Interviewer CATI"
 keywords = ["web interviewer", "CATI", "phone", "telephone"]
 date = 2020-01-29T00:00:00Z
+lastmod = 2025-12-01T00:00:00Z
 +++
 
 
@@ -20,12 +21,12 @@ the proper phone numbers that the interviewers will dial to get a response.
 </CENTER>
 
 This allows to avoid purchasing the tablets and to re-use the computer equipment
-available in the existing call-centre.
+available in an existing call-centre.
 
 If the survey is a CATI survey, the designer of the questionnaire should avoid
-the questions that are not supported under such circumstances (picture, GPS, etc), 
-and, perhaps, extend the interview result codes to include telephone-related
-outcomes: 
+the questions that cannot be used under such circumstances (picture, GPS,
+etc), and, perhaps, extend the interview result codes to include
+telephone-related outcomes:
 
 - respondent out of the service area;
 - phone number always busy;
@@ -34,11 +35,14 @@ outcomes:
 - phone number belongs to/call is answered by a different person;
 etc.
 
-A very extensive guide on the result codes is published on the site of the American Association for Public Opinion Research (AAPOR):
-["Standard Definitions. Final Dispositions of Case Codes and Outcome Rates for Surveys"](https://www.aapor.org/AAPOR_Main/media/publications/Standard-Definitions20169theditionfinal.pdf)
+A very extensive guide on the result codes is published on the site of the
+American Association for Public Opinion Research (AAPOR) in the
+"*Standard Definitions. Final Dispositions of Case Codes and Outcome Rates for Surveys*" guidelines:
+- [10th edition (2023)](https://aapor.org/wp-content/uploads/2023/05/Standards-Definitions-10th-edition.pdf)
+- [9th edition (2016) (archived copy)](https://web.archive.org/web/20200414214912/https://www.aapor.org/AAPOR_Main/media/publications/Standard-Definitions20169theditionfinal.pdf)
 
-For organizations migrating their operations from face-to-face interviews to CATI the following generic protocol descriptions are available:
+For organizations migrating their operations from face-to-face interviews to
+CATI the following generic protocol descriptions are available:
 
 - [using tablets](/interviewer/special/cati/)
 - [using web-interviewer](/interviewer/web-interviewer/web-interviewer-instr/)
-

@@ -189,7 +189,7 @@ Here are some important differences:
 </TABLE>
 
 <CENTER>
-  <A href="md_create_new.png">
+  <A href="images/md_create_new.png">
     <IMG src="images/md_create_new.png" width=800>
   </A>
 </CENTER>
