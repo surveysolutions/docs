@@ -1,0 +1,118 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="local,standalone,self-hosted,error,troubleshooting"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/config/standalone-server-errors/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Data Server Errors"><meta property="og:description" content='The following errors may be encountered when working with a data server:
+1. “Unable to import new questionnaire: Could not connect to Designer. Please check if Designer is available and try again."
+Your Headquaters installation is trying to contact the Survey Solutions Designer server to import the questionnaire, but can’t reach it. It is very unlikely that the Designer is not responding or is not working read how to check here so the problem is most likely with your network configuration. Consult your network administrator and ask him/her to trace the signal and see where it stops. Most commonly it is prevented by your Firewall software or hardware.'><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2020-06-15T00:00:00+00:00"><meta property="article:modified_time" content="2025-12-02T17:12:26-05:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Data Server Errors</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/config/>Setup and Configuration</a></li><li class="breadcrumb-item active" aria-current=page>Data Server Errors</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Data Server Errors</h2><div class="data text-right">December 2, 2025</div></div><div class=article-content><p>The following errors may be encountered when working with a data server:</p><p><font color=red>1. &ldquo;Unable to import new questionnaire: Could not connect to Designer. Please check if Designer is available and try again."</font></p><p>Your Headquaters installation is trying to contact the Survey Solutions Designer server to import the questionnaire, but can&rsquo;t reach it. It is very unlikely that the Designer is not responding or is not working <a href=/faq/server-not-working/>read how to check here</a> so the problem is most likely with your network configuration. Consult your network administrator and ask him/her to trace the signal and see where it stops. Most commonly it is prevented by your Firewall software or hardware.</p><p>Currently, Designer application is available at <a href=https://designer.mysurvey.solutions>https://designer.mysurvey.solutions</a>, this address is accessed every time an HQ-user is trying to import a questionnaire to the server.<br>Please make sure that this URL is reachable from the server that is hosting the Headquarters app.</p><p><font color=red>2. &ldquo;The server is not registered with Questionnaire Designer. Please contact support for registration. IP=n1.n2.n3.n4&rdquo;</font></p><p>This message was only issued by older installations of the Survey Solutions software, which should be updated by now. Survey Solutions doesn&rsquo;t issue this message since version 20.05.</p><p><font color=red>3. &ldquo;New feature(s) is not supported by your installation. Please update."</font></p><p>You are trying to import a questionnaire that is utilizing a feature that your installation doesn&rsquo;t support. (The message may also mention a specific feature). Either update your Survey Solutions installation, or re-design your questionnaire not to use the feature which is mentioned. Check the <a href=/release-notes/>release notes</a> for identifying recently added features that may not be avaialble in your current installation. Keep your data server recent to prevent bugs and security problems.</p><p>On the cloud servers that our team manages this error is very unlikely as we tend to update all of these servers within days after a new version is released. If you encounter this error on a cloud server https://*.mysurvey.solutions, and you believe the server should be already up-to-date by this time, please contact the support team.</p><p><font color=red>4. &ldquo;Export service unavailable."</font></p><p>You are likely using a very old version of Survey Solutions if you are seeing this message. Before troubleshooting the issue, consider updating first.</p><p><font color=red>5. &ldquo;Error during the site initialization. Check application log for details."</font></p><p>This error occurring at the startup of the website may be caused by various configuration problems, of which the log files</p><ul><li><tt>headquarters.*.log</tt> and</li><li><tt>headquarters.verbose.json.*.log</tt></li></ul><p>should be informative (date is contained instead of the * in real files). For example, this error may occur if the database connection string entered during the installation was specified incorrectly. See also #15 below if the message also mentions database connectivity.</p><p><font color=red>6. &ldquo;This application only runs on Windows Server NNNN or higher."</font></p><p>This error message is issued during the installation when the installation is taking place on a machine not satisfying the minimal <a href=/faq/server-requirements/>requirements</a>. Make sure you install Survey Solutions on a server version of MS Windows, not on a regular desktop version. Note also, that MS Windows NNNN Professional is not a server version of MS Windows.</p><p><font color=red>7. &ldquo;An unexpected error occured during export."</font></p><p>This error message may be seen at the data export page and is rare. It signals
+about a situation, which was unanticipated and the Survey Solutions export
+service didn&rsquo;t manage to produce the data export file. It is not possible to
+say what exactly went wrong simply from this error message. Instead the server
+administrator should review the <a href=#logs>server logs</a> and if not able to
+identify the problem independently, contact support. Users in the role of
+Headquarters should notify their server administrator regarding the occurrence
+of this error.</p><p><font color=red>8. &ldquo;ReferenceError: google is not defined."</font></p><p>The message is displayed when the user accesses the map report at the server, where
+the map engine settings were not configured correctly and hence the map may not be
+displayed.</p><p>See the <a href=/headquarters/config/server-installation/#google-maps>Google maps</a>
+section of the server installation instructions.</p><p><font color=red>9. &ldquo;Application cannot connect to database using provided connection string&rdquo;</font></p><p>The Survey Solutions server couldn&rsquo;t connect to the database that stores its
+data. This could be due to a number of reasons, most commonly because either the
+address of the DB server is specified incorrectly or because the server is not
+reachable.</p><p><font color=red>10. &ldquo;Error 28P01: password authentication failed for user
+UUUUUU."</font></p><p>The error occurs at application startup and indicates that Survey Solutions
+could not access the database using the user name/password combination specified
+in the connection string. Typically the name of the user &lsquo;postgres&rsquo; is mentioned
+in the error message unless a different user has been specified in the db
+connection string.</p><p><font color=red>11. PostgreSQL error XX001<pre>
+&hellip;
+Exception data:
+Severity: ERROR
+SqlState: XX001
+MessageText: could not read block ###### in file &ldquo;~~~~~~~~&rdquo;: read only ### of ### bytes
+&hellip;
+</pre></font></p><p>This error message is not displayed to the user, but may be encountered in the
+server log files visible to the system administrator (typically a different
+person from the Survey Solutions administrator). Visual clues to the users
+may vary, but generally may present themselves as &ldquo;strange behavior&rdquo;, which
+could be, for example, the Survey Solutions indicating that the export of
+data has been started, but never completes, or saying that a user has been
+created, while in fact it is not, and other similar unexplained deviations.</p><p>If it is present, it indicates that there was a problem reading the data stored
+in the database and transaction was aborted. <strong>This is a serious error</strong>, commonly
+caused by defective hardware.</p><p>Most of the users are never concerned about the database used by
+Survey Solutions internally, since all the data structures needed for functioning
+of the software are created, updated, and deleted automatically. Technically,
+though, Survey Solutions uses PostgreSQL database for storing the data (this
+may change in the future, refer to the installation instructions for the
+current version, section on prerequisites/dependencies).
+(<a href=https://www.postgresql.org/docs/12/errcodes-appendix.html>PostgreSQL error</a>)</p><p>If the above error message is encountered in the log files, the system
+administrator should plan for a recovery process. Some possible reasons for
+this problem and advice for recovery are available at the following page:
+<a href=https://wiki.postgresql.org/wiki/Corruption>PostgreSQL-wiki:Corruption</a>.</p><p>Continuing the use of a system with a corrupt database may aggravate the
+problem, making the recovery more difficult or impossible. Still, the system
+administrator must proceed with caution and make a snapshot of the data
+before making any corrections, because introducing any changes may limit
+the subsequent options for recovery.</p><p>The exact steps to do vary case by case, but will likely require professional
+expertise and results may vary. This is not an error caused by Survey
+Solutions code, so Survey Solutions developers will not be able to
+provide assistance in case of such failures.</p><p><font color=red>12. PostgreSQL error XX002<pre>
+&hellip;
+Exception data:
+Severity: ERROR
+SqlState: XX002
+MessageText: index &ldquo;~~~~~~~~&rdquo; contains unexpected zero page at block ###
+Hint: Please REINDEX it.
+&hellip;
+</pre></font></p><p>The above error message is evidence of violation of integrity of the database
+where Survey Solutions stores its data in the server
+(<a href=https://www.postgresql.org/docs/12/errcodes-appendix.html>PostgreSQL error</a>).
+If the problem is caused by failing hardware, then the severity is high and
+the user should follow the same advice as in the case #11 above.</p><p>If the thorough analysis of the hardware (including search for bad sectors,
+file read fails, etc) indicates that the hardware is healthy and reliable, the
+user should reindex the database as advised in the message.</p><p>Reindexing is a standard non-destructive maintenance operation, see for example this
+<a href="https://youtu.be/VYuYNRvxTvw?t=490">external site video</a>
+or <a href=https://pgadmin-archive.postgresql.org/pgadmin4/v5.2/docs/pgadmin4-5.2.pdf>section 6.5 in the pgAdmin documentation</a></p><p>The database index may be rebuilt if the data is not affected. But if the
+hardware has failed for the index, next time it may fail for the data,
+which will not be recoverable. Hence disregarding the hardware check
+is risky and not recommended. See also:
+<a href=https://wiki.postgresql.org/wiki/Corruption>PostgreSQL-wiki:Corruption</a>.</p><p><font color=red>13. WAF blocking</font><br></p><p>An interviewer may report inability to log in to the tablet Interviewer App
+(see <a href=/interviewer/troubleshooting/synchronization-problems/>synchronization problems</a>).
+This could be due to the server's
+<a href=https://en.wikipedia.org/wiki/Web_application_firewall>WAF</a> configuration.
+The issue occurs typically
+and manifests itself with:</p><ul><li>an error message indicating that the site is not available:
+<i>"No connection to the Survey Solutions Supervisor. Please make sure that the website is available."</i></li><li>during the first login to the tablet Interviewer App</li><li>the site is responding when accessed from a browser of the same tablet</li><li>the tablet is able to send diagnostics information to the server, but the diagnostics shows no errors or no relevant errors.</li></ul></p><p>The issue can be diagnozed by making a probe synchronization and then
+reviewing the WAF log by the timestamp when the communication with the
+server was attempted. The log will contain the blocked query, for example
+<tt>/api/interviewer/...</tt> and the user-agent will indicate
+<tt>org.worldbank.solutions.interviewer/21.01</tt> (or a similar version id).</p><p>The exact unblocking actions depend on the software facilitating WAF
+and the rules engaged and requires cooperation of the person or organization
+managing the WAF. See example for <a href=https://support.f5.com/csp/article/K7931>BIG-IP ASM</a>
+on a third-party site.</p><p><font color=red>14. WebSockets not enabled</font><br></p><p>The issue has the following symptomatics:</p><ul><li>the server appears working normally;</li><li>an administrator or an HQ user cannot create new assignments one-by-one from a web interface, or</li><li>a supervisor can&rsquo;t review a submitted interviw, or</li><li>an interviewer working on the server can&rsquo;t start an interview, or</li><li>a respondent to web-interiew can&rsquo;t open it.</li></ul><p>Survey Solutions uses <a href=https://en.wikipedia.org/wiki/SignalR>SignalR</a> library,
+which communicates over <a href=https://en.wikipedia.org/wiki/WebSocket>WebSockets</a>.
+If the WebSockets connectivity is not available, the above-mentioned functionality will not
+be available either. Survey Solutions may not control WebSockets on its own. WebSockets must
+be enabled by the person installing the Survey Solutions server. See more details at this
+<a href=https://docs.microsoft.com/en-us/iis/configuration/system.webserver/websocket>Microsoft's page</a>.</p><p>To help diagnoze this problem, refer to the <b><i>WebSocket connectivity check</i></b>
+as described in the <a href=/headquarters/config/healthcheck/>Healthcheck</a> article.</p><p><font color=red>15. Application cannot connect to database using provided
+connection string. Check application log file for details</font><br></p><p>This message may be encountered when accessing the server login page in
+a browser, and indicates that the server failed to start. The application
+log files are described below. For this specific error, please refer to the
+page <a href=/headquarters/config/db-connection-errors>DB connection errors</a>.</p><a name=logs><h3 id=application-log-files>Application log files</h3><p>In some cases the application log files must be inspected for evidence of what step of the has failed and/or what was the unexpected situation. This technical information is accessible to the IT-personnel (person administrating the server) and is not published on any of the web pages served by the server.</p><p>The administrator will find the necessary logs in the <code>Logs</code> subfolder of the
+folder where the Survey Solutions is installed. The log files are organized by date
+to simplify locating the necessary files. They are text files, so the administrators
+can read them to try to identify the error themselves, or to inspect the information
+being sent if there are any privacy concerns.</p><p>If Survey Solutions was installed using the default destination
+<code>C:\Survey Solutions</code> then the log files are placed to the folder <code>C:\Survey Solutions\Site\Logs</code> and the files are named <code>headquarters.[date].log</code>.</p><p>If you are sending the log files to support, please keep in mind that our messaging system does not support attachments of multiple megabytes in size. If you need to send large files (more than ~1MB) please use a file sharing service and send us the link instead. If you encrypt your log files with a password, don&rsquo;t forget to include it into the same message.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
