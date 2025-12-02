@@ -22,13 +22,15 @@ potential:
 
 3rd Survey Solutions Online User Group Meeting
 ----------------------------------------------
+```
+Tuesday, March 14th, 2017
+9:00 am Eastern Standard Time (New York, GMT-05:00)
+1 hr Meeting
+number (access code): ### ### ###
+meeting password: ########
+```
 
-Tuesday, March 14th, 2017  
-9:00 am | Eastern Standard Time (New York, GMT-05:00) | 1 hr Meeting
-number (access code): 738 604 216 Meeting password: 6JjGtYHM
-
-[**JOIN THE
-MEETING**](https://worldbankgroup.webex.com/mw3100/mywebex/default.do?service=1&siteurl=worldbankgroup&nomenu=true&main_url=%2Fmc3100%2Fe.do%3Fsiteurl%3Dworldbankgroup%26AT%3DMI%26EventID%3D538762857%26UID%3D0%26Host%3DQUhTSwAAAAM0k73yorgG80QY-w9TG73oTlujpQXIq_p7tKNIM-7dEhiU745zW-z49Zo6E3IGuW_PTkl5HQePH3_zcxPzUGYD0%26FrameSet%3D2%26MTID%3Dmecfa1bc5d436c57667e30985f49a046e)
+JOIN THE MEETING (obsolete link has been removed)
 
 Feature request form
 --------------------

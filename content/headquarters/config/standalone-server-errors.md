@@ -149,7 +149,7 @@ user should reindex the database as advised in the message.
 
 Reindexing is a standard non-destructive maintenance operation, see for example this
 [external site video](https://youtu.be/VYuYNRvxTvw?t=490)
-or [section 6.5 in the pgAdmin documentation](https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v5.2/docs/pgadmin4-5.2.pdf)
+or [section 6.5 in the pgAdmin documentation](https://pgadmin-archive.postgresql.org/pgadmin4/v5.2/docs/pgadmin4-5.2.pdf)
 
 The database index may be rebuilt if the data is not affected. But if the
 hardware has failed for the index, next time it may fail for the data,

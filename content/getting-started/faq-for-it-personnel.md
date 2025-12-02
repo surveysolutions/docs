@@ -60,25 +60,6 @@ devices supporting this latest version.*
                         <h6>3. How do we configure our security software to collaborate with Survey Solutions?</h6>
                         <ul>
                             <li>Firewalls, anti-virus, and integrated security packages need to be configured to permit Survey Solutions server component to communicate with other devices exchanging data with it. Consult your security software manual and network administrator for specific instructions.</li>
-                            <li><a href="https://technet.microsoft.com/en-us/library/cc753558.aspx" target="_blank">Instructions for Windows Server 2012
-                            Firewall</a></li>
-                            <li>Examples for configuring other common security software:
-                                <ul>
-                                    <li><a href="https://www.avast.com/en-us/faq.php?article=AVKB25" target="_blank">Avast Internet
-                                    Security</a></li>
-                                    <li><a href="https://help.comodo.com/topic-72-1-451-4772-.html" target="_blank">Comodo Internet
-                                    Security</a></li>
-                                    <li><a href="http://support.kaspersky.com/us/12101" target="_blank">Kaspersky Internet
-                                    Security</a></li>
-                                    <li><a href="https://service.mcafee.com/webcenter/portal/cp/home/articleview?locale=en-US&amp;articleId=TS100887" target="_blank">McAfee Internet
-                                    Security</a></li>
-                                    <li><a href="https://support.norton.com/sp/en/us/home/current/solutions/kb20100320035324EN_EndUserProfile_en_us" target="_blank">Norton Internet
-                                    Security</a></li>
-                                    <li><a href="http://download.zonealarm.com/bin/inclient/ZA_HelpCenter/91619.htm" target="_blank">ZoneAlarm Pro
-                                    Firewall</a></li>
-                                </ul>
-                            </li>
-                            <li>Other internet security packages may have similar configuration settings to allow a program access to network resources.</li>
                         </ul>
                         <h6>4. We have necessary server equipment, but no specialists to install the Survey Solutions software. Is it possible to get help?</h6>
                         <ul>

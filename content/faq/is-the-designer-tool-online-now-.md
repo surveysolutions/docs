@@ -33,7 +33,6 @@ Survey Solutions developers are in any way affiliated with these
 services, listed below in no particular order:
 
 - <http://downforeveryoneorjustme.com/designer.mysurvey.solutions>
-- <https://isitdownorjust.me/designer-mysurvey-solutions/>
 - <https://sitechecker.pro/app/main/website-down-land?pageUrl=designer.mysurvey.solutions>
 - <https://onlineornot.com/website-down-checker?url=https://designer.mysurvey.solutions>
 - <https://www.websiteplanet.com/webtools/down-or-not/?dorn=https%3A%2F%2Fdesigner.mysurvey.solutions>
