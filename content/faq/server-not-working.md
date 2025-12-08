@@ -19,8 +19,8 @@ rather than the server itself.
 The following tools may be helpful in determining whether it is
 indeed a problem with the server or with a specific user's device
 trying to access that server (*These are the third-party tools and
-we neither produce, nor provide any training or support related to
-these tools.* ):
+we neither produce them, nor provide any training or support related
+to these tools*):
 
 - <http://downforeveryoneorjustme.com/demo.mysurvey.solutions>
 - <https://www.site24x7.com/check-website-availability.html>  

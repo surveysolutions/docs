@@ -139,7 +139,7 @@ managers (supervisors/HQ-users/Admins) via a map icon at the pages showing
 assignments or interviews.
 
 <CENTER>
-  <A href="md_create_new.png">
+  <A href="images/md_statuses.png">
     <IMG src="images/md_statuses.png" width=800>
   </A>
 </CENTER>
