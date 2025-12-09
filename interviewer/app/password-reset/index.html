@@ -1,0 +1,65 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="interviewer,password,reset"><meta property="og:url" content="https://docs.mysurvey.solutions/interviewer/app/password-reset/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Interviewer Password Reset"><meta property="og:description" content="This article describes the actions in case an interviewer forgets the password that was assigned to him/her. If you are a PDS administrator and forgot your password, refer to another article: PDS password reset.
+Important:
+Survey Solutions doesn’t store the passwords of interviewers in the clear text. So if it is forgotten, no user may look it up inside Survey Solutions, neither the Supervisors, nor the Headquarters, nor the Administrator users."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="interviewer"><meta property="article:published_time" content="2019-04-05T07:07:07+00:00"><meta property="article:modified_time" content="2021-08-24T07:07:07+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Interviewer Password Reset</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/interviewer/>Interviewer</a></li><li class=breadcrumb-item><a href=/interviewer/app/>Overview of the App</a></li><li class="breadcrumb-item active" aria-current=page>Interviewer Password Reset</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Interviewer Password Reset</h2><div class="data text-right">August 24, 2021</div></div><div class=article-content><p>This article describes the actions in case an interviewer forgets the password
+that was assigned to him/her. If you are a PDS administrator and forgot your
+password, refer to another article:
+<a href=/headquarters/config/pds-password-reset/>PDS password reset</a>.</p><p><u>Important</u>:</p><ul><li><p>Survey Solutions doesn&rsquo;t store the passwords of interviewers in the clear
+text. So if it is forgotten, no user may look it up inside Survey Solutions,
+neither the Supervisors, nor the Headquarters, nor the Administrator users.</p></li><li><p>The interviewer may not recover his forgotten password himself (even if an
+optional phone number or email were specified for his account). This requires
+cooperation of the <a href=/headquarters/accounts/survey-solutions-server-administrator/>administrator</a> user.</p></li></ul><p>The practical sequence of actions is the following:</p><ol><li>Interviewer realizes he has forgotten the password and can&rsquo;t login to the application.</li><li>Interviewer contacts the supervisor and asks to assign a new password. This is only if the interviewer doesn&rsquo;t have a direct contact to the server administrator, which is typically the case. For operations where the interviewers do have a direct contact of the server administrator, they should contact the administrator directly (steps #2,3).</li><li>Supervisor passes the request of the interviewer for a change of the password to the administrator user.</li><li>The administrator makes sure that he has confirmed the identity of the person requesting the password change as a legitimate interviewer (using organization&rsquo;s ID/passport/or other similar identification documents), then assigns a new password, and communicates it back to the interviewer. This is a temporary password, which must be changed, before the interviewer may continue working.</li><li>Interviewer enters any text to the password box at the login screen 5 times. After that
+the system will suggest to login online with the message
+&ldquo;<em>YOU COULD TRY TO SIGN IN ONLINE IF YOU FORGOT YOUR PASSWORD OR IT WAS RESET</em>&rdquo;.</li></ol><center><a href=images/SignInOnline.png><img src=images/SignInOnline.png width=33%></a></center><ol start=6><li>Interviewer enters the newly communicated password and presses the &ldquo;<em>Try to sign in
+online</em>&rdquo; button. This step requires connection to the server, so the tablet must be online.</li><li>If the password was entered incorrectly, the interviewer will receive the message
+&ldquo;<em>AUTHENTICATION PROBLEM ON THE REMOTE SERVER. PLEASE CONTACT YOUR SUPERVISOR</em>&rdquo;.</li><li>If the password was entered correctly, the interviewer will be asked to
+change the temporary password issued by the administrator in step #4 above
+to a new password, that is known only to him/her. The new password should
+be utilized from this moment on by this interviewer for all logins (online
+to the server and offline to the tablet&rsquo;s Interviewer app).</li></ol><p>If repetitive correct entries (in step #6) of the temporary password
+(communicated in step #4) are denied, then it may be the case that:</p><ul><li>there is a problem with the internet connectivity, which prevents reaching
+the server from the tablet for verification of the temporary password, or</li><li>the account is being abused by someone who became aware of the temporary
+password, has already used it to log in and has changed it to something else.
+These cases are rare, but could take place if, for example, a supervisor,
+becomes aware of the password when it was communicated by the administrator
+to the interviewer in step #4 (if the communication was not direct, but
+involving the supervisor) or by the mailbox administrator, who has access to
+the mail of the members of the organization.</li></ul><div class="card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-warning rounded" style=border-width:4px!important><div class="wrap border border-left-0 rounded"><div class="card-header border-0 bg-white pl-3 text-warning"><h3>Warning!</h3></div><div class="card-body pt-1"><p>All interviewers accounts are made either by headquarters or administrator
+users. Any account created by them will initially be created with a temporary
+password that must be changed before the interviewer can continue working. The
+same applies if the account&rsquo;s password was subsequently reset by the
+administrator. See also: <a href=/release-notes/version-21-05#own-passwords-enforcement>own-passwords enforcement</a>.</p><p>If a new password was issued to an interviewer and the first login with that
+password is not followed by a prompt for it to be changed then it is evidence
+that that password has been compromised. Even if the interviewer can log in
+and work with that password he/she should not and should insist on a new
+password reset.</p><center><a href=images/ChangePassword.png><img src=images/ChangePassword.png width=33%></a></center></div></div></div><p>Note: If for any reason an interviewer&rsquo;s password is changed while he is
+logged in, he will not be able to synchronize: once he tries to synchronize
+a message will pop up requesting him to enter the new password (password is
+validated for every synchronization session even if the interviewer has
+already logged in to the Interviewer app).</p><div class="card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-info rounded" style=border-width:4px!important><div class="wrap border border-left-0 rounded"><div class="card-header border-0 bg-white pl-3 text-info"><h3>Note</h3></div><div class="card-body pt-1"><p>If the interviewer is working both with an online account on the server and
+with the tablet&rsquo;s Interviewer App, the interviewer account password is the
+same for both tools. Correspondingly, if it has been reset, the temporary
+password assigned by the server administrator will be anticipated in both
+tools for authentication.</p><p>If the first login after the password change was to the Interviewer App on
+the tablet, then for subsequent logins online the interviewer should enter
+the password he/she has selected.</p><p>If the first login after the password change was to the server online, then
+the App on the tablet is still not aware of the change that took place
+online, and hence the interviewer must provoke the online sign-on as
+described in step #5 above.</p></div></div></div><p>See also:</p><ul><li><a href=/interviewer/app/password-best-practices/>password best practices</a></li><li><a href=/release-notes/version-21-05#own-passwords-enforcement>own-passwords enforcement</a></li><li><a href=/headquarters/config/pds-password-reset/>PDS password reset</a></li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

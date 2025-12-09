@@ -1,0 +1,80 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="mandatory,required,validation"><meta property="og:url" content="https://docs.mysurvey.solutions/questionnaire-designer/techniques/critical-rules-and-questions/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Critical rules and questions"><meta property="og:description" content="Critical rules and questions designate conditions under which an interview may be completed. The questionnaire author declares such conditions in the Designer tool, and subsequently the headquarters user decides on what action Survey Solutions will undertake with these conditions before the interview can be completed (see types of actions below).
+Most users will find the critical questions feature straightforward to use: if a question is declared critical in the Designer, then it must have an answer at the time of completion."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="questionnaire-designer"><meta property="article:published_time" content="2024-06-05T22:22:22+00:00"><meta property="article:modified_time" content="2024-06-05T22:22:22+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Critical rules and questions</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/>Questionnaire Designer</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/techniques/>Solutions to common design problems</a></li><li class="breadcrumb-item active" aria-current=page>Critical rules and questions</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Critical rules and questions</h2><div class="data text-right">June 5, 2024</div></div><div class=article-content><p>Critical rules and questions designate conditions under which an interview may
+be completed. The questionnaire author declares such conditions in the Designer
+tool, and subsequently the headquarters user decides on what action Survey
+Solutions will undertake with these conditions before the interview can be
+completed (see types of actions below).</p><p>Most users will find the critical questions feature straightforward to use: if
+a question is declared critical in the Designer, then it must have an answer at
+the time of completion.</p><p>Critical rules are a more versatile tool, which allow formulating more complex
+conditions that must be satisfied (such as: &ldquo;<em>either of the questions <code>Q1</code> and
+<code>Q2</code> must be answered, but not necessarily both</em>&rdquo;).</p><p>The critical questions and critical rules are not mutually exclusive.
+Questionnaire authors may prefer whichever they feel more comfortable with, or
+both within any questionnaire.</p><p>Critical rules should not be confused with validation rules because they serve
+a different purpose. Validation rules decide which answers are indicated as
+valid or invalid, but are inconsequential for the submission of the interview
+data. On the other hand, the critical rules regulate whether the whole
+interview is acceptable or not, but do not necessarily implicate a particular
+question. Both validation and critical rules may be present in a questionnaire
+and complement each other.</p><div class="card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-danger rounded" style=border-width:4px!important><div class="wrap border border-left-0 rounded"><div class="card-header border-0 bg-white pl-3 text-danger"><h3>Attention!</h3></div><div class="card-body pt-1">Use this feature with caution: incorrect application may cause complete
+blocking of submissions of all interviews!</div></div></div><h2 id=critical-questions>Critical questions</h2><p>A critical question is designated in the Designer by the questionnaire author
+by setting the <code>Critical question</code> attribute. Questions of scopes <code>hidden</code> and
+<code>supervisor</code> may not be designated as critical (because the
+interviewers/respondents do not see them and can&rsquo;t provide an answer).</p><p>Critical questions are marked with a purple dot (<font color=#75485e>⬤</font>)
+in the list of the questions in the Designer view.</p><p>Critical questions are shown with their own filter during the interview review
+(for supervisors, headquarters, and administrator users). This filter may be
+combined with other existing filters, for example, a supervisor may opt to
+look at:</p><ul><li>all the critical questions, or</li><li>all the critical questions without an answer, or</li><li>all the critical questions with the answers deemed invalid, or</li><li>all the critical questions with a comment, etc.</li></ul><p>In case a critical question is left without an answer, a message is
+automatically generated for it and is shown on the interview completion screen.
+The message is clickable, and when clicked leads the interviewer (respondent)
+to that question in the interview.</p><p>If the critical question is contained in a roster (or a nested roster) then
+each instance of the question is treated separately (for example, if the
+question of age has been designated critical and answers are not specified for
+persons 2 and 4 in the roster, then 2 messages will be shown on the completion
+screen and will function as hyperlinks to the age questions for persons 2 and 4
+correspondingly).</p><h2 id=critical-rules>Critical rules</h2><p>Critical rules consist of a logical condition and a message. The rule is
+satisfied if the logical condition evaluates to the logical value <code>true</code>. The
+rule is not satisfied if the logical condition evaluates to the logical value
+<code>false</code> or if an exception occurs during the evaluation.</p><p>The messages corresponding to the unsatisfied rules are shown in the
+completion section. For the messages to be most useful it is recommended to
+include hyperlinks to the question (or questions) that are engaged in the check.</p><p>Critical rules are defined by the questionnaire designer using the
+<a href=/questionnaire-designer/toolbar/panel-of-advanced-instruments/>Panel of Advanced Instruments</a></p><p>When defining a critical rule, one can also write an optional description.</p><center><a href=images/critical_rules_panel.png><img src=images/critical_rules_panel.png width=470></a></center><p>The rules are evaluated when the interviewer (or respondent in a CAWI survey)
+reaches the completion screen. Importantly, when the supervisor reviews the
+interview, his or her changes (modifications to the supervisor questions) will
+not affect the status of the critical rules (they will not be re-evaluated).</p><h2 id=types-of-actions>Types of actions</h2><p>There are three types of actions that the software may do at completion:</p><ul><li><p><strong><code>Block</code></strong> - means that the interviews, which do not satisfy critical
+conditions (or have not answered critical questions) will not be possible to
+complete (the complete button will simply not be accessible to the interviewer
+or the web-respondent).</p></li><li><p><strong><code>Warn</code></strong> - means that the software will demand a comment and request an
+acknowledgement from the person completing the interview, when it contains
+unsatisfied critical conditions (or has any not answered critical questions).</p></li><li><p><strong><code>Ignore</code></strong> - means that the software will not check for observance of the
+critical conditions and answers to critical questions.</p></li></ul><p>For older questionnaires that do no make use of the critical rules or questions
+there is no change in the behavior, but for new questionnaires that do - the
+corresponding type of action must be selected during the questionnaire import
+(and can be subsequently revised in the web interface by the users in the roles:
+<code>headquarters</code>, <code>administrator</code>).</p><p>It is also possible to revise the currently applicable action type
+programmatically by accessing the corresponding API endpoint for the
+questionnaire (identified by its GUID and version number).</p><p>Questionnaire details view shows:</p><ul><li>whether the questionnaire contains any critical rules/questions (property
+<code>Critical verifications</code> - immutable), and</li><li>what action should be made by Survey Solutions at the completion screen
+(property <code>Action at submission</code> - mutable).</li></ul><p>Note that for the questionnaires cloned at the headquarters the type of action
+is copied from the original questionnaire at the time of the cloning, and
+subsequently can be changed independently from the origin.</p><center><a href=images/action_at_submission.png><img src=images/action_at_submission.png width=470></a></center><p>The API functionality of Survey Solutions has been extended with new endpoints
+for getting and setting the action at submission for questionnaires (surveys).
+See their syntax and parameters in the
+<a href=/headquarters/api/api-interactive-description/>API Interactive Description</a>.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

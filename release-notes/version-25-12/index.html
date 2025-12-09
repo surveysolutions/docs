@@ -1,0 +1,114 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="25.12"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-25-12/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 25.12"><meta property="og:description" content="This release concentrates on improvements to the usability of the Survey Solutions software. The new features include the following:
+Developer mode in WebTester. Revision of the Submit screen. Patterns used in text questions can now be specified in macros. Control over downloading of transcripts by respondents. PDF generation quotas at Designer. Resume link for web interviews. Interviewer download page revised. Audio compression on the client device. Updates to components. Besides the new features, this release addresses several bugs that our users have reported to us since the previous release."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2025-12-05T00:00:00+00:00"><meta property="article:modified_time" content="2025-12-05T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 25.12</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 25.12</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 25.12</h2><div class="data text-right">December 5, 2025</div></div><div class=article-content><p>This release concentrates on improvements to the usability of the Survey
+Solutions software. The new features include the following:</p><ul><li>Developer mode in WebTester.</li><li>Revision of the <code>Submit</code> screen.</li><li>Patterns used in text questions can now be specified in macros.</li><li>Control over downloading of transcripts by respondents.</li><li>PDF generation quotas at Designer.</li><li>Resume link for web interviews.</li><li>Interviewer download page revised.</li><li>Audio compression on the client device.</li><li>Updates to components.</li></ul><p>Besides the new features, this release addresses several bugs that our users
+have reported to us since the previous release.</p><font color=maroon>If you haven't installed hotfixes 25.04.1-25.04.8 this release incorporates
+them, so consider upgrading to 25.12 as soon as possible.</font><br><br><br><h2 id=developer-mode-in-webtester>Developer mode in WebTester</h2><p>Users testing the questionnaires in the Designer with the WebTester will find
+additional convenience and functionality with this new update. Earlier (since
+<a href=/release-notes/version-23-09/>version 23.09</a>)
+the tool already allowed showing the [normally invisible for interviewers and
+respondents] <a href=/questionnaire-designer/components/variables/>calculated variables</a>
+by activating the corresponding checkbox. This checkbox is now more powerful and
+activates the <em><strong>Developer mode</strong></em>. In this mode the testers can see:</p><ul><li>calculated variables;</li><li>supervisor&rsquo;s questions (if any);</li><li>hidden questions (if any);</li><li>variable names attached to the questions.</li></ul><p>The latter also work as hyperlinks. By clicking on the added variable name for
+the question you can be taken to that question in the questionnaire Designer
+tool, for example, to inspect or adjust its properties.</p><p>Exposing supervisor&rsquo;s and hidden questions is crucial to allow testing the
+questionnaires that were otherwise impossible to test in the Designer since
+they would require bringing them to the headquarters for preloading. Now the
+tester can switch to the Developer mode, provide responses to e.g. the hidden
+questions, save them as a scenario, and then restart testing not in Developer
+mode from that scenario simulating preloaded content.</p><p>The Developer mode checkbox is affecting all your testing sessions (in case you
+are testing several different questionnaires at the same time in different
+windows) launched in the same browser. The setting is now sustained between the
+questionnaire refreshes (once activated, it stays on until deactivated).</p><h2 id=revision-of-the-submit-screen>Revision of the <code>Submit</code> screen</h2><p>Submit page replaces the Complete page. It now shows a tabbed list of errors,
+critical rules and unanswered questions. Importantly for errors one now can see
+not only the text of the question with error, but also the error message itself
+(last error if there multiple errors are found in that question). If there were
+any comments left for such a question, they will be displayed in the same
+interface.</p><center><a href=images/review_and_submit.png><img src=images/review_and_submit.png width=501></a></center><h2 id=patterns-used-in-text-questions-can-now-be-specified-in-macros>Patterns used in text questions can now be specified in macros</h2><p>It is a common situation when there are multiple questions in a survey that
+need to comply with a certain pattern of input. For example, there could be
+a main phone number and a backup phone number to contact the respondent, in
+which case they should be formatted the same. When preparing a template
+questionnaire that can be used in different countries, the revision of the
+input pattern is thus a necessary customization task, that needs to be
+performed diligently throughout the whole questionnaire and overlooking a
+single question may result in inability to enter contact information during
+data collection.</p><p>This version permits the text input pattern to be specified in a macro, and
+that macro used in text questions throughout the questionnaire.</p><p>For example, we can define</p><pre tabindex=0><code>$phone_format=”(###) ###-####”
+</code></pre><p>and then use the macro <code>$phonefmt</code> in patterns for questions <code>main_phone</code>
+and <code>alt_phone</code>.</p><p>The convenience of this approach is that if the questionnaire needs to be
+adjusted to a particular country, the phone format needs to be adjusted in
+just one place.</p><p>Designers should be aware that older patterns (such as, for example,
+<code>"$###.##"</code>) continue to work even if they include a dollar sign, as long as
+the dollar sign character (which identifies macros) is not followed by an
+identifier that is also actually defined as a macro. For this reason, no error
+is being issued if you are specifying a pattern like <code>"$value: ###.##"</code> and
+don&rsquo;t define the macro named value (which would have been the case had you
+written <code>$value</code> elsewhere in a syntax expression).</p><p>In the unlikely event that your questionnaire included a pattern like
+<code>"$price is: ###.##"</code> where the word &ldquo;<em>price</em>&rdquo; was intended to be displayed
+as is and there was actually a macro named <code>price</code> defined in the
+questionnaire, then you need to rename that macro to something else, for
+example, to <code>price2</code>.</p><h2 id=control-over-downloading-of-transcripts-by-respondents>Control over downloading of transcripts by respondents</h2><p>CAWI interviewing functionality of Survey Solutions normally offers an
+option of downloading a transcript of the interview, which contains
+questions and answers, as well as the timestamps of when the answer was
+recorded (see <a href=/release-notes/version-20-09/>v20.09</a>). While most of
+the respondents will appreciate the option to retain a record of their
+submitted answers, some surveys may see this as non-desirable. This
+release of Survey Solutions allows central control over the transcript
+downloading in CAWI-mode interviews, by setting or unsetting a
+corresponding checkbox in the survey settings. Thus downloading
+transcripts, though permitted by default, can now be disallowed if needed.</p><center><a href=images/allow_transcripts.png><img src=images/allow_transcripts.png width=501></a></center><h2 id=pdf-generation-quotas-at-designer>PDF generation quotas at Designer</h2><p>Designer site users find the feature of
+<a href=/questionnaire-designer/interface/pdf-export-/>generating PDF documents</a> from
+their questionnaires very useful. While this is needed only occasionally,
+the process of rendering complicated questionnaires in a document format
+may take some time. Users placing multiple simultaneous requests for PDF
+generation may encounter a message indicating the need to wait for
+processing of their posted requests before posting new ones. This is
+normal and the generation of PDF questionnaire documents becomes
+available automatically once the earlier requests have been processed.</p><h2 id=resume-link-for-web-interviews>Resume link for web interviews</h2><p>Respondents to web-interviews often find themselves in need to interrupt
+their interview and resume it later, possibly even on a different device.
+In the earlier versions of Survey Solutions the users had an option to
+send themselves a resume-link, which allowed them to continue the
+interview if it needed to be resumed. Now this link can be generated, and
+the respondent may pass it to himself using any convenient and available
+sharing mechanism (for example, through a messenger, email, or preserve
+it as a bookmark or in a file on their device).</p><p>Generation of the resume-link does not require the bulk email sending to
+be configured on the server and it is automatically available in any
+CAWI-mode survey.</p><p>To create a resume-link, the respondent needs to select <code>Resume link</code>
+in the menu (while the interview is still in progress):</p><center><a href=images/resume_link1.png><img src=images/resume_link1.png width=501 border=1></a></center><p>and in the dialog that pops-up clicks <code>CREATE</code> to obtain the link:</p><center><a href=images/resume_link2.png><img src=images/resume_link2.png width=501></a></center><p>Click <code>CANCEL</code> when done copying.</p><p>The same dialog can be accessed again to display the same link later on.</p><p>The link remains accessible until the interview is submitted.</p><h2 id=interviewer-download-page-revised>Interviewer download page revised</h2><p>The Interviewer App download page was causing confusion where the checkbox
+was excluding some optional functionality (displaying of maps). Now the logic
+has been changed to inclusion: users that need to display maps need to check
+the checkbox, which is unchecked by default.</p><p>New users will find this new behavior more intuitive, but existing users
+need to pay attention to the revised behavior.</p><h2 id=audio-compression-on-the-client-device>Audio compression on the client device</h2><p>In the earlier versions of Survey Solutions compression of audio data was
+handled in part by the server. This meant that some of the data sent to
+server was large and required additional processing before it was usable
+for export (Survey Solutions employed <code>ffmpeg</code> tool for this purpose if it
+was installed and available).</p><p>In this new release there is no longer need to install and maintain <code>ffmpeg</code>
+for compression of audio data. Both audio type question and audio audit data
+are being compressed on the client device before being submitted to the
+server and remain unchanged since accepted.</p><p>If <code>ffmpeg</code> was earlier installed and configured to be used in conjunction
+with Survey Solutions, newer versions will disregard it.</p><h2 id=updates-to-components>Updates to components</h2><p>We&rsquo;ve updated several the 3rd-party components included with Survey Solutions,
+which are responsible for the following functionality:</p><ul><li><p><strong>Barcode scanning</strong>: Following up on the signals from the users that
+encountered that the barcode recognition is not working reliably in some
+circumstances we have updated the component utilized in the Survey Solutions
+Interviewer and Tester applications. While the new component replicates
+the behavior and interface of the previously used one (such as the ability
+to automatically recognize the format of the barcode/QR-code presented to it),
+it works more reliably in the situations that we&rsquo;ve reviewed.</p></li><li><p><strong>Web preview</strong>: We&rsquo;ve changed the visual component utilized for editing and
+showing previews of the web page templates for CAWI interviewing.</p></li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

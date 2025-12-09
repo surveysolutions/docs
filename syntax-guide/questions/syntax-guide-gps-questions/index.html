@@ -1,0 +1,70 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="syntax,gps"><meta property="og:url" content="https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-gps-questions/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Syntax Guide: GPS questions"><meta property="og:description" content="Responses for the GPS questions are recorded as: class {
+double Latitude;
+double Longitude;
+double Accuracy;
+double Altitude;
+}
+The following functions can be used in conditions for GPS questions:
+Longitude, Latitude, Accuracy, and Altitude. Retrieves the latitude/longitude/accuracy/altitude of a GPS coordinate. InRectangle. Check if the coordinates are inside a rectangle. GpsDistance. Calculate the distance between two coordinates in meters. GpsDistanceKm. *Calculate the distance between two coordinates in kilometers. * Longitude, Latitude, Accuracy, and Altitude Description Retrieves the latitude/longitude/accuracy/altitude of a GPS coordinate."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="syntax-guide"><meta property="article:published_time" content="2016-11-22T20:31:12+00:00"><meta property="article:modified_time" content="2016-11-22T20:31:12+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Syntax Guide: GPS questions</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/syntax-guide/>Syntax Guide</a></li><li class=breadcrumb-item><a href=/syntax-guide/questions/>Questions</a></li><li class="breadcrumb-item active" aria-current=page>Syntax Guide: GPS questions</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Syntax Guide: GPS questions</h2><div class="data text-right">November 22, 2016</div></div><div class=article-content><p>Responses for the <a href=/questionnaire-designer/gps-question>GPS questions</a>
+are recorded as: </p><p>class {<br>  double Latitude;<br>  double Longitude;<br>  double Accuracy;<br>  double Altitude;<br>}</p><p>The following functions can be used in conditions for GPS questions:</p><ul><li><a href=#retrieve>Longitude, Latitude, Accuracy, and Altitude.</a> <em>Retrieves
+the latitude/longitude/accuracy/altitude of a GPS coordinate.</em></li><li><a href=#InRectangle>InRectangle</a>. <em>Check if the coordinates are inside a
+rectangle.</em> </li><li><a href=#GPSDistance>GpsDistance.</a> <em>Calculate the distance between two
+coordinates in meters.</em></li><li><a href=#GPSDistanceKm>GpsDistanceKm</a>. *Calculate the distance between two
+coordinates in kilometers. *</li></ul><h2 id=longitude-latitude-accuracy-and-altitude><span id=retrieve></span>Longitude, Latitude, Accuracy, and Altitude</h2><h3 id=description>Description</h3><p>Retrieves the latitude/longitude/accuracy/altitude of a GPS coordinate.</p><h3 id=syntax>Syntax</h3><pre><code>var_GPS.Longitude
+
+var_GPS.Latitude
+
+var_GPS.Accuracy
+
+var_GPS.Altitude
+</code></pre><p>This function retrieves the longitude, latitude, accuracy or altitude
+from a GPS question. var_GPS is the variable name for the GPS question,
+followed by “.” and the name of the element that you want to retrieve.</p><h3 id=example-1>Example 1</h3><p>Suppose you are collecting data in Uganda and the household samples are
+along the equator. In a GPS question you are recording the coordinates
+of each household. You want to make sure that the GPS recorded is in
+fact along the equator.</p><p>For this check, we would write the validation condition for the question
+like this:</p><pre><code>house_GPS.Longitude==0
+</code></pre><h3 id=example-2>Example 2</h3><p>For a GPS question recording the coordinates of a household you want to
+make sure that the accuracy is equal to or less than 15.</p><p>The validation condition for this question would be:</p><pre><code>house_GPS.Accuracy&lt;=15
+</code></pre><h2 id=inrectangle><span id=InRectangle></span>InRectangle</h2><h3 id=description-1>Description</h3><p>Confirm that a GPS coordinate falls within a rectangle defined by north,
+west, south, and east boundaries.</p><h3 id=syntax-1>Syntax</h3><pre><code>var_GPS.InRectangle(north,west,south,east)
+</code></pre><p>This function verifies that a coordinate (longitude and latitude) fall
+within the rectangle defined by the north, west, south, east corner
+coordinates.<br> </p><h3 id=example-1-1>Example 1</h3><p>Assume that you are conducting a study in Ethiopia and you want to make
+sure that the GPS coordinates recorded are within the country.<br> <br>For this check, we would write the validation condition for the question
+like this:</p><pre><code>house_GPS.InRectangle(14.390422862509851,33.0984365234375,3.7756813387012143, 47.993157226562516)
+</code></pre><p>Note that writing values so precisely makes no practical sense. As this
+<a href=http://gis.stackexchange.com/questions/8650/measuring-accuracy-of-latitude-and-longitude/8674#8674>discussion
+thread</a>
+indicates, &ldquo;The fifth decimal place is worth up to 1.1 m: it distinguish
+trees from each other. Accuracy to this level with commercial GPS units
+can only be achieved with differential correction.&rdquo;</p><h2 id=gpsdistance><span id=GPSDistance></span>GpsDistance</h2><h3 id=description-2>Description</h3><p>Calculates the distance between two coordinates in meters.</p><h3 id=syntax-2>Syntax</h3><pre><code>gpsA.GpsDistance(gpsB)
+</code></pre><p>This function calculates the distance in meters (m) between the
+coordinates gpsA and gpsB.</p><h3 id=example-1-2>Example 1</h3><p>Assume you have two GPS questions in your survey, one (gpsHome) for the
+coordinates of the household’s house, and another for the coordinates of
+their field (gpsField). You want to check that the distance between the
+two is at least 50 meters.<br> <br>For this check, the validation condition would be:</p><pre><code>gpsHome.GpsDistance(gpsField)&gt;50
+</code></pre><h2 id=gpsdistancekm><span id=GPSDistanceKm></span>GpsDistanceKm</h2><h3 id=description-3>Description</h3><p>Calculates the distance between two coordinates in kilometers.</p><h3 id=syntax-3>Syntax</h3><pre><code>gpsA.GpsDistanceKm(gpsB)
+</code></pre><p>This function calculates the distance in kilometers (km) between the
+coordinates gpsA and gpsB**.**</p><h3 id=example-1-3>Example 1</h3><p>Suppose you have two GPS questions in your survey, one for each visit to
+the household (visit1_gps and visit2_gps**)**. You want to check that
+the distance between the two is less than .5 kilometers.<br> <br>For this check, the validation condition would be:</p><pre><code>visit1_gps.GpsDistanceKm(visit2_gps)&gt;.5
+</code></pre></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

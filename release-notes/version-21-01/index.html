@@ -1,0 +1,84 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="21.01"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-21-01/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 21.01"><meta property="og:description" content="The new version 21.01 brings the following new features:
+Isolation of work into workspaces; Server-wide users management page; Map dashboard for online users; Other changes. Isolation of work into workspaces This feature is the response of the Survey Solutions developers team to frequent requests of the users to separate different data collection operations to limit access to data for the users that manage the surveys. This is common for organizations that conduct multiple operations, often in several locations or countries, cooperate with different partners and/or have to outsource work to different subcontractors."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2021-01-22T02:02:02+00:00"><meta property="article:modified_time" content="2021-01-22T02:02:02+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 21.01</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 21.01</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 21.01</h2><div class="data text-right">January 22, 2021</div></div><div class=article-content><p>The new version 21.01 brings the following new features:</p><ol><li>Isolation of work into workspaces;</li><li>Server-wide users management page;</li><li>Map dashboard for online users;</li><li>Other changes.</li></ol><h3 id=isolation-of-work-into-workspaces>Isolation of work into workspaces</h3><p>This feature is the response of the Survey Solutions developers team to
+frequent requests of the users to separate different data collection
+operations to limit access to data for the users that manage the surveys.
+This is common for organizations that conduct multiple operations, often
+in several locations or countries, cooperate with different partners and/or
+have to outsource work to different subcontractors.</p><p>Recall that the HQ-users have access to all the data that is collected as
+part of any survey that is being conducted on the server. This gives any
+HQ-user to intervene in any survey by making new assignments, or making
+approval/rejection decisions, and importantly, exporting/downloading the
+data. Until now the only way of making the isolation was to instantiate
+multiple Survey Solutions data servers, which was costly and required
+multiple administrator accounts to coordinate the work of multiple servers.</p><p>Over the last year we have had extensive discussions with users setting
+up their servers and facing the above problem. As a result, we are
+introducing a new concept of a workspace into the Survey Solutions, which,
+we hope, will help in this regard.</p><p>Workspaces allow partitioning of a single server into multiple compartments
+that have limited impact on each other.</p><p>The following are the rules guiding the use and functioning of the workspaces:</p><ol><li>An administrator has access to all workspaces.</li><li>A user with an HQ and observer accounts may belong to one, some, or all
+workspaces, as designated by the administrator.</li><li>Each interviewer and supervisor account may log in to a single workspace.</li><li>User names are unique across all workspaces.</li><li>Questionnaires are imported into workspaces. Same questionnaire may be
+imported into different workspaces if necessary and their version numbering
+is independent.</li><li>Workspaces may be created, disabled, and deleted.</li><li>Disabling a workspace locks all activity in the workspace (stops web
+interviews, does not allow any user to log in). Users attempting to access
+a disabled workspace will receive a <em>&ldquo;Workspace Disabled&rdquo;</em> error page and
+must contact their survey coordinator for further instructions.</li><li>A workspace may be deleted only if it doesn’t have any surveys/questionnaires.</li><li>Deleting a workspace actually deletes (not archives) all the user accounts
+(interviewer/ supervisor) and all the maps that were part of that workspace.</li><li>Deletion of a workspace is irreversible.</li><li>Administrator configures each workspace settings separately (logo, global
+message, export password, email providers, etc).</li><li>The troubleshooting tools available for administrator
+(audit log, device logs, tablet information packages, etc) are separated by
+workspaces.</li><li>Users having access to multiple workspaces may switch between them using a
+workspace selector without the need to log in to each workspace separately.</li><li>Reports are built based on the content of a single workspace.</li><li>A special workspace named <em>&lsquo;primary&rsquo;</em> is always defined and can not be
+disabled or deleted. Any server updated from earlier Survey Solutions
+versions will place all the earlier entered data (including survey data,
+user accounts, maps, etc) into the primary workspace.</li><li>An observer may observe only in the workspaces in which he is permitted by
+the administrator, even if impersonating users that have access to other
+workspaces.</li></ol><p>Each workspace is assigned an identifier and a text label. The text label is
+shown to the users when they switch between the workspaces, while the
+identifier is used for forming the URLs in API calls.</p><p>To manage workspaces, the menu item <code>server administration</code> (available for
+administrators only) now leads to the list of the workspaces defined on the
+server. The settings and troubleshooting tools collected in the context
+menu were previously relevant for the whole server, but now are attributable
+to a particular workspace. For each enabled workspace the following actions
+are provided in the workspace context menu:</p><ul><li>Edit,</li><li>Settings,</li><li>Email providers,</li><li>Device logs,</li><li>Audit log,</li><li>Tablet information packages,</li><li>Disable*</li><li>Delete*</li></ul><p>*) The actions to disable and delete a workspace do not apply to the primary
+workspace.</p><p>Disabled workspaces may only be turned back on or deleted, so their context
+menu is smaller:</p><ul><li>Enable</li><li>Delete</li></ul><p>The workspaces is a major change to the earlier established hierarchies and rules, and we continue to build functionality around this new concept. We have attempted to make as smooth as possible transition for our existing users, and hope you will make good use of this new capability.</p><h3 id=server-wide-users-management-page-for-administrator>Server-wide users management page for administrator</h3><p>Since the account names are unique on the server, the admin needs a
+consolidated view of all user accounts, regardless in which workspace
+they are defined. This is implemented in the <code>Users Management</code> menu
+of the server administration view. For each user account defined in
+the server the following information is listed:</p><ul><li>account name (login)</li><li>role</li><li>workspace(s)</li><li>full name</li><li>email</li><li>phone number</li></ul><p>A padlock icon located next to the user account indicates that this account has
+been locked (e.g. an interviewer account locked by his supervisor).</p><p>The filters in the left side of the page allow to concentrate only on users
+with particular attributes: locked, archived, ones without assigned workspaces,
+or being placed in disabled workspaces.</p><p>In this list the administrator may access the profile of every individual user
+(except archived ones) to correct the contact information, reset the password
+or grant access to workspaces for HQ-users, observers, and API accounts.</p><h3 id=map-dashboard-for-online-users>Map dashboard for online users.</h3><p>The new map dashboard feature introduced in Survey Solutions v21.01 is a tool
+for a graphical presentation of the worklist on a map and provides functionality
+similar to the tablet map dashboard added in v20.07 to the Interviewer App.</p><p>It is accessible to interviewers through the menu item <code>Map Dashboard</code> and for
+managers (supervisors/HQ-users/Admins) via a map icon at the pages showing
+assignments or interviews.</p><center><a href=images/md_statuses.png><img src=images/md_statuses.png width=800></a></center><p>The map dashboard is not to be confused with the earlier available map report.
+Here are some important differences:</p><table class="table table-striped table-hover"><tr><th bgcolor=orange><center>Map report</center></th><th bgcolor=orange><center>Map dashboard</center></th></tr><tr><td>Shows interviews only</td><td>Shows interviews and assignments</td></tr><tr><td>Available for HQ/admin/supervisor</td><td>Available for HQ/admin/supervisor and interviewers</td></tr><tr><td>Does not allow to start new interviews from the map view.</td><td>Allows to start new interviews from the map view.</td></tr><tr><td>Does not allow survey managers (supervisors, HQ) to approve or reject interviews.</td><td>Allows survey managers (supervisors, HQ) to approve or reject interviews.</td></tr><tr><td>Uses a simple marker, same for interviews in any status.</td><td>Reflects the different statuses of interviews with different markers.</td></tr><tr><td>Reflects interviews in one survey only</td><td>Reflects interviews in all surveys or in a single survey/version.</td><tr><td>Allows selection of any GPS location question</td><td>Uses only the first GPS location question (from the cover page)</td></tr><tr><td>Does not allow filtering by assignment number</td><td>Allows filtering by assignment number</td></tr><td>Allows anonymization with a heatmap</td><td>Does not allow anonymization with a heatmap.</td></tr></table><center><a href=images/md_create_new.png><img src=images/md_create_new.png width=800></a></center><br><p>Similar to the map report, the map dashboard will reflect multiple points
+located closely together as a cluster, reflecting the number of such points
+on the cluster. To see individual points, zoom in to the cluster to see
+individual points.</p><h3 id=other-changes>Other changes</h3><ul><li>a Czech translation has been included for the Interviewer App; users whose
+tablets are set up with preference for the Czech interface will find the
+Survey Solutions Interviewer App in the Czech language immediately after
+the update. Other users may switch the language in the language settings
+of the OS Android.</li><li>Users of graphql API interface are notified of the changes to the graphql
+schema and the location of the graphql schema. Please, refresh your
+graphql schema from <a href=https://demo.mysurvey.solutions/graphql?sdl>https://demo.mysurvey.solutions/graphql?sdl</a>
+(or the equivalent page at your server).</li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

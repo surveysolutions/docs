@@ -1,0 +1,167 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="web interviewing,CAWI,Self-enumeration"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/cawi/web-interviewing/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Web Interviewing"><meta property="og:description" content="In addition to CAPI surveys on Android tablets, Survey Solutions provides two distinct possibilities:
+Interviewing: Interviewers conduct interviews using the web interface (without a tablet); Self-enumeration: Respondents fill out interviews in the browser. The difference is essential:
+In the first case the person filling out the interview is a known member of the team, has an account created in the system, assigned to a team of a certain supervisor and so on. We use this mode when e.g. we set up a call centre and our interviewers don’t physically travel to the respondent, so don’t need a mobile device (tablet) or to work offline (disconnected), but collect multiple interviews and report to a certain supervisor;"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2020-01-28T00:00:00+00:00"><meta property="article:modified_time" content="2020-10-30T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Web Interviewing</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/cawi/>Computer Assisted Web Interviewing (CAWI)</a></li><li class="breadcrumb-item active" aria-current=page>Web Interviewing</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Web Interviewing</h2><div class="data text-right">October 30, 2020</div></div><div class=article-content><p>In addition to CAPI surveys on Android tablets, Survey Solutions
+provides two distinct possibilities:</p><ul><li><strong>Interviewing:</strong> Interviewers conduct interviews using the
+web interface (without a tablet);</li><li><strong>Self-enumeration:</strong> Respondents fill out interviews in the browser.</li></ul><p>The difference is essential:</p><ul><li><p>In the first case the person filling out the interview is a known
+member of the team, has an account created in the system, assigned
+to a team of a certain supervisor and so on. We use this mode when
+e.g. we set up a call centre and our interviewers don&rsquo;t physically
+travel to the respondent, so don&rsquo;t need a mobile device (tablet)
+or to work offline (disconnected), but collect multiple interviews
+and report to a certain supervisor;</p></li><li><p>In the second case, the respondent doesn&rsquo;t have an account in the
+system, and could in general be anonymous, and typically only one
+interview in the survey is filled out by each respondent.</p></li></ul><p>This article is dedicated to the discussion of the second case,
+the setup of the web survey for self-enumeration. The first case
+is described in details in the topic dedicated to the
+<a href=/interviewer/web-interviewer/web-interviewer-overview>web-interviewer</a>.</p><center><img src=images/self-enumeration640.jpg></center><h2 id=advantages-and-disadvantages>Advantages and disadvantages</h2><p>Web enumeration has numerous advantages to the face-to-face interviewing:</p><ul><li>doesn&rsquo;t require interviewers, their training and travel time;</li><li>doesn&rsquo;t require interviewer equipment (tablets) as data entry
+will be performed by the respondent using his/her device;</li><li>the whole survey can be faster (theoretically can be completed within a day);</li><li>some sensitive questions may be easier to answer in the absence of interviewer;</li><li>it may be possible to reach respondents, which would otherwise be not reachable
+(for example, those living in remote places, or conflict areas).</li></ul><p>There are equally-important concerns:</p><ul><li><p>it may be difficult for a respondent to fully understand the
+survey and complete a complex questionnaire without guidance of
+an interviewer, who has had some training on the topic;</p></li><li><p>survey coordinator must be able to contact respondents to
+invite them to take a survey (for example, per email);</p></li><li><p>respondents must have access to and be able to use a device
+(computer/tablet/smartphone) with internet access.</p></li></ul><p>A survey coordinator should carefully weight the costs and
+the benefits, as well as estimate the impact of the mode of
+collection on the quality of data. Web-interviewing may
+introduce an essential bias into the data stemming from
+self-selection on the basis of age, literacy, IT-literacy,
+income, etc.</p><p>In many cases the self-enumeration is used as a supplementary
+tool to face-to-face interviewing in an attempt to reach the
+representative audience in a cost-effective manner.</p><h2 id=setting-up-a-cawi-survey>Setting up a CAWI survey</h2><p>Conducting a CAWI survey requires the following:</p><ol><li>Compose the questionnaire.</li><li>Import the questionnaire to the data server.</li><li>Make web-assignments for the survey.</li><li>Activate the web-survey mode.</li><li>Distribute the links.</li><li>Review incoming data/follow up with the respondents if necessary.</li><li>De-activate the web-survey mode.</li></ol><p>Below we discuss these steps in more detail.</p><h2 id=1-composing-the-questionnaire>1. Composing the questionnaire</h2><p>There is hardly any difference in the questionnaire for the
+web interviews. You can generally use the same questionnaire
+that you use for the face-to-face interviews also for the web
+interviews, but it is worth to:</p><ul><li><p>Explain the structure of the questionnaire to the respondent
+and give an idea about how to navigate through the modules;</p></li><li><p>Check the wording of the questions - without the interviewers
+some things may be not clear, explain them in the instructions;</p></li><li><p>Check the error messages - they must be clear to the respondent.
+Remember that the respondent wouldn&rsquo;t have the training session
+that the interviewers typically get before the survey, so the
+questionnaire must be more &lsquo;user-friendly&rsquo;.</p></li></ul><h2 id=2-importing-the-questionnaire>2. Importing the questionnaire</h2><p>There is no difference of this step relative to importing the
+questionnaire for a face-to-face interviewing. Note that if
+you import a different version of the same questionnaire to the
+data server, the web mode for it (step #4) will need to be
+activated again, specifically for each version.</p><h2 id=3-make-web-assignments>3. Make web-assignments</h2><p>Once you import the questionnaire, you will need to create
+web-assignments. They are just like the regular assignments,
+but the following properties are important or exist only for
+web-assignments:</p><table class="table table-striped"><tr><th>Preloading column<th>Property<th>Meaning<tr><td>_webmode<td>Web mode<td>A simple boolean flag that is raised if the assignment is
+intended to be completed directly by the respondent. In the
+preloading file 1 corresponds to web mode, and zero or not
+specified value corresponds to no web mode for the assignment.<tr><td>_email<td>Email<td>Email address of the respondent (optional)<tr><td>_password<td>Password<td>if a password (optional) is specified, interviews based
+on this assignment will be protected by the password, which
+also needs to be communicated to the prospective respondents
+of the survey. See below on <a href=#cawipassword>password rules</a>.<tr><td>_responsible<td>Responsible person<td>Account of the person responsible for the assignment.<tr><td>_quantity<td>Quantity<td>Number of interviews that may be generated from this
+assignment; -1 corresponds to unlimited amount.</table><hr><p>In addition to the above properties, the web assignments have
+all the properties of the regular assignments. So that we can,
+for example, specify the values for identifying questions (fields).
+The email and password only make sense for the web mode
+assignments and are not effective for the regular assignments.
+The values of all of these properties can be seen in the
+corresponding columns of the table showing the assignments
+(<code>Menu</code> → <code>Survey Setup</code> → <code>Assignments</code>).</p><p>For a CAWI survey, set the value of <strong>_webmode</strong> to 1 for all
+assignments. For a mixed survey, only for those assignments that
+must be filled out by the respondents through the web.</p><p>Even though the CAWI survey is done through a self-enumeration
+(by the respondent) the person responsible for the assignment
+must be specified and be in the role of interviewer. A web
+assignment will not be created if it is made in the name of a
+user in a different role and you will get a corresponding error
+message.</p><p>The combination of the assignment&rsquo;s <strong>quantity</strong>, <strong>email</strong> and
+<strong>password</strong> will determine the overall protocol of the survey.</p><p>When the email is specified during the assignment creation, the
+Survey Solutions can utilize one of the <a href=/headquarters/cawi/email-providers/>bulk email delivery
+services</a>
+to deliver the invitations for the survey. If these services
+have not been configured yet, the headquarters user must contact
+the server administrator, as such configuration requires
+administrator&rsquo;s access level.</p><table class="table table-striped"><tr><th>#<th>Properties<th>Situation<tr><td>1<td><ul><li>quantity=-1</li><li>email=..empty..</li><li>password=..empty..</li></ul><td>Typical setup for a public opinion survey - one link is made public
+through any media (newspaper, TV, website). All visitors of the link
+will have an opportunity to fill out an interview.<p>If the bulk email delivery service has been set up, at the start of
+the interview they will have a possibility to enter their email, so
+that they will receive a link to follow in case their session is
+interrupted and they need to continue the started interview.</p><p>There is no limit to the number of interviews to be collected.</p><tr><td>2<td><ul><li>quantity=-1</li><li>email=..empty..</li><li>password=..specified..</li></ul><td>Typical setup for a non-public survey of unknown audience, for example,
+visitors to a conference. The password must be made available to them
+(e.g. written on the board, or announced to them). The role of the
+password is to separate this group from all the other people who are
+not exposed and not the focus of the study. There is no limit to the
+number of interviews to be collected.<tr><td>3<td><ul><li>quantity=-1</li><li>email=..specified..</li><li>password=..specified..</li></ul><td>Typical for monitoring surveys - the same respondent must authenticate
+himself/herself with the password, and can submit an unlimited number
+of interviews (presumably regulated by the established protocol:
+daily, weekly, monthly, etc, or when a particular event happens, such
+as a patient arrives with a particular symptom).<tr><td>4<td><ul><li>quantity=1</li><li>email=..specified..</li><li>password=..specified..</li></ul><td>Typical for private opinion surveys - the respondents are invited directly
+and can submit only one interview. To start the interview they must
+follow the link and confirm their access with the issued password.<p>The interview may be completed in multiple seatings. If the respondent
+interrupts the interview, he/she can continue by clicking the same link
+received in the original invitation.</p><tr><td>5<td><ul><li>quantity=1</li><li>email=..specified..</li><li>password=..empty..</li></ul><td>Similar to the above, but the respondents do not need to enter the
+password to start their interviews, just click on their personalized links.<tr><td>6<td><ul><li>quantity=1</li><li>email=..empty..</li><li>password=..specified..</li></ul><td>Typical for private opinion surveys - the respondents can submit only
+one interview. To start the interview they must follow the link and
+confirm their access with the issued password.<p>The interview may be completed in multiple seatings. If the respondent
+interrupts the interview, he/she can continue by clicking the original
+link. The passwords must be unique in this case, and the link distributed
+using alternative means.</p><tr><td>7<td><ul><li>quantity=1</li><li>email=..empty..</li><li>password=..empty..</li></ul><td>This combination is not acceptable.<tr><td>8<td><ul><li>quantity=N</li><li>email=</li><li>password=</li></ul><td>Same as the case above where quantity is -1, except that the number of
+responses is not infinite, but is limited to N interviews.<p>First N respondents will start the interviews, other respondents
+will get a message indicating their participation is no longer needed.</p></table><h2 id=4-activate-the-web-survey-mode>4. Activate the web-survey mode.</h2><p>Once the assignments are created the survey coordinator needs to set up and
+activate the web mode of data collection for the survey. This is available
+by calling the context menu for the questionnaire in the Survey Setup:
+<code>Menu</code> → <code>Survey Setup</code> → <code>Web interview setup</code>.</p><p>Depending on the objectives and implementation of the survey you may need to
+adjust the:</p><ul><li><a href=/headquarters/cawi/webpage-templates/>templates for the web pages</a> visible
+to the survey participants;</li><li><a href=/headquarters/cawi/email-templates/>templates for email messages</a> that are
+sent as notifications to the survey participants.</li></ul><p>At the next page the template messages for invitations/reminders/notifications
+may be edited and the web mode activated (the green <code>START</code> button) or
+deactivated (the red <code>STOP WEB INTERVIEW</code> button). Any generated links remain
+ineffective when the survey is not in the web mode even if the link has been
+already sent to the respondent.</p><h2 id=5-deliver-links>5. Deliver links</h2><p>Depending on the scenario of the survey as outlined by the table in step #3,
+you will have one or multiple links to be delivered to the respondents.
+Note that in any of the cases, Survey Solutions doesn&rsquo;t send the
+invitations/notifications directly, but utilizes a special <a href=/headquarters/cawi/email-providers/>bulk email delivery
+service</a>
+to deliver the corresponding messages. Refer to the corresponding article on
+how to set it up. Once it is set up, one can go to <code>Menu</code> → <code>Survey Setup</code>
+→ <code>your questionnaire name</code> → <code>Send invitations</code> to send out
+the invitation emails.</p><p>If this service is not set up by the server administrator, then it is
+his/her responsibility to distribute the appropriate messages among the
+respondents using any alternative tools. The links can be downloaded by going
+to <code>Menu</code> → <code>Survey Setup</code> → <code>your questionnaire name</code> →
+<code>Download web links</code>.</p><p>After the links have been sent to the respondents it is important not to change
+the responsible person for an assignment to anyone except an interviewer as
+this will invalidate it (you will get a warning if you try). Note that this may
+be an unintended indirect consequence of your actions, such as relocating an
+interviewer to another team leaving his assignments in the original team.</p><h2 id=6-review-incoming-data>6. Review incoming data</h2><p>Once a CAWI survey is running, the interviews will appear in the list as soon
+as they are started. The respondents may still be working at them and their
+status will be <em>InterviewerAssigned</em>. This status is only attributable to CAWI
+interviews. Any interviews received from tablets will show up on the server
+already in the <em>Completed</em> status.</p><p>The supervisors are expected to review as soon as possible the interviews in
+the status <em>Completed</em>, and either to approve or reject them.</p><p>Note that even though there is a rejection notification template in the set of
+user-configurable notification templates for a survey, rejection notifications
+are NOT sent out at all, and the supervisor will need to manually reallocate
+the rejected interview to a real interviewer to follow up with the respondent
+by using phone (see <a href=/interviewer/web-interviewer/web-interviewer-cati/>CATI</a>)
+or other communication.</p><h2 id=7-de-activate-the-web-survey-mode>7. De-activate the web survey mode.</h2><p>When all the web assignments are completed or you&rsquo;ve acquired the minimal
+desired number of responses, you can stop the web survey. When the web survey
+is stopped no changes will be permitted by the respondents visiting any links,
+whether to create new or finish started interviews.</p><a name=cawipassword><h2 id=cawi-password-rules>CAWI password rules</h2><p>The password used for CAWI assignments must:</p><ul><li>consist of only upper case English letters and digits;</li><li>be at least 6 characters long.</li></ul><p>Providing a single question mark &lsquo;?&rsquo; instead of the password will request
+Survey Solutions to automatically generate one compliant with the above rules.</p><h2 id=continuing-interviews>Continuing interviews</h2><p>Some web interviews may be quite lengthy, difficult to fill out in one seating
+either because of the respondent not being available for so long, or because
+of the connectivity issues.</p><p>To continue working on the interview the respondent must open exactly the same
+URL he/she sees during the interviewing. This URL may be different from the one
+contained in the originally received invitation. The respondent may copy and
+preserve the URL from his/her browser&rsquo;s address line at any time. In addition,
+if the bulk email service is set up by the server administrator, the user will
+be asked for the contact email at the beginning of the interview. If the email
+is provided, a message containing the continuation link will be sent to that
+email. If the server administrator wants to disable this feature, he/she should
+uncheck the corresponding option in the <em><strong>&lsquo;Web interview settings&rsquo;</strong></em>: <code>Menu</code>
+→ <code>Administration</code> → <code>Settings</code> → <code>Web interview settings</code>.</p><center><a href=images/web_interview_settings.png><img src=images/web_interview_settings.png width=640></a></center><p>This setting is shared by all CAWI surveys on the same server.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
