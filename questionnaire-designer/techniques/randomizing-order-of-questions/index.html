@@ -1,0 +1,54 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content><meta property="og:url" content="https://docs.mysurvey.solutions/questionnaire-designer/techniques/randomizing-order-of-questions/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Randomizing order of questions"><meta property="og:description" content="In this example we will consider similar questions (all of them categorical single-select) rating different aspects of the stay in a resort hotel. Our objective is to present the questions in different order for different respondents. Our other objective is to avoid pre-programming sequences of questions, as this is tedious and creates questionnaires with just a few sequences of questions.
+We will rely on the following Survey Solutions elements:
+text substitution (text-piping) with the whole question text being substituted; random value to make the sequences of questions differ for different respondents; shuffling algorithm, we will use D. Knuth’s version of the Fisher-Yates algorithm, but many others will do just as well; and a few other tricks. In Survey Solutions Designer tool, we will compose a questionnaire like the following:"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="questionnaire-designer"><meta property="article:published_time" content="2017-07-17T16:30:51+00:00"><meta property="article:modified_time" content="2017-07-17T16:30:51+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Randomizing order of questions</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/>Questionnaire Designer</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/techniques/>Solutions to common design problems</a></li><li class="breadcrumb-item active" aria-current=page>Randomizing order of questions</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Randomizing order of questions</h2><div class="data text-right">July 17, 2017</div></div><div class=article-content><p>In this example we will consider similar questions (all of them
+categorical single-select) rating different aspects of the stay in a
+resort hotel. Our objective is to present the questions in different
+order for different respondents. Our other objective is to avoid
+pre-programming sequences of questions, as this is tedious and creates
+questionnaires with just a few sequences of questions.</p><p>We will rely on the following Survey Solutions elements:</p><ul><li>text substitution (text-piping) with the whole question text being
+substituted;</li><li>random value to make the sequences of questions differ for different
+respondents;</li><li>shuffling algorithm, we will use D. Knuth&rsquo;s version of the
+Fisher-Yates algorithm, but many others will do just as well;</li><li>and a few other tricks.  </li></ul><p>In Survey Solutions Designer tool, we will compose a questionnaire like
+the following:<br><img style=max-width:100%;height:auto src=/questionnaire-designer/techniques/randomizing-order-of-questions/images/798456_hu_35e0effb8b6b528c.png width=800 height=469></p><p>This questionnaire is available as <a href=https://designer.mysurvey.solutions/questionnaire/details/fee4777ff17c4791a86c55ce9d96a6ee>Public example: Randomizing order of
+questions</a></p><p>Note that questions q1..q7 contain identical set of options (the
+feedback scale in this example) and have their texts computed by
+respective calculated variables t1..t7.</p><p>Each of the variables in turn is computed based on selecting the
+corresponding item from a shuffled array of questions, which is
+delivered by a macro:</p><img style=max-width:100%;height:auto src=/questionnaire-designer/techniques/randomizing-order-of-questions/images/798457_hu_a595cda4e8139d97.png width=710 height=474><p>Note also that we are using only one random number even though we have N
+steps of shuffling, we do this by looking at different digits of that
+number, which for our purposes may be assumed random as well. This of
+course imposes some limitations on this example realization, which will
+be limited by 10 items.</p><p>We specifically avoid following the pseudorandom sequence of numbers in
+Survey Solutions, since we will need to reshuffle the answers back to
+match the original sequence of questions (non-randomized) after the data
+is exported from Survey Solutions. This could be trivial if the
+processing is done in the same language (C#), but is not possible if
+other packages are used (Stata, SPSS), since they are utilizing their
+own random number generators.</p><p>Two other tricks that we do here is rounding the random number to a
+smaller number of digits to avoid precision problems during export and
+re-import to another system, and taking a logarithm from a random number
+to obtain a sufficiently long sequence of random digits.</p><p>The questions will be presented in a random order for the interviewer:<br><img src=images/798462.png width=300></p><p>And the final step to do is to reorder the answers back to the proper
+order after the data is exported. This can be done by replicating the
+same shuffle with a script and restoring back the order of the items
+based on the shuffled sequence.</p><p>For example, <a href=http://www.radyakin.org/suso/rndquest/decode_data.do>this is how we can do this in
+Stata</a><br>In order to generate some example data use <a href=http://www.radyakin.org/suso/rndquest/gen_example.do>this
+script</a>.</p><p>Based on replicated sequence of pseudorandom numbers, the answers are
+easily placed in the proper order:<br><img src=images/798493.png width=900></p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

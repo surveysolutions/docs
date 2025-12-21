@@ -1,0 +1,72 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="22.12"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-22-12/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 22.12"><meta property="og:description" content="This release has benefitted from collaboration with colleagues from the 50x2030 initiative.
+New feature: Input mode for Geography question We have received questions about automatic GPS-based area measurement quite frequently in the past, both in the Survey Solutions users’ forum (like here and here) as well as during consultations and training sessions.
+Now, backed by colleagues from the 50x2030 initiative, which strive to improve the quality of measurement of land parcels, we have added this possibility to this release of Survey Solutions!"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2022-12-14T00:00:00+00:00"><meta property="article:modified_time" content="2022-12-14T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 22.12</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 22.12</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 22.12</h2><div class="data text-right">December 14, 2022</div></div><div class=article-content><p>This release has benefitted from collaboration with colleagues from the <a href=https://www.50x2030.org/>50x2030 initiative</a>.</p><h3 id=new-feature-input-mode-for-geography-question>New feature: Input mode for Geography question</h3><p>We have received questions about automatic GPS-based area measurement quite
+frequently in the past, both in the Survey Solutions users’ forum (like
+<a href=https://forum.mysurvey.solutions/t/continuously-recording-gps-coordinates-based-on-user-location-without-pressing-on-the-map-for-each-dot/3162>here</a> and <a href=https://forum.mysurvey.solutions/t/automatic-area-calulation-whitout-a-map/3443>here</a>)
+as well as during consultations and training sessions.</p><p>Now, backed by colleagues from the 50x2030 initiative, which strive to improve
+the quality of measurement of land parcels, we have added this possibility to
+this release of Survey Solutions!</p><p>The new feature extends the already existing geography-type question with
+automatic (periodic) and semi-automatic (user-activated) measuring modes. These
+modes allow marking the waypoints as the interviewer navigates around the
+boundaries of the parcel. From the measured coordinates the area and perimeter
+of the parcel are then calculated automatically.</p><center><a href=images/ZoomDetail.jpg><img src=images/ZoomDetail.jpg width=612></a></center><p>Read more in the
+<a href=/questionnaire-designer/questions/geography-question/>Geography question</a>
+article.</p><h3 id=new-feature-overlap-detection-for-geography-type-question>New feature: Overlap detection for Geography-type question</h3><p>This version introduces a new feature to Survey Solutions’ geography question:
+overlap detection. It is applicable only to the geography questions placed in
+a roster. When activated by the questionnaire designer, it will assist the
+interviewers in marking the areas in such a way that there is no overlap
+between multiple marked plots/parcels. This is important to avoid
+double-counting of any area in calculation of the total area.</p><p>If an overlap is detected, the program signals about it at the bottom of the
+map, mentioning the other roster items with which an overlap was detected.</p><center><a href=images/Parcels_overlap_supervisor_view.png><img src=images/Parcels_overlap_supervisor_view.png width=612></a></center><p>The overlap detection serves a warning purpose only. It doesn’t prevent such
+data from being recorded and submitted by the interviewer.</p><p>Note that the overlap applies to all variants of the geography question:
+polygon, polyline, multipoint and single point, and is signaled when there
+is at least one common point of the current answer with the answer to the
+same geography question in any other items of the roster.</p><p>The overlap detection applies to all modes of measurement: manual, automatic,
+and semi-automatic.</p><p>The overlap detection does not affect the export of the data, and whether the
+answer overlaps with another or not is not accessible from the syntax in
+writing expressions.</p><p>Read more in the
+<a href=/interviewer/special/overlap-detection/>Overlap detection</a> article.</p><h3 id=bugfix-attachments-in-special-values>Bugfix: Attachments in special values</h3><p>A possibility to declare attachments in special values (for numeric questions)
+has been introduced in the version 22.09, but such attachments were not
+displayed in the Interviewer App. This has been fixed.</p><h3 id=bugfix-answers-to-identifying-questions-could-be-modified>Bugfix: Answers to identifying questions could be modified</h3><p>It was possible to modify answers to questions on the cover page preloaded by
+the headquarters users in the CAWI mode interviews under some conditions, while
+the preloaded answers should have been protected against such changes. This has
+been fixed.</p><h3 id=bugfix-shapefiles-consisting-of-points-were-not-shown-on-tablets>Bugfix: Shapefiles consisting of points were not shown on tablets</h3><p>Shapefiles consisting of points were delivered to the tablets as per
+assignments, but not shown in geography questions and map dashboard. This has
+been fixed.</p><h3 id=warning-export-was-affected-by-the-current-update>Warning: Export was affected by the current update.</h3><p>When the Survey Solutions server is updated to this released version, it will
+refresh the export data structures. This will require the stored data to be
+reprocessed and may take considerable time with large datasets. Please be
+patient. Subsequent export operations will run with usual performance.</p><h3 id=warning-new-limit-has-been-introduced-on-naming-of-variables>Warning: New limit has been introduced on naming of variables</h3><p>With this release a new limit has been introduced on the length of the variable
+name for geography questions. These variables can be at most 26 characters long.
+If a questionnaire with geography-type question was already imported into an
+earlier version of Survey Solutions and subsequently updated, it can get renamed
+to a different name that satisfies the new limit on the variable name.</p><p>See other <a href=/questionnaire-designer/limits/survey-solutions-limits/>Survey Solutions Limits</a></p><h3 id=warning-raising-minimum-requirement-for-tablets-to-android-os-8-in-the-future>Warning: Raising minimum requirement for tablets to Android OS 8 in the future.</h3><p>We announce that we intend to raise the minimum requirements for the operating
+system to Android OS 8 for the Survey Solutions apps on the tablets. This
+concerns the Interviewer App, Supervisor App, and the Tester App. Any tablets
+with lower versions of Android OS will not be supported in the future versions.
+Some devices with lower versions of the operating system may be upgraded to a
+more modern version via an OS upgrade supplied by the manufacturer. Please refer
+to your tablet&rsquo;s user manual or the following generic instructions from Google:
+<a href="https://support.google.com/android/answer/7680439?hl=en">Check & update your Android version</a></p><p>Systems already deployed with the versions of Survey Solutions before the change
+happens will continue to operate, but interviewers will not be able to update to
+a newer version of the corresponding Survey Solutions App if they don’t have the
+proper OS version. Survey coordinators must take this into account before
+upgrading the server.</p><p>Using devices with lower versions presents a security risk as they are no longer
+updated for any new security threats.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

@@ -1,0 +1,80 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="21.06"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-21-06/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 21.06"><meta property="og:description" content="This sprint was dedicated to making Survey Solutions more stable, robust and secure. We have introduced numerous patches addressing security concerns.
+We appreciate the advice and helpful suggestions that we have received from the UN International Computing Centre (UNICC), National Institute of Statistics (INSSE) Romania, Ministry of Livestock, Agriculture and Fisheries and National Center for Computer Security Incident Response of Uruguay, and The World Bank security team.
+The changes introduced in v21.06 are listed below."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2021-06-28T00:00:00+00:00"><meta property="article:modified_time" content="2021-06-28T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 21.06</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 21.06</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 21.06</h2><div class="data text-right">June 28, 2021</div></div><div class=article-content><p>This sprint was dedicated to making Survey Solutions more stable, robust and
+secure. We have introduced numerous patches addressing security concerns.</p><p>We appreciate the advice and helpful suggestions that we have received from
+the UN International Computing Centre (UNICC), National Institute of Statistics
+(INSSE) Romania,
+<a href=https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/>Ministry of Livestock, Agriculture and Fisheries</a>
+and
+<a href=https://www.gub.uy/centro-nacional-respuesta-incidentes-seguridad-informatica/>National Center for Computer Security Incident Response</a> of Uruguay, and The World Bank security team.</p><p>The changes introduced in v21.06 are listed below.</p><ol><li>Configurable session length</li><li>Autolock: protection against brute-force attacks</li><li>Control cookies security attribute</li><li>Other changes and bugfixes</li></ol><h3 id=configurable-session-length>Configurable session length</h3><p>The server administrator may configure a timeout for the duration of the
+session. In case the device is left unattended and no new queries are
+submitted from it to the server, the user will be automatically logged out
+after a predefined interval.</p><pre tabindex=0><code>[Authentication]
+TicketExpirationTimeOut=00:10:00
+</code></pre><p>The session is automatically extended after each query, so that the users
+steadily working online will not be affected.</p><p>Inactive session length was already limited for web-respondents in the
+earlier versions, and this limit continues to apply, see
+<a href=/questionnaire-designer/limits/survey-solutions-limits/>limits</a>.</p><h3 id=autolock-protection-against-brute-force-attacks>Autolock: protection against brute-force attacks</h3><p>Survey Solutions defends against brute-force attacks by presenting a
+<a href=/headquarters/accounts/captcha/>CAPTCHA</a> challenge after a number of
+incorrect login attempts. The administrator can configure the server
+component in such a way that if the incorrect login attempts continue even
+with a CAPTCHA engaged, the user account becomes locked for a period of
+time automatically.</p><p>This feature is described in more details in the
+<a href=/headquarters/accounts/autolock/>autolock article</a>.</p><h3 id=control-cookies-security-attribute>Control cookies security attribute</h3><p>New policy control for cookies in the <code>appsettings.production.ini</code> file.
+Set this parameter to true if the server is behind a load balancer
+(reverse proxy) with SSL termination.</p><pre tabindex=0><code>[Policies]
+CookiesSecurePolicyAlways=true
+</code></pre><h3 id=other-changes-and-bugfixes>Other changes and bugfixes</h3><ul><li><p>Update to Survey Solutions v21.05 from an earlier version may have caused
+a blank dashboard in the Interviewer App on tablets (data stored, not shown),
+which required a separate synchronization and workspace selection. This has
+been fixed. We would like to thank Mr. <em>Ashwini Kalantri</em> for promptly
+<a href=https://forum.mysurvey.solutions/t/interviewers-not-able-to-synchronise-after-the-update-to-21-05/3593>reporting this issue</a>
+in the users&rsquo; forum.</p></li><li><p>Tracking of assignments upgrades: in the assignment history of actions,
+if the assignment was upgraded from the earlier version of the questionnaire,
+a message will be present &ldquo;<em>Upgraded from assignment ####</em>&rdquo;. Similarly in the
+data export, for the &ldquo;<em>Created</em>&rdquo; event the original assignment number will
+be exported in the <em>old__value</em> column.</p></li><li><p>WebTester was reporting incorrect duration of audio recording
+(1 second regardless of the actual duration of the audio recording).
+This has been fixed. The issue applied to the WebTester only, not to
+the actual interviews.</p></li><li><p>Survey Solutions HQ component failed to automatically verify the
+availability of the updates. This has been fixed. The updates to the
+server are now automatically verified, but not automatically installed.
+The server administrator(s) need to install them as needed.</p></li><li><p>API users may assign workspaces to users (earlier only administrator-level
+users could assign workspaces to users). Still, the workspaces which can be
+assigned to user account are limited by the visibility of workspaces granted
+by the administrator users to the API account.</p></li><li><p>Vulnerability allowing HQ-users to submit GraphQL queries beyond the
+assigned workspaces is now fixed.</p></li><li><p>Survey Solutions failed to export datasets which involved calculated
+variables, which caused overflow during calculation. This has been fixed
+and the data will be exported, but the calculated variable will contain
+a zero value. The message by Mr. <em>Thorsten Schoel</em> in the user&rsquo;s forum
+<a href=https://forum.mysurvey.solutions/t/export-fails-with-extremely-large-number-in-double-typed-calculated-variable/3591>reporting this issue</a>
+is much appreciated.</p></li><li><p>Shapefile was not detected on the tablets if placed in the folder without
+workspace subfolders. This has been fixed. If there is no shapefile in the
+workspace-named subfolders, a shapefile in the parent folder will be
+suggested restoring the behavior established before the introduction of
+multiple workspaces for a single interviewer. The <a href=https://forum.mysurvey.solutions/t/shapefile-overlay-not-working-in-new-version-21-05-1/3585>issue report</a> in the users&rsquo; forum by Mr. <em>Klaus Blass</em> is much appreciated.</p></li><li><p>Interviewer App crashed after answering a categorical question under some
+conditions. This has been fixed.</p></li><li><p>Interviewer App crashed if the <em>*.mmpk</em> digital map file didn’t contain any
+base layer. This has been fixed: the interviewer app will not crash, but
+such maps are still deemed unusable. The
+<a href=https://forum.mysurvey.solutions/t/error-map-system-argumentoutofrangeexception-index-was-out-of-range-must-be-non-negative-and/3516>issue report</a> in the users&rsquo; forum and example files sent by Mr. <em>Felipe Jimenez</em> are much
+appreciated.</p></li><li><p>Updated versions of 3rd party libraries used internally by Survey Solutions.</p></li><li><p>Removed built-in PDF viewer for the Interviewer App on the tablet.
+Interviewers should select one of the 3rd party PDF viewers to open
+questionnaire’s PDF attachments:</p><center><a href=images/select_pdf_reader.png><img src=images/select_pdf_reader.png width=400></a></center></li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

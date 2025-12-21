@@ -1,0 +1,171 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content><meta property="og:url" content="https://docs.mysurvey.solutions/getting-started/implementing-a-capi-survey/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Implementing a CAPI survey with Survey Solutions"><meta property="og:description" content="The Decision to Use CAPI The decision to use computer-assisted personal interviewing (CAPI) instead of paper and pencil (PAPI) is an important one and should not be taken lightly. It is a step into modern technology that may be more expensive for the first one or two surveys, but subsequent surveys will be far less expensive, will provide much higher data quality, and the data will be available for analysis much faster than when using PAPI. The staff members who implement a CAPI survey will gain experience in a technology that is rapidly becoming the standard throughout the world of data collection, so your entire organization will be more competitive."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="getting-started"><meta property="article:published_time" content="2015-02-25T12:00:00+00:00"><meta property="article:modified_time" content="2018-09-13T12:40:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Implementing a CAPI survey with Survey Solutions</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/getting-started/>Getting Started</a></li><li class="breadcrumb-item active" aria-current=page>Implementing a CAPI survey with Survey Solutions</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Implementing a CAPI survey with Survey Solutions</h2><div class="data text-right">September 13, 2018</div></div><div class=article-content><h2 id=the-decision-to-use-capi>The Decision to Use CAPI</h2><p>The decision to use computer-assisted personal interviewing (CAPI) instead of paper
+and pencil (PAPI) is an important one and should not be taken lightly. It is a step into
+modern technology that may be more expensive for the first one or two surveys, but
+subsequent surveys will be far less expensive, will provide much higher data quality,
+and the data will be available for analysis much faster than when using PAPI. The staff
+members who implement a CAPI survey will gain experience in a technology that is
+rapidly becoming the standard throughout the world of data collection, so your entire
+organization will be more competitive.</p><p>The decision to use CAPI should go hand-in-hand with the choice of data entry and
+management software that is used. Many factors should be considered when making
+these decisions:</p><ul><li>Should CAPI be considered at all? For example, will a paper trail be required,
+or will a statistical database be sufficient? Do local laws and regulations
+permit the electronic storage and transmission of survey data?</li><li>Will the fieldwork require constant or frequent monitoring? For some software
+this would suggest the need for widely available cell phone or Internet service.</li><li>Will the interviews be conducted in multiple languages?<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></li></ul><ul><li>Does the questionnaire include more than one respondent?</li><li>Are you willing and able to pay the initial costs of tablets and training for the
+long-term benefits of CAPI?</li><li>Will the listing be conducted prior to or during the interviewing process?</li></ul><p>The answers to these questions will help to guide the decision whether to use CAPI,
+and if so, which software to use. Every CAPI software package has strengths and
+weaknesses, and they should be taken into account during this decision-making
+process. For a comparison of the different CAPI packages (except Survey Solutions)
+see this World Bank-funded [report from 2011]
+(<a href=http://siteresources.worldbank.org/INTSURAGRI/Resources/7420178-1294259038276/CAPI.Software.Assessment.Main.Report.pdf)>http://siteresources.worldbank.org/INTSURAGRI/Resources/7420178-1294259038276/CAPI.Software.Assessment.Main.Report.pdf)</a>.</p><h2 id=direct-costs>Direct Costs</h2><p>One component of CAPI costs is for the tablets on which the data are collected. The
+most popular of these devices, and at present the least expensive, run on the Android
+operating system. Each interviewer must have her or his own tablet computer for data
+collection, so this can represent a substantial initial investment. Fortunately these
+devices can be reused on future surveys, so after this initial investment the only
+costs will be for replacements of lost or damaged units.</p><p>As of the spring of 2015, an Android tablet powerful enough to run <em>Survey
+Solutions</em> cost at about US$150-$250 in the USA. A list of tablet computers
+that have been tested for use with <em>Survey Solutions</em> can be found
+<a href=/faq/what-tablets-should-i-buy-/ title="Tested tablets">here</a>.</p><p>Cost should not be the only consideration when selecting the appropriate tablet for
+data collection. The operating system should be the first consideration, since most
+data entry packages run on either Windows or Android tablets, although some run on
+both. These considerations include battery life, charging time, screen size and
+resolution, connectivity options (such as cell phone, Bluetooth, USB, wifi, and
+connectivity between tablets), and durability under harsh environmental conditions
+(such as hot and code temperatures, rain, and sand storms). Note that prices of both
+Windows and Android tablets have been dropping dramatically over the past several
+years and there is every reason to believe they will continue to do so.</p><p>Another cost of CAPI surveys is for training of interviewers. Interviewer training is also
+required for PAPI surveys, but CAPI interviewers must also be trained on the use of
+the tablets. Field supervisors and headquarters staff will also need to be trained on
+the use of these devices, as well as the differences in the way CAPI surveys are
+managed. These differences typically result in a more streamlined process which
+provides field teams with faster, more targeted feedback than with PAPI surveys, and
+that provides higher data quality.</p><p>Another cost relates to communications and connectivity. Depending on availability,
+the data and quality control information must be exchanged between the field teams
+and headquarters using either cell phone or Internet connectivity. Whichever is used,
+additional user accounts will likely be required.</p><p>Most CAPI systems now rely on case and data management systems that reside on local,
+remote, or cloud-based servers. If the server is local this will include the cost of
+the server hardware and software as well as server maintenance. If the server is
+hosted remotely or in the cloud, monthly costs may amount to US$150 per server. Each
+server may host multiple surveys.</p><p>Survey Solutions offers many options for configuring servers. These options are
+described <a href=resources/infrastructure.pdf>here</a>.</p><h2 id=indirect-costs>Indirect Costs</h2><p>Technical support is the major cost to consider when deciding whether to switch to
+CAPI. Depending on the CAPI system these costs can total several hundred thousand US
+dollars and might completely overshadow the direct costs of CAPI equipment and training.</p><p>Survey Solutions is designed to minimize indirect costs. Still, there is likely
+to be the need for some technical assistance for the first one or two surveys.
+The extent of this TA will depend on the specific requirements in each country
+and will be determined after discussions with the Survey Solutions team.</p><h2 id=benefits>Benefits</h2><p>There are many benefits to using CAPI to replace PAPI data collection. First and
+foremost is the improvement of data quality. When data are rapidly available for
+assessment after they are collected, errors in fieldwork can be corrected and
+changes in procedures, if needed, can be implemented quickly.</p><p>Another benefit is the elimination of paper questionnaires, reducing printing costs and
+reducing the burden on field teams to ensure they have sufficient numbers of blank
+forms. Transmission of the results of the interviews is done electronically so a
+package delivery network is no longer needed.</p><p>The day that fieldwork is completed the data are immediately available for review and
+cleaning without the need to finish entering data from the remaining paper forms. This
+means that analysis can begin sooner and results will be available earlier.</p><p>An advantage of Survey Solutions is that it does not require extensive programming; it
+can be implemented by survey research organizations with no or minimal need for outside
+consultants.</p><h2 id=capi-scheduling>CAPI Scheduling</h2><p>A typical CAPI survey requires at least 3 months for fieldwork preparation. This is
+somewhat longer than for PAPI surveys, due to the need for tablet procurement for
+initial surveys, and the need for additional staff training. However, this schedule should
+be reduced after the first or second CAPI survey since most of the tablets will still be
+available and most of the staff will already be trained. Also, the data will be available
+for analysis earlier than they would be for a PAPI survey.</p><p>An example of a typical CAPI survey is shown in Figure 1. While the schedule of a
+specific survey may be somewhat different from this example, it will not vary
+substantially based on the size of the sample. The length of fieldwork may vary
+considerably based on the ratio of size of the fieldwork team to the size of the sample,
+and whether listing efforts will take place before or during fieldwork. The example in
+Figure 1 does not include listing and assumes it is undertaken as a separate task.</p><ol><li><strong>Obtain coverage maps for Internet access and from cellular providers:</strong>
+If you are planning to transmit data and monitor fieldwork directly from the data
+entry tablets, than widely available cellular and/or Internet coverage is essential.
+On the other hand, if frequent data transmission is not critical, or if fieldwork
+monitoring is available in the field, the need for widespread connectivity can be
+somewhat relaxed.</li></ol><pre tabindex=0><code>Survey Solutions provides the option for field supervisors to manage and
+monitor data collection with infrequent cell phone or Internet connections.
+</code></pre><ol start=2><li><strong>Select sample PSUs and compare with coverage maps:</strong> Once the sample
+PSUs are selected, coverage maps will help determine the best provider and
+routing of interviewer teams to optimize their opportunities to transfer data. If
+necessary use a combination of providers to increase coverage of selected
+PSUs or develop field work routines to cope with uncovered locations.</li><li><strong>Decision to use CAPI:</strong> This should be done in consultation with all
+stakeholders and with a clear understanding of this new technology. A major
+part of this decision includes the data network to use, whether it uses the
+Internet or cell phone infrastructure, or a combination of both. A comparison
+should be made between the selected primary sampling units (PSUs) and the
+availability of cell phone and/or Internet connectivity along with the anticipated
+frequency of remote fieldwork monitoring.</li><li><strong>Android tablet procurement:</strong> Procurement of the tablets should be started
+at an early stage. Check whether they are available in the country, and re-
+confirm their compatibility with the selected data entry software.</li><li><strong>Questionnaire implementation on tablets:</strong> Ideally training on the process
+of loading your questionnaire onto the interviewers&rsquo; tablets should
+only be required the first time the software is used. Some data entry
+software requires the use of programming languages, and provides
+extensive flexibility and power for large, complex questionnaires.
+These packages generally require substantial training of technical staff or the
+extensive reliance on consulting assistance. Other software packages require
+little or no programming but are appropriate only for use with simple
+questionnaires and sample designs. Therefore the selection of survey
+processing software should take into account the types of surveys that are
+expected in the future.</li></ol><pre tabindex=0><code>Learning to use the Survey Solutions questionnaire designer will enable your staff
+to create a data entry system for your current and future surveys regardless of their
+complexity. The trainees are not required to have programming skills, and after a brief
+training period should be able to create data entry systems for complex surveys with little
+or no additional outside assistance.
+</code></pre><ol start=6><li><p><strong>In-house questionnaire testing.</strong> An initial test of the tablet data entry system
+should be conducted within your office, ideally by staff members who are familiar
+with the questionnaire and subject matter. This will help to resolve the most
+obvious errors prior to the field pre-test. Survey Solutions provides an easy-
+to-use questionnaire tester that enables any staff member with a user name,
+password, and tablet to test your questionnaire.</p></li><li><p><strong>Supervisor and Interviewer training:</strong>
+Supervisors should participate in the
+same training as interviewers to provide them with a clear understanding of
+the questionnaire and the use of the tablets.</p></li><li><p><strong>Field pre-test:</strong> This is the first opportunity to test the tablet-based data entry
+system under realistic conditions. Locations should be identified that are not
+included in the survey sample, and interviewers and supervisors should
+conduct realistic interviews with real households. This provides both a training
+experience for the field staff and a test of the data entry system.</p></li><li><p><strong>Modifications to questionnaire based on pre-test:</strong> Based on observations
+from the pre-test, problems with field procedures and the tablet questionnaire
+must be resolved. If necessary, changes should be made to the data entry
+system on the tablets. The result of this task is the final version of the data
+entry system.</p></li><li><p><strong>Pilot test:</strong> After the questionnaire is finalized in the previous task, the pilot will
+test the final questionnaire as it is implemented on the tablets, and will also
+focus on connectivity and communications. This will test your network
+infrastructure and ensure that interviewers and supervisors are familiar with
+data transfer procedures. This will ensure that all of the changes based on the
+first pre-test have been properly implemented and that the data can be
+transferred when needed. It will also ensure that all supervisors are able to
+provide the necessary support to their teams in the event of a technical failure
+in the field.</p></li><li><p><strong>Supervisor training:</strong> This training should clearly define the role of the field
+supervisors, and enable them to use the data and case management tools they
+will be using in the field. This will enable the supervisors to take advantage of CAPI by
+checking the quality and completeness of the data as they are collected. In most
+data collection software, this is done by visually checking the data on the
+tablets or using separate management software.</p></li><li><p><strong>Fieldwork:</strong> When considering the trade-off between a larger field team and
+an extended period of fieldwork, it is generally preferable to have a longer
+period of fieldwork. This provides the survey team with more time to learn
+about and respond to problems in the field.</p></li><li><p><strong>Training on data export, import, and analysis:</strong> This training should only be
+required the first time Survey Solutions is used. Survey Solutions provides a
+straightforward method for exporting its data to tab-delimited files. These files
+are organized as a relational database, with the ability to easily import and
+merge them into files that can be used for statistical analysis. We provide the
+training to export, import, and analyse the Survey Solutions data.</p></li><li><p><strong>Data cleaning and analysis:</strong> This is the final step in the primary use of the
+survey data. With Survey Solutions, data cleaning should be minimal since
+the data entry and built-in case management systems check for most of the
+fieldwork problems encountered with other data entry systems.</p></li></ol><p>A manual for field supervisors using Survey Solutions can be found <a href=/supervisor>here</a>.
+Survey Solutions has data and case management tools built in, as the
+<a href=/headquarters/>Headquarters Guide</a>. Training on this component will only be
+needed for the first survey using Survey Solutions. It will enable the supervisors
+to check questionnaires, communicate with the field teams and headquarters, and to
+generate and interpret reports.</p><a href=images/preparation_timeline.png data-toggle=lightbox data-max-width=2400 class="d-block text-center"><img src=images/preparation_timeline.png class=mx-auto alt></a><p>Figure 1 : CAPI Survey Schedule Example</p><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>All languages supported by Microsoft Windows are available in <em>Survey Solutions</em>.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

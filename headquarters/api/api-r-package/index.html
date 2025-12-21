@@ -1,0 +1,311 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/api/api-r-package/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="API: R-package"><meta property="og:description" content="Introduction to the Survey Solutions API R-package Why this package The World Bank’s Computer Assisted Survey System (CASS) Survey Solutions is a powerful tool for high quality data collection and used in many statistical offices around the world. Besides the standard GUI, it also comes with a powerful REST API. For details see https://docs.mysurvey.solutions/
+To further facilitate its integration in a fully automated workflow we have developed this R package, which covers almost all of the available API calls. With this vignette you get a first overview on the different functions, further vignettes are available on survey management, paradata analysis and shiny integration."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2023-02-16T07:07:07+00:00"><meta property="article:modified_time" content="2023-05-10T18:57:54-04:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>API: R-package</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/api/>Application Programming Interface (API)</a></li><li class="breadcrumb-item active" aria-current=page>API: R-package</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">API: R-package</h2><div class="data text-right">May 10, 2023</div></div><div class=article-content><h1 id=introduction-to-the-survey-solutions-api-r-package>Introduction to the Survey Solutions API R-package</h1><h2 id=why-this-package>Why this package</h2><p>The World Bank&rsquo;s Computer Assisted Survey System (CASS) <strong>Survey Solutions</strong> is a powerful tool for high quality data collection and used in many statistical offices around the world. Besides the standard GUI, it also comes with a powerful REST API. For details see <a href=https://docs.mysurvey.solutions/>https://docs.mysurvey.solutions/</a></p><p>To further facilitate its integration in a fully automated workflow we have developed this R package, which covers almost all of the available API calls. With this vignette you get a first overview on the different functions, further vignettes are available on survey management, paradata analysis and shiny integration.</p><p>The package can be considered as being a API &ldquo;bare bone&rdquo;, as it implements the basic <a href=https://demo.mysurvey.solutions/apidocs/index.html>Survey Solutions API</a> calls without substantial modification. However, this is not true for the data export function as well as for the
+paradata. Modification was necessary to facilitate workflow integration. See the details in the corresponding documentation.</p><p>Please be aware, that this package makes heavy use of data.table, and this is also continued in this vignette. In case you are not familiar with it yet, you should probably have a look a this <a href=https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html>introduction</a>.</p><h2 id=api-credentials>API credentials</h2><p>To use the API you first need to set-up the API user on your Survey Solutions server. See <a href=https://support.mysurvey.solutions/headquarters/api/>here</a> for details. After this done, you can use the <em>suso_set_key()</em> function, to provide your credentials.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>library(SurveySolutionsAPI)
+</span></span><span style=display:flex><span>suso_clear_keys()
+</span></span><span style=display:flex><span>suso_set_key(<span style=color:#a31515>&#34;https://xxx.mysurvey.solutions&#34;</span>, <span style=color:#a31515>&#34;xxxxxx&#34;</span>, <span style=color:#a31515>&#34;xxxxxxx&#34;</span>)
+</span></span><span style=display:flex><span>suso_keys()
+</span></span><span style=display:flex><span><span style=color:green>#&gt; $suso</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; $suso$susoServer</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; [1] &#34;https://xxx.mysurvey.solutions&#34;</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; $suso$susoUser</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; [1] &#34;xxxxxx&#34;</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; $suso$susoPass</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; [1] &#34;xxxxxxx&#34;</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; attr(,&#34;class&#34;)</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; [1] &#34;suso_api&#34;</span>
+</span></span></code></pre></div><p>After this is done, there is no need to provide the credentials for every API call again. They are stored until the end of your current session. There is also a function to check if your credentials work.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>suso_PwCheck()
+</span></span><span style=display:flex><span><span style=color:green>#&gt; [1] &#34;https://michael-wild-demo.mysurvey.solutions/primary/api/v1/supervisors?limit=200&#34;</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Response [https://michael-wild-demo.mysurvey.solutions/primary/api/v1/supervisors?limit=200]</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Date: 2023-02-16 17:24</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Status: 200</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Content-Type: application/json; charset=utf-8</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Size: 482 B</span>
+</span></span></code></pre></div><p>In case no workspace is provided, this call (like all the other calls) will default to the primary workspace. However if a workspace is provided, then the check will be performed on the provided workspace.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>suso_PwCheck(workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:green>#&gt; [1] &#34;https://michael-wild-demo.mysurvey.solutions/test/api/v1/supervisors?limit=200&#34;</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Response [https://michael-wild-demo.mysurvey.solutions/test/api/v1/supervisors?limit=200]</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Date: 2023-02-16 17:24</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Status: 200</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Content-Type: application/json; charset=utf-8</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   Size: 4.54 kB</span>
+</span></span></code></pre></div><p>It calls the supervisor API, and returns the response. If the return value is 200, then your connection and credentials are OK. For further information on API response status codes have a look here: <a href=https://developer.mozilla.org/en-US/docs/Web/HTTP/Status>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status</a>.</p><h2 id=workspace-management>Workspace Management</h2><p>You can also manage your workspaces through the API. In particular, you can</p><ul><li>request a list of all workspaces the API user has access to, as well as</li><li>create new workspaces</li><li>and assign users to a particular workspace.</li></ul><p>However for the latter two operations you require ADMIN credentials. Standard API user credentials would not work.</p><p>To receive a list of workspaces to which the current API user has access to, you can just run:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>ws &lt;- suso_getWorkspace()
+</span></span><span style=display:flex><span>print(head(ws))
+</span></span><span style=display:flex><span><span style=color:green>#&gt;       Name       DisplayName DisabledAtUtc</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: primary Default Workspace            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:    test              test            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3:   test2             test2            NA</span>
+</span></span></code></pre></div><p>To receive a list of all workspaces in the system (even those to which the current API user does not have access to) you can do the same, and use the ADMIN password:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>ws &lt;- suso_getWorkspace(apiUser = adminUser, apiPass = adminPass)
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Error in stopifnot(is.character(user), length(user) == 1): object &#39;adminUser&#39; not found</span>
+</span></span><span style=display:flex><span>print(head(ws))
+</span></span><span style=display:flex><span><span style=color:green>#&gt;       Name       DisplayName DisabledAtUtc</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: primary Default Workspace            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:    test              test            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3:   test2             test2            NA</span>
+</span></span></code></pre></div><p>For the next two operations, the use of admin credentials is mandatory, they will not work with a standard API user. The first one of these two is the creation of a new workspace:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>ws &lt;- suso_createWorkspace(apiUser = adminUser, apiPass = adminPass, your_workspace = <span style=color:#a31515>&#34;test&#34;</span>, new_workspace = <span style=color:#a31515>&#34;test11&#34;</span>, displayName = <span style=color:#a31515>&#34;ExtraExtraWorkspace&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Error in stopifnot(is.character(user), length(user) == 1): object &#39;adminUser&#39; not found</span>
+</span></span><span style=display:flex><span>print(head(ws))
+</span></span><span style=display:flex><span><span style=color:green>#&gt;       Name       DisplayName DisabledAtUtc</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: primary Default Workspace            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:    test              test            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3:   test2             test2            NA</span>
+</span></span></code></pre></div><p>The return value from the function already tells you, that the new workspace has been successfully created, however to double check, you can also get the full list again:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>ws &lt;- suso_getWorkspace(apiUser = adminUser, apiPass = adminPass)
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Error in stopifnot(is.character(user), length(user) == 1): object &#39;adminUser&#39; not found</span>
+</span></span><span style=display:flex><span>print(head(ws))
+</span></span><span style=display:flex><span><span style=color:green>#&gt;       Name       DisplayName DisabledAtUtc</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: primary Default Workspace            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:    test              test            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3:   test2             test2            NA</span>
+</span></span></code></pre></div><p>Finally you can also assign a new user to this workspace by using the <strong>suso_assignWorkspace</strong> function.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>ws &lt;- suso_assignWorkspace(your_workspace = <span style=color:#a31515>&#34;test&#34;</span>, assign_workspace = <span style=color:#a31515>&#34;test11&#34;</span>, apiUser = adminUser, apiPass = adminPass, uid = <span style=color:#a31515>&#34;34c2bc7b-ec33-473b-875b-dc06d269fced&#34;</span>, sv_id = <span style=color:#a31515>&#34;34c2bc7b-ec33-473b-875b-dc06d269fced&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Error in stopifnot(is.character(user), length(user) == 1): object &#39;adminUser&#39; not found</span>
+</span></span><span style=display:flex><span>print(head(ws))
+</span></span><span style=display:flex><span><span style=color:green>#&gt;       Name       DisplayName DisabledAtUtc</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: primary Default Workspace            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:    test              test            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3:   test2             test2            NA</span>
+</span></span></code></pre></div><p>Further details on workspaces can be found in the dedicated vignette on user management.</p><h2 id=user-management>User Management</h2><p>These functions are particularly useful for survey management, and more details can be found in the corresponding vignette on survey management. Lets start with getting a list of all supervisors on the server.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>sv &lt;- suso_getSV(workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span>print(head(sv))
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    IsLocked        CreationDate                               UserId   UserName</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1:    FALSE 2023-02-07 17:33:40 00d21677-0331-4698-ae7b-908aeac14dd6 somesvuser</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:    FALSE 2023-02-04 19:05:10 ded27a4a-716d-4bf2-8d54-aedc31fc164b     SV0001</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3:    FALSE 2023-02-04 19:36:03 5753ddde-3c7d-438f-9934-43fdf18fa802     SV0002</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 4:    FALSE 2023-02-04 19:36:03 72196c84-8f2f-488a-8d61-f23b8b998d43     SV0003</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 5:    FALSE 2023-02-04 19:36:03 1a9d4b10-c92d-401d-af69-2a7d0a391fe6     SV0004</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 6:    FALSE 2023-02-04 19:36:03 97e9e4ff-22e1-492f-a102-03c2115903e7     SV0005</span>
+</span></span></code></pre></div><p>Your will receive a list of supervisors currently active (not archived) on the server. If you take one of the supervisor&rsquo;s <em>id</em> and use the <em>suso_getINT</em> function, you will receive all the interviewers in the team.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>int &lt;- suso_getINT(sv_id = sv[3, UserId], workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span>print(int)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    IsLocked        CreationDate                               UserId UserName</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1:    FALSE 2023-02-04 19:36:03 14ee97f1-ae8d-44f5-8a30-4c3617f03002  INT0012</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:    FALSE 2023-02-04 19:36:03 4a1d5b37-2db1-448c-adc2-0a26379956fe  INT0013</span>
+</span></span></code></pre></div><p>To receive more information about a particular user, use the <em>suso_getINT_info</em> function:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>intinfo &lt;- suso_getINT_info(int_id = int[1, UserId], workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span>print(intinfo)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    SupervisorName                         SupervisorId IsLockedBySupervisor IsLockedByHeadquarters IsArchived                               UserId UserName        Role IsLocked</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1:         SV0002 5753ddde-3c7d-438f-9934-43fdf18fa802                FALSE                  FALSE      FALSE 14ee97f1-ae8d-44f5-8a30-4c3617f03002  INT0012 Interviewer    FALSE</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;           CreationDate      FullName</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: 2023-02-04 19:36:03 Ashlie Spinka</span>
+</span></span></code></pre></div><p>To get information about any particular user, you can also use the more general function <em>suso_getUSR</em>.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>usrinfo_int &lt;- suso_getUSR(uid = sv[3, UserId], workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span>print(usrinfo_int)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    IsArchived                               UserId UserName       Role IsLocked        CreationDate       FullName</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1:      FALSE 5753ddde-3c7d-438f-9934-43fdf18fa802   SV0002 Supervisor    FALSE 2023-02-04 19:36:03 Isidro Dach II</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>usrinfo_int &lt;- suso_getUSR(uid = int[1, UserId], workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span>print(usrinfo_int)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    IsArchived                               UserId UserName        Role IsLocked        CreationDate      FullName</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1:      FALSE 14ee97f1-ae8d-44f5-8a30-4c3617f03002  INT0012 Interviewer    FALSE 2023-02-04 19:36:03 Ashlie Spinka</span>
+</span></span></code></pre></div><h2 id=questionnaire>Questionnaire</h2><p>The basic questionnaire API calls are handled through the <em>suso_getQuestDetails</em> function.</p><p>If no input is provided, the function returns a list of all questionnaires on the server:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>questlist &lt;- suso_getQuestDetails(workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:green># print(questlist)</span>
+</span></span></code></pre></div><p>Specifying <em>operation.type = status</em>, you receive a list of statuses.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>statlist &lt;- suso_getQuestDetails(operation.type = <span style=color:#a31515>&#34;statuses&#34;</span>, workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span>print(statlist)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  [1] &#34;Restored&#34;               &#34;Created&#34;                &#34;SupervisorAssigned&#34;     &#34;InterviewerAssigned&#34;    &#34;RejectedBySupervisor&#34;   &#34;ReadyForInterview&#34;      &#34;SentToCapi&#34;            </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  [8] &#34;Restarted&#34;              &#34;Completed&#34;              &#34;ApprovedBySupervisor&#34;   &#34;RejectedByHeadquarters&#34; &#34;ApprovedByHeadquarters&#34; &#34;Deleted&#34;</span>
+</span></span></code></pre></div><p>By taking a particular <em>QuestionnaireId</em> and specifying the *operation.type *you can execute further requests. For example,</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>questionnaire &lt;- suso_getQuestDetails(operation.type = <span style=color:#a31515>&#34;structure&#34;</span>, workspace = <span style=color:#a31515>&#34;test&#34;</span>, quid = questlist[1, QuestionnaireId], version = questlist[1, Version])
+</span></span><span style=display:flex><span>questionnaire &lt;- questionnaire[, .(VariableName, type, QuestionText, Featured, PublicKey)]
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Error in .(VariableName, type, QuestionText, Featured, PublicKey): could not find function &#34;.&#34;</span>
+</span></span><span style=display:flex><span>questionnaire &lt;- questionnaire[!is.na(QuestionText)]
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Error in eval(expr, envir, enclos): object &#39;QuestionText&#39; not found</span>
+</span></span><span style=display:flex><span>head(questionnaire$q, 19L)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;                                   Id               LastEntryDate L0                  type                            PublicKey                  Title L1    VariableName QuestionScope</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  1: dee7705fd6114b129b972b8e5b80c4ea 2022-07-15T17:56:56.4811273  1                 Group c46ee895-0e6e-4063-8136-31e6bfa7c3f8                  COVER NA            &lt;NA&gt;            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  2: dee7705fd6114b129b972b8e5b80c4ea 2022-07-15T17:56:56.4811273  2                 Group fdeaf889-ba80-89c5-6d60-8c1b1196ebe5               DWELLING NA            &lt;NA&gt;            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  3: dee7705fd6114b129b972b8e5b80c4ea 2022-07-15T17:56:56.4811273  3                 Group 1f949736-beb1-dd10-6451-561b7799c99c RESULTS AND CONCLUSION NA            &lt;NA&gt;            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  4:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 59e2b882-0b67-78cf-d08a-0760e98d5157                   &lt;NA&gt;  1             q01             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  5:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 95c9e53e-6603-a96e-0dee-ce0584076a16                   &lt;NA&gt;  2             q02             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  6:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 4af6c880-658a-b610-53fc-4a2bdd5cfe2c                   &lt;NA&gt;  3             q03             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  7:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 0dd2cbb5-1617-fb3b-1494-394ec4aceb4c                   &lt;NA&gt;  4             q04             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  8:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 4c20c6f7-ff1b-8884-3b7b-cb7c42f23396                   &lt;NA&gt;  5             q05             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  9:                             &lt;NA&gt;                        &lt;NA&gt;  1        SingleQuestion 3870444e-932a-676b-c109-7cb8b22e1520                   &lt;NA&gt;  6             q06             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 10:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 1f328d26-2264-f86a-bd62-9d69ed0e6010                   &lt;NA&gt;  7             q07             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 11:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 426d51a2-4ecb-9256-4074-2d711a8ff273                   &lt;NA&gt;  8             q08             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 12:                             &lt;NA&gt;                        &lt;NA&gt;  1          TextQuestion 60068eee-c5c6-738c-235d-d0d540bebf8a                   &lt;NA&gt;  9             q09             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 13:                             &lt;NA&gt;                        &lt;NA&gt;  1 GpsCoordinateQuestion 09024983-6bc6-9ad7-bdc7-cdb6864d1292                   &lt;NA&gt; 10             q10             0</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 14:                             &lt;NA&gt;                        &lt;NA&gt;  2            StaticText 4d34d956-8a7a-eb0b-a0e8-00a9648a6cc0                   &lt;NA&gt;  1                            NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 15:                             &lt;NA&gt;                        &lt;NA&gt;  2       NumericQuestion 1d4e607d-50fb-4d3e-20c6-b4a35a3f5bc8                   &lt;NA&gt;  2      northBound             3</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 16:                             &lt;NA&gt;                        &lt;NA&gt;  2       NumericQuestion 256085f2-2725-e8d2-2475-14e4a9c6cc62                   &lt;NA&gt;  3      southBound             3</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 17:                             &lt;NA&gt;                        &lt;NA&gt;  2       NumericQuestion 2ca4ef6b-46db-6f89-0527-98fb5605c6d3                   &lt;NA&gt;  4       eastBound             3</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 18:                             &lt;NA&gt;                        &lt;NA&gt;  2       NumericQuestion 0df2ac09-c7d2-e1d6-3b5c-0beadf69e218                   &lt;NA&gt;  5       westBound             3</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 19:                             &lt;NA&gt;                        &lt;NA&gt;  2       NumericQuestion fbbaad6d-c38e-8bf1-56e9-f325ff37d6ae                   &lt;NA&gt;  6 subCellsDivisor             3</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;                                          QuestionText Featured L2     ..JSON  intID</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  1:                                              &lt;NA&gt;       NA NA &lt;list[16]&gt; 01NANA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  2:                                              &lt;NA&gt;       NA NA &lt;list[16]&gt; 02NANA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  3:                                              &lt;NA&gt;       NA NA &lt;list[16]&gt; 03NANA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  4:                                       *1.Province     TRUE NA &lt;list[17]&gt; 0101NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  5:                                *2. Territory/City     TRUE NA &lt;list[17]&gt; 0102NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  6:                                   *3. Health zone     TRUE NA &lt;list[17]&gt; 0103NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  7:                                    4. Health area     TRUE NA &lt;list[17]&gt; 0104NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  8:                              *5. Grid cell number     TRUE NA &lt;list[18]&gt; 0105NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  9:                                6. Sub cell number     TRUE NA &lt;list[19]&gt; 0106NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 10: 7. Urban commune/ Rural commune/ Sector/ Chiefdom     TRUE NA &lt;list[17]&gt; 0107NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 11:                                       8. Grouping     TRUE NA &lt;list[17]&gt; 0108NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 12:                                9. Village/Quarter     TRUE NA &lt;list[17]&gt; 0109NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 13:             *10. GPS Coordinates of the Grid Cell     TRUE NA &lt;list[17]&gt; 0110NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 14:                                              &lt;NA&gt;       NA NA  &lt;list[9]&gt; 0201NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 15:                                 *~ North boundary    FALSE NA &lt;list[20]&gt; 0202NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 16:                                 *~ South boundary    FALSE NA &lt;list[20]&gt; 0203NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 17:                                  *~ East boundary    FALSE NA &lt;list[20]&gt; 0204NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 18:                                  *~ West boundary    FALSE NA &lt;list[20]&gt; 0205NA</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 19:                               *~ Sub-cell divider    FALSE NA &lt;list[19]&gt; 0206NA</span>
+</span></span></code></pre></div><p>Gives you a data.table which contains all the questions, question texts, etc. which you can use for further processing i.e to render a user manual with rmarkdown. Find details in the manual on questionnaire creation.</p><p>You can also get a list of all interviews done for the specific questionnaire.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>interviews &lt;- suso_getQuestDetails(operation.type = <span style=color:#a31515>&#34;interviews&#34;</span>, workspace = <span style=color:#a31515>&#34;test&#34;</span>, quid = questlist[1, QuestionnaireId], version = questlist[1, Version])
+</span></span><span style=display:flex><span>interviews &lt;- interviews[, .(InterviewId, AssignmentId, ResponsibleId, ErrorsCount, Status)]
+</span></span><span style=display:flex><span>head(interviews, 20L)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;                              InterviewId AssignmentId                        ResponsibleId ErrorsCount               Status</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  1: 7d91c038-e258-4948-a7a2-566cda5b4dc5            1 3b0c6e09-d606-4914-9e20-2abc048d5bea           0 ApprovedBySupervisor</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  2: 343da912-5a9f-4875-821b-6f0e1440150b           48 a67d2b82-bf28-40cf-bd1a-7901225c0885           0 RejectedBySupervisor</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  3: a9620548-b1d8-418c-9c1f-a0d64031968a          234 3b0c6e09-d606-4914-9e20-2abc048d5bea           0 RejectedBySupervisor</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  4: 79202304-8ba6-4c87-b45a-3f56529fc6e4          235 366cb1f7-30fa-48bf-9b56-ffa4ec8b0861           0 RejectedBySupervisor</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  5: 7d04a07e-5c99-44f6-974f-531d8ed5a560          239 366cb1f7-30fa-48bf-9b56-ffa4ec8b0861           0  InterviewerAssigned</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  6: ea10292e-7ac6-4fa3-bf82-d4d24fee98ba            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           0            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  7: 1d9305db-2be3-44d6-baf2-cf560a9ff45d            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           0            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  8: 782d1652-c6f5-4d02-882e-e372e97dfa83            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           0            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  9: 8621b894-43bd-4e4e-bfa3-0e67cdf5abb8            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           0            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 10: beeb70f4-ea94-4eb7-af5c-bc15abcfa9ed            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           0            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 11: 90badf8a-199a-4247-94a9-51a14bf308fa            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 12: d63ced87-589b-4316-8e8f-e247c4779877            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 13: 43045bd2-325c-4649-81b3-4f1841048034            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 14: 1054b136-c94f-4851-b8c2-ca4e003f4358            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 15: a43b0480-8fdb-4d43-b6fe-29420bf8eb71            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           0            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 16: 2f829f02-c844-439b-88a2-326b98412204            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 17: 0dc4f8a1-d740-440f-bdc6-2e34df997d00            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 18: ccc03ee9-1974-4356-98f0-648e0395e932            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 19: a02bd8fa-e048-43f2-88ad-f5e43c2cc67b            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 20: 605afedd-19e6-4941-b51c-b12d885274eb            1 a67d2b82-bf28-40cf-bd1a-7901225c0885           1            Completed</span>
+</span></span></code></pre></div><h2 id=quick-statistics--attention-this-call-is-currently-returning-a-500-error-the-survey-solutions-team-is-working-on-it>Quick statistics &ndash;> Attention: this call is currently returning a 500 error, the Survey Solutions team is working on it.</h2><p>To monitor variables of interest, you can use the <em>suso_get_stats</em> function.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span><span style=color:green># statquest&lt;-suso_get_stats(questID = questlist[1, QuestionnaireId], workspace = &#39;test&#39;, version = questlist[1, Version], qQuest = questionnaire[19, PublicKey]) print(statquest)</span>
+</span></span></code></pre></div><h2 id=full-data-export>Full data export</h2><p>To export the data collected in Survey Solutions, you use <em>suso_export</em>.</p><pre tabindex=0><code>#&gt; The last file has been created 0.06833 hours ago.
+#&gt; FileName: assignment__actions 
+#&gt; Nesting Level: 0 
+#&gt; ****
+#&gt; 
+#&gt; FileName: households 
+#&gt; Nesting Level: 1 
+#&gt; ****
+#&gt; 
+#&gt; FileName: interview__actions 
+#&gt; Nesting Level: 0 
+#&gt; ****
+#&gt; 
+#&gt; FileName: interview__diagnostics 
+#&gt; Nesting Level: 0 
+#&gt; ****
+#&gt; 
+#&gt; FileName: interview__errors 
+#&gt; Nesting Level: 0 
+#&gt; ****
+</code></pre><p>Its return value is a list with the following elememts: main, R1, R2, R3, with</p><ul><li><strong>main</strong> containing the files: interview__comments, kasai_listing1</li><li><strong>R1</strong> containing all rosters at the first level</li><li><strong>R2</strong> containing all rosters at the second level</li><li><strong>R3</strong> containing all rosters at the third level</li></ul><p>through the harmonized ID, main and rosterfiles can easily be put together. More on this in the specific vignette.</p><h2 id=paradata>Paradata</h2><p>To retrieve the paradata for a particular interview you use <em>suso_export_paradata</em></p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>system.time(para1 &lt;- suso_export_paradata(questID = questlist[1, QuestionnaireId], workspace = <span style=color:#a31515>&#34;test&#34;</span>, version = questlist[1, Version], reloadTimeDiff = 24, onlyActiveEvents = F, allResponses = T))
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; The last file has been created 1 hours ago.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Starting download &amp; file extraction. </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Calculating Response Timings.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Extracting GPS variable.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Processing: </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	AnswerSet</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	AnswerRemoved</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	ApproveByHeadquarter</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	Restarted</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	Reject</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	QuestionDeclaredInvalid</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	QuestionDeclaredValid</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Export &amp; Transformation finished.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    user  system elapsed </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   0.536   0.036   0.820</span>
+</span></span></code></pre></div><p>This will return a list of data.tables, separated by events. Please bear in mind, that paradata files can be fairly big, and processing it may require a large working memory. To decrease the load there are also 3 parameters you can change, these are:</p><ul><li><strong>onlyActiveEvents</strong>, if TRUE it processes only the active events initiated by users.</li><li><strong>allResponses</strong>, if FALSE, does not process all response values, nevertheless they are still included in a single column. Otherwise, they are separated by column.</li></ul><p>Running the same call again without passive events and without all responses processed, reduces processing time significantly.</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>system.time(para2 &lt;- suso_export_paradata(questID = questlist[1, QuestionnaireId], workspace = <span style=color:#a31515>&#34;test&#34;</span>, version = questlist[1, Version], reloadTimeDiff = 24, onlyActiveEvents = T, allResponses = F))
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; The last file has been created 1 hours ago.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Starting download &amp; file extraction. </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Calculating Response Timings.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Extracting GPS variable.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Processing: </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	AnswerSet</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	AnswerRemoved</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	ApproveByHeadquarter</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	Restarted</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 	Reject</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; Export &amp; Transformation finished.</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    user  system elapsed </span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;   0.524   0.028   0.818</span>
+</span></span></code></pre></div><p>As you see from the system timings, changing these parameters reduces processing time significantly. More details on how to work with paradata can be found in the corresponding vignette. The paradata export is returned as a list, with the following elements:</p><ul><li><strong>full data</strong>: KeyAssigned, Completed, AnswerSet, AnswerRemoved, Restarted, Reject, QuestionDeclaredInvalid, QuestionDeclaredValid, actionDistr, userDistr, roleDistr</li><li><strong>reduced data</strong>: KeyAssigned, Completed, AnswerSet, AnswerRemoved, Restarted, Reject, actionDistr, userDistr, roleDistr</li></ul><p>There are also tables already included in the file, like:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>para2[[<span style=color:#a31515>&#34;userDistr&#34;</span>]]
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    responsible count</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1:               918</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2:        int1   804</span>
+</span></span></code></pre></div><p>which gives the distribution of events by user, or:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>para2[[<span style=color:#a31515>&#34;actionDistr&#34;</span>]]
+</span></span><span style=display:flex><span><span style=color:green>#&gt;                      action count</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  1:   QuestionDeclaredValid   747</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  2:               AnswerSet   646</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  3:             VariableSet   129</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  4:                 Resumed    25</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  5:                  Paused    25</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  6:     TranslationSwitched    23</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  7:             KeyAssigned    17</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  8:        InterviewCreated    17</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;  9:      SupervisorAssigned    17</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 10:    InterviewModeChanged    17</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 11:     InterviewerAssigned    17</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 12:               Completed    17</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 13:    ReceivedBySupervisor    16</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 14: QuestionDeclaredInvalid     9</span>
+</span></span></code></pre></div><p>which gives the distribution by event type.</p><h2 id=map-management>Map management</h2><p>Since recently, it is now also possible, to handle maps through the API. This is implemented through the lately introduced GraphQL API.</p><p>To upload a map, you can just use the <strong>suso_mapupload</strong> function like this:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>suso_mapupload(workspace = <span style=color:#a31515>&#34;test&#34;</span>, path_to_zip = mapPath)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;    xMaxVal yMaxVal xMinVal yMinVal wkid             fileName  size maxScale minScale shapeType       importDateUtc                           uploadedBy     users</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1:  -78.39    26.8  -78.62   26.55 4326 checkshapesimple.shp 20467        0        0   Polygon 2023-02-16 17:24:47 961d073f-f316-4353-9e7e-1f00899cb837 &lt;list[0]&gt;</span>
+</span></span></code></pre></div><p>To assign a map you can use the <strong>suso_mapassign</strong> function:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>suso_mapassign(workspace = <span style=color:#a31515>&#34;test&#34;</span>, fileName = <span style=color:#a31515>&#34;checkshapesimple.shp&#34;</span>, userName = <span style=color:#a31515>&#34;INT0004&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;                fileName    user shapeType       importDateUtc</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: checkshapesimple.shp INT0004   Polygon 2023-02-16 17:24:47</span>
+</span></span></code></pre></div><p>And to check the current maps on the server, and to whom they are assigned, you can use:</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-r data-lang=r><span style=display:flex><span>suso_mapinfo(workspace = <span style=color:#a31515>&#34;test&#34;</span>)
+</span></span><span style=display:flex><span><span style=color:green>#&gt;                  fileName maxScale minScale shapeType shapesCount    size       importDateUtc                           uploadedBy userName   xMaxVal     yMaxVal   xMinVal</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: seg_Lat14701Lon379.shp        0        0   Polygon           4    1558 2023-01-26 16:07:54 25628149-1164-4405-b2a2-41a114700215  INT0004 171407.96 5229062.505 171313.10</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2: seg_Lat14701Lon379.shp        0        0   Polygon           4    1558 2023-01-26 16:07:54 25628149-1164-4405-b2a2-41a114700215  INT0005 171407.96 5229062.505 171313.10</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3: seg_Lat14703Lon375.shp        0        0   Polygon           4    1558 2023-01-26 16:07:55 25628149-1164-4405-b2a2-41a114700215     &lt;NA&gt; 165982.27 5231732.606 165887.31</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 4: seg_Lat14706Lon376.shp        0        0   Polygon           4    1558 2023-01-26 16:07:55 25628149-1164-4405-b2a2-41a114700215     &lt;NA&gt; 166739.20 5236147.192 166644.21</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 5:   checkshapesimple.shp        0        0   Polygon           1   20467 2023-02-16 17:24:47 961d073f-f316-4353-9e7e-1f00899cb837  INT0004    -78.39      26.798    -78.62</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 6:  Lat9260Lon650_ALL.tif        0        0      &lt;NA&gt;          NA 8658427 2023-02-15 22:16:05 25628149-1164-4405-b2a2-41a114700215     &lt;NA&gt;     22.37      -6.681     22.36</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 7:  Lat9263Lon605_ALL.tif        0        0      &lt;NA&gt;          NA 8643131 2023-02-15 22:16:06 25628149-1164-4405-b2a2-41a114700215     &lt;NA&gt;     21.96      -6.654     21.95</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 8:  Lat9263Lon686_ALL.tif        0        0      &lt;NA&gt;          NA 8663511 2023-02-15 22:16:07 25628149-1164-4405-b2a2-41a114700215     &lt;NA&gt;     22.69      -6.652     22.68</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 9:  Lat9264Lon625_ALL.tif        0        0      &lt;NA&gt;          NA 2165023 2023-02-15 22:16:07 25628149-1164-4405-b2a2-41a114700215     &lt;NA&gt;     22.14      -6.645     22.13</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt;        yMinVal wkid</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 1: 5228935.260 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 2: 5228935.260 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 3: 5231605.274 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 4: 5236019.808 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 5:      26.546 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 6:      -6.690 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 7:      -6.663 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 8:      -6.662 4326</span>
+</span></span><span style=display:flex><span><span style=color:green>#&gt; 9:      -6.654 4326</span>
+</span></span></code></pre></div><p>We hope that gave you a short overview on the available functions. For more details on how to use the output, please read the specific vignettes.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

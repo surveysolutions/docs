@@ -1,0 +1,72 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="syntax,text,string"><meta property="og:url" content="https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-text-questions/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Syntax Guide: Text questions"><meta property="og:description" content="Responses to text questions are recorded as a string data type. The content for these types of questions consists of characters (e.g. the letter “A”), group of characters (e.g. “Mat”), or class of characters (e.g. white or empty space).
+The following functions can be used in conditions for text questions:
+Length: Checks the number of characters “A text”: Checks that the response is exactly equal to a specified text (“A text”) Contains: Checks that the response includes a specified text ConsistsOf: Checks that the response includes one or more of the specified characters IsAlphaLatin: Checks that the response consists of latin characters IsAlphaLatinOrDelimiter: Checks that the response consists of latin characters and delimiters IsNullOrWhiteSpace: Checks that the response is null or consists of blank spaces"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="syntax-guide"><meta property="article:published_time" content="2016-11-28T18:24:24+00:00"><meta property="article:modified_time" content="2016-11-28T18:24:24+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Syntax Guide: Text questions</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/syntax-guide/>Syntax Guide</a></li><li class=breadcrumb-item><a href=/syntax-guide/questions/>Questions</a></li><li class="breadcrumb-item active" aria-current=page>Syntax Guide: Text questions</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Syntax Guide: Text questions</h2><div class="data text-right">November 28, 2016</div></div><div class=article-content><p>Responses to text questions are recorded as a string <a href=/syntax-guide/data-types>data
+type</a>. The content for these types of
+questions consists of characters (e.g. the letter “A”), group of
+characters (e.g. “Mat”), or class of characters (e.g. white or empty
+space).<br> <br>The following functions can be used in conditions for text questions:</p><ul><li><a href=#Length>Length</a><span style=font-size:13px>: <em>Checks the number
+of characters</em></span></li><li><a href=#text>“A text”</a><span style=font-size:13px>: <em>Checks that the
+response is exactly equal to a specified text (“A text”)</em></span></li><li><a href=#Contains>Contains</a><span style=font-size:13px>: <em>Checks that
+the response includes a specified text</em></span></li><li><a href=#ConsistsOf>ConsistsOf</a><span style=font-size:13px>: <em>Checks
+that the response includes one or more of the specified
+characters</em></span></li><li><a href=#IsAlphaLatin>IsAlphaLatin</a><span style=font-size:13px>:
+<em>Checks that the response consists of latin characters</em></span></li><li><a href=#IsAlphaLatinOrDelim>IsAlphaLatinOrDelimiter</a><span style=font-size:13px>: <em>Checks that the response consists of
+latin characters and delimiters</em></span></li><li><a href=#IsNullOrWhiteSpace>IsNullOrWhiteSpace</a><span style=font-size:13px>: <em>Checks that the response is null or
+consists of blank spaces</em></span></li></ul><p> </p><h2 id=length><span id=Length></span>Length </h2><h3 id=description>Description</h3><p>Checks the number of characters.<br> </p><h3 id=syntax>Syntax</h3><pre><code>varText.Length
+</code></pre><p>This function checks the number of characters recorded.<br> </p><h3 id=example-1>Example 1</h3><p>Suppose, you are recording the head of household’s name in a text
+question, and you know that in this particular context the full name
+should be more than 10 characters long. Therefore, the validation
+condition for this check would be:<br> </p><pre><code>hhead_name.Length&gt;10
+</code></pre><p> </p><h2 id=a-text><span id=text></span>“A text”</h2><h3 id=description-1>Description</h3><p>Checks that the response is exactly equal to a specified text (“A
+text”)<br> </p><h3 id=syntax-1>Syntax</h3><pre><code>varText== “A text”
+</code></pre><p>This function checks that the response recorded matches the defined text
+(**“**A text”).<br> </p><h3 id=example-1-1>Example 1</h3><p>To check that the response recorded in question &ldquo;brandName&rdquo; is Nike, the
+validation condition would be: </p><pre><code>brandName==&quot;Nike&quot;
+</code></pre><h2 id=contains><span id=Contains></span>Contains</h2><p> </p><h3 id=description-2>Description</h3><p>Checks that the response includes a specified text.<br> </p><h3 id=syntax-2>Syntax</h3><pre><code>varText.Contains(“aText”)
+</code></pre><p>This function checks that the response includes a specified sub-text
+(“aText”).<br> </p><h3 id=example-1-2>Example 1</h3><p>To check that the present participle verb recorded in the text question
+&ldquo;actionWord&rdquo;  includes &ldquo;ing&rdquo; , the validation condition would be: </p><pre><code>actionWord.Contains(&quot;ing&quot;)
+</code></pre><p> <br> </p><h2 id=consistsof><span id=ConsistsOf></span>ConsistsOf</h2><h3 id=description-3>Description</h3><p>Checks that the response includes one or more of the specified
+characters.<br> </p><h3 id=syntax-3>Syntax </h3><pre><code>varText.ConsistsOf(“aText”)
+</code></pre><p>This function checks that the response includes one or more of the
+specified characters (“aText”).<br> </p><h3 id=example-1-3>Example 1</h3><p>Assume you are recording the home address of the interviewee (address),
+and you want to make sure that it only includes letters, numbers,
+delimiters, and spaces.<br> <br>The validation condition for this check would be:<br> </p><pre><code>address.ConsistsOf(&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890., &quot;)
+</code></pre><p> </p><h2 id=isalphalatin><span id=IsAlphaLatin></span>IsAlphaLatin</h2><h3 id=description-4>Description</h3><p>Checks that the response consists of alpha latin characters</p><h3 id=syntax-4>Syntax</h3><pre><code>varText.IsAlphaLatin()
+</code></pre><p>This function checks that the text in VarText consists of latin
+characters.<br> </p><h3 id=example-1-4>Example 1</h3><p>Suppose, you are recording the first name of  the respondent for Module
+A (firstname). The response for this question must only consists of
+latin characters.</p><p>Therefore, the validation condition for this check would be:</p><pre><code>self.IsAlphaLatin()
+</code></pre><p>Or alternatively use the question’s variable name:</p><pre><code>firstname.IsAlphaLatin()
+</code></pre><p> </p><h2 id=isalphalatinordelimiter><span id=IsAlphaLatinOrDelim></span>IsAlphaLatinOrDelimiter</h2><h3 id=description-5>Description</h3><p>Checks that the response consists of alpha latin characters and
+delimiters.<br> </p><h3 id=syntax-5>Syntax</h3><pre><code>varText.IsAlphaLatinOrDelimiter()
+</code></pre><p>This function checks that the text in varText consists of latin
+characters and delimiters.<br> </p><h3 id=example-1-5>Example 1</h3><p>Suppose, you have a questions asking for the head of household’s full
+name(hheadFullName), starting with the surname followed by a comma, and
+then the first name. For this check the validation condition would be:<br> </p><pre><code>self.IsAlphaLatinOrDelimiter()
+</code></pre><p>Or alternatively use the question’s variable name:<br> </p><pre><code>hheadFullName.IsAlphaLatinOrDelimiter()
+</code></pre><p> </p><h2 id=isnullorwhitespace><span id=IsNullOrWhiteSpace></span>IsNullOrWhiteSpace</h2><h3 id=description-6>Description</h3><p>Checks that the response is null or consists of blank spaces<br> </p><h3 id=syntax-6>Syntax</h3><pre><code>String.IsNullOrWhiteSpace(varText)
+</code></pre><p>This function checks that the string(text) in the question varText
+consists of blank spaces or is null.<br> </p><h3 id=example-1-6>Example 1</h3><p>Assume you are recording the first name of the respondent for Module A
+(firstname). The response for this question must not include spaces or
+be null.<br> <br>For this check the validation condition would be:</p><pre><code>!( String.IsNullOrWhiteSpace(self) )
+</code></pre><p> <br>or alternatively use the variable name:</p><pre><code>!(String.IsNullOrWhiteSpace(firstname))
+</code></pre></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

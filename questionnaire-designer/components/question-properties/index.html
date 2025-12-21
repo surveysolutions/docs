@@ -1,0 +1,58 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta property="og:url" content="https://docs.mysurvey.solutions/questionnaire-designer/components/question-properties/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Question Properties"><meta property="og:description" content="Question’s properties define the question, how it is presented to the interviewer or respondent, what values it may accept, etc. There are properties that are common for all question types while other properties only exist for specific question types.
+Common question properties Type - determines how the response is collected by the application (default is a text type). See question type.
+Text - question text that the interviewer will read to the respondent. It may include text substitution."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="questionnaire-designer"><meta property="article:published_time" content="2024-09-25T00:00:00+00:00"><meta property="article:modified_time" content="2025-01-30T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Question Properties</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/>Questionnaire Designer</a></li><li class=breadcrumb-item><a href=/questionnaire-designer/components/>Questionnaire Components</a></li><li class="breadcrumb-item active" aria-current=page>Question Properties</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Question Properties</h2><div class="data text-right">January 30, 2025</div></div><div class=article-content><p>Question&rsquo;s properties define the question, how it is presented to the
+interviewer or respondent, what values it may accept, etc. There are properties
+that are common for all question types while other properties only exist for
+specific question types.</p><h4 id=common-question-properties>Common question properties</h4><ul><li><p><strong>Type</strong> - determines how the response is collected by the application
+(default is a text type). See
+<a href=/questionnaire-designer/components/question-type/>question type</a>.</p></li><li><p><strong>Text</strong> - question text that the interviewer will read to the respondent. It
+may include
+<a href=/questionnaire-designer/techniques/text-substitution/>text substitution</a>.</p></li><li><p><strong>Variable name</strong> - a unique identifier to be used in expressions to refer to
+the content (value of the answer to this question) and for export purposes. This
+identifier must follow the requirements for
+<a href=/questionnaire-designer/components/variable-names/>variable names</a>.</p></li><li><p><strong>Variable label</strong> - (optional) description of the data captured by the
+question and it will be associated to the variable name when exporting the data
+to a statistical software package. If the variable label is not entered, the
+system automatically exports the question text as its label. The variable label
+is not visible on the tablet except the variable labels for the identifying
+questions (questions at the cover page). Variable labels are mandatory for all
+questions at the cover page.</p></li><li><p><strong>Instruction</strong> - (optional) clarification (to interviewer or respondent)
+how the question must be asked, etc.</p></li><li><p><strong>Scope</strong> - defines who will be responsible for answering the question. The
+scopes are described in
+<a href=/questionnaire-designer/questions/question-scope-/>Question&rsquo;s Scope</a>.</p></li><li><p><strong>Condition expression</strong> (<strong>enabling condition</strong>) - (optional) a logical
+expression that defines when this question must be asked depending on the
+answers to other questions of this questionnaire. If no expression is specified,
+the question will be asked.</p></li><li><p><strong>Validation rule</strong> - (optional) a combination of a validation expression and
+a corresponding message for quality control of the input data by showing errors
+or warnings during the interview. (Note that audio- and picture-type questions
+can&rsquo;t be validated).</p></li><li><p><strong>Critical</strong> - is an attribute which defines whether the question is declared
+being a critical question, meaning the answer to the question is critical for
+interview submission. Whether it may or may not be submitted without such a
+critical answer depends on the questionnaire treatment mode decided by the user
+importing the questionnaire. See more details in
+<a href=/questionnaire-designer/techniques/critical-rules-and-questions>Critical rules and questions</a>.</p></li></ul><h4 id=type-specific-question-properties>Type-specific question properties</h4><p>Description of properties specific to questions of particular types is provided
+in the description of the corresponding type. See
+<a href=/questionnaire-designer/components/question-type/>question type</a>.</p><p><br><br></p><div class="card my-3 border-top-0 border-right-0 border-bottom-0 border-left border-warning rounded" style=border-width:4px!important><div class="wrap border border-left-0 rounded"><div class="card-header border-0 bg-white pl-3 text-warning"><h3>Attention!</h3></div><div class="card-body pt-1">Note that not all the combinations of properties are possible. For example,
+specifying a particular question type may have an impact as to whether the
+question may be placed in the cover page section, used as a supervisor question,
+be preloaded, etc. Consult the table in
+<a href=/questionnaire-designer/limits/design-limitations-by-question-type/>Design limitations by question type</a>
+for specific details.</div></div></div></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

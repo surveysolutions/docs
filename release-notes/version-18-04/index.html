@@ -1,0 +1,70 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="18.04"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-18-04/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 18.04"><meta property="og:description" content="The April 2018 release ushers in numerous improvements to each component of the Survey Solutions. We have also changed our version numbering notation and from now on will use the YY.MM notation for new versions, such as 18.04 for the April 2018 release. Some of the features below are new functionality that are described in more details in the corresponding linked articles.
+Designer Validation warnings, read the article; Special values for numeric questions, read the article; Capturing signatures, (as requested by Mr. Eugene Ehlers, AHRI) read the article; Comments in Designer, read the article; Export questionnaires as HTML (as requested by Mr. Edwin St. Catherine, CSO St. Lucia); Reload questionnaire in Web Tester: When the reload button is pressed, the web tester will behave just like the tablet Tester application: the questionnaire will be updated to reflect recent changes, while the data previously entered will be preserved and all condtions re-evaluated. Prevent circular references in enabling and filter conditions, read the article. Headquarters Compact presentation of answered categorical questions in interview details view with only selected answers shown in single- and multi-select categorical questions; Old interview details page retained in several previous versions to facilitate transition to the new design is now deprecated; Customize web interview messages, (as requested by Mr. Michael Rahija, FAO) read the article; Export binary data to user-designated cloud data storage, read the article. Supervisor Map report is now available for supervisors, (as requested by Mr. Phil Bright, SPC and other users) covering interviews in their responsibility (report for all interviews remains available to the Headquarters users). Speed report uses active interview time: active interview time is defined as time when the tablet screen is on and an interview is open in the Survey Solutions Interviewer application. This is more relevant for interview duration estimation, over the approach in earlier versions, which based the reports on simple difference between the timestamps at start and finish of the interviews. Interviewer Search on the dashboard (as suggested by Mr. Luqmaan Omar, StatsSA) allows locating the interviews across the various tabs of the Interviewer application. Advanced features and troubleshooting tools Automatic update of the Interviewer application is now default mode on all Survey Solutions servers. The updates are performed automatically by determining only the minimal information that is necessary to be send and the size of the files is typically smaller than 200kb, which makes it possible to receive the critical update for interviewers working even in the most difficult connectivity modes; automatic updates can be disabled by server administrators, though this is not desirable in typical scenarios. Export questionnaires from the Headquarters for the Survey Solutions technical support team in case the original questionnaire has been modified or deleted in the Designer. Capture log of interviews created and deleted on the tablet: the Interviewer application captures what happens to each interview, including those that are created and deleted on the tablet before syncing. In this way, the Headquarters and technical support teams can know what happened on the tablet, and thereby better troubleshoot interview reports of missing interviews. New API endpoints for users utilizing API automation: posting comments to interviews and getting the interview statistics (number of questions answered, unanswered, flagged, valid, invalid, with comments, etc). See the API documentation."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2018-04-02T22:42:28+00:00"><meta property="article:modified_time" content="2018-04-02T22:42:28+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 18.04</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 18.04</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 18.04</h2><div class="data text-right">April 2, 2018</div></div><div class=article-content><p>The April 2018 release ushers in numerous improvements to each component
+of the Survey Solutions. We have also changed our version numbering
+notation and from now on will use the YY.MM notation for new versions,
+such as 18.04 for the April 2018 release. Some of the features below are
+new functionality that are described in more details in the
+corresponding linked articles.</p><h3 id=designer>Designer</h3><ul><li><strong>Validation warnings</strong>, <a href=/questionnaire-designer/validation-warnings>read the
+article</a>;</li><li><strong>Special values</strong> for numeric questions, <a href=/questionnaire-designer/special-values-for-numeric-questions>read the
+article</a>;</li><li><strong>Capturing signatures</strong>, (as requested by Mr. <em>Eugene Ehlers</em>,
+AHRI) <a href=/customer/en/portal/articles/2931992>read the
+article</a>;</li><li><strong>Comments in Designer</strong>, <a href=/customer/en/portal/articles/2932008>read the
+article</a>;</li><li><strong>Export questionnaires as HTML</strong> (as requested by Mr. <em>Edwin St.
+Catherine</em>, CSO St. Lucia);</li><li><strong>Reload questionnaire in Web Tester</strong>: When the reload button is
+pressed, the web tester will behave just like the tablet Tester
+application: the questionnaire will be updated to reflect recent
+changes, while the data previously entered will be preserved and all
+condtions re-evaluated.</li><li>Prevent <strong>circular references</strong> in enabling and filter conditions,
+<a href=/questionnaire-designer/circular-references>read the article</a>. </li></ul><h3 id=headquarters>Headquarters</h3><ul><li><strong>Compact presentation</strong> of answered categorical questions in
+interview details view with only selected answers shown in single-
+and multi-select categorical questions;</li><li>Old interview details page retained in several previous versions to
+facilitate transition to the new design is now <strong>deprecated</strong>;</li><li><strong>Customize web interview messages</strong>, (as requested by Mr. <em>Michael
+Rahija</em>, FAO) <a href=/headquarters/customize-web-interview-messages>read the
+article</a>;</li><li>Export binary data to user-designated <strong>cloud data storage</strong>, <a href=/headquarters/export-to-cloud-storage>read
+the article</a>.</li></ul><h3 id=supervisor>Supervisor</h3><ul><li><strong>Map report</strong> is now available <strong>for supervisors</strong>, (as requested
+by Mr. <em>Phil Bright</em>, SPC and other users) covering interviews in
+their responsibility (report for all interviews remains available to
+the Headquarters users).</li><li>Speed report uses <strong>active interview time</strong>: active interview time
+is defined as time when the tablet screen is on and an interview is
+open in the Survey Solutions Interviewer application. This is more
+relevant for interview duration estimation, over the approach in
+earlier versions, which based the reports on simple difference
+between the timestamps at start and finish of the interviews.</li></ul><h3 id=interviewer>Interviewer</h3><ul><li><strong>Search on the dashboard</strong> (as suggested by Mr. <em>Luqmaan Omar</em>,
+StatsSA) allows locating the interviews across the various tabs of
+the Interviewer application.</li></ul><h3 id=advanced-features-and-troubleshooting-tools>Advanced features and troubleshooting tools</h3><ul><li><strong>Automatic update of the Interviewer application</strong> is now default
+mode on all Survey Solutions servers. The updates are performed
+automatically by determining only the minimal information that is
+necessary to be send and the size of the files is typically smaller
+than 200kb, which makes it possible to receive the critical update
+for interviewers working even in the most difficult connectivity
+modes; automatic updates can be disabled by server administrators,
+though this is not desirable in typical scenarios.</li><li><strong>Export questionnaires from the Headquarters</strong> for the Survey
+Solutions technical support team in case the original questionnaire
+has been modified or deleted in the Designer.</li><li><strong>Capture log of interviews created and deleted on the tablet</strong>: the
+Interviewer application captures what happens to each interview,
+including those that are created and deleted on the tablet before
+syncing. In this way, the Headquarters and technical support teams
+can know what happened on the tablet, and thereby better
+troubleshoot interview reports of missing interviews.</li><li><strong>New API endpoints</strong> for users utilizing API automation: posting
+comments to interviews and getting the interview statistics (number
+of questions answered, unanswered, flagged, valid, invalid, with
+comments, etc). <a href=https://demo.mysurvey.solutions/apidocs/index>See the API
+documentation</a>.</li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

@@ -1,0 +1,81 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="syntax,beginner,self,@rowcode,@optioncode,@current"><meta property="og:url" content="https://docs.mysurvey.solutions/syntax-guide/cslanguage/syntax-guide-system-generated-variables/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Syntax Guide: System Generated Variables"><meta property="og:description" content="These are variables that are created by Designer to allow the user to refer to certain variables or lines in a roster in enabling conditions or validation conditions. More detail is provided below about useful system variables: self, @rowcode, @optioncode, and @current.
+self For validation conditions, a very useful system generate variable is self. This variable denotes the value of the question being validated. Using self instead of the question’s variable name in a question’s validation conditions is advised because you will not have to change the variable name in the validation condition if the variable name for the question is changed."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="syntax-guide"><meta property="article:published_time" content="2016-08-16T20:36:55+00:00"><meta property="article:modified_time" content="2016-08-16T20:36:55+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Syntax Guide: System Generated Variables</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/syntax-guide/>Syntax Guide</a></li><li class=breadcrumb-item><a href=/syntax-guide/cslanguage/>C# Language Basics</a></li><li class="breadcrumb-item active" aria-current=page>Syntax Guide: System Generated Variables</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Syntax Guide: System Generated Variables</h2><div class="data text-right">August 16, 2016</div></div><div class=article-content><p>These are variables that are created by Designer to allow the user
+to refer to certain variables or lines in a roster in <a href=/questionnaire-designer/general-component-properties>enabling
+conditions</a> or
+<a href=/questionnaire-designer/general-component-properties>validation
+conditions</a>. More
+detail is provided below about useful system variables:
+self, <a href=#rowcode>@rowcode</a>, <a href=#optioncode>@optioncode</a>, and
+<a href=#current>@current</a>.<br> </p><h2 id=self>self</h2><p>For validation conditions, a very useful system generate
+variable is<span style="font-family:courier new,courier,monospace"> self</span>. This
+variable denotes the value of the question being validated. Using <span style="font-family:courier new,courier,monospace">self</span> instead
+of the question&rsquo;s variable name in a question&rsquo;s validation conditions is
+advised because you will not have to change the variable name in the
+validation condition if the variable name for the question is changed.</p><p>It is important to note that using <span style="font-family:courier new,courier,monospace">self</span> in the
+enabling condition will cause an compile error.</p><p><em><strong>Example:</strong></em><br>You have a question &ldquo;How many rooms does this house have?&rdquo; with the
+variable name <span style="font-family:courier new,courier,monospace">num_rooms</span>. If
+the value 0 is not an acceptable answer for this question, then you can
+write either <span style="font-family:courier new,courier,monospace">num_rooms>0</span> <em><strong>or</strong></em>
+<span style="font-family:courier new,courier,monospace">self>0</span> as a
+validation condition for this question. The two expressions are
+equivalent.<br> </p><h2 id=rowcode><span id=rowcode></span>@rowcode</h2><p>This system generated variable allows you to reference specific rows
+within a roster. This variable can be used in enabling conditions and
+validations. Additionally, @rowcode can also be used to refer to certain
+rows in a <a href=/questionnaire-designer/lookup-tables>look up table</a>.</p><p><em><strong>Example 1:</strong></em><br>Assume you have roster of items and you have a question that should only
+be asked of two of the items (item #110 and item #114). In this case,
+you would use <span style="font-family:courier new,courier,monospace">@rowcode</span> to
+refer to the item number. Then you would use <span style="font-family:courier new,courier,monospace">@rowcode</span> and
+write the enabling condition to be like below:</p><img style=max-width:100%;height:auto src=/syntax-guide/cslanguage/syntax-guide-system-generated-variables/images/676595_hu_bcac1200ac9956b8.png width=604 height=102><p><em><strong>Example 2:</strong></em><br>Assume you have a roster of items that the household could have bought
+in the last 7 days. You want to check that the amount of money spent is
+not too high. Two of the items on the list are matches (item# 10) and
+cigarettes (item #11). Cigarettes are more expensive than matches
+so the largest amount that could be spent would be different for each
+item. Assume that you want an upper bound of 20 USD for matches and 100
+USD for cigarettes. You<span style=line-height:20.8px> would
+use </span><span style="line-height:20.8px;font-family:courier new,courier,monospace">@rowcode</span><span style=line-height:20.8px> to code the upper bound specific to that
+item. </span>To code this check, you would write the validation
+condition to be like below:<br><img style=max-width:100%;height:auto src=/syntax-guide/cslanguage/syntax-guide-system-generated-variables/images/676607_hu_27216cb4d2e331f8.png width=592 height=238></p><p> </p><p> </p><h2 id=optioncode><span id=optioncode></span>@optioncode</h2><p>This system generated variable, @optioncode, is used to filter answer
+options for <a href=/questionnaire-designer/categorical-single-select-question>single
+select</a>
+questions and
+<a href=/questionnaire-designer/categorical-multi-select-question>multi-select</a>
+questions. @optioncode refers to the numeric code for each answer
+option.</p><p><em><strong>Example:</strong></em><br>Assume you have a question that asks when in the past calendar year a
+business has been in operation. You want to filter the answer options so
+that only the months in the past appears. For example, if the
+interviewer occurs in October, you do not want the month November and
+December to appear because those are months in the future. Assume you
+have a question that captures the the date of the interview (<span style="font-family:courier new,courier,monospace">InterviewDate</span>).
+You will use date time functions to code this filter. You should write
+the filter to look like below:</p><a href=images/705590.png data-toggle=lightbox data-max-width=2400 class="d-block text-center"><img src=images/705590.png class='md-img mx-auto' alt></a><p> </p><p>The code<span style="font-family:courier new,courier,monospace">
+InterviewDate.Value.Month</span> takes the numeric month value from the
+InterviewDate variable. The filter will be evaluated for every option
+code and it will only display the options that it evaluate to true. In
+this case, months in the future will evaluate to false and will not
+appear as an answer option.</p><p> </p><h2 id=current><span id=current></span>@current</h2><p>This system generated variable, @current, is very useful in code to
+filter answer options. @current refers to the current line or occurence
+in the roster. For example, @current refers to the current household
+member that you are on in the household roster.</p><p><em><strong>Example:</strong></em><br>Assume you have a question that asks the interviewer to select the ID of
+the spouse of the current household member. You want to filter the
+answer options based on the following criteria:</p><ul><li>Do not show the current person</li><li>Only show household members of the opposite gender</li><li>Only show household members 10 years old or greater</li></ul><p>This question is a single select linked to the household roster. For
+this example, assume that the variable for the gender of the household
+member is <span style="font-family:courier new,courier,monospace">gender</span>. You
+would write the filter for the answer options to look like this:<br><a href=images/705614.png data-toggle=lightbox data-max-width=2400 class="d-block text-center"><img src=images/705614.png class='md-img mx-auto' alt></a></p><p>To see an example of this code in a public <a href=https://designer.mysurvey.solutions/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/>questionnaire</a>.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

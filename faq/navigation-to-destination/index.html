@@ -1,0 +1,80 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="navigation,map,routing"><meta property="og:url" content="https://docs.mysurvey.solutions/faq/navigation-to-destination/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Navigation to Destination"><meta property="og:description" content="This article describes the features of Survey Solutions related to guiding the field workforce (interviewers and supervisors) to the particular destinations (typically dwellings/households).
+This is especially useful when the target location for interview is known (coordinates known), which helps finding the proper way to the destination in the situations of:
+panel surveys (coordinates are known from previous wave of the survey); cross-sectional surveys on geo-coded frames (households comprising the sampling frame are recorded with their coordinates during the precedeing listing or census enumeration); cross-sectional multi-visit survey (coordinates are recorded during the first visit, then re-used for subsequent visits); audit survey (coordinates are recorded by the interviewers during the main survey, then reused by auditors during the audit survey). While we are mainly thinking of the location of the household or dwelling, it is not essential for Survey Solutions, and the destination can equally be the location of an enterprise, farm, plot, school, hospital, a generic facility, a landmark, a water source, etc."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="faq"><meta property="article:published_time" content="2023-04-23T00:00:00+00:00"><meta property="article:modified_time" content="2023-04-25T12:11:16-04:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Navigation to Destination</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/faq/>FAQ</a></li><li class="breadcrumb-item active" aria-current=page>Navigation to Destination</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Navigation to Destination</h2><div class="data text-right">April 25, 2023</div></div><div class=article-content><p>This article describes the features of Survey Solutions related to guiding the
+field workforce (interviewers and supervisors) to the particular destinations
+(typically dwellings/households).</p><p>This is especially useful when the target location for interview is known
+(coordinates known), which helps finding the proper way to the destination in
+the situations of:</p><ul><li>panel surveys (coordinates are known from previous wave of the survey);</li><li>cross-sectional surveys on geo-coded frames (households comprising the
+sampling frame are recorded with their coordinates during the precedeing
+listing or census enumeration);</li><li>cross-sectional multi-visit survey (coordinates are recorded during the
+first visit, then re-used for subsequent visits);</li><li>audit survey (coordinates are recorded by the interviewers during the main
+survey, then reused by auditors during the audit survey).</li></ul><p>While we are mainly thinking of the location of the household or dwelling, it
+is not essential for Survey Solutions, and the destination can equally be the
+location of an enterprise, farm, plot, school, hospital, a generic facility,
+a landmark, a water source, etc.</p><p>In the specific case of spatial sampling, the coordinates may be those ones of
+an imaginary grid cell&rsquo;s center, which have no recognizable mark on the ground,
+yet each interviewer may need to arrive to the spot from which they can explore.</p><p>One should remember that due to accuracy of the technology the location
+coordinates may not be sufficient to identify the exact target and the
+coordinates should be supplemented with other identification variables, which
+vary by context of the survey, but commonly include the street address,
+company name, or textual description of the destination.</p><p>Having the coordinates of the targeted households greately simplifies the
+navigation of interviewers, who may need to return to the same location for
+example, to finish the started interviews, that were postponed. But they are
+even more important when the interviewers need to arrive to a particular
+location, which they have not visited before, such as the location of the
+households sampled from the list of the households in a particular area
+enumerated during the census.</p><p>When the target coordinates are preloaded for the interviewers, they are
+typically included in a question at the cover page, and thus are protected
+from the interviewer&rsquo;s modification (the interviewers can only see where the
+household is located, but can&rsquo;t change it). In other cases, the cover page
+variable may be left blank, in which case the interviewer needs to fill it out
+himself/herself, and which can be used subsequently for verification by the
+supervisor or auditing interviewer.</p><h4 id=1>1.</h4><p>Identify one of the cards, corresponding to the household the
+interviewer wishes to proceed next. Here we will try to reach
+the household corresponding to assignment #19.</p><center><a href=images/dashboard.jpg><img src=images/dashboard.jpg width=640></a></center><h4 id=2>2.</h4><p>Click on the three dots (horizontal) icon to unfold the card revealing the
+<code>START NEW INTERVIEW</code> and <code>SHOW LOCATION</code> buttons. Click on the <code>SHOW LOCATION</code>
+button.</p><center><a href=images/dashboard_show_location.jpg><img src=images/dashboard_show_location.jpg width=640></a></center><h4 id=3>3.</h4><p>Select which external App will be used for navigation. Your mobile device may
+sugget multiple choices from the Apps already installed (such as Google maps
+or Uber) and you can extend these choices by adding another App from the
+Google Play. These maps are mostly the Apps that handle maps or
+transportation-related, such as various taxi apps.</p><p>Warning: some of these apps may cost you money! Check before downloading and
+using! There is usually plenty of free alternatives, though they vary by
+country, version of Android, and other factors.</p><p>Here we chose between Google Maps, Maps.Me, and Waze:</p><center><a href=images/mapping_app_choice.png><img src=images/mapping_app_choice.png width=640></a></center><p>We can also specify whether the selected App should be used just once (for
+this target only) or always (for this and all future ones).</p><h4 id=4>4.</h4><p>After we selected the App, it will start and receive the target coordinates
+from the Survey Solutions Interviewer App, which can then be used to plan the
+travel to the destination:</p><center><a href=images/google_maps_destination.jpg><img src=images/google_maps_destination.jpg width=640></a></center><center><a href=images/waze_destination.jpg><img src=images/waze_destination.jpg width=640></a></center><p>Depending on the App and connectivity status it may provide all or some of
+the following:</p><ul><li>indication of the current position on the map;</li><li>indication of the target position the map;</li><li>selection of various map layers (satellite, terrain, etc);</li><li>selection of labels (street names, etc);</li><li>position of visible landmarks;</li><li>calculation of distance from current location to target;</li><li>calculation of time needed to get from the current location to target;</li><li>correction of optimal route and time to travel depending on the preferred
+mode of transportation (on foot, by bike, by car, using public transportation);</li><li>turn-by-turn navigation;</li><li>bus transfers, train transfers, etc;</li><li>traffic conjestion areas;</li><li>cost estimates;</li><li>street view photography.</li></ul><p>Some of these apps support storing the data needed for their work on the
+user&rsquo;s device to allow working while disconnected, which may require setting up
+while connected to the Internet (for example, cacheing of the map data by
+Google Maps). Some functionality may not be available while disconnected (for
+example, pedestrian navigation for Google Maps) where it requires processing on
+that App&rsquo;s server.</p><p>Users should realize that the accuracy of the maps, routing, timing and cost
+estimates produced by these Apps are the responsibility of the corresponding
+App&rsquo;s authors and maintainers. Survey Solutions Interviewer App installed on a
+mobile device collaborates with them by:</p><ul><li>providing the destination coordinates only;</li><li>doing this only on demand of the interviewer (supervisor) that presses the
+corresponding button;</li><li>installing of these Apps and usage of this service is optional.</li></ul><p>Storing the data offline (mostly the map tiles/satellite photography) takes
+considerable space on the mobile device and must be factored in when estimating
+the required storage space needed for data collection/device procurement.</p><p>Some apps include additional restrictions on the use of the stored maps data.
+For example, limiting the download and storage of a country&rsquo;s map data only for
+devices that are already located in that country, and not permitting storing it
+for devices located abroad. Consult the individual App&rsquo;s policies and support
+to find out more details about the possible limitations.</p><p>See also:</p><ul><li><a href=/interviewer/app/map-dashboard/>map dashboard</a></li><li><a href=/supervisor/supervisor-map-dashboard/>supervisor map dashboard</a></li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

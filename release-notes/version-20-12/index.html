@@ -1,0 +1,52 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="20.12"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-20-12/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 20.12"><meta property="og:description" content="New features in Survey Solutions version 20.12.
+Calendar events. Alert interviewers of wrong clock settings. Variables on dashboard. Filter by status in survey statistics report. Calendar events Calendar events is a new feature of Survey Solutions, which allows the interviewer to assign a calendar event to a certain assignment or an interview. This is useful if the interview can’t be completed on the spot and requires scheduling for another visit."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2020-12-14T01:01:01+00:00"><meta property="article:modified_time" content="2020-12-14T01:01:01+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 20.12</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 20.12</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 20.12</h2><div class="data text-right">December 14, 2020</div></div><div class=article-content><p>New features in Survey Solutions version 20.12.</p><ol><li>Calendar events.</li><li>Alert interviewers of wrong clock settings.</li><li>Variables on dashboard.</li><li>Filter by status in survey statistics report.</li></ol><h3 id=calendar-events>Calendar events</h3><p>Calendar events is a new feature of Survey Solutions, which allows the
+interviewer to assign a calendar event to a certain assignment or an
+interview. This is useful if the interview can&rsquo;t be completed on the
+spot and requires scheduling for another visit.</p><p>The calendar event consists of a date, time and an optional message.</p><p>The entered information will be shown on the interview/assignment card after
+the &lsquo;<em>next contact</em>&rsquo; prompt:</p><center><a href=images/calendar_event.png><img src=images/calendar_event.png width=800></a></center><p>The event marker is automatically shown in red color if it is in the past.
+The interviewer may adjust the calendar event&rsquo;s properties (date, time,
+comment) or delete it.</p><p>During the synchronization the information on the calendar events is also
+sent to the server. If the interviewer logs in to the web interface, he/she
+will find the left reminders attached to assignments there.</p><p>The headquarters/supervisors will be able to find the information about the
+calendar events in the grids showing the lists of assignments and interviews,
+as well as in the detailed view of the assignment properties.</p><p>The same information is available through API queries to help automated
+systems that may reflect this information in the form of calendars or
+schedules.</p><h3 id=alert-interviewers-of-wrong-clock-settings>Alert interviewers of wrong clock settings</h3><p>Complete discharge of a tablet may lead to reset of the built-in clock to
+some default value, such as the date of manufacturing of the tablet, or
+date of the compilation of the Android OS, or another constant, for
+example <em>January 01, 2011</em>. If the interviewer continues operation with a
+wrong clock setting, this will corrupt timestamps of answers and make
+paradata unusable.</p><p>Most tablets/phones would automatically adjust the clock settings when
+connecting to mobile or Wi-Fi networks. Yet, if the device is working
+disconnected there is usually no opportunity for such automatic clock
+correction.</p><p>The new version will automatically notify the interviewer if it detects the
+clock setting is obviously wrong indicating time earlier than known actual
+time. The message serves as a warning, but it is recommended that the
+interviewers immediately check their clock and time zone settings.</p><center><a href=images/clock_alert.png><img src=images/clock_alert.png width=800></a></center><h3 id=variables-on-dashboard>Variables on dashboard</h3><p>Values of variables calculated in the interview will now appear at the
+dashboard (or card view for tablet-based interviewer) if they are placed
+into the cover section by the questionnaire designer.</p><p>Variable label (must be specified for all elements of a cover section) is
+used as an explanatory text.</p><p>For example, this feature is useful if we want to automatically determine
+and show the name of the household head or his/her contact phone number
+at the dashboard.</p><p>Note that the variables are calculated for interviews only (not calculated for
+any assignments).</p><h3 id=filter-by-status-in-survey-statistics-report>Filter by status in survey statistics report.</h3><p>Survey statistics report is useful for quick diagnostics and checks during
+the survey collection, yet these reports may be contaminated by information
+from interviews that are not completed, or completed, but not approved yet.</p><p>The new filter allows to concentrate the report, for example, only on the
+interviews approved by the supervisor.</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

@@ -1,0 +1,215 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="syntax,multiselect,multi-select"><meta property="og:url" content="https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-multi-select-questions/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Syntax Guide: Multi-select questions"><meta property="og:description" content="Two types of multi-select questions There are two types of multi-select questions. They differ not only in the way they appear, but in the way their answers can be referenced with Survey Solutions’ conditions language.
+Click below on the type of multi-select question that interests you:
+Series of tick boxes Series of yes/no questions Series of tick boxes Technical introduction When the interviewer answers a multi-select question, the answers are stored in an array."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="syntax-guide"><meta property="article:published_time" content="2016-11-30T22:51:59+00:00"><meta property="article:modified_time" content="2016-11-30T22:51:59+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Syntax Guide: Multi-select questions</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/syntax-guide/>Syntax Guide</a></li><li class=breadcrumb-item><a href=/syntax-guide/questions/>Questions</a></li><li class="breadcrumb-item active" aria-current=page>Syntax Guide: Multi-select questions</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Syntax Guide: Multi-select questions</h2><div class="data text-right">November 30, 2016</div></div><div class=article-content><h1 id=two-types-of-multi-select-questions>Two types of multi-select questions</h1><a href=images/721592.png data-toggle=lightbox data-max-width=2400 class="d-block text-center"><img src=images/721592.png class='lg-img mx-auto' alt></a><p>There are two types of multi-select questions. They differ not only in
+the way they appear, but in the way their answers can be referenced with
+Survey Solutions&rsquo; conditions language.</p><p>Click below on the type of multi-select question that interests you:</p><ul><li><a href=#TickBox>Series of tick boxes</a></li><li><a href=#YesNo>Series of yes/no questions</a></li></ul><h1 id=series-of-tick-boxes><span id=TickBox></span>Series of tick boxes</h1><h2 id=technical-introduction>Technical introduction</h2><p>When the interviewer answers a multi-select question, the answers are
+stored in an array.</p><p>To make this abstract statement more concrete, take an example.</p><a href=images/721593.png data-toggle=lightbox data-max-width=2400 class="d-block text-center"><img src=images/721593.png class='sm-img mx-auto' alt></a><p>In the figure, the selected items are: maize (1) and ground bean (27).</p><p>Thus, the array of answers can be represented in this way:</p><pre><code>    ag_d20 = {1,27}
+</code></pre><p>Where the array contains the values of the items selected&ndash;that is 1 and
+27</p><h2 id=common-tasks>Common tasks</h2><h3 id=find-a-particular-value>Find a particular value</h3><ul><li><a href=#Contains>Contains</a>. Checks whether the answers to question
+contain a specified value.</li><li><a href=#ContainsOnly>ContainsOnly</a>. Contains only the specified value</li></ul><h3 id=look-for-several-values>Look for several values</h3><ul><li><a href=#ContainsAll>ContainsAll</a>. Check whether the answers contain all
+of the specified values.</li><li><a href=#ContainsOnly>ContainsOnly</a>. Contains only the specified values</li><li><a href=#ContainsAny>ContainsAny</a>. Contains at least one of the specified
+values</li><li><a href=#ContainsAny>!ContainsAny</a>. Contains none of the specified values.
+See the second example of ContainsAny</li></ul><h3 id=count-the-number-of-values>Count the number of values</h3><ul><li><a href=#Length>Length</a>. Computes the number of answers to a multi-select
+question.</li></ul><h2 id=syntax-explained>Syntax explained</h2><h3 id=contains><span id=Contains></span>Contains</h3><h4 id=syntax>Syntax</h4><pre><code>    tickBox.Contains(a)
+</code></pre><h4 id=description>Description</h4><p>Checks whether the value <em>a</em> is among the answers to a <em>tickBox</em>&ndash;that
+is, is contained in the set of answers. Returns <em>true</em> if <em>a</em> is
+contained in <em>tickBox</em>&rsquo;s answers. Returns <em>false</em> otherwise.</p><h4 id=example>Example</h4><p>Often, the questionnaire designer wants to trigger certain behavior if a
+particular answer option is among those selected. In the example below,
+the interviewer needs to write a text description for the use of a
+loan/credit if &ldquo;other (specify)&rdquo; is one of the three answers recorded.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721187_hu_9cb1a3767ac4011f.png width=456 height=339><p> </p><p>To put this in terms closer to the programming language solution, the
+questionnaire developer enables a text question if the code for &ldquo;other
+(specify)&rdquo; (10) is contained in the array of answers to the multi-select
+question. In code:</p><pre><code>    // enable text field to specify if &quot;other&quot; selected (among potentially other options)
+    hh_p10.Contains(10)
+</code></pre><h3 id=containsonly><span id=ContainsOnly></span>ContainsOnly</h3><h4 id=syntax-1>Syntax</h4><p>Single-value version:</p><pre><code>    tickBox.ContainsOnly(a)
+</code></pre><p>Multiple-value version:</p><pre><code>    tickBox.ContainsOnly(a,b,c,...)
+</code></pre><h4 id=description-1>Description</h4><p>Checks whether the value <em>a</em> (<em>a,b,c,&mldr;</em>) is (are) the only answer(s)
+to <em>tickBox</em>. Returns <em>true</em> if <em>a</em> (<em>a,b,c,&mldr;</em>) is (are) the only
+answer(s). Returns <em>false</em> otherwise.</p><h4 id=example-1>Example</h4><p>With multi-select questions, multiple answers are allowed. However, in
+some cases, two (or more) answers cannot be (logically) selected at the
+same time. That is, some answers may be mutually exclusive.</p><p>Consider the example below where the answer set includes several sources
+for start-up capital as well as &ldquo;No start-up cost&rdquo;.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721188_hu_9950227d50780eae.png width=274 height=401><p>Clearly, if &ldquo;No start-up cost&rdquo; is selected, some other option cannot
+also be selected. The contrapositive is also true: if a non-&ldquo;No start-up
+cost&rdquo; option is ticked, &ldquo;No start-up cost&rdquo; cannot also be ticked.</p><p>Translating intention to code, we can describe the valid set of answers
+to this multi-select question:</p><pre><code>    // either &quot;No start-up cost&quot; not selected...
+    !hh_n08.Contains(13)
+
+    ||
+
+    // ...or &quot;No start-up cost&quot; is the only answer provided
+    hh_n08.ContainsOnly(13)
+</code></pre><p>Note: <em>ContainsOnly</em> also allows either a single value or multiple
+values to be specified. We leave to the reader the task of finding an
+appropriate example for using the multi-value version of <em>ContainsOnly</em></p><h3 id=containsall><span id=ContainsAll></span>ContainsAll</h3><h4 id=syntax-2>Syntax</h4><pre><code>    tickBox.ContainsAll(a,b,c,...)
+</code></pre><h4 id=description-2>Description</h4><p>Checks whether the values <em>a,b,c,&mldr;</em> are all contained in the set of
+answers to <em>tickBox</em>. Returns <em>true</em> if <em>a,b,c,&mldr;</em> are all selected
+answers to <em>tickBox</em>. Returns <em>false</em> otherwise.</p><h4 id=example-2>Example</h4><p>Using <em>Contains</em> allows one to determine whether a certain answer is
+contained in a multi-select question&rsquo;s array of answers.</p><p>To check for more than one answer, one would need to write something
+like the following</p><pre><code>    // the multi-select contains answers 4 and 5
+    multiSelect.Contains(4) &amp;&amp; multiSelect.Contains(5)
+</code></pre><p>To do the same in more compact form, one could also write the following:</p><pre><code>    // the multi-select contains all of the listed answers: 4 and 5
+    multiSelect.ContainsAll(4,5)
+</code></pre><h3 id=containsany><span id=ContainsAny></span>ContainsAny</h3><h4 id=syntax-3>Syntax</h4><pre><code>    tickBox.ContainsAny(a,b,c,...)
+</code></pre><h4 id=description-3>Description</h4><p>Checks whether any of the values <em>a,b,c,&mldr;</em> are contained in the set of
+answers selected for <em>tickBox</em>. Returns <em>true</em> if any of <em>a,b,c,&mldr;</em> are
+contained in <em>tickBox</em>&rsquo;s answers. Returns <em>false</em> otherwise.</p><h4 id=example-3>Example</h4><p>Sometimes, the questionnaire designer wants to implement the same
+behavior when one of several answers is selected&ndash;that is, if any
+element in a list of answers is contained in a multi-select question&rsquo;s
+array of answers.</p><p>To make this abstract situation concrete, consider the excerpt from an
+agricultural questionnaire below.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721189_hu_85354d0b9167970c.png width=477 height=600><p>Looking at the list of answer options, it is clear that the interviewer
+must specify a crop whenever an &ldquo;other&rdquo; option is selected. Several
+crops have other options: tobacco (10), groundnuts (16), rice (26), and
+other crops (48).</p><p>To do this, the there are two options. The first option:</p><pre><code>    // enable a text question if any &quot;other&quot; option is selected
+    crops.Contains(10) ||
+    crops.Contains(16) ||   
+    crops.Contains(26) ||
+    crops.Contains(48)
+</code></pre><p>The expression is valid. It does what we want. But it is inelegant and
+error-prone to write</p><p>The second option:</p><pre><code>    // enable a text question if any &quot;other&quot; option is selected
+    crops.ContainsAny(10,16,26,48)
+</code></pre><p>This solution is more compact, more readable, and less prone to error.</p><h3 id=length><span id=Length></span>Length</h3><h4 id=syntax-4>Syntax</h4><pre><code>    tickBox.Length
+</code></pre><h4 id=description-4>Description</h4><p>Determines the length of the array of answers&ndash;that is, the count of
+answers selected for <em>tickBox</em>.</p><h4 id=example-4>Example</h4><p>The length of a tick-all-that-apply, multi-select question yields the
+number of ticked answers.</p><p>While this information may not seem immediately practical, it often can
+be surprisingly useful. For some questions, the number of answers may
+useful in writing enablement or validation conditions.</p><p>Consider the questionnaire excerpt below:</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721188_hu_9950227d50780eae.png width=274 height=401><p>Logically, the questionnaire developer wants either &ldquo;no start-up cost&rdquo;
+to be selected, or some other answer option&ndash;but never the two things at
+the same time. Earlier, we saw how to write this expression. Below, we
+revisit this example using the <em>Length</em> property of a multi-select
+question.</p><p>Using <em>Contains</em> and <em>ContainsOnly</em>, we wrote:</p><pre><code>    // either &quot;No start-up cost&quot; not selected...
+    !hh_n08.Contains(13)
+
+    ||
+
+    // ...or &quot;No start-up cost&quot; is the only answer provided
+    hh_n08.ContainsOnly(13)
+</code></pre><p>Using <em>Length</em> we can write something similar:</p><pre><code>    // if a single answer is selected, it can be any option
+    hh_n08.Length==1
+
+    ||
+
+    // if more than 1 answer is selected, the set of answers cannot contain &quot;no start-up cost&quot;
+    (hh_n08.Length&gt;1 &amp;&amp; !hh_n08.Contains(13))
+</code></pre><h1 id=series-of-yesno-questions><span id=YesNo></span>Series of yes/no questions</h1><h2 id=technical-introduction-1><span id=TechnicalYN></span>Technical introduction</h2><p>This type of question consists of items, and for each item of a &ldquo;yes&rdquo;,
+&ldquo;no&rdquo;, or missing answer.</p><p>When the interviewer answers an item, the data are stored in the
+following way. For each state of an item&rsquo;s answer, there is an array. In
+each array, one finds value of the item(s) with that state. In other
+words, there are the following arrays, with the following contents:</p><ul><li><strong>Yes.</strong> Contains the values of items with a &ldquo;yes&rdquo; answer.</li><li><strong>No.</strong> Contains items with a &ldquo;no&rdquo; answer.</li><li><strong>Missing.</strong> Containts the items without an answer&ndash;that is, without
+a &ldquo;yes&rdquo; or &ldquo;no&rdquo; answer. Before any item is answered, all items are
+in the Missing array. As items obtain &ldquo;yes&rdquo; or &ldquo;no&rdquo; answers, they
+move to the Yes or No array.</li></ul><p>In addition to these three arrays, there is also an array <em>All</em> that
+containts the values of all items, whatever each item&rsquo;s status.</p><p>To make things more clear, consider the following example.</p><a href=images/721595.png data-toggle=lightbox data-max-width=2400 class="d-block text-center"><img src=images/721595.png class='sm-img mx-auto' alt></a><p>In the image above, all items are answered with a &ldquo;yes&rdquo; or &ldquo;no&rdquo;. The
+&ldquo;yes&rdquo; answers are: Mortar/pestle (501), Bed (502), Chair (504), and
+Radio (507). The &ldquo;no&rdquo; answers are: Table (503), Fan (505), Air
+conditioner (506), Tape or CD/DVD player;HiFi (508), Radio with flash
+drive/micro CD (5081).</p><p>Hence, the arrays are:</p><pre><code>    hh_l01.Yes = {501,502,504,50
+    hh_l01.No = {503,505,506,508,5081}
+    hh_l01.Missing = {}
+    hh_l01.All = {501,502,503,504,505,506,507,508,5081} 
+</code></pre><p>The items with a &ldquo;yes&rdquo; answer appear in the <em>Yes</em> array, those with a
+&ldquo;no&rdquo; in <em>No</em>, and the <em>Missing</em> array is empty, since all items were
+answered in this example</p><h2 id=common-tasks-1>Common tasks</h2><h3 id=find-a-particular-value-1>Find a particular value</h3><ul><li><a href=#ContainsYN>Contains</a>. Checks whether the answers to question
+contain a specified value.</li><li><a href=#ContainsOnlyYN>ContainsOnly</a>. Contains only the specified value</li></ul><h3 id=look-for-several-values-1>Look for several values</h3><ul><li><a href=#ContainsAllYN>ContainsAll</a>. Check whether the answers contain all
+of the specified values.</li><li><a href=#ContainsOnlyYN>ContainsOnly</a>. Contains only the specified values</li><li><a href=#ContainsAnyYN>ContainsAny</a>. Contains at least one of the
+specified values</li><li><a href=#ContainsAnyYN>!ContainsAny</a>. Contains none of the specified
+values. See the second example of ContainsAny</li></ul><h3 id=count-the-number-of-values-1>Count the number of values</h3><ul><li><a href=#LengthYN>Length</a>. Computes the number of answers to a
+multi-select question.</li></ul><h2 id=syntax-explained-1>Syntax explained</h2><h3 id=contains-1><span id=ContainsYN></span>Contains</h3><h4 id=syntax-5>Syntax</h4><pre><code>    yesNo.ArrayName.Contains(a)
+</code></pre><p>Where <em>yesNo</em> is the variable name of a Yes/No mode mutli-select
+question, and <em>ArrayName</em> is the name of the Yes/No mode arrays (see the
+<a href=#TechnicalYN>technical introduction</a> for more).</p><h4 id=description-5>Description</h4><p>Checks whether the value <em>a</em> is among the values in the array
+<em>ArrayName</em> for the question <em>yesNo</em>. Returns <em>true</em> if <em>a</em> is contained
+in <em>yesNo</em>&rsquo;s <em>ArrayName</em>. Returns <em>false</em> otherwise.</p><h4 id=example-5>Example</h4><p>In excerpt below, the designer wants to capture a text description if a
+&ldquo;Yes&rdquo; answer is recorded for the &ldquo;Other, specify&rdquo; item.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721528_hu_3b2e532dc4e7b2ad.png width=441 height=481><p> </p><p>Let&rsquo;s think how this could be accomplished. First, one would need to
+know the code of the &ldquo;Other, specify&rdquo; item. Let&rsquo;s assume this is 4.
+Then, one would need to know the where &ldquo;Yes&rdquo; answers are stored for
+Yes/No mode multi-select questions. According to the <a href=#TechnicalYN>technical
+introduction</a>, this is an array named Yes that is
+associated with any Yes/No mode, multi-select question.</p><p>Putting together these pieces,</p><pre><code>    // if the Yes array for question 19 contains &quot;Other, specify&quot;, then enable this question
+    hh_n21.Yes.Contains(4) 
+</code></pre><h3 id=containsonly-1><span id=ContainsOnlyYN></span>ContainsOnly</h3><h4 id=syntax-6>Syntax</h4><p>Single-value version:</p><pre><code>    yesNo.ArrayName.ContainsOnly(a)
+</code></pre><p>Multiple-value version:</p><pre><code>    yesNo.ArrayName.ContainsOnly(a,b,c,...)
+</code></pre><p>Where <em>yesNo</em> is the variable name of a Yes/No mode mutli-select
+question, and <em>ArrayName</em> is the name of the Yes/No mode arrays (see the
+<a href=#TechnicalYN>technical introduction</a> for more).</p><h4 id=description-6>Description</h4><p>Checks whether the value <em>a</em> (<em>a,b,c,&mldr;</em>) is (are) the only answer(s)
+in the array <em>ArrayName</em> assocatiated with the multi-select question
+<em>yesNo</em>. Returns <em>true</em> if <em>a</em> (<em>a,b,c,&mldr;</em>) is (are) the only
+answer(s). Returns <em>false</em> otherwise.</p><h4 id=example-6>Example</h4><p>If the questionnaire designer wants only certain items to have &ldquo;yes&rdquo; or
+&ldquo;no&rdquo; answers, they may use <em>ContainsOnly</em>.</p><pre><code>    // ensure that only item 105 has a &quot;no&quot; answer
+    yesNo.No.ContainsOnly(105)
+</code></pre><h3 id=containsall-1><span id=ContainsAllYN></span>ContainsAll</h3><h4 id=syntax-7>Syntax</h4><pre><code>    yesNo.ArrayName.ContainsAll(a,b,c,...)
+</code></pre><p>Where <em>yesNo</em> is the variable name of a Yes/No mode mutli-select
+question, and <em>ArrayName</em> is the name of the Yes/No mode arrays (see the
+<a href=#TechnicalYN>technical introduction</a> for more).</p><h4 id=description-7>Description</h4><p>Checks whether the values <em>a,b,c,&mldr;</em> are all contained in the array
+<em>ArrayName</em> associated with the multi-select question <em>yesNo</em>. Returns
+<em>true</em> if <em>a,b,c,&mldr;</em> are all selected answers to <em>yesNo</em>. Returns
+<em>false</em> otherwise.</p><h4 id=example-7>Example</h4><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721544_hu_487dc923b09a5c46.png width=415 height=600><p>Suppose that the questionnaire designer wants to implement a validation
+rule about how tables and chairs are owned. The rule is as follows. If
+the household owns a chair, they may or may not own a chair. If the
+household owns a table, then they must also own a chair. A household
+never owns a table with a chair.</p><p>To move one step closer to implementation, let&rsquo;s translate this intent
+into pseudo-code. If the code for &ldquo;chair&rdquo; appears in the <em>Yes</em> array,
+then &ldquo;table&rdquo; may also. If the code &ldquo;table&rdquo; apepars in the <em>Yes</em> array,
+then &ldquo;chair must also appear. And it is possible that neither item
+appear in the <em>Yes</em> array.</p><p>Moving from pseudo-code to code,</p><pre><code>    // either table and chair are owned together...
+    hh_l01.ContainsAll(503,504)
+
+    ||
+
+    // ...or a chair is owned without a table...
+    hh_l01.Contains(504) &amp;&amp; !hh_l01.Contains(503)
+
+    ||
+
+    // ...or neither a table nor chair is owned
+    !hh_l01.ContainsAny(503,504)
+</code></pre><h3 id=containsany-1><span id=ContainsAnyYN></span>ContainsAny</h3><h4 id=syntax-8>Syntax</h4><pre><code>    yesNo.ArrayName.ContainsAny(a,b,c,...)
+</code></pre><p>Where <em>yesNo</em> is the variable name of a Yes/No mode mutli-select
+question, and <em>ArrayName</em> is the name of the Yes/No mode arrays (see the
+<a href=#TechnicalYN>technical introduction</a> for more).</p><h4 id=description-8>Description</h4><p>Checks whether any of the values <em>a,b,c,&mldr;</em> are contained in the
+<em>ArrayName</em> associated with the Yes/No mode question named <em>yesNo</em>.
+Returns <em>true</em> if any of <em>a,b,c,&mldr;</em> are contained in <em>yesNo</em>&rsquo;s answers.
+Returns <em>false</em> otherwise.</p><h4 id=example-8>Example</h4><p>Consider the following questionnaire excerpt:</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721544_hu_487dc923b09a5c46.png width=415 height=600><p>Suppose that one wants to check that recorded asset ownership makes
+sense. In particular, the following rule: if a household owns basic
+assets, then they may or may not own luxury assets; if the household
+owns luxury assets, they must also own basic ones; and luxury assets
+cannot be owned without also owning basic assets.</p><p>For this example, basic assets can be considered as the following:
+mortar (501), bed (502), table (503), chair (504). Luxury goods can be
+considered to be: fan (505), air contioner (506), and radio (507). That
+is, basic assets can be any of a certain set, and luxury assets any of
+another set.</p><p>Using <em>ContainsAny</em>, one can write:</p><pre><code>    // if has basic assets, may have luxury assets...
+    ( hh_l01.Yes.ContainsAny(501,502,503,504) &amp;&amp; hh_l01.Yes.ContainsAny(505,506,507) )
+
+    ||
+
+    // ... or may not have basic assets
+    ( hh_l01.Yes.ContainsAny(501,502,503,504) &amp;&amp; !hh_l01.Yes.ContainsAny(505,506,507) )
+</code></pre><h3 id=length-1><span id=LengthYN></span>Length</h3><h4 id=syntax-9>Syntax</h4><pre><code>    yesNo.ArrayName.Length
+</code></pre><p>Where <em>yesNo</em> is the variable name of a Yes/No mode mutli-select
+question, and <em>ArrayName</em> is the name of the Yes/No mode arrays (see the
+<a href=#TechnicalYN>technical introduction</a> for more).</p><h4 id=description-9>Description</h4><p>Determines the length of the the array <em>ArrayName</em> associated with the
+question named <em>yesNo</em>&ndash;that is, the count of items in <em>ArrayName</em>.</p><h4 id=example-9>Example</h4><p>Suppose that a questionnaire designer wants to ensure that food
+consumption information is properly recorded by interviewers. In
+particular, the designer believes that surveyed hosueholds, however
+poor, they will consume at least one cereal or cereal product in the
+last 7 days.</p><img style=max-width:100%;height:auto src=/syntax-guide/questions/syntax-guide-multi-select-questions/images/721624_hu_12bab7e02d0be315.png width=465 height=600><p>To do this, one needs to count the number of &ldquo;yes&rdquo; answers, and make
+sure that the count is greater than or equal to 1. In code:</p><pre><code>    // however poor the household, at least one food has a &quot;yes&quot; answer
+    hh_j01.Yes.Length&gt;=1
+</code></pre></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

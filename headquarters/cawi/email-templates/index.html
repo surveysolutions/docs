@@ -1,0 +1,85 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="email,template"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/cawi/email-templates/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Email Templates"><meta property="og:description" content="Survey Solutions can send email notifications to the respondents to the web surveys (CAWI). These notifications can be configured at the web interview setup page: Menu → Survey Setup → Questionnaires → YourQuestionnaire → Web interview setup.
+Survey Solutions server automatically determines, which notifications need to be sent out to the respondents. Every hour the notifications of the type marked with ^ in the table below are sent out, if a bulk email service provider has been set up."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:modified_time" content="2020-11-26T13:30:53+02:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Email Templates</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/cawi/>Computer Assisted Web Interviewing (CAWI)</a></li><li class="breadcrumb-item active" aria-current=page>Email Templates</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Email Templates</h2><div class="data text-right">November 26, 2020</div></div><div class=article-content><p>Survey Solutions can send email notifications to the respondents to the web
+surveys (CAWI). These notifications can be configured at the web interview
+setup page: <code>Menu</code> → <code>Survey Setup</code> → <code>Questionnaires</code> →
+<code>YourQuestionnaire</code> → <code>Web interview setup</code>.</p><p>Survey Solutions server automatically determines, which notifications need to be
+sent out to the respondents. Every hour the notifications of the type marked
+with ^ in the table below are sent out, if a
+<a href=/headquarters/cawi/email-providers/>bulk email service provider</a> has been set
+up.</p><p>Notification emails may mention some of the text substitutions, which will be
+replaced with appropriate texts by Survey Solutions. They are mentioned in the
+descriptions below.</p><table class="table table-striped table-hover" border><tr class="header bg-warning"><th width=200>Notification message</th><th>Message description</th></tr><tr><td>Invitation</td><td><p>An invitation message is sent to invite a respondent to participate in the
+survey. It contains a link that the respondent will follow to start an
+interview.</p><p>The invitation message may mention %SURVEYNAME%, which will be automatically
+replaced with the name of the survey.</p><p>The invitation message is sent out when the HQ chooses to <b><i>Send invitations</i></b>.
+(Click on the survey, select <b><i>Send invitations</i></b> from the context menu).</p><p>If the bulk email service provider is not set, the links to web interviews
+can be downloaded in a form of a file from the Survey Solutions server, and
+custom invitations generated and send in an external system.</p></td></tr><tr><td>Resume</td><td><p>A resume message is sent to the respondents to deliver a message
+containing a link that the respondent will follow to resume an
+interview if his/her session is disrupted for any reason.</p><p>The message may mention %SURVEYNAME%, which will be automatically
+replaced with the name of the survey.</p><p>The resume message is sent out when the respondent specifies his/her email and
+a bulk email sender is configured, and the admin of the Survey Solutions
+server opts to allow such messages by setting the <b><i>Web Interview Email
+Notifications</i></b> flag in the server settings.</p></td></tr><tr><td>No response^</td><td><p>A no response message is sent to the respondents if they haven't started
+a survey interview. This reminder message is sent after a certain period of
+time after the invitation was sent out if the respondent hasn't started the
+interview yet. The exact duration of time for the reminder is regulated by the
+<b><i>Send reminder to people with no response</i></b> parameter at the web
+interview setup page.</p><p>The message may mention %SURVEYNAME%, which will be automatically
+replaced with the name of the survey.</p><p>The message is sent automatically if the bulk email sender has been
+configured.</p></td></tr><tr><td>Partial response^</td><td><p>This notification message is sent to the respondents that have started
+but haven't completed a survey interview yet after a certain period of
+time. The exact duration of time for the reminder is regulated by the
+<b><i>Send reminder to people with a partial response</i></b> parameter at the web
+interview setup page.</p><p>The message may mention %SURVEYNAME%, which will be automatically
+replaced with the name of the survey.</p><p>The message is sent automatically if the bulk email sender has been
+configured.</p></td></tr><tr><td>Reject^</td><td><p>This notification message is sent to the respondents whos interviews have
+been rejected by survey supervisors. The respondent is invited to make
+corrections based on the supervisor's comments/feedback.</p><p>The message may mention %SURVEYNAME%, which will be automatically
+replaced with the name of the survey.</p><p>The message is sent automatically if the bulk email sender has been
+configured.</p></td></tr><tr><td>Complete</td><td><p>This notification message is sent to the respondents who has completed
+an interview immediately when they complete it.</p><p>The message may mention %SURVEYNAME%, which will be automatically
+replaced with the name of the survey. It may also mention in %-% signs any
+variable name from the main interview level (not inside of any roster) of a type
+<a href=/questionnaire-designer/limits/design-limitations-by-question-type/>supported in text substitutions</a>, such as for example, <i>%address%</i> the value of which will
+be automatically substituted with a value entered by the respondent in the
+interview. For the categorical single select questions the default survey
+language is used for the text label corresponding to the selected answer
+regardless which language was used by the respondent at the time of the
+interview. The date and timestamp answers are written using an invariant date
+format.</p><p>In the rare occasion when a question with variable name specifically
+SURVEYNAME is defined in an interview, the text substitution %SURVEYNAME% is
+resolved to the name of the survey, not the value of this variable.</p><p>Optionally, the variable name may be suffixed with <b>:barcode</b> or
+<b>:qrcode</b>, such as for example: %product:barcode% or %checksum:qrcode%.
+Then the value of the corresponding variable will be rendered as a barcode or
+a qrcode respectively. For linear barcodes the
+<a href=https://en.wikipedia.org/wiki/Code_128>code 128</a> standard is used.
+For 2-dimensional qrcodes the <a href=https://en.wikipedia.org/wiki/QR_code>QR-code</a> standard is used.</p><p>The message is sent automatically on completion of an interview if the bulk
+email sender has been configured and the flag <b><i>Send email after web
+interview completion</i></b> has been set. Otherwise it is not sent.</p><p>Optionally, a transcript of answers to interview questions can
+be attached to this message if the flag <b><i>Attach Pdf transcript</i></b> is set.</p></td></tr></table><br><p>The templates for each survey can be specified in only one language. If
+invitations/notifications for a survey need to be sent out in different
+languages, such survey must be split into two (or more) Survey Solutions surveys
+and email templates for them configured separately.</p><h4 id=notification-message-structure>Notification message structure</h4><p>Each notification message consists of multiple blocks:</p><table class="table table-striped table-hover" border><tr class="header bg-warning"><th width=200>Message block</th><th>Block description</th></tr><tr><td>- <i>Subject</i></td><td>This is the email subject line that the respondent will see in his/her inbox
+when the notification message arrives.</td></tr><tr><td>- <i>Main text</i></td><td>This is the notification's message main text that the respondent will see
+when he/she opens the notification message.</td></tr><tr><td>- <i>Description for password</i></td><td>Block describing to the participant that a password must be used to access
+the interview. This block is only utilized if the access to interview is
+protected with a password.</td></tr><tr><td>- <i>Start interview button</i></td><td>Specific text appearing on the button to start the interview.</td></tr></table></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

@@ -1,0 +1,140 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="23.06"><meta property="og:url" content="https://docs.mysurvey.solutions/release-notes/version-23-06/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Version 23.06"><meta property="og:description" content="In this new version we extend the features of Survey Solutions by adding a carousel control to the map dashboard for the Supervisor and Interviewer Apps, possibility to make map assignments interactively to supervisors and headquarters users and other changes and improvements.
+Carousel in the map dashboard in Interviewer and Supervisor Apps. Possibility to assign maps in the server user interface. Maps assignment by supervisors. Warning for markers outside shape file boundaries. Export of list question. Other changes. 1. Map dashboard carousel Map dashboard in the Interviewer and Supervisor Apps has got a new control - a carousel displaying interviews and assignments: The carousel automatically appears when any marker is selected on the map replacing the earlier available balloon with the Start new interview button."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="release-notes"><meta property="article:published_time" content="2023-06-08T00:00:00+00:00"><meta property="article:modified_time" content="2023-06-08T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Version 23.06</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/release-notes/>Release Notes</a></li><li class="breadcrumb-item active" aria-current=page>Version 23.06</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Version 23.06</h2><div class="data text-right">June 8, 2023</div></div><div class=article-content><p>In this new version we extend the features of Survey Solutions by adding
+a carousel control to the map dashboard for the Supervisor and Interviewer
+Apps, possibility to make map assignments interactively to supervisors and
+headquarters users and other changes and improvements.</p><ol><li>Carousel in the map dashboard in Interviewer and Supervisor Apps.</li><li>Possibility to assign maps in the server user interface.</li><li>Maps assignment by supervisors.</li><li>Warning for markers outside shape file boundaries.</li><li>Export of list question.</li><li>Other changes.</li></ol><h3 id=1-map-dashboard-carousel>1. Map dashboard carousel</h3><p>Map dashboard in the Interviewer and Supervisor Apps has got a new control - a
+carousel displaying interviews and assignments: The carousel automatically
+appears when any marker is selected on the map replacing the earlier available
+balloon with the <code>Start new interview</code> button.</p><center><a href=images/carousel_green.png><img src=images/carousel_green.png width=612></a></center><p>It serves the following tasks:</p><ul><li><p>Provides identifying information about the selected marker;</p></li><li><p>Allows navigation between the overlapping markers (such as in the case when
+an interview covers an assignment marker in a close or exactly same location).</p></li><li><p>Allows access to the common actions to be done with the corresponding document
+(depend on the role of the user):</p><ul><li>Start an interview from an assignment;</li><li>Approve or reject an interview;</li><li>Assign a new responsible for assignment/interview;</li><li>Open location in an external mapping application.</li></ul></li><li><p>Displays when the interview has changed its status;</p></li><li><p>Displays calendar event and other information.</p></li></ul><p>The appearance of the card is unified in the map dashboard and the regular
+dashboard.</p><p>In the cases when there are numerous identifying fields (more than 3) only the
+first 3 are shown, while the others may be seen by unfolding the card (by
+tapping on its header or the three dots at the bottom). An unfolded card can
+be folded again by the same gesture.</p><p><strong>Available actions:</strong></p><p>In the Interviewer App:</p><ul><li>start a new interview from an assignment;</li><li>open a started interview;</li><li>reopen a completed interview;</li><li>discard interview;</li><li>add a calendar event, edit calendar event, delete calendar event</li></ul><p>In the Supervisor App:</p><ul><li>Open an interview.</li><li>Change responsible for an assignment or an interview;</li><li>Approve an interview that is in the status Completed or Rejected by Supervisor;</li><li>Reject an interview that is in the status Completed.</li></ul><p>The cards in the carousel can be swiped left and right revealing other cards
+corresponding to the markers on the map in sequence. Cards corresponding to
+the markers occupying the same position will be following one another in this
+sequence.</p><p>To hide the carousel control tap anywhere on the map, where there is no marker.</p><h3 id=2-possibility-to-assign-maps-in-the-server-user-interface>2. Possibility to assign maps in the server user interface.</h3><p>Management of maps for Survey Solutions users just got easier! Earlier the
+headquarters users had to download, modify, and re-upload a special maps
+assignments file, which listed which maps were accessible by which users.</p><p>Beginning with version 23.06 the map assignment can be done interactively in
+the server interface. When you review the properties of a map it shows the list
+of linked users (those who have access to this map) providing a possibility to
+add to this list or remove from this list.</p><p>To add a new user (supervisor or interviewer), type his/her name in the search
+bar, the system will shortlist the accounts to the list of user names that
+match the typed characters. When you see the user you wish to add, click on
+his/her name and then the green plus sign.</p><p>To remove a user from the list, click the user name, and in the context menu
+that appears, select <code>Unlink user from map</code>.</p><p>This method is convenient when you want to adjust a couple of map assignments
+and it doesn&rsquo;t replace, but rather it complements the previously available
+file-upload method for making map assignments.</p><h3 id=3-maps-assignment-by-supervisors>3. Maps assignment by supervisors</h3><p>Users in the role <code>Supervisor</code> logging to the server can now:</p><ul><li>preview maps assigned to them directly or to any members of their team;</li><li>view the assignments of maps to users;</li><li>change assignments of maps using the server&rsquo;s user interface.</li></ul><p>In the past the supervisor of a team could reassign a certain area of
+responsibility or a particular household from one interviewer to another
+interviewer in his/her team. But if fulfillment of that assignment depended on
+a digital map (e.g. to mark the parcel boundaries) that was not always feasible
+for the newly assigned interviewer. Either he/she had to have that map loaded
+in advance (meaning all interviewers carry their maps and copies of everyone
+else&rsquo;s maps), or they resort to using online maps only, or they need involvement
+of the headquarters users to match the changes in interview assignments with the
+corresponding changes in maps&rsquo; assignments.</p><p>Now, if the supervisor finds that interviewer <em>X</em> is working slowly and wants to
+delegate a few households to interviewer <em>Y</em>, who has already completed her
+tasks, the supervisor can transfer the assignments and also any necessary maps
+from <em>X</em> to <em>Y</em>.</p><p>Importantly, the maps are still synchronized from the server and thus the
+supervisor has to make the reassignment of the maps on the server, but it does
+not require the participation of the headquarters user anymore, so can be done
+by the local team only. This should improve the reaction to non-standard
+situations, like interviewers falling ill, and allow local teams to cope with
+that with their remaining interviewers.</p><p>The supervisor can both give and withdraw access to the specific maps of the
+specific interviewers and control own access. For example, the supervisor can
+assign all the maps to herself, though she can still see all the maps assigned
+to any of her team&rsquo;s interviewers (in addition to what is assigned to her
+directly).</p><p>Note that if the last user in the team is denied access to a map, then the
+team&rsquo;s supervisor will also lose access to that map.</p><p>Note also that the supervisors can&rsquo;t make assignments of maps by uploading a
+file. This is still available to the headquarters and admin users only.</p><h3 id=4-warning-for-markers-outside-shape-file-boundaries>4. Warning for markers outside shape file boundaries.</h3><p>While there are many uses of shapefiles in Survey Solutions, one of the commonly
+practiced is to designate a certain area of responsibility which could be an
+administrative district, or more often an artificially created enumeration zone.
+The requirement for the interviewers then is that the data they collect should
+be from the locations within that assigned zone of responsibility. A typical
+operation of that kind is a listing operation, in which a village is divided in
+several zones, which are assigned one to each interviewer, who have to scout the
+area for all the residential dwellings. It would be a mistake of double-counting
+if an interviewer oversteps from her assigned area into another area, because
+the dwelling there is to be collected by another interviewer.</p><p>A combination of boundary files with satellite or aerial photography and a
+location sensor built into the modern mobile devices presents a superior tool
+to verbal descriptions of the area, allowing the interviewers to have the
+instant check whether they are in the proper area or not. The areas don&rsquo;t have
+to be square or rectangular, in many cases they are of irregular shapes,
+especially if the boundaries are following natural features, like coasts or
+mountain ridges.</p><p>The newly implemented feature will automatically check if there are markers on
+the map dashboard that are falling outside of the selected shapefile and if yes,
+then an alert is automatically shown.</p><p>This new feature is also available to the supervisors in the supervisor&rsquo;s app,
+which simplifies the control of the interviewers. Indeed this feature is most
+useful in conjunction with the filter, for example by responsible, where the
+supervisor may choose, e.g. the shapefile corresponding to the area of
+responsibility of interviewer <em>X</em>, and then also filter the data to only the
+interviews received from interviewer <em>X</em>. Or the supervisor may be issued the
+map of his team&rsquo;s area of responsibility, to control for no overlap with other
+teams&rsquo; areas.</p><h3 id=5-export-of-list-question>5. Export of list question.</h3><p>The data export format of the list question is changed from this version
+forwards. In the past a problem existed if there was a linked question using
+the categories of a list question as a source for the choice categories. Since
+the remaining items in the list question were not renumbered after deletion of
+other items, it was not possible to determine correctly, what was the meaning of
+the selected indices in the linked question (the problem formally described in
+<a href=https://github.com/surveysolutions/surveysolutions/issues/2475>this ticket</a> in
+our online issue tracker).</p><p>The format of the export of the list question is thus the following: for every
+item in the list two columns are exported. The column names are <code>x__INDEX</code> and
+<code>x__INDEXc</code>, where:</p><ul><li><code>x</code> is the variable name assigned to the list question in the Designer;</li><li><code>INDEX</code> is a numerical index ranging from <code>0</code> to <code>C-1</code> (<code>C</code> is the
+capacity of the list, 200 if not specified in the Designer tool);</li><li><code>c</code> is a constant suffix &ldquo;<em>c</em>&rdquo;.</li></ul><p>Columns without the suffix &ldquo;<em>c</em>&rdquo; store the elements of the list (same as in the
+previous versions). Columns with the suffix &ldquo;<em>c</em>&rdquo; store the code of the element
+of the list. If an element was selected in a single select question linked to
+list question <code>x</code>, then the value of the linked question is that code, and it
+is guaranteed to occur once and only once among the columns <code>x__INDEXc</code>.</p><p>For example, if value <code>9</code> was selected in the single select household head
+question, then it is guaranteed that for this interview value 9 will be present
+in the columns <code>members__*c</code>, and it will only occur once. The corresponding
+column <code>members__*</code> will contain the name of the household member selected for
+the head in this household.</p><p>If your questionnaire was not using any linked questions, there is no problem
+to worry about, except that it is really a good idea to assign a certain
+capacity to each list that you are using in your questionnaire. If you don&rsquo;t do
+that, each list question that you add to your questionnaire will result in 400
+columns in the data export structure, which is a complexion you&rsquo;d most likely
+want to avoid.</p><p>If you did use a select question linked to a list, be aware of this important
+change. Your code should not rely on the value of the linked question as the
+raw index in the list, but rather convert it to the index value by searching
+for it among the saved values in the code-columns.</p><h3 id=6-other-changes>6. Other changes</h3><p>A number of changes were done to the visual appearance of the Interviewer App:</p><ul><li><p>Assignment cards are now displayed with yellow tab color instead of gray.
+Similarly, the markers corresponding to assignments in the Interviewer Map
+Dashboard are now yellow diamonds, instead of blue diamonds as in earlier
+versions.</p></li><li><p>An icon is displayed on cards corresponding to geo-targeted assignments and
+interviews instead of the <code>Show location</code> button.</p></li><li><p>A map is shown with a link for an answered geolocation question on a fully
+answered cover page (previously an empty frame was displayed).</p></li></ul><p><strong>Boundaries color</strong>: On the server the map preview shows the boundaries in red,
+rather than orange color.</p><p><strong>Dashboard location permission:</strong> Following the best practices for managing
+permissions in an Android-app, the Survey Solutions Interviewer and Supervisor
+Apps are asking for location permission not immediately on entry to the map
+dashboard (as it was the case in the earlier versions), but when the user
+requests acquisition of location (with the corresponding toolbar icon). This
+allows some users (e.g. the supervisors) to use the map dashboard, without
+permitting the app to handle their own location, but inspect the locations
+captured by other users (interviewers in this case).</p><p><strong>Supervisor must confirm reassignment of an assignment that has already been
+received.</strong> Reassigning of an assignment that has already been received by an
+interviewer to another interviewer carries the danger that both interviewers
+will start an interview from it, resulting in extra interviews (more than was
+originally planned/sampled). In the past, it was possible to do such a
+reassignment in the supervisor app, and it is still possible in the newly
+released version. But now the supervisor app will detect this and ask for
+additional confirmation from the supervisor. This is something that was already
+implemented in the web-version of the supervisor, but was missing in the tablet
+version.</p><center><a href=images/map_polygon_preview.png><img src=images/map_polygon_preview.png width=612></a></center></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

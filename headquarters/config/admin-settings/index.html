@@ -1,0 +1,105 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="admin,logo,encryption,accounts"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/config/admin-settings/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Workspace Settings"><meta property="og:description" content="Survey Solutions server administrator may adjust the workspace settings. These settings affect simultaneously all surveys and all users in a particular workspace on the server and have the effect immediately when applied.
+These settings are visible only to the user logged in in an administrative role and can be accessed from:
+for the current workspace: Menu → Settings → Workspace settings. for any other workspace: Menu → Administration → click particular workspace name → Settings. Workspace settings tabs Workspace settings are organized into tabs (subpages) corresponding to the following groups:"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2017-01-09T22:11:21+00:00"><meta property="article:modified_time" content="2025-04-13T11:11:11+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Workspace Settings</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/config/>Setup and Configuration</a></li><li class="breadcrumb-item active" aria-current=page>Workspace Settings</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Workspace Settings</h2><div class="data text-right">April 13, 2025</div></div><div class=article-content><p>Survey Solutions server <a href=/headquarters/accounts/survey-solutions-server-administrator/>administrator</a>
+may adjust the workspace settings. These settings affect simultaneously all
+surveys and all users <em>in a particular workspace</em> on the server and have the
+effect immediately when applied.</p><p>These settings are visible only to the user logged in in an administrative role
+and can be accessed from:</p><ul><li>for the current workspace: <code>Menu</code> → <code>Settings</code> → <code>Workspace settings</code>.</li><li>for any other workspace: <code>Menu</code> → <code>Administration</code> → click particular workspace name → <code>Settings</code>.</li></ul><h2 id=workspace-settings-tabs>Workspace settings tabs</h2><p>Workspace settings are organized into tabs (subpages) corresponding to the
+following groups:</p><ul><li>Export;</li><li>Global note;</li><li>User profile;</li><li>Devices;</li><li>Web interview;</li><li>Company logo.</li></ul><h2 id=workspace-settings-export>Workspace settings: Export</h2><h3 id=export-encryption>Export Encryption</h3><p>This group of settings contains settings that control the encryption of the data
+archive produced when exporting the data from Survey Solutions.</p><p>When <code>enable encryption</code> checkbox is checked, the produced data zip-archive will
+be encrypted with a password that the administrator sees in the settings. To
+ensure high level of security the password can&rsquo;t be typed in, but is generated
+using a random password generation algorithm to make sure the password is
+sufficiently complex. The administrator may request a different password to be
+generated by pressing the circular arrows button. There is no way of setting a
+specific password in this field.</p><p><strong>Default = disabled</strong></p><p>The field <code>password</code> must be populated with a valid password for encryption to
+take effect. There is no default password. To ensure the password is strong,
+the program generates one automatically. A new password can be generated by
+clicking on the refresh button.</p><p>Important: when these export files encryption settings are changed, already
+prepared export files are deleted (within this workspace).</p><h3 id=retention-policy>Retention policy</h3><p>Retention policy refers to the policy of keeping (and periodically deleting)
+prepared export files.</p><p><strong>Default = disabled</strong></p><p>Numeric parameter <code>Days to keep</code> sets the desired retention period for produced
+export data archives (in days). It accepts integer values from <code>1</code> to <code>1,000</code>
+and does not have any default value defined (correspondingly, it doesn&rsquo;t apply
+by default).</p><p>Numeric parameter <code>Number of files to keep</code> sets the maximum number of files
+after reaching which the older files will be purged by the system. It accepts
+integer values from <code>1</code> to <code>100,000</code> and does not have any default value
+defined (correspondingly, it doesn&rsquo;t apply by default).</p><p>More information is available in the <a href>retention policy</a> article.</p><p>The <code>FORCE RUN</code> button enforces the cleanup based on the currently setup policy
+to be run immediately within this workspace. If the button is not pressed, the
+files will be cleaned up at server&rsquo;s discretion, (usually within the next 24
+hours), and periodically after that for as long as the retention policy remains
+activated.</p><h3 id=clear-export-cache>Clear export cache</h3><p>This group doesn&rsquo;t have any settings, but only a button to <code>CLEAR EXPORT CACHE</code>.
+This is a maintenance procedure that helps address issues of the export not
+being produced in some situations. Normally the users do not need to ever press
+this button, but may be recommended to do so, if the support team finds it to
+be advisable in their specific situation.</p><p>This procedure does not erase the collected data. Instead, it performs a cleanup
+of the staged export (eliminating the prepared export data archives and
+supplementary data structures.) The next export job submitted after clearing
+export cache will take substantially longer time to be processed.</p><h3 id=global-note>Global Note</h3><p>This group of settings contains only one setting that controls the server global
+note. When specified, the global note will be shown at every page for every user
+logged into the Survey Solutions Server.</p><p><strong>Default = empty</strong></p><ul><li>To specify the global note - specify a new note and click <code>save</code>.</li><li>To change the global note - specify a new note and click <code>save</code>.</li><li>To remove a global note - click the <code>delete</code> button.</li></ul><p>You will see a message <code>Note saved</code> on successful update or deletion of the
+global note.</p><h3 id=user-profile-settings>User Profile Settings</h3><p>This group contains a single setting that controls whether the interviewers may
+update their contact information.</p><p><strong>default = off</strong></p><p>By default the interviewers may not update their contact information (such as
+email address or phone number).</p><ul><li>To allow interviewers to update their contact information - set the checkbox
+to checked state.</li><li>To disallow interviewers to update their contact information - set the
+checkbox to unchecked state.</li></ul><h3 id=interviewersupervisor-application-settings>Interviewer/Supervisor application settings</h3><p>This group contains the Interviewer/Supervisor application settings
+centrally controlled from the server by the administrator.</p><p><code>Enable automatic updates</code> determines whether only the most recent
+version of the App (as installed on the server) may be utilized by
+the workforce to exchange data with the server.</p><p><strong>default = on</strong></p><p>By default only the most recent version of the app is permitted to
+exchange the data with the server. Users of all earlier versions are
+required to update to permit synchronization.</p><ul><li>To always require the tablets to update to version of Survey
+Solutions as installed on the server, set the checkbox to checked
+state.</li><li>To permit the tablets to exchange the data with the server from
+earlier versions of Survey Solutions, set the checkbox to unchecked
+state.</li></ul><p>This setting is only a recommendation. If Survey Solutions determines
+that e.g. the newly imported questionnaire has features not supported
+by the version installed on the interviewer&rsquo;s tablet, it will still
+require to update.</p><p>The checkbox <code>Enable notifications on device</code> controls whether the
+<a href=/interviewer/app/app-notifications/>notifications</a> will be issued
+for interviewers during their work on the tablets.</p><p><strong>default = on</strong></p><ul><li>To show the notifications to interviewers set the checkbox to checked state.</li><li>To not show the notifications to interviewers set the checkbox to unchecked
+state.</li></ul><p>The checkbox <code>Enable partial synchronization</code> controls whether partial
+synchronization will be performed during synchronization with the server.</p><p><strong>default = off</strong></p><ul><li>To enable partial synchronization set the checkbox to checked state.</li><li>To disable partial synchronization set the checkbox to unchecked state.</li></ul><p>Numeric parameter <code>Geography question accuracy</code> sets the requested accuracy
+(in meters) for geography-type questions with automatic and semi-automatic
+measurement. It accepts integer values from 1m to 1,000m.</p><p><strong>default = 10</strong></p><p>Numeric parameter <code>Geography question period</code> regulates how frequently the
+points will be recorded in a geography-type question by setting up the period
+between the recordings of the points. The period is measured in seconds. Any
+value from 5 to 1,000 may be specified.</p><p><strong>default = 10</strong></p><p>Textual parameter <code>ESRI API key</code> is the key that the user needs to obtain from
+<a href=https://www.esri.com/en-us/about/>Esri</a> to utilize online source of tiles for
+the base map layer when using the map dashboard or answering geography type
+questions in Interviewer and Supervisor apps. Additional details are in the
+<a href=/headquarters/mapsmanage/online-maps-key/>online maps key</a> topic.</p><p><font color=maroon>Usage of the
+<code>ESRI API key</code> may (and likely will) cost you money. It is important to
+familiarize yourself with the pricing, plans, charges and limits as applicable.
+These conditions may be changed, possibly even without prior notice. Pricing
+and billing conditions may depend on whether the user is a private user or an
+organization. All of the billing for this service occurs between you and the
+corresponding provider, the Survey Solutions developers are not charging you
+for this service.</font></p><p>By default the API key is blank (not specified) and the online maps are not
+selectable.</p><p><strong>default = &ldquo;&rdquo;</strong></p><h3 id=web-interview-settings>Web interview settings</h3><p>The checkbox <code>Web interview email notifications</code> controls whether respondents
+to web surveys may request an email with a link to resume the interview if the
+interview session gets interrupted.</p><p>The email with the resume link is only sent when a
+<a href=/headquarters/cawi/email-providers/>bulk email service provider</a>
+is set up, otherwise it is not sent out even if this checkbox is checked.</p><p><strong>default = off</strong></p><ul><li>To allow respondents to request an email with a resume link set the checkbox
+to checked state.</li><li>To not allow respondents to request an email with a resume link set the
+checkbox to unchecked state.</li></ul><h3 id=company-logo>Company logo</h3><p>Here one can customize the logo that is displayed when the user logs
+into the Survey Solutions data server or the Interviewer App.</p><p><strong>default = neutral themed image</strong></p><p>Survey Solutions is deployed with a neutral image that may be customized
+to the organization&rsquo;s or survey&rsquo;s logo.</p><ul><li><p>To change the logo, click on <code>Choose File</code> button and select an image
+from the local machine. Image will be displayed on the settings page.
+Click <code>Save</code> when ready to use this image on all the login screens.</p></li><li><p>To remove the logo, click the <code>Remove logo</code> button.</p></li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

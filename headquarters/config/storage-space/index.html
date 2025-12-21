@@ -1,0 +1,72 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="storage,disk,database,size"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/config/storage-space/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Server storage space"><meta property="og:description" content="This article explains the importance of adequate storage space for a Survey Solutions server.
+Survey Solutions saves a lot of data. Database sizes in the size of tens of GBs are commonly observed even in small surveys. Population censuses may consume TBs of data.
+Survey Solutions stores the data:
+in the database and in files on file system of the server. It is crucial that the system doesn’t run out of storage for its continuous and reliable operation."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2023-04-05T11:11:11+00:00"><meta property="article:modified_time" content="2023-04-05T11:11:11+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Server storage space</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/config/>Setup and Configuration</a></li><li class="breadcrumb-item active" aria-current=page>Server storage space</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Server storage space</h2><div class="data text-right">April 5, 2023</div></div><div class=article-content><p><em>This article explains the importance of adequate storage space for a Survey Solutions server.</em></p><center><img src=images/storage.jpg></center><p>Survey Solutions saves a lot of data. Database sizes in the size of tens
+of GBs are commonly observed even in small surveys. Population censuses may
+consume TBs of data.</p><p>Survey Solutions stores the data:</p><ul><li>in the database and</li><li>in files on file system of the server.</li></ul><p>It is crucial that the system doesn&rsquo;t run out of storage for its continuous and
+reliable operation.</p><p>The data transfer from mobile devices to the server involves complete data
+deletion on the mobile device after the server confirms that it has received
+the intended package. If the server has no storage needed to process and store
+the data from this package, as well as any supplementary updates to reports
+and other elements on the server, then the application may:</p><ul><li>become unstable;</li><li>have some functionality not available, while other functionality working fine;</li><li>show incorrect content; or</li><li>stop responding or servicing further requests.</li></ul><p>Notably, from the viewpoint of the interviewer the transfer succeeds when the
+server confirms receiving the data, so the interviewers can&rsquo;t detect or react
+to this issue.</p><p>Correspondingly, it is important to monitor the growth of the footprint of
+the application in terms of storage space to avoid server downtime or data
+loss. The exact actions will depend on where and how the Survey Solutions
+is deployed, for example, whether the DB is located on the same machine or
+on a separate database server.</p><p>Generally the administrator of such a system (this may be and often is a
+different person then the <a href=/headquarters/accounts/survey-solutions-server-administrator/>administrator user in Survey Solutions</a>) needs to
+monitor:</p><ul><li>availability of free space on the file system of the machine used for
+servicing web requests;</li><li>availability of storage space for the database;</li><li>speed of expansion (which may not necessarily be linear, but exhibit cycles,
+for example by day of the week, or month of the year).</li></ul><p>Survey Solutions itself may not accurately acquire these capacities (e.g. it
+has no idea how far the DB can grow on the server that stores the DB data),
+which are determined as a combination of the physical capacities, account
+limitations, storage consumption policies and quotas, etc, thus it can&rsquo;t
+alert the user by itself that the storage is about to become full. Yet the
+<a href=/headquarters/accounts/survey-solutions-server-administrator/>Survey Solutions administrator user</a> may see some statistics on the DB current
+footprint in the <a href=/headquarters/config/healthcheck/>healthcheck</a> page
+(including some statistics by workspace).</p><p>There are numerous third-party tools available for such monitoring.</p><p>For major cloud providers consider the tools that they provide when you host your server with them:</p><ul><li><a href=https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/monitoring-cloudwatch.html>Amazon AWS CloudWatch</a>;</li><li><a href=https://cloud.google.com/sql/docs/postgres/use-system-insights>Google System Insights</a>;</li><li><a href=https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-monitoring>Microsoft Azure</a>.</li></ul><p>Alongside with tracking the use of the storage space, these tools
+give a lot of insights regarding many other aspects of the database
+state and are indispensable in optimizing the database performance.</p><p>Many of these tools provide the possibility to automatically notify
+the user about the event that the storage has become full or is about to become full (either by doing projections, or by registering the size is over a certain threshold limit).</p><p>Some tools allow for automatic increase of resources when the capacity
+is about to be exhausted or perform another scripted action to react to such an event. For example, the DB may be automatically
+resized as a reaction to the alert that a certain threshold has been
+reached. Automatic database expansion should be used with caution, as the running costs for operating the servers also increase in an automatic fashion.</p><p>Addressing the storage issue before it actually happens is usually much
+cheaper (in terms of staff time) then dealing with the consequences. Indeed,
+the consequences may spread across the board to other systems linked to a
+Survey Solutions server via API calls, which would not be able to have their
+requests processed and adequately responded to. Another obvious loss is the
+loss of a response, especially in the web interviews, where the respondent
+can no longer proceed with an interview, and may no longer return to the
+survey page because she has lost interest or motivation to participate in
+such a survey.</p><p>Revising the storage limits in a cloud infrastructure can be technically
+very quick, but may require additional costs, which may need to go through
+the procurement clearance (for corporate and institutional users), thus
+having an early warning is critical.</p><p>The exact response will depend, of course, on:</p><ul><li>how quickly these issues (expanding the infrastructure) can get processed
+bureaucratically and technically;</li><li>how quickly the data footprint continues to grow;</li><li>how expensive or critical is the loss of responses, or having server
+downtime, etc.</li></ul><p>👍 As a rule of thumb: if you feel that the data cumulates with the speed that
+you have less than a week-worth of storage left, start doing the revisions
+immediately.</p><p>👍 As a rule of thumb: if you have consumed <strong>half</strong> of the storage space,
+consider increasing it. (of course this depends on whether you&rsquo;ve reached
+this point in the beginning, middle, or the end of the data collection,
+but remember that even if you are not collecting additional interviews,
+your data footprint may continue to grow, and thus needs storage for
+expansion).</p></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

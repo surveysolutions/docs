@@ -1,0 +1,110 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="designer,syntax,rosters,linq"><meta property="og:url" content="https://docs.mysurvey.solutions/syntax-guide/cslanguage/syntax-guide-using-linq-expressions-for-conditions-in-rosters/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Syntax Guide: Using LINQ Expressions for Conditions in Rosters"><meta property="og:description" content="Rosters are common survey instruments (ie household roster, assets roster, food consumption roster). Using Language Integrated Query (LINQ) and lambda expressions in the C# language, we are able to code enabling and validation conditions for rosters that can both:
+Horizontally: Refer to the values of other variables for the current occurrence Vertically: Refer to the values of the same variable for other items in the roster In this article, we will cover the general syntax, common operators, provide a few examples on how to write enabling and validation conditions for rosters. Additionally, this article also provide links to more resources on LINQ expressions."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="syntax-guide"><meta property="article:published_time" content="2016-11-21T15:33:45+00:00"><meta property="article:modified_time" content="2016-11-21T15:33:45+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Syntax Guide: Using LINQ Expressions for Conditions in Rosters</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/syntax-guide/>Syntax Guide</a></li><li class=breadcrumb-item><a href=/syntax-guide/cslanguage/>C# Language Basics</a></li><li class="breadcrumb-item active" aria-current=page>Syntax Guide: Using LINQ Expressions for Conditions in Rosters</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Syntax Guide: Using LINQ Expressions for Conditions in Rosters</h2><div class="data text-right">November 21, 2016</div></div><div class=article-content><p>Rosters are common survey instruments (ie household roster, assets
+roster, food consumption roster). Using Language Integrated Query (LINQ)
+and lambda expressions in the C# language, we are able to code enabling
+and validation conditions for rosters that can both:</p><ul><li>Horizontally: Refer to the values of other variables for the current
+occurrence</li><li>Vertically: Refer to the values of the same variable for other items
+in the roster</li></ul><img style=max-width:100%;height:auto src=/syntax-guide/cslanguage/syntax-guide-using-linq-expressions-for-conditions-in-rosters/images/717594_hu_2ab89b1b46b32de5.png width=800 height=600><p>In this article, we will cover the <a href=#syntax>general syntax</a>, <a href=#operators>common
+operators</a>, provide a few <a href=#examples>examples</a> on how to
+write enabling and validation conditions for rosters. Additionally, this
+article also provide links to <a href=#moreref>more resources</a> on LINQ
+expressions.<br> </p><h2 id=general-syntax><span id=syntax></span><strong>General Syntax</strong></h2><p>The general syntax for rosters is:</p><pre><code>RosterName.Operator(x=&gt;x.varQuery1==1...)
+</code></pre><p> </p><table><thead><tr class=header><th><strong>Item</strong></th><th><strong>Description</strong></th></tr></thead><tbody><tr class=odd><td><em>RosterName</em></td><td>Name of the roster of interest to query. This is where to find the variables you are interested in.</td></tr><tr class=even><td><em>Operator</em></td><td>Query Operator: The action that you want to be performed</td></tr><tr class=odd><td><em>x</em></td><td>Anonymous variable that captures the queried value. This is just a place holder and can be anything (eg a, b, person)</td></tr><tr class=even><td><em>x.varQuery</em></td><td>Variable(s) of interest for the query</td></tr></tbody></table><p>The part of the syntax in the parentheses after the operator is called
+the &ldquo;lambda expression.&rdquo; The lambda expression specifies the query
+criteria for the LINQ expression.<br>The value that is returned by the statement depends on the operator
+used. LINQ expressions can also be used to write more complex queries to
+a <a href=/questionnaire-designer/lookup-tables>look up table</a>.</p><h2 id=commonly-used-operators><span id=operators></span><strong>Commonly Used Operators</strong></h2><p>There are many LINQ query operators that offer a range of query
+capabilities like filtering, sorting, projection, aggregation, etc. The
+most useful LINQ operators for Survey Solutions are:</p><ul><li><strong>All</strong>: Checks that all elements of the expression meet the query
+criteria. This operator returns true/false.</li><li><strong>Any</strong>: Checks that at least one element of the expression meets
+the query criteria. This operator returns true/false.</li><li><strong>Count</strong>: Counts the number of elements that meet the query
+criteria. This returns the count.</li><li><strong>FirstOrDefault</strong>: Finds the first element that meets the query
+criteria. this returns the first element matching the query
+criteria. In most cases, this will be the first row that matches the
+search criteria If no element matches the query criteria, then it
+returns null.</li></ul><h2 id=example-1><span id=examples></span><strong>Example 1</strong></h2><p>Assume we want to enable a section only if there are any woman 15-49
+years old in the household. For this enabling condition, we will be
+using the following variable names:</p><ul><li><em>Age</em> is the name of the variable recording the age of the household
+member</li><li><em>Gender</em> is the name of the variable recording the gender of the
+household member. <em>Gender</em> will have a value of 2 if the person is a
+woman (<em>Gender==2</em>)</li><li><em>hhroster</em> is the name of the roster containing the age and gender
+questions</li></ul><p>Using this information, we would code the enabling condition to be like
+this:</p><pre><code>/* Enable only if there are any women 15-49 yo in the household */
+hhroster.Any(x=&gt;x.Gender==2 &amp;&amp; x.Age&gt;=15 &amp;&amp; x.Age&lt;=49)
+</code></pre><p>In words, the expression above says: in the hhroster roster, look to see
+if there is any household member who is a woman and is between the age
+of 15 and 49 years old. Since we used the operator <em>Any</em>, this
+expression will return true if there are any woman 15-49 years old in
+the household. It will return false if there are none. If instead we
+wanted to count the number of women 15-49 years old in the household,
+then we would use the <em>Count</em> operator.</p><p> </p><h2 id=example-2><strong>Example 2</strong></h2><p>We want to check that the household contains one and only one household
+head. This is a common validation in many household surveys. For this
+approach, we would like to flag an error in the following cases:</p><ol><li>There is more than one household head</li><li>There is no household head</li></ol><p>We will be using the following variable names:</p><ul><li><em>relat</em> is the name of the variable name of the question recording
+the relationship to the household head. <em>relat</em> will have a value of
+1 if the person is the household head (<em>relat==1</em>)</li><li><em>hhroster</em> is the name of the roster containing the questions about
+the household member</li></ul><p>Since Designer allows for more than one validation conditions for each
+question, we will write a separate validation condition for each case so
+that we can provide more detailed error messages to the interviewers.<br> </p><h3 id=case-1-there-is-more-than-one-household-head>Case 1. There is more than one household head</h3><p>For this case, we want to check that another person has not been listed
+as the household head if a household member has been identified as the
+household head. We will use the <a href=/syntax-guide/syntax-guide-operators#other>conditional expression
+operator</a>
+to code this validation. It would be coded like:</p><pre><code> // Is this person the household head?
+relat==1 ?
+
+    // If household head, check that there is only one household head listed
+    (hhroster.Count(x=&gt;x.relat==1)==1)
+
+    // If not a household head, then do not do anything
+    : true
+</code></pre><p><em>hhroster.Count(x=>x.relat==1)</em> will return the number of household
+heads currently listed in the roster. Because we used a conditional
+expression, <em>relat==1?</em> makes it so that it will only check that there
+is only one head if the current person was recorded to be a household
+head. If the person is not listed as a household head, then no error
+will be flagged.</p><p> </p><h3 id=case-2-there-is-no-household-head>Case 2. There is no household head</h3><p>For this case, we only want to run this check after question about the
+relationship to head has been answered for everyone because this
+validation will trigger for every person until the household head is
+listed. Similarly, we will use the <a href=/syntax-guide/syntax-guide-operators#other>conditional expression
+operator</a>
+to code this validation. It would be coded like this:</p><pre><code>// Has relationship to head been answered for all household members?
+hhroster.All(x=&gt;x.relat!=null) ?
+
+    //  If all information has been filled out, check for a head was listed
+    !(hhroster.Count(x=&gt;x.relat==1)==0)
+
+    // If all information has not been filled, do not do anything
+    : true
+</code></pre><p><em>hhroster.All(x=>x.relat!=null)</em> checks that relationship to head of
+household has been filled out for every member. If that is true, then
+<em>!(hhroster.Count(x=>x.relat==1)==0)</em> will count the number of
+members that are listed as a household head and check that the number of
+household heads listed is not equal to 0. If not all the relationship to
+household head has not been filled out for every member, then no error
+will be flagged.</p><h2 id=more-resources-on-linq>If you would like to learn more about and test out these two validation
+conditions, you can refer to this
+<a href=https://designer.mysurvey.solutions/questionnaire/details/116bba6b43e247048a45d88f3ca3b4a8/>public questionnaire</a>
+Case 1 is validation condition 1 in the question. Case 2 is validation
+condition 5 in the question.
+ 
+<span id=moreref></span><strong>More resources on LINQ</strong></h2><p>For more information to write more complex LINQ queries in C#:</p><ul><li><a href=http://stackoverflow.com/questions/16322/learning-about-linq>Stack Overflow: Learning about
+LINQ</a></li><li><a href=https://msdn.microsoft.com/en-us/library/mt693024.aspx>MSDN</a></li><li><a href=https://github.com/dotnet/try-samples/tree/main/101-linq-samples>101 LINQ
+samples</a></li><li><a href=https://www.tutorialspoint.com/linq/linq_query_operators.htm>LINQ Query
+Operators</a></li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2025 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>
