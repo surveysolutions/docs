@@ -128,7 +128,7 @@ technical support. Here is an example of such a description</P>
 
 <CENTER><IMG src="img/interviewer_send_description.png" width=400></CENTER>
 
-<P>The tablet must doesn't need to be online for this feature to succeed.
+<P>The tablet doesn't have to be online for this feature to succeed.
 The resulting textual description may be shared using any means (saved to
 a file, sent by email, etc).</P>
 </details>

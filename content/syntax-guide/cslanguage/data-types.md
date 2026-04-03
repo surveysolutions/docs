@@ -2,7 +2,7 @@
 title = "Data types"
 keywords = ["data types","syntax","object model"]
 date = 2016-08-09T21:16:08Z
-lastmod = 2016-08-09T21:16:08Z
+lastmod = 2026-01-20T00:00:00Z
 aliases = ["/customer/portal/articles/2531232-data-types","/customer/en/portal/articles/2531232-data-types","/customer/portal/articles/2531232","/customer/en/portal/articles/2531232","/syntax-guide/data-types"]
 
 +++
@@ -14,14 +14,14 @@ purpose object-oriented programming language, widely documented. When
 writing expressions in C\# language, and especially when using standard
 C\# and custom Survey Solutions functions it is important to keep in
 mind the definitions of the various Survey Solutions objects.  
-  
-Below the types of Survey Solutions objects are explained in terms of
-standard C\# classes and types. Links are provided to the corresponding
-definitions on Microsoft's site.  
-  
+
+The types of Survey Solutions objects are explained in terms of
+standard C\# classes and types below and links are provided to the corresponding
+definitions on Microsoft's site.
+
 Note that in the definitions below a question mark indicates a [nullable
 type](https://msdn.microsoft.com/en-us/library/system.nullable(v=vs.110).aspx).  
-  
+
  
 
 Questions
@@ -141,7 +141,7 @@ Questions
 </tbody>
 </table>
 
-  
+
 ***Notes***:
 
 -   The value of the categorical multi-select question can be null, or
@@ -153,8 +153,8 @@ Questions
     array](https://msdn.microsoft.com/en-us/library/2s05feca.aspx)
     although in practice it is always a regular-sized array.
 
-  
-  
+
+
  
 
 System variables
@@ -198,7 +198,7 @@ System variables
 </tbody>
 </table>
 
-  
+
 ***Notes***
 
 -   In definition of @current *object* is a dynamically compiled class
@@ -209,8 +209,8 @@ System variables
     of objects of this class, also supports addressing by index as an
     [array](https://msdn.microsoft.com/en-us/library/0a7fscd0.aspx).
 
-  
-  
+
+
  
 
 User-defined variables
@@ -249,14 +249,14 @@ User-defined variables
 </tbody>
 </table>
 
-  
-  
+
+
  
 
 Lookup tables
 -------------
 
-  
+
 Lookup tables are defined as dictionaries:  
 <span
 style="font-family:courier new,courier,monospace;">Dictionary&lt;[int](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/int),
@@ -272,6 +272,6 @@ field1;
 field2;  
   ....  
 }</span>  
-  
+
 These definitions have last been updated for version 5.25 on Feb 07,
 2018.
