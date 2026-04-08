@@ -82,7 +82,7 @@ after reaching which the older files will be purged by the system. It accepts
 integer values from `1` to `100,000` and does not have any default value
 defined (correspondingly, it doesn't apply by default).
 
-More information is available in the [retention policy]() article.
+More information is available in the [retention policy](/headquarters/config/data-retention-policy/) article.
 
 The `FORCE RUN` button enforces the cleanup based on the currently setup policy
 to be run immediately within this workspace. If the button is not pressed, the
