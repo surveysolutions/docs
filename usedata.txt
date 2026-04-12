@@ -1,0 +1,842 @@
+{
+	"data": [
+	  {
+		"id":"1",
+		"countryid":"BWA",
+		"iso2code":"BW",
+		"countryname":"Botswana",
+		"year":"2017",
+		"surveyname":"Botswana Demographic Survey",
+		"surveyshortname":"BDS2017",
+		"links":"<A href=https://www.statsbots.org.bw/sites/default/files/publications/Botswana%20Demographic%20Survey%20Report%202017.pdf>Botswana Demographic Survey Report 2017</A>"
+	  },
+	  {
+		"id":"2",
+		"countryid":"LCA",
+		"iso2code":"LC",
+		"countryname":"St. Lucia",
+		"year":"2022",
+		"surveyname":"National Population and Housing Census 2022",
+		"surveyshortname":"",
+		"links":"<A href=https://stats.gov.lc/sdc_download/12332/?key=gsppstzbq47a13tlz8qzd5w6yr3xf9>Saint Lucia Population and Housing Census 2022. Provisional Results. Release 1</A>"
+	  },
+	  {
+		"id":"3",
+		"countryid":"UGA",
+		"iso2code":"UG",
+		"countryname":"Uganda",
+		"year":"2019-2020",
+		"surveyname":"The Uganda National Household Survey",
+		"surveyshortname":"UNHS 2019/2020",
+		"links":"<A href=https://www.ubos.org/wp-content/uploads/publications/09_2021Uganda-National-Survey-Report-2019-2020.pdf>Uganda National Survey Report 2019/2020</A>"
+	  },
+	  {
+		"id":"4",
+		"countryid":"BRB",
+		"iso2code":"BB",
+		"countryname":"Barbados",
+		"year":"2021",
+		"surveyname":"2021 Population & Housing Census (PHC)",
+		"surveyshortname":"PHC 2021",
+		"links":"<A href=https://stats.gov.bb/wp-content/uploads/2024/02/2021-Population-and-Housing-Census.pdf>2021 Population and Housing Census Report</A>"
+	  },
+	  {
+		"id":"5",
+		"countryid":"UGA",
+		"iso2code":"UG",
+		"countryname":"Uganda",
+		"year":"2019-2020",
+		"surveyname":"Uganda Annual Agricultural Survey 2019-2020",
+		"surveyshortname":"PHC 2021",
+		"links":"<A href=https://microdata.fao.org/index.php/catalog/2646/download/15161>Annual Agricultural Survey 2019 Report</A>"
+	  },
+	  {
+		"id":"6",
+		"countryid":"ZMB",
+		"iso2code":"ZM",
+		"countryname":"Zambia",
+		"year":"2022",
+		"surveyname":"Living Conditions Monitoring Survey",
+		"surveyshortname":"2022 LCMS",
+		"links":"<A href=https://www.undp.org/sites/g/files/zskgke326/files/2024-07/2022_lcms_report.pdf>2022 Living Conditions Monitoring Survey Report</A>"
+	  },
+	  {
+		"id":"7",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2021",
+		"surveyname":"2021 Labor Force Survey",
+		"surveyshortname":"LFS 2021",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2021-04.pdf>Belize Labour Force Survey Report (April 2021).</A><BR><A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2021-09.pdf>Belize Labour Force Survey Report (September 2021).</A><BR><A href=https://sib.org.bz/wp-content/uploads/MigrationandBelize.pdf>Migration and Belize. Results of the Migration Modules Attached to the 2021 Labor Force Survey.</A><BR><A href=https://sib.org.bz/wp-content/uploads/FIES_AnalysisReportBelize.pdf>Prevalence of Food Insecurity in Belize - 2021.</A>"
+	  },
+	  {
+		"id":"8",
+		"countryid":"ETH",
+		"iso2code":"ET",
+		"countryname":"Ethiopia",
+		"year":"2021-2022",
+		"surveyname":"Socio-Economic Panel Survey 2021-2022. Wave 5.",
+		"surveyshortname":"",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/6161/related-materials>Documentation: Questionnaires, Reports, Technical Documents</A>"
+	  },
+	  {
+		"id":"9",
+		"countryid":"CHL",
+		"iso2code":"CL",
+		"countryname":"Chile",
+		"year":"2021-2022",
+		"surveyname":"IX Encuesta de Presupuestos Familiares",
+		"surveyshortname":"IXEPF",
+		"links":"<A href=https://www.ine.gob.cl/docs/default-source/encuesta-de-presupuestos-familiares/publicaciones-y-anuarios/ix-epf-(octubre-2021---septiembre-2022)/informe-de-principales-resultados-ix-epf.pdf?sfvrsn=80bf88f_6>Informe de Principales Resultados. IX Encuesta de Presupuestos Familiares</A>"
+	  },
+	  {
+		"id":"10",
+		"countryid":"TUV",
+		"iso2code":"TV",
+		"countryname":"Tuvalu",
+		"year":"2017",
+		"surveyname":"Tuvalu Population and Housing Mini-Census 2017",
+		"surveyshortname":"",
+		"links":"<A href=https://stats.gov.tv/download/85/population-and-housing-census/906/2017-census-report_final.pdf>Tuvalu Population & Housing Mini-Census 2017 Report</A>"
+	  },
+	  {
+		"id":"11",
+		"countryid":"TON",
+		"iso2code":"TO",
+		"countryname":"Tonga",
+		"year":"2018",
+		"surveyname":"Tonga National Disability Survey 2018",
+		"surveyshortname":"",
+		"links":"<A href=https://tongastats.gov.to/download/45/disability-survey/3462/tonga-disability-survey-report-2018.pdf>Tonga Disability Survey Report 2018</A>"
+	  },
+	  {
+		"id":"12",
+		"countryid":"TON",
+		"iso2code":"TO",
+		"countryname":"Tonga",
+		"year":"2018",
+		"surveyname":"Tonga Labour Force Survey 2018",
+		"surveyshortname":"TLFS 2018",
+		"links":"<A href=https://tongastats.gov.to/download/48/labour-force-survey/3268/2018-labour-force-survey-report.pdf>2018 Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"13",
+		"countryid":"TON",
+		"iso2code":"TO",
+		"countryname":"Tonga",
+		"year":"2021",
+		"surveyname":"Tonga Population and Housing Census 2021",
+		"surveyshortname":"",
+		"links":"<A href=https://tongastats.gov.to/census-2/population-census-3/census-documentation/>Census Documentation</A>"
+	  },
+	  {
+		"id":"14",
+		"countryid":"TON",
+		"iso2code":"TO",
+		"countryname":"Tonga",
+		"year":"2021",
+		"surveyname":"Tonga 2021 Household Income and Expenditure Survey",
+		"surveyshortname":"2021 HIES",
+		"links":"<A href=https://tongastats.gov.to/download/47/household-income-expenditure-survey/8078/tonga_2021_hies_report.pdf>Tonga 2021 Household Income and Expenditure Survey Report</A>"
+	  },
+	  {
+		"id":"15",
+		"countryid":"VUT",
+		"iso2code":"VU",
+		"countryname":"Vanuatu",
+		"year":"2020",
+		"surveyname":"National Population and Housing Census",
+		"surveyshortname":"2020 PHC",
+		"links":"<A href=https://www.spc.int/digitallibrary/get/2dwwa>2020 National Population and Housing Census. Volume 1. Basic Tables Report.</A><BR><A href=https://vbos.gov.vu/sites/default/files/2020_Vanuatu_National_Population_and_Housing_Census_-_Analytical_report_Volume_2.pdf>2020 National Population and Housing Census. Volume 2. Analytical Report.</A><BR><A href=https://microdata.pacificdata.org/index.php/catalog/769/download/3981>English Questionnaire</A>"
+	  },
+	  {
+		"id":"16",
+		"countryid":"MDV",
+		"iso2code":"MV",
+		"countryname":"Maldives",
+		"year":"2019",
+		"surveyname":"Household Income &amp; Expenditure Survey 2019",
+		"surveyshortname":"HIES 2019",
+		"links":"<A href=https://statisticsmaldives.gov.mv/nbs/wp-content/uploads/2021/11/HIES-2019-Administrative-Report.pdf>Administrative Report. Household Income &amp; Expenditure Survey 2019</A></A>"
+	  },
+	  {
+		"id":"17",
+		"countryid":"TON",
+		"iso2code":"TO",
+		"countryname":"Tonga",
+		"year":"2017",
+		"surveyname":"Non-Communicable Diseases Risk Factors: STEPS Survey 2017",
+		"surveyshortname":"2017 STEPS",
+		"links":"<A href=https://www.health.gov.to/drupal/sites/default/files/public_docs/Tonga%20STEPS%202017.pdf>Tonga Risk Factors. STEPS REPORT 2017</A><BR><A href=https://microdata.pacificdata.org/index.php/catalog/188/download/997>Sampling Design</A><BR><A href=https://microdata.pacificdata.org/index.php/catalog/188/download/996>Questionnaire</A>"
+	  },
+	  {
+		"id":"18",
+		"countryid":"ROU",
+		"iso2code":"RO",
+		"countryname":"Romania",
+		"year":"2020",
+		"surveyname":"General Agricultural Census 2020",
+		"surveyshortname":"GAC 2020",
+		"links":"<A href=https://www.fao.org/fileadmin/templates/ess/ess_test_folder/World_Census_Agriculture/WCA_2020/WCA2020_new_MRs2/MR_Romania_2020_final.pdf>Romania – General Agricultural Census 2020 – Metadata Review</A>"
+	  },
+	  {
+		"id":"19",
+		"countryid":"ROU",
+		"iso2code":"RO",
+		"countryname":"Romania",
+		"year":"2021",
+		"surveyname":"Population and Housing Census 2021",
+		"surveyshortname":"PHC 2021",
+		"links":"<A href=https://www.recensamantromania.ro/wp-content/uploads/2022/09/Report-on-advisory-services-provided-to-Recipient-on-the-Recommendations-on-how-to-perform-the-PHC2021-piloting-process.pdf>Report on advisory services provided to Recipient on the Recommendations on how to perform the PHC2021 piloting process</A>"
+	  },
+{
+		"id":"20",
+		"countryid":"KGZ",
+		"iso2code":"KG",
+		"countryname":"Kyrgyz Republic",
+		"year":"2022",
+		"surveyname":"2022 Population and Housing Census",
+		"surveyshortname":"",
+		"links":"<A href=https://stat.gov.kg/en/publications/perepis-naseleniya-i-zhilishnogo-fonda-kyrgyzskoj-respubliki-2022-goda-kniga-i-osnovnye-socialno-demograficheskie-harakteristiki/>Population and Housing Census of the Kyrgyz Republic 2022</A>"
+	  },
+	  {
+		"id":"21",
+		"countryid":"UGA",
+		"iso2code":"UG",
+		"countryname":"Uganda",
+		"year":"2016-2017",
+		"surveyname":"Uganda National Household Survey 2016/2017",
+		"surveyshortname":"UNHS 2016/2017",
+		"links":"<A href=https://www.ubos.org/wp-content/uploads/publications/03_20182016_UNHS_FINAL_REPORT.pdf>Uganda National Household Survey 2016/2017 Report</A>"
+	  },
+	  {
+		"id":"22",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2018",
+		"surveyname":"2018 Labour Force Survey",
+		"surveyshortname":"LFS 2018",
+		"links":"<A href=https://www.ilo.org/surveyLib/index.php/catalog/7986/download/49935>2018 Labour Force Survey Report. Bhutan</A>"
+	  },
+	  {
+		"id":"23",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"Bhutan Living Standard Survey 2022",
+		"surveyshortname":"BLSS 2022",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2023/01/METADATA-ON-2022-BLSS.pdf>Metadata on Bhutan Living Standard Survey 2022 (BLSS)</A>"
+	  },
+	  {
+		"id":"24",
+		"countryid":"ATG",
+		"iso2code":"AG",
+		"countryname":"Antigua and Barbuda",
+		"year":"2018",
+		"surveyname":"2018 Labour Force Survey",
+		"surveyshortname":"2018 LFS",
+		"links":"<A href=https://statistics.gov.ag/wp-content/uploads/2020/10/2018-Antigua-and-Barbuda-LFS-Report.pdf>Antigua and Barbuda 2018 Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"25",
+		"countryid":"TZA",
+		"iso2code":"TZ",
+		"countryname":"Tanzania",
+		"year":"2019-2020",
+		"surveyname":"Zanzibar Household Budget Survey 2019/2020",
+		"surveyshortname":"HBS 2019/2020",
+		"links":"<A href=https://www.ocgs.go.tz/ReportOCGS/HBS%20Main%20Report_final%2031.12.2020%20printing%20(2).pdf>Main Report. 2019/2020 Household Budget Survey</A>"
+	  },
+	  {
+		"id":"26",
+		"countryid":"MSR",
+		"iso2code":"MS",
+		"countryname":"Montserrat",
+		"year":"2018",
+		"surveyname":"Intercensal Population Count and Labour Force Survey 2018",
+		"surveyshortname":"ICC/LFS 2018",
+		"links":"<A href=https://www.gov.ms/wp-content/uploads/2020/08/FINAL-REPORT-KEY-FINDINGS-CENSUS-LABOUR-FORCE-SURVEY-2018-.pdf>Intercensal Population Count and Labour Force Survey 2018. Key Findings Report</A>"
+	  },
+	  {
+		"id":"27",
+		"countryid":"LCA",
+		"iso2code":"LC",
+		"countryname":"St. Lucia",
+		"year":"2019",
+		"surveyname":"National Crime Victimization Survey 2019",
+		"surveyshortname":"SLNCVS 2019",
+		"links":"<A href=https://stats.gov.lc/wp-content/uploads/2020/08/CVS_Questionnaire_Saint-Lucia_Survey_2019.pdf>Questionnaire</A><BR><A href=https://stats.gov.lc/wp-content/uploads/2020/08/SLNCVS_Presentation_Main_Results_2020.pdf>Presentation</A>"
+	  },
+	  {
+		"id":"28",
+		"countryid":"JAM",
+		"iso2code":"JM",
+		"countryname":"Jamaica",
+		"year":"2019",
+		"surveyname":"Jamaica National Crime Victimization Survey 2019",
+		"surveyshortname":"JNCVS 2019",
+		"links":"<A href=https://www.mns.gov.jm/sites/default/files/pdf/JNCVS%202019%20FINAL%20REPORT.pdf>Jamaica National Crime Victimization Survey (JNCVS) 2019 Report</A>"
+	  },
+	  {
+		"id":"29",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"2022 Gross National Happiness Survey",
+		"surveyshortname":"GNH 2022",
+		"links":"<A href=https://bhutanstudies.org.bt/wp-content/uploads/2025/01/2022-GNH-Survey-Report_compressed.pdf>2022 Gross National Happiness Report</A>"
+	  },
+	  {
+		"id":"30",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2020",
+		"surveyname":"2020 Labour Force Survey",
+		"surveyshortname":"LFS 2020",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2021/04/2020-Labour-Force-Survey-Report.pdf>2020 Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"31",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"2022 Jobseeker Survey",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/Jobseeker-Survey-Report-2022.pdf>Jobseeker Survey Report 2022</A>"
+	  },
+	  {
+		"id":"32",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2024",
+		"surveyname":"Industry Census of Bhutan 2024",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2024/08/INDUSTRY-CENSUS-OF-BHUTAN-2024.pdf> Industry Census Report of Bhutan 2024</A>"
+	  },
+	  {
+		"id":"33",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2021",
+		"surveyname":"Tourism Establishment Census of Bhutan 2021",
+		"surveyshortname":"TECOB 2021",
+		"links":"<A href=https://www.tourism.gov.bt/uploads/attachment_files/tcb_esC39jNL_Tourism%20Establishment%20Census%20of%20Bhutan%20-%20WEB.pdf>Tourism Establishment Census of Bhutan 2021 Report</A>"
+	  },
+	  {
+		"id":"34",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2023",
+		"surveyname":"5th National Health Survey. Integrated Stepwise Household Survey 2023",
+		"surveyshortname":"NHS 2023",
+		"links":"<A href=https://moh.gov.bt/wp-content/uploads/2025/01/Final_National-Health-Survey-2023-1.pdf>National Health Survey Report 2023,</A><BR><A href=https://moh.gov.bt/wp-content/uploads/2025/01/A4_Factsheets.pdf>Factsheets</A>"
+	  },
+	  {
+		"id":"35",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2017",
+		"surveyname":"Bhutan Living Standards Survey 2017",
+		"surveyshortname":"BLSS 2017",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/2020/10/BLSS-2017-Report.pdf>Bhutan Living Standards Survey Report 2017</A>"
+	  },
+	  {
+		"id":"36",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2015",
+		"surveyname":"Knowledge Attitude and Practice (KAP) Survey of Religious Personnel on Social Issues",
+		"surveyshortname":"KAP 2015",
+		"links":"<A href=https://www.nsb.gov.bt/download/5101/>KAP Survey Report 2015</A>"
+	  },
+	  {
+		"id":"37",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2019",
+		"surveyname":"National Waste Inventory Survey",
+		"surveyshortname":"NWIS 2019",
+		"links":"<A href=https://www.nsb.gov.bt/download/5089/>Nation’s waste on the scale</A>"
+	  },
+	  {
+		"id":"38",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2020",
+		"surveyname":"User Satisfaction Survey",
+		"surveyshortname":"",
+		"links":"<A href=https://www.nsb.gov.bt/download/7699/>User Satisfaction Survey Report</A>"
+	  },
+	  {
+		"id":"39",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2018",
+		"surveyname":"2018 Labor Force Survey",
+		"surveyshortname":"LFS 2018",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2018-04.pdf>Belize Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"40",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2019",
+		"surveyname":"2019 Labor Force Survey",
+		"surveyshortname":"LFS 2019",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2019-09.pdf>Belize Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"41",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2020",
+		"surveyname":"2020 Labor Force Survey",
+		"surveyshortname":"LFS 2020",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/LFS_Report_2020-09.pdf>Belize Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"42",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"2022 Labour Force Survey",
+		"surveyshortname":"LFS 2022",
+		"links":"<A href=https://www.nsb.gov.bt/download/11300/>2022 Labour Force Survey Report</A>"
+	  },
+	  {
+		"id":"43",
+		"countryid":"BLZ",
+		"iso2code":"BZ",
+		"countryname":"Belize",
+		"year":"2019",
+		"surveyname":"National Domestic Tourism Survey",
+		"surveyshortname":"NDTS 2019",
+		"links":"<A href=https://sib.org.bz/wp-content/uploads/NDTS_Report.pdf>National Domestic Tourism Survey 2019 Report</A>"
+	  },
+	  {
+		"id":"44",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2023",
+		"surveyname":"General Business Census",
+		"surveyshortname":"RGE 2023",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/RGE_GABON_RAPPORT-DEFINITIF.pdf>Recensement Général des Enterprises. Principaux Resultats.</A><BR><A href=https://instatgabon.org/en/actualite/resultats-du-recensement-general-des-entreprises-rge-2023>Results of the General Business Census (RGE 2023)</A>"
+	  },
+	  {
+		"id":"45",
+		"countryid":"IND",
+		"iso2code":"IN",
+		"countryname":"India",
+		"year":"2017-2018",
+		"surveyname":"Periodic Labour Force Survey",
+		"surveyshortname":"PLFS",
+		"links":"<A href=https://mospi.gov.in/sites/default/files/publication_reports/Annual%20Report%2C%20PLFS%202017-18_31052019.pdf>Annual Report. Periodic Labour Force Survey (July 2017 - June 2018)</A><BR><A href=https://www.ncaer.org/wp-content/uploads/2022/09/An-Employment-Data-Strategy-for-India_Radhicka-Kapoor_India-Policy-Forum-2019-Vol-16-192-240.pdf>An Employment Data Strategy for India</A>"
+	  },
+	  {
+		"id":"46",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2023",
+		"surveyname":"Enquete sur les Marges de Commerce et de Transport",
+		"surveyshortname":"EMCT 2023",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/EMCT_2023_RAPPORT%20DEFINTIF%20D'ANALYSE.pdf>Enquete sur les Marges de Commerce et de Transport. Rapport D'Analyse. Principaux Resultats - Octobre.</A>"
+	  },
+	  {
+		"id":"47",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2017",
+		"surveyname":"Enquete Gabonaise pour le Suivi et L'Evaluation de la Pauvrete de 2017",
+		"surveyshortname":"EGEP II 2017",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/EGEP/RAPPORT_DE__SYNTHESE.pdf>Analyse des conditions de vie des ménages au Gabon en 2017.</A>"
+	  },
+	  {
+		"id":"48",
+		"countryid":"GAB",
+		"iso2code":"GA",
+		"countryname":"Gabon",
+		"year":"2020",
+		"surveyname":"Le Recensement Général de l'Agriculture",
+		"surveyshortname":"RGA 2020",
+		"links":"<A href=https://instatgabon.org/uploads/folder_1/RGA/VOLUME%20III_RAPPORT%20MODULE%20DE%20BASE_RGA_GABON_VF.pdf>Le Recensement Général de l'Agriculture et du Systeme Permanent Integre de Statistiques Agricoles.</A>"
+	  },
+	  {
+		"id":"49",
+		"countryid":"TNZ",
+		"iso2code":"TZ",
+		"countryname":"Tanzania",
+		"year":"2020-2021",
+		"surveyname":"Tanzania National Panel Survey (2020-2021)",
+		"surveyshortname":"NPS 2020/2021",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/5639/download/61262>Basic Information Document - Tanzania National Panel Survey (2020-2021).</A>"
+	  },
+	  {
+		"id":"50",
+		"countryid":"TNZ",
+		"iso2code":"TZ",
+		"countryname":"Tanzania",
+		"year":"2017-2018",
+		"surveyname":"Household Budget Survey (2017-2018)",
+		"surveyshortname":"HBS 2017/2018",
+		"links":"<A href=https://www.nbs.go.tz/nbs/takwimu/hbs/2017_18_HBS_Key_Indicators_Report_Engl.pdf>Tanzania Mainland. Key Indicators Report. 2017-18 Household Budget Survey.</A>"
+	  },
+	  {
+		"id":"51",
+		"countryid":"UGA",
+		"iso2code":"UG",
+		"countryname":"Uganda",
+		"year":"2019",
+		"surveyname":"Disability Situational Analysis Household Survey 2019",
+		"surveyshortname":"",
+		"links":"<A href=https://www.developmentpathways.co.uk/wp-content/uploads/2020/09/Webready-DP1294-ESP-Disability-Uganda-Sept-2020.pdf>Situational Analysis of Persons with Disabilities in Uganda</A>"
+	  },
+	  {
+		"id":"52",
+		"countryid":"SSD",
+		"iso2code":"SS",
+		"countryname":"South Sudan",
+		"year":"2019",
+		"surveyname":"Integrated Business Establishments Survey 2019",
+		"surveyshortname":"",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/3847/download/49506>Questionnaire</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/3847"
+	  },
+	  {
+		"id":"53",
+		"countryid":"SLE",
+		"iso2code":"SL",
+		"countryname":"Sierra Leone",
+		"year":"2023",
+		"surveyname":"World Bank Enterprise Survey 2023",
+		"surveyshortname":"WBES",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/6471/download/259858>Implementation Report</A>"
+	  },
+	  {
+		"id":"54",
+		"countryid":"LCA",
+		"iso2code":"LC",
+		"countryname":"St. Lucia",
+		"year":"2020",
+		"surveyname":"Labour Market Needs Assessment Survey 2020",
+		"surveyshortname":"LMNAS 2020",
+		"links":"<A href=https://stats.gov.lc/wp-content/uploads/2021/07/L.M.N.A.S-2020-Final.pdf>Saint Lucia Labour Market Needs Assessment Survey Report, 2020</A>"
+	  },
+	  {
+		"id":"55",
+		"countryid":"JAM",
+		"iso2code":"JM",
+		"countryname":"Jamaica",
+		"year":"2018",
+		"surveyname":"Jamaica Survey of Establishments 2018",
+		"surveyshortname":"JSE 2018",
+		"links":"<A href=https://wups.statinja.gov.jm/WUP/2018Ad%20Hoc_JSE%20Final%20Report.pdf_STATINJa.pdf>The Report on the Jamaica Survey of Establishments 2018</A>"
+	  },
+	  {
+		"id":"56",
+		"countryid":"MHL",
+		"iso2code":"MH",
+		"countryname":"Marshall Islands",
+		"year":"2019-2020",
+		"surveyname":"Republic of Marshall Islands Household Income and Expenditure Survey 2019/2020",
+		"surveyshortname":"HIES 2019/2020",
+		"links":"<A href=https://www.ilo.org/surveyLib/index.php/catalog/7942/download/51858>Poverty, Food Consumption, Labour and Household Income and Expenditure in the Marshall Islands. A compendium of Analyses of the 2019/20 Household Income and Expenditure Survey.</A><BR><A href=https://www.ilo.org/surveyLib/index.php/catalog/7942/download/49371>Questionnaire</A>"
+	  },
+	  {
+		"id":"57",
+		"countryid":"MHL",
+		"iso2code":"MH",
+		"countryname":"Marshall Islands",
+		"year":"2021",
+		"surveyname":"2021 Census on Population and Housing",
+		"surveyshortname":"PHC 2021",
+		"links":"<A href=https://rmihealth.org/media/attachments/2024/08/29/rmi-2021-census-final-1.pdf>Republic of the Marshall Islands 2021 Census on Population and Housing. Analytical Report.</A>"
+	  },
+	  {
+		"id":"58",
+		"countryid":"JAM",
+		"iso2code":"JM",
+		"countryname":"Jamaica",
+		"year":"2021",
+		"surveyname":"Labour Force Survey 2021",
+		"surveyshortname":"LFS 2021",
+		"links":"<A href=https://wups.statinja.gov.jm/WUP/2021Annual%20Publications_The%20Jamaica%20Labour%20Force%20Survey%202021%20Annual%20Review.pdf_STATINJa.pdf>The Jamaica Labour Force Survey. 2021. Annual Review</A>"
+	  },
+	  {
+		"id":"59",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2019",
+		"surveyname":"Samoa Agriculture Census 2019",
+		"surveyshortname":"",
+		"links":"<A href=https://www.sbs.gov.ws/images/sbs-documents/Economics/SAMOA-AGRICULTURE-CENSUS/SAMOA_AGRICULTURE_CENSUS_2019.pdf>Samoa Agriculture Census 2019.</A><BR><A href=https://www.fao.org/fileadmin/templates/ess/ess_test_folder/World_Census_Agriculture/WCA_2020/WCA_2020_new_doc/WSM_QUE_ENG_2019.pdf>Questionnaire.</A>"
+	  },
+	  {
+		"id":"60",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2023",
+		"surveyname":"Household Income and Expenditure Survey",
+		"surveyshortname":"HIES 2023",
+		"links":"<A href=https://www.sbs.gov.ws/documents/economics/hies2023/Samoa_2023_HIES_Report.pdf>Samoa 2023 Household Income and Expenditure Survey Report.</A>"
+	  },
+	  {
+		"id":"61",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2017",
+		"surveyname":"Labour Force Survey",
+		"surveyshortname":"LFS 2017",
+		"links":"<A href=https://sbs.gov.ws/digi/2017-Social-Statistics-Samoa-LFS-Report-2017.pdf>Samoa Labour Force Survey 2017.</A>"
+	  },
+	  {
+		"id":"62",
+		"countryid":"WSM",
+		"iso2code":"WS",
+		"countryname":"Samoa",
+		"year":"2022",
+		"surveyname":"Samoa Labour Force and Child Labour Survey 2022",
+		"surveyshortname":"SLFCLS 2022",
+		"links":"<A href=https://www.sbs.gov.ws/documents/social/LFS/2022_SLFCLS_Report.pdf>Samoa Labour Force and Child Labour Survey 2022.</A>"
+	  },
+	  {
+		"id":"63",
+		"countryid":"TTO",
+		"iso2code":"TT",
+		"countryname":"Trinidad and Tobago",
+		"year":"2021",
+		"surveyname":"The National Digital Inclusion Survey 2021",
+		"surveyshortname":"DIS 2021",
+		"links":"<A href=https://cso.gov.tt/wp-content/uploads/2022/06/National-Digital-Inclusion-Survey-DIS-2021-Final-Report.pdf>National Digital Inclusion Survey 2021. Accelerating Digital Transformation.</A>"
+	  },
+	  {
+		"id":"64",
+		"countryid":"TTO",
+		"iso2code":"TT",
+		"countryname":"Trinidad and Tobago",
+		"year":"2019",
+		"surveyname":"FAO Socio-Economic Survey ",
+		"surveyshortname":"",
+		"links":"<A href=https://cso.gov.tt/stat_publications/socioeconomic-study-related-to-protected-areas-in-trinidad-and-tobago/>Report on the Socio-Economic Study related to Protected Areas in Trinidad and Tobago</A>"
+	  },
+	  {
+		"id":"65",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2018-2019",
+		"surveyname":"Economic Census of Bhutan",
+		"surveyshortname":"",
+		"links":"<A href=https://documents1.worldbank.org/curated/en/394101596187232452/pdf/Economic-Census-of-Bhutan-2018-2019.pdf>Economic Census of Bhutan 2018-2019</A>"
+	  },
+	  {
+		"id":"66",
+		"countryid":"MWI",
+		"iso2code":"MW",
+		"countryname":"Malawi",
+		"year":"2019-2020",
+		"surveyname":"Fifth Integrated Household Survey 2019-2020",
+		"surveyshortname":"IHS5",
+		"links":"<A href=https://www.nsomalawi.mw/images/stories/data_on_line/economics/ihs/IHS5/IHS5_Final_Report.pdf>The Fifth Integrated Household Survey (IHS5) 2020 Report</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/3818/related-materials"
+	  },
+	  {
+		"id":"67",
+		"countryid":"ZAF",
+		"iso2code":"ZA",
+		"countryname":"South Africa",
+		"year":"2016",
+		"surveyname":"Community Survey",
+		"surveyshortname":"CS 2016",
+		"links":"<A href=https://www.statssa.gov.za/publications/03-01-04/03-01-042016.pdf>Community Survey 2016. Data Quality Report.</A>"
+	  },
+	  {
+		"id":"68",
+		"countryid":"ZMB",
+		"iso2code":"ZM",
+		"countryname":"Zambia",
+		"year":"2023",
+		"surveyname":"2023 National Energy Access Survey",
+		"surveyshortname":"NEAS 2023",
+		"links":"<A href=https://www.rea.org.zm/wp-content/uploads/2025/01/National-Energy-Access-Survey-NEAS-Report.pdf>2023 National Energy Access Survey</A>"
+	  },
+	  {
+		"id":"69",
+		"countryid":"ZAF",
+		"iso2code":"ZA",
+		"countryname":"South Africa",
+		"year":"2021-2022",
+		"surveyname":"Governance, Public Safety, and Justice Survey",
+		"surveyshortname":"GPSJS 2021/2022",
+		"links":"<A href=https://www.statssa.gov.za/publications/P0341/P03412022.pdf>Governance, Public Safety, and Justice Survey. GPSJS 2021/2022</A>",
+		"microdatalink":"https://catalog.ihsn.org/catalog/11249/"
+		
+	  },
+	  {
+		"id":"70",
+		"countryid":"KWT",
+		"iso2code":"KW",
+		"countryname":"Kuwait",
+		"year":"2014",
+		"surveyname":"Labor Force Survey",
+		"surveyshortname":"LFS 2014",
+		"links":"<A href=https://iaos-isi.org/wp-content/uploads/2023/03/Mona_Al_daas_paper.pdf>Labor Statistics for evidence-based policies.</A>"
+	  },
+	  {
+		"id":"71",
+		"countryid":"SLB",
+		"iso2code":"SB",
+		"countryname":"Solomon Islands",
+		"year":"2024-2025",
+		"surveyname":"Household Income and Expenditure Survey",
+		"surveyshortname":"HIES 2024/2025",
+		"links":"<A href=https://statistics.gov.sb/sinso-successfully-concludes-hies-pilot-test/>SINSO successfully concludes HIES Pilot Test</A><BR><A href=https://solomons.gov.sb/sinso-meets-with-capi-trainer-for-hies-2024-2025-project/>SINSO meets with CAPI Trainer for HIES 2024-2025 Project</A>"
+	  },
+	  {
+		"id":"72",
+		"countryid":"SLB",
+		"iso2code":"SB",
+		"countryname":"Solomon Islands",
+		"year":"2020",
+		"surveyname":"High Frequency Phone Survey, 2020",
+		"surveyshortname":"",
+		"links":"<A href=https://microdata.fao.org/index.php/catalog/1764/pdf-documentation>Solomon Islands - High Frequency Phone Survey, 2020</A>"
+	  },
+	  {
+		"id":"73",
+		"countryid":"ETH",
+		"iso2code":"ET",
+		"countryname":"Ethiopia",
+		"year":"2018-2019",
+		"surveyname":"2018-19 Ethiopian Socioeconomic Survey - Wave 4",
+		"surveyshortname":"ESS 2018/19",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/3823/related-materials>Documentation: Questionnaires, Reports, Technical Documents</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/3823"
+		
+	  },
+	  {
+		"id":"74",
+		"countryid":"IDN",
+		"iso2code":"ID",
+		"countryname":"Indonesia",
+		"year":"2023-2024",
+		"surveyname":"Informal Sector Enterprise Survey 2023",
+		"surveyshortname":"ISES 2023",
+		"links":"<A href=https://microdata.worldbank.org/index.php/catalog/6480/download/259884>Questionnaire</A><A href=https://microdata.worldbank.org/index.php/catalog/6480/download/259885>The Informal Sector Enterprise Surveys in Cities in Indonesia 2023,Implementation Report</A>",
+		"microdatalink":"https://microdata.worldbank.org/index.php/catalog/6480"
+	  },
+	  {
+		"id":"75",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"National Intergrity Assessment 2022",
+		"surveyshortname":"NIA 2022",
+		"links":"<A href=https://www.acc.org.bt/wp-content/uploads/2023/07/NIA_2022.pdf>National Integrity Assessment 2022</A>"
+	  },
+	  {
+		"id":"76",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"Establishment Survey 2022",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/NHRD-Advisory-2022.pdf>National HRD Advisory. Establishment Survey and Employee Survey Report</A>"
+	  },
+	  {
+		"id":"77",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2023",
+		"surveyname":"Establishment Survey 2022",
+		"surveyshortname":"",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/NHRD-Advisory-2022.pdf>National HRD Advisory. Establishment Survey and Employee Survey Report</A>"
+	  },
+	  {
+		"id":"78",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2023",
+		"surveyname":"Integrated Agriculture and Livestock Census of Bhutan 2023",
+		"surveyshortname":"IALC-2023",
+		"links":"<A href=https://www.moice.gov.bt/wp-content/uploads/2022/09/NHRD-Advisory-2022.pdf>Integrated Agriculture and Livestock Census of Bhutan, 2023</A>"
+	  },
+	  {
+		"id":"79",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2022",
+		"surveyname":"Integrated Agriculture and Livestock Census of Bhutan 2022",
+		"surveyshortname":"IALC-2022",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2023/05/Report-re-for-web.pdf>Integrated Agriculture and Livestock Census of Bhutan, 2022</A>"
+	  },
+	  {
+		"id":"80",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2021",
+		"surveyname":"Livestock Census of Bhutan 2021",
+		"surveyshortname":"LC-2021",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2022/05/LC-2021-Book-for-WEB.pdf>Livestock Census 2021</A>"
+	  },
+	  {
+		"id":"81",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2021",
+		"surveyname":"Agriculture Survey of Bhutan 2021",
+		"surveyshortname":"AS 2021",
+		"links":"<A href=https://www.nsb.gov.bt/wp-content/uploads/dlm_uploads/2022/06/ASR2021-Book-for-WEB.pdf>2021 Agriculture Survey Report</A>"
+	  },
+	  {
+		"id":"82",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2020",
+		"surveyname":"Agriculture Survey of Bhutan 2020",
+		"surveyshortname":"AS 2020",
+		"links":"<A href=https://www.nsb.gov.bt/download/9281/>Agriculture Statistics 2020</A>(includes Survey Solutions questionnaire as PDF)."
+	  },
+	  {
+		"id":"83",
+		"countryid":"BTN",
+		"iso2code":"BT",
+		"countryname":"Bhutan",
+		"year":"2019",
+		"surveyname":"Domestic and Outbound Tourism Survey 2019",
+		"surveyshortname":"DOTS 2019",
+		"links":"<A href=https://www.tourism.gov.bt/uploads/attachment_files/tcb_NSwj_DOTS%202019.pdf>Domestic and Outbound Tourism Survey 2019</A>."
+	  }
+	  
+	]
+}
