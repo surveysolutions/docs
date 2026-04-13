@@ -1,50 +1,41 @@
 ﻿+++
 title = "Distributing Assignments to Interviewers"
-keywords = ["assign case ","supervisor"]
+keywords = ["assign case ","supervisor","designate responsible"]
 date = 2016-06-28T16:59:07Z
-lastmod = 2016-06-28T16:59:07Z
-aliases = ["/customer/portal/articles/2479498-distributing-assignments-to-interviewers","/customer/en/portal/articles/2479498-distributing-assignments-to-interviewers","/customer/portal/articles/2479498","/customer/en/portal/articles/2479498","/getting-started/distributing-assignments-to-interviewers"]
+lastmod = 2026-04-13T00:00:00Z
+aliases = ["/customer/portal/articles/2479498-distributing-assignments-to-interviewers","/customer/en/portal/articles/2479498-distributing-assignments-to-interviewers","/customer/portal/articles/2479498","/customer/en/portal/articles/2479498","/getting-started/distributing-assignments-to-interviewers","/supervisor/distribute-an-assignment/"]
 
 +++
 
-Step 1
-------
 
-  
-Log in to your server using a supervisor account. If you are testing
-Survey Solutions, log in at demo.mysurvey.solutions using a supervisor
-account.   
-  
-  
-{{< imgproc "images/774335.png" Fit "800x600" />}}  
- 
+To distribute assignments to interviewers the supervisor (or HQ/administrator)
+user can follow these steps:
 
-Step 2
-------
+1. In the main menu select `Survey setup` --> `Assignments`. The list of
+assignments can be filtered by questionnaire template, version, person
+responsible, and/or archived status. Here it is also possible to filter
+by whether the assignment has been already received on a mobile device (tablet).
+2. From the list of assignments, select the assignments that need to be assigned
+to another responsible and click the `ASSIGN` button that appears.
+3. Select the account of the new responsible in the dropdown, and optionally
+write any comment to this assignment transaction. To confirm the selection,
+click the `ASSIGN` button.
 
-  
-Once the supervisor’s dashboard has loaded, select the *Assignments*
-tab.  
-  
-{{< imgproc "images/795957.png" Fit "800x600" />}}  
-  
-The list of assignments can be filtered by questionnaire template,
-person responsible, and/or archived status.  
-  
-{{< imgproc "images/795959.png" Fit "800x600" />}}  
-  
-From the list of assignments, the supervisor the supervisor should
-select the assignments that they would like to assign to one of their
-enumerators.  
-  
-{{< imgproc "images/795979.png" Fit "800x600" />}}  
-  
-From the pop-up window, the supervisor should select the enumerator that
-will be given the assignment. To confirm the selection, click on
-the *Assign* button.   
-  
-{{< imgproc "images/795961.png" Fit "800x600" />}}  
-  
-That selected enumerator will now be responsible for these assignments,
-and they will appear enumerator's Interviewer dashboard after the tablet
-is next synchronized.
+That selected account will now be responsible for these assignments.
+
+**Role‑based behavior**
+- HQ or Administrator users:
+The dropdown list in step 3 includes all headquarters users, supervisors, and
+interviewers in the workspace.
+- Supervisors:
+The dropdown list includes only the interviewers in their team and their own account.
+
+**Additional notes**
+
+If the new responsible is working on a mobile device, he or she will receive
+these assignments at the next synchronization.
+
+Reassigning an assignment from an interviewer back to the supervisor removes
+it from the interviewer's tablet at the next synchronization.
+
+<IMG src="images/assign.png">
