@@ -3,7 +3,7 @@ title = "Token-based authentication"
 
 keywords = ["account", "security", "token", "API"]
 date = 2022-02-09T00:00:00Z
-lastmod = 2022-02-09T00:00:00Z
+lastmod = 2026-04-13T00:00:00Z
 
 +++
 
@@ -19,7 +19,7 @@ Enabled=true
 SecretKey=[..............]
 ```
 
-For the `SecretKey` specify any alphanumeric key of at least 16 digits/characters long. Save the settings file and restart the server.
+For the `SecretKey` specify any alphanumeric key of at least 32 digits/characters long. Save the settings file and restart the server.
 
 
 ## Activation of the token-based authentication for an account
@@ -33,7 +33,7 @@ After the restart it will be possible to enable token-based authentication for a
 </CENTER>
 
 
-Once the ENABLE button is pressed, the software will generate a new token for this account and display it:
+Once the `ENABLE` button is pressed, the software will generate a new token for this account and display it:
 
 <CENTER>
   <A href="images/api_tokens.png">
@@ -50,7 +50,7 @@ To authenticate your queries, add the following to its HTTP-headers:
 ```
 “Authorization: Bearer TOKEN”
 ```
-For example, if using the Requests module in python, then write:
+For example, if using the [requests module in python](https://pypi.org/project/requests/), then write:
 ```
 requests.get('url', headers={'Authorization: 'Bearer YOURTOKENVALUE'})
 ```
