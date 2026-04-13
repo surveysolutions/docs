@@ -2,84 +2,70 @@
 title = "Creating Assignments One at Time"
 keywords = [""]
 date = 2017-06-29T21:45:21Z
-lastmod = 2017-06-29T21:45:21Z
+lastmod = 2026-04-13T00:00:00Z
 aliases = ["/customer/portal/articles/2832911-creating-assignments-one-at-time","/customer/en/portal/articles/2832911-creating-assignments-one-at-time","/customer/portal/articles/2832911","/customer/en/portal/articles/2832911","/getting-started/creating-assignments-one-at-time"]
 
 +++
 
-Step 1
-------
+New assignments can be created by users in the roles of *Headquarters* or
+*Administrator*.
 
-  
-Log in to your server using the *headquarters* username and password  
-  
-  
-{{< imgproc "images/732100.png" Fit "800x600" />}}  
-  
-  
-**Note that each institution using Survey Solutions will utilize their
-own server. Consequently, your username can differ from the one depicted
-above**.   
- 
+1. In the main menu, select `Survey setup` → `Questionnaires`.
+2. Click the specific questionnaire. Note that there may be several
+versions of the same questionnaire imported already. Survey Solutions allows
+creating new assignments based on any version of a questionnaire, though in
+most case the most recent version is the one expected to be utilized.
+3. In the menu that appears select `New assignment`.
+4. Populate any identifying fields (such as target address, enumeration area,
+etc). A particular questionnaire may have one, several, or no identifying
+fields depending on the author's preference. Keep in mind that any
+identifying fields prefilled at this step will be protected from being
+subsequently modified by interviewers/web respondents.
+5. Select responsible account.
 
- 
+The rest of the parameters here are optional:
 
-Step 2
-------
+6. Specify the requested number of interviews (default is 1). This number can
+be subsequently changed.
+7. Select the mode of an assignment (default is CAPI, but CAWI can be specified
+if needed). This mode can't be subsequently changed for an assignment, but
+interviews can be switched between the modes.
+8. Optionally specify the email and password to access the assignment and any
+interviews started from that assignment (CAWI mode only). Email and password
+can't be subsequently changed.
+9. Optionally select whether audio audit shall be activated for interviews
+started from this assignment (CAPI mode only). This parameter can be changed
+later.
+10. Optionally specify target area (shapefile name) (default is none). This
+parameter can be changed later.
+11. Optionally specify a comment for the new assignment (default is blank). A
+new comment can be specified at the change of the responsible (reassign).
 
-  
-Select the ***Survey Setup*** tab, and click on ***Questionnaires.***  
-  
-{{< imgproc "images/793728.png" Fit "800x600" />}}
+12. Click `CREATE` to create a new assignment.
 
-Step 3
-------
+After a new assignment is created the user is redirected to the list of the
+assignments. If the new assignment does not appear at the top of the list, use
+filtering, search, and sorting capabilities here to locate it if needed.
 
-  
-Create the new assignment for your questionnaire.  
-   
-Click on the questionnaire template you want to create a new assignment
-for, and then click on *New Assignments*  from the pop-up menu.   
-  
-{{< imgproc "images/793730.png" Fit "800x600" />}}
+* **Filtering** - specify questionnaire title, version, and other assignment
+attributes to shorten the list.
 
-Step 4
-------
+* **Search** - use the search field to specify particular identifying information.
+The assignments list is shortened to show only the assignments which contain the
+entered values.
 
-  
-Fill out as many identifying fields as you would like. **You do not need
-to fill out all the identifying fields.** Interviewers will be able to
-fill out any identifying fields left blank so you may want to leave
-identifying field blank if you think the Interviewer would be able to
-more accurately fill out that information.  
- 
+* **Sorting** - click the column headers to sort assignments by values of that
+column or toggle the direction (increasing/decreasing).
 
-Step 6
-------
 
-Specify the quantity for the assignment. The quantity is the maximum
-number of interviews that can be generated for that assignment. For
-example, if you want your interviewer to perform 5 interviews for the
-assignment, you would put '5' in the *Quantity* field. To specify an
-unlimited number of interviews for that assignment (previously known as
-census mode), leave the *Quantity* field empty. The quantity can be
-changed later if you want to increase or decrease the number of
-interviews.  
- 
+Note that you cannot specify values for any questions other than *identifying*
+in this method of creating assignments. If you need to specify answers to
+*hidden*, *supervisor*'s, or *interviewer*'s questions, use the functionality
+to upload assignments.
 
-Step 7
-------
 
-Specify who will be responsible for the assignment. Select the
-supervisor or interviewer that will be responsible for the assignment.
-The field allows you to search for the supervisor or interviewer by
-their username.  
-{{< imgproc "images/793731.png" Fit "800x600" />}}
+**See also**
 
-Step 8
-------
+[Uploading Many Assignments at a time](/headquarters/preloading/uploading-many-assignments-at-a-time/)
 
-Click on the blue ***Create*** button to generate the assignment. After
-creating the assignment, you will be taken to the Assignments dashboard
-where you will see your newly generated assignment at the top of the
-list.
+[Web interviewing -> make web assignments](/headquarters/cawi/web-interviewing/#3-make-web-assignments)
