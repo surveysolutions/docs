@@ -26,7 +26,7 @@ can use in your instrument:
 The following table shows the arithmetic operators supported by Survey
 Solutions. Arithmetic expressions are evaluated from left to right. For
 the example, ***assume A = 20 and B = 10***  
-  
+
  
 
 <table class="table">
@@ -41,7 +41,7 @@ the example, ***assume A = 20 and B = 10***
 <tr class="odd">
 <td>+</td>
 <td>Addition: returns the sum</td>
-<td><span style="font-family:courier new,courier,monospace;">A + B</span> = 35</td>
+<td><span style="font-family:courier new,courier,monospace;">A + B</span> = 30</td>
 </tr>
 <tr class="even">
 <td>-</td>
@@ -56,29 +56,29 @@ the example, ***assume A = 20 and B = 10***
 <tr class="even">
 <td>/</td>
 <td>Division: returns the quotient</td>
-<td><span style="font-family:courier new,courier,monospace;">B / A</span> = 2</td>
+<td><span style="font-family:courier new,courier,monospace;">A / B</span> = 2</td>
 </tr>
 <tr class="odd">
 <td>%</td>
-<td>Modulus: returns the remainder after an integer division</td>
-<td><span style="font-family:courier new,courier,monospace;">B % A</span> = 0<br />
+<td>Modulo: returns the remainder after an integer division</td>
+<td><span style="font-family:courier new,courier,monospace;">A % B</span> = 0<br />
 (The remainder of 20 divided by 10 is 0)</td>
 </tr>
 </tbody>
 </table>
 
-  
+
  
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
  
 
  <span id="relational"></span>Relational Operators 
@@ -135,23 +135,23 @@ Solutions:
 </tbody>
 </table>
 
-  
+
  
 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
    
-  
+
  
 
-  
-  
+
+
  
 
  
@@ -161,10 +161,10 @@ Solutions:
 
  
 
-  
+
 Logical values returns either **TRUE** or **FALSE**. The following
 tables show the logical operators supported by Survey Solutions:   
-  
+
  
 
 <table class="table">
@@ -200,20 +200,20 @@ A || B returns true if <em>either</em> expression A or expression B is true</t
 </tbody>
 </table>
 
-  
+
  
 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
    
-  
-  
+
+
  
 
  
@@ -227,23 +227,29 @@ A || B returns true if <em>either</em> expression A or expression B is true</t
 
 These are other operators that you might want to use in your Survey
 Solutions instrument.  
-  
+
  
 
 <table class="table">
 <thead>
 <tr class="header">
-<th><strong>Operator</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Example</strong></th>
+<th width=10%><strong>Operator</strong></th>
+<th width=50%><strong>Description</strong></th>
+<th width=40%><strong>Example</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>?:</td>
-<td>Conditional Expression/ The condition must evaluate to true or false. If condition is true, the <em>first expression</em> is evaluated and becomes the result. If condition is false, the <em>second expression </em>is evaluated and becomes the result. Only one of the two expressions is evaluated.</td>
-<td><span style="font-family:courier new,courier,monospace;">(10 &lt; 2)? a:b</span> will return b<br />
-<span style="font-family:courier new,courier,monospace;">(10 &gt; 2)? a:b</span> will return a</td>
+<td>Conditional operator. The condition must evaluate to true or false. If condition is true, the <em>first expression</em> is evaluated and becomes the result. If condition is false, the <em>second expression </em>is evaluated and becomes the result. Only one of the two expressions is evaluated.</td>
+<td><span style="font-family:courier new,courier,monospace;">(10 &gt; 2)? a:b</span> will return a<br />
+<span style="font-family:courier new,courier,monospace;">(10 &lt; 2)? a:b</span> will return b</td>
+</tr>
+<tr class="even">
+<td>??</td>
+<td>Null-coalescing operator: returns the left operand if it isn't null, otherwise the right operand.</td>
+<td><span style="font-family:courier new,courier,monospace;">5??42</span> will return 5<br />
+<span style="font-family:courier new,courier,monospace;">null??42</span> will return 42</td>
 </tr>
 </tbody>
 </table>
