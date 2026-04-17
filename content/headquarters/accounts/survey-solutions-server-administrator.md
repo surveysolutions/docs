@@ -1,8 +1,8 @@
 ﻿+++
-title = "Survey Solutions Server Administrator"
+title = "Administrator Role"
 keywords = [""]
 date = 2017-10-06T15:14:22Z
-lastmod = 2023-05-17T00:00:00Z
+lastmod = 2026-04-17T00:00:00Z
 aliases = [
 "/customer/portal/articles/2885558-survey-solutions-server-administrator",
 "/customer/en/portal/articles/2885558-survey-solutions-server-administrator",
@@ -26,16 +26,18 @@ aliases = [
 
 +++
 
-Every Survey Solutions server has an administrator. This is the first user
-account created after Survey Solutions is installed, typically by the same
-person who performed the installation.
+Every Survey Solutions server has a user in the **administrator** role. This is
+the first user account created after Survey Solutions is installed, typically
+by the same person who performed the installation. Additional administrator
+accounts can be created later by utilizing the
+[support tool](/headquarters/config/support-tool/).
 
 {{< panel title="" style="warning">}}
 <BR>
 Administrator is a privileged account and can do important actions which
 may result in damage to data. Assign a responsible and informed person
-as an administrator! We recommend that the administrator has attended a comprehensive
-Survey Solutions training.
+as an administrator! We recommend that the administrator has attended a
+comprehensive Survey Solutions training.
 {{% /panel %}}
 
 An administrator can do (almost) everything an HQ user can do plus some
@@ -109,7 +111,8 @@ following procedures:
      tasks that can't be performed by HQs.
   1. Collect and analyze user problem reports. Attempt to address them to
       the extent possible. Refer the users to the corresponding sections
-      of the manuals and for non-described situations to the [Survey Solutions users' forum](https://forum.mysurvey.solutions).
+      of the manuals and for non-described situations to the
+      [Survey Solutions users' forum](https://forum.mysurvey.solutions).
   1. Preserve the copies of the uploaded sample files and split-key
       files.
   1. Periodically download, back up, and securely store the export data.
@@ -125,7 +128,9 @@ following procedures:
 <details>
   <summary>Actions after the end of the survey</summary>
 
-  At the end of your survey you need to secure the collected data, to avoid it being irreversibly lost. You may need to repeat the following actions for every workspace (if there are multiple workspaces set up on the server).
+  At the end of your survey you need to secure the collected data, to avoid it
+  being irreversibly lost. You may need to repeat the following actions for
+  every workspace (if there are multiple workspaces set up on the server).
 
   1. Instruct the interviewers to stop conducting interviews, mark them
       as completed.
@@ -140,8 +145,7 @@ following procedures:
       use.
   1. Repeat for every version of the questionnaire (if the questionnaire
      was ever updated on the server).
-  1. Repeat for other statuses (approved by headquarter, etc) as
-      necessary.
+  1. Repeat for other statuses (approved by headquarter, etc) as necessary.
   1. If you collected any multimedia data (images, audio,..) you need to
       download the binary files too. This can often be a lengthy download.
   1. Count the files and make sure you have downloaded all of them.
@@ -152,7 +156,7 @@ following procedures:
      in the downloaded data.
   1. Store your downloads on a secure media
   1. Immediately make a secondary backup copy of the downloads,
-      preferably on a non-eraseable media (CD/DVD).
+      preferably on a non-erasable media (CD/DVD).
   1. Clearly mark each backup copy. Indicate the user who created the
       backup, date, survey name, and other information. If you are
       uploading your backup to the file storage create an accompanying

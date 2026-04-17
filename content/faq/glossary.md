@@ -2,6 +2,7 @@
 title = "Glossary"
 keywords = [""]
 date = 2021-06-10T00:00:00Z
+lastmod = 2026-04-17T00:00:00Z
 +++
 
 
@@ -57,7 +58,8 @@ An error reported by the [Designer](#designer) while compiling a
 [questionnaire](#questionnaire). [Questionnaires](#questionnaire) containing
 compilation errors may not be imported to a [data server](#data-server) and
 the errors need to be fixed before a survey based on such a
-[questionnaire](#questionnaire) may start.
+[questionnaire](#questionnaire) may start. Read more in
+[Compile errors](/questionnaire-designer/messages/compile_errors/).
 
 #### Data server
 A server that stores the data and hosts the Survey Solutions server component
@@ -79,7 +81,8 @@ An online service providing the capability to send large number of emails.
 An interview flow control technique in which questions in an
 [interview](#interview) are shown to the interviewer/respondent
 ("*asked*") or not shown ("*skipped*") depending on the answers
-to earlier questions, preloaded information, [calculated results](#calculated-variable), etc.
+to earlier questions, preloaded information,
+[calculated results](#calculated-variable), etc.
 
 #### Interview
 An electronic record of answers and comments to the questionnaire questions
@@ -121,7 +124,8 @@ responses. Cf. [paradata](#paradata), [survey data](#survey-data).
 #### Multilingual questionnaire
 A [questionnaire](#questionnaire) that contains embedded translations of
 questions, options and other text into 2 or more languages, and can be
-switched between them during the interviewing process.
+switched between them during the interviewing process. Read more in
+[multilingual questionnaires](questionnaire-designer/toolbar/multilingual-questionnaires/).
 
 #### Paradata
 A downloadable data file containing information on the progress of
@@ -157,14 +161,8 @@ certain [user](#user). For example, HQ users may upload a
 [sample file](#sample-file), or export the [survey data](#survey-data), but
 can't modify individual answers or complete [interviews](#interview).
 
-In Survey Solutions the roles are the following:
-* Administrator,
-* Headquarters,
-* Observer,
-* Supervisor,
-* Interviewer,
-* Designer, and Tester.
-* API user.
+Survey Solutions user roles are described in
+[user roles](/headquarters/accounts/account-types).
 
 #### Roster
 A special kind of [subsection](#subsection), which repeats its questions
