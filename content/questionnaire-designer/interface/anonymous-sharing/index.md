@@ -16,12 +16,20 @@ When the team consists of a fixed number of known individuals such collaboration
 
 These situations are not unique to Survey Solutions and in some part or another apply to most systems that store documents online. We realize that besides the core group that develops the document there is a larger group of people who may need to be accessing that electronic document, but who are less identifiable. A popular solution adopted by many cloud-based storage systems is link-sharing, where the document is not shared with a specific user, but rather a unique link is generated, and any person having this link may access the document via that link.
 
-With the [release v22.06](/release-notes/version-22-06/) of the Survey Solutions this feature is also be available to the authors of the questionnaires in Survey Solutions Designer. Here is what it allows:
+Since [v22.06](/release-notes/version-22-06/) of Survey Solutions this feature is also available to the authors of the questionnaires in Survey Solutions Designer. Here is what it allows:
 
-- Anonymous share can be activated/deactivated by the questionnaire owner only (in the collaborators dialog now called `Access` dialog).
+- Anonymous share can be activated/deactivated by the questionnaire owner only (in the [questionnaire settings](/questionnaire-designer/interface/settings/) dialog's `Access` tab).
 - Generate a web-link to open questionnaire in Designer in read-only mode.
 - Authenticated users with an anonymous share link can create own copy of the questionnaire; creating a copy requires the user to login to be designated an owner of that copy.
 - When anonymous link sharing is activated, the owner receives a sharing notification email from the Designer, that can be edited/forwarded to other recipients to access the questionnaire.
+
+<CENTER>
+<div style="display: flex; align-items: flex-start; justify-content: center; ">
+  <img src="images/anonymous_link.png" width=45%  alt="Anonymous sharing inactive">
+  <img src="images/white_spacer.png" width=6%  alt="spacer">
+  <img src="images/anonymous_link_ready.png" width=45% alt="Anonymous sharing activated">
+</div>
+</CENTER>
 
 Users accessing a questionnaire anonymously are able to do the following:
 
@@ -39,13 +47,15 @@ Users accessing a questionnaire anonymously are **not able** to do the following
 - import the questionnaire to the data server to start a new survey.
 
 New functionality has also been introduced into the Tester App for Android tablets to facilitate testing and feedback of the questionnaires without requiring the owner to share it with a particular account:
-- Tester App may be utilized without logging in if the user wants to test the questionnaire with an anonymous link. This link can be entered manually, copied from clipboard or scanned as a QR-code.
+- Tester App may be utilized without logging in if the user wants to test a questionnaire with an anonymous link. This link can be entered manually, copied from clipboard or scanned as a QR-code.
 - The Tester App remembers the recently entered questionnaire links and allows reloading them without having to reenter them.
 - As a matter of fact the tester will allow you to enter the QR-code of any questionnaire (even not shared anonymously) if you have it. So if you are having hundreds of questionnaires that you work on it might be easier to scan the QR-code with the Tester App to open the questionnaire in the Tester, than to search for that title in the long list.
 
 Here is an example QR-code that can be scanned with a Tester App to open a demo questionnaire and doesn't require the user to have an account with Survey Solutions.
 
-<IMG src="images/e86165ec21e8461cae25a19bae6750c0.png">
+<CENTER>
+  <IMG src="images/e86165ec21e8461cae25a19bae6750c0.png">
+</CENTER>
 
 ### Security
 
