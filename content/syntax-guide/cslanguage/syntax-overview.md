@@ -2,7 +2,7 @@
 title = "Syntax overview"
 keywords = ["syntax", "expressions", "logic", "control"]
 date = 2026-04-02T06:00:00Z
-lastmod = 2026-04-02T06:00:00Z
+lastmod = 2026-04-20T00:00:00Z
 +++
 
 The behavior of a questionnaire in Survey Solutions is controlled by the author by specifying conditions that determine the flow of questions, available options, acceptable answers, and other elements.
@@ -26,7 +26,7 @@ The synchronization of data between devices, aggregation of data on the server, 
 <TR>
   <TH>Validation condition</TH>
   <TD>To indicate an error or a warning</TD>
-  <TD>Part of validation rules that are applicable to questions and static text.<BR><BR>If the logical expression evaluates to <TT><B>true</B></TT> or is not specified at all, the answer is considered acceptable and no message is shown. If the result of the expression evaluation is <TT><B>false</B></TT> or an exception* occurs during this expression evaluation, the corresponding error message is shown to the user (which can be an error or a [warning](/questionnaire-designer/questions/validation-warnings/)).</TD>
+  <TD>Part of validation rules that are applicable to questions and static text.<BR><BR>If the logical expression evaluates to <TT><B>true</B></TT> or is not specified at all, the answer is considered acceptable and no message is shown. If the result of the expression evaluation is <TT><B>false</B></TT> or an exception* occurs during this expression evaluation, the corresponding error message is shown to the user (which can be an error or a <A href="/questionnaire-designer/questions/validation-warnings/">warning</A>).</TD>
 </TR>
 
 <TR>
