@@ -2,7 +2,7 @@
 title = "Data types"
 keywords = ["data types","syntax","object model"]
 date = 2016-08-09T21:16:08Z
-lastmod = 2026-01-20T00:00:00Z
+lastmod = 2026-04-23T00:00:00Z
 aliases = ["/customer/portal/articles/2531232-data-types","/customer/en/portal/articles/2531232-data-types","/customer/portal/articles/2531232","/customer/en/portal/articles/2531232","/syntax-guide/data-types"]
 
 +++
@@ -84,7 +84,7 @@ Questions
 </tr>
 <tr class="odd">
 <td>Numeric (integer)</td>
-<td><a href="https://msdn.microsoft.com/en-us/library/ctetwysk.aspx">long</a>?</td>
+<td><a href="https://msdn.microsoft.com/en-us/library/ctetwysk.aspx">int</a>?</td>
 </tr>
 <tr class="even">
 <td>Date</td>
