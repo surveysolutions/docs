@@ -79,25 +79,25 @@ The API clients listed below provide convenient access to the API functionality 
   <TD><CENTER><A href="/headquarters/api/ps-module/">more</A></CENTER></TD>
 
 <TR>
-  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/48px-Python.svg.png" width=48><BR>Python package<BR>Maintained by: <I>Zurab Sajaia</I></CENTER></TD>
+  <TD><CENTER><IMG src="images/python-logo.png" width=48><BR>Python package<BR>Maintained by: <I>Zurab Sajaia</I></CENTER></TD>
   <TD><CENTER><A href="https://github.com/vavalomi/ssaw"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
   <TD><CENTER><A href="https://ssaw.readthedocs.io/">online documentation</A></CENTER></TD>
   <TD><CENTER><A href=""></A></CENTER></TD>
 
 <TR>
-  <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/310px-R_logo.svg.png" width=48><BR>R package<BR>Maintained by: <I>Michael Wild</I></CENTER></TD>
+  <TD><CENTER><IMG src="images/r-logo.png" width=48><BR>R package<BR>Maintained by: <I>Michael Wild</I></CENTER></TD>
     <TD><CENTER><A href="https://github.com/michael-cw/SurveySolutionsAPI"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
   <TD></TD>
   <TD><CENTER><A href="/headquarters/api/api-r-package/">more</A></CENTER></TD></TR>
 
   <TR>
-    <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/310px-R_logo.svg.png" width=48><BR>R package<BR>Maintained by: <I>Arthur Shaw</I></CENTER></TD>
+    <TD><CENTER><IMG src="images/r-logo.png" width=48><BR>R package<BR>Maintained by: <I>Arthur Shaw</I></CENTER></TD>
       <TD><CENTER><A href="https://github.com/arthur-shaw/susoapi"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
     <TD><CENTER><A href="https://arthur-shaw.github.io/susoapi/">online documentation</A></CENTER></TD>
     <TD></TD></TR>
 
   <TR>
-    <TD><CENTER><IMG src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/310px-R_logo.svg.png" width=48><BR>R package<BR>Maintained by: <I>Lena Nguyen</I></CENTER></TD>
+    <TD><CENTER><IMG src="images/r-logo.png" width=48><BR>R package<BR>Maintained by: <I>Lena Nguyen</I></CENTER></TD>
       <TD><CENTER><A href="https://github.com/l2nguyen/SuSoAPI"> <IMG src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" width=48><BR>Source code</A></CENTER></TD>
     <TD></TD>
     <TD><CENTER></CENTER></TD></TR>
