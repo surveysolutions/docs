@@ -2,7 +2,7 @@
 title = "Geography Question"
 keywords = [""]
 date = 2017-10-12T18:32:01Z
-lastmod = 2017-10-12T18:32:01Z
+lastmod = 2026-05-17T00:00:00Z
 aliases = ["/customer/portal/articles/2888303-geography-question","/customer/en/portal/articles/2888303-geography-question","/customer/portal/articles/2888303","/customer/en/portal/articles/2888303","/questionnaire-designer/geography-question"]
 
 +++
@@ -289,23 +289,4 @@ clicking the `SHOW COORDINATES` link.
 
 ### EXPORT
 
-Data recorded in the geography-type question *Q* is exported in the data file
-into multiple columns:
-
-- `Q` - sequence of coordinates of each recorded point in the string format
-"*lg,lt;lg,lt;....;lg,lt*", where *lg* is the longitude and *lt* is the
-latitude of each point, a decimal dot is always used for fractional values;
-- `Q__area` - calculated area (in square meters) of the selected polygon or a
-0 (zero value) if the geometry type is anything different from `polygon`;
-- `Q__len` - length (in meters) of the selected polygon or polyline, or a
-0 (zero value) if the geometry type is anything different from `polygon` or
-`polyline`;
-- `Q__num` - number of recorded points;
-- `Q__racc` - requested accuracy (in meters) effective at the time when the
-question was answered if the input method for Q was `automatic` or `semi-automatic`, otherwise a system missing value;
-- `Q__rfrq` - requested frequency (in seconds) effective at the time when
-the question was answered or a system missing if the input method is not
-`automatic`.
-
-Please note that if the question was not answered, then **all of the above fields**
-will take values mentioned as *'reserved values'* in the [Missing values](/headquarters/export/missing-values/) article.
+See [Geography Export Format](/headquarters/export/geography-export-format/).
