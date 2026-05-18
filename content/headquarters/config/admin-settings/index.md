@@ -2,7 +2,7 @@
 title = "Workspace Settings"
 keywords = ["admin","logo","encryption","accounts"]
 date = 2017-01-09T22:11:21Z
-lastmod = 2025-04-13T11:11:11Z
+lastmod = 2026-05-13T00:00:00Z
 aliases = [
   "/customer/portal/articles/2707388-admin-settings",
   "/customer/en/portal/articles/2707388-admin-settings",
@@ -90,6 +90,22 @@ files will be cleaned up at server's discretion, (usually within the next 24
 hours), and periodically after that for as long as the retention policy remains
 activated.
 
+
+### Geography export format
+
+Select between these options to set the export format for geography type questions
+
+**Default is WKT format**
+
+- WKT (Well-Known Text);
+- GeoJSON;
+- Survey Solutions Geometry String.
+
+This setting has an immediate effect on the new export jobs and does not affect export jobs in the queue (regardless of whether that job is already completed or is still incomplete).
+
+More information is available in the [Geography Export Format](/headquarters/export/geography-export-format/) article.
+
+
 ### Clear export cache
 
 This group doesn't have any settings, but only a button to `CLEAR EXPORT CACHE`.
@@ -104,7 +120,7 @@ supplementary data structures.) The next export job submitted after clearing
 export cache will take substantially longer time to be processed.
 
 
-### Global Note
+## Global Note
 
 This group of settings contains only one setting that controls the server global
 note. When specified, the global note will be shown at every page for every user
@@ -119,7 +135,7 @@ logged into the Survey Solutions Server.
 You will see a message `Note saved` on successful update or deletion of the
 global note.
 
-### User Profile Settings
+## User Profile Settings
 
 This group contains a single setting that controls whether the interviewers may
 update their contact information.
@@ -133,6 +149,8 @@ By default the interviewers may not update their contact information (such as
   to checked state.
 - To disallow interviewers to update their contact information - set the
   checkbox to unchecked state.
+
+## Devices
 
 ### Interviewer/Supervisor application settings
 
@@ -230,7 +248,7 @@ is set up, otherwise it is not sent out even if this checkbox is checked.
 - To not allow respondents to request an email with a resume link set the
   checkbox to unchecked state.
 
-### Company logo
+## Company logo
 Here one can customize the logo that is displayed when the user logs
 into the Survey Solutions data server or the Interviewer App.
 
