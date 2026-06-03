@@ -138,3 +138,6 @@ data for the current one. (They may still need to come back if any of the
 interviews gets rejected to them by the supervisor or HQ-user, or if the
 assignment for the area is reopened, indicating that they may have skipped
 eligible units that must still be located).
+
+- The operation is finished when all the assignments are in the status `CLOSED`
+and all the interviews are in the status `HeadquartersApproved`.
