@@ -503,7 +503,10 @@ For coded variables in the system-generated data files the following tables outl
 <TR><TD align=center>7</TD><TD>Reassigned</TD></TR>
 <TR><TD align=center>8</TD><TD>QuantityChanged</TD></TR>
 <TR><TD align=center>9</TD><TD>WebModeChanged</TD></TR>
-
+<TR><TD align=center>10</TD><TD>TargetAreaChanged</TD></TR>
+<TR><TD align=center>11</TD><TD>Completed</TD></TR>
+<TR><TD align=center>12</TD><TD>Closed</TD></TR>
+<TR><TD align=center>13</TD><TD>Reopened</TD></TR>
 <TR bgcolor="white"><TD colspan=2>&nbsp;</TD></TR>
 <TR bgcolor="PowderBlue" align=center><TD colspan=2><A id="coding_action"><BR><H5>Coding of interview actions</H5></TD></TR>
 <TR bgcolor="Orange" align=center>
