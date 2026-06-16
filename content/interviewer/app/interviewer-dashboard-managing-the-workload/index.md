@@ -21,7 +21,7 @@ To navigate between the different tabs, the interviewer can either tap
 on the tab at the top bar or swipe left or right. To help interviewers
 differentiate between the different tabs, the color of the dashboard
 will change based on which tab the interviewer is currently in. The
-interface will be grey for the **Create New** tab, blue for
+interface will be purple for the **Create New** tab, blue for
 the **Started **tab, green for the **Completed** tab, and red for
 the **Rejected** tab.
 
@@ -54,9 +54,9 @@ There are four possible statuses on the Dashboard:
 -   **Create New:** This tab will list all the assignments that an
     interviewer has. Interviewers can create new interviews for their
     assignments. To start a new interview, interviewers will tap on the
-    blue ***Start*** button on the assignment. If all the required
+    purple ***Start*** button on the assignment. If all the required
     interviews for an assignment have already been created, then the
-    ***Start*** will be grayed out. The dashboard will be grey while in
+    ***Start*** will be grayed out. The dashboard will be purple while in
     this tab.  
     {{< imgproc "images/829847.png" Fit "800x600" />}}
 -   **Started:** This tab lists the interviews that have been started
@@ -90,7 +90,7 @@ How to create a new interview
 Under the **Create New** tab, find the card for the assignment of
 interest. Use the identifying information to find the appropriate
 assignment. Tap on the card to see all the identifying information. This
-will also reveal the ***Start***. Tap on the blue ***Start*** button for
+will also reveal the ***Start***. Tap on the purple ***Start*** button for
 the assignment to create a new interview.  
   
 {{< imgproc "images/829861.png" Fit "800x600" />}}  
