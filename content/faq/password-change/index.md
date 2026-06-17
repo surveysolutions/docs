@@ -2,7 +2,7 @@
 title = "Changing password"
 keywords = ["Password"]
 date = 2023-06-22T00:00:00Z
-lastmod = 2026-04-16T00:00:00Z
+lastmod = 2026-06-16T00:00:00Z
 +++
 
 This article describes who can change passwords and for whom in the hierarchy of Survey Solutions users.
@@ -14,7 +14,7 @@ In the following table users assuming the role mentioned in the rows can change 
   <TR><TH>administrator</TD><TD>only own password</TD><TD>yes</TD><TD>yes</TD><TD>yes</TD><TD>yes</TD><TD>yes</TD></TR>
   <TR><TH>headquarters</TD><TD>no</TD><TD>only own password</TD><TD>only if controlling this supervisor in all workspaces, to which the supervisor has access</TD><TD>only if controlling this interviewer in all workspaces, to which the interviewer has access</TD><TD>no</TD><TD>no</TD></TR>
   <TR><TH>supervisor</TD><TD>no</TD><TD>no</TD><TD>only own password</TD><TD>no</TD><TD>no</TD><TD>no</TD></TR>
-  <TR><TH>interviewer</TD><TD>no</TD><TD>no</TD><TD>no</TD><TD>only own password AND when such a change is permitted in any workspace (by administrator) or after a password reset</TD><TD>no</TD><TD>no</TD></TR>
+  <TR><TH>interviewer</TD><TD>no</TD><TD>no</TD><TD>no</TD><TD>only own password</TD><TD>no</TD><TD>no</TD></TR>
   <TR><TH>observer</TD><TD>no</TD><TD>no</TD><TD>no</TD><TD>no</TD><TD>only own password</TD><TD>no</TD></TR>
   <TR><TH>API</TD><TD>no</TD><TD>no</TD><TD>no</TD><TD>no</TD><TD>no</TD><TD>no</TD></TR>
 </TABLE>

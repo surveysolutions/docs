@@ -119,7 +119,6 @@ of the staged export (eliminating the prepared export data archives and
 supplementary data structures.) The next export job submitted after clearing
 export cache will take substantially longer time to be processed.
 
-
 ## Global Note
 
 This group of settings contains only one setting that controls the server global
@@ -151,8 +150,6 @@ By default the interviewers may not update their contact information (such as
   checkbox to unchecked state.
 
 ## Devices
-
-### Interviewer/Supervisor application settings
 
 This group contains the Interviewer/Supervisor application settings
 centrally controlled from the server by the administrator.
@@ -197,6 +194,33 @@ synchronization will be performed during synchronization with the server.
 - To enable partial synchronization set the checkbox to checked state.
 - To disable partial synchronization set the checkbox to unchecked state.
 
+The checkbox `Allow supervisors to change assignment statuses` controls whether
+users in the role `Supervisor` may change the
+[status of an assignment](/headquarters/svymanage/assignment_status/), such
+as reopen or close assignments in the status `COMPLETED`.
+
+**default = on**
+
+- to allow the supervisors changing the status of assignments set the checkbox
+to checked state.
+- to disallow the supervisors and interviewers changing the status of
+assignments set the checkbox to unchecked state.
+
+The checkbox `Allow interviewers to change assignment statuses` controls whether
+users in the role `Interviewer` may change the
+[status of an assignment](/headquarters/svymanage/assignment_status/), such
+as mark it as `COMPLETED`. This setting is only effective if the change of the
+status has been allowed for the users in the role `Supervisor` (see the previous
+setting).
+
+**default = on**
+
+- to allow interviewers changing the status of assignments set this checkbox
+to checked state (requires the previous checkbox to be checked).
+- to disallow interviewers changing the status of assignments set this checkbox
+to unchecked state (is automatically disallowed if the previous checkbox is
+unchecked).
+
 Numeric parameter `Geography question accuracy` sets the requested accuracy
 (in meters) for geography-type  questions with automatic and semi-automatic
 measurement. It accepts integer values from 1m to 1,000m.
@@ -230,23 +254,6 @@ selectable.
 
 **default = ""**
 
-
-### Web interview settings
-
-The checkbox `Web interview email notifications` controls whether respondents
-to web surveys may request an email with a link to resume the interview if the
-interview session gets interrupted.
-
-The email with the resume link is only sent when a
-[bulk email service provider](/headquarters/cawi/email-providers/)
-is set up, otherwise it is not sent out even if this checkbox is checked.
-
-**default = off**
-
-- To allow respondents to request an email with a resume link set the checkbox
-  to checked state.
-- To not allow respondents to request an email with a resume link set the
-  checkbox to unchecked state.
 
 ## Company logo
 Here one can customize the logo that is displayed when the user logs
