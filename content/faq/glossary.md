@@ -125,7 +125,7 @@ responses. Cf. [paradata](#paradata), [survey data](#survey-data).
 A [questionnaire](#questionnaire) that contains embedded translations of
 questions, options and other text into 2 or more languages, and can be
 switched between them during the interviewing process. Read more in
-[multilingual questionnaires](questionnaire-designer/toolbar/multilingual-questionnaires/).
+[multilingual questionnaires](/questionnaire-designer/toolbar/multilingual-questionnaires/).
 
 #### Paradata
 A downloadable data file containing information on the progress of
