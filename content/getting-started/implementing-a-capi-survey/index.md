@@ -39,8 +39,7 @@ The answers to these questions will help to guide the decision whether to use CA
 and if so, which software to use. Every CAPI software package has strengths and
 weaknesses, and they should be taken into account during this decision-making
 process. For a comparison of the different CAPI packages (except Survey Solutions)
-see this World Bank-funded [report from 2011]
-(https://documents1.worldbank.org/curated/en/719811587030081431/pdf/Comparative-Assessment-of-Software-Programs-for-the-Development-of-Computer-Assisted-Personal-Interview-CAPI-Applications.pdf).
+see this World Bank-funded <A href="https://documents1.worldbank.org/curated/en/719811587030081431/pdf/Comparative-Assessment-of-Software-Programs-for-the-Development-of-Computer-Assisted-Personal-Interview-CAPI-Applications.pdf">report from 2011</A>.
 
 ## Direct Costs
 
