@@ -34,7 +34,7 @@ Searchable libraries of questions and answer options from which users may copy c
 
 {{< imgScale src="images/classification-tab.png" class="lg-img">}}
 
-Read more about the question bank [here](/questionnaire-designer/components/question-bank/), and the classifications library [here](/questionnaire-designer/components/classification-library/).
+Read more about the question bank [here](/questionnaire-designer/interface/question-bank/), and the classifications library [here](/questionnaire-designer/interface/classification-library/).
 
 
 ## Plain-mode roster
