@@ -38,7 +38,6 @@ services, listed below in no particular order:
 - <https://www.websiteplanet.com/webtools/down-or-not/?dorn=https%3A%2F%2Fdesigner.mysurvey.solutions>
 - <http://isitdown.co.uk/designer.mysurvey.solutions>
 - <https://doj.me/designer.mysurvey.solutions>
-- <http://www.freesitestatus.com/en/quicktest.php>
 - <https://www.bitcatcha.com/website-down-checker>
 - <https://geekflare.com/tools/is-this-site-down-test>
 
