@@ -105,7 +105,7 @@ standard format designed for representing simple geographical features. GeoJSON
 file format can be understood from the following Wikipedia article:
 [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON). The standard itself is
 described rigorously in the following publication:
-[RFC7946](https://www.rfc-editor.org/rfc/pdfrfc/rfc7946.txt.pdf).
+[RFC7946](https://datatracker.ietf.org/doc/html/rfc7946).
 
 ```
 "{""type"":""Polygon"",""coordinates"":[[[-77.04247256224234,38.900061573438265],[-77.0420438316804,38.90006450310358],[-77.0419932205604,38.9000505058127],[-77.04195641247313,38.900029672630474],[-77.04193759015577,38.90000167803224],[-77.04192587849164,38.89996619649071],[-77.04193006122884,38.899936899791676],[-77.04196268657891,38.89988253810701],[-77.04197858098023,38.89986593662615],[-77.04199907639246,38.899863657991226],[-77.04249180283341,38.90004692510994],[-77.04249326679141,38.9000560396257],[-77.04247256224234,38.900061573438265]]]}"
