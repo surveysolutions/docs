@@ -2,7 +2,7 @@
 title = "Interviewer Dashboard: Managing the Workload"
 keywords = [""]
 date = 2017-07-05T14:06:47Z
-lastmod = 2017-07-05T14:06:47Z
+lastmod = 2026-06-25T19:45:50Z
 aliases = ["/customer/portal/articles/2835148-interviewer-dashboard-managing-the-workload","/customer/en/portal/articles/2835148-interviewer-dashboard-managing-the-workload","/customer/portal/articles/2835148","/customer/en/portal/articles/2835148","/interviewer/interviewer-dashboard-managing-the-workload"]
 
 +++
@@ -54,9 +54,9 @@ There are four possible statuses on the Dashboard:
 -   **Create New:** This tab will list all the assignments that an
     interviewer has. Interviewers can create new interviews for their
     assignments. To start a new interview, interviewers will tap on the
-    purple ***Start*** button on the assignment. If all the required
+    purple `START NEW INTERVIEW` button on the assignment. If all the required
     interviews for an assignment have already been created, then the
-    ***Start*** will be grayed out. The dashboard will be purple while in
+    `START NEW INTERVIEW` button will be grayed out. The dashboard will be purple while in
     this tab.  
     {{< imgproc "images/829847.png" Fit "800x600" />}}
 -   **Started:** This tab lists the interviews that have been started
@@ -90,7 +90,7 @@ How to create a new interview
 Under the **Create New** tab, find the card for the assignment of
 interest. Use the identifying information to find the appropriate
 assignment. Tap on the card to see all the identifying information. This
-will also reveal the ***Start***. Tap on the purple ***Start*** button for
+will also reveal the `START NEW INTERVIEW` button. Tap on the purple `START NEW INTERVIEW` button for
 the assignment to create a new interview.  
   
 {{< imgproc "images/829861.png" Fit "800x600" />}}  
