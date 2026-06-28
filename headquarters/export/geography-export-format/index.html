@@ -1,0 +1,161 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=description content><meta name=keywords content="export,headquarters,Geography"><meta property="og:url" content="https://docs.mysurvey.solutions/headquarters/export/geography-export-format/"><meta property="og:site_name" content="Survey Solutions | Documentation"><meta property="og:title" content="Geography Export Format"><meta property="og:description" content="Survey Solutions records answers to geography-type questions as series of coordinates of points. During export the user can select the desired format for writing these coordinates to files in the workspace settings.
+Survey Solutions Geometry String In the early versions the coordinates were exported as arrays following this pattern:
+longitude1,lattitude1;longitude2,lattitude2;...longitudeN,lattitudeN This format (Survey Solutions Geometry String) contains all the collected data in a compact form, but lacks some of the information needed for properly visualizing the data, such as whether the sequence describes a polyline or a polygon. This information is contained in the metainformation contained in the questionnaire, which is exported with the data files, but requires additional processing steps."><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="headquarters"><meta property="article:published_time" content="2026-04-23T00:00:00+00:00"><meta property="article:modified_time" content="2026-05-17T00:00:00+00:00"><meta property="og:image" content="https://docs.mysurvey.solutions/img/logo.png"><link rel=icon href=/img/favicon/favicon-support-1.png type=image/png sizes=16x16><link rel=icon href=/img/favicon/favicon-support-1-48-win-ico.png type=image/png sizes=48x48><link rel=icon href=/img/favicon/favicon-support-1-158-General-use-iOS-Android.png type=image/png sizes=152x152><link rel=icon href=/img/favicon/favicon-support-1-196-Chrome-for-Android.png type=image/png sizes=196x196><link rel=icon href=/img/favicon/favicon-support-1-558-win10-tile.png type=image/png sizes=558x558><title>Geography Export Format</title><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel=stylesheet><link href=/css/all.css rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css rel=stylesheet></head><body><header class="px-md-3 pt-3"><div class=container><div class=row><div class="mb-3 col-lg-6 col-md-12"><a class="navbar-brand text-white pr-0 mr-0 float-left" href=https://mysurvey.solutions/ target=_blank><img src=/img/logo.png alt="Survey Solutions" class=float-left>
+<span class="float-left ml-2">Survey<br>Solutions</span>
+</a><a class="navbar-text text-white pl-sm-4 ml-sm-4 pl-2 ml-2 float-left" href=https://docs.mysurvey.solutions/>Documentation and knowledge base</a></div><script type=text/template id=my-custom-menu-template>
+    <div class="aa">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="docs-tab" data-toggle="tab" href="#docs" role="tab" aria-controls="docs" aria-selected="true">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="forum-tab" data-toggle="tab" href="#forum" role="tab" aria-controls="forum" aria-selected="false">Forum topics</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="aa-dataset-docs tab-pane fade show active" id="docs" role="tabpanel" aria-labelledby="docs-tab"></div>
+            <div class="aa-dataset-forum tab-pane fade" id="forum" role="tabpanel" aria-labelledby="forum-tab"></div>
+        </div>
+    </div>
+</script><div class="col-lg-6 col-md-12 pt-2 mb-4 mb-lg-3"><form class=form-inline onsubmit=return!1><div class="input-group search"><input type=text class="form-control w-100" placeholder="Have a Question? Ask or enter a search term here." id=aa-search-input></div></form></div></div></div></header><main class="container mb-3"><nav aria-label=breadcrumb><ol class="breadcrumb bg-transparent pl-0"><li class=breadcrumb-item><a href=/>Home</a></li><li class=breadcrumb-item><a href=/headquarters/>Headquarters</a></li><li class=breadcrumb-item><a href=/headquarters/export/>Data Export</a></li><li class="breadcrumb-item active" aria-current=page>Geography Export Format</li></ol></nav><div class=mb-4><article class="article d-block w-100"><div class="mb-5 pb-1 d-block w-100 page-title d-flex align-items-end"><h2 class="mb-3 mr-auto pr-3">Geography Export Format</h2><div class="data text-right">May 17, 2026</div></div><div class=article-content><p>Survey Solutions records answers to geography-type questions as series of
+coordinates of points. During export the user can select the desired format
+for writing these coordinates to files in the
+<a href=/headquarters/config/admin-settings/>workspace settings</a>.</p><h4 id=survey-solutions-geometry-string>Survey Solutions Geometry String</h4><p>In the early versions the coordinates were exported as arrays following this
+pattern:</p><pre tabindex=0><code>longitude1,lattitude1;longitude2,lattitude2;...longitudeN,lattitudeN
+</code></pre><p>This format (<em>Survey Solutions Geometry String</em>) contains all the collected
+data in a compact form, but lacks some of the information needed for properly
+visualizing the data, such as whether the sequence describes a polyline or a
+polygon. This information is contained in the metainformation contained in the
+questionnaire, which is exported with the data files, but requires additional
+processing steps.</p><p>Here is an example of a plot boundary described in this format:</p><pre tabindex=0><code>-77.04247256224234,38.900061573438265;
+-77.0420438316804,38.90006450310358;
+-77.0419932205604,38.9000505058127;
+-77.04195641247313,38.900029672630474;
+-77.04193759015577,38.90000167803224;
+-77.04192587849164,38.89996619649071;
+-77.04193006122884,38.899936899791676;
+-77.04196268657891,38.89988253810701;
+-77.04197858098023,38.89986593662615;
+-77.04199907639246,38.899863657991226;
+-77.04249180283341,38.90004692510994;
+-77.04249326679141,38.9000560396257
+</code></pre><p>In this illustration the line breaks were added for readability. Survey
+Solutions doesn&rsquo;t include line breaks in this string. See the
+<a href=images/SurveySolutions/plots.tab>raw file</a> exactly as exported.</p><h4 id=well-known-text>Well-Known Text</h4><p>Recently added alternative formats include this information into the data
+content making it more suitable for immediate processing.</p><p>The new default is the WKT format, aka <em>Well-Known Text</em> originally developed
+by the Open Geospatial Consortium (OGC). Here is a quick reference to the
+Wikipedia <a href=https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry>article</a>
+describing the format. The strict definition of the format is contained in <a href=https://docs.ogc.org/is/06-103r4/06-103r4.pdf>OpenGIS®
+Implementation Standard for Geographic information - Simple feature access - Part 1: Common
+architecture</a></p><p>The same plot boundary will export like the following when WKT is selected:</p><pre tabindex=0><code>POLYGON((
+  -77.04247256224234 38.900061573438265,
+  -77.0420438316804 38.90006450310358,
+  -77.0419932205604 38.9000505058127,
+  -77.04195641247313 38.900029672630474,
+  -77.04193759015577 38.90000167803224,
+  -77.04192587849164 38.89996619649071,
+  -77.04193006122884 38.899936899791676,
+  -77.04196268657891 38.89988253810701,
+  -77.04197858098023 38.89986593662615,
+  -77.04199907639246 38.899863657991226,
+  -77.04249180283341 38.90004692510994,
+  -77.04249326679141 38.9000560396257,
+  -77.04247256224234 38.900061573438265
+))
+</code></pre><p>In this illustration the line breaks were added for readability. Survey
+Solutions doesn&rsquo;t include line breaks in this string. See the
+<a href=images/WKT/plots.tab>raw file</a> exactly as exported.</p><p>Note that in exporting area features Survey Solutions will always write the
+feature type as <code>POLYGON</code>, not utilizing e.g. <code>TRIANGLE</code> even if the original
+contained exactly 3 vertices.</p><p>Visualization of WKT formatted features is readily available online and offline.
+For example, in QGIS one can utilize the QuickWKT plugin by <em>Alessandro Pasotti</em>
+(ItOpen):</p><center><a href=images/QuickWKT_plot.png><img src=images/QuickWKT_plot.png width=800></a></center><h4 id=geojson>GeoJSON</h4><p>Survey Solutions can also export the same data formatted in GeoJSON - an open
+standard format designed for representing simple geographical features. GeoJSON
+file format can be understood from the following Wikipedia article:
+<a href=https://en.wikipedia.org/wiki/GeoJSON>GeoJSON</a>. The standard itself is
+described rigorously in the following publication:
+<a href=https://datatracker.ietf.org/doc/html/rfc7946>RFC7946</a>.</p><pre tabindex=0><code>&#34;{&#34;&#34;type&#34;&#34;:&#34;&#34;Polygon&#34;&#34;,&#34;&#34;coordinates&#34;&#34;:[[[-77.04247256224234,38.900061573438265],[-77.0420438316804,38.90006450310358],[-77.0419932205604,38.9000505058127],[-77.04195641247313,38.900029672630474],[-77.04193759015577,38.90000167803224],[-77.04192587849164,38.89996619649071],[-77.04193006122884,38.899936899791676],[-77.04196268657891,38.89988253810701],[-77.04197858098023,38.89986593662615],[-77.04199907639246,38.899863657991226],[-77.04249180283341,38.90004692510994],[-77.04249326679141,38.9000560396257],[-77.04247256224234,38.900061573438265]]]}&#34;
+</code></pre><p>See the <a href=images/GeoJSON/plots.tab>raw file</a> exactly as exported.</p><p>Note that the content as saved in the exported data has enveloping double quotes
+around the content and the inner double quotes are duplicated. The software
+reading these files must support this content formatting. This recorded
+structure is equivalent to this formatted JSON:</p><pre tabindex=0><code>{
+  &#34;type&#34;: &#34;Polygon&#34;,
+  &#34;coordinates&#34;: [
+    [
+      [
+        -77.04247256224234,
+        38.900061573438265
+      ],
+      [
+        -77.0420438316804,
+        38.90006450310358
+      ],
+      [
+        -77.0419932205604,
+        38.9000505058127
+      ],
+      [
+        -77.04195641247313,
+        38.900029672630474
+      ],
+      [
+        -77.04193759015577,
+        38.90000167803224
+      ],
+      [
+        -77.04192587849164,
+        38.89996619649071
+      ],
+      [
+        -77.04193006122884,
+        38.899936899791676
+      ],
+      [
+        -77.04196268657891,
+        38.89988253810701
+      ],
+      [
+        -77.04197858098023,
+        38.89986593662615
+      ],
+      [
+        -77.04199907639246,
+        38.899863657991226
+      ],
+      [
+        -77.04249180283341,
+        38.90004692510994
+      ],
+      [
+        -77.04249326679141,
+        38.9000560396257
+      ],
+      [
+        -77.04247256224234,
+        38.900061573438265
+      ]
+    ]
+  ]
+}
+</code></pre><h4 id=accompanying-variables>Accompanying variables</h4><p>For any question <code>Q</code> of
+<a href=/questionnaire-designer/questions/geography-question/>geography type</a>, the
+export from Survey Solutions will contain the string variable <code>Q</code> with
+coordinates data (in one of the formats described above) accompanied with the
+following additional variables:</p><p><code>Q__area</code> - calculated area (in square meters) of the selected polygon or a
+0 (zero value) if the geometry type is anything different from <em>polygon</em>;</p><p><code>Q__len</code> - length (in meters) of the selected polygon or polyline, or a 0
+(zero value) if the geometry type is anything different from <em>polygon</em> or <em>polyline</em>;</p><p><code>Q__num</code> - number of recorded points. Note that the first point is always added
+as the last point when exporting polygons to WKT or GeoJSON formats to guarantee
+that the polygon is closed. (This means that the number of actual points in such
+features will be 1 more than is recorded in this variable.)</p><p><code>Q__racc</code> - requested accuracy (in meters) effective at the time when the
+question was answered if the input method for Q was <em>automatic</em> or <em>semi-automatic</em>,
+otherwise a system missing value;</p><p><code>Q__rfrq</code> - requested frequency (in seconds) effective at the time when the
+question was answered or a system missing if the input method is not <em>automatic</em>.</p><p>Please note that if the question was not answered, then
+<strong>all of the above fields</strong> will take values mentioned as
+<em>&lsquo;reserved values&rsquo;</em> in the <a href=/headquarters/export/missing-values/>Missing values</a>
+article.</p><h4 id=notice-for-api-users>Notice for API users</h4><p>The format of export of the geography questions is not selectable via the
+export API because it is set in the workspace settings and regulates all
+exports from that workspace, whether requested interactively from the user
+interface or from an API query.</p><p>If an export in a specific format is needed for applications acquiring data
+from Survey Solutions, that format needs to be set in the workspace settings
+by the administrator user. For applications requiring the data to be exported
+in the old format that setting must be set to: <em>Survey Solutions Geometry String</em>.</p><h4 id=see-also>See also</h4><ul><li><a href=/headquarters/export/data-export-tab/>Data Export</a></li><li><a href=/questionnaire-designer/questions/geography-question/>Geography Type Question</a>;</li><li><a href=/headquarters/config/admin-settings/>Workspace Settings</a>.</li></ul></div></article></div></main><footer class="footer pt-3 pb-1 px-sm-3 px-lg-0"><div class="container copyright"><div class=float-left>&#169; 2016-2026 The World Bank Group.<br>All rights Reserved. <a href=https://www.worldbank.org/en/about/legal _target=blank>Legal</a><br><a class=text-primary href=/about/ _target=blank><b class=text-primary>About the team</b></a>
+<a class=text-primary href=https://www.capterra.com/p/153927/Survey-Solutions/ target=_blank>Testimonials</a></div></div></footer><script src=https://code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js integrity=sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js></script><script src=https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js></script><script src=/js/asearch.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js></script><script>$(document).on("click",'[data-toggle="lightbox"]',function(e){e.preventDefault(),$(this).ekkoLightbox({alwaysShowClose:!0})})</script></body></html>

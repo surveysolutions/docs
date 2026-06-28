@@ -1,0 +1,4 @@
+login	password	role	supervisor	fullname	email	phonenumber
+IntJohnSmith	Secret989898	interviewer	SupHeidyJones	John Smith	johnsmith@myorganization.org	12025554321
+IntMarySmith	Secret887766	interviewer	SupHeidyJones	Mary Smith	marysmith@myorganization.org	12025551234
+SupHeidyJones	Secret323288	supervisor		Heidy Jones	heidyjones@myorganization.org
