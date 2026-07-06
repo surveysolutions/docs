@@ -7,7 +7,7 @@ aliases = ["/customer/portal/articles/2723119-deleting-a-survey","/customer/en/p
 
 +++
 
-Survey deletion is possible, but as a dangerous operation is made
+Survey deletion is possible, but it is a dangerous operation and hence it is made
 available only to [server administrators](/headquarters/accounts/survey-solutions-server-administrator/). When a survey is deleted all
 data collected as part of that survey is irretrievably and irreversibly
 lost. Hence the same steps should be applied as described in [actions
