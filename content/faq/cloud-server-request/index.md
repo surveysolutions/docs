@@ -54,6 +54,8 @@ examples and should not be interpreted as a recommendation):
     [here](/headquarters/config/standalone-server/).   
 
 
+<HR>
+
 <P>When deciding on the proper server hosting, please:</P>
 
 - consult all applicable laws and regulations of your country regarding
