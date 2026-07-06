@@ -2,7 +2,7 @@ name: publish-docs
 
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [ main ]
   schedule:
   - cron: "0 0 * * 0"
   workflow_dispatch:
@@ -28,7 +28,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        ref: gh-pages
         fetch-depth: 0
 
     - name: Setup Pages
