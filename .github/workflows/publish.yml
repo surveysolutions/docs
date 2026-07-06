@@ -2,12 +2,25 @@ name: publish-docs
 
 on:
   push:
-    branches: [ main ]
+    branches: [ gh-pages ]
   schedule:
   - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run
+# in-progress and latest queued. Do not cancel in-progress runs.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,7 +28,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
+        ref: gh-pages
         fetch-depth: 0
+
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
@@ -25,8 +43,11 @@ jobs:
     - name: Build
       run: hugo --minify --cleanDestinationDir
 
+    - name: Set custom domain (CNAME)
+      run: echo 'docs.mysurvey.solutions' > ./public/CNAME
+
     - name: Setup python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: 3.9
 
@@ -39,13 +60,23 @@ jobs:
         ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         ALGOLIA_APP_ID: "5IDMO489J3"
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
+    - name: Remove non-publishable assets
+      run: rm -f ./public/algolia.json
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-        exclude_assets: '.github,algolia.json'
-        force_orphan: true
-        cname: docs.mysurvey.solutions
+        path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
