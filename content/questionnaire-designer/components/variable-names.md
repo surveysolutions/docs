@@ -53,7 +53,7 @@ In addition to the above restrictions, a variable name may not be a reserved key
             "all", "and", "by", "eq", "ge", "gt", "le", "lt", "ne", "not", "or",
             "to", "with"
 
-            "rowcode", "rowname", "rowindex", "roster","id", "parentid1", "parentid2",
+            "rowcode", "rowname", "rowindex", "roster", "rostertitle", "id", "parentid1", "parentid2",
             "parentid3", "parentid4", "self", "state", "quest", "optioncode",
             "complete", "cover", "overview", "questionnaire"
 
