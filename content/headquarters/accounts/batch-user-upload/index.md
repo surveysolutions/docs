@@ -2,7 +2,7 @@
 title = "Batch User Upload"
 keywords = ["batch"]
 date = 2016-06-30T18:18:21Z
-lastmod = 2021-04-29T01:01:01Z
+lastmod = 2026-07-07T01:01:01Z
 aliases = [
   "/customer/portal/articles/2483438-batch-user-upload",
   "/customer/en/portal/articles/2483438-batch-user-upload",
@@ -57,7 +57,7 @@ The column names (case-insensitive) are as following:
 <TABLE  class="table table-striped table-hover" border>
 <TR class="header bg-warning"><TH>Column name</TH><TH>Column meaning</TH></TR>
 
-<TR><TD colspan=2>Mandatory fields</TD></TR>
+<TR><TD colspan=2><I>Mandatory fields</I></TD></TR>
 <TR><TD>Login</TD><TD>The login name of the user to be created. Note that the
 spelling (capitalization) of the user name will be retained in the reports and
 selections in the HQ. Note also, that the specified login name for an account
@@ -92,7 +92,7 @@ interviewer account is added. The spelling of the supervisor's login-name
 is case-insensitive.
 </TD></TR>
 
-<TR><TD colspan=2>Optional fields</TD></TR>
+<TR><TD colspan=2><I>Optional fields</I></TD></TR>
 
 <TR><TD>Fullname</TD><TD>Real full name of the user that receives this account.
 <BR><BR>
@@ -108,11 +108,16 @@ addresses may not be stored.</TD></TR>
 <BR><BR>
 The phone number must be numeric and no longer than 15 digits.</TD></TR>
 
+<TR><TD>Workspace</TD><TD>A comma-delimited list of workspaces that will be accessible to this user.<BR><BR>All workspaces mentioned here must exist and be enabled. For interviewer accounts, their supervisor must also have access to the same workspaces.</TD></TR>
+
 </TABLE>
 
 Note that the fields **login**, **password** and **role** are mandatory, and
 must be filled out for every user in the list. The supervisor field **must**
 be specified for the interviewers' accounts only.
+
+If the workspace column is not specified in the accounts file, or the value in that column is not specified for any row, then the workspace name selected at the file upload page is applied.
+
 
 #### Example file
 
