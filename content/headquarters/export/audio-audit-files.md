@@ -2,10 +2,10 @@
 title = "Audio Audit Files"
 keywords = ["export"]
 date = 2022-02-14T12:12:12Z
-lastmod = 2022-02-14T12:12:12Z
+lastmod = 2026-07-14T00:00:00Z
 +++
 
-Survey Solutions has a feature of [audio audit](https://docs.mysurvey.solutions/headquarters/svymanage/audio-audit/): a capability of recording an interview and provide the recording for the audit of the interviewing process. The recording covers all the duration of the interview from the moment it starts to completion, except the time when:
+Survey Solutions has a feature of [audio audit](/headquarters/svymanage/audio-audit/): a capability of recording an interview and provide the recording for the audit of the interviewing process. The recording covers all the duration of the interview from the moment it starts to completion, except the time when:
 - the tablet is off;
 - the user switches to a different app;
 - the interview is not active (Interviewer has switched to a different interview or switched to the dashboard);
@@ -35,12 +35,3 @@ The timestamp included into the name of the file indicates the beginning of the 
 All components of date and time are left-padded with zero if necessary to achieve the declared width.
 
 The audio audit recording files have file extension `.m4a`.
-
-The format of audio recording in the audio audit files is:
-- AAC, mono, 44.100kHz
-- data rate: 64.10 kbit/sec
-
-The approximate duration of 1 hour of audio recording is thus:
-```
-64.10[kbit/sec] / 8[bit/byte] * 3600[sec/hour] = 28.845[MB/hour]
-```

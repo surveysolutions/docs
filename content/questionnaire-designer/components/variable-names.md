@@ -2,7 +2,7 @@
 title = "Variable names"
 keywords = [""]
 date = 2019-02-19T10:00:00Z
-lastmod = 2022-10-06T10:00:00Z
+lastmod = 2026-07-15T00:00:00Z
 +++
 
 A variable name (an identifier) must be assigned to every question, calculated variable, and roster in Survey Solutions. Additionally it must also be assigned to the whole questionnaire, and may be assigned to sections and subsections.
@@ -53,16 +53,17 @@ In addition to the above restrictions, a variable name may not be a reserved key
             "all", "and", "by", "eq", "ge", "gt", "le", "lt", "ne", "not", "or",
             "to", "with"
 
-            "rowcode", "rowname", "rowindex", "roster", "rostertitle", "id", "parentid1", "parentid2",
-            "parentid3", "parentid4", "self", "state", "quest", "optioncode",
-            "complete", "cover", "overview", "questionnaire"
+            "rowcode", "rowname", "rowindex", "roster", "rostertitle", "id",
+            "parentid1", "parentid2", "parentid3", "parentid4", "self", "state",
+            "quest", "optioncode", "complete", "cover", "overview",
+            "questionnaire", "QuestionnaireLevel", "RosterVector", "Identity"
 
             "con", "prn", "aux", "nul",
             "com1", "com2", "com3", "com4", "com5", "com6", "com7", "com8","com9",
             "lpt1", "lpt2","lpt3", "lpt4", "lpt5", "lpt6", "lpt7", "lpt8", "lpt9"
 
 
-In addition all variable names of the pattern str#### ("str" followed by a number) are also disallowed (reserved in Stata).
+In addition all variable names of the pattern _str####_ ("_str_" followed by a number) are also disallowed (reserved in Stata).
 
 Variable names are case-sensitive, once you've declared a variable _Income_ or _SpouseAge_ keep on writing it the same way in all the syntax expressions. To facilitate export to case-insensitive systems like SPSS, Survey Solutions will not permit you to declare another variable name that differs only by case from one already used, for example it will not permit _spouseage_ once _SpouseAge_ is already declared. This means that all variations of case in the above keywords are also reserved keywords.
 
