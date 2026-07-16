@@ -9,8 +9,13 @@ The audio files produced in Survey Solutions (audio audit files and answers to
 audio questions) are recorded using AAC (*Advanced Audio Coding*) and have a
 file extension `.m4a`.
 
-The quality of the audio recording is determined by the
-`Audio recording quality` setting of the
+The quality of the audio recording in web interviews (in a web browser) is 
+fixed at:
+
+- 128kbps, mono, 48kHz
+
+The quality of the audio recorded on a mobile device (in Interviewer App) is 
+determined by the `Audio recording quality` setting in the `Devices` tab of the
 [workspace settings](/headquarters/config/admin-settings/). The possible values
 are:
 

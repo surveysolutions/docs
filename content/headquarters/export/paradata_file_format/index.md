@@ -253,7 +253,7 @@ with or without partial synchronization, etc).<BR>
   <TD><I>InterviewCreated</I></TD>
   <TD align=center>32</TD>
   <TD>Occurs when the interview is created.</TD>
-  <TD>NO PARAMETERS.</TD>
+  <TD>Assignment number</TD>
 </TR>
 
 <TR>
