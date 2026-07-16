@@ -2,7 +2,7 @@
 title = "Workspace Settings"
 keywords = ["admin","logo","encryption","accounts"]
 date = 2017-01-09T22:11:21Z
-lastmod = 2026-05-13T00:00:00Z
+lastmod = 2026-07-14T00:00:00Z
 aliases = [
   "/customer/portal/articles/2707388-admin-settings",
   "/customer/en/portal/articles/2707388-admin-settings",
@@ -220,6 +220,14 @@ to checked state (requires the previous checkbox to be checked).
 - to disallow interviewers changing the status of assignments set this checkbox
 to unchecked state (is automatically disallowed if the previous checkbox is
 unchecked).
+
+Selection parameter `Audio recording quality` sets the desired quality of audio
+recording in audio questions and audio audit.
+
+**default = 64kbps, Mono, 44.1kHz**
+
+- to select a different audio recording quality select a corresponding value
+from the dropdown menu.
 
 Numeric parameter `Geography question accuracy` sets the requested accuracy
 (in meters) for geography-type  questions with automatic and semi-automatic
