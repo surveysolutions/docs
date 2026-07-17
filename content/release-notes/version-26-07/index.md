@@ -72,5 +72,5 @@ dialog in the Designer now indicates the occurrence number of the
 matched text when navigating between them with the `PREVIOUS`/`NEXT`
 buttons.
 
-- **Trimming of comments**: Leading and trailing spaces in comments
-are now removed.
+- **Trimming of synchronization point**: Leading and trailing spaces in
+the server URL are now removed.
