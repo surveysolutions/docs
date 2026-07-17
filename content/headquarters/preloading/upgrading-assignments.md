@@ -51,6 +51,7 @@ Here are some examples of changes between the versions that will __prevent an up
 - option category has been removed, which has been mentioned in the preloaded data;
 etc.
 
+{{< panel title="Warning:" style="warning">}} Assignments marked for **selective** [audio audit](/headquarters/svymanage/audio-audit) **cannot** be upgraded! {{< /panel >}}
 
 **What will happen to the interviews that have been completed on the tablets based on old assignments received before the upgrade?**
 When the interviewer received the original assignment and conducted the interview, she usually knows nothing about the intent of the HQ to modify the questionnaire and works disconnected as usual. She may conduct one or more of such interviews as permitted by existing assignments, complete them and synchronize to the server. These interviews will be received by the HQ and displayed in the list of the interviews as completed. The interviews will carry the original assignment number, even if that assignment has since been upgraded and archived. In addition, since at the HQ a new assignment has been created from the original, the interviewer will receive it on the tablet, potentially leading to return to the same respondent. 
