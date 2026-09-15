@@ -1,188 +1,111 @@
 ﻿+++
 title = "Numeric Question"
-keywords = ["numeric","integer","real","seperator","export"]
+keywords = ["numeric","integer","real","separator","export","delimiter","decimal","digit"]
 date = 2016-06-17T23:22:09Z
-lastmod = 2016-06-17T23:22:09Z
+lastmod = 2026-09-14T01:01:01Z
 aliases = ["/customer/portal/articles/2468719-numeric-question","/customer/en/portal/articles/2468719-numeric-question","/customer/portal/articles/2468719","/customer/en/portal/articles/2468719","/questionnaire-designer/numeric-question"]
 
 +++
 
-Description
------------
+## Description
 
-  
-A **num**{{< imgproc "images/643179.png" Fit "800x600" />}}**eric** question expects an answer to
-contain numeric characters (0-9). The answer can be an
-[integer](#integer) or a [real](#decimal) number. You also have the
-option of assigning the number of [decimals places](#max%20decimal) to
-be accepted in the answer or formatting the answer to language specific
-[thousands and decimal separator](#separator). By default a numeric
-question expects a integer number answer. In addition, numeric questions
-can be extended with [special
-values](/questionnaire-designer/special-values-for-numeric-questions) as
-categorical selections.  
-  
-The picture below displays a numeric integer question on a tablet.  
-  
-{{< imgproc "images/644167.png" Fit "800x600" />}}  
-  
-  
-The picture below displays a numeric real number question on a
-tablet.   
-  
-{{< imgproc "images/644168.png" Fit "800x600" />}}  
-  
-  
-The picture below displays a numeric question with language specific
-thousand and decimal separator enabled on a tablet.  
-  
-{{< imgproc "images/644169.png" Fit "800x600" />}}  
-  
-  
- 
+<IMG src="images/643179.png">
 
-Creating a numeric question
----------------------------
+A **numeric** question accepts integer or real numbers as answers. 
 
-  
-  
-In Questionnaire Designer,
+Numeric questions allow configuring all of the
+[common question properties](/questionnaire-designer/components/question-properties/),
+as well as several properties that are specific to this type:
 
-1.  Click on the Question Type box.
 
-2.  Select Numeric.
+- `Integer` - if checked, requires the answer to be an integer value and does
+not permit entering any fractional values.
+- `Number of decimal places` (available only if `integer` is not checked;
+optional) - limits the fractional part to be no more than the specified number
+of digits, for example `2`. The value may still be displayed with fewer
+decimals if the last digit(s) are zero.
+- `Non-negative` - if checked, the negative values will not be allowed as
+answers to this question.
+- `Use 1000 separator` - if checked, the answer will be formatted with a
+thousands separator in the integer part.
+- `Special values` - optionally,
+[special values](/questionnaire-designer/special-values-for-numeric-questions)
+may be specified for user's convenience. They will be shown as categorical
+selections and can be entered by selecting them (eliminating the need for
+typing).
 
-{{< imgproc "images/644236.png" Fit "800x600" />}}  
-  
- 
+<CENTER>
+  <A href="images/numeric_question_setup.png">
+    <IMG src="images/numeric_question_setup.png">
+  </A>
+</CENTER>
 
-How a numeric question appears on a tablet
-------------------------------------------
 
-  
-To type the answer, the enumerator has to tap on the question box for
-the keyboard to display. The keyboard automatically shows
-numeric characters. Note that even if the enumerator can navigate
-through the keyboard showing alpha characters, they can only include
-numeric characters in the answer.  
- 
+<BR><BR>
 
-{{< imgproc "images/644237.png" Fit "800x600" />}}
+## Examples
+<BR><BR>
 
-  
-  
-  
- 
+<TABLE class="table">
+  <TR>
+    <TH>Examples of allowed values</TH>
+    <TH>Setup</TH>
+  </TR>
+  <TR>
+    <TD>0; 1; 2</TD>
+    <TD> Default settings.</TD>
+  </TR>
+  <TR>
+    <TD>-1; 0; 1</TD>
+    <TD>Un-select <I>non-negative</I>.</TD>
+  <TR>
+    <TD>0.23; 97.8732</TD>
+    <TD>Un-select <I>integer</I>.</TD>
+  </TR>
+  <TR>
+    <TD>0.23; 97.87; 100.12</TD>
+    <TD>Un-select <I>integer</I> and specify <B>2</B> for <I>number of decimal
+    places</I>.<TD>
+  </TR>
+  <TR>
+    <TD>-0.38; 0; 0.9734</TD>
+    <TD>Un-select <I>non-negative</I> and un-select <I>integer</I>.<TD>
+  </TR>
+  <TR>
+    <TD>-0.38; 0; 0.97</TD>
+    <TD>Un-select <I>non-negative</I>, un-select <I>integer</I>, and specify
+    <B>2</B> for <I>number of decimal places</I>.</TD>
+  </TR>
+  <TR>
+  <TD>123,456,789; 987,654</TD><TD>Select <I>Use 1000 separator</I>.</TD>
+  </TR>
+</TABLE>
 
-Options
--------
+<BR><BR>
 
-  
-  
-  
-<span id="integer"></span>
+## Export
 
-### Integer
-
-  
-  
-To create a numeric integer question, click on the *Integer* checkbox.  
-A question with the Integer option selected, accepts a maximum of 10
-digits in the answer. If you expect an answer higher than 9999999999
-(e.g. id codes) the question should not expect an integer value but a
-real value.  
-  
-{{< imgproc "images/644238.png" Fit "800x600" />}}  
-  
-On a tablet the enumerator cannot enter values with decimal places.  
-  
-  
-{{< imgproc "images/644239.png" Fit "800x600" />}}  
-  
-  
-  
-<span id="decimal"></span>
-
-### Decimal
-
-  
-  
-Since numeric questions are by default Integer, enable decimal answers
-by unchecking the Integer checkbox. By default when a question is
-defined as real, the *Number of decimal places* field is blank. This
-means that the maximum number of decimal places assigned by the system
-is 28. You may want the answer entered to have a specific number of
-decimal places, such as a question asking for the temperature up to one
-decimal point.  
-  
-<span id="max decimal"></span>To define the maximum number of decimals
-accepted by the question, add the corresponding number in the *Number of
-decimal places* field.  
-  
-{{< imgproc "images/644240.png" Fit "800x600" />}}  
-  
-  
-On a tablet the answer can be an integer or a real number with less or
-an equal number of decimals than the defined maximum.  
-  
-  
-{{< imgproc "images/644241.png" Fit "800x600" />}}  
-  
-  
-<span id="separator"></span>
-
-### Thousand and Decimal Separator
-
-Answers entered in numeric questions can be formatted to language
-specific thousands and decimal separator. To enable this feature, click
-on the *Use 1000 separator* check box.   
-  
-  
-{{< imgproc "images/644242.png" Fit "800x600" />}}
-
-  
-On a tablet, the answer entered will display a thousand separator
-specific to the language of the device.
-
-{{< imgproc "images/644243.png" Fit "800x600" />}}
-
-### [Special Values ](/questionnaire-designer/special-values-for-numeric-questions)
-
-Either a value can be entered, or one of the provided answer options may
-be selected.  Special values are stored as codes and are exported in the
-same numeric variable, with labels defined in file formats that support
-value labels.  
-  
-To enable this feature, check the special values check box and enter the
-answer option(s) and codes.   
-  
-{{< imgproc "images/871996.png" Fit "800x600" />}}  
-  
-{{< imgproc "images/871997.png" Fit "800x600" />}}  
- 
-
-Export
-------
-
-  
 The answer given to a numeric question is exported in a numeric
-variable. The name of this variable is the question’s *variable name*
-defined in the Questionnaire Designer.  
+variable. The name of this variable is the question's *variable name*
+defined in the [Questionnaire Designer](/questionnaire-designer/).  
    
-This question type can expect an integer or a real number. The
-example below illustrates the export for a real number question.
+If fractional values are permitted, they are exported with a dot as a decimal
+delimiter.
 
- 
+Be mindful of the [missing values](/headquarters/export/missing-values/).
 
-### Numeric real number question
+<BR><BR>
 
-  
-{{< imgproc "images/644244.png" Fit "800x600" />}}  
-  
-  
-Unanswered question exported in tab-delimited file  
-{{< imgproc "images/644245.png" Fit "800x600" />}}  
-  
-  
-Answered question exported in tab-delimited file  
-{{< imgproc "images/644246.png" Fit "800x600" />}}
+## Please note:
+
+1. All numeric answers are bound by the applicable minimum and maximum value
+limits. For example, a value `9,876,543,210` cannot be entered as an answer to a numeric integer question.
+
+2. Fractional values have finite precision. One cannot enter values
+smaller than that precision. For example, a value
+`0.00000000000000000000000000000000000000000000000000000000125` cannot be
+entered as an answer to a numeric question.
+
+3. Numeric answers do not store leading zeroes or trailing zeroes in the
+fractional parts. (For example, when `007` is entered, `7` is saved; when
+`3.1400` is entered, `3.14` is saved).

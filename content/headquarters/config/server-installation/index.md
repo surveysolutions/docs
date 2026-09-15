@@ -1,7 +1,7 @@
 ﻿+++
 title = "Server Installation"
 keywords = ["installation", "configuration"]
-date = 2020-05-06T14:14:00Z
+date = 2026-09-11T00:00:00Z
 aliases = ["/customer/portal/articles/standalone-installation", "/customer/portal/articles/2768436-standalone-installation","/customer/en/portal/articles/2768436-standalone-installation","/customer/portal/articles/2768436","/customer/en/portal/articles/2768436","/headquarters/standalone-installation"]
 
 +++
@@ -96,6 +96,13 @@ The post-installation configuration involves the following:
   - [GeoTIFF](#geotiff);
   - [DB connections pool](#connpool).
 
+
+Note that once the server is configured, additional settings and configuration
+options may be specified by Survey Solutions administrator users at the
+workspace level (even if only one workspace is used) such as the logo/branding
+of the organization, export encryption, and permissions for various roles. Refer
+to [Workspace settings](/headquarters/config/admin-settings/) for more details.
+
 ### Adjusting the site bindings {#bindings}
 
 By default, Survey Solutions is installed as a web application and runs
@@ -134,9 +141,9 @@ In the IIS Manager you will find the Survey Solutions application:
 If you click on the `Bindings...` link in the right panel you will be
 able to add or modify ports that application listens to, such as 80 for HTTP, or 443 for HTTPS (see [below](#ssl)).
 
-Now you can ommit the custom port number when accessing the server - `http://192.168.136.128/`.
+Now you can omit the custom port number when accessing the server - `http://192.168.136.128/`.
 
-Remembering and always typing ip address to connect to the server is still not the best and convinient approach. You
+Remembering and always typing ip address to connect to the server is still not the best and convenient approach. You
 could instead attach a domain name to your server, which would simplify work considerably. Moreover, in order to be
 able to use [SSL](#ssl) encryption, you must have a domain name attached to the web application.
 
@@ -239,41 +246,22 @@ Without the correct specification of the `BaseURL` the server will not be able t
 - downloading interviewer and supervisor apps (in qrcode);
 - sending invitations to web surveys.
 
+If your site is bound to a non-standard port, specify it as part of the `BaseURL` parameter. Standard ports are `80` (for *http://*) and `443` (for *https://*). For example, if your site is bound to port `5000`:
+
+``` INI
+[Headquarters]
+BaseUrl=https://demo.mysurvey.solutions:5000
+```
+
 
 #### Captcha {#captcha}
 
+
 A [captcha](/headquarters/accounts/captcha/) is used to safeguard the
 application from brute-force attacks on user accounts and for protection of
-web mode from automatic creation of interviews.
+web mode from automatic creation of interviews. Setting up a CAPTCHA is
+described in the corresponding documentation article: [CAPTCHA](/headquarters/config/captcha-setup/).
 
-Survey Solutions may utilize a built-in (hosted) implementation of captcha
-(default) or an external reCAPTCHA provided by Google (to be configured as
-per instructions below).
-
-To take advantage of the more secure reCAPTCHA implementation by Google, you
-need to set it up in the Google reCAPTCHA admin and record the 2 issued keys
-into your configuration file.
-
-- Navigate to [creation page](https://www.google.com/recaptcha/admin/create)
-to register a new captcha. Click on the ℹ️-icons will give you helpful hints
-on how to fill out that form.
-- Specify your public DNS name that is configured in
-Survey Solutions `BaseUrl` property for the site name.
-- When selecting the reCAPTCHA type, select version 2 ("*reCAPTCHA v2*").
-- You can specify additional emails to receive notifications on problems or
-increase in suspicious traffic (alerts are issued by Google).
-
-After you click the `Submit` button you will see a page where you can copy
-the necessary *site key* and *secret key*. Then add the following content
-into your `appsettings.Production.ini` file:
-
-``` INI
-[Captcha]
-CaptchaType=Recaptcha
-SecretKey=%Your secret key%
-SiteKey=%Your site key%
-Version=v2
-```
 
 #### Google maps {#googlemaps}
 
@@ -294,7 +282,15 @@ when not configured properly you will see error
 ![Survey Solutions maps error](images/ss_maps_error.png)
 {{% /folded %}}
 
+Note that as of May 2026 Google has [deprecated some functionality](https://developers.google.com/maps/deprecations#:~:text=or%20other%20overlays.-,Heatmap%20Layer%20(Deprecated%20as%20of%20May%2027%2C%202025),display%20heatmaps%20based%20on%20data%20points%20will%20need%20to%20be%20updated.,-As%20a%20replacement) on which Survey Solutions relied. To continue using map reports users need to update Survey Solutions to version 26.06 or more recent.
+
 #### GeoTIFF files support {#geotiff}
+
+
+**This section applies for Survey Solutions versions prior to `v26.07`.**
+**If your installation of Survey Solutions is `26.07` or later, it does not
+depend on GDAL tools and will not make the use of this path even if it is
+added to the configuration file.**
 
 If you are using
 [GIS](/questionnaire-designer/questions/offline-gis-functionality-expansion/)
@@ -303,18 +299,26 @@ functionality and plan using TIFF files as maps, then you need to install the
 is to use the [OSGeo4W project](https://trac.osgeo.org/osgeo4w/wiki):
 download installer from their web site and install only "GDAL".
 
-Survey Solutions will try to locate and make use of the GDAL libraries
-at the default installation path: `C:\OSGeo4W64\bin\`. If you've installed
-it to another folder then add the following configuration to your
-`appsettings.Production.ini` file:
+For Survey Solutions to locate and make use of the GDAL libraries specify the
+installation path in the `appsettings.Production.ini` file:
 
 ``` INI
 [Geospatial]
-GdalHome=%Path to bin where GDAL is intalled%
+GdalHome=%Path to bin where GDAL is installed%
 ```
+
+For example:
+``` INI
+[Geospatial]
+GdalHome=C:\OSGeo4W64\bin\
+```
+
+Note that you may need to add this section and key to the configuration file
+if they do not exist.
+
 If this step is not performed, the users of this Survey Solutions instance
-will not be able to upload maps in GeoTIFF format to the HQ. They will still
-be able to upload maps in other accepted formats.
+will not be able to see the extent of the uploaded maps in GeoTIFF format at
+the HQ. They will still be able to upload maps in other accepted formats.
 
 ### Adjusting the settings of the DB connections pool {#connpool}
 Survey Solutions communicates with the DB by utilizing a pool of connections,
@@ -349,4 +353,6 @@ The requested URL was rejected. If you think you have made a valid request to a 
 Your support ID is: ###################
 ```
 (where ``##...#`` denotes a numeric ID), please write to `lbadmin` from your
-World Bank-staff email account and cite the message you received including the `##..#` number. Please note: *this message is not produced by the Survey Solutions software*.
+World Bank-staff email account and cite the message you received including the
+`##..#` number. Please note:
+*this message is not produced by the Survey Solutions software*.

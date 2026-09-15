@@ -2,7 +2,7 @@
 title = "Compile errors"
 keywords = ["error"]
 date = 2020-10-22T01:01:01Z
-lastmod = 2024-05-08T01:01:01Z
+lastmod = 2026-09-14T01:01:01Z
 +++
 
 
@@ -281,6 +281,7 @@ include it or not in a particular survey questionnaire.
 <TR><TD>WB0307</TD><TD>Question references non-existent reusable category.</TD><TD></TD></TR>
 <TR><TD>WB0308</TD><TD>Identifying questions can have only allowed types (Text, Numeric, DateTime, GpsCoordinates, SingleOption)</TD><TD></TD></TR>
 <TR><TD>WB0309</TD><TD>Questions in Сover section must have variable label.</TD><TD></TD></TR>
+<TR><TD>WB0324</TD><TD>Negative special values are not allowed for non-negative numeric questions.</TD><TD>Either replace negative special values with non-negative values, or allow negative values by unchecking the 'non-negative' setting.</TD></TR>
 <TR><TD>WB0390</TD><TD>Only string variable type can be used as source of the attachment name</TD><TD></TD></TR>
 <TR><TD>WB0391</TD><TD>Static text can not reference variable that has deeper roster scope then itself</TD><TD></TD></TR>
 
