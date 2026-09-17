@@ -229,6 +229,16 @@ recording in audio questions and audio audit.
 - to select a different audio recording quality select a corresponding value
 from the dropdown menu.
 
+Selection parameter `Acceptable source(s) of location` sets acceptable
+source(s) of location in the Interviewer App when answering GPS location
+questions. Locations from sources that are not acceptable are refused.
+
+**default = Built-in GPS only (no external, no mock locations)**
+
+- to select a different possible source for location select a corresponding
+value from the dropdown menu.
+
+
 Numeric parameter `Geography question accuracy` sets the requested accuracy
 (in meters) for geography-type  questions with automatic and semi-automatic
 measurement. It accepts integer values from 1m to 1,000m.

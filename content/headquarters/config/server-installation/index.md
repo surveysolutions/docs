@@ -260,7 +260,7 @@ BaseUrl=https://demo.mysurvey.solutions:5000
 A [captcha](/headquarters/accounts/captcha/) is used to safeguard the
 application from brute-force attacks on user accounts and for protection of
 web mode from automatic creation of interviews. Setting up a CAPTCHA is
-described in the corresponding documentation article: [CAPTCHA](/headquarters/config/captcha-setup/).
+described in the corresponding documentation article: [CAPTCHA Setup](/headquarters/config/captcha-setup/).
 
 
 #### Google maps {#googlemaps}
