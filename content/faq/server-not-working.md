@@ -24,7 +24,6 @@ to these tools*):
 
 - <http://downforeveryoneorjustme.com/demo.mysurvey.solutions>
 - <https://www.site24x7.com/check-website-availability.html>  
-- <http://www.freesitestatus.com/en/quicktest.php>  
 - any other alternative tool of this kind.
 
 If the above tools indicate that the server is functional, then the

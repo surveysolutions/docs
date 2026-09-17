@@ -29,7 +29,7 @@ allowing for subsequent quality control.
 
 **Before creating an assignment**
 
-- In the main menu of the Headquarters navigate to `Survey Setup` >
+- In the main menu of the Headquarters navigate to `Survey Setup` →
 `Questionnaires`;
 - Click on a questionnaire;
 - In the context menu that appears, select `Details`;

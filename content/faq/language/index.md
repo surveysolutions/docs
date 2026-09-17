@@ -23,6 +23,10 @@ For the langauges applicable to Survey Solutions software components refer to th
     <TH bgcolor="Orange" width=20%>Designer</TH>
   </TR>
 
+
+
+  <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico"></A></TD><TD>Arabic<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico"></A></TD><TD>Chinese<TD>+<TD>+<TD>+</TR>
   <TR align=center>
     <TD>
       <A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish.">
@@ -34,23 +38,25 @@ For the langauges applicable to Survey Solutions software components refer to th
     <TD>+</TD>
     <TD>+</TD>
   </TR>
-
-  <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico"></A></TD><TD>Russian<TD>+<TD>+<TD>+</TR>
   <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico" width=16></A></TD><TD>French</TD><TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico"></A></TD><TD>Russian<TD>+<TD>+<TD>+</TR>  
   <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico"></A></TD><TD>Spanish<TD>+<TD>+<TD>+</TR>
-  <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico"></A></TD><TD>Chinese<TD>+<TD>+<TD>+</TR>
+
+
+
+
+
+
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Albanian<TD>+<TD>+<TD>+</TR>
   <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Czech<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Georgian<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Indonesian<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Khmer<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Portuguese<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Romanian<TD>+<TD>+<TD>+</TR>
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Thai<TD>+<TD>+<TD>+</TR>
   <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Ukrainian<TD>+<TD>+<TD>+</TR>
-
-  <TR align=center><TD><A href="https://www.un.org/en/our-work/official-languages#:~:text=There%20are%20six%20official%20languages%20of%20the%20UN.%20These%20are%20Arabic%2C%20Chinese%2C%20English%2C%20French%2C%20Russian%20and%20Spanish."><img src="images/un.ico"></A></TD><TD>Arabic<TD>+<TD>+<TD>-</TR>
-  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Portuguese<TD>+<TD>+<TD>-</TR>
-  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Georgian<TD>+<TD>+<TD>-</TR>
-  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Romanian<TD>+<TD>+<TD>-</TR>
-
-  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Indonesian<TD>+<TD>-<TD>-</TR>
-  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Khmer<TD>+<TD>-<TD>-</TR>
-  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Thai<TD>+<TD>-<TD>-</TR>
-  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Vietnamese<TD>+<TD>-<TD>-</TR>
+  <TR align=center><TD><IMG src="images/blank16x16.png"></TD><TD>Vietnamese<TD>+<TD>+<TD>+</TR>
 
 <TR align=center>
   <TD></TD>
@@ -60,5 +66,3 @@ For the langauges applicable to Survey Solutions software components refer to th
   <TD><A href="/headquarters/config/changing-the-interface-language/"><B>readme</B></A></TR>
 <TR><TD colspan="5"><HR></TD></TR>
 </TABLE>
-<BR>
-<P>See also: <A href="/faq/instructions-for-translators/">Instructions for the Translators of the Survey Solutions Interface</A></P>

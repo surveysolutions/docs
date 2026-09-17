@@ -2,7 +2,7 @@
 title = "Survey Solutions Limits"
 keywords = ["limits", "limit", "maximum", "capacity", "constraints"]
 date = 2017-02-02T08:32:16Z
-lastmod = 2024-06-06T00:00:01Z
+lastmod = 2026-09-11T00:00:01Z
 aliases = ["/customer/portal/articles/2733269-survey-solutions-limits","/customer/en/portal/articles/2733269-survey-solutions-limits","/customer/portal/articles/2733269","/customer/en/portal/articles/2733269","/questionnaire-designer/survey-solutions-limits"]
 
 +++
@@ -180,6 +180,10 @@ is balancing on the margin of these limits.
 </tr>
 <td>Maximum size of any (decompressed/unzipped) map preload file:</td>
 <td style="text-align: center;">512 [MB]</td>
+</tr>
+</tr>
+<td>Maximum length of target area file name:</td>
+<td style="text-align: center;">64 [characters]</td>
 </tr>
 <tr>
 <td>Maximum size of the questionnaire (not including attachments)</td>

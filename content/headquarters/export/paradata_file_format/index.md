@@ -138,7 +138,7 @@ following columns:
   <TD><CENTER>string</CENTER></TD>
   <TD>One or more parameters of the event, the interpretation of which depends
   on the type of event.</TD>
-  <TD><TT>GPSLOC||16.73526463,75.93207878[13]27||2.0</TT></TD>
+  <TD><TT>GPSLOC||16.73526463,75.93207878[13]27||2.0||gps||device</TT></TD>
 </TR>
 
 </TABLE>
@@ -170,14 +170,18 @@ with or without partial synchronization, etc).<BR>
   <TD><I>AnswerRemoved</I></TD>
   <TD align=center>3</TD>
   <TD>Question's answer was removed (cleared).</TD>
-  <TD><A href="#varname">varname</A>||<A href="#rosteraddress">OptionalRosterAddress</A></TD>
+  <TD>
+    <A href="#varname">varname</A>||
+    <A href="#rosteraddress">OptionalRosterAddress</A></TD>
 </TR>
 
 <TR>
   <TD><I>AnswerSet</I></TD>
   <TD align=center>2</TD>
   <TD>Question was answered in the interview.</TD>
-  <TD><A href="#varname">varname</A>||value||<A href="#rosteraddress">OptionalRosterAddress</A><BR><BR>
+  <TD><A href="#varname">varname</A>||value||<A href="#rosteraddress">OptionalRosterAddress</A>||
+  <A href="#osource">OptionalSource</A>||
+  <A href="#omode">OptionalMode</A><BR><BR>
   Values are mostly same as they are present in the tab-delimited export files, with a few exceptions where the value in the tab-delimited file is split among multiple columns. <BR><BR>
   Values of multiselect questions are recorded as codes of selected items separated by commas: <I>323.0, 315.0, 147.0</I><BR><BR>
   Values of text list questions are recorded as specified items separated by the <TT>|</TT>-character: <I>Sergiy|Maryna|Natalia</I><BR><BR>
@@ -420,17 +424,37 @@ with or without partial synchronization, etc).<BR>
 <BR>
 
 <P>
+<A id="varname"><B><I>Varname</I></B> is the name of the data variable
+corresponding to a question or a calculated variable (as specified in
+the <A href="/questionnaire-designer/">Questionnaire Designer</A>).
+</P>
+
+<P>
 <A id="rosteraddress"><B><I>OptionalRosterAddress</I></B> denotes one or more numeric <TT>rowcodes</TT>
 for each level of nesting when the event affects an item (question,
 variable, etc) in a roster. In case of multiple <TT>rowcode</TT>s they are
 separated by commas. For example, <TT>2.0,5.0,0.0</TT> may correspond to the job
 coded 0, of the person with <TT>rowcode</TT> 5 of the household with <TT>rowcode</TT> 2. If
 the item is not part of any roster, it's <TT>OptionalRosterAddress</TT> is blank.</P>
+
+
 <P>
-<A id="varname"><B><I>Varname</I></B> is the name of the data variable
-corresponding to a question or a calculated variable (as specified in
-the <A href="/questionnaire-designer/">Questionnaire Designer</A>).
+  <A id="osource"><B><I>OptionalSource</I></B> -- applies only to GPS answers
+  acquired via Interviewer App and indicates the source from which the
+  coordinates were acquired. May take values like <B><TT>gps</TT>,
+  <TT>network</TT>, <TT>fused</TT>,</B> etc.
 </P>
+
+<P>
+  <A id="omode"><B><I>OptionalMode</I></B> -- applies only to GPS answers
+  acquired via Interviewer App and indicates the mode in which the coordinates
+  were acquired. May take values <B><TT>device</TT></B> or <B><TT>mock</TT></B>.
+  Mock location in Android OS is a commonly used mechanism to acquire
+  coordinates from an external location sensor, but may also be indicative of
+  another app supplying the coordinates.
+</P>
+
+
 
 <A name="rolecodes">
 
