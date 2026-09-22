@@ -29,8 +29,8 @@ When a certain number of incorrect login attempts occur, the Survey Solutions
 </CENTER>
 
 The above shown _CAPTCHA_ shows if the server administrator has [configured
-Survey Solutions to utilize Google's captcha service](/headquarters/config/server-installation/#captcha).
-If this service is not used, Survey Solutions will rely on its built in
+Survey Solutions to utilize Google's captcha service](/headquarters/config/captcha-setup/).
+If this service is not used, Survey Solutions will rely on its built-in
 _CAPTCHA_, which appears like the following:
 
 <CENTER>
