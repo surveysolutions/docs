@@ -5,6 +5,7 @@
 - Greater Control Over Location Sources.
 - GPS Provider Information in Paradata.
 - Copying Questionnaires with Scenarios.
+- Counter of unresolved comments in the questionnaire.
 - Non-Negative Numeric Questions.
 - Support for _reCAPTCHA v3_.
 - Filter Questionnaire Change History.

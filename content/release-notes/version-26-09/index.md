@@ -15,6 +15,7 @@ flexibility, stronger security options, and richer operational data.
 - Greater Control Over Location Sources.
 - GPS Provider Information in Paradata.
 - Copying Questionnaires with Scenarios.
+- Counter of unresolved comments in the Questionnaire.
 - Non-Negative Numeric Questions.
 - Support for _reCAPTCHA v3_.
 - Filter Questionnaire Change History.
@@ -58,6 +59,12 @@ Questionnaire copies can now include associated scenarios. This enhancement
 makes it easier to duplicate and reuse complete questionnaire configurations
 when creating similar survey instruments.
 See [Copy Questionnaire](/questionnaire-designer/interface/copy-questionnaire/).
+
+**Counter of unresolved comments in the Questionnaire.**
+
+Questionnaire authors utilize comments in the Designer for collaboration. The number of unresolved comments is now shown overlaying the comments tool in the panel of advanced instruments.
+See [Comments in Designer](/questionnaire-designer/toolbar/comments-in-designer/)
+
 
 **Non-Negative Numeric Questions**
 
