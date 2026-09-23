@@ -31,8 +31,8 @@ This simplifies quality control workflows by eliminating the need to download
 recordings before listening to them.
 
 <CENTER>
-  <A href="http://localhost:1313/headquarters/interviews/audio-audit-playback/images/aaplayback.png">
-    <IMG src="http://localhost:1313/headquarters/interviews/audio-audit-playback/images/aaplayback.png" width=75%>
+  <A href="/headquarters/interviews/audio-audit-playback/images/aaplayback.png">
+    <IMG src="/headquarters/interviews/audio-audit-playback/images/aaplayback.png" width=75%>
   </A>
 </CENTER>
 
