@@ -2,7 +2,7 @@
 title = "Questionnaire Elements"
 keywords = ["sections","sub-section","roster","question types","variables","static-text","building questionnaire"]
 date = 2016-06-16T17:27:48Z
-lastmod = 2024-09-25T00:00:00Z
+lastmod = 2026-10-26T00:00:00Z
 aliases = ["/customer/portal/articles/2467041-questionnaire-components-","/customer/en/portal/articles/2467041-questionnaire-components-","/customer/portal/articles/2467041","/customer/en/portal/articles/2467041","/questionnaire-designer/questionnaire-components-"]
 
 +++
@@ -24,14 +24,24 @@ They are included as attachments, and referred by name, such as, for example,
 lookup tables. They are discussed
 separately, see [Panel of Advanced Instruments](https://docs.mysurvey.solutions/questionnaire-designer/toolbar/panel-of-advanced-instruments/).
 
-Any questionnaire consists of a number of ***group*** elements:
 
-- ***section*** - group of the top level of nesting;
-- ***sub-section*** - group nested into some other group, which is not repeated;
-- ***roster*** - group, nested into some other group, which repeats its content, see [rosters](/questionnaire-designer/rosters). Rosters that are included into other rosters are called ***Nested rosters***.
+#### Group Elements
 
-A ***cover page*** is a special section that is used for case identification purposes.
-It is always the first in the sequence of questionnaire sections. See [Special Section: Cover Page](/questionnaire-designer/components/special-section-cover/).
+A questionnaire consists of several types of group elements:
+
+- **Section:** A section is the only group permitted at the top level of the questionnaire. All other group types must be nested inside a section.
+
+- **Sub‑section:** A sub‑section is a non‑repeating group nested inside another group. Sub‑sections cannot appear at the top level; they must be placed inside a section or another sub‑section.
+
+- **Roster:** A roster is a repeating group nested inside another group.
+Rosters cannot appear at the top level; they must be placed inside a section or sub‑section. See [rosters](/questionnaire-designer/components/rosters/).
+Rosters nested inside other rosters are called ***nested rosters***.
+
+- **Cover page:** The cover page is a special section used for case identification. It is always the first section in the questionnaire. See [Special Section: Cover Page](/questionnaire-designer/components/special-section-cover/).
+
+See also [nesting rules](#nesting-rules) below.
+
+#### Non-group Elements
 
 The following elements are not groups and may not include other elements:
 
@@ -39,10 +49,12 @@ The following elements are not groups and may not include other elements:
 - ***static text*** - informational text included into the questionnaire, see [static text](/questionnaire-designer/static-text);
 - ***calculated variable*** - a named and typed calculatable expression, see [variables](/questionnaire-designer/components/variables).
 
+Note that a question must be placed in some group, for example, a section. It may not be placed immediately in a questionnaire.
+
+#### Nesting Rules
+
 Groups may contain other elements, as permitted according to the table shown
 below.
-
-
 
 
 <TABLE class="table table-striped table-bordered table-hover">
@@ -79,42 +91,42 @@ below.
   <TD><FONT color="red">N</FONT></TD>
   <TD><FONT color="red">N</FONT></TD>
   <TD><FONT color="red">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
 </TR>
 
 <TR style="text-align:center">
   <TH>Section</TH>
   <TD><FONT color="red">N</FONT></TD>
   <TD><FONT color="red">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
 </TR>
 
 <TR style="text-align:center">
   <TH>Sub-section</TH>
   <TD><FONT color="red">N</FONT></TD>
   <TD><FONT color="red">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
 </TR>
 
 <TR style="text-align:center">
   <TH>Roster</TH>
   <TD><FONT color="red">N</FONT></TD>
   <TD><FONT color="red">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
-  <TD><FONT color="green">N</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
+  <TD><FONT color="green">Y</FONT></TD>
 </TR>
 
 </TABLE>
@@ -135,7 +147,7 @@ below.
 - the set of question types that can be included in the cover page is [limited](/questionnaire-designer/limits/survey-solutions-limits/);
 - some display modes of rosters impose additional limitations on contents, see e.g. [Tabular presentation of rosters](/questionnaire-designer/components/table-rosters);
 - number of questions that can be included into a group is [limited](/questionnaire-designer/limits/survey-solutions-limits/).
-
+- a valid questionnaire must contain at least 1 question, thus any valid questionnaire must have either a cover page with at least 1 question, or a question must be placed into another section.
 
 #### Operations with Questionnaire Elements
 
